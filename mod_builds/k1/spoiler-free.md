@@ -2,7 +2,7 @@
 
 ## Installation Instructions
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](https://www.reddit.com/r/kotor/comments/zh5f1a/kotor_1_2_mod_builds_fully_compatible_modular_mod/). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
 
 ### Before Installing
 
@@ -24,7 +24,7 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher ex
 
 ### Mac OS Players
 
-Please see [this thread](https://www.reddit.com/r/kotor/comments/koicuo/how_to_run_knights_of_the_old_republic_1_on_a/) for installation assistance for the game and these mods.
+Please see [this thread](/modding/mod_builds/ios) for installation assistance for the game and these mods.
 
 ### Linux Players
 
