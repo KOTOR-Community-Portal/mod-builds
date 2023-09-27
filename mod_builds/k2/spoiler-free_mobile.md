@@ -2,7 +2,7 @@
 
 ## Installation Instructions
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
 
 ### General Instructions
 
@@ -822,7 +822,7 @@ ___
 
 **Name:** [TSL](https://mega.nz/file/QI4iQKTT#Jji1TzyuAl2eSSbCjPfV8T0yH4iLJVdkWp7Rhkru8Gk)
 
-**Author:** /u/Snigaroo
+**Author:** Snigaroo
 
 **Description:** The results of my first foray into KOTOR modding. The goal of this mod is to make bosses thematically unique, so that fights against them are fun and that certain character builds excel at fighting some of them and struggle against others. Needless to say, some information has been censored to prevent spoilers.
 
