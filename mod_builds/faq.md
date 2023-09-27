@@ -6,7 +6,7 @@ Is this build stable on non-Windows OS?
 
 ### A:
 
-Under some circumstances, yes. While you should always proceed with caution if playing either game on a non-Windows distro, Mac OS (as long as you use a wrapper like Wine to install the TSLPatcher-based installer mods) are confirmed stable. Consider taking a look at [this excellent guide](https://www.reddit.com/r/kotor/comments/koicuo/how_to_run_knights_of_the_old_republic_1_on_a/), which goes over setting the game and this build up A-Z.
+Under some circumstances, yes. While you should always proceed with caution if playing either game on a non-Windows distro, Mac OS (as long as you use a wrapper like Wine to install the TSLPatcher-based installer mods) are confirmed stable. Consider taking a look at [this excellent guide](/modding/mod_builds/ios) (copied from a reddit post by sentient06, with our thanks), which goes over setting the game and this build up A-Z.
 
 When playing on any OS that takes filename cases into account you should set the particular folders used for your installation to not be case-sensitive as regards filenames, but everything else should function normally.
 
@@ -80,7 +80,7 @@ Will you be available to troubleshoot installation issues/mod compatibility/prob
 
 ### A:
 
-Yes, of course. Just send me a PM, make a post in the pinned thread, or join the subreddit [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
+Yes, of course. Just join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can reach out on the Nexus Mods page or Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
 
 ## Q:
 
@@ -96,4 +96,4 @@ I want to use a mod that's not part of the build alongside the build, but I don'
 
 ### A:
 
-Ask me, either in the thread, Discord, or via PM. Link me to the mod and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
+Ask me, either in the Discord or on the Nexus/Steam guide of your chosen build. Link me to the mod(s) in question and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
