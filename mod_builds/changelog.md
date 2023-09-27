@@ -1,5 +1,41 @@
 # Mod Build Changelog
 
+Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern! If you want to see how frequently the install instructions are amended, you can check how recently the Nexus versions have had their downloads section updated!
+
+
+## 2022
+
+### 12/25/2022
+
+1. Merry Christmas! A new piece of restored content by JC, an alternate ending for DS characters who romance Carth, has been integrated!
+
+
+### 12/9/2022
+
+1. Several dozen new mods across both games.
+
+2. Several mods for KOTOR which also work for KOTOR 2 have now been integrated into the KOTOR 2 build list, to make the games more visually consistent across builds and improve overall graphical fidelity.
+
+2. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
+
+3. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
+
+4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
+
+___
+
+### 4/13/2022
+
+After the most implausible series of delays and problems I've ever encountered, *finally*, the new build release is out! Highlights follow:
+
+1. Fully supported mobile builds!
+
+2. Complete and fully-tested AI upscales of almost all areas and characters for both games!
+
+3. Dynamic lightsaber lighting & reflections for both games in all game areas.
+
+4. The inclusion of LDR's amazing *A Crashed Ship on an Unknown World* mod for KOTOR, in my opinion the best piece of added content ever made for these games, hands-down.
+
 ## 2020
 
 ### 2/1/2020
