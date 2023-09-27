@@ -89,6 +89,10 @@ It's highly recommended that you read the Builds' [**FAQ**](/mod_buids/faq.html)
 
 NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates.
 
+### 10/1/2023
+
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with sattelite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
+
 ___
 
 ### 12/25/2022
