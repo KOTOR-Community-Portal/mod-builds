@@ -2,6 +2,11 @@
 
 Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern! If you want to see how frequently the install instructions are amended, you can check how recently the Nexus versions have had their downloads section updated.
 
+## 2023
+
+### 10/1/2023
+
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with sattelite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
 
 ## 2022
 
@@ -21,6 +26,8 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 3. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
 
 4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
+
+5. Offsite support: the mod builds are now hosted on both the Nexus and on Steam as Steam Guides, not just reddit.
 
 ___
 
@@ -54,7 +61,7 @@ ___
 
 1. New builds, just in time for the holidays (and the movie, but who cares about that).
 
-2. Migrated the mod builds themselves to four separate wiki pages, to deal with issues of space. And Chrome lagging every time I tried to open the build thread.
+2. Migrated the mod builds themselves to four separate reddit wiki pages, to deal with issues of space. And Chrome lagging every time I tried to open the build thread.
 
 3. Integrated AI-upscaled cutscenes for both games thanks to the work of /u/naelavok!
 
@@ -139,3 +146,9 @@ ___
 * More detailed download & installation instructions
 
 * Screenshots (for those mods that don't have them and which I could procure; more screenshots forthcoming in the next build)
+
+___
+
+### Pre-2016
+
+Changelogs prior to 8/20/2016 were not kept, but the mod builds were shared in early forms as far back as 2009, and they first appeared on reddit in May of 2013 (Release) and underwent four major Revisions before changes began to be tracked.
