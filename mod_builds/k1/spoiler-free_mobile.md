@@ -6,7 +6,7 @@ If you were linked to this list directly without reading the install instruction
 
 ### General Instructions
 
-See [here](/modding/mod_builds/k1/android.html) for general install instructions for Android. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
+See [here](/modding/mod_builds/k1/android.html) for general install instructions for Android, adopted from a reddit thread by Rasral123 with our thanks. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
 
 For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios.html).
 
