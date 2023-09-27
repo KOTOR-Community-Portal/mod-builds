@@ -18,7 +18,7 @@ ___
 
 **Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
 
-**Author:** /u/naelavok 
+**Author:** naelavok 
 
 **Description:** Using predictive AI, /u/naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. A movie replacer like this is necessary to fix the fullscreen bug (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
 
@@ -50,7 +50,7 @@ ___
 
 ___
 
-**Name:** [Ultrawide UI Letterboxing Fix for UniWS](https://deadlystream.com/files/file/1892-ultrawide-ui-dialogletterboxing-fix-for-uniws-219/https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
+**Name:** [Ultrawide UI Letterboxing Fix for UniWS](https://deadlystream.com/files/file/1892-ultrawide-ui-dialogletterboxing-fix-for-uniws-219/)
 
 **Author:** Verinen
 
