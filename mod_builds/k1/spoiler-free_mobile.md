@@ -2,11 +2,11 @@
 
 ## Installation Instructions
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](https://www.reddit.com/r/kotor/comments/zh5f1a/kotor_1_2_mod_builds_fully_compatible_modular_mod/). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
 
 ### General Instructions
 
-See [here](https://www.reddit.com/r/kotor/comments/4yvr4z/how_to_mod_your_android_kotor/) for general install instructions for Android. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
+See [here](/modding/mod_builds/k1/android.html) for general install instructions for Android. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
 
 For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios.html).
 
