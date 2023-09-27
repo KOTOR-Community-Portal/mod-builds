@@ -2,7 +2,7 @@
 
 ## Installation Instructions
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](https://www.reddit.com/r/kotor/comments/zh5f1a/kotor_1_2_mod_builds_fully_compatible_modular_mod/). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
 
 ### General Instructions
 
@@ -876,7 +876,7 @@ ___
 
 **Name:** [Thematic Sith Lords](https://deadlystream.com/files/file/1535-thematic-sith-lords/)
 
-**Author:** /u/Snigaroo
+**Author:** Snigaroo
 
 **Description:** The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others.
 
