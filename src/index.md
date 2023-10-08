@@ -82,7 +82,7 @@ __
 
 ## FAQ
 
-It's highly recommended that you read the Builds' [**FAQ**](/mod_buids/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
+It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_buids/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
 
 
 ## Changelog
