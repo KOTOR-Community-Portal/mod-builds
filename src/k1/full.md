@@ -16,7 +16,7 @@ Do not, under **ANY CIRCUMSTANCES**, run the TSLPatcher executable from within a
 
 As a final note, please bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the Quicker TSLPatching step below). For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
 
-### Known Mod Build Bugs
+### Known Bugs
 
 * The intro cutscene to the game can sometimes fail to play when running with upscaled movies and widescreen applied. Just watch a clip of the cutscene elsewhere if it happens to you.
 * Sometimes the game will crash on load when trying to enter a new area due to a data overflow. This is unfortunately basically unavoidable even with the smallest-resolution upscales, but easy to fix when it happens. Simply temporarily disable the 'Frame Buffer Effects' setting in your advanced graphics options, proceed through the load screen, then re-enable the setting once on the other side.
@@ -24,7 +24,7 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher ex
 
 ### Mac OS Players
 
-Please see [this thread](/modding/mod_builds/ios.html) for installation assistance for the game and these mods.
+Please see [this thread](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
 
 ### Linux Players
 
