@@ -24,7 +24,7 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher ex
 
 ### Mac OS Players
 
-Please see [this thread](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
+Please see [this link](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
 
 ### Linux Players
 
