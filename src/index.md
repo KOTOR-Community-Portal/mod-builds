@@ -91,7 +91,7 @@ NOTE: Only major changes are reflected in changelogs. The builds undergo constan
 
 ### 10/9/2023
 
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
 
 ___
 
