@@ -1,20 +1,10 @@
+Adopted from a thread by sentient06 on reddit, with our thanks!
+
 # Modding KOTOR on MacOS
 
 ## Wrapping Your Head Around It
 
 ### Introduction
-
-I am a mac user and I've been playing KotOR in different ways for quite a few years now. As KotOR was originally a *Windows* game, I used a few tricks to run it on a *Macintosh*. At first I used *Cider*, but *Cider* fell into obscurity and I switched to *Wine*. I had a stable wrapper of the game for a while, but when I changed machines it stopped working. Typical. Now, because of the Mandalorian show, I sort of grew nostalgic of the old games and decided to try the new, mac-compatible editions. I've read in many places that the *Steam* version is superior in terms of installing mods, and indeed it's also cheaper. So I downloaded *Steam* (I never used it) and KotOR 1 and 2. Then I checked this subreddit for the HD mods and patches and all that. But *Steam* lacks support for widescreen, so I went back to the *Wine* edition once again.
-
-I noticed, however, that many Mac users ask the same questions every once in a while and many go silent after a while, perhaps after giving up, because honestly there isn't a lot of love for this messy business of running these games on Macs.
-
-Not only the games, but many mods, as users here might know, are installed by Windows executables. I reckon not many Mac users know how to handle these if they don't work with macs professionally.
-
-Well, I did this a bunch of times and I have a routine to do it. So I thought it might be a good idea to document the process I use and publish it here.
-
-I started by writing about how I installed mods on *Steam*, but since I wasn't happy with the *Steam* version and went back to *Wine*, I've decided to also explain how can one play the Knights of the Old Republic's *Windows* build on a *Macintosh*.
-
-Hopefully this will help some lost mac users out there.
 
 Beware, there's a lot of work ahead, and you need to be acquainted with some technical aspects of a Macintosh to become comfy with it. This is not, however, a computing tutorial, so I will try and explain bits and bobs of *Macintosh* workflow, but not exhaustively.
 
@@ -250,7 +240,7 @@ There are many of the first 2 types and so far I only dealt with 1 of each of th
 
 The mods I talk about are from this list:
 
-[https://old.reddit.com/r/kotor/wiki/kotormodbuildfull](https://old.reddit.com/r/kotor/wiki/kotormodbuildfull)
+[mod builds](/modding/mod_builds.html)
 
 ___
 
