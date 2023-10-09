@@ -1,6 +1,6 @@
-Adopted from a thread by sentient06 on reddit, with our thanks!
-
 # Modding KOTOR on MacOS
+
+Adopted from a thread by sentient06 on reddit, with our thanks!
 
 ## Wrapping Your Head Around It
 
