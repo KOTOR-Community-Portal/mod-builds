@@ -40,6 +40,12 @@ If you currently have a prior mod build version installed and would like to upda
 
 For some godforsaken reason, AMD cards are frequently crashing on current versions of KOTOR. While this doesn't happen on all AMD card types, if you get into the game and start experiencing random crashes while walking around and you've got an AMD card, sadly this is probably why. There is a solution, but it requires you to roll your driver version back to a set released prior to July 15th. I cannot give advice on how to do this, as the process is unique to your particular graphics card and I don't personally own an AMD device. Googling your graphics card and 'drivers' will probably get you where you need to go.
 
+### NVidia RTX Card Users
+
+I am sorely sorry to have to include *another* warning for an entirely different series of cards, but here we are. For some insane reason which I cannot even begin to fathom, *only* on Nvidia RTX-series cards in the 20xx series, runtime errors are beginning to generate on module transitions (anytime a load screen is proc'd), typically when cutscenes are queued to play after the load. I am still not entirely sure why this is happening, but the problem only exists on this series of cards, so it isn't an issue with the builds themselves. As far as we've been able to diagnose to this point, there are three ways to attempt fix this: the most reliable & easiest is to go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and seems to bypass the issue entirely on most setups. If that doesn't work, the second option is to put the game into windowed mode during the problem load screen--you can do this by going into your game folder, opening the .ini file with a text editor of your choice, and editing the line "Fullscreen=1" to =0, and adding the line "AllowWindowedMode=1" somewhere under the Graphics Options heading. The third option is to completely remove the movies folder from your game directory (don't delete it, just place it elsewhere), relaunch the game, and attempt the load again.
+
+If all of these methods fail, your only recourse is to pull the whole override folder out of the game directory to attempt the load, but this is very risky as it could easily cause save instability--do this only as a last resort. You should take the exact following steps if you attempt this: make a save immediately before the load that crashes you; close the game; rename your override folder to "Test"; launch the game and load your save; complete the module transition sequence; save in a NEW SLOT, immediately close the game and rename the override back as it was before. I stress again: this method is an *option of last resort*, CAN cause save instability and it IS possible it won't even work to begin with, because you might be unable to even load your save before the crash. I mention this option only because users with this issue have previously been able to use this method successfully.
+
 ### Total Filesize on Disk
 
 For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 7.8GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory. The total size of the install when extracted (plus HD movies in 1920x1080 resolution) is approximately 21.8GB.
@@ -189,8 +195,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** Download the .tpc variant of the mod. Delete TEL_rock.tpc through TEL_rock07.tpc and TEL_wl05.tpc before moving the files to your override folder.
-
-**PLEASE NOTE**, for some insane reason which I cannot even begin to fathom, *only* on Nvidia RTX-series cards (2070s specifically, although most likely any cards in the 20-series at least) the use of this mod causes you to crash when cutscenes play. There are two ways to fix this: the most reliable & easiest is to go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and seems to bypass the issue entirely. The second option is to put the game into windowed mode whenever cutscenes are going to play back-to-back. If you don't want to pursue either option, you must play without any of ShiningRed's upscales for stability.
 
 ___
 
