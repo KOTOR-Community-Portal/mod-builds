@@ -1220,7 +1220,7 @@ ___
 
 ### EKA
 
-**Name:** [EKA](https://mega.nz/#!kMRV2QyY!n5Hq7—g4SJWzZkame7yY1tFtdjJlC3yNo4AY2agCd8)
+**Name:** [EKA](https://mega.nz/file/kMRV2QyY#n5Hq7--g4SJWzZkame7yY1tFtdjJlC3yNo4AY2agCd8)
 
 **Author:** danil-ch
 
