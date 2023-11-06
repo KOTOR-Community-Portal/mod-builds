@@ -976,7 +976,7 @@ ___
 
 ### Quarterstaff Replacements
 
-**Name:** [Quarterstaff Replacement Pack](http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
+**Name:** [Quarterstaff Replacement Pack](https://mega.nz/file/ZEpn2Twb#pRXWGZyezYKTl1B3wti__jjH7tGL_uYyCOdERWHOWnU)
 
 **Author:** DeadMan
 
