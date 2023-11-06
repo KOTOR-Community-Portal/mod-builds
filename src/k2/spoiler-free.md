@@ -1452,7 +1452,7 @@ ___
 
 ### Quarterstaff Replacements
 
-**Name:** [Quarterstaff Replacement Pack](https://mega.nz/#!ZEpn2Twb!pRXWGZyezYKTl1B3wti___jjH7tGL_uYyCOdERWHOWnU)
+**Name:** [Quarterstaff Replacement Pack](https://mega.nz/file/ZEpn2Twb#pRXWGZyezYKTl1B3wti__jjH7tGL_uYyCOdERWHOWnU)
 
 **Author:** DeadMan
 
