@@ -22,22 +22,25 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher ex
 * Sometimes the game will crash on load when trying to enter a new area due to a data overflow. This is unfortunately basically unavoidable even with the smallest-resolution upscales, but easy to fix when it happens. Simply temporarily disable the 'Frame Buffer Effects' setting in your advanced graphics options, proceed through the load screen, then re-enable the setting once on the other side.
 * It appears as if the first interaction between Elora (Sunry's wife) and the party on Manaan might skip through some dialogue if Jolee is in the party. This has only occurred once—please let me know if it happens to you.
 
-### Mac OS Players
-
-Please see [this link](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
-
-### Linux Players
-
-For anyone attempting to install these builds on a Linux distro, I strongly recommend installing on a case-insensitive file system (I have had VFAT recommended as an option by other users). Otherwise you will need to go through the headache of renaming a huge number of files, and it's really not worth it.
-
 ### Updating from a Prior Build
 
 If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, you will need to uninstall your game, then navigate to the game's install folder and delete any remaining contents; frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation, or wiped when the game is reinstalled. If you do not both uninstall the game *and* wipe the directory prior to reinstalling, contents of the prior build can be left over upon the new build's installation and can lead to fatal errors during the install.
 
-
 ### AMD Players
 
 For some godforsaken reason, AMD cards are frequently crashing on current versions of KOTOR. While this doesn't happen on all AMD card types, if you get into the game and start experiencing random crashes while walking around and you've got an AMD card, sadly this is probably why. There is a solution, but it requires you to roll your driver version back to a set released prior to July 15th. I cannot give advice on how to do this, as the process is unique to your particular graphics card and I don't personally own an AMD device. Googling your graphics card and 'drivers' will probably get you where you need to go.
+
+### Mac OS Players
+
+Please see [this link](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
+
+### Amazon Games Players
+
+For unknown reasons, the Amazon Games version of KOTOR has a modified executable and initiation file which breaks the Miles sound system, and automatically disables both movies and sound. Follow the steps [here](https://deadlystream.com/files/file/2377-amazon-gamess-k1-release-soundsmovies-fix/) to restore these features. It's okay to do this now even if you intend to patch widescreen in later, just bear in mind when you do move to patch in widescreen that you already have the editable executable downloaded.
+
+### Linux Players
+
+For anyone attempting to install these builds on a Linux distro, I strongly recommend installing on a case-insensitive file system (I have had VFAT recommended as an option by other users). Otherwise you will need to go through the headache of renaming a huge number of files, and it's really not worth it.
 
 ### Total Filesize on Disk
 
