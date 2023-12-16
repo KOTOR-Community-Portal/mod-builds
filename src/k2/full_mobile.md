@@ -970,7 +970,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** Loose-File Mod
 
 ___
 
