@@ -702,22 +702,6 @@ ___
 
 ___
 
-### Sharina Fizark Restoration
-
-**Name:** [Sharina Fizark Restoration](https://www.gamefront.com/games/knights-of-the-old-republic/file/sharina-fizark-restoration-1)
-
-**Author:** Sekan
-
-**Description:** If you remember the woman on Tatooine who offers to sell you her dead husband's Wraid plate, this mod restores a later appearance by her on Dantooine, should you have helped her.
-
-**Category & Tier:** Restored Content / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Senni Vek Restoration
 
 **Name:** [Senni Vek Restoration](http://deadlystream.com/files/file/1090-senni-vek-restoration/)
