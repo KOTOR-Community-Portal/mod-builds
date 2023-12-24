@@ -1600,22 +1600,6 @@ ___
 
 ___
 
-### Sharina Fizark Restoration
-
-**Name:** [Sharina Fizark Restoration](https://www.gamefront.com/games/knights-of-the-old-republic/file/sharina-fizark-restoration-1)
-
-**Author:** Sekan
-
-**Description:** At one point you're given the option of helping a woman on the planet Tatooine. If you choose to help her, this mod restores her later appearance back on a safe world, which she was able to book passage to with the assistance you provided.
-
-**Category & Tier:** Restored Content / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Senni Vek Restoration
 
 **Name:** [Senni Vek Restoration](https://mega.nz/#!0IpVzBqb!BsnnFX-f4YRoCLV35MKsttn4HwcR_rBJfMfua9MZiUE)
