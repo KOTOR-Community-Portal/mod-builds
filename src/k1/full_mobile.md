@@ -120,9 +120,9 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
-**Download Instructions:** Don't download or install the hotfix—you just want the 1.9.2 release.
+**Installation Instructions:** Be aware that this mod is the only one in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Once you've installed the mod, go into your override directory and, if present, delete the file "LKA_Leaf03.tpc" before proceeding.
 
 ___
 
