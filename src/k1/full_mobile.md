@@ -1540,22 +1540,16 @@ If you are on MacOS or Linux, first, run Terminal and navigate to your game dire
 
 `cd [full filepath to your game]`
 
-Then, enter the following command, depending on your operating system:
+Then, enter the following command:
 
-For Linux: `find . -depth | xargs -n 1 rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
-
-For Mac: `grep find . -depth | xargs -n 1 rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+`find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
 
 If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
 
-For Linux: `sudo find . -depth | xargs -n 1 rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
-
-For Mac: `sudo grep find . -depth | xargs -n 1 rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+`sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
 
 For more information:
 
 * [cd command](https://linuxize.com/post/linux-cd-command/)
 
 * [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
-
-* [grep command](https://www.gnu.org/software/grep/manual/grep.html)
