@@ -1212,7 +1212,7 @@ ___
 
 **Name:** [PartySwap](https://deadlystream.com/files/file/544-partyswap/)
 
-**Author:** DarthTyren
+**Author:** DarthTyren & Leilukin
 
 **Description:** PartySwap is a legendary mod, and one of the best ever made for KOTOR 2. Through some unobtrusive scripting magic, it allows you to bring both the Disciple and Handmaiden with you as companions simultaneously, without removing another companion from the party wheel. You can experience all their content and use them both throughout the entire campaign, as was originally intended by Obsidian.
 
@@ -1226,9 +1226,9 @@ The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despa
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Ignore all folders and only run the TSLPatcher executable. Select the default install, not M4-78.
+**Installation Instructions:** Ignore all folders and only run the HoloPatcher executable. Select the default install, not M4-78.
 
 ___
 
@@ -1462,7 +1462,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 

@@ -934,7 +934,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 
