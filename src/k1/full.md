@@ -926,24 +926,6 @@ ___
 
 ___
 
-### Bastila Shan HD
-
-**Name:** [Bastila Shan HD](http://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
-
-**Author:** Dark Hope
-
-**Description:** Vastly improves the skin and default clothes textures of Bastila. Note that, for our purposes, we do not use this mod's changes to Bastila's head or face.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Download Instructions:** Download only the file which modifies clothing, unless you like the head & face changes the mod makes
-
-___
-
 ### Party Model Fixes
 
 **Name:** [Party Model Fixes](https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/)
@@ -2535,6 +2517,24 @@ ___
 **Masters:** Ultimate Character Overhaul & Various Texture Mods
 
 **Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP, and then all remaining content that matches content you chose to use from the builds. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+
+___
+
+### Bastila Shan HD
+
+**Name:** [Bastila Shan HD](http://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
+
+**Author:** Dark Hope
+
+**Description:** Vastly improves the skin and default clothes textures of Bastila. Note that, for our purposes, we do not use this mod's changes to Bastila's head or face.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Download only the file which modifies clothing, unless you like the head & face changes the mod makes
 
 ___
 
