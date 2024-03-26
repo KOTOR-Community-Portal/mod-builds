@@ -1821,7 +1821,7 @@ Also note that, upon application of widescreen, *you will need to launch the gam
 
 ### Widescreen Bugfixes & Extended Support Mods
 
-Following the application of basic widescreen support, if you would like additional widescreen support mods (including high-resolution cutscenes), or if you've ever had the fullscreen bug (game crashing when playing cutscenes + general instability), see [**here**](/modding/mod_builds/k2/widescreen.html) for additional mods and methods which can improve widescreen and fix the fullscreen bug.
+Following the application of basic widescreen support, if you would like additional widescreen support mods (including high-resolution cutscenes), or if you've ever had the fullscreen bug (game crashing when playing cutscenes + general instability), see [**here**](/modding/mod_builds/k2/widescreen.html) for additional mods and methods which can improve widescreen and fix the fullscreen bug. Please note that these mods can ONLY be applied on game versions which do not have native widescreen support; you must apply UniWS for these to be usable!
 
 ## Misc. Basegame Issues & Fixes
 
