@@ -742,9 +742,9 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Choose whether to use the slim or original necks, and move the files from the corresponding folder to your override. Then, move the files from the Textures folder to your override as well.
+**Installation Instructions:** Choose whether to use the slim or original necks; your preference.
 
 ___
 
