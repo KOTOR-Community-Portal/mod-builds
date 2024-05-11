@@ -28,6 +28,10 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher or
 
 * Although all instances of this error should now be fixed, some textures may still have a partial transparency effect applied to them (you will be able to see through them, as if they were a hologram). If you encounter any instances of such textures please report them so I can fix any leftover cases.
 
+### File Validation
+
+If you are playing on Steam and suspect you have a corrupted install, it *is not safe* to validate the integrity of your local files after applying these mods, due to the way vanilla files are officially loaded in the Steam launcher. If you believe you have a corrupted or otherwise broken base install, please come to discuss with us in the #tech_support channel of the Discord so we can try to resolve your problem without needing to revalidate.
+
 ### Linux Players
 
 For anyone attempting to install these builds on a Linux distro, I strongly recommend installing on a case-insensitive file system (I have had VFAT recommended as an option by other users). Otherwise you will need to go through the headache of renaming a huge number of files, and it's really not worth it.
@@ -1829,12 +1833,6 @@ Following the application of basic widescreen support, if you would like additio
 
 This is a common issue which users tend to think is caused by the mod builds, but 99.9% of the time you don't have a mod error, and this is a basegame issue. Sometimes the game refuses to load when you have the Frame Buffer Effects setting enabled, so just disabling it in your Advanced Graphics Options ingame will allow you to load the game. Disable it long enough to load the next area, then, if you'd like, save and re-enable it. It might fail to load again, but usually it'll let you use it after you leave the affected module, until the issue returns once more.
 
-### Odd Artifacts on Main Menu / Crashes on Game Load
-
-This is an extremely odd vanilla issue which seems to originate from the use of certain graphics cards. The artifacts cause no problems and can be ignored (they go away once a save is loaded), but they may be an indication that you will experience the second issue, which is more troublesome. The latter issue causes the game to constantly CTD when attempting to load a save game, or sometimes even when you enter the "Load Game" menu, even with settings like Frame Buffer Effects disabled.
-
-To resolve the latter issue, if you encounter it, you must start a new game, then load your old save from within the new game you've started—this will solve the issue. Make sure to select "Switch Character" in the save menu so you can see your other character's saves in order to load into them properly.
-
 ### Character Stuck After Combat
 
 This isn't a bug that modding can fix (or cause), it's an engine bug. It's related to the game's framerate being unsynced with your monitor's refresh rate. If you're on a 60hz monitor, you can just toggle v-sync. If you're 144hz or similar, just set your monitor to 60hz manually for the duration of play and also toggle v-sync.
@@ -1846,7 +1844,3 @@ Although I don't recommend staying in compatibility mode for Windows XP SP3 long
 ### Dialogue Skipping
 
 Dialogue skipping is when an NPC's dialogue line is registered by the game, but jumped past immediately as it's switched to—you briefly see the subtitles, then they're gone with no other indication that character was speaking. I often get asked if this is a build problem, but it's not. The builds exacerbate it in some ways by adding more data to the game (it seems to be related to a memory leak in some way), but the biggest culprit by far is the Aspyr patch on Steam, though the issue can happen on any game version. The solution is just to restart your game when it starts happening to you. If it's *really* annoying for you, you can roll back the Steam patch to the legacypc beta version, which reduces the frequency of the skips in almost all cases (in my most recent run I had no skips at all on the legacypc version).
-
-### File Validation
-
-If you are playing on Steam and need to validate the integrity of your local files to try to repair a corrupted basegame, it *is not safe to do so* due to the way vanilla files are officially loaded in the Steam launcher. If you believe you have a corrupted or otherwise broken base install, you will need to execute a complete wipe and re-install: uninstall your game, then navigate to the game's install folder and delete any remaining contents (frequently, especially on Steam, mod content *will not* be uninstalled as part of the application's uninstallation, or wiped when the game is reinstalled), reinstall your game, then reinstall the mods. You will also need to start a fresh save in these circumstances, as errors from the prior broken game state will be loaded into your prior save.
