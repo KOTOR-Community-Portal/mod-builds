@@ -384,22 +384,6 @@ ___
 
 ___
 
-### Underwear Fix
-
-**Name:** [Male Scoundrel Underwear Fix](https://deadlystream.com/files/file/1994-male-scoundrel-ds-underwear-fix/)
-
-**Author:** StellarExile
-
-**Description:** The scoundrels in KOTOR are all messed up. The Dark Side scoundrel isn't wearing his proper Star Forge jammies. We can't have that!
-
-**Category & Tier:** Bugfix / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Republic Soldier Fix
 
 **Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
