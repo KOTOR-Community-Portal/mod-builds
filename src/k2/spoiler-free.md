@@ -1837,6 +1837,12 @@ This is a common issue which users tend to think is caused by the mod builds, bu
 
 This isn't a bug that modding can fix (or cause), it's an engine bug. It's related to the game's framerate being unsynced with your monitor's refresh rate. If you're on a 60hz monitor, you can just toggle v-sync. If you're 144hz or similar, just set your monitor to 60hz manually for the duration of play and also toggle v-sync.
 
+### Odd Artifacts on Main Menu / Crashes on Game Load
+
+This is an extremely odd vanilla issue which seems to originate from the use of certain graphics cards while running on the legacy version of the game (legacypc). The artifacts cause no problems and can be ignored (they go away once a save is loaded), but they may be an indication that you will experience the second issue, which is more troublesome. The latter issue will randomly cause the game to permanently CTD when attempting to load a save game, or sometimes even when you enter the "Load Game" menu, even with settings like Frame Buffer Effects disabled.
+
+To resolve the latter issue, if you encounter it, you must start a new game, then load your old save from within the new game you've started—this will solve the issue. Make sure to select "Switch Character" in the save menu so you can see your other character's saves in order to load into them properly.
+
 ### Swoop Racing
 
 Although I don't recommend staying in compatibility mode for Windows XP SP3 long-term, as it can exacerbate loadscreen crashes, sometimes swoop racing can mess up in a way that makes it necessary. If you find your swoop bike floating several meters off the track, exit the game and launch it in compatibility mode for XP SP3. You should be able to race normally, and you can turn off the compatibility mode after the racing segment is over.
