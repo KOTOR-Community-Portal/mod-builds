@@ -1212,6 +1212,22 @@ ___
 
 ___
 
+### Kreia's Fall Cutscene
+
+**Name:** [Kreia's Fall Ingame Cutscene](https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
+
+**Author:** danil-ch
+
+**Description:** Improves the quality of the cutscene which reveals Kreia's casting out of the Triumvirate by rendering it in-game rather than as a low-quality movie. Even if you intend to use the High-Resolution Cutscenes mod included under the extended widescreen support section at the bottom of this list, I still recommend this mod; they function basically the same, but by using this mod the characters in the cutscene will use their new textures if any are applied, thereby making it more immersive and further increasing its quality above that of the pre-recorded cutscene, which relies on vanilla textures.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
 ### PartySwap
 
 **Name:** [PartySwap](https://deadlystream.com/files/file/544-partyswap/)
@@ -1232,7 +1248,7 @@ The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despa
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Ignore all folders and only run the HoloPatcher executable. Select the default install, not M4-78.
+**Installation Instructions:** Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
 
 ___
 
@@ -1415,22 +1431,6 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Use the installer version.
-
-___
-
-### Kreia's Fall Cutscene
-
-**Name:** [Kreia's Fall Ingame Cutscene](https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
-
-**Author:** danil-ch
-
-**Description:** Improves the quality of the cutscene which reveals Kreia's casting out of the Triumvirate by rendering it in-game rather than as a low-quality movie. Even if you intend to use the High-Resolution Cutscenes mod included under the extended widescreen support section at the bottom of this list, I still recommend this mod; they function basically the same, but by using this mod the characters in the cutscene will use their new textures if any are applied, thereby making it more immersive and further increasing its quality above that of the pre-recorded cutscene, which relies on vanilla textures.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
-
-**Installation Method:** TSLPatcher Mod
 
 ___
 
