@@ -1669,7 +1669,7 @@ ___
 
 ### SAwL
 
-**Name:** [SAwL](https://mega.nz/#!pEB2lAAJ!Ku3BylYTXiwbonSJLYHm5gULE8cjsuUx5ljIHmjKjOk)
+**Name:** [SAwL](https://mega.nz/#!pEB2lAAJ!Ku3BylYTXiwbonSJLYHm5gULE8cjsuUx5ljIHmjKjOk) and [**Patch**](https://mega.nz/file/hQZyyDBZ#QDnLGpPVzMsnTjDF67ypBeEvkSxYvJyHPmxf8qE3a-I)
 
 **Author:** Shem
 
@@ -1680,6 +1680,8 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** Do not run the installer for this mod when you first download it! Download both this mod and the patch, then extract both to separate locations. Within the patch will be a file called changes.ini, move this file to the TSLPatchdata folder of the main mod. It should prompt you to overwrite; do so. When this is complete, you can then run the installer as normal.
 
 ___
 
