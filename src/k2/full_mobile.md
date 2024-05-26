@@ -1176,7 +1176,7 @@ ___
 
 ### Assassins with Lightsabers
 
-**Name:** [Sith Assassins with Lightsabers](http://deadlystream.com/files/file/739-sith-assassins-with-lightsabers/)
+**Name:** [Sith Assassins with Lightsabers](http://deadlystream.com/files/file/739-sith-assassins-with-lightsabers/) and [**Patch**](https://mega.nz/file/hQZyyDBZ#QDnLGpPVzMsnTjDF67ypBeEvkSxYvJyHPmxf8qE3a-I)
 
 **Author:** Shem
 
@@ -1189,6 +1189,8 @@ Be ready for a hard slog through the *Harbinger* if you choose to use this mod.
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** Do not run the installer for this mod when you first download it! Download both this mod and the patch, then extract both to separate locations. Within the patch will be a file called changes.ini, move this file to the TSLPatchdata folder of the main mod. It should prompt you to overwrite; do so. When this is complete, you can then run the installer as normal.
 
 ___
 
