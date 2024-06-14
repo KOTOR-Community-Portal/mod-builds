@@ -1598,19 +1598,21 @@ ___
 
 ___
 
-### Senni Vek Restoration
+### Senni Vek Mod
 
-**Name:** [Senni Vek Restoration](http://deadlystream.com/files/file/1090-senni-vek-restoration/)
+**Name:** [Senni Vek Mod](https://deadlystream.com/files/file/1090-senni-vek-mod/)
 
 **Author:** N-DReW25
 
-**Description:** Restores the initial character who leads you to the Geno'Haradan as one of Hulas's henchmen for the showdown on Tatooine.
+**Description:** The second option of this mod, the Senni Vek Restoration, restores the initial character who leads you to the Geno'Haradan as one of Hulas's henchmen for the showdown on Tatooine, and is fully vanilla-friendly. The default install, Senni Vek's Ambush, removes Hulas from the final confrontation entirely and replaces him with Senni Vek, featuring altered dialogue which implies that Hulas played you for the entire game and has vanished into the shadows to consolidate his control of the Geno'Haradan.
 
-**Category & Tier:** Restored Content / 4 - Optional
+**Category & Tier:** Added & Restored Content / 3 - Suggested
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
+
+**Install Instructions:** At this time, I have not personally tested the "Senni Vek's Ambush" install option. There should be no issues choosing to use either, however. For realism I personally recommend the "Senni Vek's Ambush" install, but if you'd like to remain as close to vanilla as possible, choose the Senni Vek Restoration instead.
 
 ___
 
