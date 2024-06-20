@@ -858,7 +858,7 @@ ___
 
 **Name:** [War Droid Mk.1](https://deadlystream.com/files/file/2188-war-droid-mark-i-hd/)
 
-**Author:** Darth Sapiens
+**Author:** Dark Hope
 
 **Description:** Reskins the war droids to HD editions. Although this mod is listed for KOTOR, it also works for KOTOR 2.
 
