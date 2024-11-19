@@ -1778,8 +1778,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Known Bugs:** Sometimes it appears as if the damage for this mod does not apply properly; it appears to function sometimes and fail at others. This is a very complicated mod which makes it difficult to trace the problems, but having this fixed at least *some* of the time is better than not having it fixed at all.
-
 **Installation Instructions:** The two optional files included in this mod package are untested with the builds and, from a balance perspective, not recommended.
 
 ___
