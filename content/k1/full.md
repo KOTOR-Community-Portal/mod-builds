@@ -928,7 +928,7 @@ ___
 
 ___
 
-### Juhani Appearance Overhaul**
+### Juhani Appearance Overhaul
  
 **Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
 
