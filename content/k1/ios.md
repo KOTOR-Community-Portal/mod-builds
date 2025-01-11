@@ -1,6 +1,6 @@
 # Modding KOTOR 1 on iOS
 
-- Get a .ipa file for KOTOR--for jailed devices this is necessary. We have been told that there are legitimate means to acquire these files for applications which have been purchased, and we recommend you use them. We will not assist in any respect with acquiring these files, as it is outside the scope of our knowledge.
+- Get a .ipa file for KOTOR—for jailed devices this is necessary. We have been told that there are legitimate means to acquire these files for applications which have been purchased, and we recommend you use them. We will not assist in any respect with acquiring these files, as it is outside the scope of our knowledge.
 - Get the file onto the system you intend to install the mods on.
 - Rename it to a .zip file and extract.
 - Install the mods per instructions in the build. The root folder should be KOTOR.app, which has /override in it.

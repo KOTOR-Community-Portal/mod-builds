@@ -79,11 +79,11 @@ ___
 
 ### 6/15/2018
 
-1. Updated K1 and K2 builds--my present for the merger!
+1. Updated K1 and K2 builds—my present for the merger!
 
 2. Updated all MEGA-hosted mods which have received base mod updates since the last build update. The delay in maintaining these files was an oversight which I'll make sure doesn't happen again.
 
-3. Integrated additional widescreen support for KOTOR 1--we now have widescreen menus! The old 800x600 static menus are now a thing of the past for players using UniWS!
+3. Integrated additional widescreen support for KOTOR 1—we now have widescreen menus! The old 800x600 static menus are now a thing of the past for players using UniWS!
 
 4. Fully removed the TSL Overhaul mod. The previous build used only about 75% of its modules in a test state to see if balance could be enhanced while removing the most egregious problems, but in this test I found the loot lists were still wildly out of balance. I regret that so many players experienced the game under my recommendation with this mod installed, even after I added the balance warnings to it I did; I hope to improve in the future and ensure that a mod that so massively alters balance such as this does not make its way onto these builds again.
 
@@ -99,7 +99,7 @@ ___
 
 1. Brand-new builds for KOTOR and KOTOR 2!
 
-2. Temporarily moved the TSLRCM download from Deadlystream to ModDB.
+2. Temporarily moved the TSLRCM download from Deadly Stream to ModDB.
 
 3. Significantly modified the Overhaul TSL modules utilized in the KOTOR 2 builds, and entirely removed it from the spoiler-free builds; my sincerest apologies for the unbalanced experience which the last build provided. The current build, while still somewhat (although less) unbalanced in terms of loot, is now fully balanced for realistic combat difficulty.
 
@@ -133,7 +133,7 @@ ___
 
 2. New builds for KOTOR 1 & KOTOR 2!
 
-3. Full host migration. All non-deadlystream mods are now hosted on MEGA.
+3. Full host migration. All non-Deadly Stream mods are now hosted on MEGA.
 
 4. Implementation of a mod "tier system." I now make it more clear which mods I believe are important to use for the best experience and which are optional.
 
