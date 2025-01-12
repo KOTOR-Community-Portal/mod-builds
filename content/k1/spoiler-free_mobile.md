@@ -1,0 +1,1471 @@
+# KOTOR 1 Spoiler-Free Build: Mobile Version
+
+## Installation Instructions
+
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
+
+### General Instructions
+
+See [here](/modding/mod_builds/k1/android.html) for general install instructions for Android, adopted from a reddit thread by Rasral123 with our thanks. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
+
+For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios.html).
+
+### Install Computer Instructions
+
+These are instructions relevant to the system which you will be installing these mods on before moving them over to your device.
+
+It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning. If you have multiple installations, or even just two executables in different locations, TSLPatcher executables which are set up to auto-detect your installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
+
+Please bear in mind that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor on the device which you're utilizing the dummy directory to install content on, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or Holopatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+
+As a final note, please bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the Override folder for your modded setup. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
+
+### Mac OS Users
+
+It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
+
+### Known Bugs
+
+* It appears as if the first interaction between Elora, the wife of a prisoner on the planet Manaan, and the party might skip through some dialogue if the companion Jolee is in the party when you encounter her. This has only occurred once—please let me know if it happens to you.
+
+### Updating from a Prior Build
+
+If you currently have a prior mod build version installed on your device and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, you will need to uninstall your game (make sure modded contents are also deleted as part of the uninstall, and if they aren't, delete them manually!) then reinstall the game on your device before reconstructing a new install based off of the updated mobile build Revision and transferring the new mod set to your device, placing it over the freshly-reinstalled game.
+
+## Mod List
+
+### KOTOR Dialogue Fixes
+
+**Name:** [KOTOR Dialogue Fixes](https://deadlystream.com/files/file/1313-kotor-dialogue-fixes/)
+
+**Author:** Salk & Kainzorus Prime
+
+**Description:** In addition to fixing several typos, this mod takes the PC's dialogue—which is written in such a way as to make the PC sound constantly shocked, stupid, or needlessly evil—and replaces it with more moderate and reasonable responses, even for DS choices.
+
+**Category & Tier:** Immersion / 1 - Essential
+
+**Non-English Functionality:** NO
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move the dialogue.tlk file from the "PC Response Moderation" folder into the main KOTOR directory (where the executable file is).
+
+___
+
+### Character Startup Changes
+
+**Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/MFIByAKY#8MaLMEUvI-xMJ20buuugR8DTNHa6wab2RK3tk5kBMnk)
+
+**Author:** jonathan7, patch by A Future Pilot
+
+**Description:** In a normal KOTOR start, your character's feats are pre-selected. This mod changes the initial level-up so that the number of feat points given is determined by class, but you can choose the feats you wish to invest into.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher, Loose-File Patch
+
+**Installation Instructions:** Make sure you don't forget to install the patch!
+
+___
+
+### JC's Minor Fixes
+
+**Name:** [JC's Minor Fixes](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** KOTOR, like with any game, has a slew of little oversights, or things BioWare messed up by accident. The goal of this mod is to fix most of those small things not addressed in other, larger mods.
+
+**Category & Tier:** Bugfix & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+
+___
+
+### Ajunta Pall Appearance
+
+**Name:** [Ajunta Pall Unique Appearance](https://deadlystream.com/files/file/824-ajunta-pall-unique-appearance/) and [**Patch**](https://mega.nz/file/McJF1AIC#Jywhu6zXWCRz4gRghxMxoBAWrbU_A3giD1INsOoHqmA)
+
+**Author:** Silveredge9, Patch by A Future Pilot
+
+**Description:** This mod reskins NPC specter Ajunta Pall to have a unique appearance that matches the honorary statue in his tomb.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod, TSLPatcher Patch
+
+**Installation Instructions:** Download the main mod and ONLY look at the Transparent/Non-Transparent folders. Move your preferred textures from one of those folders (or the sub-folders for optional Sith eyes) to your override, then download and run the patch to finish applying changes. Do NOT move any of the files in the main mod folder!
+
+___
+
+### KOTOR Community Patch
+
+**Name:** [KOTOR Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/)
+
+**Author:** Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate
+
+**Description:** An ambitious compilation intending to be a comprehensive bugfix mod for the original game, the KOTOR Community Patch combines hundreds of various fixes and improvements from over a dozen other mods, as well as fixes put together by AFP, DP and JC on their own. With bugfixes as important to KOTOR as TSLRCM's are to KOTOR 2, I can't recommend its use highly enough.
+
+Please make sure to **NOT READ** the list of changes included within the mod, however; due to its size and composite nature, I can't censor information for the whole thing, and there's a lot of spoilers in it if you read the readme fully!
+
+**Category & Tier:** Bugfix, Graphics Improvement & Immersion / 1 - Essential
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Be aware that this mod is the only one in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Once you've installed the mod, go into your override directory and, if present, delete the file "LKA_Leaf03.tpc" before proceeding.
+
+___
+
+### Duncan on Manaan
+
+**Name:** [Deadeye Duncan on Manaan](https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U)
+
+**Author:** Seamhainn
+
+**Description:** This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.
+
+**Category & Tier:** Restored Content / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Consistent Conditioning
+
+**Name:** [Consistent Conditioning Icons](https://deadlystream.com/files/file/2013-consistent-conditioning-icons/)
+
+**Author:** Sdub
+
+**Description:** The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.
+
+**Category & Tier:** Appearance Change / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Scoundrel Trousers
+
+**Name:** [Scoundrel Trousers](http://deadlystream.com/files/file/537-scoundrel-trousers/)
+
+**Author:** Darkbirdie
+
+**Description:** Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.
+
+**Category & Tier:** Bugfix / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Republic Soldier Fix
+
+**Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character. The Soldier class's vanilla default clothing is horrible enough that this mod's worth it based on that change alone.
+
+**Category & Tier:** Graphics Improvement & Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move the files from both the Override and Optional folders to your game's override folder.
+
+___
+
+### Republic Soldier's New Shade
+
+**Name:** [Republic Soldier's New Shade](https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/)
+
+**Author:** ebmar
+
+**Description:** By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run TSLPatcher
+
+**Installation Instructions:** If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+
+___
+
+### PFHB02 Eye Fix
+
+**Name:** [PFHB02 Dark Side Transition Eye Fix](https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/)
+
+**Author:** Darth Parametric
+
+**Description:** The eye overlays on the second black female head were input incorrectly and become offset as the player transitions to the Dark Side, creating the appearance of duplicated irises. This mod fixes that, as well as offering an upscale option which improves the base appearance of the head.
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** I recommend avoiding the upscale option for the purposes of playing on mobile.
+
+___
+
+### High-Poly Grenades
+
+**Name:** [High-Poly Grenades](https://www.nexusmods.com/kotor/mods/1209)
+
+**Author:** MadDerp
+
+**Description:** Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.
+
+**Category & Tier:** Graphics Improvement / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Better Twi'lek Heads
+
+**Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
+
+**Author:** Ashton Scorpius
+
+**Description:** Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: *supposed* to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Choose whether to use the slim or original necks; your preference.
+
+___
+
+### Thigh-High Boots for Twi'lek
+
+**Name:** [Thigh-High Boots for Twi'lek](http://deadlystream.com/files/file/1087-k1-thigh-high-boots-for-female-twilek-body-modders-resource/)
+
+**Author:** DarthParametric
+
+**Description:** In vanilla, female Twi'lek's thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This modder's resource serves to add the boots as an equipped object.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+
+___
+
+### Shaleena/Lashowe Mouth Fix
+
+**Name:** [Shaleena/Lashowe Mouth Adjustment](https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/)
+
+**Author:** Ashton Scorpius
+
+**Description:** Fixes a bug with two female NPC heads which caused their upper teeth to be invisible during dialogue.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Calo Nord Recolor
+
+**Name:** [Calo Nord Recolor](https://mega.nz/file/hJhGEbza#qemCHVzBcCWkL__n6mrmVNzD3P2qdV4MWEYQvJudtJY)
+
+**Author:** Watcher07
+
+**Description:** Recolors the famous bounty hunter Calo Nord's clothing to be more muted in tone; you wouldn't expect a famous bounty hunter to run around in bright colors, but in vanilla Calo sure loved to. Note that this does not allow you to play as Calo, nor does it add the custom blaster skin or republic uniform skin seen in the screenshots.
+
+**Screenshots:** [Here](http://imgur.com/a/KoIKD)
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Children Fixes
+
+**Name:** [Children NPC Fixes](https://deadlystream.com/files/file/1984-children-npc-fixes/)
+
+**Author:** N-DReW25
+
+**Description:** A small mod to fix a hand coloration mismatch on female children.
+
+**Category & Tier:** Bugfix / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** I recommend the 'tanned hands' option.
+
+___
+
+### Juhani Cathar Head
+
+**Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
+
+**Author:** Miro42
+
+**Description:** NPC Juhani's head model has always been a disappointing reminder of the limitations of low resolution. This mod makes the best attempt of any I've seen so far to portray her as truly Cathar, without going to extremes or failing to overcome the limitations of her original facial design.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Korriban: Back in Black
+
+**Name:** [Korriban: Back in Black](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** When you reach the planet Korriban, you'll find an academy for Force-users there. All the students are nonsensically dressed up in officer's outfits and not proper robes, though! Thankfully, this mod fixes that.
+
+**Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+
+___
+
+### Cloaked Jedi Robes
+
+**Name:** [Cloaked Jedi Robes](https://deadlystream.com/files/file/1378-jcs-fashion-line-i-cloaked-jedi-robes-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** The robes in KOTOR 2 are of a more billowing, loose style than the tight-fitting and narrow robes that KOTOR usually features, and seem to be the fanbase's preference. This mod migrates the KOTOR 2 robes into the original game, while still leaving options to retain some of the aesthetic choices of vanilla.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+
+___
+
+### JC's Jedi Tailor
+
+**Name:** [JC's Jedi Tailor](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** It's very annoying when you've got your party together and you want to show your swag off with color-coordinated outfits, but the game only gives you gaudy blue robes. Worry no longer! JC has given us a solution in the form of a skilled Trandoshan tailor, who will dye your robes on demand—it's also compatible with Cloaked Jedi Robes! He even has some very well-written and lore-friendly dialogue about current events.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+
+___
+
+### Qel-Droma Reskin
+
+**Name:** [Qel-Droma Robes Reskin](https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/)
+
+**Author:** Effix
+
+**Description:** This mod reskins the Qel-Droma robes to look closer to their canon counterparts, while also improving their general appearance and making them compatible with JC's Jedi Tailor.
+
+**Category & Tier:** Immersion, Appearance Change & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Masters:** JC's Cloaked Jedi Robes
+
+___
+
+### Sith Uniform Reformation
+
+**Name:** [Sith Uniform Reformation](https://deadlystream.com/files/file/1985-heyoranges-sith-uniform-reformation/)
+
+**Author:** Heyorange
+
+**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES, however some text will be in English or lines of dialogue may be blank.
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Install the default option, not one of the latter two.
+
+___
+
+### Star Map Revamp
+
+**Name:** [Star Map Revamp](https://deadlystream.com/files/file/1262-star-map-revamp/)
+
+**Author:** Carth0nasty
+
+**Description:** Reskins several ancient alien devices you encounter in the course of the game, with similar improvements to the map of the galaxy the star maps display.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Ebon Hawk Repairs
+
+**Name:** [Ultimate Ebon Hawk Repairs](https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/)
+
+**Author:** PapaZinos
+
+**Description:** Fixes quite a few holes in the model of the *Ebon Hawk*, your ship. No gaps!
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.
+
+___
+
+### HQ Cockpit Skyboxes
+
+**Name:** [HQ Cockpit Skyboxes](http://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/)
+
+**Author:** Sithspecter
+
+**Description:** Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.
+
+**Category & Tier:** Graphics Improvement / 2 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** I strongly recommend the Small version for mobile.
+
+___
+
+### Taris Reskin
+
+**Name:** [Taris Reskin](http://www.nexusmods.com/kotor/mods/10/)
+
+**Author:** Quanon
+
+**Description:** Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base. You will additionally need to delete the following files before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+
+___
+
+### HQ Starfields
+
+**Name:** [High Quality Starfields and Nebulas](https://mega.nz/#!VdxRmK6J!AD-rsPeBnx936YV4aZsjWogeDTzyK0GaIsRLLFz5MjE)
+
+**Author:** Kexikus
+
+**Description:** Upscales and beautifies the various starfields encountered throughout the game. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### HQ Skyboxes II
+
+**Name:** [High Quality Skyboxes II](https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/)
+
+**Author:** Kexikus
+
+**Description:** Massively improves and increases the resolution of all skyboxes for all planets in the game.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+
+___
+
+### Hires Beam Effects
+
+**Name:** [Hi-Res Beam Effects](https://deadlystream.com/files/file/260-k1-hi-res-beam-effects/)
+
+**Author:** InSidious
+
+**Description:** An ambitious effect replacer for most "beam" style attacks in the game. Don't let the still screenshots fool you, this is an extremely well-made mod that looks excellent compared to the original textures when in-game.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### HD Fire & Ice
+
+**Name:** [HD Fire and Ice](https://deadlystream.com/files/file/455-hd-fire-and-ice-whee/)
+
+**Author:** Cinder Skye
+
+**Description:** Makes further improvements to the fire and ice textures above and beyond those included in the above mod.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Animated Energy Shields
+
+**Name:** [Animated Energy Shields](https://deadlystream.com/files/file/2193-animated-energy-shields/)
+
+**Author:** Dark Hope
+
+**Description:** Probably one of the best mods I never thought about having before. Modernizes the incredibly unwieldy and intrusive old energy shield graphics, which were both ugly and interfered with the player's vision, with new animated textures that are simultaneously more modern, less intrusive, and higher-quality.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Animated Cantina Sign
+
+**Name:** [Animated Cantina Sign](http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/)
+
+**Author:** Sith Holocron
+
+**Description:** Animates some cantina signs which were previously stationary.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Reflective Lightsaber Blades
+
+**Name:** [New Lightsaber Blade Models](https://deadlystream.com/files/file/1846-new_lightsaber_blade_model_k1/)
+
+**Author:** Crazy34
+
+**Description:** With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
+
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** Install only the Standard option.
+
+___
+
+### Wookiee Warblade Fix
+
+**Name:** [Wookiee Warblade Fix](https://deadlystream.com/files/file/1899-wookie-warblade-fix/)
+
+**Author:** RedRob
+
+**Description:** A reuploaded variant of an older fix by RedRob, this mod elongates the handle of the Wookiee Warblade weapon so that the player no longer tries to grip it directly with their hands.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Kill The Czerka Guard
+
+**Name:** [Kill the Czerka Jerk on Kashyyyk](https://deadlystream.com/files/file/1856-request-kill-the-czerka-jerk-on-kashyyyk/)
+
+**Author:** TamerBill
+
+**Description:** If you're feeling a bit sociopathic, this mod lets you kill a particularly rude Czerka employee on Kashyyyk.
+
+**Category & Tier:** Added Content / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Korriban Workbench
+
+**Name:** [Korriban Academy Workbench](https://deadlystream.com/files/file/375-korriban-academy-workbench/)
+
+**Author:** InSidious
+
+**Description:** By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.
+
+**Category & Tier:** Added Content / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Senni Vek Restoration
+
+**Name:** [Senni Vek Restoration](https://mega.nz/#!0IpVzBqb!BsnnFX-f4YRoCLV35MKsttn4HwcR_rBJfMfua9MZiUE)
+
+**Author:** N-DReW25
+
+**Description:** Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Restored Content / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Ixgil the Bith
+
+**Name:** [Ixgil the Bith](https://deadlystream.com/files/file/2108-ixgil-the-bith/)
+
+**Author:** Crimson Knight
+
+**Description:** The definition of modding hubris. When the power to change the universe at the tips of one's fingers leads a man to spend more time making a mod than the combined thousands of users who ever download it will even see what he did on screen.
+
+There's a wrong soundset. This mod fixes it. The character dies about 5 seconds later. To even download this mod is to question one's sanity.
+
+**Category & Tier:** Bugfix / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Hidden Bek Control Room
+
+**Name:** [Hidden Bek Control Room Restoration](https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/)
+
+**Author:** N-DReW25
+
+**Description:** In the PC release, there's a locked door in a gang compound on Taris which was probably never intended to be closed off to the player. This mod unlocks it and restores some limited dialogue with its occupant provided you initiate a certain sequence.
+
+**Category & Tier:** Restored Content / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### JDR
+
+**Name:** [J Dialogue Restoration](https://mega.nz/file/tVw0EZKZ#PjaulRyvRH_CDciDKFakjtO4zsVYkwAEgAs_4-2HFoE)
+
+**Author:** Leilukin
+
+**Description:** Inexplicably, a particular optional companion has dialogue to ask about each planet you visit which was removed, as well as special conversations about two other unique circumstances the party finds themselves in. This mod restores them all. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Restored Content / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Vision Enhancement
+
+**Name:** [Vision Enhancement](https://deadlystream.com/files/file/1402-jcs-vision-enhancement-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.
+
+**Category & Tier:** Appearance Change / 3 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### LDD
+
+**Name:** [LDD](https://mega.nz/#!1dRHSaLL!TFol3hVqwF-HrFExuli5OHVElhfyzbg6puoZzgTaamE)
+
+**Author:** Revanator
+
+**Description:** In the vanilla game, during a brief sequence where you play as a companion, when your controlled companion speaks to other NPCs they don't have any unique dialogue. This mod gives them new flavor dialogue which matches their personalities. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Added Content & Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Balanced Pazaak
+
+**Name:** [Balanced Pazaak](https://deadlystream.com/files/file/1270-balanced-pazaak/)
+
+**Author:** A Future Pilot
+
+**Description:** Pazaak (basically blackjack with bonus cards) in the original KOTOR features AI that cheat, badly. While there's no way to prevent the computer from favoring NPCs in draws, there is a way to drastically reduce their ability to help themselves, and that's to give them all decks one tier lower than what their difficulty says they should have.
+
+**Category & Tier:** Mechanics Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Camera Replacement
+
+**Name:** [Ebon Hawk Camera Replacement](http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/)
+
+**Author:** LDR
+
+**Description:** By default, the camera angle inside the *Ebon Hawk* is ridiculously close to the PC, which not only makes the PC take up the majority of the screen, it also makes it very hard to see around you. This mod replaces the *Ebon Hawk* camera angle with one closer to the camera angles present in the rest of the game, and similar to KOTOR 2's *Ebon Hawk* camera angle.
+
+**Category & Tier:** Mechanics Change / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Improved Grenades
+
+**Name:** [Improved Grenades](https://deadlystream.com/files/file/1191-improved-grenades/)
+
+**Author:** jc2
+
+**Description:** In the base-game, grenades typically aren't very useful after the first few planets. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move the two files from the "Vanilla Increased Radius +Demo" folder to the override.
+
+___
+
+### Repeater Attacks Restoration
+
+**Name:** [Repeating Blaster Attacks Restoration](https://deadlystream.com/files/file/1405-repeating-blaster-attacks-restoration/)
+
+**Author:** R2-X2
+
+**Description:** Blasters in the original KOTOR are underpowered all-around, but out of the entire laughingstock none is worse than blaster repeaters, which cost more in return for equivalent damage and less crit chance. It turns out that these weapons were originally supposed to have two attack rounds, but BioWare didn't have the time or know-how to implement this before the game went gold. This mod restores this function, with only a few instances where it doesn't work due to hardcoded scripting.
+
+**Category & Tier:** Mechanics Change & Bugfix / 1- Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions**: The two optional files included in this mod package are untested with the builds and, from a balance perspective, not recommended.
+
+___
+
+### Dark Sacrifice
+
+**Name:** [JC's Romance Enhancement: Dark Sacrifice](https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.
+
+**Category & Tier:** Restored Content / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Saber Throw Knockdown
+
+**Name:** [Saber Throw Knockdown Effect](https://deadlystream.com/files/file/1487-k1-saber-throw-knockdown-effect/)
+
+**Author:** uwadmin12
+
+**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Sunry Enhancement
+
+**Name:** [Sunry Murder Recording Enhancement](http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/)
+
+**Author:** FallenGuardian
+
+**Description:** Rather than having Sunry only verbally explain what happened when he murdered the Sith officer on Manaan, there's now a recording that goes along with the dialogue that shows what happened.
+
+**Category & Tier:** Added Content & Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Davik Slave Change
+
+**Name:** [PC Dialogue with Davik's Slave Change](https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/)
+
+**Author:** Leilukin
+
+**Description:** 2003 was a different time, but this mod *really* proves that. In vanilla, if you request a 'massage' from some slaves—which has some sexual implications in Star Wars—you get nothing more than a disgusted remark from some companions. You can even threaten them without consequence. This mod properly amends this, giving you two options: for those deeply bothered by the ability to take advantage of the slaves the option to pressure them into servicing you can be removed entirely, whereas the second retains the massage, but gives Dark Side points for requesting it, as well as adding DS points for threatening the slaves at any point.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** I personally recommend option 2.
+
+___
+
+### Security Spikes for K1
+
+**Name:** [Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** In all BioWare's infinite brilliance, when they ported KOTOR to PC they didn't just cap the menus to 800x600, they also broke security spikes so they're literally unusable, and when Aspyr ported it to mobile, they didn't fix it. This mod can't fix the underlying problem of spikes not working, but it *can* give you a workaround: either some hacky functionality that works just like spikes do, or cold, hard cash in the places where spikes would normally drop.
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### HQ Blasters
+
+**Name:** [High Quality Blasters](http://deadlystream.com/files/file/861-high-quality-blasters/)
+
+**Author:** Sithspecter
+
+**Description:** Massively improves the appearance of almost all blaster weapons in-game without altering their original design.
+
+**Category & Tier:** Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+
+___
+
+### Crashed Republic Cruiser
+
+**Name:** [A Crashed Republic Cruiser on a Nameless World](https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/) and [**Patch**](https://mega.nz/file/JB4DAASC#Yfd3h1YuI-mA5_IsNxCKCYb2l_vHnicy365T0GU6Png)
+
+**Author:** LDR
+
+**Description:** It's difficult for me to talk about this mod without gushing about it. In my opinion, this mod is the best piece of added quest content ever made for either KOTOR or KOTOR 2: best-written, best-structured, best-balanced, and most sensible. It brings the player's past into the equation without mandating anything about their nature, and provides a real and immersive look at what your character's past was, and future could be, all while being lore-friendly to BOTH KOTOR 2 and The Old Republic. The only reason this mod isn't marked as Essential is because it reuses one module in a way which doesn't allow for suspension of disbelief—everything else about this mod is perfect.
+
+**Category & Tier:** Added Content & Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent.
+
+**Install Options:** Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch.
+
+___
+
+### Trandoshans Rescaled
+
+**Name:** [Trandoshans Rescaled](http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/)
+
+**Author:** DarthParametric
+
+**Description:** Canonically Trandoshans are huge, as tall as Wookiees. This mod rescales them to stand about as high.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Custom Selkath Animation
+
+**Name:** [Custom Selkath Animation](https://deadlystream.com/files/file/1555-custom-selkath-animation/)
+
+**Author:** Alvar007
+
+**Description:** At many points in the files the Selkath are called on to make an "angry" animation type, but BioWare never made one for them. This is a custom animation for the Selkath that allow them to react properly whenever the files call for an angry emote.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Sneak Attack Restoration
+
+**Name:** [Sneak Attack 10 Restoration](http://deadlystream.com/files/file/1124-sneak-attack-10-restoration/)
+
+**Author:** N-DReW25
+
+**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try an alternate build. This significantly increases the damage of sneak attacks for Mission and a Scoundrel player when they reach level 19.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### SAwL
+
+**Name:** [SAwL](https://mega.nz/#!YUZHlTDT!G7G11x8TYX1DdPp6xvQer6z7W3PRNRSbsgnd2xQc78U) and [**Patch**](https://mega.nz/#!QNImBQSb!OPon0ZYbakcZpxZKMxSp559ezQWFU-wNXJ7Sj3ERBg4)
+
+**Author:** Shem, patch by A Future Pilot & DarthParametric
+
+**Description:** This mod makes one of the enemies you encounter in the course of the game unexpectedly (but rationally) attack you with lightsabers and an impressive array of equipment. Defeating them grants excellent loot, but the fight will be incredibly challenging. To preserve the surprise, I have censored any information which could reveal the nature of this enemy.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES, however some text will be in English or blank.
+
+**Installation Method:** TSLPatcher Mod, Loose-File Patch
+
+**Installation Instructions:** Install the base mod first, then move the file from the patch directly to your override.
+
+___
+
+### HSI
+
+**Name:** [HSI](https://mega.nz/file/BQQkHTwS#W7Jo_KyHnZ-9ft5lnJ9kRnXhdKW4JosBbQRfi2b5gGQ)
+
+**Author:** VarsityPuppet
+
+**Description:** This mod changes a character's appearance to more closely resemble a family member whom you encounter elsewhere in the game. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### BDB
+
+**Name:** [BDB](https://mega.nz/#!4cIWmC7Q!55GsYK6hGWVwJSF0EAKFM3cFlDwRpqkLcnXcAS71ig0)
+
+**Author:** Revanator
+
+**Description:** At one point, an NPC will meet you in a place you don't expect. This mod gives them clothing to reflect the location, and what they're up to. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES, however some text will be in English or blank.
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Dueling Arena Adjustment
+
+**Name:** [Taris Dueling Arena Adjustment](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/)
+
+**Author:** DarthParametric
+
+**Description:** The Taris dueling arena is one of the best ways to make money on the planet, which means you're likely to be spending a decent chunk of time there. Unfortunately, the "crowd" in the arena is, by default, just a few sprites stuffed in the background. They look awful, and I bet they looked awful even in 2003. Blessedly, this mod fixes that by switching the sprites out with a much more dense crowd, as well as fixing other miscellaneous issues with the arena.
+
+**Category & Tier:** Appearance Change, Bugfix & Graphics Improvement / 2 - Recommended
+
+**Download Instructions:** Ignore the patch in the downloads, as it's only for updating from a previous version.
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Bendak Non-Darkside Option
+
+**Name:** [Bendak Bounty Non-Darkside Option](https://drive.google.com/file/d/1NuewBFq390wkZuBkbJzN-mN4sIRlvXGd/view)
+
+**Author:** Thrak Farelle, edited by A Future Pilot
+
+**Description:** At one point, the player is presented with the chance to kill a wanted criminal via an illegal death match. In-game this always gives Dark Side points, but the player is able to complete a similar contract just as violently and receive no DS points. This mod allows the player to decide whether they're fighting the criminal for sport or for justice.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+
+___
+
+### Kashyyyk Forcefield Rework
+
+**Name:** [Kashyyyk Shadowlands Forcefield Rework](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/)
+
+**Author:** DarthParametric
+
+**Description:** By default, an area transition on Kashyyyk has several issues with it which forced BioWare to use some camera trickery to prevent the player from seeing the probelms. This mod fixes this, as well as some other issues with the area, allowing the area transition to work with a more normal camera angle.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Engine Lab Bench
+
+**Name:** [Engine Lab Bench for Swoop Accelerator](https://deadlystream.com/files/file/1747-black-vulkar-base-engine-lab-bench-for-swoop-accelerator/)
+
+**Author:** Darth Parametric
+
+**Description:** Moves a bench out of the way of combat while sitting a highly valuable piece of hardware on it instead of, y'know, the floor. Helps with pathing issues.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Missing Lamps Fix
+
+**Name:** [Missing Lamps Fix](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/)
+
+**Author:** Ebmar
+
+**Description:** Several lamps which are supposed to be visible had bad references assigned to them, which caused them to fail spawning in and led to phantom light sources. This mod fixes that, as well as fixing the positioning of a misaligned pillar in the same area.
+
+**Category & Tier:** Bugfix / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run TSLPatcher
+
+**Installation Instructions:** Run the patcher twice, first to install the lamp fix and then once to install the optional pillar facing fix.
+
+___
+
+### Sith Texture Restoration
+
+**Name:** [Sith Soldier Texture Restoration](https://deadlystream.com/files/file/1289-sith-soldier-texture-restoration/)
+
+**Author:** A Future Pilot
+
+**Description:** It turns out there were several textures planned for Sith Troopers that didn't make it fully into the game. This mod restores an alternate white texture which was meant for Elite troopers, who by default simply share the appearance of regular troopers.
+
+**Category & Tier:** Restored Content / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Diversified Republic Soldiers
+
+**Name:** [Diversified Wounded Republic Soldiers](https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/)
+
+**Author:** DarthParametric
+
+**Description:** By default, the Republic soldiers in Zelka Forn's clinic on Taris all have the exact same model. This mod varies their appearance to preserve realism.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### DJC
+
+**Name:** [DJC](https://www.darthparametric.com/files/kotor/k1/%5BK1%5D_DJC_v1.2_R-KOTOR_BUILD.7z)
+
+**Author:** DarthParametric
+
+**Description:** This mod adds graphical variations to several NPCs in a critical sequence. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### JRE
+
+**Name:** [JRE](https://mega.nz/file/JAQAQLLJ#lSpKHffi_FHpV633h5t_4IvIcp4LNZQH2gnym8GAw5M)
+
+**Author:** Kexikus
+
+**Description:** In the vanilla version of KOTOR that shipped, there is actually a romance option between two female characters, though it's tough as sin to proc due to a myriad of bugs (fixed by the K1CP in this mod package). Even so, it's very underdone and has no real conclusion to speak of. This mod's goal is to at least provide some basic closure to the romance and confirm that yes, you did actually proc it properly.
+
+Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Dodonna's Transmission
+
+**Name:** [Dodonna's Transmission](https://mega.nz/#!BNonBSaT!HcPTyMfJv3aLtXMys_TIA7YIUaDDLnNO_ta56UhI7a8)
+
+**Author:** danil-ch
+
+**Description:** Near the end of the game, an Admiral contacts your ship to discuss battle strategy. The player character is inexplicably missing from this cutscene in only half of its variations; this mod restores the player's presence in all of them. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Endgame Hologram Fix
+
+**Name:** [Movie-Style Endgame Holograms](https://www.darthparametric.com/files/kotor/k1/%5BK1%5D_Movie-Style_Holograms_v1.1_R-KOTOR_BUILD.7z)
+
+**Author:** DarthParametric
+
+**Description:** Gets rid of the ugly, "painted" holograms used in one scene and replaces them with holograms that match the movie aesthetics, as well as those of KOTOR 2. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Twisted Rancor Trio Fix
+
+**Name:** [Movie-Style Holograms for the Twisted Rancor Trio](https://deadlystream.com/files/file/1736-movie-style-holograms-for-twisted-rancor-trio-puzzle/)
+
+**Author:** DarthParametric
+
+**Description:** Replaces the "painted" holograms in a puzzle sequence on the first planet with holograms that match the movie aesthetics, as well as those of KOTOR 2.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Final Planet Hologram Fix
+
+**Name:** [Movie-Style Final Planet Holograms](https://www.darthparametric.com/files/kotor/k1/%5BK1%5D_Movie-Style_Holograms_Part2_v1.1_R-KOTOR_BUILD.7z)
+
+**Author:** DarthParametric
+
+**Description:** Replaces the ugly, "painted" holograms used on one world and replaces them with holograms that match the movie aesthetics, as well as those of KOTOR 2. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Droid Unique VO
+
+**Name:** [Droid Unique VO](https://mega.nz/#!UVJRCCpD!saQnWNl567f0byyRbuBqd0QzcVt5Wbp_Q25XrzxkHDc)
+
+**Author:** ebmar
+
+**Description:** In the basegame, a droid which is established to speak verbally instead uses beeping soundsets similar to what most utility droids do. This mod fixes that by replacing its VO with a verbal variant that matches its type. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Ajunta Pall's Swords
+
+**Name:** [Ajunta Pall's Swords Revamped](http://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/)
+
+**Author:** Rece
+
+**Description:** Gives the swords in the tomb of the specter Ajunta Pall unique stats (as they're rumored to be artifacts of some power), and the ability to be sold for credits. In vanilla, they were literally worthless, despite their clear value.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+**Installation Instructions:** Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+
+___
+
+### Ajunta Pall's Blade
+
+**Name:** [Ajunta Pall's Blade](https://deadlystream.com/files/file/1338-k1-legends-ajunta-palls-blade/)
+
+**Author:** Ebmar
+
+**Description:** Rather than working on all the Sith specter's weapons, this mod focuses on making Ajunta Pall's true blade a visually unique representation of the terror of the Sith Lord.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+**Installation Instructions:** Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+
+___
+
+### JC's Mandalorian Armor
+
+**Name:** [JC's Mandalorian Armor](https://deadlystream.com/files/file/1454-jcs-mandalorian-armor-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** Makes Mandalorian armor consistent throughout the game, and ensures that all models use the colored ranking system present in KOTOR.
+
+**Category & Tier:** Appearance Change & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run TSLPatcher
+
+**Installation Instructions:** Install Option A, then re-run the patcher and also install the extra textures.
+
+___
+
+### Weapon Stats Rebalance
+
+**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
+
+**Author:** TK-664
+
+**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
+
+**Category & Tier:** Mechanics Change / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### HQ Gaffi Stick
+
+**Name:** [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
+
+**Author:** Fallen Guardian
+
+**Description:** A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### DTL
+
+**Name:** [DTL](https://mega.nz/#!dZITVA6C!lloE3-MZMX5QxE0b76Q7Clwcem2ANp5vHEDP1cU-QbY)
+
+**Author:** Kexikus
+
+**Description:** This mod replaces the unrealistic weapon seen during a particular training montage with a better representation. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Logical Datapads
+
+**Name:** [Logical Datapads](https://deadlystream.com/files/file/2008-logical-datapads/)
+
+**Author:** Sdub
+
+**Description:** Datapad, datapad, datapad, datapad, datapad. You wouldn't be able to tell it by looking at them, but in vanilla those are five different items. No more. This mod logically renames all datapads to actually explain what they are, so you don't risk an aneurism while looking for a specific one in your inventory.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Realistic Visual Effects
+
+**Name:** [Realistic Visual Effects](http://deadlystream.com/files/file/681-realistic-visual-effects/)
+
+**Author:** Shem
+
+**Description:** Removes the glowing and other unrealistic visual effects when using flurry, critical strike, etc.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### NPC Alignment Fix
+
+**Name:** [NPC Alignment Fix](https://deadlystream.com/files/file/1866-npc-alignment-fix/)
+
+**Author:** TK-664
+
+**Description:** Corrects a vanilla oversight where many enemies did not have an alignment at all, thereby rendering most items which gave bonus damage/resistances to LS/DS pointless.
+
+**Category & Tier:** Bugfix & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
+### iOS Case Sensitivity Fix
+
+**Name:** [Case Sensitivity Fix](https://github.com/DeadlyStream/KOTORCaseFixer/releases/tag/v1.0) (or Terminal line commands for non-Windows OSes—see below)
+
+**Author:** JCarter426
+
+**Description:** KOTOR on mobile devices has case sensitivity. To make these mods function properly on iOS, the files must be batch-renamed to their case-sensitive versions. This step is **ONLY NEEDED IF YOU ARE GOING TO BE PLAYING ON AN iOS DEVICE**!
+
+**Category & Tier:** Bugfix / 1 - Essential
+
+**Installation Instructions:** If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.
+
+If you are on MacOS or Linux, first, run Terminal and navigate to your game directory with the cd command.
+
+`cd [full filepath to your game]`
+
+Then, enter the following command:
+
+`find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+
+If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
+
+`sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+
+For more information:
+
+* [cd command](https://linuxize.com/post/linux-cd-command/)
+
+* [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
