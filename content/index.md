@@ -28,7 +28,7 @@ In the section below are eight links. Simply choose the game, content package, a
 
 As for actually installing these mods, there are a few simple rules to follow:
 
-* *Create a Deadly Stream and Nexus Mods account*. [Deadly Stream](http://deadlystream.com/)—our main host for KOTOR mods—has a download speed limit for users without an account (which is free). The [Nexus](https://www.nexusmods.com/kotor/?) has an actual file size limit without an account, so you'll need a Nexus account to download some files.
+* *Create a Deadly Stream and Nexus Mods account*. [Deadly Stream](http://deadlystream.com/)—our main host for KOTOR mods—has a download speed limit for users without an account (which is free). [Nexus](https://www.nexusmods.com/kotor/?) has an actual download restriction without an account, so you'll need a Nexus account to download any mod file.
 
 * *Install the mods in the order you are presented with them*. If you fail to do this, you risk running into bugs, many quite significant. Note that you'll still encounter some warnings on installer mods even when doing this, but those warnings are normal (errors, however, are not). If you want to add new mods which aren't included in these lists to a build, you should reach out to me so we can work together to create an installation order which is stable for you.
 
