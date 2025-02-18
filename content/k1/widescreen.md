@@ -142,7 +142,7 @@ ___
 
 Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
 
-**Category & Tier:** Bugfix / 1 - Essential
+**Category & Tier:** Graphics Improvement / 1 - Essential
 
 **Non-English Functionality:** YES
 
