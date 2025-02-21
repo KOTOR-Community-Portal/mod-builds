@@ -2383,7 +2383,7 @@ ___
 
 **Name:** [JC's Czerka: Business Attire](https://deadlystream.com/files/file/2309-jcs-czerka-business-attire-for-k1/)
 
-**Author:** JCarter426
+**Author:** JCarter426, HD Ithorian patch by Sith Holocron
 
 **Description:** This mod makes all the Czerka company officials in the game wear Czerka uniforms, or at least some form of insignia. But that's not important. LOOK at that Ithorian and his cute little hat! Mod of the century.
 
@@ -2392,6 +2392,8 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+**Installation Instructions:** If using Dark Hopes' HD Ithorian texture, also download and apply [this patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&st=q1qvob6i&dl=0) after installing this mod.
 
 ___
 
