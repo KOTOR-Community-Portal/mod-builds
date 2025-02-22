@@ -211,7 +211,7 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Install the main mod, then select the K1CP compatibility install option and install it as well, if using K1CP.
+**Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, and and MAKE SURE it is the .tpc file version! I recommend the 2k version for the best combination of performance and quality.
+**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, and and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
 
 Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
 
@@ -631,7 +631,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg, to the override.
+**Installation Instructions:** The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
 
 ___
 
@@ -1053,7 +1053,7 @@ ___
 
 ### HD Kiosk
 
-**Name:** [Kiosk HD](https://deadlystream.com/files/file/2442-plc_sign/) and [**Patch**](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
+**Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
 
 **Author:** Dark Hope
 
@@ -1147,7 +1147,7 @@ Some information has been censored to prevent spoilers.
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -1505,7 +1505,7 @@ ___
 
 **Name:** [Taris Reskin](http://www.nexusmods.com/kotor/mods/10/) and [**Patch**](https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0)
 
-**Author:** Quanon
+**Author:** Quanon, patch by JCarter426
 
 **Description:** Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.
 
@@ -1515,7 +1515,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base. You will additionally need to delete the following files before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
 
 ___
 
@@ -1569,7 +1569,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the K1CP compatch (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
 
 ___
 
@@ -2393,7 +2393,7 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If using Dark Hopes' HD Ithorian texture, also download and apply [this patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&st=q1qvob6i&dl=0) after installing this mod.
+**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&st=q1qvob6i&dl=0) after installing this mod.
 
 ___
 
