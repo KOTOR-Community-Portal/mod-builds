@@ -170,7 +170,7 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Install the main mod, then select the K1CP compatibility install option and install it as well, if using K1CP.
+**Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
 
 ___
 
@@ -484,7 +484,7 @@ Some information has been censored to prevent spoilers.
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -560,9 +560,9 @@ ___
 
 ### Taris Reskin
 
-**Name:** [Taris Reskin](http://www.nexusmods.com/kotor/mods/10/)
+**Name:** [Taris Reskin](http://www.nexusmods.com/kotor/mods/10/) and [**Patch**](https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0)
 
-**Author:** Quanon
+**Author:** Quanon, patch by JCarter426
 
 **Description:** Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.
 
@@ -572,7 +572,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base. You will additionally need to delete the following files before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
 
 ___
 
@@ -626,7 +626,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the K1CP compatch (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
 
 ___
 
