@@ -104,7 +104,7 @@ ___
 
 ### Thematic KOTOR 2 Companions
 
-**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
+**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/)
 
 **Author:** Sniggles & JCarter426
 
@@ -744,7 +744,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Download just the main file, not any of the compatches.
+**Download Instructions:** Download just the main file (HQSkyboxesII_TSL_1k.7z), not any of the compatches. I **strongly** recommend the 1k version for mobile devices; it will be hard to see the full benefit of the 2k version on a mobile device, the 2k version is a much larger filesize, and the larger texture size could interfere with module loading on the mobile version.
 
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 
@@ -778,11 +778,31 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
 **Download Instructions:** I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd.
 
 **Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
+
+___
+
+### HD Cockpit Skyboxes
+
+**Name:** [HD Cockpit Skyboxes](http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
+
+**Author:** tjsase
+
+**Description:** Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Strongly recommend low resolution for the mobile version. Make sure to use the .tpc file format files!
+
+**Installation Instructions:** Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 
 ___
 
@@ -1012,7 +1032,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the installer method (mandatory for compatibility).
+**Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
 ___
 
@@ -1032,7 +1052,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The installer for this mod will need to be run 2 times, once to install each of the options we'll be using: Force Crush Balance and Disable Droid Interface Feat.
+**Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
 ___
 
@@ -1226,7 +1246,7 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder to your override.
+**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
 ___
 
