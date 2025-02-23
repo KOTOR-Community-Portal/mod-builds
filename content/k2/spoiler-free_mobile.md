@@ -870,6 +870,8 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
+**Installation Note:** Due differences in the way MTSLRCM is packaged vis-a-vis TSLRCM proper, this mod will throw an error when installing claiming that your game has missing lips files. This is normal and won't cause issues.
+
 ___
 
 ### Prologue Item Recovery
