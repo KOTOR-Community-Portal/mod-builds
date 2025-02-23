@@ -133,7 +133,7 @@ ___
 
 ### Thematic KOTOR 2 Companions
 
-**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
+**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/)
 
 **Author:** Sniggles & JCarter426
 
@@ -257,7 +257,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2k version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMHC03.tpc, PMHC03D1.tpc, PMHC03D2.tpc, and PMBJ02.tpc before moving to override.
+**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMHC03.tpc, PMHC03D1.tpc, PMHC03D2.tpc, and PMBJ02.tpc before moving to override.
 
 ___
 
@@ -527,7 +527,7 @@ ___
 
 ### HD Kiosk
 
-**Name:** [Kiosk HD](https://deadlystream.com/files/file/2442-plc_sign/) and [**Patch**](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
+**Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
 
 **Author:** Dark Hope
 
@@ -1205,7 +1205,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Recommend solid options. Do NOT use experimental install options!
 
@@ -1275,7 +1275,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Download just the main file, not any of the compatches.
+**Download Instructions:** Download just the main file (HQSkyboxesII_TSL.7z or HQSkyboxesII_TSL_1k.7z), not any of the compatches. Whether you use the 1k version is your choice or not; on older systems, the 1k version will give better performance.
 
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 
@@ -1343,7 +1343,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
 **Download Instructions:** I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd.
 
@@ -1365,7 +1365,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Use the .tpc format files.
+**Download Instructions:** Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance. Whatever size you decide to use, make sure to use the .tpc format files!
 
 **Installation Instructions:** Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 
@@ -1613,7 +1613,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the installer method (mandatory for compatibility).
+**Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
 ___
 
@@ -1633,7 +1633,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The installer for this mod will need to be run 2 times, once to install each of the options we'll be using: Force Crush Balance and Disable Droid Interface Feat.
+**Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
 ___
 
@@ -1845,7 +1845,7 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder to your override.
+**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
 ___
 
@@ -2001,7 +2001,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move all the files but load_301NARa to the override.
+**Installation Instructions:** Move all the files but load_301NARa (in Part 2) to the override.
 
 ___
 
@@ -2164,22 +2164,6 @@ ___
 **Description:** Removes glowing and other similar unrealistic visual effects when using power strikes, flurries, etc.
 
 **Category & Tier:** Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-___
-
-### Repair Affects Stun Droid
-
-**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
-
-**Author:** offthegridmorty
-
-**Description:** Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them.
-
-**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
