@@ -1016,7 +1016,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Note:** Due differences in the way MTSLRCM is packaged vis-a-vis TSLRCM proper, this mod will throw an error when installing claiming that your game has missing lips files. This is normal and won't cause issues.
+**Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files--this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
 
 ___
 
