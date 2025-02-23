@@ -86,13 +86,15 @@ ___
 
 ### Thematic KOTOR 2 Companions
 
-**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
+**Name:** [Thematic KOTOR 2 Companions](https://github.com/JCarter426/KOTOR2-Thematic-Companions/releases/download/v1.0.1/KOTOR2-Thematic-Companions_v1.0.1_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
 **Description:** In the original KOTOR, BioWare did a few wacky things with character progression. Obsidian, not wanting to be outdone, decided to be even worse by just straight-up copying the statlines of several KOTOR companions for KOTOR 2 companions!
 
 As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
+
+Some information has been censored to prevent spoilers.
 
 **Masters:** TSLRCM
 
@@ -694,7 +696,7 @@ ___
 
 **SPOILER WARNING:** For the most part this mod page and readme are clean of spoilers, and I don't want to separate users from example images. But don't scroll more than once on the example screenshots, and don't watch the video on the mod page.
 
-**Download Instructions:** Download just the main file, not any of the compatches.
+**Download Instructions:** Download just the main file (HQSkyboxesII_TSL_1k.7z), not any of the compatches. I **strongly** recommend the 1k version for mobile devices; it will be hard to see the full benefit of the 2k version on a mobile device, the 2k version is a much larger filesize, and the larger texture size could interfere with module loading on the mobile version.
 
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 
@@ -728,7 +730,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
 
@@ -884,7 +886,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the installer method (mandatory for compatibility).
+**Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
 ___
 
@@ -904,7 +906,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The installer for this mod will need to be run 2 times, once to install each of the options we'll be using: Force Crush Balance and Disable Droid Interface Feat.
+**Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
 ___
 
@@ -1112,7 +1114,7 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder to your override.
+**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
 ___
 
@@ -1358,7 +1360,7 @@ ___
 
 ### TOMB
 
-**Name:** [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB/releases/download/v1.0.2/KOTOR2-TOMB_v1.0.2_spoiler-free.zip)
+**Name:** [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB/releases/download/v1.0.0/KOTOR2-Tomb_v1.0.0_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
