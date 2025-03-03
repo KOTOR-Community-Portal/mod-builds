@@ -154,10 +154,9 @@ If you experience issues with the game minimizing during cutscenes, it might be 
 
 ___
 
-
 **Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
 
-**Author:** naelavok 
+**Author:** naelavok
 
 **Description:** Using predictive AI, reddit user naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. This work was done back in 2019, if you can believe it, and is thus much more limited than Pops's version above. Nevertheless it's still a massive improvement over the default cutscenes, and still fixes the fullscreen bug, if you're experiencing it.
 

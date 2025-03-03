@@ -42,7 +42,6 @@ ___
 
 Yes, of course. Just join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can reach out on the Nexus Mods page or Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
 
-
 ## Content
 
 ### Why don't you use KOTOR 1 Restored?
@@ -72,7 +71,6 @@ ___
 Please! I'm only one person, and even though I've long since personally decided to test everything myself to take any random elements (so tester preferences, basically) out of my decision-making, I still tend to play the game in certain ways, and thus most usually have eyes for only certain build types and aesthetic considerations. If you think a mod doesn't deserve to be in the builds, should have its usage modified, or think there's a better mod out there for the job, please let me know! At the very least I can then provide you with my reasoning for why I utilize the current setup, but in an ideal situation you'll help me to improve the builds by giving me valuable feedback.
 
 ___
-
 
 ### I want to use a mod that's not part of the build alongside the build, but I don't know if it's compatible/when to install it. What should I do?
 

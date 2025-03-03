@@ -203,7 +203,7 @@ ___
 
 **SPOILER WARNING:** As a compilation mod, it's impossible to get sufficient permissions to censor this entire mod. **DO NOT READ THE README OR MOD WEBPAGE**, or spoilers are basically guaranteed. This is a TSLPatcher mod similar to the TSLRCM Tweak Pack (though this one only needs to be run once), so it's a simple install you shouldn't need further instructions for; just do your best to not read any component of it.
 
-**Installation Instructions:** Remember, warnings during an installation are normal—errors are not. 
+**Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
 ___
 
@@ -1944,7 +1944,6 @@ ___
 **Installation Instructions:** Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 
 ___
-
 
 ### Galaxy Map Fixpack
 

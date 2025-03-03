@@ -1,7 +1,8 @@
 # KOTOR 1 Mod Build Files to Delete
 
 Please delete the following .tpc files, but **ONLY** if there is a copy of the same file that is of the .tga filetype! Many (possibly the vast majority) of these files WILL NOT have both filetypes in your override!
-  
+
+```shell
 C_DrdAstro01.tpc
 C_DrdProt01.tpc
 C_DrdProt02.tpc
@@ -218,3 +219,4 @@ twilek_f01.tpc
 twilek_f02.tpc
 twilek_f03.tpc
 twilek_f04.tpc
+```

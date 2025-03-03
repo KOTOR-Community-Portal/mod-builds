@@ -8,7 +8,7 @@ Adopted from a thread by sentient06 on reddit, with our thanks!
 
 Beware, there's a lot of work ahead, and you need to be acquainted with some technical aspects of a Macintosh to become comfy with it. This is not, however, a computing tutorial, so I will try and explain bits and bobs of *Macintosh* workflow, but not exhaustively.
 
-**Some things to consider before starting**
+#### Some things to consider before starting
 
 ^(If you want to install the Windows build on Mac via Wine, make sure you have the ISO for all 4 retail CDs. I haven't tried this process with Gog nor Windows' Steam builds. I'll leave that for more adventurous souls.)
 
@@ -40,7 +40,7 @@ ___
 
 If you are not good with *Terminal*, I suggest you learn the basics. It's useful for many things. Here are some very basic concepts to get you around:
 
-**File system basics**
+#### File system basics
 
 Mac OS X (pronounced "mac oh ess ten") is a Unix system. It means it has Unix characteristics, such as a fixed file system hierarchy (similar to Windows.) All files and folders (aka directories) in your mac have a path, so we know where they are. All paths start with a forward slash `/`, which is the root path. Every directory is also defined by a slash. All users have a directory that only they and the users they want are allowed to see and modify. This is known as the "home directory" and is always located at the `/Users` path. Users can have a full name and a system handle. For example: the user **Luke Skywalker** can have a handle **luke**, thus, Luke's home directory is located at `/Users/luke`.
 
@@ -62,7 +62,7 @@ If you are in your desktop and want to go up one level, you can do:
 
 and so on.
 
-**Commands**
+#### Commands
 
 Here are some pointers to commands you will need to deal with mods:
 
@@ -231,10 +231,10 @@ Note: if you think using the command line for running `exe` looks like a lot of 
 
 There are 4 types of mods that I came into contact with:
 
-* Mods that require files to be moved to the *Override* directory
-* Mods that require a patcher to run and make changes to your *Override* directory "auto-magically"
-* Mods that require some script to run natively
-* Mods that require some sort of software to run on mac
+- Mods that require files to be moved to the *Override* directory
+- Mods that require a patcher to run and make changes to your *Override* directory "auto-magically"
+- Mods that require some script to run natively
+- Mods that require some sort of software to run on mac
 
 There are many of the first 2 types and so far I only dealt with 1 of each of the latter types. Let's look at the top 2. The 2 at the bottom are not that hard, as long as you read the documentation. If people are confused about those, I can elaborate more later.
 
@@ -286,7 +286,7 @@ To install *XQuartz*, do this:
 
 *Homebrew* should take a while. That's because it will get the source code for *XQuartz* and compile it, that is, make the code into an app.
 
-*(Note: Homebrew commands to install packages may change from time to time. So if Homebrew complains, read the feedback carefully and if it is too cryptic, google it.)*
+***NOTE***: *Homebrew commands to install packages may change from time to time. So if Homebrew complains, read the feedback carefully and if it is too cryptic, google it*
 
 ___
 
@@ -402,7 +402,7 @@ If all is fine, when you press **return**, your *Terminal* should show a bunch o
 
 Whenever a patcher asks you to find the KotOR directory, you will find it under **My Documents**. Remember it's called "**kotor**"!
 
-**Example**
+***Example***
 
 Ok, suppose I have my KotOR game in a wine wrapper.
 

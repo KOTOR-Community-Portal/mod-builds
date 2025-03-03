@@ -84,14 +84,13 @@ __
 
 It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
 
-
 ## Changelog
 
 NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates.
 
 ### 10/9/2023
 
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at <https://discord.gg/kotor>
 
 ___
 
@@ -99,18 +98,17 @@ ___
 
 1. Merry Christmas! A new piece of restored content by JC, an alternate ending for DS characters who romance Carth, has been integrated!
 
-
 ### 12/9/2022
 
 1. Several dozen new mods across both games.
 
 2. Several mods for KOTOR which also work for KOTOR 2 have now been integrated into the KOTOR 2 build list, to make the games more visually consistent across builds and improve overall graphical fidelity.
 
-2. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
+3. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
 
-3. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
+4. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
 
-4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
+5. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
 
 ___
 

@@ -2,6 +2,7 @@
 
 Please delete the following .tpc files, but ONLY if there is a copy of the same file that is of the .tga filetype! Many (possibly the vast majority) of these files WILL NOT have both filetypes in your override!
 
+```shell
 C_DrdAstro01.tpc
 C_DrdAstro02.tpc
 C_DrdAstro03.tpc
@@ -154,3 +155,4 @@ tel_rftr.tpc
 tel_sftr.tpc
 TEL_SShtl.tpc
 TEL_wl06.tpc
+```

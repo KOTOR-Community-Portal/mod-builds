@@ -10,7 +10,7 @@ For more advanced modding,like the KOTOR Restoration project or anything that us
 
 Now, once youre sure your phone can handle the mods and you have your pc ready. Lets rock. Hook up your phone to your PC and navigate to **"Android/obb/com.aspyr.swkotor"** and you should find 2 ".obb" files. A main file and a patch file. These are just fancy named .zip files so any un-rarer or un-zipper will deal with these fine. Open them with Winrar or whatever and extract them to your desktop. So now you should have 2 folders on your desktop, the main folder and the patch folder.
 
-Next step is to copy all of the files from the patch folder into the main folder. Overwrite if it tells you to, but mine didnt. After this you can delete the patch folder as we have the 1 combined folder we need now! This single main folder you now have on your desktop is your game install, basically. 
+Next step is to copy all of the files from the patch folder into the main folder. Overwrite if it tells you to, but mine didnt. After this you can delete the patch folder as we have the 1 combined folder we need now! This single main folder you now have on your desktop is your game install, basically.
 
 So for any mods that need TSL Patcher, you can point the patcher to this folder and it will install the mod absolutely fine. For any texture mods just move them to the Override folder, or follow the mods specific install instructions. You now have a real game instlal folder, just like a PC copy. **BE AWARE**, if you fuck up with the install order then you may have compatibility issues, just like you would on PC. I cant help with that, read the mods you want to install :P
 
