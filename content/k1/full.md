@@ -159,7 +159,7 @@ ___
 
 **Installation Method:** Loose-File Mod, TSLPatcher Patch
 
-**Installation Instructions:** Download the main mod and ONLY look at the Transparent/Non-Transparent folders. Move your preferred textures from one of those folders (or one of their sub-folders for optional Sith eyes) to your override. Do NOT move any of the files in the main mod folder! After you have moved those files, run the linked patch to finish applying changes. 
+**Installation Instructions:** Download the main mod and ONLY look at the Transparent/Non-Transparent folders. Move your preferred textures from one of those folders (or one of their sub-folders for optional Sith eyes) to your override. Do NOT move any of the files in the main mod folder! After you have moved those files, run the linked patch to finish applying changes.
 
 ___
 
@@ -925,9 +925,8 @@ ___
 
 ___
 
-
 ### Juhani Appearance Overhaul
- 
+
 **Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
 
 **Author:** Stormie97, Patch by JCarter
