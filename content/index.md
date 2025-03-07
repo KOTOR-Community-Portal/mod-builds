@@ -28,11 +28,11 @@ In the section below are eight links. Simply choose the game, content package, a
 
 As for actually installing these mods, there are a few simple rules to follow:
 
-* *Create a Deadly Stream and Nexus Mods account*. [Deadly Stream](http://deadlystream.com/)—our main host for KOTOR mods—has a download speed limit for users without an account (which is free). The [Nexus](https://www.nexusmods.com/kotor/?) has an actual file size limit without an account, so you'll need a Nexus account to download some files.
+* *Create a Deadly Stream and Nexus Mods account*. [Deadly Stream](http://deadlystream.com/)—our main host for KOTOR mods—has a download speed limit for users without an account (which is free). The [Nexus](https://www.nexusmods.com/kotor/?) does not permit file downloads without an account, so you'll absolutely need a Nexus account to download any of the mods we use hosted there.
 
 * *Install the mods in the order you are presented with them*. If you fail to do this, you risk running into bugs, many quite significant. Note that you'll still encounter some warnings on installer mods even when doing this, but those warnings are normal (errors, however, are not). If you want to add new mods which aren't included in these lists to a build, you should reach out to me so we can work together to create an installation order which is stable for you.
 
-* *Don't attempt to continue an old save after installing these mods*. Unless they're just texture files which **do not** contain files of the .2da filetype, once your game is modded any previous saves you have should be treated as incompatible.
+* *Don't attempt to continue an old save after installing these mods*. Unless all you choose to use are texture files which **do not** contain files of the .2da filetype, once your game is modded any previous saves you have should be treated as incompatible.
 
 * *If you are intending to use any content not included in the mod builds*, search for and identify that content BEFORE installing the builds! Certain mods have install steps or overwrite requirements that will necessitate you installing them midway through the mod build install, so if you want to use content outside the builds, you should identify that content before you start your install.
 
@@ -89,46 +89,25 @@ It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/
 
 NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates.
 
+### 03/11/2025
+
+With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long--we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
+
+This Revision's highlights include:
+
+1. As usual, integration of several dozen mods for both games
+2. Official collaboration with KOTOR Modsync, allowing the automated install of the mod builds
+3. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
+4. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
+5. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
+
 ### 10/9/2023
 
 1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides and Nexus downloads; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
 
 ___
 
-### 12/25/2022
-
-1. Merry Christmas! A new piece of restored content by JC, an alternate ending for DS characters who romance Carth, has been integrated!
-
-
-### 12/9/2022
-
-1. Several dozen new mods across both games.
-
-2. Several mods for KOTOR which also work for KOTOR 2 have now been integrated into the KOTOR 2 build list, to make the games more visually consistent across builds and improve overall graphical fidelity.
-
-2. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
-
-3. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
-
-4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
-
-___
-
-### 4/13/2022
-
-After the most implausible series of delays and problems I've ever encountered, *finally*, the new build release is out! Highlights follow:
-
-1. Fully supported mobile builds!
-
-2. Complete and fully-tested AI upscales of almost all areas and characters for both games!
-
-3. Dynamic lightsaber lighting & reflections for both games in all game areas.
-
-4. The inclusion of LDR's amazing *A Crashed Ship on an Unknown World* mod for KOTOR, in my opinion the best piece of added content ever made for these games, hands-down.
-
-___
-
-Changelogs older than 4/13/2022 can be found [here](/modding/mod_builds/changelog.html)!
+Changelogs older than 10/09/2023 can be found [here](/modding/mod_builds/changelog.html)!
 
 ## Special Thanks
 
@@ -138,4 +117,4 @@ A very special thanks to my testers! Although I do all the playthrough testing m
 
 Special thanks also to all of the modders whose work I've been using over the years, and an especial thanks to DarthParametric, Fair Strides, Deltm, A Future Pilot, and Nomuit, who have at various times all been indispensable helping me with testing, bugfixing, and rebuilding mods to support build compatibility!
 
-Thanks to /u/mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/kotor) for updating them for me.
+Thanks to mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/kotor) for updating them for me.
