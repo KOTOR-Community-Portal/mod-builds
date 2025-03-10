@@ -34,7 +34,7 @@ ___
 
 **Author:** ndix UR
 
-**Description:** While the previous mod allows the in-game menus to display at higher resolutions, it doesn't include the rebuilt icons and UI elements that would make those menus appear functional and sharp at higher resolution. This mod is designed to visually improve all the various menu UI elements so they're functional and clear at the higher resolutions. For all intents, it's a mandatory patch of the above mod.
+**Description:** While the previous mod allows the in-game menus to display at higher resolutions, it doesn't include the rebuilt icons and UI elements that would make those menus appear functional and sharp at higher resolution. This mod is designed to visually improve all the various menu UI elements so they're clear at the higher resolutions. For all intents, it's a mandatory patch of the above mod.
 
 **Category & Tier:** Patch / 1 - Essential
 
@@ -71,6 +71,24 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
+
+___
+
+**Name:** [HD Robe Icons for JC's Cloaked Jedi Robes](https://deadlystream.com/files/file/2303-hd-robe-icons-for-jcs-cloaked-jedis-and-effixs-extra-robes/)
+
+**Author:** Nehua
+
+**Description:** Rather than using icons matching the vanilla robe appearances even when using JC's cloaked Jedi robes, this mod adds icons specifically matching the cloaked robes.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Masters:** JC's Cloaked Jedi Robes
+
+**Installation Instructions:** In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
 
 ___
 
@@ -116,18 +134,39 @@ ___
 
 ___
 
-**Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
+**Name:** [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2380-k1-cutscenes-rescaled/)
 
-**Author:** naelavok 
+**Author:** Pops Maellard
 
-**Description:** Using predictive AI, /u/naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. A movie replacer like this is necessary to fix the fullscreen bug (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
+**Description:** This mod is a *killer* cutscene retexture, using a very clean, very sharp AI pass to upscale and clarify the cutscenes. A movie replacer like this is necessary to fix the fullscreen bug which causes forced game minimization when cutscenes play (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
+
+Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
 
 **Category & Tier:** Graphics Improvement / 1 - Essential
 
 **Non-English Functionality:** YES
 
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. Additionally, choose 30fps or 60fps (this is your preference). When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine.
+
+If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+
+___
+
+
+**Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
+
+**Author:** naelavok 
+
+**Description:** Using predictive AI, reddit user naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. This work was done back in 2019, if you can believe it, and is thus much more limited than Pops's version above. Nevertheless it's still a massive improvement over the default cutscenes, and still fixes the fullscreen bug, if you're experiencing it.
+
+**Category & Tier:** Graphics Improvement / 4 - Optional
+
+**Non-English Functionality:** YES
+
 **Installation Method:** Loose-File Mod with Possible Hex Editing Requirements
 
-**Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. After the files are downloaded and you've replaced the movies in your movies folder, you'll need to hex edit your executable to run them properly; see [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) for visual instructions on how to do so (you can skip the first part about using RAD tools to upscale the movies). Note that the UniWS widescreen program which you should've already used to apply basic widescreen function *may* automatically edit the necessary hex strings for you, but it won't always; checking to make sure that the hexes for your resolution are the ones set is important to make sure this mod functions!
+**Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process.
 
-If you still experience issues with minimizations during cutscenes, it should be possible to return to Xuul's video above and run the RAD tools on the new movies to re-scale them to fit your exact monitor's resolution, though I haven't attempted this so I don't know the amount of time it would take. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.

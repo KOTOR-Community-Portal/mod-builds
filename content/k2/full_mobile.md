@@ -1,28 +1,28 @@
 # KOTOR 2 Full Build: Mobile Version
 
-## Installation Instructions
+## Installation Notes
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html). There are some setup and general best-practice steps you need to be aware of before beginning the install process.
-
-### General Instructions
+If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
 
 Although this is a mobile-compatible build, due to required compatibility tools we must use to get this build working, you will need to install all mods to a 'dummy directory' on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly. This means you **MUST** have a PC or Mac in order to utilize this build for mobile, although you **CAN** install just [MTSLRCM](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/) (the mobile version of The Sith Lords Restored Content Mod) with just your mobile device.
 
-It is critical to ensure that you only have **ONE** installation of KOTOR 2 on your device before beginning. If you have multiple installations, or even just two executables in different locations, TSLPatcher executables which are set up to auto-detect your installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR 2 installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
+### Install Computer Instructions
 
-Please also note that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor on the device which you're utilizing the dummy directory on, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR 2 installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or Holopatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
-As a final note, please bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the KOTOR 2 editable executable, which you will put together during the TSLRCM installation step. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
+Please also bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the KOTOR 2 editable executable, which you will put together during the TSLRCM installation step. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
 
-#### Mac OS Users
+As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+
+### Mac OS Users
 
 It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
 
 ### Updating from a Prior Build
 
-If you currently have a prior mod build version installed on your device and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, you will need to uninstall your game (make sure modded contents are also deleted as part of the uninstall, and if they aren't, delete them manually!) then reinstall the game on your device before reconstructing a new install based off of the updated mobile build Revision and transferring the new mod set to your device, placing it over the freshly-reinstalled game.
+If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
 
 ## Mod List
 
@@ -68,6 +68,48 @@ ___
 
 ___
 
+### Silent Sion
+
+**Name:** [Silent Sion Restoration](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
+
+**Author:** Emperor Devon
+
+**Description:** Another TSLRCM change I am not personally thrilled with--when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
+
+**Masters:** TSLRCM
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File
+
+**Installation Instructions:** Move just 153sion.dlg to the override.
+
+___
+
+### Thematic KOTOR 2 Companions
+
+**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/)
+
+**Author:** Sniggles & JCarter426
+
+**Description:** In the original KOTOR, BioWare did a few wacky things with character progression. Obsidian, not wanting to be outdone, decided to be even worse by just straight-up copying the statlines of several KOTOR companions for KOTOR 2 companions!
+
+As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
+
+**Masters:** TSLRCM
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+**Installation Instructions:** If you would like to have Visas's class as Sith Assassin, install the "Standard + Sith Assassin Visas" option. Otherwise, simply install "Standard."
+
+___
+
 ### Saving Throw Fixes
 
 **Name:** [Prestige Class Saving Throw Fixes](http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/)
@@ -108,7 +150,7 @@ ___
 
 **Name:** [K2 Community Patch](https://deadlystream.com/files/file/1280-kotor-2-community-patch/)
 
-**Author:** Multiple; A Future Pilot, DarthParametric and JCarter426 Curate
+**Author:** Multiple; A Future Pilot, JCarter426 Curates
 
 **Description:** A community bugfix and general improvement patch for KOTOR 2 meant to be a supplement to TSLRCM, fixing bugs that TSLRCM didn't catch or viewed too minor to address; highly recommended.
 
@@ -137,6 +179,42 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod & Patch
+
+___
+
+### No Mines on Malachor
+
+**Name:** [No Mines on Malachor](https://deadlystream.com/files/file/2459-no-mines-on-malachor-only-gas/)
+
+**Author:** Thor110
+
+**Description:** I always liked the idea of Malachor being a ruined and cracked world, with fissures that spew gas onto the surface at great risk to the player. This effect is somewhat diminished, though, when the player can SEE THE MINES that cause that gas to be produced. It makes avoiding the traps easy. This mod removes the visual mines, so the player can only guess where there are gas vents.
+
+**Category & Tier:** Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher
+
+**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher.
+
+___
+
+### Ritual and Water Textures
+
+**Name:** [Ritual and Water Textures](https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/)
+
+**Author:** Nehua
+
+**Description:** A very nice retexture of the ritual "dome" during the party assault on Freedon Nadd's tomb. Note that the water texture from this mod is not (and cannot be) used for game stability, due to the way the mod is packaged; we will only use the ritual texture.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Move only the files from the ritual folder, not the water.
 
 ___
 
@@ -169,6 +247,8 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Download Instructions:** Use the V2 version of the mod.
 
 ___
 
@@ -484,6 +564,24 @@ ___
 
 ___
 
+### Visas Reduced Model Clipping
+
+**Name:** [Visas Reduced Model Clipping](https://deadlystream.com/files/file/2299-visas-reduced-model-clipping/)
+
+**Author:** Feeling
+
+**Description:** Visas's chin *REALLY* likes to atomically fuse with her weird Sith turtleneck. This mod does the best it can to separate the two.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Either option is fine, choose which you prefer based on the screenshots.
+
+___
+
 ### Mira Unpoofed
 
 **Name:** [Mira Unpoofed](https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/)
@@ -530,7 +628,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Utilize the option to modify vanilla sabers.
+**Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
 
 ___
 
@@ -632,9 +730,65 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Download just the main file, not any of the compatches.
+**Download Instructions:** Download just the main file (HQSkyboxesII_TSL_1k.7z), not any of the compatches. I **strongly** recommend the 1k version for mobile devices; it will be hard to see the full benefit of the 2k version on a mobile device, the 2k version is a much larger filesize, and the larger texture size could interfere with module loading on the mobile version.
 
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
+
+___
+
+### Spark Effect
+
+**Name:** [Spark Effect - Ebon Hawk](https://deadlystream.com/files/file/2314-spark-effect-ebon-hawk/)
+
+**Author:** PapaZinos
+
+**Description:** You won't notice it until you see the side-by-side, but the vanilla spark effect is AWFUL. This mod is an incredible improvement on the base effect.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Transparent Cockpit Windows
+
+**Name:** [Transparent Cockpit Windows TSL](https://deadlystream.com/files/file/2355-transparent-cockpit-windows-for-tsl/)
+
+**Author:** WildKarrde
+
+**Description:** By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Download Instructions:** I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd.
+
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
+
+___
+
+### HD Cockpit Skyboxes
+
+**Name:** [HD Cockpit Skyboxes](http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
+
+**Author:** tjsase
+
+**Description:** Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Strongly recommend low resolution for the mobile version. Make sure to use the .tpc file format files!
+
+**Installation Instructions:** Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 
 ___
 
@@ -694,7 +848,7 @@ ___
 
 **Author:** darth_gil
 
-**Description:** This mod adds another thorium charge so you can access both the Mandalorian cache on Dxun and the Sith Master's room on Korriban.
+**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game--*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
 
 **Category & Tier:** Added Content / 2 - Recommended
 
@@ -720,17 +874,15 @@ ___
 
 ___
 
-### Exile's Saber Fix
+### Red Floating Lightsabers
 
-**Name:** [Exile's Saber Fix](https://deadlystream.com/files/file/2001-exiles-saber-fix/)
+**Name:** [Red Floating Lightsabers](https://deadlystream.com/files/file/2635-red-floating-lightsabers/)
 
-**Author:** N-DReW25
+**Author:** Crimson Knight
 
-**Description:** One of TSLRCM's restorations adds the bronze color crystal back into the game. Curiously, though, it did not give the player the option to actually say that their original lightsaber had a bronze crystal. This mod fixes that and allows the player to select bronze as the color of their original lightsaber.
+**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic--that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red--logically, red is what Kreia would've had on hand.
 
-**Masters:** TSLRCM
-
-**Category & Tier:** Restored Content & Patch / 2 - Recommended
+**Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
 **Non-English Functionality:** NO
 
@@ -850,6 +1002,8 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
+**Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files--this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
+
 ___
 
 ### Prologue Item Recovery
@@ -866,7 +1020,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the installer method (mandatory for compatibility).
+**Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
 ___
 
@@ -880,13 +1034,29 @@ ___
 
 **Masters:** TSLRCM
 
-**Category & Tier:** Mechanics Change & Patch / 2 - Reccomended
+**Category & Tier:** Mechanics Change & Patch / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The installer for this mod will need to be run 2 times, once to install each of the options we'll be using: Force Crush Balance and Disable Droid Interface Feat.
+**Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
+
+___
+
+### No Health Regeneration
+
+**Name:** [No Health Regeneration](https://deadlystream.com/files/file/2530-no-health-regeneration/)
+
+**Author:** offthegridmorty
+
+**Description:** Having health regen by default in KOTOR 2 is bad for many reasons: it makes an already easy game easier; it negates the benefit of the health regeneration feat they added; and it makes the use & crafting of medkits and other health-restoring tools much less useful. I played with this mod and the game was still pretty easy by the end, but it was WAY more fun early on. It made me have to worry about health and especially healing items for quite a bit more time, which preserved the challenge beyond Telos.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
 
 ___
 
@@ -894,7 +1064,7 @@ ___
 
 **Name:** [Thematic Sith Lords](https://deadlystream.com/files/file/1535-thematic-sith-lords/)
 
-**Author:** Snigaroo
+**Author:** Sniggles & JCarter426
 
 **Description:** The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others.
 
@@ -903,6 +1073,40 @@ ___
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*--remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
+
+___
+
+### Thematic Jedi Masters
+
+**Name:** [Thematic Jedi Masters](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
+
+**Author:** Sniggles & JCarter426
+
+**Description:** The much younger brother of Thematic Sith Lords, Thematic Jedi Masters was born of me discovering that all of the Masters except Atris have the same class (Guardian), and one doesn't even have any Force Points for your encounter! These fights were extremely half-baked, and that's where this mod comes in. Unlike Thematic Sith Lords the design philosophy was not of a rock-paper-scissors style (so you aren't going to find a tremendous glaring weakness with a Master as you might on a Lord) but rather to accentuate a given master's strengths in line with their respective natures.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Better Disciple Meditation
+
+**Name:** [Better Disciple Meditation](https://deadlystream.com/files/file/2612-better-disciple-meditation/)
+
+**Author:** offthegridmorty
+
+**Description:** Let's be honest, Disciple kinda sucks. This mod makes him suck *marginally* less by making his meditation ability actually useful, so you might have some incentive to take him around with you at least some of the time, or bring him out to re-apply his meditation bonus.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
 
@@ -924,19 +1128,21 @@ ___
 
 ___
 
-### Workbench Attunement
+### JC's Crystal Attunement
 
-**Name:** [Workbench Crystal Attunement](http://deadlystream.com/files/file/18-workbench-crystal-attunement/)
+**Name:** [JC's Crystal Attunement](https://deadlystream.com/files/file/2269-jcs-crystal-attunement-for-k2/)
 
-**Author:** Markus Ramikin
+**Author:** JCarter426
 
-**Description:** Allows the player to attune their unique crystal at workbenches, with or without Kreia in the party. Also has options to remove the "learn to use the Workshop" options.
+**Description:** For being a crystal which is specifically attuned to the player, your little pet rock wasn't very malleable. This mod adds a ton of different alignment levels for your player crystal based upon your alignment and class, fixes several bugs with the crystal, and also allows the player to attune the crystal at workbenches when Kreia isn't available.
 
-**Category & Tier:** Immersion / 2 - Recommended
+**Category & Tier:** Mechanics Change, Bugfix & Immersion / 2 - Recommended
 
 **Non-English Functionality:** NO
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher
+
+**Installation Instructions:** Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
 
 ___
 
@@ -994,25 +1200,41 @@ ___
 
 ___
 
-### Peragus Troops to Assassins
+### Assassins with Lightsabers
 
-**Name:** [Peragus Sith Troops to Sith Assassins](http://deadlystream.com/files/file/195-peragus-sith-troops-to-sith-assassins/)
+**Name:** [Sith Assassins with Lightsabers](https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/)
 
-**Author:** Hassat Hunter
+**Author:** Lewok2007
 
-**Descriptions:** Removes the Sith Troops present on Peragus and replaces them with Sith Assassins, which makes far more sense.
+**Description:** Replaces the Sith Assassins' default weaponry with lightsabers. It makes more sense that they would hunt the last of the Jedi with weapons meant to face them.
 
-**Masters:** TSLRCM
+Be ready for a hard slog through the *Harbinger* if you choose to use this mod.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run HoloPatcher
+
+**Installation Instructions:** Run the installer once for the first part of the install, then again to apply the second half.
+
+___
+
+### Peragus Medical Bay Enhancement
+
+**Name:** [Peragus Medical Bay Enhancement](https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/)
+
+**Author:** WildKarrde
+
+**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent--you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Multi-Run TSLPatcher
+**Installation Method:** TSLPatcher
 
-**Immersion Note:** Be aware that the Sith Assassins who board the *Ebon Hawk* will not use lightsabers, even if you're using "Sith Assassins with Lightsabers." If you judge this to be more immersion-breaking than the vanilla game's Sith Troopers, I advise you not to use this mod.
-
-**Installation Instructions:** Recall that the installer must be run twice, once for part 1 and once for part 2.
+**Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
 ___
 
@@ -1174,26 +1396,6 @@ ___
 
 ___
 
-### Assassins with Lightsabers
-
-**Name:** [Sith Assassins with Lightsabers](http://deadlystream.com/files/file/739-sith-assassins-with-lightsabers/) and [**Patch**](https://mega.nz/file/hQZyyDBZ#QDnLGpPVzMsnTjDF67ypBeEvkSxYvJyHPmxf8qE3a-I)
-
-**Author:** Shem
-
-**Description:** Replaces the Sith Assassins' default weaponry with lightsabers. It makes more sense that they would hunt the last of the Jedi with weapons meant to face them.
-
-Be ready for a hard slog through the *Harbinger* if you choose to use this mod.
-
-**Category & Tier:** Mechanics Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Installation Instructions:** Do not run the installer for this mod when you first download it! Download both this mod and the patch, then extract both to separate locations. Within the patch will be a file called changes.ini, move this file to the TSLPatchdata folder of the main mod. It should prompt you to overwrite; do so. When this is complete, you can then run the installer as normal.
-
-___
-
 ### Player & Party Underwear
 
 **Name:** [Player & Party Underwear](https://deadlystream.com/files/file/344-player-party-underwear/)
@@ -1262,25 +1464,53 @@ ___
 
 ___
 
-### Improved AI
+### Repair Affects Stun Droid
 
-**Name:** [Improved AI](http://deadlystream.com/files/file/833-improved-ai/) and [**Patch**](https://mega.nz/#!RUQw2C4Z!AoEvVy2NMhUN74qlIdXOFfZfiqM-znJZYtVM42tRHXE)
+**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
 
-**Author:** Stoffe
+**Author:** offthegridmorty
 
-**Description:** The improved AI mod stops in-game characters from using weaker versions of feats (IE Flurry instead of Advanced Flurry), making characters that Obsidian deemed to be harder foes truly more difficult to defeat.
+**Description:** Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them.
 
-**Category & Tier:** Mechanics Change / 1 - Essential
+**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod & Loose-File Patch
+**Installation Method:** TSLPatcher Mod
 
-**Compatibility Warning:** This mod has a minor incompatibility with TSLRCM which causes the player to sometimes be unable to select a third party member during the party fight sequence on Nar Shaddaa. Utilizing the KOTOR 2 Community Patch fully rectifies this problem.
+___
 
-**Installation Instructions:** The first executable you see is a self-extracting archive; when you find it, just run it and extract to the pre-listed folder (the one the mod is currently in). It will extract the TSLPatcher .exe which you will run as usual to install the mod. When the install is completed, move the patch file into your game's override directory and overwrite.
+### Treat Injury Affects Force Healing
 
-Do *NOT* use the version for High Level Force Powers; if you were planning on using HLFP, either remove HLFP (recommended) or DO NOT USE Improved AI. There is a compatibility issue when using HLFP and Improved AI together in this build.
+**Name:** [Treat Injury Affects Force Healing](https://deadlystream.com/files/file/2408-treat-injury-affects-force-healing-tsl/)
+
+**Author:** offthegridmorty
+
+**Description:** Because, again, logically it should, right?
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### TOMB
+
+**Name:** [Thematic Obscured Mausoleum Burial](https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/)
+
+**Author:** Sniggles & JCarter426
+
+**Description:** The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
+
+Do note--the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher
 
 ___
 

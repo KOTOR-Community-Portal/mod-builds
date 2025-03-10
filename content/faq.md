@@ -24,7 +24,7 @@ If you still want to give it a try, there are some installation steps you'll nee
 
 ### Is the mod build compatible with Steam achievements?
 
-Provided you use the most recent Steam update (*not* the legacypc "beta" version), *partially*; TSLRCM, as well as many of the graphical mods, should not cause achievements to break. Several mods in the builds DO stop achievements from working properly, however, and without individually testing each and every single one of them it's impossible to be sure which will or won't work. We know for certain the Extended Enclave mod breaks them, and strongly suspect the TSLRCM Tweak Pack, Improved AI, PartySwap, and Choose Mira or Hanharr would all also do so. Be aware that **other mods could also break those sequences, however**.
+Provided you use the most recent Steam update (*not* the legacypc "beta" version), *partially*; TSLRCM, as well as many of the graphical mods, should not cause achievements to break. Several mods in the builds DO stop achievements from working properly, however, and without individually testing each and every single one of them it's impossible to be sure which will or won't work. We know for certain the Extended Enclave mod breaks them, and strongly suspect the TSLRCM Tweak Pack, PartySwap, and Choose Mira or Hanharr would all also do so. Be aware that **other mods could also break those sequences, however**.
 
 If you want to try getting Steam achievements alongside the mod builds, we would recommend using only TSLRCM and graphical mods which do not alter gameplay.
 
