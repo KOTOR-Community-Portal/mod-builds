@@ -96,10 +96,9 @@ With apologies for the very long delay, we are back! Revision 11 is now live. Th
 This Revision's highlights include:
 
 1. As usual, integration of several dozen mods for both games
-2. Official collaboration with KOTOR Modsync, allowing the automated install of the mod builds
-3. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
-4. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
-5. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
+2. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
+3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
+4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
 ### 10/9/2023
 
