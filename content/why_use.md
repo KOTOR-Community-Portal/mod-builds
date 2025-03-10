@@ -14,8 +14,6 @@
 
 7. **Non-English Compatibility**. Sometimes, including mods intended for English game versions in your setup, if you're not playing in English, would just mean a few lines of text in English; sometimes, it means you get permanently stuck and can't proceed. Mods which are safe to use on non-English game versions are explicitly identified in the mod builds, so those playing with other languages can still use most of the builds' content.
 
-8. **Automated Installation Support**. New in Revision 11, the mod builds are now directly collaborating with the dev of KOTOR Modsync, a program which allows for the automatic installation of mod build content. This should vastly speed up installation times for users who don't intend to make changes to the build, and just want to install everything in a single shot.
-
 9. **Spoiler-Free Options**. Although this only applies to new players and returning folks who have been away for so long they've forgotten most of the plot, the spoiler-free builds do allow even brand-new players to still use mods without risk.
 
 10. **Mobile Compatibility**. The mobile ports aren't an exact 1:1 with the PC versions, and have some particularities. The mod builds feature mobile-compatible versions of the listed builds which are fully tested on mobile, not just guessed at; we know the content listed therein works, and it means you can play KOTOR with all the trimmings (except the graphics mods that would catch your phone on fire) whenever you'd like.
