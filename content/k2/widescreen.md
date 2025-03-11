@@ -16,7 +16,7 @@
 
 ___
 
-**Name:** [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
+**Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
 
 **Author:** Pops Maellard
 
