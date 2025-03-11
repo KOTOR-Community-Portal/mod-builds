@@ -367,7 +367,7 @@ ___
 
 **Description:** Though this mod is for K1, I've tested it with K2 and it not only works, it looks fine even with K2's drastically different atmosphere on Korriban. It dramatically improves the aesthetics of the artistic panels on the floor of the Korriban academy and the inset murals on the doors.
 
-**Category & Tier:** Graphics Improvement / 2 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
