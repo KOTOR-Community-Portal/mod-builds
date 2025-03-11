@@ -124,7 +124,7 @@ ___
 
 ### KOTOR Community Patch
 
-**Name:** [KOTOR Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) and [**Patch**](https://mega.nz/file/8EoEXZ5Z#toRAG_f5Aq3jdFe774UniFLrYicMuLe7IXwVVT6UG58)
+**Name:** [KOTOR Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) and [**Patch**](https://mega.nz/file/gQZR1TZY#U7XN5teK9wjXC5Hnj7MFlmHYb8UFyaV5R17ksIuj7Jc)
 
 **Author:** Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate
 
