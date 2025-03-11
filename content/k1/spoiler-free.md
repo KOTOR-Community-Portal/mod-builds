@@ -2383,7 +2383,7 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&st=q1qvob6i&dl=0) after installing this mod.
+**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&st=q1qvob6i&dl=0), which Sith Holocron was kind enough to make at my request, after installing this mod.
 
 ___
 
