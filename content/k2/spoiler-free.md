@@ -73,7 +73,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Executable
 
-**Compatibility Warning:** Recall that M4-78 is incompatible with this build; do not use it alongside TSLRCM! Remember also that the Workshop version of this or any other mod is NOT to be used!
+**Compatibility Warning:** Recall that no version of M4-78 is compatible with this build; do not use it alongside TSLRCM! Remember also that the Workshop version of this or any other mod is NOT to be used!
 
 ___
 
