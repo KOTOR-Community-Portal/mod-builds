@@ -1535,7 +1535,7 @@ ___
 
 ### TSL
 
-**Name:** [TSL](https://mega.nz/file/QI4iQKTT#Jji1TzyuAl2eSSbCjPfV8T0yH4iLJVdkWp7Rhkru8Gk)
+**Name:** [TSL](https://github.com/JCarter426/KOTOR2-Thematic-Sith-Lords/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
 
 **Author:** Snigaroo
 
@@ -1555,7 +1555,7 @@ ___
 
 ### TJM
 
-**Name:** [TJM](https://discord.com/channels/@me/452189249106870274/1340895538677157968)
+**Name:** [TJM](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
 
 **Author:** Sniggles & JCarter426
 
