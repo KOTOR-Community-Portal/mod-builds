@@ -73,7 +73,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Executable
 
-**Compatibility Warning:** Recall that M4-78 is incompatible with this build; do not use it alongside TSLRCM! Remember also that the Workshop version of this or any other mod is NOT to be used!
+**Compatibility Warning:** Recall that no version of M4-78 is compatible with this build; do not use it alongside TSLRCM! Remember also that the Workshop version of this or any other mod is NOT to be used!
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 ### Thematic KOTOR 2 Companions
 
-**Name:** [Thematic KOTOR 2 Companions](https://github.com/JCarter426/KOTOR2-Thematic-Companions/releases/download/v1.0.1/KOTOR2-Thematic-Companions_v1.0.1_spoiler-free.zip)
+**Name:** [Thematic KOTOR 2 Companions](https://github.com/JCarter426/KOTOR2-Thematic-Companions/releases/download/v1.0.2/KOTOR2-Thematic-Companions_v1.0.2_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
@@ -1535,7 +1535,7 @@ ___
 
 ### TSL
 
-**Name:** [TSL](https://mega.nz/file/QI4iQKTT#Jji1TzyuAl2eSSbCjPfV8T0yH4iLJVdkWp7Rhkru8Gk)
+**Name:** [TSL](https://github.com/JCarter426/KOTOR2-Thematic-Sith-Lords/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
 
 **Author:** Snigaroo
 
@@ -1555,7 +1555,7 @@ ___
 
 ### TJM
 
-**Name:** [TJM](https://discord.com/channels/@me/452189249106870274/1340895538677157968)
+**Name:** [TJM](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
 
 **Author:** Sniggles & JCarter426
 

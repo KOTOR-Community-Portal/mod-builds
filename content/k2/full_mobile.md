@@ -982,7 +982,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The wording is a little bit confusing, but we do not have the Extended Enclave patch added, it's a separate mod.
+**Installation Instructions:** Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build.
 
 ___
 

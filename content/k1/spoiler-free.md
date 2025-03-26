@@ -79,7 +79,7 @@ ___
 
 ### Character Startup Changes
 
-**Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/MFIByAKY#8MaLMEUvI-xMJ20buuugR8DTNHa6wab2RK3tk5kBMnk)
+**Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg)
 
 **Author:** jonathan7, patch by A Future Pilot
 
@@ -97,7 +97,7 @@ ___
 
 ### Thematic KOTOR Companions
 
-**Name:** [Thematic KOTOR Companions](https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.0/KOTOR1-Thematic-Companions_v1.0.0_spoiler-free.zip)
+**Name:** [Thematic KOTOR Companions](https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.1/KOTOR1-Thematic-Companions_v1.0.1_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
@@ -1259,7 +1259,7 @@ ___
 
 **Download Instructions:** Download only the file which adds clothing, unless you like the head & face changes the mod makes
 
-**Installation Instructions:** Delete PO_pcarth3.tga before moving the three other files to the override.
+**Installation Instructions:** If using the face changes, delete PO_pcarth3.tga before moving the three other files to the override.
 
 ___
 
@@ -1277,7 +1277,7 @@ ___
 
 **Installation Method:** Loose-File Mod & Patch
 
-**Download Instructions:** Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head model from the below mod. Remember to also download the patch.
+**Download Instructions:** Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
 
 ___
 
