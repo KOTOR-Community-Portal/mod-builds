@@ -97,7 +97,7 @@ ___
 
 ### Thematic KOTOR Companions
 
-**Name:** [Thematic KOTOR Companions](https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.0/KOTOR1-Thematic-Companions_v1.0.0_spoiler-free.zip)
+**Name:** [Thematic KOTOR Companions](https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.0/KOTOR1-Thematic-Companions_v1.0.1_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
