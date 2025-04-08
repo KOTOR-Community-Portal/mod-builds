@@ -1293,7 +1293,7 @@ ___
 
 ### Transparent Cockpit Windows
 
-**Name:** [Transparent Cockpit Windows TSL](https://mega.nz/file/hVIkxTTT#OxWWTv_F2x7Ty5Pe9LxGF1-njIajR09o1icahWWbTZg)
+**Name:** [Transparent Cockpit Windows TSL](https://mega.nz/file/1IQETAKA#yGIwdm3djYFDuLJ9DJ-pacuxjJDjXTL4QVNr0AzAlpQ)
 
 **Author:** WildKarrde
 
@@ -1305,7 +1305,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos". **IF AND ONLY IF** you are playing on the Steam or GoG versions of the game and have NOT downpatched to the previous legacy game version (legacypc), also apply the content of the "Distorted Model Fix" folder.
 
 ___
 
