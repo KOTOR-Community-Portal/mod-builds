@@ -1337,7 +1337,7 @@ ___
 
 **Download Instructions:** I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd.
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: K2CP ("K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos"), "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: K2CP ("K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos"), "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos". **IF AND ONLY IF** you are playing on the Steam or GoG versions of the game and have NOT downpatched to the previous legacy game version (legacypc), also apply the content of the "Korriban Distorted Model Fix" folder.
 
 ___
 
