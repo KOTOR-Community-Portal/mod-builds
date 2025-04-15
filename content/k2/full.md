@@ -2121,7 +2121,7 @@ ___
 
 **Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatches for TSLRCM, the K2CP, JC's Minor Fixes, and then all remaining content that matches content you chose to use from the builds, following the below instructions:
 
-* K2CP: Delete C_DrdAstro01.tga, C_DrdAstro02.tga, C_DrdAstro03.tga, C_Hutt03.tga, C_Kinrath01, C_Kinrath02, C_Kinrath03, C_Kinrath04, C_SenBall01D.tga, p_hk47_01.tga, C_hk50.tga, and C_hk51.tga before moving to override. If utilizing Sapiens' HD Visas mod, also delete P_VisasH01.tga, P_VisasHD01.tga and P_VisasHD02.tga.
+* K2CP: Delete C_DrdAstro01.tga, C_DrdAstro02.tga, C_DrdAstro03.tga, C_Hutt03.tga, C_Kinrath01.tga, C_Kinrath02.tga, C_Kinrath03.tga, C_Kinrath04.tga, C_SenBall01D.tga, p_hk47_01.tga, C_hk50.tga, and C_hk51.tga before moving to override. If utilizing Sapiens' HD Visas mod, also delete P_VisasH01.tga, P_VisasHD01.tga and P_VisasHD02.tga.
 
 * Player and Party Underwear: Only use the build-compatible choices (Atton, Disciple, Mira)
 
