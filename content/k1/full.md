@@ -1090,7 +1090,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch.
+**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
 
 ___
 
@@ -2505,8 +2505,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/8EZkRCYC#X3YqrEeZgK11GaRstOw7SWdKbgrbQek1UITdwdeub1A), which Sith Holocron was kind enough to make at my request, after installing this mod.
 
 ___
 
