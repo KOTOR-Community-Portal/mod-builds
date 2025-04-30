@@ -2383,6 +2383,8 @@ ___
 
 **Installation Method:** TSLPatcher
 
+**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
+
 ___
 
 ### Sith Texture Restoration
