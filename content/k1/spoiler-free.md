@@ -2771,7 +2771,7 @@ ___
 
 **Masters:** Ultimate Character Overhaul & Various Texture Mods
 
-**Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP, and then all remaining content that matches content you chose to use from the builds. Please note that, if you downloaded "SaWL," there is a patch for that here and I cannot censor it since I am the uploader—the name itself isn't a major spoiler so please try to ignore it as best you can. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+**Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP, and then all remaining content that matches content you chose to use from the builds. Please note that, if you downloaded "SaWL," there is a patch for that here and I cannot censor it since I am not the uploader—the name itself isn't a major spoiler so please try to ignore it as best you can. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
 
 ___
 
