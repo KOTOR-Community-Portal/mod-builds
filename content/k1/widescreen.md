@@ -138,7 +138,7 @@ ___
 
 **Author:** Pops Maellard
 
-**Description:** This mod is a *killer* cutscene rework, using a very clean, very sharp AI pass to upscale and clarify the cutscenes. A movie replacer like this is necessary to fix the fullscreen bug which causes forced game minimization when cutscenes play (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
+**Description:** This mod is a *killer* cutscene improvement mod, using a very clean, very sharp AI pass to upscale and clarify the cutscenes. A movie replacer like this is necessary to fix the fullscreen bug which causes forced game minimization when cutscenes play (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
 
 Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
 
