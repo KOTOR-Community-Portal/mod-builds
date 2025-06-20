@@ -40,7 +40,7 @@ ___
 
 ### Will you be available to troubleshoot installation issues/mod compatibility/problems I'm having with these builds?
 
-Yes, of course. Just join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can reach out on the Nexus Mods page or Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
+Yes, of course. The fastest way to get in touch with me is to join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can [send me a PM on Deadlystream](https://deadlystream.com/profile/24368-snigaroo/) or reach out on the Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
 
 
 ## Content
@@ -69,11 +69,11 @@ ___
 
 ### I think a particular mod is unbalanced, unaesthetic, or otherwise poorly implemented in the builds in a way which detracts from the experience. Do you want this kind of feedback?
 
-Please! I'm only one person, and even though I've long since personally decided to test everything myself to take any random elements (so tester preferences, basically) out of my decision-making, I still tend to play the game in certain ways, and thus most usually have eyes for only certain build types and aesthetic considerations. If you think a mod doesn't deserve to be in the builds, should have its usage modified, or think there's a better mod out there for the job, please let me know! At the very least I can then provide you with my reasoning for why I utilize the current setup, but in an ideal situation you'll help me to improve the builds by giving me valuable feedback.
+Please! I'm only one person, and even though I've long since personally decided to test everything myself to take any random elements out of my decision-making, I still tend to play the game in certain ways. Thus, despite my best efforts, I tend to have eyes for only certain build types and aesthetic considerations. If you think a mod doesn't deserve to be in the builds, should have its usage modified, or think there's a better mod out there for the job, please let me know! At the very least I can then provide you with my reasoning for why I utilize the current setup, but in an ideal situation you'll help me to improve the builds by giving me valuable feedback.
 
 ___
 
 
 ### I want to use a mod that's not part of the build alongside the build, but I don't know if it's compatible/when to install it. What should I do?
 
-Ask me, either in the Discord or on the Nexus/Steam guide of your chosen build. Link me to the mod(s) in question and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
+Ask me, either in the [Discord](https://discord.gg/kotor), via PM on [Deadlystream](https://deadlystream.com/profile/24368-snigaroo/), or on the Steam guide of your chosen build. Link me to the mod(s) in question and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
