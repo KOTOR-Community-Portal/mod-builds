@@ -8,7 +8,7 @@ Under some circumstances, yes. While you should always proceed with caution if p
 
 When playing on any OS that takes filename cases into account you should set the particular folders used for your installation to not be case-sensitive as regards filenames, but everything else should function normally.
 
-When playing on Linux, however, issues have been encountered with the build at least partially due to the structure of the KOTOR 2 port. The Linux version on Steam (*possibly* also on GoG; this is unconfirmed) has two override folders, one in the main game directory and one in a "steamassets" folder. For the installation to function properly, all override files need to be placed into the override folder in this steamassets folder, and all executable installers need to be pointed to the steamassets folder as if it were the base installation directory.
+When playing on Linux, however, issues have been encountered with the build at least partially due to the structure of the KOTOR 2 port. The Linux version on Steam has two override folders, one in the main game directory and one in a "steamassets" folder. For the installation to function properly, all override files need to be placed into the override folder in this steamassets folder, and all executable installers need to be pointed to the steamassets folder as if it were the base installation directory.
 
 ___
 
