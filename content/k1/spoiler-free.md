@@ -2151,6 +2151,8 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
+**Known Bugs:** There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
+
 **Install Options:** Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
 
 ___
