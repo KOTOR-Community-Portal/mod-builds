@@ -1946,6 +1946,8 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
+**Installation Warning:** Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+
 ___
 
 ### New Leviathan Dialogue
