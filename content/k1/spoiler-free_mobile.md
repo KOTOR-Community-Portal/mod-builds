@@ -1134,7 +1134,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent.
+**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent. **PLEASE ALSO BEAR IN MIND:** there is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
 
 **Install Options:** Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch.
 
