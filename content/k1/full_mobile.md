@@ -1231,9 +1231,9 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent.
+**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent. **PLEASE ALSO BEAR IN MIND:** there is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* heading down the beach and encountering the first squad of hostile Rakata! Make sure to encounter them *first*, then you are free to turn back and explore the cruiser.
 
-**Install Options:** Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch.
+**Install Options:** Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch. 
 
 ___
 

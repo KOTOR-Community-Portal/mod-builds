@@ -1946,6 +1946,8 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
+**Installation Warning:** Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+
 ___
 
 ### New Leviathan Dialogue
@@ -2267,6 +2269,8 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Known Bugs:** There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* heading down the beach and encountering the first squad of hostile Rakata! Make sure to encounter them *first*, then you are free to turn back and explore the cruiser.
 
 **Install Options:** Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
 
