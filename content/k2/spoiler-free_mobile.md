@@ -930,7 +930,7 @@ ___
 
 ### TSL
 
-**Name:** [TSL](https://github.com/JCarter426/KOTOR2-Thematic-Sith-Lords/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
+**Name:** [TSL](https://github.com/JCarter426/KOTOR2-TSL/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
 
 **Author:** Snigaroo
 
@@ -950,7 +950,7 @@ ___
 
 ### TJM
 
-**Name:** [TJM](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
+**Name:** [TJM](https://github.com/JCarter426/KOTOR2-TJM/releases/download/v1.0.0/KOTOR2-TJM_v1.0.0_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
