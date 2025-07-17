@@ -1156,6 +1156,8 @@ ___
 
 **Installation Method:** Loose-File Mod
 
+**Download Instructions:** Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
+
 ___
 
 ### Unique Sith Governor
