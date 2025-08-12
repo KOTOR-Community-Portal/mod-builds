@@ -4,7 +4,7 @@
 
 **Author:** DarthParametric
 
-**Description:** A fix for TSL's stretched menu when playing the game widescreen; only use with the non-beta Steam version, or any widescreen-patched game from any other retailer.
+**Description:** A fix for TSL's stretched menu when playing the game widescreen; only use with the default patch (not legacypc) Steam version, rolled back GOG version, or any other game version without the Aspyr patch applied (you know if you have this patch or not based on whether you have controller support for your game).
 
 **Category & Tier:** Graphics Improvement & Bugfix / 3 - Suggested
 
@@ -12,7 +12,7 @@
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** FApply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
+**Installation Instructions:** Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
 
 ___
 
