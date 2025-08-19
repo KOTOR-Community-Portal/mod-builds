@@ -1294,7 +1294,7 @@ ___
 
 **Download Instructions:** Download only the file which adds clothing, unless you like the head & face changes the mod makes
 
-**Installation Instructions:** If using the face changes, delete PO_pcarth3.tga before moving the three other files to the override.
+**Installation Instructions:** Delete PO_pcarth3.tga before moving the other files to the override.
 
 ___
 
