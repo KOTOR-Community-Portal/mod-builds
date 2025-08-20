@@ -859,8 +859,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download just the random UI elements download, not the optional T3-M4 request.
-
 ___
 
 ### HD NPC Portraits
