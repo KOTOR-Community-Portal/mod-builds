@@ -1,0 +1,28 @@
+HD Astromechs by Dark Hope,C_DrdAstro01.tpc,C_DrdAstro02.tpc,C_DrdAstro03.tpc,P_T3M3_01.tpc
+HD Protocol Droids by Dark Hope,C_DrdProt01.tpc,C_DrdProt02.tpc,C_DrdProt03.tpc,C_DrdProt04.tpc
+HD War Droids by Dark Hope,C_DrdWar01.tpc,C_DrdWar02.tpc,C_DrdWar03.tpc,C_DrdWar04.tpc,C_DrdWar05.tpc
+Gammorean Reskin Pack by Quanon,C_Gammorean_Low.tpc,C_Gammorean01.tpc,C_Gammorean02.tpc,C_Gammorean03.tpc,C_Gammorean04.tpc
+HD Ithorians by Dark Hope,C_Ithorian01.tpc,C_Ithorian02.tpc,C_Ithorian03.tpc
+KOTOR 1 Community Patch,L_Alien02.mdl,L_Alien02.mdx,L_Alien05.mdl,L_Alien05.mdx
+HD Cleaning Droids by Dark Hope,N_astromech01.tpc,N_astromech02.tpc
+HD Male Clothing by Dark Hope,N_CommM01.tpc,N_CommM02.tpc,N_CommM03.tpc,N_CommM04.tpc,N_CommM05.tpc,N_CommM06.tpc,N_CommM08.tpc
+HD Malak and/or Cinemalak by Dark Hope/PoopaPoppaPalpatine,N_DarthMalak01.tpc,N_DarthMalakH01.tpc,N_JediMalekH02.tpc
+Detran's Revan by Detran,N_DarthRevan01.tpc
+HD Duros by Dark Hope,N_Duros01.tpc,N_Duros02.tpc,N_Duros03.tpc
+Republic Soldier's New Shade by ebmar,N_Repsold.mdl,N_Repsold.mdx,N_RepSold_F.mdl,N_RepSold_F.mdx,N_RepSold_F01.tpc,N_RepSold01.tpc
+Sith Soldier Texture Restoration by A Future Pilot,N_SithSoldier.mdl,N_SithSoldier.mdx
+HD Realistic Sand People by Etienne76,N_Tusken_F.tpc,N_Tusken_F2.tpc,N_Tusken02.tpc,N_Tusken03.tpc,N_Tusken04.tpc,N_Tusken05.tpc
+Twi'lek Thigh-High Boots by DarthParametric,N_TwilekF.mdl,N_TwilekF.mdx,N_TwilekFB01.tpc,N_TwilekFC01.tpc
+Bastila's Dark Bodysuit by Revanator,P_BastilaBB02.mdl,P_BastilaBB02.mdx
+HD Canderous Ordo and/or Quanon's Canderous by Dark Hope/Quanon,P_CandBA01.tpc,P_CandBB01.tpc,P_CandH01.tpc
+HD Carth Onasi by Dark Hope,P_CarthBB01.tpc
+Quanon's HK-47 by Quanon,P_HK47_01.tpc
+Jolee Bindo HD and/or Fen's Jolee by Dark Hope/Fenharel,P_JoleeBA01.tpc,P_JoleeBB01.tpc,P_JoleeH01.tpc
+Juhani Appearance Overhaul by Stormie97,P_JuhaniBB.mdl,P_JuhaniBB.mdx,P_JuhaniBB01.tpc
+Juhani Real Cathar Head by Miro42,P_JuhaniH.mdl,P_JuhaniH.mdx,P_JuhaniH01.tpc
+Zaalbar HD by Dark Hope,P_Zaalbar02.tpc
+JC's Republic Soldier Fix by JCarter426,PFBBL.mdl,PFBBL.mdx,PFBBL01.tpc,PMBBL.mdl,PMBBL.mdx,PMBBL01.tpc
+HD Davik by Dark Hope,PFBE07.tpc,PMBE07.tpc
+JC's Mandalorians by JCarter426,PFBH04.tpc,PFBH07.tpc,PMBH04.tpc,PMBH07.tpc
+JC's Cloaked Jedi Robes by JCarter426,PFBI01.tpc,PFBI02.tpc,PFBI03.tpc,PFBI04.tpc,PFBIL.mdl,PFBIL.mdx,PFBIM.mdl,PFBIM.mdx,PFBIS.mdl,PFBIS.mdx,PMBI01.tpc,PMBI02.tpc,PMBI03.tpc,PMBI04.tpc,PMBIL.mdl,PMBIL.mdx,PMBIM.mdl,PMBIM.mdx,PMBIS.mdl,PMBIS.mdx
+HD Twi'lek Females by Dark Hope,Twilek_F01.tpc,Twilek_F02.tpc,Twilek_F03.tpc,Twilek_F04.tpc
