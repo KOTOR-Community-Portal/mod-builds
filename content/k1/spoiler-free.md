@@ -859,8 +859,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download just the random UI elements download, not the optional T3-M4 request.
-
 ___
 
 ### HD NPC Portraits
@@ -1127,7 +1125,7 @@ ___
 
 ### Unique Sith Governor
 
-**Name:** [Unique Sith Governor](https://mega.nz/file/1NpW3Y4K#GRLo1EgLO_7Oh84-WQRf3BbOj5YhJwEPBiEzJhWxndk)
+**Name:** [Unique Sith Governor](https://mega.nz/file/hJwGVL6B#B0-0O_6koePu2kzc8Xif4FzFKPUYApT9PUTv6kWzmjk)
 
 **Author:** N-DReW25
 
@@ -1261,7 +1259,7 @@ ___
 
 **Download Instructions:** Download only the file which adds clothing, unless you like the head & face changes the mod makes
 
-**Installation Instructions:** If using the face changes, delete PO_pcarth3.tga before moving the three other files to the override.
+**Installation Instructions:** Delete PO_pcarth3.tga before moving the other files to the override.
 
 ___
 
@@ -2438,8 +2436,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-**Installation Instructions:** Recommend the Base Installation option.
 
 ___
 
