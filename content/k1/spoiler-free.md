@@ -1125,7 +1125,7 @@ ___
 
 ### Unique Sith Governor
 
-**Name:** [Unique Sith Governor](https://mega.nz/file/1NpW3Y4K#GRLo1EgLO_7Oh84-WQRf3BbOj5YhJwEPBiEzJhWxndk)
+**Name:** [Unique Sith Governor](https://mega.nz/file/hJwGVL6B#B0-0O_6koePu2kzc8Xif4FzFKPUYApT9PUTv6kWzmjk)
 
 **Author:** N-DReW25
 
@@ -2436,8 +2436,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-**Installation Instructions:** Recommend the Base Installation option.
 
 ___
 
