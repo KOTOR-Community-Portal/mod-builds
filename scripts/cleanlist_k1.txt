@@ -11,6 +11,7 @@ HD Malak and/or Cinemalak by Dark Hope/PoopaPoppaPalpatine,N_DarthMalak01.tpc,N_
 Detran's Revan by Detran,N_DarthRevan01.tpc
 HD Duros by Dark Hope,N_Duros01.tpc,N_Duros02.tpc,N_Duros03.tpc
 Republic Soldier's New Shade by ebmar,N_Repsold.mdl,N_Repsold.mdx,N_RepSold_F.mdl,N_RepSold_F.mdx,N_RepSold_F01.tpc,N_RepSold01.tpc
+Custom Selkath Animation by Alvar007,N_Selkath.mdl,N_Selkath.mdx
 Sith Soldier Texture Restoration by A Future Pilot,N_SithSoldier.mdl,N_SithSoldier.mdx
 HD Realistic Sand People by Etienne76,N_Tusken_F.tpc,N_Tusken_F2.tpc,N_Tusken02.tpc,N_Tusken03.tpc,N_Tusken04.tpc,N_Tusken05.tpc
 Twi'lek Thigh-High Boots by DarthParametric,N_TwilekF.mdl,N_TwilekF.mdx,N_TwilekFB01.tpc,N_TwilekFC01.tpc
