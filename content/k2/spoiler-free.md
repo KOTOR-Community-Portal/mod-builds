@@ -263,7 +263,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_wl07.tpc, NAR_fl01.tpc, and NAR_Met4.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
 
 ___
 
