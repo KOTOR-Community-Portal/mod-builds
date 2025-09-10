@@ -283,7 +283,7 @@ ___
 
 **SPOILER WARNING:** Due to its size, I cannot reupload this mod for spoiler-prevention purposes. It spoils a location you see in the sequel. Please avoid the mod if this is a concern for you.
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_wall03.tpc, DAN_NEW1.tpc and DAN_MWFl.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
 
 ___
 
