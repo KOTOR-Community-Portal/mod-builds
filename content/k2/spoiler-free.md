@@ -289,7 +289,7 @@ ___
 
 ### Ultimate Dxun
 
-**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105)
+**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105) and [**Patch**](https://mega.nz/file/kUZTmT6K#9Ymj028VHivAoY7RaW1mKXu1H28NvYVNfM44p5C-IIM)
 
 **Author:** ShiningRedHD
 
@@ -301,7 +301,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
 
 ___
 
