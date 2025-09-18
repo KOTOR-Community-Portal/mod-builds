@@ -1,3 +1,4 @@
+Mandatory Deletions: Click Y,P_BastilaH04.tpc
 HQ Blasters by Sithspecter,C_DrdAssassin.mdl,C_DrdAssassin.mdx
 HQ Blasters by Sithspecter OR Droid Animations Fix by Zobizob,C_DrdWar.mdl,C_DrdWar.mdx
 HD War Droids by Dark Hope,C_DrdWar01.tpc,C_DrdWar02.tpc,C_DrdWar03.tpc,C_DrdWar04.tpc,C_DrdWar05.tpc
@@ -6,7 +7,7 @@ HD Ithorians by Dark Hope,C_Ithorian01.tpc,C_Ithorian02.tpc,C_Ithorian03.tpc,N_C
 Detran's Darth Revan by Detran,N_DarthRevan01.tpc
 HD Duros by Dark Hope,N_Duros.mdl,N_Duros.mdx,N_Duros01.tpc,N_Duros02.tpc,N_Duros03.tpc,N_Duros04.tpc,N_Duros05.tpc
 Mandalorian Worn-Out Armor by LordRevan999,N_Mandalorian01.tpc,N_Mandalorian02.tpc,N_Mandalorian03.tpc
-K2CP by various authors,N_Repsold.mdl,N_Repsold.mdx,N_Repsold_F.mdl,N_Repsold_F.mdx,N_RepSold_F01.tpc,N_RepSold01.tpc,N_TSFOff_F01.tpc
+K2CP by various authors,N_Repsold.mdl,N_Repsold.mdx,N_Repsold_F.mdl,N_Repsold_F.mdx,N_RepSold_F01.tpc,N_RepSold01.tpc,N_TSFOff_F01.tpc,N_JediMalek.mdl,N_JediMalek.mdx
 Thigh-High Boots for Twi'lek by DarthParametric,N_TwilekF.mdl,N_TwilekF.mdx,N_TwilekFB01.tpc,N_TwilekFC01.tpc
 Atton Rand with Scruff by felixfelicitas,P_AttnH1.tpc,P_AttnH1D1.tpc,P_AttnH1D2.tpc
 4k Atton Rand by Constar,P_AttonBA.tpc,P_AttonBAD01.tpc
