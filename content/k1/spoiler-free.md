@@ -330,7 +330,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc **before** moving to override.
+**Installation Instructions:** Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc and LSI_box01.tpc **before** moving to override.
 
 ___
 
@@ -690,6 +690,38 @@ ___
 
 ___
 
+### HD Jawas
+
+**Name:** [HD Realistic Jawas](https://deadlystream.com/files/file/2517-hd-realistic-jawas/)
+
+**Author:** Etienne76
+
+**Description:** A reskin of the Jawas, paying particular attention to the fabric texture of their tunics.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### HD Sand People
+
+**Name:** [HD Realistic Sand People](https://deadlystream.com/files/file/2514-hd-realistic-sand-people/) and [**Patch**](https://mega.nz/file/1ApXxLgY#iAK97Ydx2xvH5ws7NevJGU3ZJQarhBwDAIFcH73O3W4)
+
+**Author:** Etienne76
+
+**Description:** A reskin of the Tusken, paying particular attention to the fabric texture of their tunics.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
@@ -794,7 +826,25 @@ ___
 
 **Download Instructions:** Do not download the .tga file.
 
-**Installation Instructions:** Move the main file in the directory to your override folder, then the files from the either the "Malak (Blue Eyes)" or "Malak (Red Eyes)" folder (your preference).
+**Installation Instructions:** If intending to use CineMalak below (recommended!), select your preferred head texture from the Malak (Red Eyes) or Malak (Blue Eyes) folders and move the files within to your override. You can ignore N_DarthMalak01.tga, unless you do not want to use CineMalak, in which case you should also move it to your override.
+
+___
+
+### CineMalak
+
+**Name:** [CineMalak - HD Darth Malak](https://deadlystream.com/files/file/2787-cinemalak-hd-malak-retexture/)
+
+**Author:** PoopaPoppaPalpatine
+
+**Description:** Built off of Dark Hope's texture above, CineMalak is a redesign which the author contextualizes as making the clothing look more like a real-world movie costume. I don't think this is an invalid description, but I would rather contextualize it as just making the costume look realistic *full stop*. Malak's outfit, even in Dark Hope's interpretation, doesn't look like real clothing. This mod does a wonderful job of giving his suit the little things - more realistic cloth textures, stitch lines, armor clasps - that make it both HD *and* believable as real clothing.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
 
 ___
 
