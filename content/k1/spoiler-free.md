@@ -2,6 +2,8 @@
 
 ## Installation Notes
 
+### IMPORTANT!
+
 If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
 
 ### Zeroing Step
@@ -12,11 +14,11 @@ Once you have your freshly-installed copy of the game, please attempt to set you
 
 ### TSLPatcher Installation Requirements
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
-Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
+Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
 
-As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor, you may need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
 
 ### Single Install
 
@@ -24,12 +26,11 @@ It is critical to ensure that you only have **ONE** installation of KOTOR on you
 
 ### Known Bugs
 
-* The very first cutscene (the title crawl) will always fail to play when running with upscaled movies and widescreen applied. Just watch a clip of the cutscene elsewhere--we don't know why this happens, but as far as we can tell it is unavoidable.
-* Sometimes the game will crash on load when trying to enter a new area due to a data overflow. This is uncommon and most users should never encounter it, but it is unfortunately virtually impossible to fully account for. Fortunately, it is easy to fix when it happens: simply temporarily disable the 'Frame Buffer Effects' and shadows settings in your advanced graphics options, proceed through the load screen, then re-enable the setting once on the other side.
+* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
 
 ### AMD Players
 
-Not long ago many AMD cards experienced extreme and frequent crashing when playing KOTOR. Recent driver updates have fixed this, so if you get into the game and start experiencing random crashes while walking around, the solution should be as simple as updating your drivers. If for whatever reason that doesn't work, you can try reversion instead, to a version prior to July 15th, 2022. I cannot give advice on how to do this, as the process is unique to your particular graphics card and I don't personally own an AMD device. Googling your graphics card and 'drivers' will probably get you where you need to go.
+Not long ago many AMD cards experienced extreme and frequent crashing when playing KOTOR. Recent driver updates have fixed this, so if you get into the game and start experiencing random crashes while walking around, the solution should be as simple as updating your drivers. If for whatever reason that doesn't work, you can try reversion instead: the last known stable AMD driver series is [here](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-5-1), but bear in mind that, if your AMD hardware is newer than this driver's release date, rolling back will not be possible.
 
 ### Mac OS Players
 
@@ -41,11 +42,11 @@ For unknown reasons, the Amazon Games version of KOTOR has a modified executable
 
 ### Linux Players
 
-For anyone attempting to install these builds on a Linux distro, I strongly recommend installing on a case-insensitive file system (I have had VFAT recommended as an option by other users). Otherwise you will need to go through the headache of renaming a huge number of files, and it's really not worth it.
+Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
 
 ### Total Filesize on Disk
 
-For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 7GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total install size plus HD movies in 1920x1080 resolution is approximately 29.5GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
+For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 7GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total install size plus HD movies (Pops Maellard's set) in 1920x1080 resolution is approximately 25GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
 
 ## Optional Install Assistant - Quicker TSLPatching
 
