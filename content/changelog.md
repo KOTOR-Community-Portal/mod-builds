@@ -4,6 +4,29 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 
 ## 2025
 
+### 11/03/2025
+
+The "Aspyr Patch" build release. Revision 12 was intended to be released significantly later, in 2026, but mounting problems with applying widescreen to unpatched copies of KOTOR 2, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game and making it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
+
+Highlights include:
+1. As usual, dozens of new mods for both games have been integrated
+2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
+3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as the very scary True Sith Assassins for KOTOR 2.
+5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
+6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
+
+
+The full changelog is:
+
+**KOTOR:**
+
+New Inclusions:
+1. HD Realistic Jawas
+2. HD Realistic Sand People
+3. 
+
+
 ### 03/11/2025
 
 With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long--we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
