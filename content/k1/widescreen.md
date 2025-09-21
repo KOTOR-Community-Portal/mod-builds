@@ -18,7 +18,7 @@ ___
 
 **Author:** ndix UR
 
-**Description:** Edits your game's .exe file to allow the in-game menus to be represented at your game's edited resolution rather than the permanent 800x600 of the default port. This hack will only work on the GoG, 4-disk, iOS, and UniWS-patched Steam versions of the game; for it to be effective, the game must be *pre-patched* to your widescreen resolution of choice!
+**Description:** Edits your game's .exe file to allow the in-game menus to be represented at your game's edited resolution rather than the permanent 800x600 of the default port. This will only work on the GoG, 4-disk, MacOS, and UniWS-patched Steam versions of the game; for it to be effective, the game must *already be patched* to your widescreen resolution of choice (IE, make sure you've applied UniWS first)!
 
 **Category & Tier:** Graphics Improvement / 1 - Essential
 
