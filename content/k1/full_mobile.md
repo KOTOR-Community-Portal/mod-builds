@@ -204,22 +204,6 @@ ___
 
 ___
 
-### Scoundrel Trousers
-
-**Name:** [Scoundrel Trousers](http://deadlystream.com/files/file/537-scoundrel-trousers/)
-
-**Author:** Darkbirdie
-
-**Description:** Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.
-
-**Category & Tier:** Bugfix / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Republic Soldier Fix
 
 **Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
@@ -357,40 +341,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
-### Party Model Fixes
-
-**Name:** [Party Model Fixes](https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/)
-
-**Author:** redrob41
-
-**Description:** Several of the companion models are messed up, and this mod fixes them.
-
-**Category & Tier:** Bugfix / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Installation Instructions:** In the "Bastila uvw fix" folder, move all the files from the Bastila Clothes - Option 1 folder into the Override. Move all the files in the Canderous folder. Delete the two .tga files in the Carth folder before moving. Move all the files in the HK-47 folder. Delete the .tga file from the Jolee folder before moving. Ignore the Juhani folder. Move all the files from the Mission folder.
-
-___
-
-### Party Model Fixes 2
-
-**Name:** [Party Model Fixes for K1, Part II](https://deadlystream.com/files/file/2287-party-model-fixes-for-k1-part-ii/)
-
-**Author:** PapaZinos
-
-**Description:** Redrob did his best with Party Model Fixes, but there was still more to address. PapaZinos comes in to fix up a few things the original mod doesn't grab.
-
-**Category & Tier:** Bugfix / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
 
 ___
 
@@ -1109,26 +1059,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
-
-### Sith Uniform Disguise Extension
-
-**Name:** [Taris Sith Uniform Disguise Extension](https://github.com/DarthParametric/K1_Taris_Sith_Uniform_Disguise_Extension/releases/tag/1.1)
-
-**Author:** Darth Parametric
-
-**Description:** You ever think about it being just a bit strange that you can get into the lower city just by disguising a single one of your party members as a Sith trooper? Especially when the other party member, still standing there in his flight jacket, is the famous Republic pilot Carth Onasi? It's a bit weird, right?
-
-This mod gives two drops of the Sith Trooper armor, and requires you and Carth to both be wearing the armor before going into the lower city. It makes just a bit more sense that the elevator guard would wave you down without any other checks that way.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Download the "K1_Taris_Sith_Uniform_Disguise_Extension_v1.1.zip" file.
 
 ___
 
@@ -1864,22 +1794,6 @@ ___
 **Installation Method:** HoloPatcher
 
 **Installation Instructions:** Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3, but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
-
-___
-
-### Weapon Stats Rebalance
-
-**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
-
-**Author:** TK-664
-
-**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
-
-**Category & Tier:** Mechanics Change / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher
 
 ___
 
