@@ -932,6 +932,26 @@ ___
 
 ___
 
+### Male NPC Clothing
+
+**Name:** [NPC Clothing M](https://deadlystream.com/files/file/2516-npc-clothing-m/)
+
+**Author:** Dark Hope
+
+**Description:** Continuing her tradition of naming things as unhelpfully as possible, this is a clothing pack for male commoners by Dark Hope. To those put off by the default changes to N_CommM07 and N_CommM08, don't worry, we don't use the ones that alter the base design.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Masters:** K1 Community Patch
+
+**Installation Instructions:** Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
+
+___
+
 ### Party Model Fixes
 
 **Name:** [Party Model Fixes](https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/)
@@ -1193,6 +1213,22 @@ ___
 
 ___
 
+### K2 Swoops to K1
+
+**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### HD Stun Batons
 
 **Name:** [Stunbaton HD](https://deadlystream.com/files/file/2430-stunbaton-hd/)
@@ -1295,6 +1331,72 @@ ___
 
 ___
 
+### HD Doctors
+
+**Name:** [Doctors HD](https://deadlystream.com/files/file/2475-doctors-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Sometimes Dark Hope swings and misses, but sometimes she really lands a home run. Her Zelka Forn texture here is, in particular, one of my absolute favorites from her.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Kebla Yurt HD
+
+**Name:** [Kebla Yurt HD](https://deadlystream.com/files/file/2471-kebla-yurt-hd/)
+
+**Author:** Dark Hope
+
+**Description:** I really like the face changes here, but although the clothes look great it would replace default character clothing and cause peasants to be wearing business suits later in the game. For that reason, the install instructions here will remove the changes to Kebla's clothes, while keeping her enhanced face visuals.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Installation Instructions:** Delete N_CommF02.tga & .txi before moving to override.
+
+___
+
+### HD Deadeye Duncan
+
+**Name:** [Deadeye Duncan HD](https://deadlystream.com/files/file/2801-deadeye-duncan-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Dark Hope takes slightly more liberties with this texture, but given the very low detail of the original I think that's understandable, and it still preserves the basic vanilla aesthetic.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### N_oldAMH01 HD
+
+**Name:** [N_oldAMH01 HD](https://deadlystream.com/files/file/2806-n_oldamh01-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Okay no, I underestimated her earlier, clearly Dark Hope *can* name things even worse than she usually does. What the absolutely eloquently-named N_oldAMH01 HD does is... reskin old asian male head 1. Thanks for the naming conventions BioWare, very cool.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### HD Astromech Droids
 
 **Name:** [HD Astromech Droids](https://deadlystream.com/files/file/1894-astromech-droid-hd/)
@@ -1322,6 +1424,22 @@ ___
 **Description:** Vastly improves the skin of all the protocol droids encountered ingame.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Davik's Trophies
+
+**Name:** [Davik's Trophies](https://deadlystream.com/files/file/2559-daviks-trophies/)
+
+**Author:** Thor110
+
+**Description:** The wall-mounted trophies in Davik's estate were based off of basegame creature textures, but did not actually use those texture files: they used a downscaled visual of the vanilla texture for the creatures, which made them look even worse than the vanilla creatures, and especially bad compared to upscaled vanilla creature textures. This mod lets them use the full size of the vanilla texture to map, which makes them look less glaringly low-resolution by comparison.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
 
 **Non-English Functionality:** YES
 
