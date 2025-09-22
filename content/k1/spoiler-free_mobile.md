@@ -208,22 +208,6 @@ ___
 
 ___
 
-### Scoundrel Trousers
-
-**Name:** [Scoundrel Trousers](http://deadlystream.com/files/file/537-scoundrel-trousers/)
-
-**Author:** Darkbirdie
-
-**Description:** Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.
-
-**Category & Tier:** Bugfix / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Republic Soldier Fix
 
 **Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
@@ -1050,26 +1034,6 @@ ___
 
 ___
 
-### Sith Uniform Disguise Extension
-
-**Name:** [Taris Sith Uniform Disguise Extension](https://github.com/DarthParametric/K1_Taris_Sith_Uniform_Disguise_Extension/releases/tag/1.1)
-
-**Author:** Darth Parametric
-
-**Description:** There's a part in the game where you use a disguise to get past a hostile gate guard. But, thing is, you're only given one disguise, so your companion is just standing there looking like usual and the gate guard waves you down like he's part of their faction too, even though he's not disguised at all.
-
-This mod fixes that issue by dropping additional copies of the disguise and forcing both you and your companion to put the disguise on before being let through.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Download the "K1_Taris_Sith_Uniform_Disguise_Extension_v1.1.zip" file.
-
-___
-
 ### Ain't No Air in Space
 
 **Name:** [Ain't No Air in Space](https://deadlystream.com/files/file/2281-jcs-leviathan-aint-no-air-in-space-for-k1/)
@@ -1761,22 +1725,6 @@ ___
 **Installation Method:** HoloPatcher
 
 **Installation Instructions:** Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3, but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
-
-___
-
-### Weapon Stats Rebalance
-
-**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
-
-**Author:** TK-664
-
-**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
-
-**Category & Tier:** Mechanics Change / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher
 
 ___
 
