@@ -32,6 +32,35 @@ New Inclusions:
 8. Deadeye Duncan HD
 9. N_oldAMH01 HD
 10. Davik's Trophies
+11. Kebla Yurt Renovation
+12. Yavin Station Hangar
+13. Revamped FX
+14. Darth Malak's Lightsaber
+15. Swoop Bike Upgrades
+16. Rebalanced Grenades
+17. Taris Rapid Transit
+18. Manaan Fast Travel System
+19. Sentinel Sneak Attack
+20. Improved Cantina Sitters
+21. Swoop Platform Model Repairs
+22. Multifire and Autofire and Finesse
+23. Repair Affects Stun Droid
+24. Alignment Affects Force Powers
+25. Character Textures & Model Fixes
+
+Modified:
+1. Applied Detran's Revan texture to the character's Star Forge Robes.
+2. Sith Uniform Reformation replaced by Sith Uniform Reformation Reformed, a more compatible and installer-based version of the mod with further enhancements.
+3. Isolated some crashes caused by models (current reason unknown) in Unique Sith Governor & Movie-Style Endgame Holograms for MacOS/Linux players: added warnings.
+4. Added a patch to HQ Skyboxes to fix some minor rendering issues through windows
+
+Removed:
+1. Party Model Fixes I & II (superseded by Character Textures & Model Fixes)
+2. HD Rakghouls (superseded by Character Textures & Model Fixes)
+3. Scoundrel Trouser Fix (even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So: superseded by Character Textures & Model Fixes)
+4. Improved Grenades (superceded by Rebalanced Grenades)
+5. Weapon Stats Rebalance (superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance)
+6. Sith Uniform Disguise Extension (current implementation is buggy, removed pending update/alternate implementation)
 
 
 ### 03/11/2025
