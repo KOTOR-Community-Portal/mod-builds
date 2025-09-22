@@ -6,7 +6,7 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 
 ### 11/03/2025
 
-The "Aspyr Patch" build release. Revision 12 was intended to be released significantly later, in 2026, but mounting problems with applying widescreen to unpatched copies of KOTOR 2, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game and making it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
+The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
 
 Highlights include:
 1. As usual, dozens of new mods for both games have been integrated
@@ -24,7 +24,14 @@ The full changelog is:
 New Inclusions:
 1. HD Realistic Jawas
 2. HD Realistic Sand People
-3. 
+3. CineMalak
+4. NPC Clothing M
+5. K2 Swoops to K1
+6. Doctors HD
+7. Kebla Yurt HD
+8. Deadeye Duncan HD
+9. N_oldAMH01 HD
+10. Davik's Trophies
 
 
 ### 03/11/2025
