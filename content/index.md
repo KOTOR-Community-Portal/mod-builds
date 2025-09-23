@@ -8,7 +8,7 @@ New users run the risk of having content spoiled for them otherwise, and all use
 
 If you've always wanted to mod KOTOR 1 or 2 but have been hesitant—which mods are good, which are compatible?—this resource is here to help.
 
-For over a decade I've worked with modders, first for reddit and now standalone in collaboration with the Deadly Stream mod community, collating and managing modular packages of compatible mods which I refer to as "mod builds." The goal behind these builds is to find the best KOTOR mods and present them as a fully-compatible & modular archive, allowing users to pick-and-choose the mods they want from a large, vanilla-friendly selection with minimum hassle and no fears of incompatibility. That said, I have never skimped on quality in return for quantity; **all included mods are lore-friendly, and no mod which significantly alters or interrupts the vanilla experience has been considered for inclusion.** The goal for these mod builds is an improvement of the vanilla experience rather than the creation of a new experience.
+For over a decade I've worked with modders, first on the KOTOR subreddit and now independently in collaboration with the Deadly Stream mod community, collating and managing modular packages of compatible mods which I refer to as "mod builds." The goal behind these builds is to find the best KOTOR mods and present them as a fully-compatible & modular archive, allowing users to pick-and-choose the mods they want from a large, vanilla-friendly selection with minimum hassle and no fears of incompatibility. That said, I have never skimped on quality in return for quantity; **all included mods are lore-friendly, and no mod which significantly alters or interrupts the vanilla experience has been considered for inclusion.** The goal for these mod builds is an improvement of the vanilla experience rather than the creation of a new experience.
 
 The builds for both games are divided into Full builds and Spoiler-Free builds. These spoiler-free builds contain mods with censored readmes, to prevent the player from accidentally being spoiled, so even if you are a brand-new player you can still enjoy bugfixes, updated graphics, and most of the full build's added content free of any risk. Most, because the spoiler-free builds also lack mods which have the potential to alter the game's balance from what BioWare/Obsidian intended, to ensure that your first playthrough is the most pure vanilla-plus experience possible.
 
@@ -91,13 +91,13 @@ NOTE: Only major changes are reflected in changelogs. The builds undergo constan
 
 ### 03/11/2025
 
-With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long--we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
+With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long—we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
 
 This Revision's highlights include:
 
 1. As usual, integration of several dozen mods for both games
 2. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
-3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
+3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
 ### 10/9/2023

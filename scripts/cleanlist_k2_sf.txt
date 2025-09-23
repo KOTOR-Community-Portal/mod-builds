@@ -1,0 +1,23 @@
+Mandatory Deletions: Click Y,P_BastilaH04.tpc
+HQ Blasters by Sithspecter,C_DrdAssassin.mdl,C_DrdAssassin.mdx
+HQ Blasters by Sithspecter OR Droid Animations Fix by Zobizob,C_DrdWar.mdl,C_DrdWar.mdx
+HD War Droids by Dark Hope,C_DrdWar01.tpc,C_DrdWar02.tpc,C_DrdWar03.tpc,C_DrdWar04.tpc,C_DrdWar05.tpc
+Ultimate Character Overhaul by Shiningred,C_HK50.tpc,C_HK51.tpc
+HD Ithorians by Dark Hope,C_Ithorian01.tpc,C_Ithorian02.tpc,C_Ithorian03.tpc,N_Chodo.tpc
+Detran's Darth Revan by Detran,N_DarthRevan01.tpc
+HD Duros by Dark Hope,N_Duros.mdl,N_Duros.mdx,N_Duros01.tpc,N_Duros02.tpc,N_Duros03.tpc,N_Duros04.tpc,N_Duros05.tpc
+Mandalorian Worn-Out Armor by LordRevan999,N_Mandalorian01.tpc,N_Mandalorian02.tpc,N_Mandalorian03.tpc
+K2CP by various authors,N_Repsold.mdl,N_Repsold.mdx,N_Repsold_F.mdl,N_Repsold_F.mdx,N_RepSold_F01.tpc,N_RepSold01.tpc,N_TSFOff_F01.tpc,N_JediMalek.mdl,N_JediMalek.mdx
+Thigh-High Boots for Twi'lek by DarthParametric,N_TwilekF.mdl,N_TwilekF.mdx,N_TwilekFB01.tpc,N_TwilekFC01.tpc
+Atton Rand with Scruff by felixfelicitas,P_AttnH1.tpc,P_AttnH1D1.tpc,P_AttnH1D2.tpc
+4k Atton Rand by Constar,P_AttonBA.tpc,P_AttonBAD01.tpc
+Bao-Dur/Darth Maul by Nimduril,P_Bao_DurA.tpc,P_Bao_DurAD01.tpc,P_Bao_DurH.tpc,P_Bao_DurHD1.tpc,P_Bao_DurHD2.tpc,P_BaoDur_Arm.tpc,P_BaoDurH.mdl,P_BaoDurH.mdx
+Handmaiden - Fit and Athletic by Fair Strides AND/OR Robes With Shadows by PapaZinos,P_HandmaidBAD01.tpc,P_HandmaidenA.tpc,P_HandmaidenAD01.tpc,P_HandmaidenBA.mdl,P_HandmaidenBA.mdx,P_HandmaidenBB.mdl,P_HandmaidenBB.mdx,P_HandmaidenBD.mdl,P_HandmaidenBD.mdx,P_HandmaidenH.tpc,P_HandmaidenHD1.tpc,P_HandmaidenHD2.tpc
+[VRHK] by Kexikus,P_HK47_01.tpc
+Robes with Shadows by PapaZinos,P_Kreia1hBB.mdx,P_KreiahBB.mdx,P_KreiaBB.mdl,P_KreiaBB.mdx,P_VisasBB.mdl,P_VisasBB.mdx,PFBIM.mdl,PFBIM.mdx,PFBMM.mdl,PFBMM.mdx,PFBNM.mdl,PFBNM.mdx,PMBIM.mdl,PMBIM.mdx,PMBMM.mdl,PMBMM.mdx,PMBNM.mdl,PMBNM.mdx
+Lore-Friendly Mandalore by constantinople33,P_MandB.tpc
+Mira Unpoofed by Ashton Scorpius,P_MiraH.mdl,P_MiraH.mdx,P_MiraH.tpc,P_MiraHD1.tpc,P_MiraHD2.tpc
+T3M4 HD 2K by Darth_Sapiens,P_T3M4_01.tpc
+[HD VM] by Darth_Sapiens,P_VisasBB.tpc,P_VisasH01.tpc,P_VisasHD01.tpc,P_VisasHD02.tpc
+Visas Reduced Clipping by Feeling,P_VisasH.mdl,P_VisasH.mdx
+Darth Malak's Armor by DarthParametric,PFBM05.tpc,PMBM05.tpc

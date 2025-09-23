@@ -4,15 +4,74 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 
 ## 2025
 
+### 11/03/2025
+
+The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
+
+Highlights include:
+1. As usual, dozens of new mods for both games have been integrated
+2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
+3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as the very scary True Sith Assassins for KOTOR 2.
+5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
+6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
+
+
+The full changelog is:
+
+**KOTOR:**
+
+New Inclusions:
+1. HD Realistic Jawas
+2. HD Realistic Sand People
+3. CineMalak
+4. NPC Clothing M
+5. K2 Swoops to K1
+6. Doctors HD
+7. Kebla Yurt HD
+8. Deadeye Duncan HD
+9. N_oldAMH01 HD
+10. Davik's Trophies
+11. Kebla Yurt Renovation
+12. Yavin Station Hangar
+13. Revamped FX
+14. Darth Malak's Lightsaber
+15. Swoop Bike Upgrades
+16. Rebalanced Grenades
+17. Taris Rapid Transit
+18. Manaan Fast Travel System
+19. Sentinel Sneak Attack
+20. Improved Cantina Sitters
+21. Swoop Platform Model Repairs
+22. Multifire and Autofire and Finesse
+23. Repair Affects Stun Droid
+24. Alignment Affects Force Powers
+25. Character Textures & Model Fixes
+
+Modified:
+1. Applied Detran's Revan texture to the character's Star Forge Robes.
+2. Sith Uniform Reformation replaced by Sith Uniform Reformation Reformed, a more compatible and installer-based version of the mod with further enhancements.
+3. Isolated some crashes caused by models (current reason unknown) in Unique Sith Governor & Movie-Style Endgame Holograms for MacOS/Linux players: added warnings.
+4. Added a patch to HQ Skyboxes to fix some minor rendering issues through windows
+
+Removed:
+1. Party Model Fixes I & II (superseded by Character Textures & Model Fixes)
+2. HD Rakghouls (superseded by Character Textures & Model Fixes)
+3. Scoundrel Trouser Fix (even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So: superseded by Character Textures & Model Fixes)
+4. Improved Grenades (superceded by Rebalanced Grenades)
+5. Weapon Stats Rebalance (superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance)
+6. Sith Uniform Disguise Extension (current implementation is buggy, removed pending update/alternate implementation)
+
+
 ### 03/11/2025
 
-With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long--we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
+With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long—we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
 
 This Revision's highlights include:
 
 1. As usual, integration of several dozen mods for both games
 2. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
-3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
+3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
 ## 2023

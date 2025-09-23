@@ -45,7 +45,7 @@ If you currently have a prior mod build version installed and would like to upda
 
 ### Runtime Errors
 
-For some insane reason which I cannot even begin to fathom, on certain Nvidia cards (as far as we can tell, primarily in the RTX series and mostly 20xx and up), as well as on certain AMD cards presently of unknown version, runtime errors are beginning to generate on module transitions (anytime a load screen is proc'd), typically when cutscenes are queued to play after the load. I am still not entirely sure why this is happening, but the problem only exists on a small percentage of the affected cards, so it isn't an issue with the builds themselves. As far as we've been able to diagnose to this point, there are four ways to attempt fix this. The first involves disabling all software overlays interacting with the game: Discord overlay, Steam overlay, etc. Sometimes this can fix the problem outright. If that doesn't resolve it, if your card is Nvidia, you can go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and also seems to bypass the issue entirely on some setups. If neither of those options work, you will need to resort to workarounds each time you experience runtime error crashing (don't worry--these issues seem to be rare even for those users who experience them). The first of these workarounds is to put the game into windowed mode during the problem load screen—you can do this by going into your game folder, opening the .ini file with a text editor of your choice, and editing the line "Fullscreen=1" to =0, and adding the line "AllowWindowedMode=1" somewhere under the Graphics Options heading. The second workaround option is to rename the movies folder (don't delete it, just rename it to something like "movies1"), relaunch the game, and attempt the load again. If successful, simply rename the movies folder back when you've finished the load.
+For some insane reason which I cannot even begin to fathom, on certain Nvidia cards (as far as we can tell, primarily in the RTX series and mostly 20xx and up), as well as on certain AMD cards presently of unknown version, runtime errors are beginning to generate on module transitions (anytime a load screen is proc'd), typically when cutscenes are queued to play after the load. I am still not entirely sure why this is happening, but the problem only exists on a small percentage of the affected cards, so it isn't an issue with the builds themselves. As far as we've been able to diagnose to this point, there are four ways to attempt fix this. The first involves disabling all software overlays interacting with the game: Discord overlay, Steam overlay, etc. Sometimes this can fix the problem outright. If that doesn't resolve it, if your card is Nvidia, you can go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and also seems to bypass the issue entirely on some setups. If neither of those options work, you will need to resort to workarounds each time you experience runtime error crashing (don't worry—these issues seem to be rare even for those users who experience them). The first of these workarounds is to put the game into windowed mode during the problem load screen—you can do this by going into your game folder, opening the .ini file with a text editor of your choice, and editing the line "Fullscreen=1" to =0, and adding the line "AllowWindowedMode=1" somewhere under the Graphics Options heading. The second workaround option is to rename the movies folder (don't delete it, just rename it to something like "movies1"), relaunch the game, and attempt the load again. If successful, simply rename the movies folder back when you've finished the load.
 
 ### Total Filesize on Disk
 
@@ -107,7 +107,7 @@ ___
 
 **Author:** Emperor Devon
 
-**Description:** Another TSLRCM change I am not personally thrilled with--when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
+**Description:** Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
 
 **Masters:** TSLRCM
 
@@ -247,7 +247,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMHC03.tpc, PMHC03D1.tpc, PMHC03D2.tpc, and PMBJ02.tpc before moving to override.
+**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override.
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_wl07.tpc, NAR_fl01.tpc, and NAR_Met4.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
 
 ___
 
@@ -283,13 +283,13 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_wall03.tpc, DAN_NEW1.tpc and DAN_MWFl.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
 
 ___
 
 ### Ultimate Dxun
 
-**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105)
+**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105) and [**Patch**](https://mega.nz/file/kUZTmT6K#9Ymj028VHivAoY7RaW1mKXu1H28NvYVNfM44p5C-IIM)
 
 **Author:** ShiningRedHD
 
@@ -301,7 +301,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
 
 ___
 
@@ -529,7 +529,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch.
+**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch.
 
 ___
 
@@ -1433,7 +1433,7 @@ ___
 
 **Author:** darth_gil
 
-**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game--*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
+**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
 
 **Category & Tier:** Added Content / 2 - Recommended
 
@@ -1465,7 +1465,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic--that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red--logically, red is what Kreia would've had on hand.
+**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic—that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red—logically, red is what Kreia would've had on hand.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
@@ -1659,7 +1659,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*--remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
+**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
 
 ___
 
@@ -1827,7 +1827,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent--you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
+**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent—you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -2219,7 +2219,7 @@ ___
 
 **Description:** The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
 
-Do note--the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
+Do note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 

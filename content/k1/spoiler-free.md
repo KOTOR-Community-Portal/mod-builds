@@ -24,7 +24,7 @@ It is critical to ensure that you only have **ONE** installation of KOTOR on you
 
 ### Known Bugs
 
-* The very first cutscene (the title crawl) will always fail to play when running with upscaled movies and widescreen applied. Just watch a clip of the cutscene elsewhere--we don't know why this happens, but as far as we can tell it is unavoidable.
+* The very first cutscene (the title crawl) will always fail to play when running with upscaled movies and widescreen applied. Just watch a clip of the cutscene elsewhere—we don't know why this happens, but as far as we can tell it is unavoidable.
 * Sometimes the game will crash on load when trying to enter a new area due to a data overflow. This is uncommon and most users should never encounter it, but it is unfortunately virtually impossible to fully account for. Fortunately, it is easy to fix when it happens: simply temporarily disable the 'Frame Buffer Effects' and shadows settings in your advanced graphics options, proceed through the load screen, then re-enable the setting once on the other side.
 
 ### AMD Players
@@ -73,7 +73,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)--in this very specific case, NOT the override.
+**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 **Author:** GearHead
 
-**Description:** A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage--be warned, it can be quite a significant difficulty boost in places.
+**Description:** A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage—be warned, it can be quite a significant difficulty boost in places.
 
 **Category & Tier:** Bugfix / 3 - Suggested
 

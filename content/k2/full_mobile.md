@@ -74,7 +74,7 @@ ___
 
 **Author:** Emperor Devon
 
-**Description:** Another TSLRCM change I am not personally thrilled with--when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
+**Description:** Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
 
 **Masters:** TSLRCM
 
@@ -848,7 +848,7 @@ ___
 
 **Author:** darth_gil
 
-**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game--*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
+**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
 
 **Category & Tier:** Added Content / 2 - Recommended
 
@@ -880,7 +880,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic--that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red--logically, red is what Kreia would've had on hand.
+**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic—that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red—logically, red is what Kreia would've had on hand.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
@@ -1002,7 +1002,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files--this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
+**Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files—this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
 
 ___
 
@@ -1076,7 +1076,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*--remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
+**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
 
 ___
 
@@ -1226,7 +1226,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent--you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
+**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent—you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1522,7 +1522,7 @@ ___
 
 **Description:** The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
 
-Do note--the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
+Do note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 

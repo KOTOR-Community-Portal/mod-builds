@@ -41,7 +41,7 @@ For anyone attempting to install these builds on a Linux distro, I strongly reco
 
 ### Runtime Errors
 
-For some insane reason which I cannot even begin to fathom, on certain Nvidia cards (as far as we can tell, primarily in the RTX series and mostly 20xx and up), as well as on certain AMD cards presently of unknown version, runtime errors are beginning to generate on module transitions (anytime a load screen is proc'd), typically when cutscenes are queued to play after the load. I am still not entirely sure why this is happening, but the problem only exists on a small percentage of the affected cards, so it isn't an issue with the builds themselves. As far as we've been able to diagnose to this point, there are four ways to attempt fix this. The first involves disabling all software overlays interacting with the game: Discord overlay, Steam overlay, etc. Sometimes this can fix the problem outright. If that doesn't resolve it, if your card is Nvidia, you can go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and also seems to bypass the issue entirely on some setups. If neither of those options work, you will need to resort to workarounds each time you experience runtime error crashing (don't worry--these issues seem to be rare even for those users who experience them). The first of these workarounds is to put the game into windowed mode during the problem load screen—you can do this by going into your game folder, opening the .ini file with a text editor of your choice, and editing the line "Fullscreen=1" to =0, and adding the line "AllowWindowedMode=1" somewhere under the Graphics Options heading. The second workaround option is to rename the movies folder (don't delete it, just rename it to something like "movies1"), relaunch the game, and attempt the load again. If successful, simply rename the movies folder back when you've finished the load.
+For some insane reason which I cannot even begin to fathom, on certain Nvidia cards (as far as we can tell, primarily in the RTX series and mostly 20xx and up), as well as on certain AMD cards presently of unknown version, runtime errors are beginning to generate on module transitions (anytime a load screen is proc'd), typically when cutscenes are queued to play after the load. I am still not entirely sure why this is happening, but the problem only exists on a small percentage of the affected cards, so it isn't an issue with the builds themselves. As far as we've been able to diagnose to this point, there are four ways to attempt fix this. The first involves disabling all software overlays interacting with the game: Discord overlay, Steam overlay, etc. Sometimes this can fix the problem outright. If that doesn't resolve it, if your card is Nvidia, you can go into Nvidia control panel, open program control, and set low latency mode to on/ultra. This reduces the render queue and also seems to bypass the issue entirely on some setups. If neither of those options work, you will need to resort to workarounds each time you experience runtime error crashing (don't worry—these issues seem to be rare even for those users who experience them). The first of these workarounds is to put the game into windowed mode during the problem load screen—you can do this by going into your game folder, opening the .ini file with a text editor of your choice, and editing the line "Fullscreen=1" to =0, and adding the line "AllowWindowedMode=1" somewhere under the Graphics Options heading. The second workaround option is to rename the movies folder (don't delete it, just rename it to something like "movies1"), relaunch the game, and attempt the load again. If successful, simply rename the movies folder back when you've finished the load.
 
 ### Total Filesize on Disk
 
@@ -103,7 +103,7 @@ ___
 
 **Author:** Emperor Devon
 
-**Description:** It's hard to explain this without spoilers--basically, a character confronts your player at a certain point. At the start of this conversation, TSLRCM restores a line which radically changes the tone and impact of the confrontation. Emperor Devon--rightly, I think--concludes that this was content which was cut purposefully rather than for time constraints, and removes the spoken dialogue to restore it to the vanilla standard, where the confrontation begins silently.
+**Description:** It's hard to explain this without spoilers—basically, a character confronts your player at a certain point. At the start of this conversation, TSLRCM restores a line which radically changes the tone and impact of the confrontation. Emperor Devon—rightly, I think—concludes that this was content which was cut purposefully rather than for time constraints, and removes the spoken dialogue to restore it to the vanilla standard, where the confrontation begins silently.
 
 **Masters:** TSLRCM
 
@@ -245,7 +245,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMHC03.tpc, PMHC03D1.tpc, PMHC03D2.tpc, and PMBJ02.tpc before moving to override.
+**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override.
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_wl07.tpc, NAR_fl01.tpc, and NAR_Met4.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
 
 ___
 
@@ -283,13 +283,13 @@ ___
 
 **SPOILER WARNING:** Due to its size, I cannot reupload this mod for spoiler-prevention purposes. It spoils a location you see in the sequel. Please avoid the mod if this is a concern for you.
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_wall03.tpc, DAN_NEW1.tpc and DAN_MWFl.tpc before moving to your Override.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
 
 ___
 
 ### Ultimate Dxun
 
-**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105)
+**Name:** [Ultimate Dxun High Resolution](https://www.nexusmods.com/kotor2/mods/1105) and [**Patch**](https://mega.nz/file/kUZTmT6K#9Ymj028VHivAoY7RaW1mKXu1H28NvYVNfM44p5C-IIM)
 
 **Author:** ShiningRedHD
 
@@ -301,7 +301,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch.
+**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch.
 
 ___
 
@@ -1399,7 +1399,7 @@ ___
 
 **Author:** darth_gil
 
-**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game--*however*. One of them is hidden behind completing a quest and then re-checking a merchant's inventory (which you are never informed has updated), *and* that merchant can die, or the quest can fail in multiple other ways. I recommend using this mod, which adds an extra Thorium charge in a logical location, just to save a little bit of hassle.
+**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking a merchant's inventory (which you are never informed has updated), *and* that merchant can die, or the quest can fail in multiple other ways. I recommend using this mod, which adds an extra Thorium charge in a logical location, just to save a little bit of hassle.
 
 **Category & Tier:** Added Content / 2 - Recommended
 
@@ -1733,7 +1733,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** A really neat mod which makes a medical bay you encounter a little bit more coherent--the occupants are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
+**Description:** A really neat mod which makes a medical bay you encounter a little bit more coherent—the occupants are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -2098,13 +2098,13 @@ ___
 
 ### TOMB
 
-**Name:** [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB/releases/download/v1.0.0/KOTOR2-Tomb_v1.0.0_spoiler-free.zip)
+**Name:** [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB/releases/download/v1.0.3/KOTOR2-TOMB_v1.0.3_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
 **Description:** This mod serves to fix many idiosyncrasies with a very specific module of the game, as well as adding more player agency and dynamism to the sequence. I unfortunately can't be more detailed than that.
 
-Do note--this mod is quite difficult. Winning the fights it amends *is not mandatory*, however, and you will still be able to continue even if you lose one or more of the encounters. The area these fights are contained in is also entirely optional.
+Do note—this mod is quite difficult. Winning the fights it amends *is not mandatory*, however, and you will still be able to continue even if you lose one or more of the encounters. The area these fights are contained in is also entirely optional.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
