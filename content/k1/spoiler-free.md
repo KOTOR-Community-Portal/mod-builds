@@ -74,7 +74,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)--in this very specific case, NOT the override.
+**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 **Author:** GearHead
 
-**Description:** A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage--be warned, it can be quite a significant difficulty boost in places.
+**Description:** A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage—be warned, it can be quite a significant difficulty boost in places.
 
 **Category & Tier:** Bugfix / 3 - Suggested
 
@@ -1094,7 +1094,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
 
 ___
 
@@ -3022,7 +3022,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Okay, the last one was cool--this one is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy--there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+**Description:** Okay, the last one was cool—this one is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
 
 **Category & Tier:** Mechanics Change & Immersion / 1 - Essential
 
@@ -3098,7 +3098,7 @@ ___
 
 **Spoiler Warning:**
 
-**Description:** Redrob is a quiet legend within the scene, who disappears for years and pops back up with projects nobody expects but which become instant classics. Welcome to the latest. This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all--Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
+**Description:** Redrob is a quiet legend within the scene, who disappears for years and pops back up with projects nobody expects but which become instant classics. Welcome to the latest. This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
 
 **Category & Tier:** Graphics Improvement / 1 - Essential
 

@@ -65,13 +65,13 @@ Removed:
 
 ### 03/11/2025
 
-With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long--we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
+With apologies for the very long delay, we are back! Revision 11 is now live. This Revision marks the beginning of a paradigm shift in the design of the mod builds, refocusing on integrating content created specifically for the mod builds (this, coincidentally, is why this release took so long—we were making mods!). While we will always include any new content we see that we believe meets the mod builds' standards, henceforth we are going to be placing a much greater emphasis on bringing in content intentionally designed to compliment the mod builds. This Revision is a bit of a hybrid between the two concepts, but the next Revision will focus heavily on custom content. But that's for the future!
 
 This Revision's highlights include:
 
 1. As usual, integration of several dozen mods for both games
 2. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
-3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus--KOTOR 2's "TOMB"
+3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
 ## 2023

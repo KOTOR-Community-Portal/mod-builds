@@ -40,7 +40,7 @@ ___
 
 ### Will you be available to troubleshoot installation issues/mod compatibility/problems I'm having with these builds?
 
-Yes, of course. The fastest way to get in touch with me is to join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can [send me a PM on Deadlystream](https://deadlystream.com/profile/24368-snigaroo/) or reach out on the Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
+Yes, of course. The fastest way to get in touch with me is to join the KOTOR [Discord](https://discord.gg/kotor) and post in the #tech_support channel—I'll get back to you as soon as I can. Alternatively, for a slower but possibly more convenient response, you can [send me a PM on Deadly Stream](https://deadlystream.com/profile/24368-snigaroo/) or reach out on the Steam Guide for the version of the build you're currently using. I might not be able to fix your problem, but I can at least try to pinpoint what's happening.
 
 
 ## Content
@@ -76,4 +76,4 @@ ___
 
 ### I want to use a mod that's not part of the build alongside the build, but I don't know if it's compatible/when to install it. What should I do?
 
-Ask me, either in the [Discord](https://discord.gg/kotor), via PM on [Deadlystream](https://deadlystream.com/profile/24368-snigaroo/), or on the Steam guide of your chosen build. Link me to the mod(s) in question and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
+Ask me, either in the [Discord](https://discord.gg/kotor), via PM on [Deadly Stream](https://deadlystream.com/profile/24368-snigaroo/), or on the Steam guide of your chosen build. Link me to the mod(s) in question and I'll take a glance at it and see what I can find out. There are quite a few mods that are incompatible with these builds, and if it's one of them I'll let you know. If I either don't know of it or don't use it personally but think it will work, I'll tell you where in the install order I think you should put it, but be aware that it'll only be an educated guess and you might run into trouble.
