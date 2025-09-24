@@ -42,6 +42,8 @@ For unknown reasons, the Amazon Games version of KOTOR has a modified executable
 
 ### Linux Players
 
+Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. We recommend installing the builds fully and then batch-renaming all the folders and files within your install directory (and subfolders, etc.) to ensure that all files are present and renamed properly before starting.
+
 Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
 
 ### Total Filesize on Disk
