@@ -884,7 +884,7 @@ ___
 
 **Author:** Salk
 
-**Description:** Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance. This was cut from the final release, but there's still some information about what they were intended to be. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.
+**Description:** Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.
 
 **Category & Tier:** Restored Content / 4 - Optional
 
