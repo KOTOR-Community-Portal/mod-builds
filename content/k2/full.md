@@ -46,7 +46,7 @@ Most Linux players appear to be using Proton these days, and for those that do t
 
 ### Total Filesize on Disk
 
-For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 6.5GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 15.5GB. The total size of the install when extracted (plus HD movies in 1920x1080 resolution) is approximately 35GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
+For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 6.5GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 15.5GB. The total size of the install when extracted (plus HD movies (Pops Maellard's version) in 1920x1080 resolution) is approximately 35GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
 
 ## Optional Install Assistant - Quicker TSLPatching
 
