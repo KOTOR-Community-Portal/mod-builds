@@ -44,14 +44,6 @@ Most Linux players appear to be using Proton these days, and for those that do t
 
 For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 6.5GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total size of the install when extracted (plus HD movies in 1920x1080 resolution) is approximately 37GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
 
-## CRITICAL: PC Version Differences & Fixes
-
-KOTOR 2 has an update on Steam and GoG which adds native controller and widescreen support. While this is helpful, it's unfortunately caused several other problems: lightsaber hilt texture mods don't function with the new version, some effects like fog have been removed, save games are sometimes lost temporarily, it can cause or exacerbate issues with in-game dialogue skipping, and rarely users experience extreme and irreparable stuttering and screen tear.
-
-Most of these problems are fixable, or at least have workarounds. For example, to ensure saves aren't lost, disable cloud saves; to fix skipping dialogue, simply restart the game whenever it begins happening. With that said, there is no workaround for using lightsaber hilt textures that doesn't break the game, and none at all for the rare irreparable stuttering, without reverting the patch.
-
-I **actively recommend against reverting the patch** until you test to identify if you experience any errors; a few minutes in the game's first level will tell you whether you have any of the bad ones, and you should check before you begin modding. Even if you have some minor problems, unless you have major stuttering/screen tear and are on a 1920x1080 or 1680x1050 display (the only display resolutions which are supported for manual widescreen patching) I would recommend against reversion, as the widescreen support will probably more than compensate for any other issues. Nevertheless, should you choose to do so anyway, the reversion itself is easy. For Steam, simply navigate to KOTOR 2 in your Steam library, right-click and select properties, go to Betas and opt in to the "legacypc" beta; for GoG, you must be using the GoG Galaxy launcher, go to the game's options in GOG Galaxy, then Manage Installation, then Configure, and you can switch to the old version. This step will need to be completed *before* you begin modding. After the reversion is completed, provided you are playing in 1920x1080 or 1680x1050 you can manually restore widescreen functionality via UniWS—there will be a link to a video guide for doing so at the end of this build.
-
 ## Optional Install Assistant - Quicker TSLPatching
 
 Because of the way KOTOR mods install, it's virtually impossible to have a true mod manager/installer hybrid like those you may be familiar with for other games, like MO2 or FOMM. The best we can really get are tools to accelerate installations, of which one is supported for the mod builds.
@@ -68,7 +60,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be on some more obscure storefronts like the Amazon Games version of KOTOR 2, but we haven't been able to find anyone who owns it there to confirm--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
 
-As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are the possibility of losing savegames (this can be entirely avoided just by turning off cloud saves), and what can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. It's like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
+As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are the possibility of losing savegames (this can be entirely avoided just by turning off cloud saves), and what can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. This is different than memory leak-related dialogue skipping, if you're familiar with that in the context of KOTOR. It's more like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
 
 All of the above is being brought up now for two important reasons: first, if you're using the Aspyr patch, you *must* apply the fix packages linked further down in this section for this build to function properly. And second, if your game version *isn't* using the Aspyr version, you need to decide whether or not you want it to be.
 
@@ -110,7 +102,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Known Bugs:** This mod causes some strong light reflections below the grates on Citadel Station, but the mod author is looking into resolving this.
+**Known Bugs:** This mod causes some strong light reflections in a single area where it should not (Citadel Station), but the mod author is looking into resolving this.
 
 ___
 
@@ -120,7 +112,7 @@ ___
 
 **Author:** J
 
-**Description:** Inexplicably, Force cages were given certain water texture properties which caused them to generate horrid visual lag whenever the player's camera faced their direction. This simple mod removes this property to resolve the issue, and also optionally enhances the force cage's model and texture
+**Description:** Inexplicably, Force Cages (basically space prison cells) were given certain water texture properties which caused them to generate horrid visual lag whenever the player's camera faced their direction. This simple mod removes this property to resolve the issue, and also optionally enhances the force cage's model and texture
 
 **Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
 
@@ -131,6 +123,22 @@ ___
 **Download Instructions:** Download just forcecage_updated_1.1.0.zip
 
 ## Mod List
+
+### 4GB Patcher
+
+**Name:** [4GB Patcher](https://ntcore.com/?page_id=371)
+
+**Author:** Daniel Pistelli
+
+**Description:** This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since KOTOR is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughput this build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
+
+**Category & Tier:** Patch / 1 - Essential
+
+**Installation Method:** Executable
+
+**Installation Instructions:**  This step should only be performed if you are not on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version.
+
+___
 
 ### TSLRCM
 
@@ -2184,24 +2192,6 @@ Do note—this mod is quite difficult. Winning the fights it amends *is not mand
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher
-
-___
-
-### 4GB Patcher
-
-**Name:** [4GB Patcher](https://ntcore.com/?page_id=371)
-
-**Author:** Daniel Pistelli
-
-**Description:** This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since KOTOR is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughput this build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
-
-**Category & Tier:** Patch / 1 - Essential
-
-**Installation Method:** Executable
-
-**Installation Instructions:** If you are not on Steam or GoG or have rolled your game back to the legacypc beta and intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
-
-If you are on Steam or GoG and DO NOT intend to downpatch and manually apply widescreen, you can apply this patch now.
 
 ## Optional Widescreen
 
