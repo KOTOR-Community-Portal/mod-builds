@@ -136,7 +136,7 @@ ___
 
 **Installation Method:** Executable
 
-**Installation Instructions:**  This step should only be performed if you are not on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version.
+**Installation Instructions:**  This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version.
 
 ___
 
