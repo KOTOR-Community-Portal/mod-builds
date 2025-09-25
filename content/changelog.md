@@ -44,9 +44,10 @@ New Inclusions:
 20. Improved Cantina Sitters
 21. Swoop Platform Model Repairs
 22. Multifire and Autofire and Finesse
-23. Repair Affects Stun Droid
-24. Alignment Affects Force Powers
-25. Character Textures & Model Fixes
+23. JC's Blaster Adjustment
+24. Repair Affects Stun Droid
+25. Alignment Affects Force Powers
+26. Character Textures & Model Fixes
 
 Modified:
 1. Applied Detran's Revan texture to the character's Star Forge Robes.
