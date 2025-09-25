@@ -1,6 +1,6 @@
 # Mod Build Changelog
 
-Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern! If you want to see how frequently the install instructions are amended, you can check how recently the Nexus versions have had their downloads section updated.
+Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern!
 
 ## 2025
 
