@@ -136,7 +136,7 @@ ___
 
 **Installation Method:** Executable
 
-**Installation Instructions:**  This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version.
+**Installation Instructions:**  This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version. Just like 3C-FD, since the Mac Appstore version is not an executable, this program cannot be utilized on the Mac Appstore edition of the game.
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 ### TSLRCM Tweak Pack
 
-**Name:** [TSLRCM Tweak Pack](https://mega.nz/file/oZQTBKDB#tVIzlkuZsO9RT90shcSkhZhOzaD071wmKlNvpNmvwF4)
+**Name:** [TSLRCM Tweak Pack](https://mega.nz/file/sMxHmA4Z#i8SH1imRA6s7Rh5EAdrY5SRPO7UaDCdvdsfECh0Evew)
 
 **Author:** Pavijan (update by Fair Strides)
 
@@ -174,7 +174,7 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Dialogue Tweak, Mandalore Conversation, and Extra 1 - SLM.
+**Installation Instructions:** The installer for this mod will need to be run 6 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Dialogue Tweak, Mandalore Conversation, and Extra 1 - SLM.
 
 ___
 
