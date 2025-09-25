@@ -6,9 +6,15 @@ If you were linked to this list directly without reading the install instruction
 
 ### Zeroing Step
 
-Unless you have *freshly* installed the game or have never installed KOTOR previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
+Unless you have *freshly* installed the game or have never installed KOTOR 2 previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. A significant amount of troubleshooting support we offer is the result of leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
 
 Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is possible, and therefore necessary for a functional install.
+
+### KOTOR 2 on Steam
+
+If you are playing KOTOR 2 on Steam, *please* check that you're not subscribed to any content on the Workshop--yes, even if you're double-triple-super positive you're not, or you've never even played the game before. At least 2-3 times a month we have people come in asking for tech support swearing that they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. Unless you bought KOTOR 2 like yesterday, it's critical to double-check this--it's not fun to find out that you were subbed to something after you start your game.
+
+Checking is very simple: just go to your Steam library, right-click KOTOR 2 and select properties, then go to the Workshop tab and confirm nothing appears in the list. Doing this not only helps you avoid major errors during the install process, it also helps us to help you in the event that something goes wrong with your install, because we'll know immediately that the Workshop isn't the problem.
 
 ### TSLPatcher Installation Requirements
 
