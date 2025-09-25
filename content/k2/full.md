@@ -128,6 +128,22 @@ ___
 
 ## Mod List
 
+### 4GB Patcher
+
+**Name:** [4GB Patcher](https://ntcore.com/?page_id=371)
+
+**Author:** Daniel Pistelli
+
+**Description:** This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since KOTOR is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughput this build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
+
+**Category & Tier:** Patch / 1 - Essential
+
+**Installation Method:** Executable
+
+**Installation Instructions:**  This step should only be performed if you are not on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version.
+
+___
+
 ### TSLRCM
 
 **Name:** [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
@@ -2313,24 +2329,6 @@ ___
 **Download Instructions:** Use the .tpc versions.
 
 **Installation Instructions:** Use the versions which correspond with the player versions you used when installing Player & Party Underwear. Remember that females can use both the Dancer Muscles fix and an additional default. The red shoe versions are optional.
-
-___
-
-### 4GB Patcher
-
-**Name:** [4GB Patcher](https://ntcore.com/?page_id=371)
-
-**Author:** Daniel Pistelli
-
-**Description:** This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since KOTOR is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughput this build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
-
-**Category & Tier:** Patch / 1 - Essential
-
-**Installation Method:** Executable
-
-**Installation Instructions:** If you are not on Steam or GoG or have rolled your game back to the legacypc beta and intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
-
-If you are on Steam or GoG and DO NOT intend to downpatch and manually apply widescreen, you can apply this patch now.
 
 ## Optional Widescreen
 
