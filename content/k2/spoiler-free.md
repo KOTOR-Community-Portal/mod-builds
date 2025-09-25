@@ -38,7 +38,7 @@ Most Linux players appear to be using Proton these days, and for those that do t
 
 For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 6.5GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total size of the install when extracted (plus HD movies in 1920x1080 resolution) is approximately 37GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
 
-## IMPORTANT: PC Version Notes & Fixes
+## CRITICAL: PC Version Differences & Fixes
 
 KOTOR 2 has an update on Steam and GoG which adds native controller and widescreen support. While this is helpful, it's unfortunately caused several other problems: lightsaber hilt texture mods don't function with the new version, some effects like fog have been removed, save games are sometimes lost temporarily, it can cause or exacerbate issues with in-game dialogue skipping, and rarely users experience extreme and irreparable stuttering and screen tear.
 
@@ -55,6 +55,74 @@ Because of the way KOTOR mods install, it's virtually impossible to have a true 
 [**Quicker TSLPatching**](https://www.nexusmods.com/kotor/mods/1214?tab=description) is a system workaround (specifically a registry edit) which makes it easier to install mods. This script *will not work* on Mac operating systems (neither Linux, I believe) not running Windows on a partition, but there are some comments in the Posts section of the download page that might offer alternatives that allow it to function properly.
 
 This mod features no level of automation, and only serves to speed up the install process of mods installed via the TSLPatcher executable. Mods will frequently use the TSLPatcher to install, and the TSLPatcher often requires you to manually point the installer at your game's base installation directory. Sometimes the patchers do this automatically, but sometimes they fail, which is where this script comes in; it'll create a symlink to your KOTOR and KOTOR 2 install directories direct to your desktop, where the TSLPatcher defaults to pointing, so you only need to scroll down and click the folder to install without navigating through your system's file structure to find the game folder. The script is confirmed safe and once your install is complete you can delete the desktop folders with no problems. To install, you only need to run the script and follow the instructions it presents, choosing your KOTOR directory in the first popup window and your KOTOR 2 directory in the second. If the script does not function for you, check the Posts section of the mod download page to see some alternate suggestions for manually forcing the functionality of the script.
+
+## CRITICAL: PC Version Differences & Fixes
+
+**Your entire install could be unstable if the information in this step is not taken into account**. I hope that's gotten everyone's attention, because it really is that important. This section will be a bit long by necessity, but it is critical.
+
+KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be on some more obscure storefronts like the Amazon Games version of KOTOR 2, but we haven't been able to find anyone who owns it there to confirm--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
+
+As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are the possibility of losing savegames (this can be entirely avoided just by turning off cloud saves), and what can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. It's like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
+
+All of the above is being brought up now for two important reasons: first, if you're using the Aspyr patch, you *must* apply the fix packages linked further down in this section for this build to function properly. And second, if your game version *isn't* using the Aspyr version, you need to decide whether or not you want it to be.
+
+Unlike the original KOTOR, where the widescreen application is so good that running it actually makes the game *more* stable, the same is very much not true of KOTOR 2. KOTOR 2's widescreen potential through UniWS is constrained to an extremely small number of resolutions, and the UniWS application for KOTOR 2 is extremely outdated, causing gradual save corruption and eventually wrecking the player's ability to load their saves. If that was gobbledygook to you, tl;dr *if you don't use the Aspyr patch, you can't apply widescreen to your game safely*. So even though it has some issues, if you either want widescreen support or to have controller support for your game and are not on GoG/Steam/Mac Appstore, you NEED to apply the Aspyr patch to your game copy. My personal recommendation, having played KOTOR 2 an embarassing 35+ times on the legacy version and a single time on the Aspyr version with J's fixes, is to use the Aspyr version if you can. No, it isn't perfect. But the better stability it affords is well worth the few annoying bugs it creates. If you want to use it, you can install it from the link provided by Tarhiel in [this thread on the GoG forums](https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/post58). We've checked the files and confirmed that they are just a copy of the Aspyr patch: just extract the files and move them directly into your KOTOR 2 game folder, overwriting when prompted, and you will update your install to the Aspyr version.
+
+For those who have the Aspyr patch installed, the below are the fixes which must be applied in order for this build to function normally:
+
+### 3C-FD Patcher
+
+**Name:** [3C-FD Patcher](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
+
+**Author:** J
+
+**Description:** Actual unadulterated black magic fuckery that fixes a huge number of the persistent and glaring problems of the Aspyr patch.
+
+**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
+
+**Installation Method:** Executable
+
+**Compatibility Warning:** If you didn't read the wall of text that preceded this mod, you can brick your entire install here. You'd seriously better not have just skipped straight here.
+
+Ensure to only use this if on the most recent Steam/GoG patch, or if having manually applied the Aspyr patch to your game! Also ensure your executable is a fresh copy with no edits: it CANNOT have a 4GB/Large Address Aware patch already applied to it (this mod adds that patch). Finally, please note that **this mod cannot be utilized on the Mac Appstore version of the game**, since it doesn't launch via an executable; for Mac Appstore players, you will unfortunately need to play without these fixes. Since your games will not have the capacity to use 4GB of RAM, we recommend against utilizing the "Ultimate" series of upscales included later in this install, as a stability measure. Without the upscales, the Mac Appstore version should still be able to run the rest of the build without memory issues.
+
+When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/kotormods/tree/main/C3-FD_patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
+
+___
+
+### Water Restoration
+
+**Name:** [Water Restoration](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
+
+**Author:** J
+
+**Description:** Restores many of the water effects which were removed with the Aspyr patch.
+
+**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Known Bugs:** This mod causes some strong light reflections below the grates on Citadel Station, but the mod author is looking into resolving this.
+
+___
+
+### Stutter Fix
+
+**Name:** [Stutter Fix and Force Cage Update](https://deadlystream.com/files/file/2699-stutter-fix-and-force-cage-update/)
+
+**Author:** J
+
+**Description:** Inexplicably, Force cages were given certain water texture properties which caused them to generate horrid visual lag whenever the player's camera faced their direction. This simple mod removes this property to resolve the issue, and also optionally enhances the force cage's model and texture
+
+**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Download just forcecage_updated_1.1.0.zip
 
 ## Mod List
 
