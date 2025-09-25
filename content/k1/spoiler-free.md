@@ -824,7 +824,7 @@ ___
 
 **Author:** Detran
 
-**Description:** Drastically improves the overall graphical quality of Revan, Malak's old Sith Master. Just as with the above mod, the screenshots really don't do this mod justice, the texture is excellent.
+**Description:** Drastically improves the overall graphical quality of Revan, Malak's previous Sith Master. Just as with the above mod, the screenshots really don't do this mod justice, the texture is excellent.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
