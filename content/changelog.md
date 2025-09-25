@@ -70,7 +70,7 @@ New Inclusions:
 1. Classic Class Attack Bonus
 
 Modified:
-1. Bugfixes to Thematic KOTOR 2 Companions which left the Sith Assassin edition of Visas with much higher skill points than she should have had
+1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
 
 Removed:
 1. No Mines on Malachor, Only Gas: integrated into Morty's mine enhancement
