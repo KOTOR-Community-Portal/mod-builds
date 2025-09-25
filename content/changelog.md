@@ -56,12 +56,29 @@ Modified:
 4. Added a patch to HQ Skyboxes to fix some minor rendering issues through windows
 
 Removed:
-1. Party Model Fixes I & II (superseded by Character Textures & Model Fixes)
-2. HD Rakghouls (superseded by Character Textures & Model Fixes)
-3. Scoundrel Trouser Fix (even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So: superseded by Character Textures & Model Fixes)
-4. Improved Grenades (superceded by Rebalanced Grenades)
-5. Weapon Stats Rebalance (superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance)
-6. Sith Uniform Disguise Extension (current implementation is buggy, removed pending update/alternate implementation)
+1. Party Model Fixes I & II: superseded by Character Textures & Model Fixes
+2. HD Rakghouls: superseded by Character Textures & Model Fixes
+3. Scoundrel Trouser Fix: even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So, effectively, superseded by Character Textures & Model Fixes
+4. Improved Grenades: superceded by Rebalanced Grenades
+5. Weapon Stats Rebalance: superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance
+6. Sith Uniform Disguise Extension: current implementation is buggy, removed pending update/alternate implementation
+
+
+**KOTOR 2:**
+
+New Inclusions:
+1. Classic Class Attack Bonus
+
+Modified:
+1. Bugfixes to Thematic KOTOR 2 Companions which left the Sith Assassin edition of Visas with much higher skill points than she should have had
+
+Removed:
+1. No Mines on Malachor, Only Gas: integrated into Morty's mine enhancement
+2. Crazy's New Lightsaber Blade Model: superceded by J's Enhanced Lightsaber Hilt Variety
+3. Luxa Fix: integrated & improved in Redrob's Model and Texture Fixes
+4. Player & Party Underwear: mostly integrated in Redrob's Model & Texture Fixes
+5. Player & Party Underwear + UCO Patch: ditto above
+6. Treat Injury Affects Force Healing: Integrated into Alignment Affects Force Powers
 
 
 ### 03/11/2025
