@@ -1616,24 +1616,6 @@ ___
 
 ___
 
-### Short-Term Memory Fix
-
-**Name:** [Vaklu Short-Term Memory Fix](https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/)
-
-**Author:** SuperChameau
-
-**Description:** In your dialogue with Vaklu when supporting him as your candidate for the Onderon throne, he virtually repeats himself verbatim in two sentences back-to-back. I see some grey on those temples man, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. This change is fully voiced using original voice work thanks to dialogue splicing.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** NO
-
-**Installation Method:** HoloPatcher Mod
-
-**Installation Instructions:** Recommend Drew's fix, as it preserves more of the original dialogue.
-
-___
-
 ### Onderon News Makes Sense
 
 **Name:** [Onderon News Make Sense](https://deadlystream.com/files/file/2655-onderon-news-make-sense/)
