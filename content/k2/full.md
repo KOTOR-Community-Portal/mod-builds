@@ -1,4 +1,4 @@
-<img width="665" height="141" alt="image" src="https://github.com/user-attachments/assets/5087b573-7cf5-43d6-9840-b4491d9a85f3" /># KOTOR 2 Full Build
+KOTOR 2 Full Build
 
 ## Installation Notes
 
