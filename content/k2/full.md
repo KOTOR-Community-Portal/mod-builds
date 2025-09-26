@@ -1884,6 +1884,24 @@ ___
 
 ___
 
+### Mines Overhaul
+
+**Name:** [Mines Overhaul](https://deadlystream.com/files/file/2753-mines-overhaul-tsl/)
+
+**Author:** offthegridmorty
+
+**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Recommend running all three options, the main install first and then the two optionals.
+
+___
+
 ### No Health Regeneration
 
 **Name:** [No Health Regeneration](https://deadlystream.com/files/file/2530-no-health-regeneration/)
@@ -1983,6 +2001,64 @@ ___
 **Installation Method:** TSLPatcher
 
 **Installation Instructions:** Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
+
+___
+
+### Jekk'Jekk'Tarr Thugs
+
+**Name:** [Better Jekk'Jekk'Tarr Thugs](https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/)
+
+**Author:** SuperChameau
+
+**Description:** The thugs in the Jekk'Jekk'Tarr, despite many of them being bounty hunters in a seedy bar, for the most part didn't carry any weapons at all. This mod fixes that, giving the patrons weapons with which to defend themselves.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher
+
+**Masters:** TSLRCM
+
+___
+
+### Logical Jekk'Jekk Tarr
+
+**Name:** [Logical Jekk'Jekk'Tarr](https://deadlystream.com/files/file/2790-logical-jekkjekk-tarr/)
+
+**Author:** N-DReW25
+
+**Description:** The Jekk'Jekk'Tarr sequence in the vanilla game, and even in TSLRCM, has a lot of problems. The most glaring was the player's ability to enter the bar without suffering severe ill-effects, even though dialogue elsewhere suggested that even skin contact would be nearly instantly fatal. This mod resolves almost all of the idiosyncracies of the sequence in a very lore-friendly and logical way.
+
+**Category & Tier:** Bugfix & Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher
+
+**Masters:** TSLRCM
+
+**Installation Instructions:** Install part 1 and then part 2, then, if using Better Jekk'Jekk Tarr Thugs, also install the compatch.
+
+___
+
+### Mira's Vanilla Escape
+
+**Name:** [Mira's Vanilla Escape for TSLRCM](https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/)
+
+**Author:** WildKarrde
+
+**Description:** TSLRCM edits the scene with Mira escaping the tunnels beneath the Jekk'Jekk'Tarr, restoring one scene but, in the process, removing another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process.
+
+**Category & Tier:** Restored Content / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher
+
+**Masters:** TSLRCM
+
+**Installation Instructions:** I recommend the "With Additional Scene" option for maximum restored content and internal consistency for the sequence.
 
 ___
 
