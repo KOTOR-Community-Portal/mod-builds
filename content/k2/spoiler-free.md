@@ -1756,6 +1756,24 @@ ___
 
 ___
 
+### Mines Overhaul
+
+**Name:** [Mines Overhaul](https://deadlystream.com/files/file/2753-mines-overhaul-tsl/)
+
+**Author:** offthegridmorty
+
+**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Recommend running all three options, the main install first and then the two optionals.
+
+___
+
 ### No Health Regeneration
 
 **Name:** [No Health Regeneration](https://deadlystream.com/files/file/2530-no-health-regeneration/)
@@ -1855,6 +1873,64 @@ ___
 **Installation Method:** TSLPatcher
 
 **Installation Instructions:** Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
+
+___
+
+### JJT Thugs
+
+**Name:** [Better JJT Thugs](https://mega.nz/file/RJQUXAra#Uvg3QIizZCtb8ExDO3NI3o3UgB95hFbdD5LSaCXGijk)
+
+**Author:** SuperChameau
+
+**Description:** At one point, you can go to a seedy bar with a lot of rough patrons, to put it lightly. In vanilla, these patrons often didn't have any weapons to defend themselves. This mod gives them sidearms. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher
+
+**Masters:** TSLRCM
+
+___
+
+### Logical JJT
+
+**Name:** [Logical JJT](https://mega.nz/file/sNRh2RAA#BVWoWDVvu2Yr2ND3rxbMN0oPPxAp6p0_sqZwtujIVfo)
+
+**Author:** N-DReW25
+
+**Description:** It's difficult to explain this without spoilers, but in brief the same bar referenced in the above mod has *significant* continuity and consistency errors associated with it, and this mod fixes all of them, thereby making interactions with the bar much more sensible for the player.
+
+**Category & Tier:** Bugfix & Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher
+
+**Masters:** TSLRCM
+
+**Installation Instructions:** Install part 1 and then part 2, then, if using Better JJT Thugs, also install the compatch.
+
+___
+
+### Mira's Vanilla Escape
+
+**Name:** [Mira's Vanilla Escape for TSLRCM](https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/)
+
+**Author:** WildKarrde
+
+**Description:** Although this mod does contain some spoilers, I think it's safe enough for you to read the description up to the "LIST OF MINOR FIXES/ENHANCEMENTS" section, and have left it uncensored as a result. Long story short, there's a scene TSLRCM restores but, in the process, it removes another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process.
+
+**Category & Tier:** Restored Content / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher
+
+**Masters:** TSLRCM
+
+**Installation Instructions:** I recommend the "With Additional Scene" option for maximum restored content and internal consistency for the sequence.
 
 ___
 
