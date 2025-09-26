@@ -202,6 +202,22 @@ ___
 
 ___
 
+### Better Czerka Salvager
+
+**Name:** [Fixed / Better Czerka Salvager](https://deadlystream.com/files/file/2576-fixed-better-czerka-salvager/)
+
+**Author:** OzilsEyes
+
+**Description:** You'll eventually encounter a salvager who needs to be saved. While you *can* just opt to kill him, if you're not a psychopath you can choose to save him. But this is a mistake. He has pathfinding so bad it would make the worst escort quest target in history blush in embarassment. This mod by Ozils is an outright lifesaver, applying much-enhanced follower logic to the salvager and automatically teleporting him to the party if you get too far away, so you can guide him to where he needs to go very easily.
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher
+
+___
+
 ### PFHC06 Fix
 
 **Name:** [PFHC06 Fix](https://deadlystream.com/files/file/1442-pfhc06-fix/)
@@ -1040,11 +1056,11 @@ ___
 
 ### Mines Overhaul
 
-**Name:** [Mines Overhaul](https://deadlystream.com/files/file/2753-mines-overhaul-tsl/)
+**Name:** [Mines Overhaul](https://mega.nz/file/sYpUDAZb#svmp8QVcVcOtXe5InWw2kMYT-lcQPyhlz-rutAItqhc)
 
 **Author:** offthegridmorty
 
-**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!
+**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so! Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1304,6 +1320,42 @@ ___
 
 ___
 
+### True [SA]
+
+**Name:** [True SA](https://mega.nz/file/ZNBXEBzQ#paC-xJTpC7xP8baTTwsT-WW9UQytlUuaTETD75atuco)
+
+**Author:** offthegridmorty
+
+**Description:** This mod can be considered an add-on to SAwL. It does work differently and can be used standalone (I actively recommend using it even if you choose not to use SAwL), but for the most part it is basically a realism/difficulty enhancement to SAwL. It enhances realism by adding a stealth feature to the same challenge which is modified in SAwL, gives the challenge certain Sneak Attack feats (they should logically have had these), and also forces the player and party to actively roll Awareness to detect the threats. This might sound like, combined with SAwL, it would be insane--and, normally, it would be. I recommend using the reduced difficulty option in this mod so you can have the realism without an unsurvivable difficulty spike.
+
+**Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run HoloPatcher
+
+**Installation Instructions:** I recommend the reduced difficulty option if using SAwL, but without SAwL you should be fine to use the full version of this mod, though it will give a similar level of challenge as using SAwL alone. Remember to also apply the compatch for SAwL after running the main install option of your choice, if using SAwL.
+
+___
+
+### For Mandalore!
+
+**Name:** [For Mandalore!](https://deadlystream.com/files/file/2666-for-mandalore/)
+
+**Author:** offthegridmorty
+
+**Description:** This is a neat mod by Morty which gives the player the ability to summon Mandalorian reinforcements to support them after a certain point in the story, where it makes sense for them to gain access to this support. However normally this would be too overpowered and kind of out-of-place. Morty has however graciously made an install option specifically for use in the mod builds which only adds the Mandalorian support squads to a very narrow and specific sequence lategame, where it makes sense for them to be present and available to come assist the player.
+
+**Category & Tier:** Mechanics Change & Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher
+
+**Installation Instructions:** Strongly recommend using the Snigaroo Cut for balance and immersion's sake.
+
+___
+
 ### Peragus Medical Bay Enhancement
 
 **Name:** [Peragus Medical Bay Enhancement](https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/)
@@ -1335,6 +1387,26 @@ ___
 **Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
+
+___
+
+### Droid Model Fix
+
+**Name:** [Droid Models Animation Fix](https://deadlystream.com/files/file/2748-droid-models-animation-fix/)
+
+**Author:** CaptainSpoque
+
+**Description:** By default there are several droid NPCs in both KOTOR games which have no animations set for them to dodge, which causes them to just sort of freeze whenever the player attacks them but doesn't land a hit. I've noticed this for years and never realized what it was, but Spoque has put together a package here that adds the dodges to the droid models and fixes them freezing mid-fight.
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Known Bugs:** This mod breaks some death animations (droids stand straight up after death, for example). I only found this happening to a single droid, though, so I believe the fixes this mod provides outweighs the bugs, which have already been reported and hopefully will soon be fixed.
+
+**Installation Instructions:** Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 
 ___
 
@@ -1406,6 +1478,26 @@ ___
 
 ___
 
+### Consistent Bastila Recognition
+
+**Name:** [Consistent Bastila Recognition](https://mega.nz/file/4VomiLIL#Sr8tbGz44_Eleh_Uk2_JpWozmAflgltHYMoC2kpVCpc)
+
+**Author:** Leilukin
+
+**Description:** Without giving too much away, the KOTOR 2 protagonist knows who Bastila is, and correctly identifies her, but misidentifies her another time, when it should have always been obvious who she was. This mod fixes the issue and causes the player to properly identify Bastila both times.
+
+**Category & Tier:** Immersion / 2 - Recommended
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
+
+**Masters:** TSLRCM
+
+**Installation Instructions:** Run the patcher using the Default install option. Expanded Ending is not compatible with mobile.
+
+___
+
 ### Handmaiden Fit Model
 
 **Name:** [Handmaiden - Fit and Athletic](http://deadlystream.com/files/file/846-handmaiden-fit-and-athletic/) and [**Patch**](https://mega.nz/#!gcxRTYTJ!ILbLFRyGEr4lGZYDOLN_Qg17fCm-TJw4Y1RDuy4WiWI)
@@ -1439,6 +1531,24 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Install the TSLRCM option.
+
+___
+
+### Vibrocutter Changes
+
+**Name:** [Vibrocutter Changes](https://deadlystream.com/files/file/2670-vibrocutter-changes/)
+
+**Author:** Lewok2007
+
+**Description:** This is just a thing what bothers me, from a game design perspective. Immediately after the prologue the player is given a weapon, but then they get a new and better weapon weapon immediately after, *before* facing any enemies with the first weapon. This mod moves the better weapon onto an enemy, so the player has to beat them with the first weapon before they can switch to the better option.
+
+**Category & Tier:** Immersion / 4 - Option
+
+**Non-English Functionality:** YES, however some text will be in English
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the enemy with a worse weapon option.
 
 ___
 
@@ -1480,6 +1590,24 @@ ___
 
 ___
 
+### Relighting TSL
+
+**Name:** [Relighting TSL](https://deadlystream.com/files/file/2752-relighting-tsl-early-release/)
+
+**Author:** J
+
+**Description:** KOTOR 2 has some absolutely shittily-lit sections. This mod by J is an attempt to fix that awful lighting--although it's currently in beta, the sections which J has already finished are fully-functional ingame.
+
+**Category & Tier:** Bugfix & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Download Instructions:** Download both files.
+
+___
+
 ### Companion Clothes
 
 **Name:** [Companion Starting Armors](https://deadlystream.com/files/file/2145-k2-companion-starting-armors/)
@@ -1493,6 +1621,58 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+___
+
+### Repair Affects Stun Droid
+
+**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
+
+**Author:** offthegridmorty
+
+**Description:** Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Improved Force Sight
+
+**Name:** [Improved Force Sight](https://mega.nz/file/0YwSlQpT#pF08ITF0Zf0EjSXF10YsCXLAZKMeD1HqgywXr6-TDWY)
+
+**Author:** offthegridmorty
+
+**Description:** Another by Morty, and a great companion to his "True [SA]" mod, this mod improves Force Sight by giving it some more immediate combat utility, allowing it to significantly boost the player's Awareness stat, while also tweaking its behavior for some companions where it makes logical sense. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** Recommend installing all three modules.
+
+___
+
+### Alignment Affects Force Powers
+
+**Name:** [Alignment Affects Force Powers](https://deadlystream.com/files/file/2815-alignment-affects-force-powers-tsl/)
+
+**Author:** offthegridmorty
+
+**Description:** Just like its companion mod for KOTOR, this mod is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+
+**Category & Tier:** Mechanics Change & Immersion / 1 - Essential
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** TSLPatcher
+
+**Installation Instructions:** I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
 
 ___
 
@@ -1523,38 +1703,6 @@ ___
 **Description:** Removes glowing and other similar unrealistic visual effects when using power strikes, flurries, etc.
 
 **Category & Tier:** Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-___
-
-### Repair Affects Stun Droid
-
-**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
-
-**Author:** offthegridmorty
-
-**Description:** Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them.
-
-**Category & Tier:** Mechanics Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-___
-
-### Treat Injury Affects Force Healing
-
-**Name:** [Treat Injury Affects Force Healing](https://deadlystream.com/files/file/2408-treat-injury-affects-force-healing-tsl/)
-
-**Author:** offthegridmorty
-
-**Description:** Because, again, logically it should, right?
-
-**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
