@@ -60,7 +60,11 @@ This mod features no level of automation, and only serves to speed up the instal
 
 KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be on some more obscure storefronts like the Amazon Games version of KOTOR 2, but we haven't been able to find anyone who owns it there to confirm--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
 
-As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are the possibility of losing savegames (this can be entirely avoided just by turning off cloud saves), and what can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. This is different than memory leak-related dialogue skipping, if you're familiar with that in the context of KOTOR. It's more like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
+As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are:
+
+1. The possibility of losing savegames (this can be entirely avoided just by turning off cloud saves)
+2. What can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. This is different than memory leak-related dialogue skipping, if you're familiar with that in the context of KOTOR. It's more like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
+3. When playing with a controller plugged in, even if not *actually using* the controller, it can cause an issue where the camera becomes vertically offset after upgrading an item in the workbench. Unplugging any controllers while playing resolves the issue entirely, but if you intend to play with a controller the issue must be resolved by saving and loading after it occurs.
 
 All of the above is being brought up now for two important reasons: first, if you're using the Aspyr patch, you *must* apply the fix packages linked further down in this section for this build to function properly. And second, if your game version *isn't* using the Aspyr version, you need to decide whether or not you want it to be.
 
@@ -238,6 +242,24 @@ ___
 
 ___
 
+### Classic Class Attack
+
+**Name:** [Classic Class Attack Bonus](https://deadlystream.com/files/file/2812-classic-class-attack-bonus/)
+
+**Author:** Crimson Knight
+
+**Description:** In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 1.25:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 1.25:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game.
+
+**Category & Tier:** Mechanics Change / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+**Installation Instructions:** Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!
+
+___
+
 ### Robes with Shadows
 
 **Name:** [Robes with Shadows for TSL](https://deadlystream.com/files/file/2075-robes-with-shadows-for-tsl/)
@@ -308,7 +330,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete TEL_rock.tpc through TEL_rock07.tpc and TEL_wl05.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the .tpc variant of the mod. Delete PER_Gr01.tpc, TEL_rock.tpc through TEL_rock07.tpc, and TEL_wl05.tpc before moving the files to your override folder.
 
 ___
 
@@ -736,6 +758,44 @@ ___
 
 ___
 
+### Twi'lek Male Diversity
+
+**Name:** [TSL Twi'lek Male NPC Diversity](https://mega.nz/file/sBQF1IqL#YRXBbJaY-DabSxJVliGmxhBZszk33sRoxkJVxWwgmW8)
+
+**Author:** Leilukin
+
+**Description:** Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+**Screenshots:** [Here](https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/) (just be careful to ONLY look at the screenshots and not read the description! The description's information, with censoring to prevent spoilers, is replicated identically in the download's readme!)
+
+**Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
+
+___
+
+### Dahnis Unique Look
+
+**Name:** [Dahnis Unique Look](https://deadlystream.com/files/file/2198-dahnis-unique-look/)
+
+**Author:** Leilukin
+
+**Description:** Female Twi'lek have the same appearance differentiation problem the males do, but unlike the males I find most of the alternate textures out there for females a bit too flashy for my taste. This is a somewhat subdued change more in line with vanilla, but still giving a unique look which makes the NPC Dahnis stand out.
+
+**Category & Tier:** Appearance Change / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+**Installation Instructions:** The use of the upscaled textures or not is your preference, though I recommend them.
+
+___
+
 ### Darth Malak's Armor
 
 **Name:** [Darth Malak's Armor](http://www.nexusmods.com/kotor2/mods/9/?)
@@ -765,6 +825,8 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+**Known Bugs:** This mod will cause female models wielding blaster rifles or blaster repeaters to run... well, strangely, with the rifle merged into their torso. This is a known bug which JC is looking to fix, but for now as long as you aren't playing a woman wielding a rifle or repeater, you should never notice it. If you do intend on doing a female rifle-wielder run, skipping this mod is probably for the best.
 
 **Installation Instructions:** Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite.
 
@@ -890,6 +952,22 @@ ___
 
 ___
 
+### Rounder G0-T0
+
+**Name:** [Rounder G0-T0](https://www.nexusmods.com/kotor2/mods/1296)
+
+**Author:** dirigibalistic
+
+**Description:** The definition of "round" was apparently different in 2003. Instead of an awful hexagonal abomination, this mod properly makes the G0-T0 droid spherical, significantly improving its appearance ingame.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### Dark Harbinger
 
 **Name:** [Dark Harbinger](https://mega.nz/#!kARxFSbS!wVaTMHT3LZ1Z2nFzjCiattphsim1p-0ReALIcb9h8pQ)
@@ -957,6 +1035,22 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** Install the files within the Override folder.
+
+___
+
+### Detran's Revan
+
+**Name:** [Detran's Revan](https://deadlystream.com/files/file/2350-detrans-darth-revan/#)
+
+**Author:** Detran
+
+**Description:** This mod by Detran (the same one used in the KOTOR build) improves Revan's texture and standardizes the appearance across games.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
 
 ___
 
@@ -1116,6 +1210,22 @@ ___
 
 ___
 
+### N_oldAMH01 HD
+
+**Name:** [N_oldAMH01 HD](https://deadlystream.com/files/file/2806-n_oldamh01-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Dark Hope once again striking with the worst-named mods in history.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### Canonical Exile
 
 **Name:** [Canonical Jedi Exile](http://deadlystream.com/files/file/170-canonical-jedi-exile/)
@@ -1132,21 +1242,37 @@ ___
 
 ___
 
-### Reflective Lightsaber Blades
+### Lightsaber Visual Effects
 
-**Name:** [New Lightsaber Blade Models](https://deadlystream.com/files/file/1847-new_lightsaber_blade_model_tsl/)
+**Name:** [JC's Lightsaber Visual Effects](https://deadlystream.com/files/file/1317-jcs-lightsaber-visual-effects-for-k2/)
 
-**Author:** Crazy34
+**Author:** JCarter426
 
-**Description:** With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across almost every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
+**Description:** This mod by JC significantly upscales the texture of lightsaber blades, in the process making them much sharper and brighter, while also recoloring the various color crystals to make them appear more naturally like the color they're meant to represent
 
-**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+**Installation Instructions:** Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections.
+
+___
+
+### Lightsaber Hilt Variety
+
+**Name:** [Enhanced Lightsaber Hilt Variety](https://deadlystream.com/files/file/2794-enhanced-lightsaber-hilt-variety/)
+
+**Author:** J
+
+**Description:** J's mod here is some more black magic fuckery, finding out a way to make lightsaber "textures" (of a sort) apply both on the legacy patch and Aspyr patch versions of the game, when they were previously broken on the latter. What's more, he's made this mod compatible with JC's lightsaber visual effects above, and also added Crazy34's lightsaber reflections to his sabers, so your (and enemy!) lightsabers will dynamically reflect off of nearby surfaces. The model differentiations here aren't groundbreaking, but they're better than vanilla where all the sabers are entirely the same, especially when you see just how great the reflections look ingame.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
 
 ___
 
@@ -1386,7 +1512,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos". **IF AND ONLY IF** you are playing on the Steam or GoG versions of the game and have NOT downpatched to the previous legacy game version (legacypc), also apply the content of the "Distorted Model Fix" folder.
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos". **DO NOT USE** the content of the "Korriban Distorted Model Fix" folder, even if you are on the Aspyr patch! With the C3-FD patcher, this is no longer a concern.
 
 ___
 
@@ -1439,6 +1565,38 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Download Instructions:** Download the larger of the two files.
+
+___
+
+### Short-Term Memory Fix
+
+**Name:** [Vaklu Short-Term Memory Fix](hhttps://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
+
+**Author:** SuperChameau
+
+**Description:** In a certain dialogue you can have with Onderonian General Vaklu under certain circumstances, he virtually repeats himself back-to-back. There's some grey on his temples, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. Moreover, this change is fully voiced using original voice work thanks to dialogue splicing. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
+### Onderon News Makes Sense
+
+**Name:** [Onderon News Make Sense](https://deadlystream.com/files/file/2655-onderon-news-make-sense/)
+
+**Author:** SuperChameau
+
+**Description:** In vanilla, there's either a misrecorded or misacted line which refers to Telos Station as "Peragus Station." This mod fixes the issue by splicing dialogue from the same news holo so that the anchor says "Telos Station" both times.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** Loose-File Mod
 
 ___
 
