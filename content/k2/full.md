@@ -496,24 +496,6 @@ ___
 
 ___
 
-### No Mines on Malachor
-
-**Name:** [No Mines on Malachor](https://deadlystream.com/files/file/2459-no-mines-on-malachor-only-gas/)
-
-**Author:** Thor110
-
-**Description:** I always liked the idea of Malachor being a ruined and cracked world, with fissures that spew gas onto the surface at great risk to the player. This effect is somewhat diminished, though, when the player can SEE THE MINES that cause that gas to be produced. It makes avoiding the traps easy. This mod removes the visual mines, so the player can only guess where there are gas vents.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** HoloPatcher
-
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher.
-
-___
-
 ### Ritual and Water Textures
 
 **Name:** [Ritual and Water Textures](https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/)
