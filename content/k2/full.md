@@ -2274,24 +2274,6 @@ ___
 
 ___
 
-### Luxa Fix
-
-**Name:** [Luxa Hair Fix](https://deadlystream.com/files/file/452-luxa-hair-fix/)
-
-**Author:** redrob41
-
-**Description:** There's just no way around it: Luxa's model is all kinds of fucked up. This mod accomplishes a herculean task in getting her to look not just normal, but excellent.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher & Loose-File Mod
-
-**Installation Instructions:** Run the TSLPatcher for the Head Fix, then use the screenshots included with the mod to determine whether you prefer option 1 or 2 for the body modification (I recommend 2). Once you know your preference, enter the Body Options folder and and run the patcher for the version which matches your preference. Finally, once again use the screenshots to determine whether you wish to utilize the alternate texture also located in the Body Options folder (recommended).
-
-___
-
 ### Visually Repair HK
 
 **Name:** [Visually Repair HK-47](https://deadlystream.com/files/file/1434-visually-repair-hk-47/)
