@@ -1,4 +1,4 @@
-KOTOR 2 Full Build
+# KOTOR 2 Full Build
 
 ## Installation Notes
 
