@@ -68,6 +68,20 @@ Removed:
 
 New Inclusions:
 1. Classic Class Attack Bonus
+2. Twi'lek Male NPC Diversity
+3. Dahnis Unique Look
+4. Rounder G0-T0
+5. Detran's Darth Revan
+6. N_oldAMH01 HD
+7. JC's Lightsaber Visual Effects (Re-Added after some time out of the builds)
+8. Enhanced Lightsaber Hilt Variety
+9. Vaklu Short-Term Memory Fix
+10. Onderon News Make Sense
+11. Mines Overhaul
+12. Better Jekk'Jekk'Tarr Thugs
+13. Logical Jekk'Jekk'Tarr
+14. Mira's Vanilla Escape for TSLRCM
+15. 
 
 Modified:
 1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
