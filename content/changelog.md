@@ -68,23 +68,34 @@ Removed:
 
 New Inclusions:
 1. Classic Class Attack Bonus
-2. Twi'lek Male NPC Diversity
-3. Dahnis Unique Look
-4. Rounder G0-T0
-5. Detran's Darth Revan
-6. N_oldAMH01 HD
-7. JC's Lightsaber Visual Effects (Re-Added after some time out of the builds)
-8. Enhanced Lightsaber Hilt Variety
-9. Vaklu Short-Term Memory Fix
-10. Onderon News Make Sense
-11. Mines Overhaul
-12. Better Jekk'Jekk'Tarr Thugs
-13. Logical Jekk'Jekk'Tarr
-14. Mira's Vanilla Escape for TSLRCM
-15. 
+2. Fixed/Better Czerka Salvager
+3. Twi'lek Male NPC Diversity
+4. Dahnis Unique Look
+5. Rounder G0-T0
+6. Detran's Darth Revan
+7. N_oldAMH01 HD
+8. JC's Lightsaber Visual Effects (Re-Added after some time out of the builds)
+9. Enhanced Lightsaber Hilt Variety
+10. Vaklu Short-Term Memory Fix
+11. Onderon News Make Sense
+12. Mines Overhaul
+13. Better Jekk'Jekk'Tarr Thugs
+14. Logical Jekk'Jekk'Tarr
+15. Mira's Vanilla Escape for TSLRCM
+16. True Sith Assassins
+17. For Mandalore!
+18. Droid Models Animation Fix
+19. TSL Expanded Ending
+20. Consistent Bastila Recognition
+21. Vibrocutter Changes
+22. Relighting TSL
+23. Improved Force Sight
+24. Alignment Affects Force Powers
+25. Character Textures & Model Fixes
 
 Modified:
 1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
+2. Fixes to K2CP which removed the need to interact with doors in the Telos Military Base to open them, restoring the ability to attack them open with Bao-Dur as before
 
 Removed:
 1. No Mines on Malachor, Only Gas: integrated into Morty's mine enhancement
