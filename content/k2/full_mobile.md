@@ -220,24 +220,6 @@ ___
 
 ___
 
-### No Mines on Malachor
-
-**Name:** [No Mines on Malachor](https://deadlystream.com/files/file/2459-no-mines-on-malachor-only-gas/)
-
-**Author:** Thor110
-
-**Description:** I always liked the idea of Malachor being a ruined and cracked world, with fissures that spew gas onto the surface at great risk to the player. This effect is somewhat diminished, though, when the player can SEE THE MINES that cause that gas to be produced. It makes avoiding the traps easy. This mod removes the visual mines, so the player can only guess where there are gas vents.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** HoloPatcher
-
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher.
-
-___
-
 ### Ritual and Water Textures
 
 **Name:** [Ritual and Water Textures](https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/)
@@ -1753,6 +1735,22 @@ ___
 **Description:** Giving companions a unique version of their default clothes so they can keep their 'standard' look throughout the entire game while still having mechanically powerful equipment is a very common mod type. I typically don't like these mods, not because I disagree with the premise but because I tend to balk at +10 WIS modifiers on starting gear. Ol' Cappy, in my opinion, does it right here—these are unique clothes for most of the human companions which don't give insane bonuses, but instead small, rational, and most importantly balanced, lore-friendly and internally-consistent bonuses. These items are never going to be the best your team can get, but they are flavorful additions which will let you keep them in their default get a bit longer, if you so choose.
 
 **Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Improved Enlightenment/Corruption
+
+**Name:** [Improved LS Enlightenment & DS Corruption Feats](https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/)
+
+**Author:** offthegridmorty
+
+**Description:** Light Side Enlightenment (not to be confused with the Force power Enlightenment) and Dark Side Corruption, the bonus feats given to Jedi Master and Sith Lord prestige classes, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
