@@ -1622,7 +1622,7 @@ ___
 
 **Author:** SuperChameau
 
-**Description:** In vanilla, there's either a misrecorded or misacted line which refers to Telos Station as "Peragus Station." This mod fixes the issue by splicing dialogue from the same news holo so that the anchor says "Telos Station" both times.
+**Description:** In vanilla, there's either a misrecorded or miswritten line which refers to Telos Station as "Peragus Station." This mod fixes the issue by splicing dialogue from the same news holo so that the anchor says "Telos Station" both times.
 
 **Category & Tier:** Bugfix / 3 - Suggested
 
