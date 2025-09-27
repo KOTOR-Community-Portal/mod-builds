@@ -12,7 +12,7 @@ Highlights include:
 1. As usual, dozens of new mods for both games have been integrated
 2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
 3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
-4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as the very scary True Sith Assassins for KOTOR 2.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as some great work only for KOTOR 2: Mines Overhaul, the very scary True Sith Assassins, and For Mandalore! being just a few highlights.
 5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
 6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
