@@ -1624,6 +1624,22 @@ ___
 
 ___
 
+### Improved Enlightenment/Corruption
+
+**Name:** [Improved LS Enlightenment & DS Corruption Feats](https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/)
+
+**Author:** offthegridmorty
+
+**Description:** Without spoiling anything about it, KOTOR 2 has a prestige class system: unique classes that give the player certain benefits. The bonuses for two of these specific classes, Light Side Enlightenment and Dark Side Corruption, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
 ### Repair Affects Stun Droid
 
 **Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
