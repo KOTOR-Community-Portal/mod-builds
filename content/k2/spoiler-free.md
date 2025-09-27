@@ -482,26 +482,6 @@ ___
 
 ___
 
-### NMOM
-
-**Name:** [NMOM](https://mega.nz/file/lMxUCLoZ#H-tdZfz6ETJhnfw_tI9dui97zrb-VocL3b1W2JB8VBQ)
-
-**Author:** Thor110
-
-**Description:** There's a planet in the game with environmental hazards that spew gas, at great risk to the player. This effect is somewhat diminished, though, when the player can SEE THE MINES that cause that gas to be produced. It makes avoiding the traps easy. This mod removes the visual mines, so the player can only guess where there are gas vents.
-
-Some information has been censored to prevent spoilers.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** HoloPatcher
-
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher.
-
-___
-
 ### PFHC06 Fix
 
 **Name:** [PFHC06 Fix](https://deadlystream.com/files/file/1442-pfhc06-fix/)
@@ -2198,24 +2178,6 @@ ___
 
 ___
 
-### Luxa Fix
-
-**Name:** [Luxa Hair Fix](https://deadlystream.com/files/file/452-luxa-hair-fix/)
-
-**Author:** redrob41
-
-**Description:** There's just no way around it: the NPC Luxa's model is all kinds of fucked up. This mod accomplishes a herculean task in getting her to look not just normal, but excellent.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher & Loose-File Mod
-
-**Installation Instructions:** Run the TSLPatcher for the Head Fix, then use the screenshots included with the mod to determine whether you prefer option 1 or 2 for the body modification (I recommend 2). Once you know your preference, enter the Body Options folder and and run the patcher for the version which matches your preference. Finally, once again use the screenshots to determine whether you wish to utilize the alternate texture also located in the Body Options folder (recommended).
-
-___
-
 ### VRHK
 
 **Name:** [VRHK](https://mega.nz/file/5QBnDTyA#8SegkhRE7q418FGR7X-5FzJ2EMHOUHULRi-LYh4REj8)
@@ -2446,6 +2408,22 @@ ___
 **Description:** Giving companions a unique version of their default clothes so they can keep their 'standard' look throughout the entire game while still having mechanically powerful equipment is a very common mod type. I typically don't like these mods, not because I disagree with the premise but because I tend to balk at +10 WIS modifiers on starting gear. Ol' Cappy, in my opinion, does it right here—these are unique clothes for most of the human companions which don't give insane bonuses, but instead small, rational, and most importantly balanced, lore-friendly and internally-consistent bonuses. These items are never going to be the best your team can get, but they are flavorful additions which will let you keep them in their default get a bit longer, if you so choose.
 
 **Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### Improved Enlightenment/Corruption
+
+**Name:** [Improved LS Enlightenment & DS Corruption Feats](https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/)
+
+**Author:** offthegridmorty
+
+**Description:** Without spoiling anything about it, KOTOR 2 has a prestige class system: unique classes that give the player certain benefits. The bonuses for two of these specific classes, Light Side Enlightenment and Dark Side Corruption, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
