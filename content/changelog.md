@@ -45,9 +45,9 @@ New Inclusions:
 21. Swoop Platform Model Repairs
 22. Multifire and Autofire and Finesse
 23. JC's Blaster Adjustment
-24. Repair Affects Stun Droid
-25. Alignment Affects Force Powers
-26. Character Textures & Model Fixes
+25. Repair Affects Stun Droid
+26. Alignment Affects Force Powers
+27. Character Textures & Model Fixes
 
 Modified:
 1. Applied Detran's Revan texture to the character's Star Forge Robes.
@@ -90,8 +90,9 @@ New Inclusions:
 21. Vibrocutter Changes
 22. Relighting TSL
 23. Improved Force Sight
-24. Alignment Affects Force Powers
-25. Character Textures & Model Fixes
+24. Improved Light Side Enlightenment & Dark Side Corruption
+25. Alignment Affects Force Powers
+26. Character Textures & Model Fixes
 
 Modified:
 1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
