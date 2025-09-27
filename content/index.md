@@ -112,10 +112,6 @@ This Revision's highlights include:
 3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
-### 10/9/2023
-
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
-
 ___
 
 ## Special Thanks
