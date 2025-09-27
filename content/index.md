@@ -87,7 +87,19 @@ It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/
 
 ## Changelog
 
-NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates.
+NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates. Older changelogs, as well as a full list of changes for all Revisions 11/03/25 and on, can be found [here](/modding/mod_builds/changelog.html). Please note that the full changelogs contain spoilers!
+
+### 11/03/2025
+
+The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
+
+Highlights include:
+1. As usual, dozens of new mods for both games have been integrated
+2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
+3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as some great work only for KOTOR 2: Mines Overhaul, the very scary True Sith Assassins, and For Mandalore! being just a few highlights.
+5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
+6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
 ### 03/11/2025
 
@@ -105,8 +117,6 @@ This Revision's highlights include:
 1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
 
 ___
-
-Changelogs older than 10/09/2023 can be found [here](/modding/mod_builds/changelog.html)!
 
 ## Special Thanks
 
