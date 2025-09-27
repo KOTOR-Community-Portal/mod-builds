@@ -1068,7 +1068,7 @@ ___
 
 ___
 
-### Visas Reduced Model Clipping
+### VLC
 
 **Name:** [VLC](https://mega.nz/file/YZZwTIgC#dDJ_mKlPrndK1SuRUIimeCuWv5vytZwmkwzrhyP0CFk)
 
