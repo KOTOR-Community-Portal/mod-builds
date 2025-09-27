@@ -2601,6 +2601,8 @@ If you cannot run .bat files or feel uncomfortable running this file, you will n
 
 Assuming that you are on the Aspyr patch of the game, the following mods can enhance your widescreen gameplay. These mods should *only* be installed if you are on the Aspyr patch; while as previously mentioned widescreen can technically be applied to a legacy KOTOR 2 installation independently of the Aspyr patch it is destabilizing to do so, and strongly recommended against when utilizing this guide.
 
+### Main Menu Fix
+
 **Name:** [Main Menu Fix for Widescreen](https://deadlystream.com/files/file/1138-tsl-main-menu-model-fix-for-widescreen/)
 
 **Author:** DarthParametric
@@ -2616,6 +2618,8 @@ Assuming that you are on the Aspyr patch of the game, the following mods can enh
 **Installation Instructions:** Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
 
 ___
+
+### K2 Cutscenes Rescaled
 
 **Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
 
@@ -2639,7 +2643,9 @@ If you experience issues with the game minimizing during cutscenes, it might be 
 
 ___
 
-**Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
+### K2 Remastered Cutscenes
+
+**Name:** [KOTOR 2 Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
 
 **Author:** naelavok 
 
@@ -2657,6 +2663,8 @@ If you experience issues with the game minimizing during cutscenes, it might be 
 
 ___
 
+### Loading Screen Rescaled
+
 **Name:** [K2 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
 
 **Author:** Pops Maellard
@@ -2671,6 +2679,8 @@ ___
 
 ___
 
+### Workbench Camera Tweak
+
 **Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
 
 **Author:** DarthParametric
@@ -2684,6 +2694,8 @@ ___
 **Installation Method:** Loose-File Mod
 
 ___
+
+### Upscaled Maps
 
 **Name:** [Upscaled Maps](https://www.nexusmods.com/kotor2/mods/1086)
 
