@@ -12,9 +12,10 @@ Once you have your freshly-installed copy of the game, please attempt to set you
 
 ### KOTOR 2 on Steam
 
-If you are playing KOTOR 2 on Steam, *please* check that you're not subscribed to any content on the Workshop--yes, even if you're double-triple-super positive you're not, or you've never even played the game before. At least 2-3 times a month we have people come in asking for tech support swearing that they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. Unless you bought KOTOR 2 like yesterday, it's critical to double-check this--it's not fun to find out that you were subbed to something after you start your game.
+If you are playing KOTOR 2 on Steam, *please* actively check that you're not subscribed to any content on the Workshop, even if you're super positive you're not--unless you bought KOTOR 2 like yesterday, it's critical to double-check. Multiple times a month we have people come in asking for tech support who swear they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. It's not fun to find that out after you start your game. 
 
 Checking is very simple: just go to your Steam library, right-click KOTOR 2 and select properties, then go to the Workshop tab and confirm nothing appears in the list. Doing this not only helps you avoid major errors during the install process, it also helps us to help you in the event that something goes wrong with your install, because we'll know immediately that the Workshop isn't the problem.
+
 
 ### TSLPatcher Installation Requirements
 
