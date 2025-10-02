@@ -966,7 +966,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** Oh boy this is *really* hard to explain without spoilers. Okay, there are lategame enemies that are not organic, but are vulnerable to crowd-control that logically only organics would be. These same enemies also have an appearance which isn't very logical given where they're located. This mod fixes both oversights.
+**Description:** There are a few lightsabers in the game which, based on their location, should be red but are instead purple. This mod alters their crystal color, as well as fixing a bug which made the enemies vulnerable to Force power types which they objectively should not be. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
