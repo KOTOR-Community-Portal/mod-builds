@@ -866,7 +866,7 @@ ___
 
 ### Short-Term Memory Fix
 
-**Name:** [Vaklu Short-Term Memory Fix](hhttps://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
+**Name:** [Vaklu Short-Term Memory Fix](https://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
 
 **Author:** SuperChameau
 
