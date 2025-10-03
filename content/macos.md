@@ -2,9 +2,7 @@
 
 Adopted from a thread by sentient06 on reddit, with our thanks!
 
-Please do be aware that this guide is now quite old. Most of the basic information should still hold true, but it doesn't take into account more recent OS and software changes. If you have the capacity to write a more up-to-date guide for our users, please reach out to us! We'd be glad to update this section.
-
-## The Guide: Wrapping Your Head Around It
+## Wrapping Your Head Around It
 
 ### Introduction
 

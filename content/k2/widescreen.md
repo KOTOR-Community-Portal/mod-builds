@@ -4,7 +4,7 @@
 
 **Author:** DarthParametric
 
-**Description:** A fix for TSL's stretched menu when playing the game widescreen; only use with the default patch (not legacypc) Steam version, rolled back GOG version, or any other game version without the Aspyr patch applied (you know if you have this patch or not based on whether you have controller support for your game).
+**Description:** A fix for TSL's stretched menu when playing the game widescreen; only use with the non-beta Steam version, or any widescreen-patched game from any other retailer.
 
 **Category & Tier:** Graphics Improvement & Bugfix / 3 - Suggested
 
@@ -12,15 +12,15 @@
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
+**Installation Instructions:** FApply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
 
 ___
 
-**Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
+**Name:** [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
 
 **Author:** Pops Maellard
 
-**Description:** This mod is a *killer* cutscene improvement mod, using a very clean, very sharp AI pass to upscale and clarify the cutscenes.
+**Description:** This mod is a *killer* cutscene retexture, using a very clean, very sharp AI pass to upscale and clarify the cutscenes.
 
 Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
 
@@ -30,9 +30,7 @@ Unfortunately, there's a price for the quality of Pops's work: the files are ext
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. If using TSLRCM or Extended Enclave, download both the main file most closely corresponding to your monitor resolution as well as the file of the same resolution with "_mods" appended to the filename (for instance, *k2rs_30fps_1920x1080.7z* and *k2rs_30fps_mods_1920x1080.7z*).
-
-**Installation Instructions:** When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Install the main module first, then open the "mods" version of the file and apply the upscaled cutscenes for any mods which you use from the main build list. Bear in mind that the files from this mod go in your *movies* folder, not override.
+**Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. Additionally, choose 30fps or 60fps (this is your preference). When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. There will also be a compatch for TSLRCM in the installation, make sure to apply that.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
 
@@ -50,13 +48,13 @@ ___
 
 **Installation Method:** Loose-File Components, possible .bat patcher
 
-**Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
+**Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
 
 ___
 
-**Name:** [K2 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
+**Name:** [K1 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
 
 **Author:** Pops Maellard
 

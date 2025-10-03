@@ -1,6 +1,6 @@
 # KOTOR 2 Mod Build Files to Delete
 
-Please delete the following .tpc files, but ONLY if there is a copy of the same file that is of the .tga or .dds filetype! Many (possibly the vast majority) of these files WILL NOT have both filetypes in your override!
+Please delete the following .tpc files, but ONLY if there is a copy of the same file that is of the .tga filetype! Many (possibly the vast majority) of these files WILL NOT have both filetypes in your override!
 
 C_DrdAstro01.tpc
 C_DrdAstro02.tpc
@@ -23,35 +23,41 @@ C_DrdWar05.tpc
 C_Ithorian01.tpc
 C_Ithorian02.tpc
 C_Ithorian03.tpc
+C_Kinrath01.tpc
+C_Kinrath02.tpc
+C_Kinrath03.tpc
+C_Kinrath04.tpc
 DAN_MTm1.tpc
 DAN_MTm2.tpc
 DXN_EBOHWK.tpc
 DXn_grassfx.tpc
 DXN_jungfx.tpc
-dxn_SPn01.tpc
+dxn_spn01.tpc
 JCw_Pazaak.tpc
 KOR_EHOK.tpc
 load_221TEL.tpc
 load_403DXN.tpc
 MAL_wn01.tpc
 NAR_D_stars.tpc
-NAR_D_tech01.tpc
+nar_d_tech_01.tpc
 NAR_EBOHWK.tpc
 NAR_pnt01.tpc
-N_Chodo.tpc
+n_chodo.tpc
 n_commm04.tpc
 N_Czerka_Droid.tpc
-N_DarthRevan01.tpc
+N_darthnihA.tpc
+N_darthnihH.tpc
 N_Duros01.tpc
-n_duros02.tpc
-n_duros03.tpc
+N_Duros02.tpc
+N_Duros03.tpc
 N_Duros04.tpc
 N_Duros05.tpc
 N_jedmast2h.tpc
+N_Lala_XuA01.tpc
+N_Lala_XuH.tpc
 N_Mandalorian01.tpc
 N_Mandalorian02.tpc
 N_Mandalorian03.tpc
-N_oldAMH01.tpc
 N_RepSold_F01.tpc
 N_SionA.tpc
 N_SionH.tpc
@@ -65,7 +71,19 @@ N_VrookH.tpc
 PER_EH1.tpc
 PER_Tk01.tpc
 PER_Tk02.tpc
+pfbama01.tpc
+pfbamB01.tpc
+pfbamc01.tpc
+pfbamd01.tpc
 PFBE10.tpc
+PFBLA01.tpc
+PFBLAD01.tpc
+PFBLB01.tpc
+PFBLBD01.tpc
+PFBLC01.tpc
+PFBLCD01.tpc
+PFBLMira01.tpc
+PFBLMiraD01.tpc
 PFBM05.tpc
 PFBN01.tpc
 PFBN02.tpc
@@ -87,9 +105,7 @@ PFHC05.tpc
 PFHC05d1.tpc
 PLC_CompPnl.tpc
 PLC_Desk1.tpc
-PLC_FrcDist02.tpc
 PLC_Kiosk1.tpc
-PLC_Marker1.tpc
 PLC_Pazaak.tpc
 PLC_RakatFlg.tpc
 PLC_RakatFlg2.tpc
@@ -97,8 +113,11 @@ PLC_RakatFlg3.tpc
 PLC_RepTab.tpc
 PLC_RepTab2.tpc
 PLC_Sign.tpc
-PLC_water01.tpc
 PLC_WtrLvl.tpc
+pmbama01.tpc
+pmbamB01.tpc
+pmbamc01.tpc
+pmbamd01.tpc
 PMBM05.tpc
 PMHC04A.tpc
 PMHC04AD1.tpc
@@ -109,7 +128,6 @@ po_pBaoDurd1.tpc
 po_pBaoDurd2.tpc
 po_pfhc05.tpc
 po_pfhc05d1.tpc
-PO_PMandalore.tpc
 po_pmhc04.tpc
 po_pmhc04d1.tpc
 po_pmhc04d2.tpc
@@ -127,8 +145,8 @@ P_Bao_DurHD2.tpc
 P_BastilaBB01.tpc
 P_Gt.tpc
 P_hk47_01.tpc
-P_MandB.tpc
 P_MiraA.tpc
+P_MiraAD01.tpc
 tel_blst1.tpc
 tel_blst2.tpc
 TEL_holo.tpc
@@ -136,5 +154,3 @@ tel_rftr.tpc
 tel_sftr.tpc
 TEL_SShtl.tpc
 TEL_wl06.tpc
-w_Lghtsbr_001.tpc
-W_LSabreBrnz01.tpc
