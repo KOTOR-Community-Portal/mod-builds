@@ -9,6 +9,7 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
 
 Highlights include:
+
 1. As usual, dozens of new mods for both games have been integrated
 2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
 3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
@@ -16,12 +17,12 @@ Highlights include:
 5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
 6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
-
 The full changelog is:
 
 **KOTOR:**
 
 New Inclusions:
+
 1. HD Realistic Jawas
 2. HD Realistic Sand People
 3. CineMalak
@@ -45,17 +46,19 @@ New Inclusions:
 21. Swoop Platform Model Repairs
 22. Multifire and Autofire and Finesse
 23. JC's Blaster Adjustment
-25. Repair Affects Stun Droid
-26. Alignment Affects Force Powers
-27. Character Textures & Model Fixes
+24. Repair Affects Stun Droid
+25. Alignment Affects Force Powers
+26. Character Textures & Model Fixes
 
 Modified:
+
 1. Applied Detran's Revan texture to the character's Star Forge Robes.
 2. Sith Uniform Reformation replaced by Sith Uniform Reformation Reformed, a more compatible and installer-based version of the mod with further enhancements.
 3. Isolated some crashes caused by models (current reason unknown) in Unique Sith Governor & Movie-Style Endgame Holograms for MacOS/Linux players: added warnings.
 4. Added a patch to HQ Skyboxes to fix some minor rendering issues through windows
 
 Removed:
+
 1. Party Model Fixes I & II: superseded by Character Textures & Model Fixes
 2. HD Rakghouls: superseded by Character Textures & Model Fixes
 3. Scoundrel Trouser Fix: even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So, effectively, superseded by Character Textures & Model Fixes
@@ -63,10 +66,10 @@ Removed:
 5. Weapon Stats Rebalance: superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance
 6. Sith Uniform Disguise Extension: current implementation is buggy, removed pending update/alternate implementation
 
-
 **KOTOR 2:**
 
 New Inclusions:
+
 1. Classic Class Attack Bonus
 2. Fixed/Better Czerka Salvager
 3. Twi'lek Male NPC Diversity
@@ -95,17 +98,18 @@ New Inclusions:
 26. Character Textures & Model Fixes
 
 Modified:
+
 1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
 2. Fixes to K2CP which removed the need to interact with doors in the Telos Military Base to open them, restoring the ability to attack them open with Bao-Dur as before
 
 Removed:
+
 1. No Mines on Malachor, Only Gas: integrated into Morty's mine enhancement
 2. Crazy's New Lightsaber Blade Model: superceded by J's Enhanced Lightsaber Hilt Variety
 3. Luxa Fix: integrated & improved in Redrob's Model and Texture Fixes
 4. Player & Party Underwear: mostly integrated in Redrob's Model & Texture Fixes
 5. Player & Party Underwear + UCO Patch: ditto above
 6. Treat Injury Affects Force Healing: Integrated into Alignment Affects Force Powers
-
 
 ### 03/11/2025
 
@@ -122,7 +126,7 @@ This Revision's highlights include:
 
 ### 10/9/2023
 
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at <https://discord.gg/kotor>
 
 ## 2022
 
@@ -130,20 +134,19 @@ This Revision's highlights include:
 
 1. Merry Christmas! A new piece of restored content by JC, an alternate ending for DS characters who romance Carth, has been integrated!
 
-
 ### 12/9/2022
 
 1. Several dozen new mods across both games.
 
 2. Several mods for KOTOR which also work for KOTOR 2 have now been integrated into the KOTOR 2 build list, to make the games more visually consistent across builds and improve overall graphical fidelity.
 
-2. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
+3. Added information on all mods indicating how they are installed (loose-file, TSLPatcher, etc.) and whether or not they are compatible with non-English game versions. De facto, this now makes the builds compatible with non-English game versions, although for the moment, out of necessity, several mods must be skipped when not playing in English.
 
-3. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
+4. Conversion of all .tga-based upscale mods to .tpc, saving several GBs of download size and space on disk.
 
-4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
+5. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
 
-5. Offsite support: the mod builds are now hosted on both the Nexus and on Steam as Steam Guides, not just reddit.
+6. Offsite support: the mod builds are now hosted on both the Nexus and on Steam as Steam Guides, not just reddit.
 
 ___
 

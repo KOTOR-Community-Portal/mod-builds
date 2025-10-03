@@ -2,7 +2,7 @@
 
 ## Installation Notes
 
-### IMPORTANT!
+### IMPORTANT
 
 If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
 
@@ -925,7 +925,7 @@ ___
 ___
 
 ### Juhani Appearance Overhaul
- 
+
 **Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
 
 **Author:** Stormie97, Patch by JCarter
@@ -3464,7 +3464,7 @@ ___
 
 **Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
 
-**Author:** naelavok 
+**Author:** naelavok
 
 **Description:** Using predictive AI, reddit user naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. This work was done back in 2019, if you can believe it, and is thus much more limited than Pops's version above. Nevertheless it's still a massive improvement over the default cutscenes, and still fixes the fullscreen bug, if you're experiencing it.
 

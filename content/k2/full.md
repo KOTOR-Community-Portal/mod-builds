@@ -92,7 +92,7 @@ For those who have the Aspyr patch installed, the below are the fixes which must
 
 Ensure to only use this if on the most recent Steam/GoG patch, or if having manually applied the Aspyr patch to your game! Also ensure your executable is a fresh copy with no edits: it CANNOT have a 4GB/Large Address Aware patch already applied to it (this mod adds that patch). Finally, please note that **this mod cannot be utilized on the Mac Appstore version of the game**, since it doesn't launch via an executable; for Mac Appstore players, you will unfortunately need to play without these fixes. Since your games will not have the capacity to use 4GB of RAM, we recommend against utilizing the "Ultimate" series of upscales included later in this install, as a stability measure. Without the upscales, the Mac Appstore version should still be able to run the rest of the build without memory issues.
 
-When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/kotormods/tree/main/C3-FD_patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
+When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE: C3-FD_patcher](https://github.com/J0-o/kotormods/tree/main/C3-FD_patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete PER_Gr01.tpc, TEL_rock.tpc through TEL_rock07.tpc, and TEL_wl05.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete PER_Gr01.tpc, TEL_rock.tpc through TEL_rock07.tpc, and TEL_wl05.tpc before moving the files to your override folder.
 
 ___
 
@@ -366,7 +366,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override.
+**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in `.tpc` file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override.
 
 ___
 
@@ -384,7 +384,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
 
 ___
 
@@ -402,7 +402,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
 
 ___
 
@@ -438,7 +438,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete OND_dor1.tpc & OND_dor3.tpc before moving to your Override.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete OND_dor1.tpc & OND_dor3.tpc before moving to your Override.
 
 ___
 
@@ -456,7 +456,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete KOR_water01.tpc before moving the files to your override folder.
+**Installation Instructions:** Download the `.tpc` variant of the mod. Delete KOR_water01.tpc before moving the files to your override folder.
 
 ___
 
@@ -474,7 +474,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. For this mod *only*, do not overwrite if prompted!
+**Installation Instructions:** Download the `.tpc` variant of the mod. For this mod *only*, do not overwrite if prompted!
 
 ___
 
@@ -866,7 +866,7 @@ ___
 
 **Description:** Makes in-game Mandalorian armor appear realistically worn out. It's been 10 years since the Mandalorian Wars and the last time the Mandalorians had a state, and their suits should reflect that.
 
-**Screenshots:** [Here](http://imgur.com/Wt4AXpP)
+**Screenshots:** [Here: Mandalorian Worn-Out Armor](http://imgur.com/Wt4AXpP)
 
 **Category & Tier:** Appearance Change / 2 - Recommended
 
@@ -956,7 +956,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the .tpc version of the mod.
+**Download Instructions:** Download the `.tpc` version of the mod.
 
 ___
 
@@ -974,7 +974,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Ignore the MacOS folder, only move the .TGA files.
+**Installation Instructions:** Ignore the MacOS folder, only move the `.TGA` files.
 
 ___
 
@@ -1002,7 +1002,7 @@ ___
 
 **Description:** Reskins a player head to look better, as well as having a unique Dark Side transformation.
 
-**Screenshots:** [Here](http://imgur.com/a/RN4oE)
+**Screenshots:** [Here: Dark Harbinger](http://imgur.com/a/RN4oE)
 
 **Category & Tier:** Appearance Change, Bugfix & Graphics Improvement / 2 - Recommended
 
@@ -1044,7 +1044,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download and install the .tpc filetype version: it is nearly lossless, much more performant due to the smaller size, and critically fixes several issues caused by the very large texture size of the original upload.
+**Download Instructions:** Download and install the `.tpc` filetype version: it is nearly lossless, much more performant due to the smaller size, and critically fixes several issues caused by the very large texture size of the original upload.
 
 ___
 
@@ -1382,7 +1382,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The files in this mod need to be duplicated and those duplicates renamed. On a Windows OS you can do this by copying the two files within and pasting them into the same folder which you copied them from. This should create duplicates of the original files with a slightly different filename (such as PLC_CompPnl-COPY). Take the two copied files and rename them to PLC_CompPnl_b. Make sure you have one .tga filetype and one .txi filetype. When the files are moved to the override, you should be moving four files: PLC_CompPnl.tga, PLC_CompPnl.txi, PLC_CompPnl_b.tga, and PLC_CompPnl_b.txi
+**Installation Instructions:** The files in this mod need to be duplicated and those duplicates renamed. On a Windows OS you can do this by copying the two files within and pasting them into the same folder which you copied them from. This should create duplicates of the original files with a slightly different filename (such as PLC_CompPnl-COPY). Take the two copied files and rename them to PLC_CompPnl_b. Make sure you have one `.tga` filetype and one .txi filetype. When the files are moved to the override, you should be moving four files: PLC_CompPnl.tga, PLC_CompPnl.txi, PLC_CompPnl_b.tga, and PLC_CompPnl_b.txi
 
 ___
 
@@ -1558,7 +1558,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance. Whatever size you decide to use, make sure to use the .tpc format files!
+**Download Instructions:** Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance. Whatever size you decide to use, make sure to use the `.tpc` format files!
 
 **Installation Instructions:** Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 
@@ -2152,7 +2152,7 @@ ___
 
 ___
 
-### For Mandalore!
+### For Mandalore
 
 **Name:** [For Mandalore!](https://deadlystream.com/files/file/2666-for-mandalore/)
 
@@ -2298,7 +2298,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** Congrats, you are about to experience one of the best mods ever made for KOTOR, and I don't say that lightly. WildKarrde has quietly but consistently put out extremely high-quality content, but they really outdid themselves with this one. This is a comprehensive and *incredibly* professional rework of the ending sequence of KOTOR 2. TSLRCM is famous for tightening the ending up, but it still leaves several plot holes flapping in the wind--how does Malachor get destroyed in an LS ending if HK-47 is never rebuilt and G0-T0 isn't stopped? Why does the Exile have to preserve Malachor if they're DS? How is the party saved? What next? None of these questions are answered, but WildKarrde's mod not only answers them all, it does it with an incredible level of professionalism which makes it feel like it was content straight-up made by Obsidian, on a level more seamless than even restored content from TSLRCM often achieves. 
+**Description:** Congrats, you are about to experience one of the best mods ever made for KOTOR, and I don't say that lightly. WildKarrde has quietly but consistently put out extremely high-quality content, but they really outdid themselves with this one. This is a comprehensive and *incredibly* professional rework of the ending sequence of KOTOR 2. TSLRCM is famous for tightening the ending up, but it still leaves several plot holes flapping in the wind--how does Malachor get destroyed in an LS ending if HK-47 is never rebuilt and G0-T0 isn't stopped? Why does the Exile have to preserve Malachor if they're DS? How is the party saved? What next? None of these questions are answered, but WildKarrde's mod not only answers them all, it does it with an incredible level of professionalism which makes it feel like it was content straight-up made by Obsidian, on a level more seamless than even restored content from TSLRCM often achieves.
 
 **Category & Tier:** Restored Content & Immersion / 1 - Essential
 
@@ -2642,13 +2642,13 @@ ___
 
 **Author:** Flachzangen, bash version by /u/th3w1zard1
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+**Description:** This is a script written by Flachzangen which allows you to remove duplicate `.TGA` or `.TPC` files in your game directory. Files with the `.TPC` filetype take priority, so for several of the patches we've downloaded which are of the `.tga` filetype, we need to delete any `.TPC` duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if `.tpc` files take priority in some instances, the game will crash.
 
 **Category & Tier:** Patch / 1 - Essential
 
 **Installation Method:** .bat Patcher
 
-**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k2/delete.html).
+**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here: delete.html](/modding/mod_builds/k2/delete.html).
 
 **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 
@@ -2686,7 +2686,7 @@ ___
 
 **Installation Method:** Loose-File (with optional automation)
 
-**Download Instructions:** *Strongly* recommend the 2x .tpc version; the fidelity loss for 2x is minimal, .tpc is a lossless conversion and is much slimmer in filesize, and the automated compatibility program for this mod relies on the filetype being .tpc to function.
+**Download Instructions:** *Strongly* recommend the 2x `.tpc` version; the fidelity loss for 2x is minimal, `.tpc` is a lossless conversion and is much slimmer in filesize, and the automated compatibility program for this mod relies on the filetype being `.tpc` to function.
 
 **Installation Instructions:** If you are on a system which can run .bat files, I *strongly* recommend using the automated system to deal with compatibility for this mod. To do so, first extract redrob's mod from its archive, then enter the "TSL Optional Kreia Model" folder, copy the four model files within, paste them into the "Copy contents to TSL's Override folder" and overwrite. After this, navigate to [this page](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleaner.bat) and click on the button with the arrow pointing down at the top of the code list (the one which says "download raw file"). Place cleaner.bat in the folder from redrob's mod called "Copy contents to TSL's Override folder", then go to [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleanlist_k2.txt) and repeat the same step, placing cleanlist_k2.txt in the same location. You can now run cleanlist.bat: follow the instructions onscreen, selecting whether you did or didn't use any of the given mods, and the batch file will automatically delete the incompatible files. Once you reach the end of the list, you can exit the .bat window, delete cleaner.bat and cleanlist_k1.txt, and then move the remaining files in the folder to your override.
 
@@ -2742,7 +2742,7 @@ ___
 
 **Name:** [KOTOR 2 Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
 
-**Author:** naelavok 
+**Author:** naelavok
 
 **Description:** Using predictive AI, /u/naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. A movie replacer like this is necessary to fix the fullscreen bug (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
 
