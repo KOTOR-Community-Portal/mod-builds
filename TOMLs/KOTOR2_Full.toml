@@ -1,0 +1,2145 @@
+[[thisMod]]
+Guid = "dd34ad17-b493-47e6-9945-e2cec9f3d0c6"
+Name = "The Sith Lords Restored Content Mod"
+Author = "zbyl2, DarthStoney, Hassat Hunter & VarsityPuppet"
+Category = "Bugfix, Immersion, Mechanics Change & Restored Content"
+Tier = "1 - Essential"
+Description = "The whole reason why you would mod KOTOR 2, the legendary mod that includes bugfixes, restored content, and altered scenes to return the game to what it was meant to be. This mod isn't just essential—it's mandatory."
+InstallationMethod = "Executable"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES, *but* you must install the version of TSLRCM which corresponds to your language of choice."]
+ModLink = ["https://deadlystream.com/files/file/578-tsl-restored-content-mod/"]
+
+[[thisMod]]
+Guid = "df982c71-e735-4137-bcd9-1bf8cb925863"
+Name = "TSLRCM Tweak Pack"
+Author = "Pavijan (update by Fair Strides)"
+Category = "Patch"
+Tier = "1 - Essential"
+Description = "Reverts and otherwise modifies certain TSLRCM settings to make the game more sensible and internally consistent (mostly unrestoring content which was likely intentionally cut by Obsidian). This includes removing Jedi Padawan Kaevee."
+InstallationMethod = "Multi-Run TSLPatcher"
+Directions = "Don't use the complete installer, instead selecting the individual component installer—this is *critical* for compatibility, not just to choose specific options. The installer for this mod will need to be run 6 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Kreia-Atris Dialogue Tweak, Trayus Mandalore Conversation, and Trayus Sith Lord Masks. Most of the other options for this mod are untested with the mod builds, but will likely function--I still recommend against using them, since compatibility isn't 100% guaranteed, but you can try. The one exception is *Atton at the End*, which is completely incompatible with one of the most important mods in this build, which is a much more comprehensive implementation of Atton's dialogue at endgame."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["PARTIAL - All components can be installed *except* for Trayus Mandalore Conversation."]
+ModLink = ["http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/"]
+
+[[thisMod]]
+Guid = "e36262dd-3920-40f2-8e64-d2cdc5131559"
+Name = "Silent Sion Restoration"
+Author = "Emperor Devon"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing."
+InstallationMethod = "Loose-File"
+Directions = "Move just 153sion.dlg to the override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2426-silent-sion-restoration/"]
+
+[[thisMod]]
+Guid = "bf8d04c3-cc18-40e0-9a0b-10ee3a7f029d"
+Name = "Thematic KOTOR 2 Companions"
+Author = "Sniggles & JCarter426"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "In the original KOTOR, BioWare did a few wacky things with character progression. Obsidian, not wanting to be outdone, decided to be even worse by just straight-up copying the statlines of several KOTOR companions for KOTOR 2 companions!\r\n\r\nAs part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members."
+InstallationMethod = "TSLPatcher"
+Directions = "If you would like to have Visas's class as Sith Assassin, install the \"Standard + Sith Assassin Visas\" option. Otherwise, simply install \"Standard.\""
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/"]
+
+[[thisMod]]
+Guid = "ce5983ea-8980-48f3-a061-5430dc0b34db"
+Name = "Prestige Class Saving Throw Fixes"
+Author = "Rovan"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "For some reason, some prestige classes in KOTOR 2 have worse saving throws than their predecessor class. This mod fixes this, ensuring that the more advanced classes always have slightly better throws."
+InstallationMethod = "Loose-File Mod"
+Directions = "I advise users to only install the Jedi Master/Sith Lord fixes."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/"]
+
+[[thisMod]]
+Guid = "0727a727-08b9-400c-955f-1889223afb9a"
+Name = "Classic Class Attack Bonus"
+Author = "Crimson Knight"
+Category = "Mechanics Change"
+Tier = "1 - Essential"
+Description = "In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 1.25:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 1.25:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2812-classic-class-attack-bonus/"]
+
+[[thisMod]]
+Guid = "8622dde7-c123-4b8a-8971-519f1fe84c55"
+Name = "Robes with Shadows for TSL"
+Author = "PapaZinos"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "What use, I ask you, is the Soft Shadows setting ingame if your shadows are still 10 polygons? This mod gives all robes proper shadows that match their models more directly, for that extra touch of realism."
+InstallationMethod = "Loose-File Mod"
+Directions = "Extract the mod. Ignore the included subfolders, and move just the files in the base folder to your override. Overwrite when prompted."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2075-robes-with-shadows-for-tsl/"]
+
+[[thisMod]]
+Guid = "a06126a3-35b2-45ad-a2b7-1b4610b7d728"
+Name = "K2 Community Patch"
+Author = "Multiple; A Future Pilot, JCarter426 Curates"
+Category = "Graphics Improvement & Bugfix"
+Tier = "1 - Essential"
+Description = "A community bugfix and general improvement patch for KOTOR 2 meant to be a supplement to TSLRCM, fixing bugs that TSLRCM didn't catch or viewed too minor to address; highly recommended."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Remember, warnings during an installation are normal—errors are not."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1280-kotor-2-community-patch/"]
+
+[[thisMod]]
+Guid = "f89bd8f9-8477-4dc0-b453-3d4871b076da"
+Name = "Remote Tells Influence"
+Author = "tk102, patch by Leilukin"
+Category = "Mechanics Change"
+Tier = "4 - Optional"
+Description = "This is going to require a bit of an explanation. I personally believe this mod breaks immersion—so why add it? The bottom-line is that KOTOR 2's influence system is asinine, and major plot points are locked behind very high—or very low—influence with several companions. Your influence with companions is also extremely obfuscated, only really discernible by their LS/DS alignment relative to your alignment, but this is a very buggy system which breaks with high Charisma values on the player, or with certain feats. There is no other way ingame to tell what your influence is without this mod. I mark it as optional because it *does* break immersion, but for many players I think having a system to determine influence will be extremely important for enjoyment of the story."
+InstallationMethod = "Loose-File Mod & Patch"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence", "https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0"]
+
+[[thisMod]]
+Guid = "a4ce216c-6ffa-4497-bcba-0da052feda24"
+Name = "Fixed / Better Czerka Salvager"
+Author = "OzilsEyes"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "I'm betting that *anyone* who has played KOTOR 2 before will remember that fucking son of a bitch Czerka salvager in the Telos military base. His pathfinding would make the most awful escort quest target in history blush in embarassment. This mod by Ozils is an outright lifesaver, applying much-enhanced follower logic to the salvager and automatically teleporting him to the party if you get too far away. No more 20 minutes of painstakingly dragging his ass through the base!"
+InstallationMethod = "TSLPatcher"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2576-fixed-better-czerka-salvager/"]
+
+[[thisMod]]
+Guid = "46548853-0f25-4141-82b3-a28ea9e1f786"
+Name = "Ultimate High Resolution Texture Pack"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "In addition to fully upscaling all of the NPCs and equipment in the game, ShiningRed has also produced a series of mods using the same techniques that update all the planet textures. This mod upscales the two prologue worlds, as well as some interior modules."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete PER_Gr01.tpc, TEL_rock.tpc through TEL_rock07.tpc, and TEL_wl05.tpc before moving the files to your override folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1100"]
+
+[[thisMod]]
+Guid = "713a8b00-0ee4-4896-a632-eceafa2c537a"
+Name = "Ultimate Character Overhaul"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "Ultimate Character Overhaul is a comprehensive AI-upscale of every character and piece of equipment in the game. Unlike previous AI upscales, the Ultimate series has no transparency problems while still retaining reflections on character textures, all without any additional steps required. This is an incredibly high-quality mod, and ShiningRed has even gone through the trouble to make compatibility patches for the mod builds, upscaling some of the later textures we use!"
+InstallationMethod = "Loose-File Mod"
+Directions = "For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in `.tpc` file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1060"]
+
+[[thisMod]]
+Guid = "40f58ebf-e721-46fd-b3b8-fcdab366a766"
+Name = "Ultimate Nar Shaddaa High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales the steel jungle of Nar Shaddaa."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1101"]
+
+[[thisMod]]
+Guid = "b9981dc9-f13c-4d97-99c3-db9214bdbab0"
+Name = "Ultimate Dantooine High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales the ravaged agrarian world of Dantooine."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1103"]
+
+[[thisMod]]
+Guid = "0a736007-b5a6-40c2-a791-55653cadd564"
+Name = "Ultimate Dxun High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales the mysterious jungles of Dxun, the heart of the Mandalorian crusade."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1105", "https://mega.nz/file/kUZTmT6K#9Ymj028VHivAoY7RaW1mKXu1H28NvYVNfM44p5C-IIM"]
+
+[[thisMod]]
+Guid = "6a8a847b-1a32-4e4f-a836-2579dac1b594"
+Name = "Ultimate Onderon High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales the great city of Iziz, sole city of Onderon."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete OND_dor1.tpc & OND_dor3.tpc before moving to your Override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1102"]
+
+[[thisMod]]
+Guid = "588ec673-86f8-4997-8adc-7e146d98b420"
+Name = "Ultimate Korriban High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales the Sith world of Korriban."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. Delete KOR_water01.tpc before moving the files to your override folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1104"]
+
+[[thisMod]]
+Guid = "67ed84b9-d94b-4498-ab0b-92e29fca6b44"
+Name = "Ultimate Malachor High Resolution"
+Author = "ShiningRedHD"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod upscales Malachor, where it all begins and ends."
+InstallationMethod = "Loose-File Mod"
+Directions = "Download the `.tpc` variant of the mod. For this mod *only*, do not overwrite if prompted!"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1106"]
+
+[[thisMod]]
+Guid = "8fa16364-67e4-4758-aa1b-fcdb98132a79"
+Name = "Korriban Sith Art HD"
+Author = "MessesWithWolves"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Though this mod is for K1, I've tested it with K2 and it not only works, it looks fine even with K2's drastically different atmosphere on Korriban. It dramatically improves the aesthetics of the artistic panels on the floor of the Korriban academy and the inset murals on the doors."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor/mods/1632"]
+
+[[thisMod]]
+Guid = "605d63c1-9033-4ed5-b4df-ebc6390304ac"
+Name = "Ritual and Water Textures"
+Author = "Nehua"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "A very nice retexture of the ritual \"dome\" during the party assault on Freedon Nadd's tomb. Note that the water texture from this mod is not (and cannot be) used for game stability, due to the way the mod is packaged; we will only use the ritual texture."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move only the files from the ritual folder, not the water."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/"]
+
+[[thisMod]]
+Guid = "3fd78e34-e637-4bf6-8459-22ff11715c5f"
+Name = "PFHC06 Fix"
+Author = "Ferc Kast"
+Category = "Bugfix"
+Tier = "3 - Suggested"
+Description = "Fixes a small grey area on the head of the sixth caucasian female head."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1442-pfhc06-fix/"]
+
+[[thisMod]]
+Guid = "85068dfa-556f-4141-bb49-0f6fd37f6c5e"
+Name = "Droid Special Weapons Fix"
+Author = "LoneWanderer"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "Several droid special weapons have inaccurate descriptions or plain wrong damage and effect values listed. This mod fixes all that up to make the descriptions of the items and their effects match what they actually do ingame."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/1860-droid-special-weapons-fix-for-tsl-v10/"]
+
+[[thisMod]]
+Guid = "cc1e8231-f705-4bd4-9cb2-c6537db985c2"
+Name = "Honest Merchant"
+Author = "TK-664"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "For those gluttons for punishment among us, this mod reverts the inventory of Dendis Dobo, the honest but struggling merchant on Citadel Station, to its pre-TSLRCM state. In TSLRCM all merchants have improved inventories, but with this mod Dendis has only a pittance of poor goods, to represent the cost of his honesty and exactly how much his business is struggling compared to his brother."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1904-honest-merchant-tslrcm/"]
+
+[[thisMod]]
+Guid = "70ac13df-2c23-42c5-984a-97bafd183a97"
+Name = "JC's Minor Fixes"
+Author = "JCarter426"
+Category = "Bugfix & Graphics Improvement & Immersion"
+Tier = "2 - Recommended"
+Description = "This collection from JCarter includes many small fixes, upscaled textures, and other helpful improvements too small to warrant their own mod, but well worth it when compiled as it is here."
+InstallationMethod = "Loose-File Mod"
+Directions = "If you are using the K2 Community Patch, install the contents of every folder but Straight Fixes (that was already in the K2CP). Delete DXn_grassfx.tga and DXN_jungfx.tga in Aesthetic Improvements before moving files to override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1215-jcs-minor-fixes-for-k2/"]
+
+[[thisMod]]
+Guid = "bc901496-1739-405f-a2e9-e4d316b49a38"
+Name = "Maintenance Officer Realistic Reskin"
+Author = "Malkior"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "The poor maintenance officer on Peragus makes it very clear that he was shot several times before he died. This reskin gives him the burn wounds from the mining droid lasers."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/"]
+
+[[thisMod]]
+Guid = "f75594a4-5b83-457c-b182-83648a314344"
+Name = "PLC_Sign"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "If you used the KOTOR build, you may remember some of the following mods. They're all made for the first game, but work just fine when ported into the second; there'll be many mods like this throughout the build. This specific mod dramatically improves the sign placeables found throughout the game. There's no side-by-side but trust me, this looks worlds better."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2442-plc_sign/"]
+
+[[thisMod]]
+Guid = "daa0c487-cf9c-4376-8ea9-2a45ddd0bab3"
+Name = "Kiosk HD"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Although again there's no side-by-side, this mod is a huge improvement over the default kiosk texture, which just looks vaguely like there's junk strewn over it."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2277-kiosk-hd/", "https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106"]
+
+[[thisMod]]
+Guid = "5342adc5-6955-4fd8-84b8-22b38d97c17f"
+Name = "PLC_Desk"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Still no side-by-side, but I promise, it looks much better than the default."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2441-plc_desk/"]
+
+[[thisMod]]
+Guid = "7433a976-d757-4ee1-8bd5-b43eb5ec10ef"
+Name = "Hi-Res Beam Effects"
+Author = "InSidious"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Improves the in-game beam and lightning effect quality."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/221-hi-res-beam-effects/"]
+
+[[thisMod]]
+Guid = "b56f3346-c9fa-460c-9e2e-6f35882bfe34"
+Name = "Fire And Ice HD"
+Author = "Cinder Skye"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Improves the resolution and textures of fire and ice effects in the game."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/454-fire-and-ice-hd-whee/"]
+
+[[thisMod]]
+Guid = "e9ecda9a-16ba-4af3-b003-02a52d44c68f"
+Name = "Animated Energy Shields"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Improves and adds more nuanced animations to all the energy shields in the game. Yes, despite this mod being listed for KOTOR, it works for KOTOR 2 also!"
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2193-animated-energy-shields/"]
+
+[[thisMod]]
+Guid = "7576fc8b-cdf8-4ec8-9126-1c1b0d2856ea"
+Name = "Blaster Visual Effects"
+Author = "JCarter426"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Improves the quality of the various blaster bolt types seen in the game (except sonic)."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1272-jcs-blaster-visual-effects-for-k2/"]
+
+[[thisMod]]
+Guid = "dc1f3f88-2dc6-4a24-9857-6a363dcc9ae8"
+Name = "TSL Head Model Fixes"
+Author = "Redrob41"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "Fixes some glitched head models present in the game."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/489-tsl-head-model-fixes/"]
+
+[[thisMod]]
+Guid = "7b8bebc2-71ba-454d-a564-92e9a4453af9"
+Name = "New Holocron Textures"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Retextures the Sith Holocrons present in Atris's meditation chamber on Telos and gives them a pulsing animation."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/"]
+
+[[thisMod]]
+Guid = "e4245d7f-2c88-4266-9f4c-6496d6d41d3c"
+Name = "Thigh-High Boots for Twi'lek"
+Author = "DarthParametric"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "In vanilla, Twi'lek thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This mod adds the boots as an equipped object, increasing the quality and appearance of the boot textures."
+InstallationMethod = "Loose-File Mod"
+Directions = "Ignore the \"Player Bodies\" folder. Go into the NPC Replacement folder and move all the loose files to the override directory. Ignore the optional folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/1088-tsl-thigh-high-boots-for-female-twilek-body-modders-resource/"]
+
+[[thisMod]]
+Guid = "37f5503b-dec9-4ba5-b8c0-48545ff6e296"
+Name = "Better Twi'lek Heads"
+Author = "Ashton Scorpius"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: *supposed* to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Choose whether to use the slim or original necks; your preference."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1432-tsl-better-male-twilek-heads/"]
+
+[[thisMod]]
+Guid = "222aabb1-30d8-4c84-905a-a743da8669ca"
+Name = "TSL Twi'lek Male NPC Diversity"
+Author = "Leilukin"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the \"Optional - Original Necks\" folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/"]
+
+[[thisMod]]
+Guid = "44b16080-c4e2-416d-9266-b28fdd1fff38"
+Name = "Dahnis Unique Look"
+Author = "Leilukin"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "Female Twi'lek have the same appearance differentiation problem the males do, but unlike the males I find most of the alternate textures out there for females a bit too flashy for my taste. This is a somewhat subdued change more in line with vanilla, but still giving a unique look which makes the NPC Dahnis stand out."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "The use of the upscaled textures or not is your preference, though I recommend them."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2198-dahnis-unique-look/"]
+
+[[thisMod]]
+Guid = "df9244e7-fbdf-40b5-90a6-f5f9452d5697"
+Name = "Darth Malak's Armor"
+Author = "DarthParametric"
+Category = "Graphics Improvement & Immersion"
+Tier = "3 - Suggested"
+Description = "In KOTOR 2, Darth Malak's armor is an incredibly rare late-game drop not available through normal means without TSLRCM. Unfortunately, in-game the armor doesn't look like Malak's at all. This mod fixes that."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://www.nexusmods.com/kotor2/mods/9/?"]
+
+[[thisMod]]
+Guid = "d414a7d8-e2fa-4355-9d29-74bdd6f86950"
+Name = "Supermodel Fix"
+Author = "JCarter426"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "Fixes several model errors present due to misnamed animations and misplaced weapon positions."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1141-jcs-supermodel-fix-for-k2/"]
+
+[[thisMod]]
+Guid = "01063513-0fff-4fe9-9637-53effcc4fad6"
+Name = "Mandalorian Worn-Out Armor"
+Author = "LordRevan999"
+Category = "Appearance Change"
+Tier = "2 - Recommended"
+Description = "Makes in-game Mandalorian armor appear realistically worn out. It's been 10 years since the Mandalorian Wars and the last time the Mandalorians had a state, and their suits should reflect that."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://mega.nz/#!1A4RCLha!Ro2GNVUPRfgot-woqh80jVaukixr-cnUmTdakuc0Ca4", "http://imgur.com/Wt4AXpP"]
+
+[[thisMod]]
+Guid = "65428f40-e5b4-4ebc-9d64-626bd704b3bd"
+Name = "HD NPC Portraits"
+Author = "ndix UR"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "An extremely high-quality series of NPC portraits done in vanilla style, perfect for those intending to play the game at higher resolutions. Cleans up a lot of problems with the low-quality vanilla versions."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1770-hd-npc-portraits/"]
+
+[[thisMod]]
+Guid = "250f875d-4223-4073-8965-09c7072c128b"
+Name = "HD PC Portraits"
+Author = "ndix UR"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Ditto the above, except this time it's ndix giving us a series of upscaled portraits for the player character."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1769-hd-pc-portraits/"]
+
+[[thisMod]]
+Guid = "a0ae909a-0279-4db5-babe-b2ccc95c54a9"
+Name = "Stylized Portraits TSL"
+Author = "Tinman888 & Sdub"
+Category = "Appearance Change"
+Tier = "4 - Option"
+Description = "If you'd prefer stylized art of the KOTOR 2 party instead of the above party portraits, this mod is an alternate option to the above."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1977-stylized-portraits-tsl-created-by-tinman888/"]
+
+[[thisMod]]
+Guid = "d46cc113-4f9c-4593-8087-053befb82f5b"
+Name = "PFHC03 Restoration"
+Author = "Effix"
+Category = "Restored Content"
+Tier = "2 - Recommended"
+Description = "For some reason, this head is included in vanilla but not enabled due to missing Dark Side transitions. This mod adds the transitions and re-enables the head as an option."
+InstallationMethod = "TSLPatcher"
+Directions = "Recommend the 'zombie-like' appearance, as it matches vanilla DS transitions."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/"]
+
+[[thisMod]]
+Guid = "a629abcd-ba2c-4a59-b02c-ca0ee686b45e"
+Name = "4k Atton"
+Author = "Constar"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "An extremely high-resolution Atton texture, including his default clothing."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/441-4k-atton/"]
+
+[[thisMod]]
+Guid = "757fe1f4-d4dc-4369-ad8c-572558cd59d8"
+Name = "Atton Rand with Scruff"
+Author = "felixfelicitas"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "Reskins Atton's head model to have a bit of scruff. Fits his character very nicely."
+InstallationMethod = "Loose-File Mod"
+Directions = "Ignore the MacOS folder, only move the `.TGA` files."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/528-atton-rand-with-scruff/"]
+
+[[thisMod]]
+Guid = "e979e11c-5e8d-4f3a-9bf9-efe408eb8af6"
+Name = "Rounder G0-T0"
+Author = "dirigibalistic"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "The definition of \"round\" was apparently different in 2003. Instead of an awful hexagonal abomination, this mod properly makes the G0-T0 droid spherical, significantly improving its appearance ingame."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1296"]
+
+[[thisMod]]
+Guid = "e3cf420e-46f0-4acf-b8f5-314423e95436"
+Name = "Dark Harbinger"
+Author = "NiuHaka"
+Category = "Appearance Change, Bugfix & Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Reskins a player head to look better, as well as having a unique Dark Side transformation."
+InstallationMethod = "Loose-File Mod"
+Directions = "Choose which version of the head model you would like to use from the screenshots provided. Place the files from the corresponding folder into your override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://mega.nz/#!kARxFSbS!wVaTMHT3LZ1Z2nFzjCiattphsim1p-0ReALIcb9h8pQ", "http://imgur.com/a/RN4oE"]
+
+[[thisMod]]
+Guid = "be09792e-40da-40ad-abd2-8a39837c3a80"
+Name = "HD Vrook"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Though this is a KOTOR mod, it also works with KOTOR 2. This mod reskins Vrook to look older, more worn-down and more pale—a fitting vision of the Jedi Master after years of hiding on Dantooine, and witnessing the destruction of almost the entire Jedi Order."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1504-vrook-hd-international-global-mod/"]
+
+[[thisMod]]
+Guid = "be897014-9c37-467b-857a-262b3c0f0e24"
+Name = "HD Darth Nihilus"
+Author = "Darth_Sapiens"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod improves the resolution of Darth Nihilus and adds some extra color to his mask, like it appeared in the concept art."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/367-darth-sapiens-presents-hd-darth-nihilus/"]
+
+[[thisMod]]
+Guid = "e0f231f8-93ef-43c8-91bb-5b6cfe8066da"
+Name = "Darth Sion Remake"
+Author = "FF97"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod improves the resolution of Sion's base textures, as well as adding detail to his wounds and atrophied eye. The screenshots don't do it proper justice; this is a well-executed improvement."
+InstallationMethod = "Loose-File Mod"
+Directions = "Install the files within the Override folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1244-darth-sion-remake/"]
+
+[[thisMod]]
+Guid = "74f72124-925b-45ab-b459-3c417328a409"
+Name = "Detran's Revan"
+Author = "Detran"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod by Detran (the same one used in the KOTOR build) improves Revan's texture for the Tomb of Ludo Kressh on Korriban, standardizing the appearance across the two games."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2350-detrans-darth-revan/#"]
+
+[[thisMod]]
+Guid = "d7a55699-cead-415f-bbb6-22e416c2349b"
+Name = "Lore-Friendly Mandalore Mask"
+Author = "constantinople33"
+Category = "Immersion & Appearance Change"
+Tier = "3 - Suggested"
+Description = "In old Legends canon, Mandalore's mask looks nothing at all like what it looks like ingame. This mod is an attempt to rectify this while still keeping the majority of Mandalore's aesthetic intact. It's a well-executed attempt in my opinion, though I recommend using the all-silver version, I don't really think it works otherwise."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1848-expanded-lore-friendly-mandalores-mask-with-matching-armor-and-icons-upscaled-high-quality-textures/"]
+
+[[thisMod]]
+Guid = "202ba360-5282-4df5-8af8-3e9561a82dfc"
+Name = "Visas Reduced Model Clipping"
+Author = "Feeling"
+Category = "Bugfix"
+Tier = "3 - Suggested"
+Description = "Visas's chin *REALLY* likes to atomically fuse with her weird Sith turtleneck. This mod does the best it can to separate the two."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2299-visas-reduced-model-clipping/"]
+
+[[thisMod]]
+Guid = "93164607-24fc-4e83-9ebf-6f914a05fa6b"
+Name = "HD Visas Marr"
+Author = "Darth_Sapiens"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod improves the resolution of Visas Marr and adds some additional detail to both her LS and DS transformations."
+InstallationMethod = "Loose-File Mod"
+Directions = "Only move the four .dds filetype files to your override, ignore the remainder. If installing this mod alongside either the K2CP or Ultimate Character Overhaul, P_VisasBB.tpc, P_VisasH01.tpc/.tga, P_VisasHD01.tpc/.tga, and P_VisasHD02.tpc/.tga must be deleted from the override so this mod's .dds-based files will load."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/519-darth-sapiens-presents-hd-2k-visas-marr/"]
+
+[[thisMod]]
+Guid = "b3b5e897-a51b-4254-a190-d8e3fd5003a9"
+Name = "Mira Unpoofed"
+Author = "Ashton Scorpius"
+Category = "Appearance Change"
+Tier = "4 - Optional"
+Description = "Let's be honest, Mira has a Karen cut. This mod resolves her deeply internalized desire to ask for the manager."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/"]
+
+[[thisMod]]
+Guid = "3ba01f19-66e7-4093-b158-ad9f606374e7"
+Name = "T3M4 HD 2K"
+Author = "Darth_Sapiens"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "A high-quality up-res of T3."
+InstallationMethod = "Loose-File Mod"
+Directions = "If present in your Override, P_t3m4_01.tpc/.tga must be deleted so this mod's .dds-based files will load."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/514-darth-sapiens-presents-t3m4-hd-2k/"]
+
+[[thisMod]]
+Guid = "c0612308-0c5c-46e4-a53e-7e126ea3d44f"
+Name = "Refurbished Astromech Droids"
+Author = "Darth_Sapiens and Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Utilizes the above reskin of T3 as a base for the appearance of all other astromech droids in the game."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/971-refurbished-astromech-droids/"]
+
+[[thisMod]]
+Guid = "f85e18f3-8b43-43d9-9d1d-f29ae9459cc8"
+Name = "War Droid Mk.1"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Reskins the war droids to HD editions. Although this mod is listed for KOTOR, it also works for KOTOR 2."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2188-war-droid-mark-i-hd/"]
+
+[[thisMod]]
+Guid = "7962e4d4-5574-4a83-b792-4697100c2b75"
+Name = "Duros HD"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod in particular is super high-quality and one of my favorites."
+InstallationMethod = "Loose-File Mod"
+Directions = "Before moving the files to override, make a copy of N_Duros02.tga and paste it into the same location you extracted the mod to. On a Windows OS, this should create a file called N_Duros.tga-COPY. Rename this file to \"N_Duros04.tga\". Repeat this process with the file N_Duros03, creating two copies and naming them N_Duros05.tga and N_Duros06.tga. When you move all the files to the override, you should be moving eight total. Following this, download and install the patch."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2252-duros-hd/", "https://mega.nz/file/RBBUTKoB#FTWDzUf8SwWBoaGgtAGXfUHjOP_BZxfFPKASf8hlC1M"]
+
+[[thisMod]]
+Guid = "83fea588-a1e3-46de-9079-1d39f073f598"
+Name = "Ithorians HD"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This another one of Dark Hope favorites, the Ithorians look absolutely excellent ingame."
+InstallationMethod = "Loose-File Mod"
+Directions = "Similar to the above, make a copy of C_Ithorian03.tga and rename it to N_Chodo.tga. You should move a total of 5 files to the override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2382-ithorian-hd/"]
+
+[[thisMod]]
+Guid = "c60be776-ab68-4019-a6b5-4b3a160ea545"
+Name = "N_oldAMH01 HD"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Dark Hope once again striking with the worst-named mods in history."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2806-n_oldamh01-hd/"]
+
+[[thisMod]]
+Guid = "0ab97a00-8024-4278-b256-720eb5d56aad"
+Name = "Canonical Jedi Exile"
+Author = "michaelfung2000"
+Category = "Appearance Change"
+Tier = "4 - Optional"
+Description = "Reskins one of the player heads to match the canon appearance of the main character."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/170-canonical-jedi-exile/"]
+
+[[thisMod]]
+Guid = "c49ed73a-1d46-46ed-9569-bd3a71c53bd9"
+Name = "JC's Lightsaber Visual Effects"
+Author = "JCarter426"
+Category = "Appearance Change & Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod by JC significantly upscales the texture of lightsaber blades, in the process making them much sharper and brighter, while also recoloring the various color crystals to make them appear more naturally like the color they're meant to represent"
+InstallationMethod = "Loose-File Mod"
+Directions = "Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1317-jcs-lightsaber-visual-effects-for-k2/"]
+
+[[thisMod]]
+Guid = "84f2bacb-3db0-4dca-ba3d-b78af51ceb4e"
+Name = "Enhanced Lightsaber Hilt Variety"
+Author = "J"
+Category = "Appearance Change & Graphics Improvement"
+Tier = "1 - Essential"
+Description = "J's mod here is some more black magic fuckery, finding out a way to make lightsaber \"textures\" (of a sort) apply both on the legacy patch and Aspyr patch versions of the game, when they were previously broken on the latter. What's more, he's made this mod compatible with JC's lightsaber visual effects above, and also added Crazy34's lightsaber reflections to his sabers, so your (and enemy!) lightsabers will dynamically reflect off of nearby surfaces. The model differentiations here aren't groundbreaking, but they're better than vanilla where all the sabers are entirely the same, especially when you see just how great the reflections look ingame."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2794-enhanced-lightsaber-hilt-variety/"]
+
+[[thisMod]]
+Guid = "7161f1df-f1e5-4342-9363-9aa2903d5b59"
+Name = "KOTOR 2 Random Panels"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Reskins and sharpens several ingame computer panels without losing sight of the vanilla aesthetic."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2588-kotor2-random-panels/"]
+
+[[thisMod]]
+Guid = "a2594ed3-fd89-4e9f-b1bc-0b928b401a4b"
+Name = "Neglected Computer Panel"
+Author = "ScrierOne"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "There's a computer panel which, for years, hasn't been involved in any various texture improvement mods. This mod closes that gap."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2063-neglected-computer-panel/"]
+
+[[thisMod]]
+Guid = "999ae6eb-1b09-474c-a801-a9990237a958"
+Name = "Improved Peragus Asteroids"
+Author = "VasiliiZaytsev"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Reskins some criminally low-res asteroids on Peragus to an acceptable resolution."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/"]
+
+[[thisMod]]
+Guid = "9cdff9b2-6554-4444-b6b1-632ecb7f8177"
+Name = "Swoop Monitor Replacement Pack"
+Author = "Sith Holocron"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "For being a fast-paced sport, the swoop monitors sure were lovely still-frames. This mod fixes that by animating them into a slideshow."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/"]
+
+[[thisMod]]
+Guid = "85aeb637-3b4d-4c5b-bf26-7c4fa3d93109"
+Name = "Terminal Texture"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod significantly improves and animates the computer panel texture. Although it's listed for KOTOR, it also works in KOTOR 2."
+InstallationMethod = "Loose-File Mod"
+Directions = "The files in this mod need to be duplicated and those duplicates renamed. On a Windows OS you can do this by copying the two files within and pasting them into the same folder which you copied them from. This should create duplicates of the original files with a slightly different filename (such as PLC_CompPnl-COPY). Take the two copied files and rename them to PLC_CompPnl_b. Make sure you have one `.tga` filetype and one .txi filetype. When the files are moved to the override, you should be moving four files: PLC_CompPnl.tga, PLC_CompPnl.txi, PLC_CompPnl_b.tga, and PLC_CompPnl_b.txi"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1925-terminal-texture/"]
+
+[[thisMod]]
+Guid = "7e4eb587-3691-4e26-9c57-70332ecad2d3"
+Name = "Animated Computer Panel"
+Author = "ebmar"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Switches the computer panels on Citadel Station to be animated, as well as (optionally) having a transparent hologram display. This gives them a unique appearance compared to the textures impacted by the above mod."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Recommend solid options. Do NOT use experimental install options!"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1385-tsl-animated-computer-panel/"]
+
+[[thisMod]]
+Guid = "b17a0de1-b033-4d10-9144-0e03972da782"
+Name = "RepTab HD"
+Author = "Dark Hope"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Upgrades the visuals of the game's crafting benches and lab stations, and also animates the computer interface terminal they have."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2222-reptab-hd/"]
+
+[[thisMod]]
+Guid = "d56e12de-97a1-4cfc-a6b3-cc5aa4c408fc"
+Name = "TSL Backdrop Improvements"
+Author = "Kexikus"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "The goal of this mod is to renovate the backdrops visible from the bridges of various ships as seen in the game, which it accomplishes with stellar results (no pun intended)."
+InstallationMethod = "Loose-File Mod"
+Directions = "Install the files from the included Override directory only. Delete all the files beginning with \"leh_\". There should be four."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/949-tsl-backdrop-improvements/"]
+
+[[thisMod]]
+Guid = "275c7009-7399-45ee-93c1-a83acabe13db"
+Name = "JC's Citadel Station Backdrop"
+Author = "JCarter426"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "With all of the incredible modding capabilities arrayed before us, *none* of the other mods actually fix the horrid Citadel Station backdrop textures. Blessedly, JC's got our backs."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1217-jcs-citadel-station-backdrop/"]
+
+[[thisMod]]
+Guid = "23eeb12d-6480-498d-ab97-c19ba9b51a92"
+Name = "HQ Skyboxes II"
+Author = "Kexikus"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Dramatically improves the quality of every single skybox in the game—one of the more impressive graphics mods ever released."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1793-high-quality-skyboxes-ii/"]
+
+[[thisMod]]
+Guid = "2a46c4ee-6700-4e87-9641-5eba457eb146"
+Name = "Ebon Hawk Cockpit Upgrade (LEH_Scre01)"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Cleans up and enhances the cockpit terminal texture without making it garish or too busy."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/"]
+
+[[thisMod]]
+Guid = "57b5c87d-9b6f-48c6-9c88-12315cb80602"
+Name = "Ebon Hawk Cockpit Upgrade (LEH_Scre02)"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Similar treatment to the above for the various other computer panels on the ship."
+InstallationMethod = "Loose-File Mod"
+Directions = "Recommend the version without overlays, but it's personal preference."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2247-ebon-hawk-cockpit-upgrade-leh_scre02/"]
+
+[[thisMod]]
+Guid = "184757ca-69f9-46a6-a885-75223e92ed46"
+Name = "Spark Effect - Ebon Hawk"
+Author = "PapaZinos"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "You won't notice it until you see the side-by-side, but the vanilla spark effect is AWFUL. This mod is an incredible improvement on the base effect."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2314-spark-effect-ebon-hawk/"]
+
+[[thisMod]]
+Guid = "19723b61-7627-4049-a826-d77b4b0ebaae"
+Name = "Transparent Cockpit Windows TSL"
+Author = "WildKarrde"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: K2CP (\"K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos\"), \"High Quality Skyboxes II by Kexikus\" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and \"Spark Effect - Ebon Hawk by PapaZinos\". **DO NOT USE** the content of the \"Korriban Distorted Model Fix\" folder, even if you are on the Aspyr patch! With the C3-FD patcher, this is no longer a concern."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2355-transparent-cockpit-windows-for-tsl/"]
+
+[[thisMod]]
+Guid = "4e853375-c54e-4430-9437-37bb13d90cbb"
+Name = "HD Cockpit Skyboxes"
+Author = "tjsase"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move the loose files to the override, followed by the file in the \"With Nar Realistic Skybox\" folder if you use HQ Skyboxes II."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/"]
+
+[[thisMod]]
+Guid = "670dcaaf-bae3-46c3-ba00-0900bba0ff81"
+Name = "FTL Hyperspace Loop"
+Author = "Nym182"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "A beautiful animated texture of traveling in hyperspace. Check out the video on the mod's download page to see it in motion."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1161?tab=description"]
+
+[[thisMod]]
+Guid = "69e9a639-2074-4c4f-8ad1-b3efac49b2a4"
+Name = "Aleema Keto's Robe Description Correction"
+Author = "milestails"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "Aleema Keto's Robe, as described in KOTOR 2, doesn't fit with the old EU. This mod fixes the robe description to match Keto's actual backstory."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/"]
+
+[[thisMod]]
+Guid = "14f90acb-8626-4341-bace-8c4fbe217db6"
+Name = "Vaklu Short-Term Memory Fix"
+Author = "SuperChameau"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "In your dialogue with Vaklu when supporting him as your candidate for the Onderon throne, he virtually repeats himself verbatim in two sentences back-to-back. I see some grey on those temples man, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. This change is fully voiced using original voice work thanks to dialogue splicing."
+InstallationMethod = "Loose-File Mod"
+Directions = "Recommend Drew's fix, as it preserves more of the original dialogue."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/"]
+
+[[thisMod]]
+Guid = "52b9158a-e76b-4af3-93fa-261d714e2828"
+Name = "Onderon News Make Sense"
+Author = "SuperChameau"
+Category = "Bugfix"
+Tier = "3 - Suggested"
+Description = "In vanilla, there's either a misrecorded or miswritten line which refers to Telos Station as \"Peragus Station.\" This mod fixes the issue by splicing dialogue from the same news holo so that the anchor says \"Telos Station\" both times."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2655-onderon-news-make-sense/"]
+
+[[thisMod]]
+Guid = "8d2a015d-2e70-490d-9d01-9124c3f4bbf2"
+Name = "Ebon Hawk Downloadable Map"
+Author = "Ashton Scorpius"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "If you fall into that group of people that gets *really* annoyed with all the fog on the edges of the Ebon Hawk minimap, boy howdy do I have a mod for you."
+InstallationMethod = "HoloPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/1406-tsl-ebon-hawk-downloadable-map/"]
+
+[[thisMod]]
+Guid = "e8769af7-e499-4a8a-b5d0-b5b8b18c85fb"
+Name = "Kinrath Egg Bash Crystal Drop Fix"
+Author = "Hassat Hunter"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "In KOTOR, bashing Kinrath eggs had a chance to result in red lightsaber crystals. This mod adds the same chance to KOTOR 2's Kinrath eggs."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/"]
+
+[[thisMod]]
+Guid = "961c78e8-13eb-48f8-97da-4fcc016d3ede"
+Name = "Thorium Charge Mod"
+Author = "darth_gil"
+Category = "Added Content"
+Tier = "2 - Recommended"
+Description = "Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/147-thorium-charge-mod/"]
+
+[[thisMod]]
+Guid = "dac7bdfe-0770-4596-87ac-8cd7a2cdbcb7"
+Name = "Kill the Ithorian"
+Author = "Markus Ramikin"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "This mod allows you to kill the Ithorian on Citadel Staton you were previously only able to save."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/10-kill-the-ithorian/"]
+
+[[thisMod]]
+Guid = "29cae569-259b-4bc9-9e5a-b6f0186a0524"
+Name = "Red Floating Lightsabers"
+Author = "Crimson Knight"
+Category = "Appearance Change & Bugfix"
+Tier = "2 - Recommended"
+Description = "At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic—that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red—logically, red is what Kreia would've had on hand."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2635-red-floating-lightsabers/"]
+
+[[thisMod]]
+Guid = "5efff58c-c676-451d-96cd-de77c9a8fc04"
+Name = "Choose Mira or Hanharr"
+Author = "Hassat Hunter"
+Category = "Immersion & Mechanics Change"
+Tier = "1 - Essential"
+Description = "This mod lets you choose whether you want to have Mira or Hanharr as your champion against Visquis in the Jekk'Jekk Tar, regardless of Dark or Light alignment. This means you can have Hanharr while LS, or vice-versa with Mira."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/108-choose-mira-or-hanharr/"]
+
+[[thisMod]]
+Guid = "7c0adacf-61cb-41f1-8f4c-0dc6ffdedd45"
+Name = "Kreia's Fall Ingame Cutscene"
+Author = "danil-ch"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Improves the quality of the cutscene which reveals Kreia's casting out of the Triumvirate by rendering it in-game rather than as a low-quality movie. Even if you intend to use the High-Resolution Cutscenes mod included under the extended widescreen support section at the bottom of this list, I still recommend this mod; they function basically the same, but by using this mod the characters in the cutscene will use their new textures if any are applied, thereby making it more immersive and further increasing its quality above that of the pre-recorded cutscene, which relies on vanilla textures."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["PARTIAL - Compatibility with English, French and German"]
+ModLink = ["https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/"]
+
+[[thisMod]]
+Guid = "d9be2682-a027-44a3-b3ee-5b923c5e3eb5"
+Name = "PartySwap"
+Author = "DarthTyren & Leilukin"
+Category = "Immersion & Mechanics Change"
+Tier = "1 - Essential"
+Description = "PartySwap is a legendary mod, and one of the best ever made for KOTOR 2. Through some unobtrusive scripting magic, it allows you to bring both the Disciple and Handmaiden with you as companions simultaneously, without removing another companion from the party wheel. You can experience all their content and use them both throughout the entire campaign, as was originally intended by Obsidian.\r\n\r\nBe aware, however, that PartySwap *does* require some fourth wall-breaking elements, including the need to use a script and dialogue window to summon the Handmaiden in order for its party trickery to work. I don't like this any more than you probably do, but I still think having both the Handmaiden and Disciple is far superior to having only one of them, and I think it's an acceptable price for what the mod provides.\r\n\r\nThe mod gives you a stim to manage the Handmaiden and Disciple (spawning & despawning them) which you use to run the script. This stim appears in the *shields* quickbar at the bottom-left of the screen, however; be aware of this, since it doesn't show up in the normal stims category!"
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the \"Compatibility Patches\" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/544-partyswap/"]
+
+[[thisMod]]
+Guid = "cb2d06bb-21b3-488d-9882-6acec25a506e"
+Name = "Extended Enclave"
+Author = "danil-ch & Darth Hayze"
+Category = "Restored Content"
+Tier = "1 - Essential"
+Description = "Restores some additional content to the Dantooine Enclave, including more variance depending upon your influence with Kreia."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["English and Russian ONLY"]
+ModLink = ["http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/"]
+
+[[thisMod]]
+Guid = "c06122ba-dc0d-4994-a8f6-5cbcea49bec3"
+Name = "PartySwap/Extended Enclave Compatch"
+Author = "Leilukin"
+Category = "Patch"
+Tier = "1 - Essential"
+Description = "PartySwap and Extended Enclave are both large mods that modify many of the same files, so they don't play well together natively. Thankfully, this compatch fixes all those issues and makes them completely compatible."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/"]
+
+[[thisMod]]
+Guid = "4973c326-7ddd-4882-8a45-98b284c00300"
+Name = "Extended Korriban Arrival"
+Author = "danil-ch"
+Category = "Restored Content"
+Tier = "3 - Suggested"
+Description = "Slightly extends the scene which plays out immediately before the *Ebon Hawk* touches down on Korriban."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/250-extended-korriban-arrival/"]
+
+[[thisMod]]
+Guid = "bc2a0562-f0db-458e-a97b-5dfae76e6404"
+Name = "Prologue Item Recovery"
+Author = "Leilukin"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "A mod made at my request by Leilukin, for which I'm very grateful! Originally, even if you play the short prologue on the Ebon Hawk, you're not able to keep your items from that sequence, even though none of them are overpowered or unreasonable for that stage of the game. This mod gives them back to you, so long as T3 is able to breach the door to the security room in the hanger."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Use the TSLPatcher installer method (mandatory for compatibility), not the manual install."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2211-prologue-item-recovery/"]
+
+[[thisMod]]
+Guid = "0085998e-6ca0-47f4-8034-0326ffdf68d9"
+Name = "Balance Tweak Pack"
+Author = "Pavijan"
+Category = "Mechanics Change & Patch"
+Tier = "2 - Recommended"
+Description = "Modifies an imbalanced power and removes an unused feat to prevent feat waste."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1790-balance-tweak-pack/"]
+
+[[thisMod]]
+Guid = "5d710f3b-7199-4063-9e65-c24bd954a930"
+Name = "Mines Overhaul"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!"
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Recommend running all three options, the main install first and then the two optionals."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2753-mines-overhaul-tsl/"]
+
+[[thisMod]]
+Guid = "afe71fba-41af-4aa5-aea5-ccf6d86a3843"
+Name = "No Health Regeneration"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Having health regen by default in KOTOR 2 is bad for many reasons: it makes an already easy game easier; it negates the benefit of the health regeneration feat they added; and it makes the use & crafting of medkits and other health-restoring tools much less useful. I played with this mod and the game was still pretty easy by the end, but it was WAY more fun early on. It made me have to worry about health and especially healing items for quite a bit more time, which preserved the challenge beyond Telos."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2530-no-health-regeneration/"]
+
+[[thisMod]]
+Guid = "ffdc7193-c270-40e6-93d2-5a8cd319f193"
+Name = "Thematic Sith Lords"
+Author = "Sniggles & JCarter426"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1535-thematic-sith-lords/"]
+
+[[thisMod]]
+Guid = "6c85d721-1bec-42f7-a272-28fc87f26cdc"
+Name = "Thematic Jedi Masters"
+Author = "Sniggles & JCarter426"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "The much younger brother of Thematic Sith Lords, Thematic Jedi Masters was born of me discovering that all of the Masters except Atris have the same class (Guardian), and one doesn't even have any Force Points for your encounter! These fights were extremely half-baked, and that's where this mod comes in. Unlike Thematic Sith Lords the design philosophy was not of a rock-paper-scissors style (so you aren't going to find a tremendous glaring weakness with a Master as you might on a Lord) but rather to accentuate a given master's strengths in line with their respective natures."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2633-thematic-jedi-masters/"]
+
+[[thisMod]]
+Guid = "484eeeac-d66c-41ab-8159-fd6e280f59e7"
+Name = "Better Disciple Meditation"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Let's be honest, Disciple kinda sucks. This mod makes him suck *marginally* less by making his meditation ability actually useful, so you might have some incentive to take him around with you at least some of the time, or bring him out to re-apply his meditation bonus."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2612-better-disciple-meditation/"]
+
+[[thisMod]]
+Guid = "7a540202-59bc-459a-82b1-eb9624bd76a7"
+Name = "Bao-Dur Can Wear Heavy Armor"
+Author = "Effix"
+Category = "Bugfix & Immersion"
+Tier = "2 - Recommended"
+Description = "Bao-Dur gets more than a little screwed. He can't wear robes because they never made a model for them with his mechanical arm cutout, and he can't wear heavy armor because they didn't make a model for that, either. Especially with his stat distribution in mind, that makes him kind of garbage. This mod restores the ability to give him heavy armor, at least, which gives him at least a bit better utility."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2189-bao-dur-can-wear-heavy-armor/"]
+
+[[thisMod]]
+Guid = "110cfddf-668a-4e68-885b-eaf577377bcb"
+Name = "JC's Crystal Attunement"
+Author = "JCarter426"
+Category = "Mechanics Change, Bugfix & Immersion"
+Tier = "2 - Recommended"
+Description = "For being a crystal which is specifically attuned to the player, your little pet rock wasn't very malleable. This mod adds a ton of different alignment levels for your player crystal based upon your alignment and class, fixes several bugs with the crystal, and also allows the player to attune the crystal at workbenches when Kreia isn't available."
+InstallationMethod = "TSLPatcher"
+Directions = "Practically speaking there are only two relevant install options: \"Class-Based Properties + Workbench Attunement\", which is the full package, or \"Bug Fixes Only\". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2269-jcs-crystal-attunement-for-k2/"]
+
+[[thisMod]]
+Guid = "755aa81e-f2dc-4038-9dd7-e87caf0041d6"
+Name = "Better Jekk'Jekk'Tarr Thugs"
+Author = "SuperChameau"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "The thugs in the Jekk'Jekk'Tarr, despite many of them being bounty hunters in a seedy bar, for the most part didn't carry any weapons at all. This mod fixes that, giving the patrons weapons with which to defend themselves."
+InstallationMethod = "HoloPatcher"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/"]
+
+[[thisMod]]
+Guid = "c52b6cf3-b07f-4406-909e-d370ca4ad8d9"
+Name = "Logical Jekk'Jekk'Tarr"
+Author = "N-DReW25"
+Category = "Bugfix & Immersion"
+Tier = "2 - Recommended"
+Description = "The Jekk'Jekk'Tarr sequence in the vanilla game, and even in TSLRCM, has a lot of problems. The most glaring was the player's ability to enter the bar without suffering severe ill-effects, even though dialogue elsewhere suggested that even skin contact would be nearly instantly fatal. This mod resolves almost all of the idiosyncracies of the sequence in a very lore-friendly and logical way."
+InstallationMethod = "HoloPatcher"
+Directions = "Install part 1 and then part 2, then, if using Better Jekk'Jekk Tarr Thugs, also install the compatch."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2790-logical-jekkjekk-tarr/"]
+
+[[thisMod]]
+Guid = "9b04acfd-114a-4738-9acc-48932340eb4f"
+Name = "Mira's Vanilla Escape for TSLRCM"
+Author = "WildKarrde"
+Category = "Restored Content"
+Tier = "2 - Recommended"
+Description = "TSLRCM edits the scene with Mira escaping the tunnels beneath the Jekk'Jekk'Tarr, restoring one scene but, in the process, removing another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process."
+InstallationMethod = "TSLPatcher"
+Directions = "I recommend the \"With Additional Scene\" option for maximum restored content and internal consistency for the sequence."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/"]
+
+[[thisMod]]
+Guid = "8e5e346f-3501-45fa-943d-d9baac35eb3b"
+Name = "Kreia's Lightsaber/Longsword"
+Author = "bead-v"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "This mod fixes the sequence where Kreia is confronted with Sion on the *Harbinger* so that Kreia doesn't just pull a vibroblade out of nowhere. Instead, she reaches down and picks up a longsword from the nearby corpse of a Republic soldier, more sensibly."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "The lightsaber version of this mod is broken when used alongside the mod builds, so please ensure to use specifically the longsword version."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1538-kreias-lightsaber-long-sword/"]
+
+[[thisMod]]
+Guid = "3011345c-d4d5-4624-a622-8942816e2e72"
+Name = "Harbinger Arrival Performance Enhancement"
+Author = "PapaZinos"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "The *Harbinger* cutscene sequence is absolutely the most ambitious cutscene the game ever attempts. With multiple module loads, split .bik movie cutscenes, panning and circling cameras, the arrival of the *Harbinger* is one of the most impressive visual sequences in the entire game, at least from a technical perspective. But my god, the engine does not like it. This mod tightens everything to do with the sequence up and makes the entire thing much more stable, less prone to crashes or forced minimizations on modern hardware."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Use the installer version."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2027-harbingers-arrival-performance-enhancement-for-tslrcm/"]
+
+[[thisMod]]
+Guid = "a1310f3c-aa0b-4269-a34e-4d4c06dfabbd"
+Name = "Visas Voiceover Tweak"
+Author = "danil-ch"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "Replaces lower-quality in-game dialogue in the initial *Ravager* scene between Nihilus and Visas with versions from one of the game's pre-rendered cutscenes."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/"]
+
+[[thisMod]]
+Guid = "fa60f161-ef2b-4a99-ae77-763983bc74b9"
+Name = "Darth Sion and the Male Exile"
+Author = "Leilukin"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "I find that Sion's character comes off completely one-dimensional, ruining both his own interesting character arc and his relationship with Kreia, unless he can express a feeling of sentimentality for the Exile. Unfortunately this is conveyed via a romantic obsession between Sion and the player, and by default this is locked to a female Exile. In the interests of presenting Sion at his best as a character, this mod causes Sion to become obsessed with the player regardless of their gender."
+InstallationMethod = "HoloPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["http://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/"]
+
+[[thisMod]]
+Guid = "41b856d7-e936-4b64-afce-3d6fd9caeb8a"
+Name = "Sith Assassins with Lightsabers"
+Author = "Lewok2007"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Replaces the Sith Assassins' default weaponry with lightsabers. It makes more sense that they would hunt the last of the Jedi with weapons meant to face them.\r\n\r\nBe ready for a hard slog through the *Harbinger* if you choose to use this mod."
+InstallationMethod = "Multi-Run HoloPatcher"
+Directions = "Run the installer once for the first part of the install, then again to apply the second half."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/"]
+
+[[thisMod]]
+Guid = "88f89519-dba2-43f6-b931-31e0f79db039"
+Name = "True Sith Assassins"
+Author = "offthegridmorty"
+Category = "Mechanics Change & Immersion"
+Tier = "2 - Recommended"
+Description = "By default, Sith Assassins aren't *actually* using stealth, and you don't *actually* roll Awareness to detect them. This mod not only gives the Sith Assassins some levels of Sneak Attack (they are literally stealthed assassins, after all) it also makes them actually use stealth just like the player would, and the party either needs to damage them or roll a successful Awareness check to detect them. As you may expect, this mod can be *hard* depending upon your character build, and also whether you're using Sith Assassins with Lightsabers. It does have an option to reduce the difficulty, though, which makes it more immersive and less about you getting your shit kicked in, if that's appealing to you."
+InstallationMethod = "Multi-Run HoloPatcher"
+Directions = "Unless you intend on playing a character with very high awareness, I recommend the reduced difficulty option if using Lewok's Sith Assassins with Lightsabers, because the damage will be ridiculous. Remember to also apply the compatch for Lewok's mod after running the main install option of your choice, if using it."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2649-true-sith-assassins-awareness-restoration/"]
+
+[[thisMod]]
+Guid = "c8f15eb9-5148-42bd-b8ef-157c519a1615"
+Name = "For Mandalore!"
+Author = "offthegridmorty"
+Category = "Mechanics Change & Immersion"
+Tier = "3 - Suggested"
+Description = "Sensed a pattern with Morty and continually putting out banger mods yet? This is a neat one which gives the player the ability to summon Mandalorian reinforcements to support them. Normally this would be too overpowered and kind of out-of-place, but at my request Morty has graciously made an install option specifically for use in the mod builds which only adds the Mandalorian support squads to the *Ravager*, where it makes sense for them to be present and available to come assist the player."
+InstallationMethod = "HoloPatcher"
+Directions = "Strongly recommend using the Snigaroo Cut for balance and immersion's sake."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2666-for-mandalore/"]
+
+[[thisMod]]
+Guid = "bac7a023-210f-433e-87fe-1eb391374aa9"
+Name = "Peragus Medical Bay Enhancement"
+Author = "WildKarrde"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "A really neat mod which makes the Peragus medical bay a little bit more coherent—you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites."
+InstallationMethod = "TSLPatcher"
+Directions = "When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the \"OPTION - Burned Skin Textures\" folder (or the upscaled textures therein) to your override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/"]
+
+[[thisMod]]
+Guid = "dda3ff6a-d926-4d85-8ad8-658f8e07158d"
+Name = "High Quality Blasters"
+Author = "Sithspecter"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "Massively improves the appearance of almost all blaster weapons in-game without grossly altering their original design."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["PARTIAL - Some text will be blank or in English"]
+ModLink = ["http://deadlystream.com/files/file/915-high-quality-blasters/"]
+
+[[thisMod]]
+Guid = "e79b498f-011f-4571-90e5-39f290c3d8be"
+Name = "Droid Models Animation Fix"
+Author = "CaptainSpoque"
+Category = "Bugfix"
+Tier = "2 - Recommended"
+Description = "By default there are several droid NPCs in both KOTOR games which have no animations set for them to dodge, which causes them to just sort of freeze whenever the player attacks them but doesn't land a hit. I've noticed this for years and never realized what it was, but Spoque has put together a package here that adds the dodges to the droid models and fixes them freezing mid-fight."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move all the various files inside the 7 folders within the \"TSL Version\" folder, EXCEPT for \"War Droid K1,\" if using HQ Blasters above."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2748-droid-models-animation-fix/"]
+
+[[thisMod]]
+Guid = "7c9fefeb-35a8-47fc-a5f5-1fcc65807127"
+Name = "Quarterstaff Replacement Pack"
+Author = "DeadMan"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "Replaces or retextures every quarterstaff in KOTOR 2, including the Guidon Beacon, restored in TSLRCM."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/"]
+
+[[thisMod]]
+Guid = "40856da1-4c34-47d2-acbe-f51aa7ed7724"
+Name = "AI Upscaled Icon Overhaul"
+Author = "Pramod Marlon"
+Category = "Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "This mod uses AI upscaling to increase the resolution and quality of all of the over *one thousand* icons in the game, from Force powers to Feats to gear and lightsaber crystals. It does a wonderful job of it, and I only have one complaint—very small icons, such as when selecting items, can look a little pixelated because the resolution of the new icons is actually too large for downscaling to display them properly. In most of the normal situation where you would be seeing an icon, though, you won't notice that."
+InstallationMethod = "Loose-File Mod"
+Directions = "Delete if_finesse01.tga, if_finesse02.tga, iw_dblsbr_010.tga, iw_dsrptpstl_001.tga, iw_dsrptpstl_002.tga, iw_dsrptpstl_003.tga, iw_dsrptpstl_004.tga,iw_Lghtsbr_011.tga, iw_qtrstaff_001.tga, iw_qtrstaff_002.tga, and iw_qtrstaff_003.tga before moving the files to the override and overwriting any conflicts."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1536-tsl-ai-upscaled-icon-overhaul/"]
+
+[[thisMod]]
+Guid = "cfd105f2-b6f1-4180-a598-c1457faf409d"
+Name = "Rescaled Trandoshans"
+Author = "Schizo"
+Category = "Immersion"
+Tier = "4 - Optional"
+Description = "Canonically Trandoshans are huge, almost as tall as a Wookiee. This mod rescales them to the proper height."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/946-re-scaled-trandoshans/"]
+
+[[thisMod]]
+Guid = "0d7070ad-c679-48f2-8939-c0a2e4d3548a"
+Name = "Visually Repair HK-47"
+Author = "Kexikus"
+Category = "Added Content, Appearance Change & Immersion"
+Tier = "2 - Recommended"
+Description = "This mod brings to KOTOR 2 the same concept that the original game had with repairing HK. In addition to moderately increasing HK's stats over the course of the repairs (a much-welcome improvement, as droids in KOTOR 2 tend to underperform anyway), this mod also allows you to visually see HK become his old self again as the HK-50 components are gradually integrated, fixed and painted-over. The mod even includes some excellent reskins of the HK-50s and -51s! **AND** it's fully-voiced in a seamless way using original game dialogue! You'll have to forgive me, this is like a wet dream for me, seriously."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Select between one of the two TSLRCM-compatible install options."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/1434-visually-repair-hk-47/"]
+
+[[thisMod]]
+Guid = "21248b0e-b746-4c84-a683-bf8a282c8db5"
+Name = "TSL Expanded Ending"
+Author = "WildKarrde"
+Category = "Restored Content & Immersion"
+Tier = "1 - Essential"
+Description = "Congrats, you are about to experience one of the best mods ever made for KOTOR, and I don't say that lightly. WildKarrde has quietly but consistently put out extremely high-quality content, but they really outdid themselves with this one. This is a comprehensive and *incredibly* professional rework of the ending sequence of KOTOR 2. TSLRCM is famous for tightening the ending up, but it still leaves several plot holes flapping in the wind--how does Malachor get destroyed in an LS ending if HK-47 is never rebuilt and G0-T0 isn't stopped? Why does the Exile have to preserve Malachor if they're DS? How is the party saved? What next? None of these questions are answered, but WildKarrde's mod not only answers them all, it does it with an incredible level of professionalism which makes it feel like it was content straight-up made by Obsidian, on a level more seamless than even restored content from TSLRCM often achieves."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "If you are NOT playing the game on a 4:3 aspect ratio monitor, regardless of what your aspect ratio is, install the 16:9 main install option. Then re-run the patcher and apply the Transparent Cockpit Windows - Retexture Friendly option, if using the Transparent Cockpit Windows mod."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2672-tsl-expanded-ending/"]
+
+[[thisMod]]
+Guid = "1c660e72-2982-4a2d-891a-34b08c422cfb"
+Name = "Consistent Bastila Recognition"
+Author = "Leilukin"
+Category = "Immersion"
+Tier = "2 - Recommended"
+Description = "The player sees Bastila twice in KOTOR 2: once in a holo-recording left in T3's memory banks, and once in a vision from the Tomb of Ludo Kressh. The problem is that the player recognizes Bastila in Kressh's tomb, but not in the holo-recording. There's no reason why this should be, and this mod fixes the discrepancy: the player now recognizes Bastila in T3's recording also."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Run the patcher using the Default install option, then re-run and apply the Expanded Ending compatch, if using Expanded Ending."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2695-consistent-bastila-recognition/"]
+
+[[thisMod]]
+Guid = "dc779a54-089d-4cbc-be3d-2c09cd83e6be"
+Name = "Handmaiden - Fit and Athletic"
+Author = "Fair Strides, patch by JCarter426"
+Category = "Appearance Change"
+Tier = "2 - Recommended"
+Description = "The Handmaiden has an inhumanly thin waist and scrawny arms by default. This mod fixes both as best it can, leaving her appearing more realistic and giving her at least some indication of upper arm strength."
+InstallationMethod = "TSLPatcher Mod & Loose-File Patch"
+Directions = "Ignore all the loose files in the folder; use the TSLPatcher to install the mod. Then copy the two files from the patch into override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/846-handmaiden-fit-and-athletic/", "https://mega.nz/#!gcxRTYTJ!ILbLFRyGEr4lGZYDOLN_Qg17fCm-TJw4Y1RDuy4WiWI"]
+
+[[thisMod]]
+Guid = "3eb8e514-ffd6-4fe0-b9fc-c898cb5176d6"
+Name = "JC's Handmaiden Sisters"
+Author = "JCarter426"
+Category = "Restored Content & Immersion"
+Tier = "2 - Recommended"
+Description = "By default, KOTOR 2 has all the handmaidens look exactly the same, except for Brianna herself. This mod restores the original intended appearance of the other sisters, so it actually makes sense when they say that Brianna honors the face of her mother."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Install the TSLRCM option."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/810-jcs-handmaiden-sisters/"]
+
+[[thisMod]]
+Guid = "9bbb4514-aa92-4d0b-af2e-d8e63ecf0178"
+Name = "Replacement Loading Screens"
+Author = "Sith Holocron"
+Category = "Graphical Improvement"
+Tier = "2 - Recommended"
+Description = "This mod replaces all the rendered loading screens with in-game shots at higher resolution and graphical quality, improving all the transitions without altering their angles or design."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move all the files but load_301NARa (in Part 2) to the override."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1255-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-1/", "https://deadlystream.com/files/file/1256-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-2/", "https://deadlystream.com/files/file/1257-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-3/"]
+
+[[thisMod]]
+Guid = "60d6a712-54fc-4989-952f-635a45cc547f"
+Name = "Vibrocutter Changes"
+Author = "Lewok2007"
+Category = "Immersion"
+Tier = "4 - Option"
+Description = "This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Recommend the \"Location and Medpac\" install option, it gives the player an extra medpac as compensation for having to fight the first droids with a plasma torch."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES, however some text will be in English"]
+ModLink = ["https://deadlystream.com/files/file/2670-vibrocutter-changes/"]
+
+[[thisMod]]
+Guid = "a1798202-115c-465e-be5d-02094f8867c3"
+Name = "Peragus Large Monitor Adjustment"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "A hi-res reskin of Peragus's main monitor."
+InstallationMethod = "Loose-File Mod"
+Directions = "Use the files in the \"Alternate Textures\" folder."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/"]
+
+[[thisMod]]
+Guid = "1afda9bd-33e1-4f76-b021-bda04ca72221"
+Name = "Replacement Peragus II Artwork"
+Author = "Sith Holocron"
+Category = "Graphics Improvement"
+Tier = "3 - Suggested"
+Description = "Replaces the image of Peragus on the Administration Level with a piece of high-quality artwork for the planet."
+InstallationMethod = "Loose-File Mod"
+Directions = "Move the files from the Original folder to the override, as well as the file from the \"One Replacement Screen\" folder if using Peragus Large Monitor Adjustment."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/"]
+
+[[thisMod]]
+Guid = "b0eb0c51-5c9a-40a2-a406-85553a68f013"
+Name = "TSL Galaxy Map Fix Pack"
+Author = "bead-v, Kexikus, and Sith Holocron"
+Category = "Graphics Improvement & Immersion"
+Tier = "3 - Suggested"
+Description = "Moves the planets of KOTOR 2 to their old canon galactic positions and animates the Ebon Hawk's galaxy map."
+InstallationMethod = "TSLPatcher Mod"
+Directions = "Install the Vanilla/TSLRCM option."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/"]
+
+[[thisMod]]
+Guid = "ad7de114-2f6f-4735-bbfc-b79a75a20790"
+Name = "Fixed Hologram Models & Admiralty Redux"
+Author = "DarthParametric"
+Category = "Bugfix & Graphics Improvement & Appearance Change"
+Tier = "1 - Essential"
+Description = "By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Carth and Cede to properly wear Republic officer uniforms in their holograms and in-game appearances."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/"]
+
+[[thisMod]]
+Guid = "38d8d009-6820-4ac9-b8a5-94a5c9df4afb"
+Name = "Relighting TSL"
+Author = "J"
+Category = "Bugfix & Graphics Improvement"
+Tier = "2 - Recommended"
+Description = "KOTOR 2 has some absolutely shittily-lit sections. This mod by J is an attempt to fix that awful lighting--although it's currently in beta, the sections which J has already finished are fully-functional ingame."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2752-relighting-tsl-early-release/"]
+
+[[thisMod]]
+Guid = "6d5dd73b-034c-41f2-b916-9708f1a23e72"
+Name = "Companion Starting Armors"
+Author = "Ol' Cappy"
+Category = "Immersion"
+Tier = "3 - Suggested"
+Description = "Giving companions a unique version of their default clothes so they can keep their 'standard' look throughout the entire game while still having mechanically powerful equipment is a very common mod type. I typically don't like these mods, not because I disagree with the premise but because I tend to balk at +10 WIS modifiers on starting gear. Ol' Cappy, in my opinion, does it right here—these are unique clothes for most of the human companions which don't give insane bonuses, but instead small, rational, and most importantly balanced, lore-friendly and internally-consistent bonuses. These items are never going to be the best your team can get, but they are flavorful additions which will let you keep them in their default get a bit longer, if you so choose."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2145-k2-companion-starting-armors/"]
+
+[[thisMod]]
+Guid = "6c52f65a-5ad0-4804-b9ca-f7b8a349f0cd"
+Name = "Improved LS Enlightenment & DS Corruption Feats"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Light Side Enlightenment (not to be confused with the Force power Enlightenment) and Dark Side Corruption, the bonus feats given to Jedi Master and Sith Lord prestige classes, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/"]
+
+[[thisMod]]
+Guid = "8b950e4e-af87-4810-9c33-f2a49a4a6ae8"
+Name = "Repair Affects Stun Droid"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/"]
+
+[[thisMod]]
+Guid = "07e2bb25-9632-4473-b0ee-683868a57edb"
+Name = "Improved Force Sight"
+Author = "offthegridmorty"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "Another by Morty, and a great companion to his True Sith Assassins mod, this mod improves Force Sight by giving it some more immediate combat utility, allowing it to significantly boost the player's Awareness stat, while also tweaking its behavior for Kreia and Visas."
+InstallationMethod = "HoloPatcher Mod"
+Directions = "Recommend installing all three modules."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2651-improved-force-sight/"]
+
+[[thisMod]]
+Guid = "d3f6e3db-2402-4617-9a7b-1eb7306717a2"
+Name = "Alignment Affects Force Powers"
+Author = "offthegridmorty"
+Category = "Mechanics Change & Immersion"
+Tier = "1 - Essential"
+Description = "Just like its companion mod for KOTOR, this mod is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have."
+InstallationMethod = "TSLPatcher"
+Directions = "I strongly recommend the combined install of \"Alignment Affects Force Powers + Treat Injury Affects Force Healing.\""
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES, though some text may be blank or in English"]
+ModLink = ["https://deadlystream.com/files/file/2815-alignment-affects-force-powers-tsl/"]
+
+[[thisMod]]
+Guid = "74a6166d-3fab-4e12-814e-68e2be9e3251"
+Name = "Ultimate Character Overhaul Patches"
+Author = "ShiningRedHD"
+Category = "Patch & Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This is the point at which we're going to install all the various patches produced for the Ultimate Character Overhaul for any of the other texture mods which you've installed."
+InstallationMethod = "Loose-File Mod"
+Directions = "Scroll down to the \"optional files\" section of the mod page. In order, install the compatches for TSLRCM, the K2CP, JC's Minor Fixes, and then all remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's Male Twi'lek Diversity mod), following the below instructions:\r\n\r\n* K2CP: Delete C_DrdAstro01.tga, C_DrdAstro02.tga, C_DrdAstro03.tga, C_Hutt03.tga, C_Kinrath01.tga, C_Kinrath02.tga, C_Kinrath03.tga, C_Kinrath04.tga, C_SenBall01D.tga, p_hk47_01.tga, C_hk50.tga, and C_hk51.tga before moving to override. If utilizing Sapiens' HD Visas mod, also delete P_VisasH01.tga, P_VisasHD01.tga and P_VisasHD02.tga."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1060?tab=files"]
+
+[[thisMod]]
+Guid = "dfb6e242-e65e-432c-9960-2310c3f15d12"
+Name = "Bao-Dur/Darth Maul"
+Author = "Nimduril"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "Reskins Bao-Dur to have a different default appearance, but also to have a complete Dark Side transformation."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://mega.nz/#!BJgCDJLY!miLH-LcFEgiRWlmfWixicFdn1o_uoFHb76g9NOo0CHM", "https://imgur.com/a/oVwUs"]
+
+[[thisMod]]
+Guid = "2daed5ec-4a57-477a-8f48-93bb46402767"
+Name = "Realistic Visual Effects"
+Author = "Shem"
+Category = "Appearance Change"
+Tier = "2 - Recommended"
+Description = "Removes glowing and other similar unrealistic visual effects when using power strikes, flurries, etc."
+InstallationMethod = "TSLPatcher Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["http://deadlystream.com/files/file/735-realistic-visual-effects/"]
+
+[[thisMod]]
+Guid = "032887bf-2514-4c20-990f-740d2bf46077"
+Name = "Remove Duplicate TGA/TPC"
+Author = "Flachzangen, bash version by /u/th3w1zard1"
+Category = "Patch"
+Tier = "1 - Essential"
+Description = "This is a script written by Flachzangen which allows you to remove duplicate `.TGA` or `.TPC` files in your game directory. Files with the `.TPC` filetype take priority, so for several of the patches we've downloaded which are of the `.tga` filetype, we need to delete any `.TPC` duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if `.tpc` files take priority in some instances, the game will crash."
+InstallationMethod = ".bat Patcher"
+Directions = "Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here: delete.html](/modding/mod_builds/k2/delete.html).\r\n\r\n**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs \"Finished, Press any key to continue\" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+ModLink = ["https://www.nexusmods.com/kotor/mods/1384", "https://pastebin.com/6WCN122S", "/modding/mod_builds/k2/delete.html"]
+
+[[thisMod]]
+Guid = "1d70175b-ac61-4f1d-974c-479526016ba9"
+Name = "Thematic Obscured Mausoleum Burial"
+Author = "Sniggles & JCarter426"
+Category = "Mechanics Change"
+Tier = "2 - Recommended"
+Description = "The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.\r\n\r\nDo note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point."
+InstallationMethod = "TSLPatcher"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["NO"]
+ModLink = ["https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/"]
+
+[[thisMod]]
+Guid = "6dd075e9-0339-44c3-824b-3d08d4aef831"
+Name = "Character Textures & Model Fixes"
+Author = "Redrob41"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "Redrob is a quiet legend within the scene, who disappears for years and pops back up with projects nobody expects but which become instant classics. Welcome to the latest. This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough."
+InstallationMethod = "Loose-File (with optional automation)"
+Directions = "If you are on a system which can run .bat files, I *strongly* recommend using the automated system to deal with compatibility for this mod. To do so, first extract redrob's mod from its archive, then enter the \"TSL Optional Kreia Model\" folder, copy the four model files within, paste them into the \"Copy contents to TSL's Override folder\" and overwrite. After this, navigate to [this page](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleaner.bat) and click on the button with the arrow pointing down at the top of the code list (the one which says \"download raw file\"). Place cleaner.bat in the folder from redrob's mod called \"Copy contents to TSL's Override folder\", then go to [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleanlist_k2.txt) and repeat the same step, placing cleanlist_k2.txt in the same location. You can now run cleanlist.bat: follow the instructions onscreen, selecting whether you did or didn't use any of the given mods, and the batch file will automatically delete the incompatible files. Once you reach the end of the list, you can exit the .bat window, delete cleaner.bat and cleanlist_k1.txt, and then move the remaining files in the folder to your override.\r\n\r\nIf you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k2/redrob_deletionsk2.md)."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2660-4x-upscale-character-textures-model-fixes-tsl/", "https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleaner.bat", "https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleanlist_k2.txt", "https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k2/redrob_deletionsk2.md", "https://deadlystream.com/files/file/1138-tsl-main-menu-model-fix-for-widescreen/"]
+
+[[thisMod]]
+Guid = "82fb3b7f-bc61-4be0-8dbc-2afdd1be84c1"
+Name = "K2 Cutscenes Rescaled"
+Author = "Pops Maellard"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "This mod is a *killer* cutscene improvement mod, using a very clean, very sharp AI pass to upscale and clarify the cutscenes.\r\n\r\nUnfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at."
+InstallationMethod = "Loose-File Mod"
+Directions = "When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Install the main module first, then open the \"mods\" version of the file and apply the upscaled cutscenes for any mods which you use from the main build list. Bear in mind that the files from this mod go in your *movies* folder, not override.\r\n\r\nIf you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to \"upscale\" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/", "https://www.youtube.com/watch?v=l7euNu1Tt5E"]
+
+[[thisMod]]
+Guid = "41bc3288-a771-4677-8536-768e59ecd605"
+Name = "KOTOR 2 Remastered Cutscenes"
+Author = "naelavok"
+Category = "Graphics Improvement"
+Tier = "1 - Essential"
+Description = "Using predictive AI, /u/naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. A movie replacer like this is necessary to fix the fullscreen bug (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not."
+InstallationMethod = "Loose-File Components, possible .bat patcher"
+Directions = "Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.\r\n\r\nIf you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to \"upscale\" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process."
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://www.nexusmods.com/kotor2/mods/1066/", "https://www.youtube.com/watch?v=l7euNu1Tt5E"]
+
+[[thisMod]]
+Guid = "f36b5a87-9a88-4e0c-aaad-b51932777f6a"
+Name = "K2 Loading Screen Rescaled"
+Author = "Pops Maellard"
+Category = "Graphics Improvement"
+Tier = "4 - Optional"
+Description = "If you decide not to use Pops Mallard's cutscene mod above, this mod is a standalone version of their enhanced legal screen (which I personally enjoy) that you can download as a standalone."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/"]
+
+[[thisMod]]
+Guid = "b1abbe4b-2129-49ad-b85c-fbcd54227cd0"
+Name = "Workbench Upgrade Screen Camera Tweak"
+Author = "DarthParametric"
+Category = "Appearance Change"
+Tier = "3 - Suggested"
+Description = "This mod pulls the camera on the Workbench in closer to show off the textures of what you're editing better. Works best at high resolution and with texture mods, which is why it's listed here in widescreen improvements."
+InstallationMethod = "Loose-File Mod"
+IsSelected = true
+InstallState = 0
+IsDownloaded = false
+Language = ["YES"]
+ModLink = ["https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/"]
+
