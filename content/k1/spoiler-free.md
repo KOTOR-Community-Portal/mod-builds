@@ -2100,7 +2100,7 @@ ___
 
 **Description:** In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.
 
-**Category & Tier:** Appearance Change / 3 - Recommended
+**Category & Tier:** Appearance Change / 3 - Suggested
 
 **Non-English Functionality:** YES
 
