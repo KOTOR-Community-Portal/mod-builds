@@ -2136,7 +2136,7 @@ ___
 
 **Description:** Some of the visions which the player is meant to have of the past and the Star Maps have some issues, both of location and of the player's strange decision to wear armor to bed. This mod fixes that.
 
-**Category & Tier:** Appearance Change / 3 - Recommended
+**Category & Tier:** Appearance Change / 3 - Suggested
 
 **Non-English Functionality:** YES
 
