@@ -21,11 +21,9 @@ ___
 #### Instructions
 1. **GUID:** 65e5267f-deb8-483f-8e36-3b7de09cd09a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KotOR_Dialogue_Fixes*.7z
 2. **GUID:** b8b24a08-60e7-466c-862f-531c8a30254e
    **Action:** Choose
-   **Overwrite:** true
    **Source:** cf2a12ec-3932-42f8-996d-b1b1bdfdbb48, 6d593186-e356-4994-b6a8-f71445869937
 
 #### Options
@@ -34,8 +32,6 @@ ___
 - **Name:** Standard
 - **Description:** Straight fixes to spelling errors/punctuation/grammar
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 6d593186-e356-4994-b6a8-f71445869937
   - **Instruction:**
     - **GUID:** 42abfb53-db25-4258-9e09-50dfa985b44e
@@ -48,8 +44,6 @@ ___
 - **Name:** Revised
 - **Description:** Everything in Straight Fixes, but also has changes from the PC Moderation changes.
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** cf2a12ec-3932-42f8-996d-b1b1bdfdbb48
   - **Instruction:**
     - **GUID:** 1c1be581-1eed-4831-aff7-1dc0a34ca23a
@@ -58,7 +52,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\KotOR_Dialogue_Fixes*\PC Response Moderation version\dialog.tlk
 -->
-
 
 ___
 
@@ -82,11 +75,8 @@ ___
 #### Instructions
 1. **GUID:** 45e617df-13e2-422f-b1c0-018c9e2d8135
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Character Start Up Changes.zip, <<modDirectory>>\Character_Startup_Changes_Patch.rar
 2. **GUID:** 9756c6ad-8385-4b38-829d-74b43550ac5b
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Character Start Up Changes\Character Start Up Changes\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 34aabd99-dae9-463c-b8f7-f2daeb879ac5
@@ -95,7 +85,6 @@ ___
    **Source:** <<modDirectory>>\Character_Startup_Changes_Patch\Character_Startup_Changes_Patch\Override\feat.2da, <<modDirectory>>\Character_Startup_Changes_Patch\Character_Startup_Changes_Patch\Override\featgain.2da
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -112,7 +101,6 @@ As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companio
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -136,7 +124,6 @@ ___
 #### Instructions
 1. **GUID:** 43e9c511-d4f7-4321-84c8-f70875850bfb
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Minor Fixes for K1*.zip
 2. **GUID:** 40e2f827-4573-4325-9ece-8303ef0d2602
    **Action:** Move
@@ -149,7 +136,6 @@ ___
    **Source:** <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_enter4.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_enter5.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_enter6.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_enter7.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_exit4.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_exit5.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_exit6.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\man26_exit7.dlg, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\plc_kiosk2.mdl, <<modDirectory>>\JC's Minor Fixes for K1 v*\Things What Bother Me Fixes\plc_kiosk2.mdx
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -173,15 +159,11 @@ ___
 #### Instructions
 1. **GUID:** 26bb9479-50b7-4a99-ade7-6595b9d459df
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ajunta Pall Unique Appearance.zip, <<modDirectory>>\ajunta_pall_unique_appearance*.rar
 2. **GUID:** 26a63ac5-55ec-46a8-a7c9-c2d2a0270a38
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 0c1f007b-a4b2-4a00-b37f-86bd5e0c6337, b09ac828-f50b-41a5-bd95-9f03e6c90750, 07f81d54-b7f0-4787-907d-3c264ca8d2de, 09d0aab7-f5ae-48a6-917a-e69243a3085f
 3. **GUID:** 4ac8f92e-ac05-4b5b-bc6f-f320773a15e1
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ajunta Pall Unique Appearance\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 
@@ -189,10 +171,8 @@ ___
 ##### Option 1
 - **GUID:** 0c1f007b-a4b2-4a00-b37f-86bd5e0c6337
 - **Name:** Transparent Skins
-- **Description:** 
+- **Description:**
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** b09ac828-f50b-41a5-bd95-9f03e6c90750
   - **Instruction:**
     - **GUID:** eb6627d3-3417-4bb9-8f2c-bc834dd38e73
@@ -203,10 +183,8 @@ ___
 ##### Option 2
 - **GUID:** b09ac828-f50b-41a5-bd95-9f03e6c90750
 - **Name:** Non-Transparent Skins
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 0c1f007b-a4b2-4a00-b37f-86bd5e0c6337
   - **Instruction:**
     - **GUID:** 65b77045-c8d9-48dd-8ba6-3d1f7be25eaf
@@ -217,10 +195,8 @@ ___
 ##### Option 3
 - **GUID:** 09d0aab7-f5ae-48a6-917a-e69243a3085f
 - **Name:** Transparent Sith Eyes
-- **Description:** 
+- **Description:**
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 07f81d54-b7f0-4787-907d-3c264ca8d2de
   - **Instruction:**
     - **GUID:** d18375ae-4391-4c33-b85d-188a8ffec242
@@ -231,10 +207,8 @@ ___
 ##### Option 4
 - **GUID:** 07f81d54-b7f0-4787-907d-3c264ca8d2de
 - **Name:** Non-Transparent Sith Eyes
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 09d0aab7-f5ae-48a6-917a-e69243a3085f
   - **Instruction:**
     - **GUID:** 1bf3cde7-cdd8-4142-96fe-942cb53ecd8f
@@ -243,7 +217,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\ajunta_pall_unique_appearance_*\Non-Transparent Skins\Sith Eyes\*.t??
 -->
-
 
 ___
 
@@ -267,11 +240,8 @@ ___
 #### Instructions
 1. **GUID:** c6fde191-84f8-4521-89af-ccf6e5db199c
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1_Community_Patch_v*.zip
 2. **GUID:** 9eb885ab-dc71-4995-8094-c746d7b9ac7f
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1_Community_Patch_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** d59bad20-d6b2-44bf-be17-b8272df16f65
@@ -279,7 +249,6 @@ ___
    **Overwrite:** true
    **Source:** <<kotorDirectory>>\Override\LKA_leaf03.tpc
 -->
-
 
 ___
 
@@ -301,15 +270,11 @@ ___
 #### Instructions
 1. **GUID:** a0dca5d7-e2d8-4a12-bded-18e6d6267760
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KotOR1 Droid Claw Fix.zip
 2. **GUID:** 34d2fb2c-bc8a-45f9-ba18-9aa5739822dd
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KotOR1 Droid Claw Fix\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -326,7 +291,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
-
 
 ___
 
@@ -350,7 +314,6 @@ ___
 #### Instructions
 1. **GUID:** f41a7e57-c67d-448d-afe1-463465277768
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Korriban High Resolution*TPC Version*.rar
 2. **GUID:** 5fa49db3-ea9c-432e-86b9-f9e4ed447bbe
    **Action:** Move
@@ -358,7 +321,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Korriban High Resolution*TPC Version*\Korriban HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -382,7 +344,6 @@ ___
 #### Instructions
 1. **GUID:** b2feb6dc-51c0-4f18-8d6a-9a4b63712cf3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Kashyyyk High Resolution*TPC Version*.rar
 2. **GUID:** 8151fc2e-315b-43fe-ae1f-82aaa8a6f002
    **Action:** Move
@@ -390,7 +351,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Kashyyyk High Resolution*TPC Version*\Kashyyyk HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -414,7 +374,6 @@ ___
 #### Instructions
 1. **GUID:** bd40a0bd-2368-4a75-a09b-4c45bb4851c3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Tatooine High Resolution*TPC Version*.rar
 2. **GUID:** 61e24b3a-2299-4bd8-a698-6de83ad984a2
    **Action:** Move
@@ -422,7 +381,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Tatooine High Resolution*TPC Version*\Tatooine HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -446,7 +404,6 @@ ___
 #### Instructions
 1. **GUID:** f9c6326c-3f04-4e0c-92fb-b9c68e00267d
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Dantooine High Resolution*TPC Version*.rar
 2. **GUID:** 8e41d978-18b9-499f-975a-febc0713a21f
    **Action:** Move
@@ -454,7 +411,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Dantooine High Resolution*TPC Version*\Dantooine HR\Override\LDA_bark02.tpc
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -478,7 +434,6 @@ ___
 #### Instructions
 1. **GUID:** bcb0179b-d2b3-430a-a450-0160991972ff
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Endar Spire-Star Forg*Yavin Station*TPC Version*.rar
 2. **GUID:** 45fe4c0f-ac6d-4656-b5b0-7b16f765b756
    **Action:** Move
@@ -486,7 +441,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Endar Spire-Star Forg*Yavin Station*TPC Version*\Endar Spire - Yavin Station - Star Forge HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -510,7 +464,6 @@ ___
 #### Instructions
 1. **GUID:** db46b589-68d3-49eb-bcfb-07904637e0e4
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Manaan High Resolution*TPC Version*.rar
 2. **GUID:** a5a1e6fb-4e92-4c0a-a105-4076af354098
    **Action:** Move
@@ -518,7 +471,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Manaan High Resolution*TPC Version*\Manaan HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -542,7 +494,6 @@ ___
 #### Instructions
 1. **GUID:** d9b0a70b-7c4e-46b4-9eb5-8d73b27b8c95
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Taris High Resolution*TPC Version*.rar
 2. **GUID:** 76569ac8-01d6-4b56-81c4-665e37bed6f7
    **Action:** Move
@@ -550,7 +501,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Taris High Resolution*TPC Version*\Taris HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -576,7 +526,6 @@ Before moving the files to the override folder, be sure to delete the following:
 #### Instructions
 1. **GUID:** 4156541f-ba1b-451b-8868-855184919dea
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Character Overhaul -REDUX-*TPC Version*.rar
 2. **GUID:** dd6bb18d-0faa-4498-aa8b-2f15d98c2aab
    **Action:** Delete
@@ -588,7 +537,6 @@ Before moving the files to the override folder, be sure to delete the following:
    **Source:** <<modDirectory>>\Ultimate Character Overhaul*TPC Version*\KOTOR - Ultimate Character Overhaul*TPC\*.tpc
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -612,7 +560,6 @@ ___
 #### Instructions
 1. **GUID:** 15b22fea-1015-47c0-892d-630cc9e298df
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate Unknown World High Resolution*TPC Version*.rar
 2. **GUID:** 69c223aa-377b-43de-b946-4dc6f07e7559
    **Action:** Delete
@@ -624,7 +571,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate Unknown World High Resolution*TPC Version*\Unknown World HR\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -639,7 +585,6 @@ ___
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -663,7 +608,6 @@ ___
 #### Instructions
 1. **GUID:** 964b99c0-e05b-4fa3-baea-110a889661c6
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Duncan on Manaan.7z
 2. **GUID:** 6bae5e00-606b-4763-80fe-51550052c206
    **Action:** Move
@@ -671,7 +615,6 @@ ___
    **Source:** <<modDirectory>>\Duncan on Manaan\deadeye_man.kmm, <<modDirectory>>\Duncan on Manaan\k_pman_duncan01.ncs, <<modDirectory>>\Duncan on Manaan\k_spwn_duncan.ncs, <<modDirectory>>\Duncan on Manaan\man26_reparg.dlg, <<modDirectory>>\Duncan on Manaan\man26ad_duncan.dlg
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -695,7 +638,6 @@ ___
 #### Instructions
 1. **GUID:** d8410a62-a5cb-4b4d-987c-4146fd3ab734
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Consistent Conditioning Icons.7z
 2. **GUID:** dda5d890-4456-4a13-9cb3-210c67fa4928
    **Action:** Move
@@ -703,7 +645,6 @@ ___
    **Source:** <<modDirectory>>\Consistent Conditioning Icons\Consistent Condining Icons\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -727,7 +668,6 @@ ___
 #### Instructions
 1. **GUID:** c561ac47-863e-4aab-878f-303330a41fe7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\HD_Pazaak_Cards.zip
 2. **GUID:** b0aba450-5a5d-4f03-80be-1496f22ec5ef
    **Action:** Move
@@ -736,17 +676,14 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 3. **GUID:** c306d7bb-2e27-43fc-9a45-202b5429c656
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 7dd603fc-5898-481e-81e7-2aef77bda2ea
 
 #### Options
 ##### Option 1
 - **GUID:** 7dd603fc-5898-481e-81e7-2aef77bda2ea
 - **Name:** Green Pazaak Cards
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 7f7f4276-6b36-42ec-94f4-8f11b0cd0a7a
     - **Action:** Move
@@ -754,7 +691,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\HD_Pazaak_Cards\green\*
 -->
-
 
 ___
 
@@ -778,7 +714,6 @@ ___
 #### Instructions
 1. **GUID:** cfbd18bb-996d-46f7-9d4a-ed2116ae07c7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Republic Soldier Fix for K1*.zip
 2. **GUID:** f759337b-89f3-4b9e-9f89-2f5f05491d24
    **Action:** Move
@@ -786,7 +721,6 @@ ___
    **Source:** <<modDirectory>>\JC's Republic Soldier Fix for K1*\*\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -810,30 +744,20 @@ ___
 #### Instructions
 1. **GUID:** 5e030030-839d-4449-bc22-2024b64c7e7e
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v*.7z
 2. **GUID:** 291532e4-bb2f-4b34-9dcf-037ea9967960
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v*\[K1]_Republic_Soldier's_New_Shade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** f5a06f8b-9e81-40c0-9f74-6312925ee2c5
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v*\[K1]_Republic_Soldier's_New_Shade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 4. **GUID:** 377fe848-eae7-4242-8eed-e2a9087ef506
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v*\[K1]_Republic_Soldier's_New_Shade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 5. **GUID:** d9b58bea-524a-4b3d-8a8f-db423e9d8d7a
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v*\[K1]_Republic_Soldier's_New_Shade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -857,7 +781,6 @@ ___
 #### Instructions
 1. **GUID:** 1b390ca1-0032-4bd2-a328-ac16f0d87290
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hd_pc_portraits*.7z
 2. **GUID:** 456e12e9-5ccf-42bb-b965-57d8c4ee535e
    **Action:** Move
@@ -865,7 +788,6 @@ ___
    **Source:** <<modDirectory>>\hd_pc_portraits*\hd_pc_portraits\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -891,7 +813,6 @@ This specific texture reskins the fifth Asian male head preset, including new fa
 #### Instructions
 1. **GUID:** 9aa9b6b9-91da-46f5-b562-95b1c2f20492
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PMHA05 HD.rar
 2. **GUID:** 9a7f4142-8106-4056-be42-e0cdfd2a8755
    **Action:** Move
@@ -899,7 +820,6 @@ This specific texture reskins the fifth Asian male head preset, including new fa
    **Source:** <<modDirectory>>\PMHA05 HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -923,7 +843,6 @@ ___
 #### Instructions
 1. **GUID:** e1531ca6-958a-452f-b7e8-cbea26586c22
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PMHA02 HD.rar
 2. **GUID:** c0487b0a-78b4-4e94-8b64-d9b499df6833
    **Action:** Move
@@ -931,7 +850,6 @@ ___
    **Source:** <<modDirectory>>\PMHA02 HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -955,7 +873,6 @@ ___
 #### Instructions
 1. **GUID:** 9cd42a71-4d9c-428f-800b-8ea32ae0e612
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PMHA01 HD.rar
 2. **GUID:** 41d3d55e-c647-4471-b67d-90b2fad194cf
    **Action:** Move
@@ -963,7 +880,6 @@ ___
    **Source:** <<modDirectory>>\PMHA01 HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -987,7 +903,6 @@ ___
 #### Instructions
 1. **GUID:** d47fc792-7ec0-427e-b6ae-e7741c888f2f
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PFHC05 HD.rar
 2. **GUID:** 7eff80fe-eaa0-487e-bc36-0197db17e009
    **Action:** Move
@@ -995,7 +910,6 @@ ___
    **Source:** <<modDirectory>>\PFHC05 HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1019,7 +933,6 @@ ___
 #### Instructions
 1. **GUID:** 0cd4c8eb-3e4b-4996-9472-4a209cfa8e43
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix.7z
 2. **GUID:** 7cc4b5ad-4823-44d0-9117-2b67b9e55554
    **Action:** Move
@@ -1027,7 +940,6 @@ ___
    **Source:** <<modDirectory>>\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\UPSCALED\FOR OVERRIDE\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1049,7 +961,6 @@ ___
 #### Instructions
 1. **GUID:** a1c7ba01-1798-41e0-b389-11a01063d07f
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hp_grenades*.zip
 2. **GUID:** 14ccfa92-d302-46ca-b2f4-33776ebccbf6
    **Action:** Move
@@ -1057,7 +968,6 @@ ___
    **Source:** <<modDirectory>>\hp_grenades*\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1081,7 +991,6 @@ ___
 #### Instructions
 1. **GUID:** 7aafa9a2-5080-4f7b-a749-439387d8f538
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Emperor Turnip*Gizka.rar
 2. **GUID:** bfe624c0-db9a-4812-8649-b631e25041a1
    **Action:** Move
@@ -1089,7 +998,6 @@ ___
    **Source:** <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01.tga, <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01.txi, <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01b.tga, <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01b.txi, <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01l.tga, <<modDirectory>>\Emperor Turnip*s Gizka\Creatures\C_Gizka01l.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1111,7 +1019,6 @@ ___
 #### Instructions
 1. **GUID:** 7d564332-5aa6-432e-a92c-8f6ff94a472a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Quanon_Gammoreans.rar
 2. **GUID:** b53857be-40ab-4bbf-afd2-37c945f31c85
    **Action:** Move
@@ -1119,7 +1026,6 @@ ___
    **Source:** <<modDirectory>>\Quanon_Gammoreans\Quanon_Gammoreans\C_Gammorean_Low.tga, <<modDirectory>>\Quanon_Gammoreans\Quanon_Gammoreans\C_Gammorean01.tga, <<modDirectory>>\Quanon_Gammoreans\Quanon_Gammoreans\C_Gammorean02.tga, <<modDirectory>>\Quanon_Gammoreans\Quanon_Gammoreans\C_Gammorean03.tga, <<modDirectory>>\Quanon_Gammoreans\Quanon_Gammoreans\C_Gammorean04.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1141,7 +1047,6 @@ ___
 #### Instructions
 1. **GUID:** 5ce70426-ea4e-41c5-99c0-befea8cd8140
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\C_DrdWar.rar
 2. **GUID:** 41655821-b457-491c-a670-e953e2a11f17
    **Action:** Move
@@ -1149,7 +1054,6 @@ ___
    **Source:** <<modDirectory>>\C_DrdWar\C_DrdWar01.tga, <<modDirectory>>\C_DrdWar\C_DrdWar02.tga, <<modDirectory>>\C_DrdWar\C_DrdWar03.tga, <<modDirectory>>\C_DrdWar\C_DrdWar04.tga, <<modDirectory>>\C_DrdWar\C_DrdWar05.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1171,7 +1075,6 @@ ___
 #### Instructions
 1. **GUID:** be633393-e21e-4605-8291-f8c31cca874b
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\AstromechHD.rar
 2. **GUID:** c0d562d9-4f3f-4d3a-8970-549f7ce41e70
    **Action:** Move
@@ -1179,7 +1082,6 @@ ___
    **Source:** <<modDirectory>>\AstromechHD\N_astromech01.tga, <<modDirectory>>\AstromechHD\N_astromech02.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1201,7 +1103,6 @@ ___
 #### Instructions
 1. **GUID:** fc00f2f3-4f9d-49d9-ba52-399336fb4184
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\HD Realistic Jawas.rar
 2. **GUID:** c607d561-6d30-43e6-b1f2-c54c28307d17
    **Action:** Move
@@ -1209,7 +1110,6 @@ ___
    **Source:** <<modDirectory>>\HD Realistic Jawas\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1231,7 +1131,6 @@ ___
 #### Instructions
 1. **GUID:** 079397a4-8ed6-43a7-a7d1-8676ef3830ea
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\HD Realistic Sand People.rar
 2. **GUID:** 8330cd91-2535-41b4-99bb-bf063a0123fa
    **Action:** Move
@@ -1239,7 +1138,6 @@ ___
    **Source:** <<modDirectory>>\HD Realistic Sand People\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1263,21 +1161,17 @@ ___
 #### Instructions
 1. **GUID:** ac4a8466-762c-4b27-959c-b6f092525a8d
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1 Twi'lek Heads v1.3.3.7z
 2. **GUID:** 8e73d6e8-a0ef-41b0-b2ac-f96a7c3585bb
    **Action:** Choose
-   **Overwrite:** true
    **Source:** dc8d0680-0ec6-4f55-a175-d1e9ac611860, 0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1
 
 #### Options
 ##### Option 1
 - **GUID:** 0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1
 - **Name:** Option A - Slim Necks
-- **Description:** 
+- **Description:**
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** dc8d0680-0ec6-4f55-a175-d1e9ac611860
   - **Instruction:**
     - **GUID:** 697dfbac-4ea3-4377-85f1-064002d1727c
@@ -1288,10 +1182,8 @@ ___
 ##### Option 2
 - **GUID:** dc8d0680-0ec6-4f55-a175-d1e9ac611860
 - **Name:** Option B - Original Necks
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1
   - **Instruction:**
     - **GUID:** 34923608-4de9-4294-96da-cb5ea4774bb8
@@ -1300,7 +1192,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\K1 Twi'lek Heads v1.3.3\Installer.exe
 -->
-
 
 ___
 
@@ -1324,7 +1215,6 @@ ___
 #### Instructions
 1. **GUID:** 507248b8-b132-4ea8-9e0c-965a66f8a733
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hd_twilek_female.rar
 2. **GUID:** da5ca74b-2e02-4d95-a3b3-7fd038a0f68d
    **Action:** Move
@@ -1332,7 +1222,6 @@ ___
    **Source:** <<modDirectory>>\hd_twilek_female\N_TwilekFA01.tga, <<modDirectory>>\hd_twilek_female\N_TwilekFB01.tga, <<modDirectory>>\hd_twilek_female\N_TwilekFC01.tga, <<modDirectory>>\hd_twilek_female\twilek_f01.tga, <<modDirectory>>\hd_twilek_female\twilek_f01.txi, <<modDirectory>>\hd_twilek_female\twilek_f02.tga, <<modDirectory>>\hd_twilek_female\twilek_f02.txi, <<modDirectory>>\hd_twilek_female\twilek_f03.tga, <<modDirectory>>\hd_twilek_female\twilek_f03.txi, <<modDirectory>>\hd_twilek_female\twilek_f04.tga, <<modDirectory>>\hd_twilek_female\twilek_f04.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1356,7 +1245,6 @@ ___
 #### Instructions
 1. **GUID:** 9a6bbcbb-529b-4760-8cce-c93e3e320abf
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z
 2. **GUID:** 916c6d9a-0c8e-463b-9a63-becd3088acaa
    **Action:** Move
@@ -1364,7 +1252,6 @@ ___
    **Source:** <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\N_TwilekF.mdl, <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\N_TwilekF.mdx, <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\N_TwilekFB01.tga, <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\N_TwilekFC01.tga, <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\SM_TwiFem.mdl, <<modDirectory>>\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\NPC Replacement\SM_TwiFem.mdx
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1386,7 +1273,6 @@ ___
 #### Instructions
 1. **GUID:** d144ef90-8e88-4ef5-8807-7d432abb1fb3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1 SL Mouth Adjustment v*.7z
 2. **GUID:** 8a4c5b08-159c-4e6a-acc0-2513cdc6fe76
    **Action:** Move
@@ -1394,7 +1280,6 @@ ___
    **Source:** <<modDirectory>>\K1 SL Mouth Adjustment v*\Override\n_lashoweh.mdl, <<modDirectory>>\K1 SL Mouth Adjustment v*\Override\n_lashoweh.mdx, <<modDirectory>>\K1 SL Mouth Adjustment v*\Override\n_shaleenah.mdl, <<modDirectory>>\K1 SL Mouth Adjustment v*\Override\n_shaleenah.mdx
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1416,7 +1301,6 @@ ___
 #### Instructions
 1. **GUID:** a09d0b5a-8c7e-478a-bb1e-067dc30b5c8b
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Calo Nord Recolor.zip
 2. **GUID:** 6ef133d4-236d-490d-b1ce-6295f8bbc7bc
    **Action:** Move
@@ -1424,7 +1308,6 @@ ___
    **Source:** <<modDirectory>>\Calo Nord Recolor\CN_Recolor\Calo Nord Reskin by Watcher07\Override\N_CaloNord01.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1448,7 +1331,6 @@ ___
 #### Instructions
 1. **GUID:** d0e92639-eb11-40ee-b42b-1ce159987c2e
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Malak.rar
 2. **GUID:** 76a18103-a916-4373-b1f3-d6df8598fd11
    **Action:** Move
@@ -1457,17 +1339,14 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 3. **GUID:** 9708f031-c42f-48bf-b129-bb9b95ee1c16
    **Action:** Choose
-   **Overwrite:** true
    **Source:** e4252583-8c22-4221-88f4-666c9d3ceaf8, 4520e7de-859c-4b7c-a0c1-3d449880febd
 
 #### Options
 ##### Option 1
 - **GUID:** e4252583-8c22-4221-88f4-666c9d3ceaf8
 - **Name:** Malak (Red Eyes)
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 4520e7de-859c-4b7c-a0c1-3d449880febd
   - **Instruction:**
     - **GUID:** e4bf67e7-6a60-4783-83b6-eec0217978c5
@@ -1478,10 +1357,8 @@ ___
 ##### Option 2
 - **GUID:** 4520e7de-859c-4b7c-a0c1-3d449880febd
 - **Name:** Malak (Blue Eyes)
-- **Description:** 
+- **Description:**
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** e4252583-8c22-4221-88f4-666c9d3ceaf8
   - **Instruction:**
     - **GUID:** e91ff2cc-33ad-44fd-aa72-228c85da9a98
@@ -1490,7 +1367,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\Malak\N_DarthMalak01.tga, <<modDirectory>>\Malak\Malak (Blue Eyes)\N_DarthMalakh01.tga, <<modDirectory>>\Malak\Malak (Blue Eyes)\N_JediMalekH02.tga
 -->
-
 
 ___
 
@@ -1508,7 +1384,6 @@ ___
 
 **Installation Instructions:** The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
 
-
 ___
 
 ### Detran's Darth Revan
@@ -1524,7 +1399,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Make a copy of the file and rename it PMBJ01, then move all files to override.
-
 
 ___
 
@@ -1546,7 +1420,6 @@ ___
 #### Instructions
 1. **GUID:** 175c195a-5fba-460a-88d1-aaa2a40b8a1e
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Darth Bandon HD.rar
 2. **GUID:** 309a892e-df80-40cd-ab5e-2a416a729031
    **Action:** Move
@@ -1554,7 +1427,6 @@ ___
    **Source:** <<modDirectory>>\Darth Bandon HD\N_DarthBand01.tga, <<modDirectory>>\Darth Bandon HD\N_DarthBand01.txi, <<modDirectory>>\Darth Bandon HD\N_DarthBand01_H.tga, <<modDirectory>>\Darth Bandon HD\N_DarthBand01_H.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1576,7 +1448,6 @@ ___
 #### Instructions
 1. **GUID:** 64a24f05-c82a-4f59-ba84-4e5239a5cbd8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\HD Vrook Recolored.zip
 2. **GUID:** efffa49f-8c2d-495d-90eb-615529245baf
    **Action:** Move
@@ -1584,7 +1455,6 @@ ___
    **Source:** <<modDirectory>>\HD Vrook Recolored\N_VrookH.tga, <<modDirectory>>\HD Vrook Recolored\N_VrookH.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1606,7 +1476,6 @@ ___
 #### Instructions
 1. **GUID:** 77b89762-0fbe-4413-85cb-ebf95e979f63
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Random HD UI Elements.zip
 2. **GUID:** 1b959f64-7272-4bcc-833b-4815ef9d03bb
    **Action:** Move
@@ -1614,7 +1483,6 @@ ___
    **Source:** <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_idant.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_ikash.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_ikorr.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_imana.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_itari.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_itato.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_iunkn.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_live01.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Planet Icons\lbl_strforge.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pbastila3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pbastila3e.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pcanderous3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pcarth3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_phk473.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pjolee3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pjuhani3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pmission3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_ptrask3.tga, <<modDirectory>>\Random HD UI Elements\Random HD UI Elements\Party Selection\po_pzaalbar3.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1638,7 +1506,6 @@ ___
 #### Instructions
 1. **GUID:** ab84f5c3-7ddd-46da-90c3-7459c08a824a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hd_npc_portraits*
 2. **GUID:** 79d2301c-cad3-4b44-9335-0bf834c14ab7
    **Action:** Move
@@ -1646,7 +1513,6 @@ ___
    **Source:** <<modDirectory>>\hd_npc_portraits-v2.0\hd_npc_portraits\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1670,7 +1536,6 @@ ___
 #### Instructions
 1. **GUID:** d930800c-b081-480c-aa33-ac009e738593
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\NPC clothing M.rar
 2. **GUID:** 8c1b896d-135c-4e0e-b359-311796fa304f
    **Action:** Move
@@ -1678,7 +1543,6 @@ ___
    **Source:** <<modDirectory>>\NPC clothing M\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1702,20 +1566,14 @@ ___
 #### Instructions
 1. **GUID:** 8ef43420-7dba-4b56-9920-664bf94df420
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JAO_Saber_Replacement.7z, <<modDirectory>>\Juhani Appearance Overhaul.rar
 2. **GUID:** 4438866d-5157-4a3e-83c6-ba248e0ab69a
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Juhani Appearance Overhaul\Juhani Appearance Overhaul.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** a390653f-1802-408f-bb1e-881f2c33c910
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JAO_Saber_Replacement\JAO_Saber_Replacement\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -1737,7 +1595,6 @@ ___
 #### Instructions
 1. **GUID:** 85789392-dc4e-4cf0-84cc-8edfb78eca90
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\juhaniCathar_head.zip
 2. **GUID:** 0e27c89c-b1c5-49ba-98d5-3237636c906a
    **Action:** Move
@@ -1745,7 +1602,6 @@ ___
    **Source:** <<modDirectory>>\juhaniCathar_head\p_juhanih.mdl, <<modDirectory>>\juhaniCathar_head\p_juhanih.mdx, <<modDirectory>>\juhaniCathar_head\P_JuhaniH01.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1769,20 +1625,14 @@ ___
 #### Instructions
 1. **GUID:** 61a2d1d0-ef8a-4656-8ba3-e27163fec7d2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Korriban - Back in Black for K1 v*.zip
 2. **GUID:** c88b881f-96f7-4c3b-9163-a9f6a2f4b52c
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Korriban - Back in Black for K1 v*\Korriban_Back_in_Black_K1.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 64773d02-d422-4add-9230-71488e54324e
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Korriban - Back in Black for K1 v*\Korriban_Back_in_Black_K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -1806,15 +1656,11 @@ ___
 #### Instructions
 1. **GUID:** 6282632a-cf1b-4fa4-b68c-dd22528aa3fb
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Fashion Line I - Cloaked Jedi Robes for K1*.7z
 2. **GUID:** 456232c0-95ed-478b-8f90-c612a457fba5
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Fashion Line I - Cloaked Jedi Robes for K1*\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -1838,15 +1684,11 @@ ___
 #### Instructions
 1. **GUID:** 4a551f21-c046-4e82-a02b-46b95f90dffe
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Jedi Tailor for K1 v*.zip
 2. **GUID:** 91161c64-5803-4f60-a7f1-54bb8dde8187
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Jedi Tailor for K1 v*\Jedi_Tailor_K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -1863,7 +1705,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Only move the files from "Jedi Robes Override".
-
 
 ___
 
@@ -1885,7 +1726,6 @@ ___
 #### Instructions
 1. **GUID:** 35ea8929-f6c5-490e-8a49-b4c636c19ce2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes.zip
 2. **GUID:** 483fe61f-4b06-4fbc-a7b9-d51c6d2d7a3e
    **Action:** Move
@@ -1893,7 +1733,6 @@ ___
    **Source:** <<modDirectory>>\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1917,7 +1756,6 @@ ___
 #### Instructions
 1. **GUID:** efaf4634-5b73-4ec9-8e8b-e191b2a183a9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Quanons_HK47_Reskin.rar
 2. **GUID:** 097ed2ab-3405-4082-b121-3aefed1d7134
    **Action:** Move
@@ -1925,7 +1763,6 @@ ___
    **Source:** <<modDirectory>>\Quanons_HK47_Reskin\Quanons_HK47_Reskin\p_hk47_01.tga, <<modDirectory>>\Quanons_HK47_Reskin\Quanons_HK47_Reskin\p_hk47_01.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1947,7 +1784,6 @@ ___
 #### Instructions
 1. **GUID:** 2f5f3218-165e-44de-8485-8e6d2ecf933a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PLC_Sign.rar
 2. **GUID:** 475426e8-a6ad-4afa-a133-9653ee2a1b4b
    **Action:** Move
@@ -1955,7 +1791,6 @@ ___
    **Source:** <<modDirectory>>\PLC_Sign\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -1977,7 +1812,6 @@ ___
 #### Instructions
 1. **GUID:** 8a068cd5-ac3b-4b67-9ae4-3c94e58ced80
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KioskHD.rar
 2. **GUID:** f41bb2fb-fc3e-408f-9b19-6fda8ab7ff92
    **Action:** Move
@@ -1985,7 +1819,6 @@ ___
    **Source:** <<modDirectory>>\KioskHD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2007,7 +1840,6 @@ ___
 #### Instructions
 1. **GUID:** db91feb4-44b4-4e7f-ada3-fa8a220e7104
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PLC_Desk.rar
 2. **GUID:** c2f6c66c-369c-401b-b3fa-a2bf760ec10e
    **Action:** Move
@@ -2015,7 +1847,6 @@ ___
    **Source:** <<modDirectory>>\PLC_Desk\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2037,7 +1868,6 @@ ___
 #### Instructions
 1. **GUID:** 8cfbbcf5-cb80-4397-876c-67c4e27bdaf6
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\LTS_EscapePod HD.rar
 2. **GUID:** d2c41290-0e04-432f-aefd-a7d48430683a
    **Action:** Move
@@ -2045,7 +1875,6 @@ ___
    **Source:** <<modDirectory>>\LTS_EscapePod HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2067,7 +1896,6 @@ ___
 #### Instructions
 1. **GUID:** 896cae88-addf-4bcb-b1c6-9388c95c5d26
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\non-game weapon.rar
 2. **GUID:** 919d9401-f3ca-4b8d-b68a-097770b03f1b
    **Action:** Move
@@ -2075,7 +1903,6 @@ ___
    **Source:** <<modDirectory>>\non-game weapon\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2090,7 +1917,6 @@ ___
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -2112,7 +1938,6 @@ ___
 #### Instructions
 1. **GUID:** 106fc196-3f55-4418-9334-a9bf1c841c35
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Stun baton HD.rar
 2. **GUID:** c833cff6-e999-46ff-a137-bbcaf6700239
    **Action:** Move
@@ -2120,7 +1945,6 @@ ___
    **Source:** <<modDirectory>>\Stun baton HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2135,7 +1959,6 @@ ___
 **Category & Tier:** Appearance Change / 3 - Suggested
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -2159,7 +1982,6 @@ This one is one of my favorites from her, the Ithorians look absolutely excellen
 #### Instructions
 1. **GUID:** e3b86f32-0769-4c8f-8056-dcb7ed68ff37
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ithorian HD.rar
 2. **GUID:** 546ecbdb-f408-4c69-9a0b-5b6577f6e3f1
    **Action:** Move
@@ -2167,7 +1989,6 @@ This one is one of my favorites from her, the Ithorians look absolutely excellen
    **Source:** <<modDirectory>>\Ithorian HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2189,7 +2010,6 @@ ___
 #### Instructions
 1. **GUID:** 2f2c1c8e-210c-4b0c-8f59-13827d2e77e0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Duros HD.rar
 2. **GUID:** 8ff9bbbd-cbbe-4b41-b77d-c9148fcbc2eb
    **Action:** Move
@@ -2197,7 +2017,6 @@ ___
    **Source:** <<modDirectory>>\Duros HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2219,7 +2038,6 @@ ___
 #### Instructions
 1. **GUID:** d185ad0e-1774-41dd-b413-946f907d58c3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Qarren HD.rar
 2. **GUID:** 0713d08e-769e-4dad-8106-cf12a46c070f
    **Action:** Move
@@ -2227,7 +2045,6 @@ ___
    **Source:** <<modDirectory>>\Qarren HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2249,7 +2066,6 @@ ___
 #### Instructions
 1. **GUID:** 2f45c850-0e22-4b57-b094-2bd30ca6c599
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Davik HD.rar
 2. **GUID:** 2244c279-fba8-4c0a-aa8e-2ef745c375c3
    **Action:** Move
@@ -2257,7 +2073,6 @@ ___
    **Source:** <<modDirectory>>\Davik HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2279,7 +2094,6 @@ ___
 #### Instructions
 1. **GUID:** 39f9e410-0cb2-4d56-9402-ae6ee95c33e8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Doctors HD.rar
 2. **GUID:** 3603ac54-5d0b-4a89-b9be-40ff0a9ab775
    **Action:** Move
@@ -2287,7 +2101,6 @@ ___
    **Source:** <<modDirectory>>\Doctors HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2305,7 +2118,6 @@ ___
 
 **Installation Instructions:** Delete N_CommF02.tga & .txi before moving to override.
 
-
 ___
 
 ### Deadeye Duncan HD
@@ -2319,7 +2131,6 @@ ___
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -2341,7 +2152,6 @@ ___
 #### Instructions
 1. **GUID:** 26d5c600-6d61-4697-af11-dfb968c32058
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\N_oldAMH01.rar
 2. **GUID:** 30f54585-82ff-4cdd-bd29-16f59a786b5b
    **Action:** Move
@@ -2349,7 +2159,6 @@ ___
    **Source:** <<modDirectory>>\N_oldAMH01\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2373,7 +2182,6 @@ ___
 #### Instructions
 1. **GUID:** dc738dad-2f39-4d7a-a05c-307a22fd44e1
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\DrdAstro HD.rar
 2. **GUID:** e4440a20-91ea-4bc8-880c-9d7ee52be43b
    **Action:** Move
@@ -2381,7 +2189,6 @@ ___
    **Source:** <<modDirectory>>\DrdAstro HD\C_DrdAstro01.tga, <<modDirectory>>\DrdAstro HD\P_t3m3_01.tga, <<modDirectory>>\DrdAstro HD\P_T3M3_01.txi, <<modDirectory>>\DrdAstro HD\P_T3M3_01_n.tga, <<modDirectory>>\DrdAstro HD\P_T3M3_01_n.txi, <<modDirectory>>\DrdAstro HD\PO_pt3m3.tga, <<modDirectory>>\DrdAstro HD\PO_pt3m32.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2403,7 +2210,6 @@ ___
 #### Instructions
 1. **GUID:** 96641653-2c69-487d-bf84-6bc1265f6639
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\DrdProtHD.rar
 2. **GUID:** 39ad050d-3f80-4efd-9670-2adcb00b00bc
    **Action:** Move
@@ -2411,7 +2217,6 @@ ___
    **Source:** <<modDirectory>>\DrdProtHD\C_DrdProt01.tga, <<modDirectory>>\DrdProtHD\C_DrdProt02.tga, <<modDirectory>>\DrdProtHD\C_DrdProt03.tga, <<modDirectory>>\DrdProtHD\C_DrdProt04.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2433,7 +2238,6 @@ ___
 #### Instructions
 1. **GUID:** 42a3245c-e736-4432-8509-5e986ecd3c59
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Daviks Trophies.7z
 2. **GUID:** 6fd8977f-d54b-4e6f-bcd0-545b25e6902e
    **Action:** Move
@@ -2441,7 +2245,6 @@ ___
    **Source:** <<modDirectory>>\Daviks Trophies\Daviks Trophies\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2465,7 +2268,6 @@ ___
 #### Instructions
 1. **GUID:** f1c224f8-1d7a-4fac-9646-eb368499cc75
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Carth Onasi.rar
 2. **GUID:** cfb9dc57-34a2-48cc-9452-5fe2dee4c58a
    **Action:** Move
@@ -2473,7 +2275,6 @@ ___
    **Source:** <<modDirectory>>\Carth Onasi\P_CarthBA01.tga, <<modDirectory>>\Carth Onasi\P_CarthBB01.tga, <<modDirectory>>\Carth Onasi\P_CarthH01.tga, <<modDirectory>>\Carth Onasi\P_CarthH01.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2497,7 +2298,6 @@ ___
 #### Instructions
 1. **GUID:** 1a3b9fed-1337-4abe-9ce1-4f5fed0c01b8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Canderous Patch.rar, <<modDirectory>>\Canderous Ordo.rar
 2. **GUID:** 77e6a772-9bd6-405c-b6f1-8df205987cc8
    **Action:** Move
@@ -2510,7 +2310,6 @@ ___
    **Source:** <<modDirectory>>\Canderous Patch\P_CandBB01.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2534,7 +2333,6 @@ ___
 #### Instructions
 1. **GUID:** 4de557bf-d793-494b-8fa4-c1244d990ca7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Quanon_CandOrdo_Reskin.rar
 2. **GUID:** cb80c2c3-1b27-40ce-bc08-e807d9e380f0
    **Action:** Move
@@ -2542,7 +2340,6 @@ ___
    **Source:** <<modDirectory>>\Quanon_CandOrdo_Reskin\Quanon_CandOrdo_Reskin\P_CandH01.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2564,7 +2361,6 @@ ___
 #### Instructions
 1. **GUID:** 125f0a39-9e87-4c92-a93a-a79a290c28ef
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Jolee Bindo HD — clothes.rar
 2. **GUID:** 97c34f56-d289-4060-bb96-ec3097b73fc4
    **Action:** Move
@@ -2572,7 +2368,6 @@ ___
    **Source:** <<modDirectory>>\Jolee Bindo HD — clothes\p_joleeba01.tga, <<modDirectory>>\Jolee Bindo HD — clothes\p_joleeba01.txi, <<modDirectory>>\Jolee Bindo HD — clothes\p_joleebb01.tga, <<modDirectory>>\Jolee Bindo HD — clothes\p_joleebb01.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2596,7 +2391,6 @@ ___
 #### Instructions
 1. **GUID:** 82d39067-23f9-416c-a31b-ecc0dccfab75
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Fen's - Jolee*.zip
 2. **GUID:** 8fd1c793-d5dd-4389-bac3-6cbd51bc5423
    **Action:** Move
@@ -2604,7 +2398,6 @@ ___
    **Source:** <<modDirectory>>\Fen's - Jolee*\Fens - Jolee\Fens - Jolee\P_JoleeBB01.tga, <<modDirectory>>\Fen's - Jolee*\Fens - Jolee\Fens - Jolee\P_JoleeBB01.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2628,7 +2421,6 @@ ___
 #### Instructions
 1. **GUID:** 31741e5c-d83f-4d8a-a0a5-3e920688b3ce
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ZaalbarHD.rar
 2. **GUID:** e3fd0cb3-7ccf-4dd4-abd7-0d5793d15b6c
    **Action:** Move
@@ -2636,7 +2428,6 @@ ___
    **Source:** <<modDirectory>>\ZaalbarHD\P_Zaalbar02.tga, <<modDirectory>>\ZaalbarHD\PO_pzaalbar.tga, <<modDirectory>>\ZaalbarHD\PO_pzaalbar2.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2660,7 +2451,6 @@ ___
 #### Instructions
 1. **GUID:** a3de361f-966f-46f3-b458-1279c37ea22a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Heyorange's Sith Uniform Reformation *.zip
 2. **GUID:** 211b1418-1bfe-48a4-8164-d2b3e2776963
    **Action:** Move
@@ -2668,7 +2458,6 @@ ___
    **Source:** <<modDirectory>>\Heyorange's Sith Uniform Reformation *\1. Heyorange's Sith Uniform Reformation\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2685,7 +2474,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules.
-
 
 ___
 
@@ -2707,7 +2495,6 @@ ___
 #### Instructions
 1. **GUID:** 78bd3601-2355-49d2-b90c-0f61438b4cd2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Star-Map_Revamp*.zip
 2. **GUID:** ad278b50-1c51-468b-95f7-f556487766f3
    **Action:** Move
@@ -2715,7 +2502,6 @@ ___
    **Source:** <<modDirectory>>\Star-Map_Revamp*\Star-Map_Revamp*\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2737,7 +2523,6 @@ ___
 #### Instructions
 1. **GUID:** 3f53ed9f-9573-45c7-89d2-69a75830c970
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter.rar
 2. **GUID:** 307b8bea-6dcd-4c4a-a02c-1251e2ac5633
    **Action:** Move
@@ -2745,7 +2530,6 @@ ___
    **Source:** <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\LDA_FreightL01.tga, <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\LMA_Freight.tga, <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\LUN_FreightL02.tga, <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\V_FreightL02.tga, <<modDirectory>>\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\V_FreightL02.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2760,7 +2544,6 @@ ___
 **Category & Tier:** Immersion / 3 - Suggested
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -2784,7 +2567,6 @@ ___
 #### Instructions
 1. **GUID:** 931fe4df-9917-4c7b-aebb-6944dc8e761c
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\vurt_k1_eh_retexture*.rar
 2. **GUID:** d14ad439-62fa-4071-b54c-8b567266858c
    **Action:** Copy
@@ -2802,7 +2584,6 @@ ___
    **Source:** <<modDirectory>>\vurt_k1_eh_retexture_v*\LDA_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LEH_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LKA_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LMA_EHawk.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LSF_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LSI_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LTA_EHawk01_00a.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LTA_EHawk02_00a.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LTS_EHawk01.tga, <<modDirectory>>\vurt_k1_eh_retexture_v*\LUN_EHawk01.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2826,7 +2607,6 @@ ___
 #### Instructions
 1. **GUID:** 76c52693-5bdd-4d9b-83eb-3cd9aec07bdc
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ultimate_Ebon_Hawk_Repairs_For_K1*.7z
 2. **GUID:** 367fa3c4-406f-4d81-9105-23a07655fb2e
    **Action:** Move
@@ -2839,7 +2619,6 @@ ___
    **Source:** <<modDirectory>>\Ultimate_Ebon_Hawk_Repairs_For_K1*\Ultimate_Ebon_Hawk_Repairs_For_K1*\Animated Monitors\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2861,7 +2640,6 @@ ___
 #### Instructions
 1. **GUID:** 20a68915-ff6b-49f8-a746-72403f4ad68b
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\High Quality Cockpit Skyboxes*.zip
 2. **GUID:** abaa72c0-5f56-4d3f-a076-7525e4185c90
    **Action:** Move
@@ -2869,7 +2647,6 @@ ___
    **Source:** <<modDirectory>>\High Quality Cockpit Skyboxes*\High Quality Cockpit Skyboxes*\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -2893,15 +2670,12 @@ ___
 #### Instructions
 1. **GUID:** f09e9062-1167-4f33-ba38-28f37f5f0207
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1 Yavin Station Hangar v1_5.7z
 2. **GUID:** b6889efd-5736-497e-b0d1-caf5c8e575ef
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 2d48c206-9daf-429a-a829-818401976500, 6c226a6e-9cca-459c-b288-d1018bbed811
 3. **GUID:** c762e508-4f5d-4e59-9e5e-4627571d9a55
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 09362c3c-1e50-47c9-a6b6-e6e20b3e7d3d, f82b94ae-e227-4926-9d00-aa4609c9168b
 
 #### Options
@@ -2910,8 +2684,6 @@ ___
 - **Name:** Main Installation
 - **Description:** Main Installation of the mod.  Must be installed first before adding the visible forcefield option.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 89510a43-0c92-4d11-9d5a-83400671e910
     - **Action:** Patcher
@@ -2923,8 +2695,6 @@ ___
 - **Name:** OPTION: Add Visible Forcefield
 - **Description:** Adds a visible forcefield effect to the hangar entrance.  Requires the Main Installation to be run first.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 1a3c0690-ba32-4acc-9798-5344486e5797
     - **Action:** Patcher
@@ -2936,8 +2706,6 @@ ___
 - **Name:** HQ Cockpit Skybox Textures
 - **Description:** Install files from HQ Cockpit Skybox Textures folder
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** c05bb8f3-6d2a-4a38-beab-c92cd236c294
     - **Action:** Move
@@ -2949,8 +2717,6 @@ ___
 - **Name:** Option - Alternate Airlock Door (v1_0)
 - **Description:** Install files from Option - Alternate Airlock Door (v1_0) folder
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 16a10653-f207-4afd-87e5-b6b3b81f143c
     - **Action:** Move
@@ -2958,7 +2724,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\K1 Yavin Station Hangar v1_5\Option - Alternate Airlock Door (v1_0)\*
 -->
-
 
 ___
 
@@ -2973,7 +2738,6 @@ ___
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -2990,7 +2754,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Recommend the version without overlays, but it's personal preference.
-
 
 ___
 
@@ -3014,7 +2777,6 @@ ___
 #### Instructions
 1. **GUID:** 0ccc7cea-f6e9-4938-8684-808572e3acb9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Taris_Reskin*.zip
 2. **GUID:** 164596eb-c696-41d3-85f2-525ae7c7f3c3
    **Action:** Delete
@@ -3026,7 +2788,6 @@ ___
    **Source:** <<modDirectory>>\Taris_Reskin*\Taris_Reskin\Taris_TexturePack\Taris_Tex_Part1\*, <<modDirectory>>\Taris_Reskin*\Taris_Reskin\Taris_TexturePack\Taris_Tex_Part2\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3048,7 +2809,6 @@ ___
 #### Instructions
 1. **GUID:** a081d32f-313b-4117-9eea-f2020045aeda
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1_HDStarsAndNebulas_*.zip
 2. **GUID:** b14390a3-b961-4ee7-9fa3-7b0c12e98c80
    **Action:** Move
@@ -3056,7 +2816,6 @@ ___
    **Source:** <<modDirectory>>\K1_HDStarsAndNebulas_*\LSF_sky01.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LSF_sky02.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LSF_space01.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LSP_nebula01.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LSP_stars01.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LSP_stars02.tga, <<modDirectory>>\K1_HDStarsAndNebulas_*\LYV_space01.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3080,7 +2839,6 @@ ___
 #### Instructions
 1. **GUID:** 38d30e97-a44f-453b-a03b-40c1af3b2dab
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\HQSkyboxesII_K1.7z
 2. **GUID:** 5311a40c-17fb-4c39-860f-08156546964e
    **Action:** Move
@@ -3088,7 +2846,6 @@ ___
    **Source:** <<modDirectory>>\HQSkyboxesII_K1\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3105,7 +2862,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
-
 
 ___
 
@@ -3127,7 +2883,6 @@ ___
 #### Instructions
 1. **GUID:** b1cd8034-dad5-4c9e-bb2c-e354d9f40cfc
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\DI_HRBM_2.7z
 2. **GUID:** 5440d5b0-1443-4a98-9f43-534c68250244
    **Action:** Move
@@ -3135,7 +2890,6 @@ ___
    **Source:** <<modDirectory>>\DI_HRBM_2\fx_beam01.tga, <<modDirectory>>\DI_HRBM_2\fx_beam02.tga, <<modDirectory>>\DI_HRBM_2\fx_beam03.tga, <<modDirectory>>\DI_HRBM_2\Fx_Drain.tga, <<modDirectory>>\DI_HRBM_2\Fx_Lightning.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3157,7 +2911,6 @@ ___
 #### Instructions
 1. **GUID:** a6d21b17-af94-42f6-84d6-aef0ab9efc91
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\FireandIceHDWhee.zip
 2. **GUID:** 61bf764d-ddb2-4fa7-ba5a-08c7419dfcee
    **Action:** Move
@@ -3165,7 +2918,6 @@ ___
    **Source:** <<modDirectory>>\FireandIceHDWhee\fx_crystal01.tga, <<modDirectory>>\FireandIceHDWhee\fx_fireball.tga, <<modDirectory>>\FireandIceHDWhee\fx_flame.tga, <<modDirectory>>\FireandIceHDWhee\fx_reflectmap.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3187,7 +2939,6 @@ ___
 #### Instructions
 1. **GUID:** c0713afa-396f-441d-8df8-eb6cbbbd1934
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Animated energy shields.rar
 2. **GUID:** 90043a9f-0f24-4436-8d1b-85e3124c950a
    **Action:** Move
@@ -3195,7 +2946,6 @@ ___
    **Source:** <<modDirectory>>\Animated energy shields\fx_tex_01.tga, <<modDirectory>>\Animated energy shields\fx_tex_08.tga, <<modDirectory>>\Animated energy shields\fx_tex_10.tga, <<modDirectory>>\Animated energy shields\fx_tex_12.tga, <<modDirectory>>\Animated energy shields\fx_tex_14.tga, <<modDirectory>>\Animated energy shields\fx_tex_15.tga, <<modDirectory>>\Animated energy shields\fx_tex_16.tga, <<modDirectory>>\Animated energy shields\fx_tex_17.tga, <<modDirectory>>\Animated energy shields\fx_tex_18.tga, <<modDirectory>>\Animated energy shields\fx_tex_19.tga, <<modDirectory>>\Animated energy shields\fx_tex_20.tga, <<modDirectory>>\Animated energy shields\fx_tex_21.tga, <<modDirectory>>\Animated energy shields\fx_tex_22.tga, <<modDirectory>>\Animated energy shields\fx_tex_24.tga, <<modDirectory>>\Animated energy shields\fx_tex_stealth.tga
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3217,7 +2967,6 @@ ___
 #### Instructions
 1. **GUID:** b9027db3-d00d-4966-b25e-7165bc6eec8f
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\SH_AnimatedCantinaSign.7z
 2. **GUID:** 65c58459-c39c-40df-b921-a3c457ddc441
    **Action:** Move
@@ -3225,7 +2974,6 @@ ___
    **Source:** <<modDirectory>>\SH_AnimatedCantinaSign\LTS_signs.tga, <<modDirectory>>\SH_AnimatedCantinaSign\LTS_signs.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3251,7 +2999,6 @@ I'm also looking for opinions about this and whether users prefer it to Fire and
 #### Instructions
 1. **GUID:** ef70e5fc-dba8-46c4-ae77-27141ec58e48
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Revamped FX.rar
 2. **GUID:** 32ec061a-2d91-4ea4-baae-70aa50dbc203
    **Action:** Move
@@ -3259,7 +3006,6 @@ I'm also looking for opinions about this and whether users prefer it to Fire and
    **Source:** <<modDirectory>>\Revamped FX\Revamped FX\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3281,7 +3027,6 @@ ___
 #### Instructions
 1. **GUID:** d777da0f-e106-4da5-bfe2-b40d584223f2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PLC_CompPnl.rar
 2. **GUID:** ebf669cf-dc3b-4053-8e23-7aee6e4b78f0
    **Action:** Move
@@ -3289,7 +3034,6 @@ ___
    **Source:** <<modDirectory>>\PLC_CompPnl\PLC_CompPnl.tga, <<modDirectory>>\PLC_CompPnl\PLC_CompPnl.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3311,7 +3055,6 @@ ___
 #### Instructions
 1. **GUID:** fd73c48a-5da4-48ae-89bc-72f72ecfdf15
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\RepTab HD.rar
 2. **GUID:** 26db7030-e9cc-4dde-bd16-cf61c92c8298
    **Action:** Move
@@ -3319,7 +3062,6 @@ ___
    **Source:** <<modDirectory>>\RepTab HD\PLC_RepTab.tga, <<modDirectory>>\RepTab HD\PLC_RepTab.txi, <<modDirectory>>\RepTab HD\PLC_RepTab2.tga, <<modDirectory>>\RepTab HD\PLC_RepTab2.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3341,7 +3083,6 @@ ___
 #### Instructions
 1. **GUID:** 734fdcc3-8ad5-4d15-a7e7-1bf53bad30b9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Animated_Swoop_Screen_[TSLPort].7z
 2. **GUID:** 6d09e1df-7d0a-45ce-8dfd-01fa93148d4c
    **Action:** Move
@@ -3349,7 +3090,6 @@ ___
    **Source:** <<modDirectory>>\[K1]_Animated_Swoop_Screen_[TSLPort]\[K1]_Animated_Swoop_Screen_[TSLPort]\to_Override\AnmtdSwpScrn.tpc, <<modDirectory>>\[K1]_Animated_Swoop_Screen_[TSLPort]\[K1]_Animated_Swoop_Screen_[TSLPort]\to_Override\plc_swscreen.mdl, <<modDirectory>>\[K1]_Animated_Swoop_Screen_[TSLPort]\[K1]_Animated_Swoop_Screen_[TSLPort]\to_Override\plc_swscreen.mdx, <<modDirectory>>\[K1]_Animated_Swoop_Screen_[TSLPort]\[K1]_Animated_Swoop_Screen_[TSLPort]\to_Override\TSL_SwpMntr.tpc
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3371,7 +3111,6 @@ ___
 #### Instructions
 1. **GUID:** 3fff5128-50f1-4fbd-8326-ae3550210187
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Loadscreens in Color.zip
 2. **GUID:** 0dcc7ba0-a77b-4679-8e14-2fc7d826cdd8
    **Action:** Move
@@ -3379,7 +3118,6 @@ ___
    **Source:** <<modDirectory>>\Loadscreens in Color\Override\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3403,15 +3141,11 @@ ___
 #### Instructions
 1. **GUID:** 6757e13f-81b3-4abd-81eb-e536e6e988c7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\New_Lightsaber_Blades_K1_v_*.rar
 2. **GUID:** 3281844c-c22e-4e72-9fc0-5197eacf6991
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\New_Lightsaber_Blades_K1_v_*\New_Lightsaber_Blades_K1_v_*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3433,15 +3167,11 @@ ___
 #### Instructions
 1. **GUID:** 4477696b-43c7-4311-921b-3c7c7a0f24d4
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Darth_Malaks_Lightsaber_K1.zip
 2. **GUID:** f3d14a19-5a0f-4cd8-9f44-7301a964709e
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Darth_Malaks_Lightsaber_K1\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3465,7 +3195,6 @@ ___
 #### Instructions
 1. **GUID:** 0413420c-7342-4db7-8851-9f3d7a6e8b63
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Blaster Visual Effects for K1.zip
 2. **GUID:** 4695ecae-cd83-4afd-81cd-0597ab322cb5
    **Action:** Move
@@ -3473,7 +3202,6 @@ ___
    **Source:** <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_B1.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_B2.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_G1.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_G2.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_R1.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_R2.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_W1.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\JC_FX_Laser_W2.tga, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_b.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_b.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_bc.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_bc.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_r.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_r.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_w.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_laserfire_w.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_b1.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_b1.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_bc1.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_bc1.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_r1.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_r1.mdx, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_w1.mdl, <<modDirectory>>\JC's Blaster Visual Effects for K1\Override\w_lfire_pb_w1.mdx
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3495,7 +3223,6 @@ ___
 #### Instructions
 1. **GUID:** 19c0343a-1577-4cd9-b4af-804b7b21ed09
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\WookieWarbladeFix-Redrob41.7z
 2. **GUID:** d98afdcf-d7d5-4401-aa00-8a996e6ab553
    **Action:** Move
@@ -3503,7 +3230,6 @@ ___
    **Source:** <<modDirectory>>\WookieWarbladeFix-Redrob41\w_warblade_001.mdl, <<modDirectory>>\WookieWarbladeFix-Redrob41\w_warblade_001.mdx, <<modDirectory>>\WookieWarbladeFix-Redrob41\w_WBld_001.tga, <<modDirectory>>\WookieWarbladeFix-Redrob41\w_WBld_001.txi
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3525,15 +3251,11 @@ ___
 #### Instructions
 1. **GUID:** c36ede77-f4e0-4c45-90be-8378634c40f9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KillCzerkaJerk.zip
 2. **GUID:** 7881051e-bd28-447f-a948-d92826fd3cd4
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KillCzerkaJerk\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3555,7 +3277,6 @@ ___
 #### Instructions
 1. **GUID:** f78fd08e-ff95-48e1-b602-8fd89fb413b5
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\di_kaw2.7z
 2. **GUID:** ca95072a-bef4-4865-bd85-787b861cc9de
    **Action:** Move
@@ -3563,7 +3284,6 @@ ___
    **Source:** <<modDirectory>>\di_kaw2\di_spwb_01.ncs, <<modDirectory>>\di_kaw2\di_wb_01.utp, <<modDirectory>>\di_kaw2\k_pebo_upgrade.ncs, <<modDirectory>>\di_kaw2\kor35_utharwynn.dlg
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3585,7 +3305,6 @@ ___
 #### Instructions
 1. **GUID:** 6972039a-99fc-4a6e-8a6b-9dc2ce860d35
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Senni Vek Restoration.zip
 2. **GUID:** bd31039a-63fd-4b38-b9d1-fc90f5f08a6e
    **Action:** Move
@@ -3593,7 +3312,6 @@ ___
    **Source:** <<modDirectory>>\Senni Vek Restoration\Senni Vek Restoration\For Override\tat_senni.utc
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3610,7 +3328,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
-
 
 ___
 
@@ -3634,15 +3351,11 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
 #### Instructions
 1. **GUID:** c2cfd75a-c268-4b11-a866-f20fde7d1f5b
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\CK-Ixgil the Bith.zip
 2. **GUID:** 507da6c1-9650-4b27-af8a-755e4252263b
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\CK-Ixgil the Bith\Ixgil the Bith\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3664,7 +3377,6 @@ ___
 #### Instructions
 1. **GUID:** d3497d8d-d6ca-4725-8866-63b47477fed2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Bek Control Room Restoration*.zip
 2. **GUID:** 0a6f3224-7fcb-4f38-8ba5-bb2583c5441e
    **Action:** Move
@@ -3672,7 +3384,6 @@ ___
    **Source:** <<modDirectory>>\Bek Control Room Restoration*\Bek Control Room Restoration*\For Override\tar11_lockdoo001.utd
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3687,7 +3398,6 @@ ___
 **Category & Tier:** Restored Content / 4 - Optional
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -3713,7 +3423,6 @@ Anyway, this mod makes the whole Jedi sequence more meaningful by getting rid of
 #### Instructions
 1. **GUID:** ad7c5aa5-8802-4220-b994-faaddb4294e1
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Jedi Choice Dialogue Enhancement.zip
 2. **GUID:** 73da3950-4021-4114-9654-98b0b9df1c52
    **Action:** Move
@@ -3721,7 +3430,6 @@ Anyway, this mod makes the whole Jedi sequence more meaningful by getting rid of
    **Source:** <<modDirectory>>\Jedi Choice Dialogue Enhancement\Jedi Choice Dialogue Enhancement\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3743,7 +3451,6 @@ ___
 #### Instructions
 1. **GUID:** b80c0caf-8692-4e81-99d1-e69ff0554a7c
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Juhani Dialogue Restoration.zip
 2. **GUID:** 2a9d32ef-b59f-45cc-acee-539f581a33eb
    **Action:** Move
@@ -3751,7 +3458,6 @@ ___
    **Source:** <<modDirectory>>\Juhani Dialogue Restoration\Juhani Dialogue Restoration\Installation\k_hjuh_p05.ncs, <<modDirectory>>\Juhani Dialogue Restoration\Juhani Dialogue Restoration\Installation\k_hjuh_p19.ncs, <<modDirectory>>\Juhani Dialogue Restoration\Juhani Dialogue Restoration\Installation\k_hjuh_p20.ncs, <<modDirectory>>\Juhani Dialogue Restoration\Juhani Dialogue Restoration\Installation\k_hjuh_p21.ncs, <<modDirectory>>\Juhani Dialogue Restoration\Juhani Dialogue Restoration\Installation\k_hjuh_w10.ncs
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3773,15 +3479,11 @@ ___
 #### Instructions
 1. **GUID:** 09b806c4-bc1f-44b3-b3c3-1e16d8d1a57e
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Vision Enhancement for K1 v*.zip
 2. **GUID:** eaff12bc-7d6d-4791-8a35-0ba832acbbc2
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Vision Enhancement for K1 v*\Vision_Enhancement_K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3803,7 +3505,6 @@ ___
 #### Instructions
 1. **GUID:** bc30ca4f-b10e-4cba-96a7-913a54d5a537
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Leviathan Differentiated Dialogue.7z
 2. **GUID:** 34a58a22-d78e-44df-8c7b-2fbf3912a4ff
    **Action:** Move
@@ -3811,7 +3512,6 @@ ___
    **Source:** <<modDirectory>>\Leviathan Differentiated Dialogue\Leviathan Differentiated Dialogue\lev40_rodpris2.dlg
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3833,7 +3533,6 @@ ___
 #### Instructions
 1. **GUID:** 5908fcdc-6dc8-4cbb-ae77-447cbc5070a0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Balanced Pazaak.zip
 2. **GUID:** 83d1dbbe-eb7d-471a-98bc-c8fa8aa670d0
    **Action:** Move
@@ -3841,7 +3540,6 @@ ___
    **Source:** <<modDirectory>>\Balanced Pazaak\Override\pazaakdecks.2da
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3863,7 +3561,6 @@ ___
 #### Instructions
 1. **GUID:** 8713ed72-9f53-4270-972a-c354cba587fc
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ebon_hawk_camera.zip
 2. **GUID:** b049ed82-a7ee-4225-9a4d-06f62b40a1cf
    **Action:** Move
@@ -3871,7 +3568,6 @@ ___
    **Source:** <<modDirectory>>\ebon_hawk_camera\ebon_hawk_camera\camerastyle.2da, <<modDirectory>>\ebon_hawk_camera\ebon_hawk_camera\m12aa.vis
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3893,15 +3589,11 @@ ___
 #### Instructions
 1. **GUID:** 3b839387-6e7c-4649-bc72-506932bc5bcd
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Rebalanced Grenades v1.0.7z
 2. **GUID:** e10ae075-4153-4b9a-9b8b-1117b9cff045
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Rebalanced Grenades v1.0\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -3925,7 +3617,6 @@ ___
 #### Instructions
 1. **GUID:** 01b1d318-b53f-4d82-a271-098287fd06e1
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Grenades and mines HD.rar
 2. **GUID:** e2f57d3b-f71f-491d-9560-30fcb341ac1a
    **Action:** Move
@@ -3933,7 +3624,6 @@ ___
    **Source:** <<modDirectory>>\Grenades and mines HD\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3955,7 +3645,6 @@ ___
 #### Instructions
 1. **GUID:** 7bab65cd-c865-4b19-bf26-975ba09de6e7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\NO_Fighters.zip-90-v1-0.zip
 2. **GUID:** 14d632f3-766b-411f-ac3f-02a40ea584ac
    **Action:** Move
@@ -3963,7 +3652,6 @@ ___
    **Source:** <<modDirectory>>\NO_Fighters.zip-90-v1-0\k_sup_galaxmap.ncs, <<modDirectory>>\NO_Fighters.zip-90-v1-0\k_sup_galaxymap.ncs
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -3985,15 +3673,11 @@ ___
 #### Instructions
 1. **GUID:** 1dd10887-ce3f-4671-98e8-a5ea3438f877
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Trask Ulgo Without Tutorials.7z
 2. **GUID:** 781aabaf-5cd5-4f7d-959a-473f956355a2
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Trask Ulgo Without Tutorials\Trask Ulgo Without Tutorials\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4017,15 +3701,11 @@ ___
 #### Instructions
 1. **GUID:** b15a5aeb-49d5-4805-b644-4d0cfea1668d
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_All_Hands_on_Deck_for_the_Leviathan_Prison_Break.7z
 2. **GUID:** ecf979d3-e122-46ef-bd6a-34c9a02a9c44
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_All_Hands_on_Deck_for_the_Leviathan_Prison_Break\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4040,7 +3720,6 @@ ___
 **Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -4064,11 +3743,9 @@ ___
 #### Instructions
 1. **GUID:** 14c89191-5394-4fae-a932-af160a13a097
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\K1 Party Conversations on Ebon Hawk v1_3.zip
 2. **GUID:** 44842ebe-9c52-453c-b97b-5904ba32000b
    **Action:** Choose
-   **Overwrite:** true
    **Source:** b7038c96-0ad2-443b-aefd-484e457e1b8e, e0f26242-1bef-4d77-8293-d6392fc661fe, 6bf15cf8-9010-48b3-9bbd-ed5352349a67
 
 #### Options
@@ -4077,8 +3754,6 @@ ___
 - **Name:** Standard Installation
 - **Description:** Standard version of the full installation.  Not compatible with the KOTOR 1 Community Patch.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 57294d06-195f-40a9-afa0-0be928c330ac
     - **Action:** Patcher
@@ -4090,8 +3765,6 @@ ___
 - **Name:** KOTOR 1 Community Patch Compatible
 - **Description:** K1CP-compatible version of the full installation.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 22fc001e-cc90-4e72-9e98-04608667f191
     - **Action:** Patcher
@@ -4103,8 +3776,6 @@ ___
 - **Name:** OPTION:  Ebon Hawk/Hideout Only
 - **Description:** Makes it so that party conversations only play at the Ebon Hawk and the Taris apartment hideout.  Requires the main portion of the mod to be installed first.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 1abfbe77-129b-4bdf-97c4-34a0427aaea0
     - **Action:** Patcher
@@ -4112,7 +3783,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\K1 Party Conversations on Ebon Hawk v1_3\TSLPatcher.exe
 -->
-
 
 ___
 
@@ -4134,15 +3804,11 @@ ___
 #### Instructions
 1. **GUID:** e0f4bc55-cf75-4f46-89f1-b6f8381164c7
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Romance Enhancement - Dark Sacrifice for K1 v*.zip
 2. **GUID:** 0105878b-3acd-4c39-87b4-4becd6108fad
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Romance Enhancement - Dark Sacrifice for K1 v*\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4164,15 +3830,11 @@ ___
 #### Instructions
 1. **GUID:** a9c54733-cbe9-4910-b94c-7be4cb2e2227
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\saberthrow_kd.zip
 2. **GUID:** 23b5ab72-506f-4e9b-b9c8-831a7bfa3617
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\saberthrow_kd\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4194,15 +3856,11 @@ ___
 #### Instructions
 1. **GUID:** 1b2212ea-9f25-4487-9c13-73362518ab05
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\SMRE Version *.zip
 2. **GUID:** 4ec628f3-f1b9-434a-91e0-9dcc78031159
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\SMRE Version *\SMRE\SMRE Installer.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4226,11 +3884,9 @@ ___
 #### Instructions
 1. **GUID:** 7d51ab30-fd95-4896-a8b6-d1de22a9c676
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\PC Dialogue with Davik's Slaves Change.7z
 2. **GUID:** f26b9beb-f5b1-4ca1-8d5b-49d2699eba85
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 31e74d5a-a6d0-4935-a735-7ecef9d78d02, e2075360-1148-41eb-adda-27574761924b
 
 #### Options
@@ -4239,8 +3895,6 @@ ___
 - **Name:** No Flirting with Davik's Slaves
 - **Description:** Removes the option for the player to flirt with Davik's slaves by requesting a massage from them.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** e2075360-1148-41eb-adda-27574761924b
   - **Instruction:**
     - **GUID:** 440d2858-8779-49fd-8ee7-b9fe2d1bc058
@@ -4253,8 +3907,6 @@ ___
 - **Name:** Dark Side Points for Massage Request
 - **Description:** Requesting a massage from Davik's slaves will give the player Dark Side points.
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 31e74d5a-a6d0-4935-a735-7ecef9d78d02
   - **Instruction:**
     - **GUID:** b5a31d97-17f7-4692-83a9-771a0cf5c619
@@ -4263,7 +3915,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\PC Dialogue with Davik's Slaves Change\PC Dialogue with Davik's Slaves Change\Install.exe
 -->
-
 
 ___
 
@@ -4285,7 +3936,6 @@ ___
 #### Instructions
 1. **GUID:** 16860734-665e-46fa-9484-fa72e5a2222d
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\RecruitT3M4Early.rar
 2. **GUID:** e7f04562-2526-43ed-ba9a-a5512fe57351
    **Action:** Move
@@ -4293,7 +3943,6 @@ ___
    **Source:** <<modDirectory>>\RecruitT3M4Early\RecruitT3M4Early\k_ptar_a05ab_en.ncs, <<modDirectory>>\RecruitT3M4Early\RecruitT3M4Early\k_ptar_opengate.ncs, <<modDirectory>>\RecruitT3M4Early\RecruitT3M4Early\tar02_janice021.dlg
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -4315,15 +3964,11 @@ ___
 #### Instructions
 1. **GUID:** de0ef620-2df2-4dc4-a264-d37d31daabe9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Security Spikes for K1*.zip
 2. **GUID:** 0f05d265-3cb7-4c23-a871-53c2c561986d
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Security Spikes for K1*\Security_Spikes_K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4347,11 +3992,8 @@ ___
 #### Instructions
 1. **GUID:** a04b9f3e-1014-48cb-aeca-009e7e705cc0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\High Quality Blasters*.zip
 2. **GUID:** 6378a56a-880e-48ce-8b0f-0abe73b412bf
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\High Quality Blasters*\High Quality Blasters*\High Quality Blasters Installer.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 4b3db4fd-bbc0-43c3-a4d3-77cb388ac5ba
@@ -4369,7 +4011,6 @@ ___
    **Overwrite:** true
    **Source:** <<kotorDirectory>>\Override\g1_w_rptnblstr01.uti, <<kotorDirectory>>\Override\w_blstrpstl_006.mdl, <<kotorDirectory>>\Override\w_blstrpstl_006.mdx, <<kotorDirectory>>\Override\w_rptnblstr_004.mdl, <<kotorDirectory>>\Override\w_rptnblstr_004.mdx
 -->
-
 
 ___
 
@@ -4393,25 +4034,17 @@ ___
 #### Instructions
 1. **GUID:** 07046b61-1845-4c15-afd6-a136e7a6779a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ldr_repshipunknownworld.zip
 2. **GUID:** 1ddd7464-51d5-43de-aa3a-f8c41f57e36e
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ldr_repshipunknownworld\ldr_repshipunknownworld\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 433acaf5-330a-4411-ae72-911b5e44871f
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ldr_repshipunknownworld\ldr_repshipunknownworld\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 4. **GUID:** 228d4613-0560-4910-8392-fa511cac26c0
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\ldr_repshipunknownworld\ldr_repshipunknownworld\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4433,15 +4066,11 @@ ___
 #### Instructions
 1. **GUID:** aff39d10-07f2-4eec-a775-10a1ac758316
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Trandoshans_Rescale.7z
 2. **GUID:** abe219b7-e710-4416-bac4-8b8a47b7cc14
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Trandoshans_Rescale\[K1]_Trandoshans_Rescale\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4463,15 +4092,11 @@ ___
 #### Instructions
 1. **GUID:** c6914107-79d7-4c8f-a4d7-33d47283cb34
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Custom Selkath Animation.rar
 2. **GUID:** a45eb64a-a872-4d99-ae0d-28a1c8bb8c5a
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Custom Selkath Animation\Custom Selkath Animation\Install Custom Selkath Animation.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4486,7 +4111,6 @@ ___
 **Category & Tier:** Added Content & Immersion / 3 - Suggested
 
 **Non-English Functionality:** NO
-
 
 ___
 
@@ -4508,15 +4132,11 @@ ___
 #### Instructions
 1. **GUID:** 239867c6-2eca-4ab3-b9df-8e4a383b1f71
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Sneak Attack 10 Restoration.zip
 2. **GUID:** f225395c-e4d3-4e0e-bd03-79ca183d5696
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Sneak Attack 10 Restoration\Sneak Attack 10 Restoration\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4531,7 +4151,6 @@ ___
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** Supported languages: UNKNOWN
-
 
 ___
 
@@ -4555,15 +4174,11 @@ Even if this mod doesn't make him strong enough to stand against you, it at leas
 #### Instructions
 1. **GUID:** d4959aa4-d367-4c32-a9cd-5b854370a798
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Thematic The One.7z
 2. **GUID:** 09179f9f-5be9-4dce-923a-00e744d41a86
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Thematic The One\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4587,11 +4202,8 @@ ___
 #### Instructions
 1. **GUID:** 95deae47-052a-4dd8-b008-53bb216629c8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\SAWL Patch.rar, <<modDirectory>>\sherruksabers.7z
 2. **GUID:** a5d27a18-ff23-46c8-9035-34e84024f8f3
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\sherruksabers\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 7abe29f0-bbb0-4c1f-b782-e3ba91dfeb8f
@@ -4600,7 +4212,6 @@ ___
    **Source:** <<modDirectory>>\SAWL Patch\SAWL Patch\Override\dan14_sherruk.utc
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -4622,15 +4233,11 @@ ___
 #### Instructions
 1. **GUID:** bcde60bc-6bba-4b0c-8e19-481c82a4dc06
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Improved Cantina Sitters.zip
 2. **GUID:** f138ccb4-a1a6-40ed-8a08-6f1be8cc020a
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Improved Cantina Sitters\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4652,15 +4259,11 @@ ___
 #### Instructions
 1. **GUID:** ed9c87b3-27d0-4471-bf76-57c2a608ebe0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Helena_Shan_Improvement.zip
 2. **GUID:** e38878ff-8b48-49f0-b391-d33fa8400cd7
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Helena_Shan_Improvement\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4684,15 +4287,11 @@ ___
 #### Instructions
 1. **GUID:** 3f93635a-6a72-4bf9-b7ac-ffd0d4b8329a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Bastila's Dark Bodysuit.7z
 2. **GUID:** e33936b7-11f6-458d-b6c6-7975944eb8a1
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Bastila's Dark Bodysuit\Bastila's Dark Bodysuit\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4714,15 +4313,11 @@ ___
 #### Instructions
 1. **GUID:** 035e90ff-02ec-438f-92d4-1e83027cb8b9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Taris_Dueling_Arena_Adjustment*.7z
 2. **GUID:** 01986d60-e42c-432b-915b-0aa1fd1c215b
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Taris_Dueling_Arena_Adjustment_v*\[K1]_Taris_Dueling_Arena_Adjustment_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4751,7 +4346,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 -->
 
-
 ___
 
 ### Kashyyyk Shadowlands Forcefield Rework
@@ -4772,15 +4366,11 @@ ___
 #### Instructions
 1. **GUID:** 82fb04a1-18f7-4812-95f1-89e29d3bd3cc
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield*.7z
 2. **GUID:** 181d2933-f9a2-44a0-8779-0687775e5b23
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4797,7 +4387,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
-
 
 ___
 
@@ -4819,15 +4408,11 @@ ___
 #### Instructions
 1. **GUID:** 9dfc059b-2e44-414e-9683-9b5f2febbfd0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Vulkar_Accel_Bench*.7z
 2. **GUID:** 1b8e33b1-eb55-4e14-8c03-e057435de182
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Vulkar_Accel_Bench_v*\[K1]_Vulkar_Accel_Bench_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4851,20 +4436,14 @@ ___
 #### Instructions
 1. **GUID:** 9962ea76-7eb8-445e-be6a-a79367574962
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_UWTMF_Missing_Lamps_Fix_v*.7z
 2. **GUID:** b733016c-620b-4242-a817-073025bd38b6
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_UWTMF_Missing_Lamps_Fix_v*\[K1]_UWTMF_Missing_Lamps_Fix_v*\Install.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** cf4cdc50-96a3-45d9-8ec7-037b34d34175
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_UWTMF_Missing_Lamps_Fix_v*\[K1]_UWTMF_Missing_Lamps_Fix_v*\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4881,7 +4460,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
-
 
 ___
 
@@ -4903,15 +4481,11 @@ ___
 #### Instructions
 1. **GUID:** a0b0acb4-a407-43b3-a6c0-c9ca64cbfd7c
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Sith Soldier Texture Restoration*.zip
 2. **GUID:** a3e14a25-59c9-43a9-a32b-0b8cb9cc79d6
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Sith Soldier Texture Restoration*\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4933,15 +4507,11 @@ ___
 #### Instructions
 1. **GUID:** bf336567-db9e-4a59-b9db-fbfba208c183
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*.7z
 2. **GUID:** cad1a6b4-0800-4dbc-9ece-d9e206b920b9
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4965,15 +4535,11 @@ ___
 #### Instructions
 1. **GUID:** 4dc64b4a-2962-4b39-b1cb-c7d4ae6dff8f
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Diversified_Jedi_Captives_on_the_SF_v*.7z
 2. **GUID:** 179c6a0b-50c3-4ee9-8625-b940bcd7fbbb
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -4995,15 +4561,11 @@ ___
 #### Instructions
 1. **GUID:** 49aa9595-0bb9-4614-81d2-7fabdde4823a
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Juhani_Romance_Enhancement.zip
 2. **GUID:** 569c3e25-4be7-4bfa-96f5-bd18b1953c3d
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Juhani_Romance_Enhancement\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5027,21 +4589,17 @@ ___
 #### Instructions
 1. **GUID:** f233df7d-79ce-493d-81a1-a3a0a6dabfc8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Dodonna's_Transmission_v*.rar
 2. **GUID:** 7a32a89f-9b2e-498c-b647-204c6fe517e4
    **Action:** Choose
-   **Overwrite:** true
    **Source:** f54f00ba-805b-4639-8c89-cb4c56eb9cca, 6da14f0e-28f7-44cc-b991-f0ef2afa10dd
 
 #### Options
 ##### Option 1
 - **GUID:** f54f00ba-805b-4639-8c89-cb4c56eb9cca
 - **Name:** Standard
-- **Description:** 
+- **Description:**
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** 6da14f0e-28f7-44cc-b991-f0ef2afa10dd
   - **Instruction:**
     - **GUID:** d07dbb2d-271f-4010-80c2-839f364fe719
@@ -5052,10 +4610,8 @@ ___
 ##### Option 2
 - **GUID:** 6da14f0e-28f7-44cc-b991-f0ef2afa10dd
 - **Name:** Revisited
-- **Description:** 
+- **Description:**
 - **Is Selected:** true
-- **Install State:** 0
-- **Is Downloaded:** false
 - **Restrictions:** f54f00ba-805b-4639-8c89-cb4c56eb9cca
   - **Instruction:**
     - **GUID:** cdecb20e-8ec5-4c13-be01-595ee5a1410d
@@ -5064,7 +4620,6 @@ ___
     - **Overwrite:** true
     - **Source:** <<modDirectory>>\[K1]_Dodonna's_Transmission_v*\[K1]_Dodonna's_Transmission_v*\Transmission.exe
 -->
-
 
 ___
 
@@ -5086,15 +4641,11 @@ ___
 #### Instructions
 1. **GUID:** 81849b33-b553-4793-8377-d67635b528c8
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*.7z
 2. **GUID:** 83acef31-a3f0-4011-a259-3ba9a189fbb2
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5116,15 +4667,11 @@ ___
 #### Instructions
 1. **GUID:** cd5f74f2-20a8-4fbf-8450-10b3de52bd42
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle.7z
 2. **GUID:** 7e91c00b-8d7c-486d-9f5e-aa7264e712f7
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5146,15 +4693,11 @@ ___
 #### Instructions
 1. **GUID:** 4a7b4760-9c3f-4c82-9234-abf31d77d697
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Rakatan_Holograms_v*.7z
 2. **GUID:** b2302b9d-be8d-49cb-8555-32cf73b7205c
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Movie-Style_Rakatan_Holograms_v*\[K1]_Movie-Style_Rakatan_Holograms_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5176,15 +4719,11 @@ ___
 #### Instructions
 1. **GUID:** abe2401d-f475-4f11-8eca-09f4268d3ef3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*.7z
 2. **GUID:** 9920a866-6612-475d-8e86-cc595397ada9
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*\INSTALL.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5206,15 +4745,11 @@ ___
 #### Instructions
 1. **GUID:** 9e825c31-b874-4419-b83e-55528280bb55
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Legends_-_Elder_Droids_Unique_VO_v*.7z
 2. **GUID:** 86ea2093-4562-4715-b60d-92a47f55ccf0
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5238,15 +4773,11 @@ ___
 #### Instructions
 1. **GUID:** 6d5f640d-7d49-4097-8c5b-639f9378b969
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ajunta*s Swords.7z
 2. **GUID:** 6afa5a2e-3d9d-4cef-940f-0fc948dfa8e7
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Ajunta*s Swords\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5270,20 +4801,14 @@ ___
 #### Instructions
 1. **GUID:** 01268fb1-e378-4445-920a-64e527426821
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Legends_Ajunta_Pall's_Blade_v*.7z
 2. **GUID:** 0ec748eb-4152-4a50-a0cd-64c16f26af9f
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Legends_Ajunta_Pall's_Blade_v*\[K1]_Legends_Ajunta_Pall's_Blade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 0a88af80-4bd8-40cb-bce6-b33cee8b90c5
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\[K1]_Legends_Ajunta_Pall's_Blade_v*\[K1]_Legends_Ajunta_Pall's_Blade_v*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5307,20 +4832,14 @@ ___
 #### Instructions
 1. **GUID:** 0e0ce3da-f62c-40cb-9f44-44378b17ffa6
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Mandalorian Armor for K1 v*.zip
 2. **GUID:** fc21b96f-bfa7-4190-9d2b-7e560924b08b
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Mandalorian Armor for K1 v*\Mandalorian_Armor_K1.exe
    **Destination:** <<kotorDirectory>>
 3. **GUID:** 9befda9d-f29e-4234-b69f-c2bbbe9d4bd4
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Mandalorian Armor for K1 v*\Mandalorian_Armor_K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5340,7 +4859,6 @@ If you would prefer a pure damage increase to resolve the discrepancy in repeati
 
 **Installation Instructions:** Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
 
-
 ___
 
 ### JC's Blaster Adjustment
@@ -5356,7 +4874,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
-
 
 ___
 
@@ -5378,15 +4895,11 @@ ___
 #### Instructions
 1. **GUID:** 6dc77c8c-bb72-4bbd-ac74-3cc2e06b0199
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Gaffi Stick Improvement.zip
 2. **GUID:** 137bc889-8ceb-4998-9613-5028fae45c67
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Gaffi Stick Improvement\Gaffi Stick Improvement\Gaffi Stick Improvement.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5408,7 +4921,6 @@ ___
 #### Instructions
 1. **GUID:** f27e8e7a-13b7-4a7e-bb1c-34189fdf4ccd
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\QSRPK1.7z
 2. **GUID:** 21d2a4e4-939e-4561-9bce-b7552c972a95
    **Action:** Move
@@ -5416,7 +4928,6 @@ ___
    **Source:** <<modDirectory>>\QSRPK1\QSRPK1\For Override\dm_qrtstaff_001.tga, <<modDirectory>>\QSRPK1\QSRPK1\For Override\dm_qrtstaff_001.txi, <<modDirectory>>\QSRPK1\QSRPK1\For Override\dm_qrtstaff_002.tga, <<modDirectory>>\QSRPK1\QSRPK1\For Override\dm_qrtstaff_002.txi, <<modDirectory>>\QSRPK1\QSRPK1\For Override\iw_qtrstaff_001.tga, <<modDirectory>>\QSRPK1\QSRPK1\For Override\iw_qtrstaff_002.tga, <<modDirectory>>\QSRPK1\QSRPK1\For Override\w_Qtrstaff_001.mdl, <<modDirectory>>\QSRPK1\QSRPK1\For Override\w_Qtrstaff_001.mdx, <<modDirectory>>\QSRPK1\QSRPK1\For Override\w_Qtrstaff_002.mdl, <<modDirectory>>\QSRPK1\QSRPK1\For Override\w_Qtrstaff_002.mdx
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -5438,15 +4949,11 @@ ___
 #### Instructions
 1. **GUID:** 628954fb-92fa-41ff-873b-7ed61faf09b2
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\DantTrainingLS*.zip
 2. **GUID:** ca7cb6b6-7dc7-4592-a1a0-447f5eefd273
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\DantTrainingLS*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5468,15 +4975,11 @@ ___
 #### Instructions
 1. **GUID:** 1e5b396a-f081-4a9b-a8c0-0055fee96cd9
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Logical Datapads.7z
 2. **GUID:** ea69bc0c-1999-43b9-9177-ae1657fbbf11
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Logical Datapads\Logical Datapads\Install.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5498,15 +5001,11 @@ ___
 #### Instructions
 1. **GUID:** f8ac9a32-4e93-4497-9487-a3d647cc6c51
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\visual_effects_k1.7z
 2. **GUID:** 14133b9f-29f4-4438-ad30-5ff7ed7e01ca
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\visual_effects_k1\Real Visual Effects K1.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5528,15 +5027,11 @@ ___
 #### Instructions
 1. **GUID:** 3a12ff93-1b78-4788-8edf-49ac02ac3893
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\CK-Minor music tweaks.zip
 2. **GUID:** c883af37-5cce-4570-8562-2ac2378db175
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Minor music tweaks\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5558,15 +5053,11 @@ ___
 #### Instructions
 1. **GUID:** 78cfff04-182b-48fc-979a-25e2ebaf338e
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\NPC_Alignment_Fix*.rar
 2. **GUID:** 3127cdcd-a51b-4b55-8340-cf87eeb198c3
-   **Action:** Patcher
-   **Overwrite:** true
    **Source:** <<modDirectory>>\NPC_Alignment_Fix*\TSLPatcher.exe
    **Destination:** <<kotorDirectory>>
 -->
-
 
 ___
 
@@ -5581,7 +5072,6 @@ ___
 **Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
 
 **Non-English Functionality:** Supported languages: YES, though some text may be blank or in English
-
 
 ___
 
@@ -5605,11 +5095,9 @@ ___
 #### Instructions
 1. **GUID:** 700dc7ff-2a07-498a-8008-5fa65cfcf816
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Alignment_Affects_Force_Powers_K1_v1c1c1.zip
 2. **GUID:** d60b9a91-a226-4024-90b1-4ffde2e376be
    **Action:** Choose
-   **Overwrite:** true
    **Source:** 468931e7-95ae-4062-bfbb-f03ecf187ed7, 305dc245-be46-40cb-b257-b83984c13836
 
 #### Options
@@ -5618,8 +5106,6 @@ ___
 - **Name:** Alignment Affects Force Powers
 - **Description:** Installs the mod "Alignment Affects Force Powers." You only need to pick one install option.
 - **Is Selected:** false
-- **Install State:** 0
-- **Is Downloaded:** false
   - **Instruction:**
     - **GUID:** 2254006d-e13d-4ffe-85b9-23391adb79fe
     - **Action:** Patcher
@@ -5641,7 +5127,6 @@ ___
     - **Source:** <<modDirectory>>\Alignment_Affects_Force_Powers_K1_v1c1c1/Patch - K2 Force Powers for K1\nwnnsscomp.exe
 -->
 
-
 ___
 
 ### Galaxy Map Fix Pack
@@ -5657,7 +5142,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen.html)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; otherwise, install the base mod now.
-
 
 ___
 
@@ -5687,7 +5171,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 -->
 
-
 ___
 
 ### Ultimate Character Overhaul Patches
@@ -5710,7 +5193,6 @@ ___
 #### Instructions
 1. **GUID:** cd95384b-7923-43ca-8eb4-e68ddff030c3
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Minor Fixes - Compatibility Patch*.rar
 2. **GUID:** 4cddc68b-8ec0-4f38-839f-5c8ad0f251e0
    **Action:** Move
@@ -5719,7 +5201,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 3. **GUID:** c5569fe2-4009-4c16-82b5-0eefda627a2b
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\KOTOR 1 Community Patch - Compatibility Patch*.rar
 4. **GUID:** 1d3e2033-9336-4721-b941-fa1204896f2f
    **Action:** Move
@@ -5728,7 +5209,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 5. **GUID:** 1357ccb4-baa3-48e3-beac-4cef4e786a13
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Republic Soldier's New Shade - Compatibility Patch*.rar
 6. **GUID:** fd7b079b-2dbc-4d96-bb0e-cf5a2ca82780
    **Action:** Move
@@ -5737,7 +5217,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 7. **GUID:** 5ffc39ef-e22b-4c6d-ba7d-3440b5cdbd92
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Miscellaneous Compatibility Patches*.rar
 8. **GUID:** 2a51f7ce-79b1-4c2b-8a9f-3912481f76da
    **Action:** Move
@@ -5756,7 +5235,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 11. **GUID:** 05451e1c-9c8a-4975-bda2-8fb78c5480b0
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Better Twi'lek Male Heads - Compatibility Patch*.rar
 12. **GUID:** addc7966-21f5-4150-983d-2606ebd54879
    **Action:** Move
@@ -5765,7 +5243,6 @@ ___
    **Destination:** <<kotorDirectory>>\Override
 13. **GUID:** 49755313-3de7-410c-bff2-8dc42f0a6eae
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\JC's Mandalorian Armor - Compatibility Patch*.rar
 14. **GUID:** 053e5b76-0354-4ad2-beef-73552d7a4271
    **Action:** Move
@@ -5773,7 +5250,6 @@ ___
    **Source:** <<modDirectory>>\JC's Mandalorian Armor - Compatibility Patch*\JC's Mandalorian Armor - Patch\*\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -5793,7 +5269,6 @@ ___
 
 If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k1/redrob_deletions.md).
 
-
 ___
 
 ### 4GB Patcher
@@ -5812,7 +5287,6 @@ ___
 
 Additionally, **DO NOT** apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!
 
-
 ___
 
 ### Turret Cockpit Widescreen
@@ -5826,7 +5300,6 @@ ___
 **Category & Tier:** Bugfix / 3 - Suggested
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -5843,7 +5316,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
-
 
 ___
 
@@ -5865,7 +5337,6 @@ ___
 #### Instructions
 1. **GUID:** 4f7cce07-0277-4c6c-8edf-6b47a58d41a4
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\hd_ui_menupack_PV.7z
 2. **GUID:** 30a0a78d-cf51-42a7-bc13-3993e09d3e22
    **Action:** Move
@@ -5873,7 +5344,6 @@ ___
    **Source:** <<modDirectory>>\hd_ui_menupack_PV\hd_ui_menupack_PV\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -5888,7 +5358,6 @@ ___
 **Category & Tier:** Graphics Improvement / 4 - Optional
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -5906,7 +5375,6 @@ ___
 
 **Installation Instructions:** I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
 
-
 ___
 
 ### HD Robe Icons for JC's Cloaked Jedi Robes
@@ -5922,7 +5390,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Instructions:** In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
-
 
 ___
 
@@ -5944,7 +5411,6 @@ ___
 #### Instructions
 1. **GUID:** 76563a72-ff39-40ef-b6a8-591dc3eee756
    **Action:** Extract
-   **Overwrite:** true
    **Source:** <<modDirectory>>\Upscaled Computer.rar
 2. **GUID:** 78ddfef3-dd22-4174-9474-f105fc3fe808
    **Action:** Move
@@ -5952,7 +5418,6 @@ ___
    **Source:** <<modDirectory>>\Upscaled Computer\*
    **Destination:** <<kotorDirectory>>\Override
 -->
-
 
 ___
 
@@ -5968,7 +5433,6 @@ ___
 
 **Non-English Functionality:** YES
 
-
 ___
 
 ### Main Menu Widescreen Fix
@@ -5982,7 +5446,6 @@ ___
 **Category & Tier:** Bugfix / 2 - Recommended
 
 **Non-English Functionality:** YES
-
 
 ___
 
@@ -6003,7 +5466,6 @@ Unfortunately, there's a price for the quality of Pops's work: the files are ext
 **Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. I *STRONGLY* recommend choosing the 30fps option for that resolution—there have been crashes directly linked to the 60fps versions. When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Bear in mind that the files from this mod go in your *movies* folder, not override.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
 
 ___
 

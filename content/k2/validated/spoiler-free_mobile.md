@@ -21,7 +21,6 @@ You now need to download [this file](https://deadlystream.com/files/file/1321-ko
 
 From this point forward all mods are installed as if the mods_*x* folder is the **main game directory**. For any TSLPatcher executable which asks you to select the main game folder/folder with the executable in it, you will select the mods_*x* folder. Similarly, any mods directing you to place their files within the game's override folder will be placed within the override folder within mods_*x*.
 
-
 ___
 
 ### TSLRCM Tweak Pack
@@ -40,7 +39,6 @@ ___
 
 **Installation Instructions:** The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Dialogue Tweak, Mandalore Conversation, and Extra 1 - SLM.
 
-
 ___
 
 ### SSR
@@ -58,7 +56,6 @@ ___
 **Installation Method:** Loose-File
 
 **Installation Instructions:** Move just 153sion.dlg to the override.
-
 
 ___
 
@@ -80,7 +77,6 @@ Some information has been censored to prevent spoilers.
 
 **Installation Method:** TSLPatcher
 
-
 ___
 
 ### Prestige Class Saving Throw Fixes
@@ -98,7 +94,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** I advise users to only install the Jedi Master/Sith Lord fixes.
-
 
 ___
 
@@ -118,7 +113,6 @@ ___
 
 **Installation Instructions:** Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!
 
-
 ___
 
 ### Robes with Shadows for TSL
@@ -136,7 +130,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** Extract the mod. Ignore the included subfolders, and move just the files in the base folder to your override. Overwrite when prompted.
-
 
 ___
 
@@ -156,7 +149,6 @@ ___
 
 **Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
-
 ___
 
 ### Remote Tells Influence
@@ -172,7 +164,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod & Patch
-
 
 ___
 
@@ -190,7 +181,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-
 ___
 
 ### PFHC06 Fix
@@ -206,7 +196,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -224,7 +213,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-
 ___
 
 ### Honest Merchant
@@ -240,7 +228,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -260,7 +247,6 @@ ___
 
 **Installation Instructions:** If you are using the K2 Community Patch, install the contents of every folder but Straight Fixes (that was already in the K2CP).
 
-
 ___
 
 ### Maintenance Officer Realistic Reskin
@@ -276,7 +262,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -294,7 +279,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Fire And Ice HD
@@ -310,7 +294,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -328,7 +311,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### TSL Head Model Fixes
@@ -345,7 +327,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### New Holocron Textures
@@ -361,7 +342,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -381,7 +361,6 @@ ___
 
 **Installation Instructions:** Go into the NPC Replacement folder and move all the loose files to the override directory. Ignore the optional folder.
 
-
 ___
 
 ### Better Twi'lek Heads
@@ -399,7 +378,6 @@ ___
 **Installation Method:** HoloPatcher Mod
 
 **Installation Instructions:** Choose whether to use the slim or original necks; your preference.
-
 
 ___
 
@@ -419,7 +397,6 @@ ___
 
 **Installation Instructions:** Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
 
-
 ___
 
 ### Dahnis Unique Look
@@ -438,7 +415,6 @@ ___
 
 **Installation Instructions:** I recommend against the use of the upscaled textures for this mod on mobile.
 
-
 ___
 
 ### Darth Malak's Armor
@@ -454,7 +430,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -474,7 +449,6 @@ ___
 
 **Installation Instructions:** Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite.
 
-
 ___
 
 ### Mandalorian Worn-Out Armor
@@ -490,7 +464,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -510,7 +483,6 @@ ___
 
 **Installation Instructions:** Recommend the 'zombie-like' appearance, as it matches vanilla DS transitions.
 
-
 ___
 
 ### Atton Rand with Scruff
@@ -527,7 +499,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Rounder G0-T0
@@ -543,7 +514,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -563,7 +533,6 @@ ___
 
 **Installation Instructions:** Choose which version of the head model you would like to use from the screenshots provided. Place the files from the corresponding folder into your override.
 
-
 ___
 
 ### Darth Sion Remake
@@ -582,7 +551,6 @@ ___
 
 **Installation Instructions:** Install the files within the Override folder.
 
-
 ___
 
 ### Lore-Friendly Mandalore Mask
@@ -598,7 +566,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -616,7 +583,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Mira Unpoofed
@@ -633,7 +599,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Canonical Jedi Exile
@@ -649,7 +614,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -669,7 +633,6 @@ ___
 
 **Installation Instructions:** Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections.
 
-
 ___
 
 ### Enhanced Lightsaber Hilt Variety
@@ -685,7 +648,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -705,7 +667,6 @@ ___
 
 **Installation Instructions:** Use the files in the "Alternate Textures" folder.
 
-
 ___
 
 ### Replacement Peragus II Artwork
@@ -724,7 +685,6 @@ ___
 
 **Installation Instructions:** Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 
-
 ___
 
 ### Improved Peragus Asteroids
@@ -740,7 +700,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -758,7 +717,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### JC's Citadel Station Backdrop
@@ -774,7 +732,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -794,7 +751,6 @@ ___
 
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 
-
 ___
 
 ### Spark Effect - Ebon Hawk
@@ -810,7 +766,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -830,7 +785,6 @@ ___
 
 **Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
 
-
 ___
 
 ### Aleema Keto's Robe Description Correction
@@ -846,7 +800,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -864,7 +817,6 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-
 ___
 
 ### Onderon News Make Sense
@@ -880,7 +832,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -898,7 +849,6 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-
 ___
 
 ### KEBCD
@@ -914,7 +864,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -932,7 +881,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Kill the Ithorian
@@ -949,7 +897,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### RFL
@@ -965,7 +912,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
 
 ___
 
@@ -985,7 +931,6 @@ ___
 
 **Installation Instructions:** MAKE SURE to install the mobile TSLRCM version, the default version will crash your game.
 
-
 ___
 
 ### EKA
@@ -1003,7 +948,6 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files—this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
-
 
 ___
 
@@ -1023,7 +967,6 @@ ___
 
 **Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
-
 ___
 
 ### Balance Tweak Pack
@@ -1041,7 +984,6 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
-
 
 ___
 
@@ -1061,7 +1003,6 @@ ___
 
 **Installation Instructions:** Recommend running all three options, the main install first and then the two optionals.
 
-
 ___
 
 ### No Health Regeneration
@@ -1077,7 +1018,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1097,7 +1037,6 @@ ___
 
 **Installation Instructions:** The "No Force Rating" option removes inherent DS alignment bonus to saves in some game areas; these DS bonuses also give equivalent maluses to LS characters in those modules. The choice of whether to use it or not is entirely up to you; I personally do recommend it simply because the module-based alignment system in the game is not very well-balanced or coherent at present, and we have yet to make a mod which rationalizes it.
 
-
 ___
 
 ### TJM
@@ -1113,7 +1052,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1131,7 +1069,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-
 ___
 
 ### Bao-Dur Can Wear Heavy Armor
@@ -1147,7 +1084,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1167,7 +1103,6 @@ ___
 
 **Installation Instructions:** Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
 
-
 ___
 
 ### Better JJT Thugs
@@ -1183,7 +1118,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher
-
 
 ___
 
@@ -1203,7 +1137,6 @@ ___
 
 **Installation Instructions:** Install part 1 and then part 2, then, if using Better JJT Thugs, also install the compatch.
 
-
 ___
 
 ### Mira's Vanilla Escape for TSLRCM
@@ -1221,7 +1154,6 @@ ___
 **Installation Method:** TSLPatcher
 
 **Installation Instructions:** I recommend the "With Additional Scene" option for maximum restored content and internal consistency for the sequence.
-
 
 ___
 
@@ -1241,7 +1173,6 @@ ___
 
 **Installation Instructions:** There are two versions of the install, and the first one is incompatible with the mod builds and will be marked "DO NOT USE." Switch to the second install when running the patcher.
 
-
 ___
 
 ### KFIC
@@ -1257,7 +1188,6 @@ ___
 **Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1275,7 +1205,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### DSME
@@ -1291,7 +1220,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
-
 
 ___
 
@@ -1311,7 +1239,6 @@ ___
 
 **Installation Instructions:** Run the installer once for the first part of the install, then again to apply the second half.
 
-
 ___
 
 ### True SA
@@ -1329,7 +1256,6 @@ ___
 **Installation Method:** Multi-Run HoloPatcher
 
 **Installation Instructions:** I recommend the reduced difficulty option if using SAwL, but without SAwL you should be fine to use the full version of this mod, though it will give a similar level of challenge as using SAwL alone. Remember to also apply the compatch for SAwL after running the main install option of your choice, if using SAwL.
-
 
 ___
 
@@ -1349,7 +1275,6 @@ ___
 
 **Installation Instructions:** Strongly recommend using the Snigaroo Cut for balance and immersion's sake.
 
-
 ___
 
 ### Peragus Medical Bay Enhancement
@@ -1368,7 +1293,6 @@ ___
 
 **Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
-
 ___
 
 ### High Quality Blasters
@@ -1384,7 +1308,6 @@ ___
 **Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1404,7 +1327,6 @@ ___
 
 **Installation Instructions:** Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 
-
 ___
 
 ### Quarterstaff Replacement Pack
@@ -1421,7 +1343,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-
 ___
 
 ### Rescaled Trandoshans
@@ -1437,7 +1358,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1457,7 +1377,6 @@ ___
 
 **Installation Instructions:** Run the TSLPatcher for the Head Fix, then use the screenshots included with the mod to determine whether you prefer option 1 or 2 for the body modification (I recommend 2). Once you know your preference, enter the Body Options folder and and run the patcher for the version which matches your preference. Finally, once again use the screenshots to determine whether you wish to utilize the alternate texture also located in the Body Options folder (recommended).
 
-
 ___
 
 ### VRHK
@@ -1475,7 +1394,6 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Installation Instructions:** Select between one of the two TSLRCM-compatible install options.
-
 
 ___
 
@@ -1495,7 +1413,6 @@ ___
 
 **Installation Instructions:** Run the patcher using the Default install option. Expanded Ending is not compatible with mobile.
 
-
 ___
 
 ### Handmaiden - Fit and Athletic
@@ -1513,7 +1430,6 @@ ___
 **Installation Method:** TSLPatcher Mod & Loose-File Patch
 
 **Installation Instructions:** Ignore all the loose files in the folder; use the TSLPatcher to install the mod. Then copy the two files from the patch into override.
-
 
 ___
 
@@ -1533,7 +1449,6 @@ ___
 
 **Installation Instructions:** Install the TSLRCM option.
 
-
 ___
 
 ### Vibrocutter Changes
@@ -1551,7 +1466,6 @@ ___
 **Installation Method:** HoloPatcher Mod
 
 **Installation Instructions:** Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the enemy with a worse weapon option.
-
 
 ___
 
@@ -1571,7 +1485,6 @@ ___
 
 **Installation Instructions:** Install the Vanilla/TSLRCM option.
 
-
 ___
 
 ### Fixed Hologram Models & Admiralty Redux
@@ -1587,7 +1500,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1605,7 +1517,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Companion Starting Armors
@@ -1621,7 +1532,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1639,7 +1549,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-
 ___
 
 ### Repair Affects Stun Droid
@@ -1655,7 +1564,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1675,7 +1583,6 @@ ___
 
 **Installation Instructions:** Recommend installing all three modules.
 
-
 ___
 
 ### Alignment Affects Force Powers
@@ -1694,7 +1601,6 @@ ___
 
 **Installation Instructions:** I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
 
-
 ___
 
 ### Bao-Dur/Darth Maul
@@ -1711,7 +1617,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-
 ___
 
 ### Realistic Visual Effects
@@ -1727,7 +1632,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
 
 ___
 
@@ -1749,7 +1653,6 @@ ___
 
 **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 
-
 ___
 
 ### Thematic Obscured Mausoleum Burial
@@ -1767,7 +1670,6 @@ Do note—this mod is quite difficult. Winning the fights it amends *is not mand
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher
-
 
 ___
 
