@@ -12,10 +12,9 @@ Once you have your freshly-installed copy of the game, please attempt to set you
 
 ### KOTOR 2 on Steam
 
-If you are playing KOTOR 2 on Steam, *please* actively check that you're not subscribed to any content on the Workshop, even if you're super positive you're not--unless you bought KOTOR 2 like yesterday, it's critical to double-check. Multiple times a month we have people come in asking for tech support who swear they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. It's not fun to find that out after you start your game. 
+If you are playing KOTOR 2 on Steam, *please* check that you're not subscribed to any content on the Workshop--yes, even if you're double-triple-super positive you're not, or you've never even played the game before. At least 2-3 times a month we have people come in asking for tech support swearing that they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. Unless you bought KOTOR 2 like yesterday, it's critical to double-check this--it's not fun to find out that you were subbed to something after you start your game.
 
 Checking is very simple: just go to your Steam library, right-click KOTOR 2 and select properties, then go to the Workshop tab and confirm nothing appears in the list. Doing this not only helps you avoid major errors during the install process, it also helps us to help you in the event that something goes wrong with your install, because we'll know immediately that the Workshop isn't the problem.
-
 
 ### TSLPatcher Installation Requirements
 
@@ -59,7 +58,7 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Your entire install could be unstable if the information in this step is not taken into account**. I hope that's gotten everyone's attention, because it really is that important. This section will be a bit long by necessity, but it is critical.
 
-KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be the default on some more obscure storefronts but we haven't identified any others--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
+KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be on some more obscure storefronts like the Amazon Games version of KOTOR 2, but we haven't been able to find anyone who owns it there to confirm--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
 
 As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are:
 
@@ -1567,7 +1566,7 @@ ___
 
 ### Short-Term Memory Fix
 
-**Name:** [Vaklu Short-Term Memory Fix](https://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
+**Name:** [Vaklu Short-Term Memory Fix](hhttps://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
 
 **Author:** SuperChameau
 
@@ -1667,7 +1666,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** There are a few lightsabers in the game which, based on their location, should be red but are instead purple. This mod alters their crystal color, as well as fixing a bug which made the enemies vulnerable to Force power types which they objectively should not be. Some information has been censored to prevent spoilers.
+**Description:** Oh boy this is *really* hard to explain without spoilers. Okay, there are lategame enemies that are not organic, but are vulnerable to crowd-control that logically only organics would be. These same enemies also have an appearance which isn't very logical given where they're located. This mod fixes both oversights.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 

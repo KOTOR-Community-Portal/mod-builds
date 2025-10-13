@@ -550,7 +550,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
+**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.
 
 ___
 
@@ -658,7 +658,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
+**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
 
 ___
 
@@ -938,7 +938,7 @@ ___
 
 **Description:** Some of the visions which the player is meant to have of the past and the Star Maps have some issues, both of location and of the player's strange decision to wear armor to bed. This mod fixes that.
 
-**Category & Tier:** Appearance Change / 3 - Suggested
+**Category & Tier:** Appearance Change / 3 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -1181,7 +1181,7 @@ ___
 
 ___
 
-### Taris Rapid Transit
+## Taris Rapid Transit
 
 **Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
 
@@ -1199,7 +1199,7 @@ ___
 
 ___
 
-### Manaan Rapid Transit
+## Manaan Rapid Transit
 
 **Name:** [Manaan Fast Travel System](https://deadlystream.com/files/file/2739-manaan-fast-travel-system/)
 
