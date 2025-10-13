@@ -2136,7 +2136,7 @@ ___
 
 **Description:** Some of the visions which the player is meant to have of the past and the Star Maps have some issues, both of location and of the player's strange decision to wear armor to bed. This mod fixes that.
 
-**Category & Tier:** Appearance Change / 3 - Suggested
+**Category & Tier:** Appearance Change / 3 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -2380,7 +2380,7 @@ ___
 
 ___
 
-### Taris Rapid Transit
+## Taris Rapid Transit
 
 **Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
 
@@ -2398,7 +2398,7 @@ ___
 
 ___
 
-### Manaan Rapid Transit
+## Manaan Rapid Transit
 
 **Name:** [Manaan Fast Travel System](https://deadlystream.com/files/file/2739-manaan-fast-travel-system/)
 
