@@ -2646,8 +2646,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Be sure to download the TSLPatcher version.
-
 **Installation Instructions:** Use the regular install—other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
 
 ___
