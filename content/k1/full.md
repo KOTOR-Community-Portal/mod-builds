@@ -2410,9 +2410,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Full or Light version is your choice.
+**Installation Method:** HoloPatcher Mod
 
 ___
 
