@@ -94,7 +94,7 @@ ___
 
 ### Water Restoration
 
-**Name:** [Water Restoration](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
+**Name:** [Water Restoration](https://deadlystream.com/files/file/2758-water-restoration/)
 
 **Author:** J
 
@@ -124,7 +124,7 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download just forcecage_updated_1.1.0.zip
+**Download Instructions:** If you want both the fix and the new force cage modelk, download just forcecage_updated_1.1.0.zip
 
 ## Mod List
 
@@ -248,7 +248,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 1.25:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 1.25:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game.
+**Description:** In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 0.75:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 0.75:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game.
 
 **Category & Tier:** Mechanics Change / 1 - Essential
 

@@ -1211,9 +1211,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Full or Light version is your choice.
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -1448,8 +1446,6 @@ ___
 **Non-English Functionality:** YES, however some text will be in English or blank.
 
 **Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Be sure to download the TSLPatcher version.
 
 **Installation Instructions:** Use the regular install—other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
 
