@@ -16,17 +16,17 @@
 **Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as it makes your character sound less like a giddy little schoolchild following every little dialogue, but if you prefer only bugfixes it is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable would normally be)—in this very specific case, NOT the override.
 
 <!--<<ModSync>>
-Guid = "4356c3e2-d2d3-4088-8fab-0395c408db0f"
+Guid = "2481e105-b901-4c54-bec3-cd067b6b290e"
 Instructions = [
      = {
-        Guid = "15973a88-4992-4095-ad71-2b15a6e0e8a7"
+        Guid = "81bd70c6-f460-4516-979f-da75d2f870de"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KotOR_Dialogue_Fixes*.7z",
         ]
     }
      = {
-        Guid = "c371fa02-2833-4a1d-b55d-14d523c6d5d4"
+        Guid = "075b53a3-026b-4ed1-955a-7f6f2abdc9a9"
         Action = "Choose"
         Source = [
             "cf2a12ec-3932-42f8-996d-b1b1bdfdbb48",
@@ -44,7 +44,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "08a8b06f-1bc9-4952-9095-052f65844f40"
+                Guid = "f219a035-67b2-4071-9596-d420b93965e2"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\KotOR_Dialogue_Fixes*\\Corrections only\\dialog.tlk",
@@ -63,7 +63,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "1d277ff2-8e9b-43bb-acdc-6f5d76822d58"
+                Guid = "12ee6cef-e593-4585-9fb3-c478a45694e7"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\KotOR_Dialogue_Fixes*\\PC Response Moderation version\\dialog.tlk",
@@ -79,7 +79,7 @@ ___
 
 ### Character Startup Changes
 
-**Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg) and [**Patch**](https://mega.nz/file/MFIByAKY#8MaLMEUvI-xMJ20buuugR8DTNHa6wab2RK3tk5kBMnk)
+**Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg)
 
 **Author:** jonathan7, patch by A Future Pilot
 
@@ -93,10 +93,10 @@ ___
 **Usage Warning:** It's possible, if using auto level-up, to miss the feats to equip weapons and basic light armor while using this mod, unless you use the patch. Make sure to install it!
 
 <!--<<ModSync>>
-Guid = "55629158-0f89-4b40-a7c5-430edfea71c1"
+Guid = "638f2136-6eaa-433c-833c-472459640761"
 Instructions = [
      = {
-        Guid = "2a1367dd-709a-43f3-b976-56024449cbc5"
+        Guid = "b0a45280-fb12-4575-b622-724ee421679e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Character Start Up Changes.zip",
@@ -104,7 +104,7 @@ Instructions = [
         ]
     }
      = {
-        Guid = "05ed8dad-d7df-4cd3-abae-39ad34932f3f"
+        Guid = "21cc1393-0fef-4f6b-8f48-aaa9978c5592"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Character Start Up Changes\\TSLPatcher.exe",
@@ -112,7 +112,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "4e208405-5696-4021-9531-cc26acfbe407"
+        Guid = "09656de0-658f-411a-8156-a3565e4a2d41"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Character_Startup_Changes_Patch\\Override\\feat.2da",
@@ -158,17 +158,17 @@ ___
 **Installation Instructions:** Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
 
 <!--<<ModSync>>
-Guid = "26d21adb-258c-4fec-8315-de42e21d248f"
+Guid = "129ac119-ccba-477f-94ff-c84d281ff71b"
 Instructions = [
      = {
-        Guid = "6b4227cc-1c12-4bcf-9ce5-c0a965500771"
+        Guid = "52e326a7-3691-4b87-8fdc-d571ab9888c1"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Minor Fixes for K1*.zip",
         ]
     }
      = {
-        Guid = "0084a274-0e89-44f3-af0f-fec865afca77"
+        Guid = "76dbe4c3-9eee-4da0-9ddd-fe2a90f2b737"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\JC's Minor Fixes for K1*\\Straight Fixes\\*",
@@ -178,7 +178,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>\\Override"
     }
      = {
-        Guid = "7c10cf16-70f6-4e31-9480-ae6bce158a28"
+        Guid = "9987115b-44dc-4255-9e1f-47ba33a8701e"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_enter4.dlg",
@@ -215,10 +215,10 @@ ___
 **Installation Instructions:** For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
 
 <!--<<ModSync>>
-Guid = "9eb385f5-b26b-4bde-bf54-607a68beaeb5"
+Guid = "04ada842-7b9e-41b4-9e90-f02a96636835"
 Instructions = [
      = {
-        Guid = "a10a648d-4f64-4b51-a0de-37cd1ab22391"
+        Guid = "cf629065-c968-48f6-8331-574b73753e66"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Ajunta Pall Unique Appearance.zip",
@@ -226,7 +226,7 @@ Instructions = [
         ]
     }
      = {
-        Guid = "20be7b9f-9fe1-4f98-b9ea-1e82680ca11f"
+        Guid = "73586452-f4f1-46d6-81fb-468702f92985"
         Action = "Choose"
         Source = [
             "0c1f007b-a4b2-4a00-b37f-86bd5e0c6337",
@@ -236,7 +236,7 @@ Instructions = [
         ]
     }
      = {
-        Guid = "ebb50934-6edb-4908-9198-267017bbb7fe"
+        Guid = "3a07997e-3f92-4f72-a62c-d2addacfeda6"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Ajunta Pall Unique Appearance\\TSLPatcher.exe",
@@ -254,7 +254,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "33e67efd-0077-47e3-841a-bf273152fe9a"
+                Guid = "0438c40b-1b3b-4a18-987f-831a8680ea9f"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Transparent Skins\\*.t??",
@@ -271,7 +271,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "b913252b-82be-4eb8-8d4a-4b731d737d4f"
+                Guid = "0e2ccbea-ab17-4172-a911-a77edf62e806"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Non-Transparent Skins\\*.t??",
@@ -289,7 +289,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "92eb7139-c557-4180-9bc3-e14ba85aff23"
+                Guid = "eb94b309-4e63-4b99-95d9-efd42274f2d6"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Transparent Skins\\Sith Eyes\\*.t??",
@@ -306,7 +306,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "18a5b3ae-5100-44ff-b1fe-0bbe7abfab8b"
+                Guid = "a347b7ab-bce0-4d61-a0d5-4edf1c3ea45a"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Non-Transparent Skins\\Sith Eyes\\*.t??",
@@ -336,17 +336,17 @@ ___
 **Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
 
 <!--<<ModSync>>
-Guid = "95ab51ef-6515-447e-b108-70c77a4b7bf1"
+Guid = "aab124bf-0ada-4704-98e3-de8d9b1cc767"
 Instructions = [
      = {
-        Guid = "c5212385-e1a9-437a-b0cd-3e9bb35fe9c6"
+        Guid = "cb36df07-aea8-4f45-8b53-f2be48d64d59"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K1_Community_Patch_v*.zip",
         ]
     }
      = {
-        Guid = "2438955c-4f92-4410-8369-f0f3d9255d89"
+        Guid = "e3890dc2-5600-43ba-876f-7444bd382494"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\K1_Community_Patch_v*\\INSTALL.exe",
@@ -354,7 +354,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "2cc55da9-7bad-41b4-9c38-0573dcc3d6d9"
+        Guid = "9c4e700f-008f-410f-8b14-0860a2fbedce"
         Action = "Delete"
         Source = [
             "<<kotorDirectory>>\\Override\\LKA_leaf03.tpc",
@@ -379,17 +379,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "7503db52-b585-46b8-a874-8db6e9b83ca4"
+Guid = "42f7c083-ff5c-4349-9b0c-87dfd40b0f31"
 Instructions = [
      = {
-        Guid = "c2475334-a584-4053-a426-4c1f99e126db"
+        Guid = "ce3b6449-6da1-4aa6-860d-91a7b8dfd312"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Scoundrel DS Underwear Fix.7z",
         ]
     }
      = {
-        Guid = "b1ea800d-696e-4069-9d0a-e0789818e497"
+        Guid = "47a4b06c-030e-41b4-bb34-390d52bd3736"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Scoundrel DS Underwear Fix\\Scoundrel DS Underwear Fix\\pmbasd01.tpc",
@@ -417,17 +417,17 @@ ___
 **Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
 
 <!--<<ModSync>>
-Guid = "3eced2e7-3d26-4031-9ddf-d24a2f532eaa"
+Guid = "57b6beb4-7865-4843-bc73-44d57d7ced09"
 Instructions = [
      = {
-        Guid = "5451dc51-3467-46be-b5c7-4322cd490354"
+        Guid = "be35cc2a-ac24-43ef-9f66-7239fb1943f3"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3.7z",
         ]
     }
      = {
-        Guid = "5bd07617-4b72-4507-adc2-7e4c51200605"
+        Guid = "1d45f1c4-8191-496d-9b8a-241d6ed1d649"
         Action = "Choose"
         Source = [
             "dc8d0680-0ec6-4f55-a175-d1e9ac611860",
@@ -445,7 +445,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "c7c16f1a-ef01-4b67-9607-37a61a907ba5"
+                Guid = "8499a98f-8913-4eaf-b0b8-4b031c0aec71"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\Installer.exe",
@@ -462,7 +462,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "4945cd90-3269-48e4-9077-29559261706f"
+                Guid = "70070bbf-6012-4d05-b23d-791c65bb1d44"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\Installer.exe",
@@ -490,17 +490,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "38ef40d9-bf33-4ed8-ada5-401f9e59ca0b"
+Guid = "abf1735e-8b9e-4164-bb85-31e06bf7a9a4"
 Instructions = [
      = {
-        Guid = "fd47527a-2201-44a5-8e9e-25b267666655"
+        Guid = "f00a3ed9-ee0d-44b1-bc8d-7ea689f50dc4"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Duncan on Manaan.7z",
         ]
     }
      = {
-        Guid = "dd86a981-f0ce-43c6-bcae-acd557a616b4"
+        Guid = "3f41cb49-b432-431d-934b-c9578790eaed"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Duncan on Manaan\\deadeye_man.kmm",
@@ -528,17 +528,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "7e1e50af-cc03-4f38-8a51-a35ce2ed22ed"
+Guid = "d43179ca-d10e-40e5-8132-ff3f370e1c0c"
 Instructions = [
      = {
-        Guid = "5145253f-5d0d-4c9b-b329-c7d5eb16e81e"
+        Guid = "5e9fcf19-fb49-4a23-9ee4-5e60372f2867"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Consistent Conditioning Icons.7z",
         ]
     }
      = {
-        Guid = "4768122d-ab89-4641-bf99-752886878a82"
+        Guid = "16d76f99-283d-45d9-9de8-53c5034ff38c"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Consistent Conditioning Icons\\Consistent Condining Icons\\Override\\*",
@@ -566,17 +566,17 @@ ___
 **Installation Instructions:** Move the files from both the Override and Optional folders to your game's override folder.
 
 <!--<<ModSync>>
-Guid = "c12565ac-7efc-4910-930d-f52bb15c50a0"
+Guid = "ca569550-9546-4433-8135-116fbb6f1523"
 Instructions = [
      = {
-        Guid = "acb26401-520d-463e-be63-3089563971d4"
+        Guid = "5bbc8b3f-7f2f-455d-835c-3a1e153b053e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Republic Soldier Fix for K1*.zip",
         ]
     }
      = {
-        Guid = "b5afe226-32d4-4a0d-b39b-d37e482b6e22"
+        Guid = "3d6fecdc-12ec-48af-903c-f5f85e4b7573"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\JC's Republic Soldier Fix for K1*\\*\\*",
@@ -604,17 +604,17 @@ ___
 **Installation Instructions:** If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
 
 <!--<<ModSync>>
-Guid = "fcf633ae-d5b7-41c5-99e9-6800c8e41eb9"
+Guid = "bddc3cb3-30b4-49b0-8c1a-578d1a063f19"
 Instructions = [
      = {
-        Guid = "84bf7fc9-373c-4120-a59d-3129d30c6baf"
+        Guid = "f9593150-0bea-4d89-a002-b078dd86a5dd"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*.7z",
         ]
     }
      = {
-        Guid = "0f6a6343-b483-42f7-965e-078d0c1208ef"
+        Guid = "0395e31d-ee61-41e5-a6a8-c8fbcec6c75c"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic_Soldier's_New_Shade_v*\\TSLPatcher.exe",
@@ -622,7 +622,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "d3426e2d-292d-43f6-9299-5d0b29744a7b"
+        Guid = "8c039422-29fe-4162-b0be-4026872d3a33"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic_Soldier's_New_Shade_v*\\TSLPatcher.exe",
@@ -630,7 +630,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "cffe6d58-1a77-42da-8c18-bd9196b8c688"
+        Guid = "38d32fc2-8df3-4816-8d4d-650fd8b9cd9e"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic_Soldier's_New_Shade_v*\\TSLPatcher.exe",
@@ -638,7 +638,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "61fe0df7-2601-44bb-a5e9-d112916e0c0c"
+        Guid = "49f8421c-c495-407e-a855-ac06530b5d03"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic_Soldier's_New_Shade_v*\\TSLPatcher.exe",
@@ -666,17 +666,17 @@ ___
 **Installation Instructions:** I recommend avoiding the upscale option for the purposes of playing on mobile.
 
 <!--<<ModSync>>
-Guid = "e7c9de84-0a30-4273-8b6e-5d2bd23b2bfc"
+Guid = "94c1ebd3-cc03-4406-8507-7661b9e9611d"
 Instructions = [
      = {
-        Guid = "646cc564-d7e5-462e-8f6d-f32731020f44"
+        Guid = "d4f8e6a9-18a3-45b6-b21c-3a686e272a94"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix.7z",
         ]
     }
      = {
-        Guid = "218de646-f8e9-4b1b-b736-6a7cdeaa9ae2"
+        Guid = "930e69cf-54ba-492d-8f41-7e4082e12f4e"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\UPSCALED\\FOR OVERRIDE\\*",
@@ -702,17 +702,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "219118f3-85c3-432d-b2ba-80983a1ebb85"
+Guid = "ab1540cc-c245-4ade-ae2a-446c2e443a8c"
 Instructions = [
      = {
-        Guid = "42f19dc2-bb17-4120-aa4e-7ca4128aa000"
+        Guid = "0e910b71-c9be-4e42-88bd-7c6aad1596e9"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\hp_grenades*.zip",
         ]
     }
      = {
-        Guid = "246cb16d-780c-4b50-b656-24cb9d65adc3"
+        Guid = "06b0cbe8-adb0-4009-9aa7-14ff39d1b8e2"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\hp_grenades*\\*",
@@ -740,17 +740,17 @@ ___
 **Installation Instructions:** Choose whether to use the slim or original necks; your preference.
 
 <!--<<ModSync>>
-Guid = "f9bdb191-7705-4bba-8045-88f7238782a5"
+Guid = "c8126d1d-cabc-42ec-8a48-e5407584c5b4"
 Instructions = [
      = {
-        Guid = "43ff7016-6736-42c0-b506-16fc0ed2a1db"
+        Guid = "5c3864d7-9283-43fb-b406-7b4085f084cd"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K1 SL Mouth Adjustment v*.7z",
         ]
     }
      = {
-        Guid = "32a82fbe-1b71-49cc-817e-fe44852a1491"
+        Guid = "82b8751b-bf29-4ee5-9693-109f8617df21"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_lashoweh.mdl",
@@ -781,17 +781,17 @@ ___
 **Installation Instructions:** Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
 
 <!--<<ModSync>>
-Guid = "a3d10cb9-dbc1-4860-a836-17fb972a56dc"
+Guid = "1b4e2f3f-d90d-49fc-8b81-05c2a15c3b1e"
 Instructions = [
      = {
-        Guid = "196a05fb-b254-4010-979d-8c301da89c28"
+        Guid = "bfe4ef43-e330-4391-bc52-24ec1b797189"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z",
         ]
     }
      = {
-        Guid = "a131c38b-daac-43a7-9fae-24a3159f2fc0"
+        Guid = "96a6825a-2fa4-423a-a443-dc4ee5e65317"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\N_TwilekF.mdl",
@@ -839,17 +839,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "6f15fcd3-b147-4905-be34-44d4071b8c5b"
+Guid = "a7afd07b-f65b-4b6f-9398-d388c5ac5dd2"
 Instructions = [
      = {
-        Guid = "c282a534-5c27-460e-97ef-91431d11e331"
+        Guid = "21626002-3884-4a27-acc1-7169979fbf8d"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Calo Nord Recolor.zip",
         ]
     }
      = {
-        Guid = "01aefd5e-0a7f-41de-8a74-63749d4edaab"
+        Guid = "638dea00-b9ea-499e-a12f-48d2021088b5"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Calo Nord Recolor\\CN_Recolor\\Calo Nord Reskin by Watcher07\\Override\\N_CaloNord01.tga",
@@ -890,17 +890,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "e1af2500-dada-40ab-b99f-27a14f583726"
+Guid = "2b673fbd-2cbb-4379-887b-828cdef2af1a"
 Instructions = [
      = {
-        Guid = "98eae8c1-efc0-4fe3-bb54-e2d05b3ff298"
+        Guid = "cb588521-1b46-40d4-a613-d8b3c39842bc"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\juhaniCathar_head.zip",
         ]
     }
      = {
-        Guid = "8c1427e3-dc58-4364-aed0-cfc47e4a0b0a"
+        Guid = "787e20eb-5b83-4364-9ab8-732a42dc8015"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\juhaniCathar_head\\p_juhanih.mdl",
@@ -930,17 +930,17 @@ ___
 **Installation Instructions:** If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
 
 <!--<<ModSync>>
-Guid = "6a47d72c-2025-4c92-a812-d4d48094f845"
+Guid = "13420d3a-e069-4367-80e5-49dc74a8b6d2"
 Instructions = [
      = {
-        Guid = "980174cb-62f6-4ee2-bca1-07c9e2299df6"
+        Guid = "de1977da-0b38-493b-b77b-26824abcc3ad"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v*.zip",
         ]
     }
      = {
-        Guid = "df0bde1c-d5b1-42e7-bb41-fb5b388b3ae2"
+        Guid = "ed3fda7d-0d30-45a1-93a5-097c774caf00"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v*\\Korriban_Back_in_Black_K1.exe",
@@ -948,7 +948,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "b5af7fee-8671-4643-b496-8c6227ff7546"
+        Guid = "12e2348c-0b70-4941-9d78-cb248c054b51"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v*\\Korriban_Back_in_Black_K1.exe",
@@ -976,17 +976,17 @@ ___
 **Installation Instructions:** When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
 
 <!--<<ModSync>>
-Guid = "0cf09920-4588-4531-988b-b74fd2f30736"
+Guid = "18afc02f-a2e5-48c2-b78a-b3f732844201"
 Instructions = [
      = {
-        Guid = "a8fc359c-e91c-4fd2-8e08-a7dc34a06f85"
+        Guid = "90c56b7f-d3f8-4786-9d6d-9c26a79040ef"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1*.7z",
         ]
     }
      = {
-        Guid = "8534c577-8ce2-4553-b7ce-5d46d87e4026"
+        Guid = "b1e6d4b6-ca98-4bc3-aee8-512326a24927"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1*\\Install.exe",
@@ -1014,17 +1014,17 @@ ___
 **Installation Instructions:** If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
 
 <!--<<ModSync>>
-Guid = "a52d0241-dc50-4c11-8873-5652689c1c8a"
+Guid = "89198f78-b5eb-40e4-9dbe-2d411135c1c2"
 Instructions = [
      = {
-        Guid = "3efa59f5-c926-415d-8b96-dc597479b6a7"
+        Guid = "b866d86f-b36b-4cc4-9332-ece5733909fb"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Jedi Tailor for K1 v*.zip",
         ]
     }
      = {
-        Guid = "2963bce3-cd27-4d07-974c-c5f12a5c7552"
+        Guid = "74043d59-476d-4e14-bcc9-dfba0d2f37e5"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Jedi Tailor for K1 v*\\Jedi_Tailor_K1.exe",
@@ -1054,17 +1054,17 @@ ___
 **Installation Instructions:** Only move the files from "Jedi Robes Override".
 
 <!--<<ModSync>>
-Guid = "de545955-d956-4602-b037-4089bcec3a6c"
+Guid = "66ac23e8-c9cd-4700-936b-f53b048dafd5"
 Instructions = [
      = {
-        Guid = "227c8789-31ee-4c20-90cb-2304a401355c"
+        Guid = "4120d636-5d47-47ca-b8e3-e76bb71efee4"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*.7z",
         ]
     }
      = {
-        Guid = "8b78b12b-b0c0-433c-9a3e-7da84116ab50"
+        Guid = "69a55034-5b6c-477b-877b-6d0eb7b4dd4b"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\To Override\\*",
@@ -1072,7 +1072,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>\\Override"
     }
      = {
-        Guid = "5c91d0bb-29e2-46c7-8a50-c960bf6fdd28"
+        Guid = "0e19f954-65e9-48a7-a409-20b119d5e3e1"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Animated Monitors\\*",
@@ -1100,17 +1100,17 @@ ___
 **Masters:** Cloaked Jedi Robes
 
 <!--<<ModSync>>
-Guid = "f5585e08-3bf7-48f9-8833-a036cbc7f3fd"
+Guid = "31787c63-dc6a-44b5-8747-1d934843d0d6"
 Instructions = [
      = {
-        Guid = "b08d677f-497b-49d4-a875-133b2221ea77"
+        Guid = "b8d17a3e-a9dc-4537-8f16-89bcb8337349"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes.zip",
         ]
     }
      = {
-        Guid = "9607c10b-c5a5-4110-b991-09fb8c939a70"
+        Guid = "9a3c4386-2c08-4d21-aaf3-ffd05b985414"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\*",
@@ -1136,17 +1136,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "ade45a2e-8a30-4c5c-b90a-7900709d49e1"
+Guid = "c43abda8-8e34-4c2a-81be-a50b7ffa6806"
 Instructions = [
      = {
-        Guid = "af153cc2-df19-4a1f-a135-269b0026c61f"
+        Guid = "ae43d617-ee14-47a9-99ce-20878d6b5846"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Children NPC Fixes.7z",
         ]
     }
      = {
-        Guid = "0a9532d9-33bc-40e6-aa3b-6b64f1fa04b3"
+        Guid = "de184231-fdea-4e01-a34a-486c7758da6e"
         Action = "Choose"
         Source = [
             "9910790f-a84b-42a6-959e-a56e66c5feb3",
@@ -1167,7 +1167,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "9b361a02-4284-4287-aed1-62beb02db49f"
+                Guid = "82b785df-d02e-4528-a217-8a731ea28b50"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Caucasian Head\\N_childFH01.tga",
@@ -1186,7 +1186,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "fe69aab7-79fe-44e7-ab31-0191945456aa"
+                Guid = "1197f162-3e39-42b4-97fb-7622e2344b47"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Gloved Children\\N_CommKidF01.tga",
@@ -1205,7 +1205,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "130fecd5-3c11-4792-9e58-25482b3e44ce"
+                Guid = "69b5a819-3344-4e29-9cbb-29e14f6bbf00"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Smooth Hands\\N_CommKidF01.tga",
@@ -1225,7 +1225,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "40b89190-4e62-4e25-a462-589b5af35a34"
+                Guid = "07212406-cfe9-4eb8-81b4-394f2aaa8f29"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Tanned Hands\\N_CommKidF01.tga",
@@ -1270,17 +1270,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "93682736-2a01-4522-a7e4-04a9f4b40bea"
+Guid = "1c35d199-d798-4d15-8196-4e560eacc334"
 Instructions = [
      = {
-        Guid = "e3cd418a-e99d-4851-8790-d4c2b2bdb312"
+        Guid = "bd22a4b0-1cec-46a9-b9b1-461f535f6cbe"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Star-Map_Revamp*.zip",
         ]
     }
      = {
-        Guid = "480b7f0a-6498-4398-91f9-84e5c3175b77"
+        Guid = "d2a4dd27-8578-4796-979f-963a4e8e561b"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Star-Map_Revamp*\\Star-Map_Revamp*\\*",
@@ -1306,38 +1306,69 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "7513ca3c-29b2-46f0-a0ae-335dc353cad9"
+Guid = "5e12a53a-3730-4ca8-b14c-06dcba9e3bd0"
 Instructions = [
      = {
-        Guid = "180ffef8-ca10-45b3-9e2e-b91aecb5be72"
+        Guid = "3717b8e8-16af-44af-8cc3-638d9e5824b2"
         Action = "Extract"
         Source = [
-            "<<modDirectory>>\\Senni Vek Restoration.zip",
+            "<<modDirectory>>\\Senni Vek Restoration CENSORED CENSORED.rar",
         ]
     }
      = {
-        Guid = "6c4ca416-a2e3-469b-b011-17f229b74155"
+        Guid = "76db9fbb-7426-4c2b-ae9f-cf2f72fa6cf6"
         Action = "Move"
         Source = [
-            "<<modDirectory>>\\Senni Vek Restoration\\For Override\\tat_senni.utc",
+            "<<modDirectory>>\\Senni Vek Restoration CENSORED\\For Override\\tat_senni.utc",
         ]
         Destination = "<<kotorDirectory>>\\Override"
     }
      = {
-        Guid = "9fb90cde-93ba-428e-afe5-e2a28838a757"
-        Action = "Move"
+        Guid = "ef041d59-74f0-4d1c-a1c2-6ed850b1544c"
+        Action = "Extract"
         Source = [
             "<<modDirectory>>\\KYR1.1.7z",
         ]
-        Destination = "<<kotorDirectory>>\\Override"
     }
      = {
-        Guid = "d8f7db3e-f470-4812-9286-28a54bad9c5a"
-        Action = "Move"
+        Guid = "07c6d854-e7df-4be9-a84b-3c22d94ac9d7"
+        Action = "Patcher"
+        Source = [
+            "<<modDirectory>>\\Kebla Yurt Revamp\\TSLPatcher.exe",
+        ]
+        Destination = "<<kotorDirectory>>"
+    }
+     = {
+        Guid = "ea19ee1b-34ad-40a3-8323-d64a2e1d1e60"
+        Action = "Extract"
         Source = [
             "<<modDirectory>>\\SVR1.2.7z",
         ]
-        Destination = "<<kotorDirectory>>\\Override"
+    }
+     = {
+        Guid = "3bf14fde-a8d8-4779-af90-680b414da5cd"
+        Action = "Choose"
+        Source = [
+            "858c194e-ecdf-479b-b64e-e9f4565c67de",
+            "858c194e-ecdf-479b-b64e-e9f4565c67de",
+        ]
+    }
+]
+Options = [
+     = {
+        Guid = "858c194e-ecdf-479b-b64e-e9f4565c67de"
+        Name = "Senni Vek Restoration"
+        Description = "The generic Rodian thug next to Hulas is called \"tat_senni\" in the game files, suggesting that this Rodian was supposed to be Senni Vek. This installation replaces the generic Rodian with Senni Vek."
+        Instructions = [
+             = {
+                Guid = "9bfafe75-133a-4b6b-a305-680a68ecf433"
+                Action = "Patcher"
+                Source = [
+                    "<<modDirectory>>\\SVR1.2\\TSLPatcher.exe",
+                ]
+                Destination = "<<kotorDirectory>>"
+            }
+        ]
     }
 ]
 -->
@@ -1360,17 +1391,17 @@ ___
 **Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.
 
 <!--<<ModSync>>
-Guid = "bc9e4f01-1b08-48ef-891d-a0e72451331a"
+Guid = "6c61d5bb-e04b-4d06-a359-500a38f65b14"
 Instructions = [
      = {
-        Guid = "6f5d345e-74d5-44ad-abe6-956e01a3eb20"
+        Guid = "ff9d5512-1cd3-4687-9b6f-abae66fa2a5d"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\ebon_hawk_camera.zip",
         ]
     }
      = {
-        Guid = "174fb2d2-a174-40f2-a871-bc1d73493275"
+        Guid = "94b1215e-c1c4-45b6-8761-59172718c28f"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\ebon_hawk_camera\\ebon_hawk_camera\\camerastyle.2da",
@@ -1399,17 +1430,17 @@ ___
 **Download Instructions:** I strongly recommend the Small version for mobile.
 
 <!--<<ModSync>>
-Guid = "a40fa568-9d50-4a11-aa4d-87ac325c8413"
+Guid = "64eebb36-9b5c-48dd-8c9f-3de2920776cd"
 Instructions = [
      = {
-        Guid = "a9bfa7cc-be94-4fbb-ace5-0db5e622e1a1"
+        Guid = "8ee0b015-d323-4165-b0b4-ffa55a426435"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\High Quality Cockpit Skyboxes*.zip",
         ]
     }
      = {
-        Guid = "bd7d358d-b9f2-4920-8bdf-175f5de627be"
+        Guid = "cf896057-ebcf-4a80-a2bb-f791c870566d"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\High Quality Cockpit Skyboxes*\\High Quality Cockpit Skyboxes*\\Override\\*",
@@ -1454,17 +1485,17 @@ ___
 **Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
 
 <!--<<ModSync>>
-Guid = "667f81c8-f909-4c8d-a3f2-69abf59184ce"
+Guid = "8295ccd5-c398-4e23-a1cd-16f6f6b4b7e5"
 Instructions = [
      = {
-        Guid = "b67b7edc-c049-4dec-9acd-0ec2aac2d2d9"
+        Guid = "a3700224-f1f7-4107-9452-e85981fc3980"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Taris_Reskin*.zip",
         ]
     }
      = {
-        Guid = "111188aa-e191-47a4-aab0-5497981c34ff"
+        Guid = "1b8be89a-e574-4fa6-b13d-bed7d04ecc4d"
         Action = "Delete"
         Source = [
             "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_Bsky01.tga",
@@ -1479,7 +1510,7 @@ Instructions = [
         ]
     }
      = {
-        Guid = "fe0ce545-8972-4cec-9956-831b8e5cf64c"
+        Guid = "e692e57a-2a2f-4591-949e-2f34fe42fc86"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\*",
@@ -1506,17 +1537,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "cd243df0-2594-40bb-a911-9753d77d5d60"
+Guid = "e88087a3-cfed-4856-8c70-7ceda8d58884"
 Instructions = [
      = {
-        Guid = "af5fe3c8-2114-4732-bc70-ee92535445ac"
+        Guid = "5c7c0c50-19d2-42d5-9865-e2b1c486952a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K1_HDStarsAndNebulas_*.zip",
         ]
     }
      = {
-        Guid = "e2f16b99-beda-4eb6-9efe-fd6aea63dee7"
+        Guid = "45a0ee9b-8ecc-48b4-9c80-7e555fce9974"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSF_sky01.tga",
@@ -1552,17 +1583,17 @@ ___
 **Installation Instructions:** Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
 
 <!--<<ModSync>>
-Guid = "79f44df0-838a-4706-bf21-8430ce706d46"
+Guid = "30b36bd5-7a65-4d37-ae01-a0861c35d906"
 Instructions = [
      = {
-        Guid = "05268df2-b00e-495f-aa28-86d18426e593"
+        Guid = "92bd82b6-3234-46c2-8fcc-e7245ff43b8a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\HQSkyboxesII_K1.7z",
         ]
     }
      = {
-        Guid = "4675a990-c882-40d2-b6d1-abe1697c1acc"
+        Guid = "de340818-6a80-4eb2-856b-9df4b4264bca"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\HQSkyboxesII_K1\\Override\\*",
@@ -1605,17 +1636,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "21ac8ce5-7495-4d3f-8429-3c0b78bcd70e"
+Guid = "7e9192ed-9ce8-4f57-9cfb-a0df02be2991"
 Instructions = [
      = {
-        Guid = "c6546eea-d16a-41d0-be29-845d5192d31b"
+        Guid = "8b403ac9-a9d8-40fa-9588-b00c10f6931c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\DI_HRBM_2.7z",
         ]
     }
      = {
-        Guid = "dcefb8d0-86a4-4a87-9704-571e386eb187"
+        Guid = "b78591cd-c9d0-4438-bf96-9b3cddd7c67e"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\DI_HRBM_2\\fx_beam01.tga",
@@ -1645,17 +1676,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "9020caca-ca4e-4db6-8f6f-21f0971e40e9"
+Guid = "526b31e4-5c29-4e9a-98a1-39493da47516"
 Instructions = [
      = {
-        Guid = "e76dbf29-fafb-49e3-8566-2cd71b7da2ae"
+        Guid = "290dab2d-2095-4922-b5c6-22d59b16a8a9"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\FireandIceHDWhee.zip",
         ]
     }
      = {
-        Guid = "458e82b1-47ed-42e0-8f80-b5d175e0cb03"
+        Guid = "4af8006b-37a8-4710-a8ed-887ad6740d4a"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\FireandIceHDWhee\\fx_crystal01.tga",
@@ -1684,17 +1715,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "10b4438b-c20e-4ce8-8d5f-20c763514720"
+Guid = "febb0355-5379-4193-8f5b-e31570bae291"
 Instructions = [
      = {
-        Guid = "4456e032-c574-43dc-9511-5d13013c1fda"
+        Guid = "a5f2b940-6638-4294-8a07-b77df2a03e7f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Animated energy shields.rar",
         ]
     }
      = {
-        Guid = "5163b2a2-a4ce-472c-83e2-cb2856fb7bdb"
+        Guid = "180dd0a3-616f-4dfa-a80f-6de872ebfdf2"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Animated energy shields\\fx_tex_01.tga",
@@ -1734,17 +1765,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "bc8b0793-4f0f-4809-b15e-f759da46b55a"
+Guid = "8f7a5b4c-0441-4582-80fc-edf7a953d5a8"
 Instructions = [
      = {
-        Guid = "3a2a4ca5-fe75-4489-a7b7-34c6495589aa"
+        Guid = "92f3c516-d23b-4512-b5eb-d0ebb6f2615e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SH_AnimatedCantinaSign.7z",
         ]
     }
      = {
-        Guid = "f60084ca-8b04-48c0-972c-373db481b4c5"
+        Guid = "81db04d3-0f7e-4ee3-95a3-aa3bed618da0"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\SH_AnimatedCantinaSign\\LTS_signs.tga",
@@ -1773,17 +1804,17 @@ ___
 **Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
 
 <!--<<ModSync>>
-Guid = "b3f367d6-6895-4ecf-b796-3ed95e081316"
+Guid = "a70833fc-3122-4a95-918e-cd12f8522675"
 Instructions = [
      = {
-        Guid = "098aff62-2ab2-4fb3-9563-5145e50ad45c"
+        Guid = "95a9dcf8-ded0-4774-a0bd-24afd6aae3d9"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_*.rar",
         ]
     }
      = {
-        Guid = "ca8715f4-8065-4cb3-b14d-c40c6056c3f8"
+        Guid = "9c524e72-a2f9-45eb-b98d-e2f28c4e5867"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_*\\New_Lightsaber_Blades_K1_v_*\\TSLPatcher.exe",
@@ -1824,17 +1855,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "cc6147ec-7178-4fd2-8870-6f35558f4a30"
+Guid = "755ea3f3-f451-4a19-917e-166da35ca05c"
 Instructions = [
      = {
-        Guid = "a4f0eeb5-c154-4115-a10a-b48134d38a4e"
+        Guid = "8b651eb5-2fb3-4503-9964-b3d13a6c32aa"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\WookieWarbladeFix-Redrob41.7z",
         ]
     }
      = {
-        Guid = "28a70f0d-b3fb-49b5-8b8d-b75967116450"
+        Guid = "09684987-80e5-4981-a85d-7c9921af3276"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_warblade_001.mdl",
@@ -1863,17 +1894,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "0be25865-1dc0-42de-a2e9-cf2bbcda1395"
+Guid = "1c662184-7322-465c-b6b7-88f9d41d2aca"
 Instructions = [
      = {
-        Guid = "b4745d9e-a2fa-4f98-b88b-341ad030a7e7"
+        Guid = "1613af1c-0279-40d2-a1c1-9088aadcc97c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KillCzerkaJerk.zip",
         ]
     }
      = {
-        Guid = "3002deab-a9fb-45d4-af99-c975c699404c"
+        Guid = "2f5de06c-d181-4d2b-9939-efde786407c5"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\KillCzerkaJerk\\TSLPatcher.exe",
@@ -1899,17 +1930,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "cb21f2c6-2664-4727-b216-f70e79a25217"
+Guid = "cc9f3f34-2ff0-4cf5-92ca-467275052aac"
 Instructions = [
      = {
-        Guid = "ad696ed3-ca34-4006-a2b0-45aafd324f31"
+        Guid = "66d2b4af-c837-4aef-a4a4-233eed3a7cc2"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\di_kaw2.7z",
         ]
     }
      = {
-        Guid = "d2dffe95-34bb-48cc-972e-2ff92c782b4c"
+        Guid = "23ff0a76-196f-4dd9-9dae-e4f88154ec8c"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\di_kaw2\\di_spwb_01.ncs",
@@ -1940,17 +1971,17 @@ ___
 **Installation Instructions:** For realism I personally recommend the "Senni Vek's Ambush" install, but if you'd like to remain as close to vanilla as possible, choose the Senni Vek Restoration instead.
 
 <!--<<ModSync>>
-Guid = "b836f23d-88c7-43a2-9d9d-b59ed0349b51"
+Guid = "5e42ad49-bed5-4a06-ac6c-23c57b9a7b5b"
 Instructions = [
      = {
-        Guid = "f583a5cd-071e-4d4e-b68e-7ef02ed71c17"
+        Guid = "6e72d5eb-443f-4ac8-8b88-3e813e109426"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Bek Control Room Restoration*.zip",
         ]
     }
      = {
-        Guid = "8f7d99d8-d9db-449b-a5b4-139db30f0ddf"
+        Guid = "0e305dbf-769e-4cb1-8024-2ff01d92a66c"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Bek Control Room Restoration*\\Bek Control Room Restoration*\\For Override\\tar11_lockdoo001.utd",
@@ -1978,17 +2009,17 @@ ___
 **Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
 
 <!--<<ModSync>>
-Guid = "ad309f2c-d9fc-4c58-a9fa-c87e35b03167"
+Guid = "705535ff-9132-4acc-9237-77b10b6372ac"
 Instructions = [
      = {
-        Guid = "d2e58b28-0e08-414c-893f-f5c6afc29612"
+        Guid = "0dac1ee8-0f24-4895-b7ba-9a5c13866272"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Juhani Dialogue Restoration.zip",
         ]
     }
      = {
-        Guid = "150b7885-9e87-4204-99a8-9209bac2dffc"
+        Guid = "b8208468-40b9-4f70-b648-1da663a15e78"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_p05.ncs",
@@ -2020,17 +2051,17 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
 
 
 <!--<<ModSync>>
-Guid = "2c144be7-bae2-4248-ac46-0a4f652fdc59"
+Guid = "d8ce273c-30b9-4be7-8621-678f66e938df"
 Instructions = [
      = {
-        Guid = "0effe38f-d41b-43ae-84ab-a0d956f21a1b"
+        Guid = "b819d88d-30f3-45f5-9abe-e0699388fcc7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\CK-Ixgil the Bith.zip",
         ]
     }
      = {
-        Guid = "23e93679-1971-405f-b196-b74c2c8b0924"
+        Guid = "9669bba8-d72e-4c41-becf-335360f03b5f"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\CK-Ixgil the Bith\\Ixgil the Bith\\INSTALL.exe",
@@ -2056,17 +2087,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "42868fb2-1a46-43c4-a4bc-82a3dc12519c"
+Guid = "26bbd48a-ad17-48bb-9029-71f2463de34e"
 Instructions = [
      = {
-        Guid = "4d33297d-cfd7-4308-ae58-577dd4888b92"
+        Guid = "056485b6-eb53-4ae6-9d5e-1019923f7d16"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Sneak Attack 10 Restoration.zip",
         ]
     }
      = {
-        Guid = "ae3194c9-414b-4a4a-aef8-1a3620db56c8"
+        Guid = "034ca6ef-0414-40c7-911e-22648d43d352"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Sneak Attack 10 Restoration\\Sneak Attack 10 Restoration\\TSLPatcher.exe",
@@ -2126,17 +2157,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "c3d7e3cd-3fdc-4a9b-bac0-250457887d3d"
+Guid = "c3362169-1cb8-4217-b2c7-f03b5f3edbfc"
 Instructions = [
      = {
-        Guid = "f14e189e-5def-44a1-b51d-ce03d405b202"
+        Guid = "c8076e52-4ebe-47d0-a4ed-fbae2a343f99"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change.7z",
         ]
     }
      = {
-        Guid = "faf8e808-c708-4b7d-a647-d4a7a62c1b0f"
+        Guid = "973af44b-6478-4018-8fcc-6afa416d7374"
         Action = "Choose"
         Source = [
             "31e74d5a-a6d0-4935-a735-7ecef9d78d02",
@@ -2154,7 +2185,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "3f346426-4ee1-49c4-a09d-ebf2f4930a4e"
+                Guid = "257c6325-7ba3-4cae-83f2-a884cc0cef2f"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change\\PC Dialogue with Davik's Slaves Change\\Install.exe",
@@ -2173,7 +2204,7 @@ Options = [
         ]
         Instructions = [
              = {
-                Guid = "36169acd-2b64-4b22-9aee-babd7ae66dd6"
+                Guid = "82b642a1-99c6-4b2c-aa87-1eef47cd097e"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change\\PC Dialogue with Davik's Slaves Change\\Install.exe",
@@ -2201,17 +2232,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "36a04107-834d-478b-87c2-888d95c023fe"
+Guid = "de14b638-c77e-4467-81e8-5d50b4ffa03d"
 Instructions = [
      = {
-        Guid = "423403e5-22bc-4a5c-a578-035dc729d17d"
+        Guid = "d6959f1a-85b6-421e-97a2-543d60cb5ad5"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Vision Enhancement for K1 v*.zip",
         ]
     }
      = {
-        Guid = "9adc3e96-567d-4aab-b872-92c05d6b639c"
+        Guid = "ae43de86-ea46-4c75-ab00-9ca764894ac4"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Vision Enhancement for K1 v*\\Vision_Enhancement_K1.exe",
@@ -2237,17 +2268,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "f9c20646-2504-42b4-b9e9-546033de1815"
+Guid = "935509c3-f4cc-45da-b5d1-b3346ca56d10"
 Instructions = [
      = {
-        Guid = "85dabd7c-5234-40e3-9550-9c068e3b3768"
+        Guid = "37139c1b-97c4-4d9c-b365-2d4f8087a85a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Leviathan Differentiated Dialogue.7z",
         ]
     }
      = {
-        Guid = "88af89be-1992-4d17-b788-042732f035ab"
+        Guid = "645c7d48-65a4-44d1-a732-e460269295b4"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Leviathan Differentiated Dialogue\\Leviathan Differentiated Dialogue\\lev40_rodpris2.dlg",
@@ -2273,17 +2304,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "60e9f7d3-3985-45bb-a3f0-3cc8582806e8"
+Guid = "1e85ae4e-c989-48ad-9716-f21742299bba"
 Instructions = [
      = {
-        Guid = "66c95d4c-fdbe-40f7-88bd-a802b85d8dd5"
+        Guid = "e0f99e2d-4708-441a-8071-8c3090eca5fc"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Balanced Pazaak.zip",
         ]
     }
      = {
-        Guid = "95bd8daf-f166-49fa-ab46-8e5c56ff9f87"
+        Guid = "ee2eeadb-1254-48f3-9aec-5b30bd18d71d"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Balanced Pazaak\\Override\\pazaakdecks.2da",
@@ -2309,17 +2340,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "991b2a31-006b-4870-b0c2-cb0574e4d006"
+Guid = "e7a84270-38e4-4e9b-9e48-57dd5d008aa4"
 Instructions = [
      = {
-        Guid = "9bb3dc72-3361-47d7-88a4-de9073772673"
+        Guid = "43cebeb8-15d3-47c2-bd64-4b26255e77ca"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\ldr_repshipunknownworld.zip",
         ]
     }
      = {
-        Guid = "d0c76ebc-9827-43d5-9fba-d72ed3ee020f"
+        Guid = "17d30cc8-334d-475d-a393-c44d0447b2af"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\ldr_repshipunknownworld\\ldr_repshipunknownworld\\TSLPatcher.exe",
@@ -2327,7 +2358,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "74c36615-67aa-49ae-8cab-2a79d515d0f8"
+        Guid = "b34cad7e-8122-4d21-893e-ae831dac0993"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\ldr_repshipunknownworld\\ldr_repshipunknownworld\\TSLPatcher.exe",
@@ -2335,7 +2366,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "c83076bb-09c9-45de-bdfc-052c5d683ba7"
+        Guid = "2a5c3e13-e3a8-4f08-9998-c6cc32edc528"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\ldr_repshipunknownworld\\ldr_repshipunknownworld\\TSLPatcher.exe",
@@ -2361,17 +2392,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "dc32d46d-a36c-441c-9028-6c63692c84e6"
+Guid = "af893663-ff78-4c84-a25b-bf400e3ede7e"
 Instructions = [
      = {
-        Guid = "327952d5-5f29-4bea-81bb-e90c590552c7"
+        Guid = "6d63b417-fb9e-413e-a58c-6bf3d4065e30"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Improved Grenades.7z",
         ]
     }
      = {
-        Guid = "73bcc039-85a0-4348-bba1-e0fd18b88851"
+        Guid = "dc2b6630-9300-4112-9610-26bad7f577fb"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Improved Grenades\\Improved Grenades\\Improved Grenades\\Vanilla Increased Radius +Demo\\k_sup_grenade.ncs",
@@ -2417,17 +2448,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "5089297f-c817-445b-995c-cee7e001cc26"
+Guid = "2a16842b-1c3c-47ba-af97-9cee21603ebf"
 Instructions = [
      = {
-        Guid = "5ff63fbf-6c89-48a5-857c-83fdcb4dd1b6"
+        Guid = "1156ee62-7289-496b-a2d2-985ab64198e5"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\NO_Fighters.zip-90-v1-0.zip",
         ]
     }
      = {
-        Guid = "abb1b774-8503-4fbe-a7e3-9f23fdd857b8"
+        Guid = "fd80a8cf-4939-4a25-aa42-5b9fc59bb3c9"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\NO_Fighters.zip-90-v1-0\\k_sup_galaxmap.ncs",
@@ -2454,17 +2485,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "8bcc8ce9-7af0-46dd-8576-9d66f5871839"
+Guid = "c0f1027e-8c7b-4194-95b7-9247147fb7ca"
 Instructions = [
      = {
-        Guid = "1df389d6-d451-4081-920d-196a882f4233"
+        Guid = "84bbdb15-5e4f-409b-ba34-647675ccabc7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Trask Ulgo Without Tutorials.7z",
         ]
     }
      = {
-        Guid = "b0b86e16-a2a9-4fbc-aab9-3dbd59c19b73"
+        Guid = "07cace2a-4875-44c3-aec6-78557180ed4c"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Trask Ulgo Without Tutorials\\Trask Ulgo Without Tutorials\\Install.exe",
@@ -2492,17 +2523,17 @@ ___
 **Installation Instructions:** The optional file included in the install is compatible with the builds, and it's your choice to use it or not.
 
 <!--<<ModSync>>
-Guid = "aa5b19c4-f482-43cd-9d10-a42b7e846a1b"
+Guid = "5d5d1b70-2815-451a-baf2-db8d827e4068"
 Instructions = [
      = {
-        Guid = "7edd9791-00c8-40f1-8ff9-a05784daa6fb"
+        Guid = "20dc8a82-5fe0-4430-b0e4-4cdd2bd0216f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[K1]_Vulkar_Accel_Bench*.7z",
         ]
     }
      = {
-        Guid = "8e2c390a-9a9f-4d6d-8d69-6a1586c4c2bf"
+        Guid = "218621ae-b77b-4815-8481-4b649f5de3b0"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[K1]_Vulkar_Accel_Bench_v*\\[K1]_Vulkar_Accel_Bench_v*\\INSTALL.exe",
@@ -2528,17 +2559,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "a6368fee-cb53-4ca9-8759-4f9d3d38a97b"
+Guid = "75ff1d25-d57e-4848-b629-8bf59669ab86"
 Instructions = [
      = {
-        Guid = "c8d31090-d05f-4e84-a9f7-75b638a7bd47"
+        Guid = "d3c70491-2cf3-47f1-b952-878262bfa660"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v*.zip",
         ]
     }
      = {
-        Guid = "178cbc36-750e-4628-802a-948be0ae5bf2"
+        Guid = "e282a49b-6f54-46c4-abe1-196492f8ca53"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v*\\Install.exe",
@@ -2581,17 +2612,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "26e94583-a987-4e7b-a234-b30e0c870efa"
+Guid = "8c43ed00-4c3d-4e69-b690-83b6f2882592"
 Instructions = [
      = {
-        Guid = "7edfb92c-7944-4433-83ad-5852222d18ed"
+        Guid = "5eed5de9-77bd-48f0-b0f9-acf43bbb7208"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Mandalorian Armor for K1 v*.zip",
         ]
     }
      = {
-        Guid = "725e5558-0ec6-4209-8eba-d6f87dbfe3d3"
+        Guid = "e1ec648e-2c47-4e05-9507-d49d6a3e6c1b"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Mandalorian Armor for K1 v*\\Mandalorian_Armor_K1.exe",
@@ -2599,7 +2630,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "4f473b04-772f-4d4a-90db-2e13686a104f"
+        Guid = "8911c208-3dd5-434f-b01a-d87e48f7cfaf"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\JC's Mandalorian Armor for K1 v*\\Mandalorian_Armor_K1.exe",
@@ -2625,17 +2656,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "1c19c4e3-2e9e-4fbd-b66d-0f1d758ce421"
+Guid = "156ac15b-e918-41e4-8455-c19077d904bd"
 Instructions = [
      = {
-        Guid = "c3bf8b74-d4a4-45a4-98b6-911dedfc1ad1"
+        Guid = "c0212f1e-c1fa-4d72-9d68-2f85d8a4985e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\saberthrow_kd.zip",
         ]
     }
      = {
-        Guid = "aede42c7-f9e7-4d3f-9593-03ff4cdf828c"
+        Guid = "53949bca-bffa-4cca-9159-a237a174a17b"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\saberthrow_kd\\TSLPatcher.exe",
@@ -2661,17 +2692,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "81d15656-f96b-4ca1-9b30-1ff4d1cb796a"
+Guid = "47309b88-d7f2-432d-a7e8-ca15ae2b5695"
 Instructions = [
      = {
-        Guid = "a444f9c2-4321-4514-b132-941e8b47d651"
+        Guid = "014e7afb-3cbe-40af-87da-0bd6aceb651f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SMRE Version *.zip",
         ]
     }
      = {
-        Guid = "6b4b34ce-0ece-4003-a041-881603bc9e25"
+        Guid = "785dab27-ac76-43b3-a71a-fd547e5b273e"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\SMRE Version *\\SMRE\\SMRE Installer.exe",
@@ -2697,1256 +2728,4 @@ ___
 
 
 **Installation Instructions:** I personally recommend option 2.
-
-___
-
-### Party Model Fixes
-
-**Name:** [Party Model Fixes](https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/)
-
-**Author:** redrob41
-
-**Description:** Several of the companion models are messed up in ways that you don't really notice until you begin slapping hi-res textures on them. Since we're going to get to that, this mod is pretty important as a prerequisite.
-
-**Category & Tier:** Bugfix / 2 - Recommended
-
-
-**Installation Instructions:** In the "Bastila uvw fix" folder, move all the files from the Bastila Clothes - Option 1 folder into the Override. Move all the files in the Canderous folder. Delete the two .tga files in the Carth folder before moving. Move all the files in the HK-47 folder. Delete the .tga file from the Jolee folder before removing. Ignore the Juhani folder. Move all the files from the Mission folder.
-
-<!--<<ModSync>>
-Guid = "fadea12f-836d-4151-878e-a92b100d3a2f"
-Instructions = [
-     = {
-        Guid = "a262502d-e063-4ab0-8ba2-5e4b87cb541a"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41.7z",
-        ]
-    }
-     = {
-        Guid = "4e877917-7224-47dc-b46c-1519933146d2"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Bastila uvw fix\\Bastila Clothes (BB) - option1 basic uvw fix\\P_BastilaBB.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Bastila uvw fix\\Bastila Clothes (BB) - option1 basic uvw fix\\P_BastilaBB.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Canderous uvw fix\\P_CandBB.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Canderous uvw fix\\P_CandBB.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthBB.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthBB.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthH.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthH.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\HK47 uvw fix\\P_HK47.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\HK47 uvw fix\\P_HK47.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Jolee uvw fix\\P_JoleeBB.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Jolee uvw fix\\P_JoleeBB.mdx",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Mission uvw fix\\P_MissionBB.mdl",
-            "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Mission uvw fix\\P_MissionBB.mdx",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Sith Uniform Reformation
-
-**Name:** [Sith Uniform Reformation](https://deadlystream.com/files/file/1985-heyoranges-sith-uniform-reformation/)
-
-**Author:** Heyorange
-
-**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias.
-
-**Category & Tier:** Appearance Change / 3 - Suggested
-
-
-**Installation Instructions:** Install the default option, not one of the latter two.
-
-<!--<<ModSync>>
-Guid = "4608dd66-b4e1-47bf-94d4-93a4f73b3434"
-Instructions = [
-     = {
-        Guid = "1b609fe2-b1ef-4bd7-b1a8-86ac936db672"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Heyorange's Sith Uniform Reformation *.zip",
-        ]
-    }
-     = {
-        Guid = "084e1c2e-ca27-49ec-80b1-b68b65bed1ed"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\Heyorange's Sith Uniform Reformation *\\1. Heyorange's Sith Uniform Reformation\\Override\\*",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Repeating Blaster Attacks Restoration
-
-**Name:** [Repeating Blaster Attacks Restoration](https://deadlystream.com/files/file/1405-repeating-blaster-attacks-restoration/)
-
-**Author:** R2-X2
-
-**Description:** Blasters in the original KOTOR are underpowered all-around, but out of the entire laughingstock none is worse than blaster repeaters, which cost more in return for equivalent damage and less crit chance. It turns out that these weapons were originally supposed to have two attack rounds, but BioWare didn't have the time or know-how to implement this before the game went gold. This mod restores this function, with only a few instances where it doesn't work due to hardcoded scripting.
-
-**Category & Tier:** Mechanics Change & Bugfix / 1 - Essential
-
-
-**Installation Instructions:** The two optional files included in this mod package are untested with the builds and, from a balance perspective, not recommended.
-
-<!--<<ModSync>>
-Guid = "7c33777f-ab65-490e-9514-5b088dad947b"
-Instructions = [
-     = {
-        Guid = "6f2f7164-8383-4731-87b3-547cf83f6afe"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Repeating blaster attacks restoration.zip",
-        ]
-    }
-     = {
-        Guid = "6b8b6bff-5b3f-469a-b5e0-f40f84f722c7"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\Repeating blaster attacks restoration\\k_ai_master.ncs",
-            "<<modDirectory>>\\Repeating blaster attacks restoration\\k_ai_master.nss",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Recruit T3-M4 Early
-
-**Name:** [Recruit T3-M4 Early](https://deadlystream.com/files/file/1868-recruit-t3-m4-early/)
-
-**Author:** brents742
-
-**Description:** This mod restores the option to buy T3-M4 from Janice Nall as soon as you have the cash to do so. Dialogue was present in the files indicating that this was always meant to have been an option, but for some reason was scrapped from the final release. You can now buy T3 as soon as you're ready and use him until you unlock Mission, Zalbaar, and your other party members.
-
-**Category & Tier:** Restored Content / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "9b99ee39-b1a0-4045-a703-cc6d72e427dd"
-Instructions = [
-     = {
-        Guid = "e7068c19-9c70-4913-96f4-479b71690b61"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\RecruitT3M4Early.rar",
-        ]
-    }
-     = {
-        Guid = "6838b1e7-fe2d-4090-81b7-c7cabebc0c3a"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\k_ptar_a05ab_en.ncs",
-            "<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\k_ptar_opengate.ncs",
-            "<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\tar02_janice021.dlg",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Security Spikes for K1
-
-**Name:** [Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
-
-**Author:** JCarter426
-
-**Description:** In all BioWare's infinite brilliance, when they ported KOTOR to PC they didn't just cap the menus to 800x600, they also broke security spikes so they're literally unusable. This mod can't fix that, but it can give you a workaround: either some hacky functionality that works just like spikes do, or cold, hard cash in the places where spikes would normally drop.
-
-**Category & Tier:** Bugfix / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "053609ed-e576-4f84-a517-1c30eb76e237"
-Instructions = [
-     = {
-        Guid = "2ea12ab3-6a8b-44a1-8874-b2b1fbbde2d0"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\JC's Security Spikes for K1*.zip",
-        ]
-    }
-     = {
-        Guid = "e18b8819-78c4-4940-ac1c-8675d619ec88"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\JC's Security Spikes for K1*\\Security_Spikes_K1.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-     = {
-        Guid = "7c8d1135-ecc2-4288-944c-33d8007471c1"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\KOTOR1-Security-Spikes.zip",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### High Quality Blasters
-
-**Name:** [High Quality Blasters](http://deadlystream.com/files/file/861-high-quality-blasters/)
-
-**Author:** Sithspecter
-
-**Description:** Massively improves the appearance of almost all blaster weapons in-game without altering their original design.
-
-**Category & Tier:** Graphics Improvement / 1 - Essential
-
-
-**Installation Instructions:** After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
-
-<!--<<ModSync>>
-Guid = "07fae5cf-f2ce-4df9-9e2b-8f2f85efde38"
-Instructions = [
-     = {
-        Guid = "a10e16b8-9261-4cbd-b5dc-3ef7e97939d4"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\High Quality Blasters*.zip",
-        ]
-    }
-     = {
-        Guid = "95f3bcb0-c78e-4caf-b622-524d5a616d2f"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\High Quality Blasters*\\High Quality Blasters*\\High Quality Blasters Installer.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-     = {
-        Guid = "4b077723-8864-4e16-8280-7ae4b78388df"
-        Action = "Rename"
-        Source = [
-            "<<kotorDirectory>>\\Override\\w_ionrfl_04.mdl",
-        ]
-        Destination = "w_ionrfl_004.mdl"
-    }
-     = {
-        Guid = "bcf62f0c-b30a-4eb5-8cf7-9d861431e4f6"
-        Action = "Rename"
-        Source = [
-            "<<kotorDirectory>>\\Override\\w_ionrfl_04.mdx",
-        ]
-        Destination = "w_ionrfl_004.mdx"
-    }
-     = {
-        Guid = "1fbc7fd9-edaf-499b-9255-f0e79a77743e"
-        Action = "Delete"
-        Source = [
-            "<<kotorDirectory>>\\Override\\g1_w_rptnblstr01.uti",
-            "<<kotorDirectory>>\\Override\\w_blstrpstl_006.mdl",
-            "<<kotorDirectory>>\\Override\\w_blstrpstl_006.mdx",
-            "<<kotorDirectory>>\\Override\\w_rptnblstr_004.mdl",
-            "<<kotorDirectory>>\\Override\\w_rptnblstr_004.mdx",
-        ]
-    }
-]
--->
-
-___
-
-### Trandoshans Rescaled
-
-**Name:** [Trandoshans Rescaled](http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/)
-
-**Author:** DarthParametric
-
-**Description:** Canonically Trandoshans are huge, as tall as Wookiees. This mod rescales them to stand about as high.
-
-**Category & Tier:** Immersion / 4 - Optional
-
-
-<!--<<ModSync>>
-Guid = "3d838c1d-f07c-4943-9a02-841d8a2521f6"
-Instructions = [
-     = {
-        Guid = "bdcd5816-e12b-463f-b242-7fcb4463eaba"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Trandoshans_Rescale.7z",
-        ]
-    }
-     = {
-        Guid = "375c5f4f-d26e-49dc-8e34-3b7779bb7608"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Trandoshans_Rescale\\[K1]_Trandoshans_Rescale\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Custom Selkath Animation
-
-**Name:** [Custom Selkath Animation](https://deadlystream.com/files/file/1555-custom-selkath-animation/)
-
-**Author:** Alvar007
-
-**Description:** At many points in the files the Selkath are called on to make an "angry" animation type, but BioWare never made one for them. This is a custom animation for the Selkath that allow them to react properly whenever the files call for an angry emote.
-
-**Category & Tier:** Bugfix / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "eb8b1dc5-5854-4884-9bf7-bc61c8278512"
-Instructions = [
-     = {
-        Guid = "fd948258-f490-44b8-908a-05d71f787538"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Custom Selkath Animation.rar",
-        ]
-    }
-     = {
-        Guid = "d4f748f0-a761-4f2b-8109-9c0b38cf1b7b"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Custom Selkath Animation\\Custom Selkath Animation\\Install Custom Selkath Animation.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Sherruk Attacks with Lightsabers
-
-**Name:** [Sherruk Attacks with Lightsabers](http://deadlystream.com/files/file/693-sherruk-attacks-with-lightsabers/)
-
-**Author:** Shem, patch by A Future Pilot & Darth Parametric
-
-**Description:** Sherruk, the Mandalorian leader on Dantooine, likes to collect the lightsabers of the Jedi whom he's killed, and the settlers on the plains tell you that he's been heard to use them in battle. With this mod he really does use those lightsabers--and an impressively expanded inventory of equipment--to fuck your shit up.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-
-**Installation Instructions:** Install the base mod first, then move the file from the patch directly to your override.
-
-<!--<<ModSync>>
-Guid = "21fa792a-1f00-4e3f-986a-6dd8aa746d2c"
-Instructions = [
-     = {
-        Guid = "b7181986-7d03-46e8-8bc7-c77c8c1e9eb8"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\SAWL Patch.rar",
-            "<<modDirectory>>\\sherruksabers.7z",
-        ]
-    }
-     = {
-        Guid = "b273dd59-3484-4d5f-86cd-eb69a25007b3"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\sherruksabers\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-     = {
-        Guid = "fbbf98a5-f36a-40dd-88b3-405b46ea0274"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\SAWL Patch\\SAWL Patch\\Override\\dan14_sherruk.utc",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Helena Shan Improvement
-
-**Name:** [Helena Shan Improvement](https://deadlystream.com/files/file/1218-helena-shan-improvement/)
-
-**Author:** VarsityPuppet
-
-**Description:** This mod changes Helana Shan's appearance to more closely resemble that of her daughter Bastila, while also improving on her texture.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "c07594e9-573b-42eb-9784-591cc3e097ac"
-Instructions = [
-     = {
-        Guid = "b9471811-240b-4e82-be81-52c29257365c"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Helena_Shan_Improvement.zip",
-        ]
-    }
-     = {
-        Guid = "32539ae2-2c89-40b6-9491-c579a8ac459b"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Helena_Shan_Improvement\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Bastila's Dark Bodysuit
-
-**Name:** [Bastila's Dark Bodysuit](https://deadlystream.com/files/file/1006-bastilas-dark-bodysuit-by-quanon-revanator/)
-
-**Author:** Revanator
-
-**Description:** As much as I'd like to think that Malak is just too lazy to care, it's unlikely he'd let Bastila run around with the same pseudo-robes she used as a Jedi without marking her as subservient to the Dark Side. This mod adds a new, slick dark-themed version of Bastila's clothing which she receives for the temple mount encounter and beyond.
-
-**Category & Tier:** Appearance Change & Immersion / 2 - Recommended
-
-
-**Installation Instructions:** Use the regular install--other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
-
-<!--<<ModSync>>
-Guid = "7b0377dd-43f5-4abc-bfc8-e7fbbe524d17"
-Instructions = [
-     = {
-        Guid = "8418f453-740c-488b-b06e-7a956631061b"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Bastila's Dark Bodysuit.7z",
-        ]
-    }
-     = {
-        Guid = "39ef5ca7-6923-4c36-b936-c25276dc00cb"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Bastila's Dark Bodysuit\\Bastila's Dark Bodysuit\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Taris Dueling Arena Adjustment
-
-**Name:** [Taris Dueling Arena Adjustment](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/)
-
-**Author:** DarthParametric
-
-**Description:** The "crowd" in the Taris Dueling Arena is, by default, just a few sprites stuffed in the background. They look awful, and I bet they looked awful even in 2003. Blessedly, this mod fixes that by switching the sprites out with a much more dense crowd, as well as fixing other miscellaneous issues with the arena.
-
-**Category & Tier:** Appearance Change & Bugfix & Graphics Improvement / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "682c97fc-9123-4d13-a98c-49f84f18eb91"
-Instructions = [
-     = {
-        Guid = "de5cfaab-9ca0-44e8-ad47-8304196b1ab2"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Taris_Dueling_Arena_Adjustment*.7z",
-        ]
-    }
-     = {
-        Guid = "e4c64d9d-9131-484d-ad87-6a4161fc775c"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Taris_Dueling_Arena_Adjustment_v*\\[K1]_Taris_Dueling_Arena_Adjustment_v*\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Bendak Bounty Non-Darkside Option
-
-**Name:** [Bendak Bounty Non-Darkside Option](https://drive.google.com/file/d/1NuewBFq390wkZuBkbJzN-mN4sIRlvXGd/view)
-
-**Author:** Thrak Farelle, edited by A Future Pilot
-
-**Description:** Since Selven can be killed as a government contract with no DS points gained, why can't Bendak? This mod allows the player to decide whether they're agreeing to the death match just because they want blood (DS) or because they simply want to ensure Bendak doesn't kill anyone else (LS).
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-
-**Installation Instructions:** This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
-
-<!--<<ModSync>>
-Guid = "f5123696-472a-4c0a-ab77-167859464a22"
-Instructions = [
-     = {
-        Guid = "4c15349f-b97e-46ff-911b-f62564af6be3"
-        Action = "Copy"
-        Source = [
-            "<<modDirectory>>\\tar02_duelorg021.dlg",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-     = {
-        Guid = "2487bc11-19c2-48a3-b11a-316a4c5008f4"
-        Action = "Move"
-        Source = [
-            "<<modDirectory>>\\view",
-        ]
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
-
-___
-
-### Kashyyyk Shadowlands Forcefield Rework
-
-**Name:** [Kashyyyk Shadowlands Forcefield Rework](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/)
-
-**Author:** DarthParametric
-
-**Description:** By default, the forcefield in the Kashyyyk shadowlands doesn't have any point of interaction to it, and so to get around this oversight BioWare had to use some camera trickery to prevent the player from seeing what Jolee was doing. This mod fixes this, as well as some other issues with the area, allowing the area transition to work with a more normal camera angle.
-
-**Category & Tier:** Immersion / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "053a958b-1c45-448e-97ca-6ff636aba196"
-Instructions = [
-     = {
-        Guid = "165db29e-6a66-45b6-8235-87a21c20fe18"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield*.7z",
-        ]
-    }
-     = {
-        Guid = "689984d6-0039-4275-b205-07be1384e1ba"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Missing Lamps Fix
-
-**Name:** [Missing Lamps Fix](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/)
-
-**Author:** Ebmar
-
-**Description:** Several lamps which are supposed to be visible had bad references assigned to them, which caused them to fail spawning in and led to phantom light sources. This mod fixes that, as well as fixing the positioning of a misaligned pillar in the same area.
-
-**Category & Tier:** Bugfix / 4 - Optional
-
-
-**Installation Instructions:** Run the patcher twice, first to install the lamp fix and then once to install the optional pillar facing fix.
-
-<!--<<ModSync>>
-Guid = "44d6261a-39c7-4bea-af34-0fe8066a270c"
-Instructions = [
-     = {
-        Guid = "2709dbb4-256d-4e53-a7a6-57efa8439082"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*.7z",
-        ]
-    }
-     = {
-        Guid = "d21831d5-e070-404a-90e9-4ad76e72f20c"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-     = {
-        Guid = "65ed0b5e-22d8-4947-a12b-9d93f30920d8"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Sith Soldier Texture Restoration
-
-**Name:** [Sith Soldier Texture Restoration](https://deadlystream.com/files/file/1289-sith-soldier-texture-restoration/)
-
-**Author:** A Future Pilot
-
-**Description:** It turns out there were several textures planned for Sith Troopers that didn't make it fully into the game. This mod restores an alternate white texture which was meant for Elite troopers, who by default simply share the appearance of regular troopers.
-
-**Category & Tier:** Restored Content / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "2cfecb5b-debf-48ed-9ab8-3add52df933a"
-Instructions = [
-     = {
-        Guid = "52ce528c-78ff-4a84-b3a0-dad8148a66df"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Sith Soldier Texture Restoration*.zip",
-        ]
-    }
-     = {
-        Guid = "1ff4b707-f4ee-40e3-bf84-65cc67ce3d0e"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Sith Soldier Texture Restoration*\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Diversified Wounded Republic Soldiers
-
-**Name:** [Diversified Wounded Republic Soldiers](https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/)
-
-**Author:** DarthParametric
-
-**Description:** By default, the Republic soldiers in Zelka Forn's clinic on Taris all have the exact same model. This mod varies their appearance to preserve realism.
-
-**Category & Tier:** Appearance Change / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "32781e7c-1f9b-4fa2-a346-bc86c42cc6e7"
-Instructions = [
-     = {
-        Guid = "2aa04c50-6cb4-4ad4-9d10-aab8c4ed4d6f"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*.7z",
-        ]
-    }
-     = {
-        Guid = "60e843b1-a2d0-4dd2-a2d3-b3a17e643eba"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Diversified Jedi Captives
-
-**Name:** [Diversified Jedi Captives](https://deadlystream.com/files/file/1199-diversified-jedi-captives-on-the-star-forge/)
-
-**Author:** DarthParametric
-
-**Description:** This mod ensures all the Jedi captives on the Star Forge don't use the same model, and are instead realistically unique in appearance.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-
-**Installation Instructions:** I recommend the Base install option. If you wish to add these NPCs to Dantooine, you can also install the optional module; just make sure to add the compatibility patch if you're using 'Cloaked Jedi Robes' above.
-
-<!--<<ModSync>>
-Guid = "36a3c134-2a0e-4fff-a7c2-41e1c72d972e"
-Instructions = [
-     = {
-        Guid = "a042a50b-f663-40d7-9ec7-504787737e42"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*.7z",
-        ]
-    }
-     = {
-        Guid = "72690755-4ac2-468a-9a10-f9b2ddc278b3"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Juhani Romance Enhancement
-
-**Name:** [Juhani Romance Enhancement](https://deadlystream.com/files/file/772-juhani-romance-enhancement/)
-
-**Author:** Kexikus
-
-**Description:** In the vanilla version of KOTOR that shipped, there is actually a romance option for female characters and Juhani, though it's tough as sin to proc due to a myriad of bugs (fixed by the K1CP in this mod package). Even so, it's very underdone and has no real conclusion to speak of. This mod's goal is to at least provide some basic closure to the romance and confirm that yes, you did actually proc it properly.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "fda7e614-8963-42d2-a47a-33f0e4d1b0d9"
-Instructions = [
-     = {
-        Guid = "66ad4f47-9393-43b7-8afc-2e577015d964"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Juhani_Romance_Enhancement.zip",
-        ]
-    }
-     = {
-        Guid = "fda9a1b5-b12f-4ad2-b46f-6fd8b534f8bf"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Juhani_Romance_Enhancement\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Dodonna's Transmission
-
-**Name:** [Dodonna's Transmission](https://deadlystream.com/files/file/1101-dodonna's-transmission/)
-
-**Author:** danil-ch
-
-**Description:** When just about to assault the Star Forge, Admiral Dodonna contacts the Ebon Hawk. Inexplicably, in the DS version of the cutscene the player is present, but in the LS version, despite the player's incredible importance, they're entirely absent. This mod adds the player into the LS version of the scene as well, so they match up.
-
-**Category & Tier:** Immersion / 2 - Recommended
-
-
-**Installation Instructions:** Recommend the Revisited option.
-
-<!--<<ModSync>>
-Guid = "9070c478-07a9-4805-8daa-b835360a155c"
-Instructions = [
-     = {
-        Guid = "af925ccd-d514-4e7e-b244-739101869a6b"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*.rar",
-        ]
-    }
-     = {
-        Guid = "8a24445b-a811-4ff2-aaf9-c694aea19999"
-        Action = "Choose"
-        Source = [
-            "f54f00ba-805b-4639-8c89-cb4c56eb9cca",
-            "6da14f0e-28f7-44cc-b991-f0ef2afa10dd",
-        ]
-    }
-]
-Options = [
-     = {
-        Guid = "f54f00ba-805b-4639-8c89-cb4c56eb9cca"
-        Name = "Standard"
-        Restrictions = [
-            "6da14f0e-28f7-44cc-b991-f0ef2afa10dd",
-        ]
-        Instructions = [
-             = {
-                Guid = "a112196c-2cd7-4e6c-a915-7d32cec844c2"
-                Action = "Patcher"
-                Source = [
-                    "<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*\\[K1]_Dodonna's_Transmission_v*\\Transmission.exe",
-                ]
-                Destination = "<<kotorDirectory>>"
-            }
-        ]
-    }
-     = {
-        Guid = "6da14f0e-28f7-44cc-b991-f0ef2afa10dd"
-        Name = "Revisited"
-        IsSelected = true
-        Restrictions = [
-            "f54f00ba-805b-4639-8c89-cb4c56eb9cca",
-        ]
-        Instructions = [
-             = {
-                Guid = "809be721-f506-4315-b90b-6b984ff1b891"
-                Action = "Patcher"
-                Source = [
-                    "<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*\\[K1]_Dodonna's_Transmission_v*\\Transmission.exe",
-                ]
-                Destination = "<<kotorDirectory>>"
-            }
-        ]
-    }
-]
--->
-
-___
-
-### Movie-Style Endgame Holograms
-
-**Name:** [Movie-Style Endgame Holograms](https://deadlystream.com/files/file/1342-movie-style-holograms-for-end-game-cutscenes/)
-
-**Author:** DarthParametric
-
-**Description:** Gets rid of the ugly, "painted" holograms used for Dodonna's transmission sequence and replaces them with variants closer to the movies, and KOTOR 2.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "28d0bd4c-de3f-434c-84fd-927b9228feec"
-Instructions = [
-     = {
-        Guid = "c7841905-7d50-42a5-b80c-10334484c4d3"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*.7z",
-        ]
-    }
-     = {
-        Guid = "3211ddac-2643-4f55-bb0d-c581a79dab72"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Movie-Style Holograms for the Twisted Rancor Trio
-
-**Name:** [Movie-Style Holograms for the Twisted Rancor Trio](https://deadlystream.com/files/file/1736-movie-style-holograms-for-twisted-rancor-trio-puzzle/)
-
-**Author:** DarthParametric
-
-**Description:** Replaces the holograms for the Twisted Rancor Trio puzzle on Taris with variants closer to those seen in the movies, and KOTOR 2.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "6c8c632f-7b30-41ba-bd8c-562f562b917d"
-Instructions = [
-     = {
-        Guid = "83b20ccf-89ff-4444-814e-2632b4f2c11c"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle.7z",
-        ]
-    }
-     = {
-        Guid = "86123dd5-c6db-4e01-9aa0-3140b01ffbd7"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Movie-Style Rakatan Holograms
-
-**Name:** [Movie-Style Rakatan Holograms](https://deadlystream.com/files/file/1346-movie-style-rakatan-holograms/)
-
-**Author:** DarthParametric
-
-**Description:** Replaces the Rakatan Elder holograms with variants closer to those seen in the movies, and KOTOR 2.
-
-**Category & Tier:** Appearance Change / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "6b3c1671-76f8-46c3-b3d2-c58ea9fe1e8a"
-Instructions = [
-     = {
-        Guid = "09e67259-c3d3-444d-8455-782a12b1555a"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Rakatan_Holograms_v*.7z",
-        ]
-    }
-     = {
-        Guid = "729320aa-6c32-467d-90c0-6401d0c0751d"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Movie-Style_Rakatan_Holograms_v*\\[K1]_Movie-Style_Rakatan_Holograms_v*\\INSTALL.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Elder Droid Unique VO
-
-**Name:** [Elder Droid Unique VO](https://deadlystream.com/files/file/1531-k1-legends-elder-droids-unique-vo/)
-
-**Author:** ebmar
-
-**Description:** By default, the droids in the Elder's compound on Lehon make beeping noises similar to what T3 and other utility droids do, despite the identical model on Dantooine having a VO that clearly indicates it was programmed to speak verbally, in an ancient version of the Rakatan language. This mod modifies the droid's VO set so it no longer beeps, and instead speaks ancient Rakata like the droid on Dantooine.
-
-**Category & Tier:** Immersion / 4 - Optional
-
-
-<!--<<ModSync>>
-Guid = "80e27e9d-c37e-492a-80c1-bae1defef97d"
-Instructions = [
-     = {
-        Guid = "e839d69c-864f-4cab-8f2c-a8fbf271e3ac"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*.7z",
-        ]
-    }
-     = {
-        Guid = "a078f825-f6e4-47c7-9c01-3fff530ef214"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Ajunta Pall's Swords Revamped
-
-**Name:** [Ajunta Pall's Swords Revamped](http://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/)
-
-**Author:** Rece
-
-**Description:** Gives the swords in Ajunta Pall's tomb unique stats and the ability to be sold for credits, unlike in vanilla.
-
-**Category & Tier:** Immersion / 2 - Recommended
-
-
-**Installation Instructions:** Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
-
-<!--<<ModSync>>
-Guid = "e23269d2-86c8-4125-8fec-9cbfbc5dec4d"
-Instructions = [
-     = {
-        Guid = "2e46d833-10f3-4bd2-b462-2b2c1c65f1a3"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Ajunta*s Swords.7z",
-        ]
-    }
-     = {
-        Guid = "d213c425-177e-438a-b78c-93c2ab9f79eb"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Ajunta*s Swords\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Ajunta Pall's Blade
-
-**Name:** [Ajunta Pall's Blade](https://deadlystream.com/files/file/1338-k1-legends-ajunta-palls-blade/)
-
-**Author:** Ebmar
-
-**Description:** Rather than working on all the Sith specter's weapons, this mod focuses on making Ajunta Pall's true blade a visually unique representation of the terror of the Sith Lord.
-
-**Category & Tier:** Appearance Change / 3 - Suggested
-
-
-**Installation Instructions:** Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
-
-<!--<<ModSync>>
-Guid = "c0a5aad0-b76b-48da-8b85-0d5553d4eef8"
-Instructions = [
-     = {
-        Guid = "7994d698-6e61-496d-bcdf-225cb7e616e4"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*.7z",
-        ]
-    }
-     = {
-        Guid = "8687f05e-e277-44a2-9cfd-c2fd827d7674"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-     = {
-        Guid = "9f5a950f-2727-4fe1-9566-6b12d1aabc89"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Weapon Base Stats Rebalance
-
-**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
-
-**Author:** TK-664
-
-**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
-
-**Category & Tier:** Mechanics Change / 1 - Essential
-
-
-<!--<<ModSync>>
-Guid = "bb23963b-b276-4d77-b2e0-6b90cdca53a1"
-Instructions = [
-     = {
-        Guid = "85e7dd60-ab7b-43a6-b1d9-eceb58b415e7"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Weapon Base Stats Re-balance K1.rar",
-        ]
-    }
-     = {
-        Guid = "74f3d278-34b0-4177-bbc2-637159d7823d"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Weapon Base Stats Re-balance K1\\Weapon Base Stats Re-balance K1\\Install WBSR.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Gaffi Stick Improvement
-
-**Name:** [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
-
-**Author:** Fallen Guardian
-
-**Description:** A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "2da4ae86-73bf-4027-b54b-bfd44bb041b8"
-Instructions = [
-     = {
-        Guid = "87f7f747-11e2-4491-b494-9937328d3bee"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Gaffi Stick Improvement.zip",
-        ]
-    }
-     = {
-        Guid = "48757d78-d48e-4f80-b84d-2839fd6636ea"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Gaffi Stick Improvement\\Gaffi Stick Improvement\\Gaffi Stick Improvement.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Dantooine Training Lightsabers
-
-**Name:** [Dantooine Training Lightsabers](https://www.nexusmods.com/kotor/mods/66/)
-
-**Author:** Kexikus
-
-**Description:** Canonically, Jedi fought with low-power training lightsabers during their training, not swords. This mod provides the PC and Bastila with a training lightsaber for the purposes of the Dantooine training montage, replacing the scene's default longswords.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-
-<!--<<ModSync>>
-Guid = "1cf7313c-5073-4ae5-992f-5e21fc08be5b"
-Instructions = [
-     = {
-        Guid = "8fdb13f8-4ed6-487a-8d9a-907d42684605"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\DantTrainingLS*.zip",
-        ]
-    }
-     = {
-        Guid = "0bcfe162-3c58-4dca-ac6a-2998a9c91f70"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\DantTrainingLS*\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Logical Datapads
-
-**Name:** [Logical Datapads](https://deadlystream.com/files/file/2008-logical-datapads/)
-
-**Author:** Sdub
-
-**Description:** Datapad, datapad, datapad, datapad, datapad. You wouldn't be able to tell it by looking at them, but in vanilla those are five different items. No more. This mod logically renames all datapads to actually explain what they are, so you don't risk an aneurism while looking for a specific one in your inventory.
-
-**Category & Tier:** Immersion / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "f1c63885-b9bc-4c94-b3ce-ef579a6f7b19"
-Instructions = [
-     = {
-        Guid = "f3eecf6c-7006-4625-b870-8fd30e79059e"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\Logical Datapads.7z",
-        ]
-    }
-     = {
-        Guid = "69c06403-0628-487d-b264-4d7efa5cfe52"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\Logical Datapads\\Logical Datapads\\Install.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Realistic Visual Effects
-
-**Name:** [Realistic Visual Effects](http://deadlystream.com/files/file/681-realistic-visual-effects/)
-
-**Author:** Shem
-
-**Description:** Removes the glowing and other unrealistic visual effects when using flurry, critical strike, etc.
-
-**Category & Tier:** Immersion / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "1b9f5ad1-74e3-4446-9807-c70b85f8c646"
-Instructions = [
-     = {
-        Guid = "e1eaf7b8-f147-4eee-aed9-064febb4c542"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\visual_effects_k1.7z",
-        ]
-    }
-     = {
-        Guid = "736e7546-6ed3-4ade-b41f-3a0d8b4ae9ec"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\visual_effects_k1\\Real Visual Effects K1.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### NPC Alignment Fix
-
-**Name:** [NPC Alignment Fix](https://deadlystream.com/files/file/1866-npc-alignment-fix/)
-
-**Author:** TK-664
-
-**Description:** Corrects a vanilla oversight where many enemies did not have an alignment at all, thereby rendering most items which gave bonus damage/resistances to LS/DS pointless.
-
-**Category & Tier:** Bugfix & Immersion / 2 - Recommended
-
-
-<!--<<ModSync>>
-Guid = "a5856589-5b28-4ca3-b93a-deba5c0391c0"
-Instructions = [
-     = {
-        Guid = "85830a80-41ee-4e51-a0f9-6bfaafc79993"
-        Action = "Extract"
-        Source = [
-            "<<modDirectory>>\\NPC_Alignment_Fix*.rar",
-        ]
-    }
-     = {
-        Guid = "6ff16e80-b892-48b5-ad81-f000e82e66e3"
-        Action = "Patcher"
-        Source = [
-            "<<modDirectory>>\\NPC_Alignment_Fix*\\TSLPatcher.exe",
-        ]
-        Destination = "<<kotorDirectory>>"
-    }
-]
--->
-
-___
-
-### Remove Duplicate TGA/TPC
-
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
-
-**Author:** Flachzangen, bash version by /u/th3w1zard1
-
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
-
-**Category & Tier:** Patch / 1 - Essential
-
-
-**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that TPC should be deleted and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](https://www.reddit.com/r/kotor/wiki/k1buildtpcdelete). MAKE SURE THIS SCRIPT RUNS PROPERLY!
-
-<!--<<ModSync>>
-Guid = "eff1eb51-4264-4afc-b4d2-44e362dedce6"
-Instructions = [
-     = {
-        Guid = "79510b81-9e8a-4e48-a80e-911d49596af5"
-        Action = "DelDuplicate"
-        Destination = "<<kotorDirectory>>\\Override"
-    }
-]
--->
 

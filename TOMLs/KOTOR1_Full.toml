@@ -1,9 +1,11 @@
 [metadata]
 fileFormatVersion = "2.0"
 
+# VALIDATION ISSUES:
+# Failed to process component for download
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1313-kotor-dialogue-fixes/" = {  } }
-Guid = "5721c24e-bb36-45db-8a50-3519fa8d454d"
+Guid = "987a0d17-c596-49af-ba28-851232455253"
 Name = "KOTOR Dialogue Fixes"
 Author = "Salk & Kainzorus Prime"
 Tier = "1 - Essential"
@@ -15,12 +17,12 @@ Category = ["Immersion"]
 Language = ["NO"]
 
 [[thisMod.Instructions]]
-Guid = "3c85d603-6802-43c0-ad90-ed224e470d99"
+Guid = "e6d0dbb7-75f7-4886-a4a5-e7eea85dac1c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\KotOR_Dialogue_Fixes*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "b906c607-70a5-4b31-b718-544a8bf8a6d3"
+Guid = "b201d6e8-3d07-4de5-a937-47ba9952afac"
 Action = "Choose"
 Source = ["cf2a12ec-3932-42f8-996d-b1b1bdfdbb48", "6d593186-e356-4994-b6a8-f71445869937"]
 
@@ -31,7 +33,7 @@ Description = "Straight fixes to spelling errors/punctuation/grammar"
 Restrictions = ["6d593186-e356-4994-b6a8-f71445869937"]
 [[thisMod.Options.Instructions]]
 Parent = "cf2a12ec-3932-42f8-996d-b1b1bdfdbb48"
-Guid = "835c8733-7c71-40a2-b56e-5ef719842959"
+Guid = "9521423e-e617-474c-bcbb-a15563a516fc"
 Action = "Move"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\KotOR_Dialogue_Fixes*\\Corrections only\\dialog.tlk"]
@@ -44,17 +46,15 @@ IsSelected = true
 Restrictions = ["cf2a12ec-3932-42f8-996d-b1b1bdfdbb48"]
 [[thisMod.Options.Instructions]]
 Parent = "6d593186-e356-4994-b6a8-f71445869937"
-Guid = "ec4de54f-ef33-4b9f-bb00-33e4b5388a01"
+Guid = "80fba038-4a24-4716-a0cc-1d4051e952a0"
 Action = "Move"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\KotOR_Dialogue_Fixes*\\PC Response Moderation version\\dialog.tlk"]
 
 
-# URL RESOLUTION FAILURE: https://mega.nz/file/MFIByAKY#8MaLMEUvI-xMJ20buuugR8DTNHa6wab2RK3tk5kBMnk
-# Failed to resolve filename
 [[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/349-character-start-up-change/" = {  }, "https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg" = {  }, "https://mega.nz/file/MFIByAKY#8MaLMEUvI-xMJ20buuugR8DTNHa6wab2RK3tk5kBMnk" = {  } }
-Guid = "99d42a16-d25b-4f17-a937-1295ec34de93"
+ModLinkFilenames = { "http://deadlystream.com/files/file/349-character-start-up-change/" = {  }, "https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg" = {  } }
+Guid = "49d521a0-235f-44bc-8fb4-7aeac6ce4b68"
 Name = "Character Startup Changes"
 Author = "jonathan7, patch by A Future Pilot"
 Tier = "2 - Recommended"
@@ -66,18 +66,18 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "425e44cb-9c46-4fbe-ace9-2d2108c711ce"
+Guid = "61158a2d-9bb1-46fb-be0e-de0f9fe97ad9"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Character Start Up Changes.zip", "<<modDirectory>>\\Character_Startup_Changes_Patch.rar"]
 
 [[thisMod.Instructions]]
-Guid = "fc27c51a-9981-4ff1-8c59-11f058a37ca7"
+Guid = "1aea1422-d94f-42a0-bb01-bbe05ad0d78a"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Character Start Up Changes\\TSLPatcher.exe"]
 
 [[thisMod.Instructions]]
-Guid = "62ecd857-431f-4dba-9434-be66a557dccf"
+Guid = "bb208b12-b284-48a3-b74c-db895099537a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Character_Startup_Changes_Patch\\Override\\feat.2da", "<<modDirectory>>\\Character_Startup_Changes_Patch\\Override\\featgain.2da"]
@@ -85,7 +85,7 @@ Source = ["<<modDirectory>>\\Character_Startup_Changes_Patch\\Override\\feat.2da
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2665-thematic-kotor-companions/" = {  } }
-Guid = "00be5636-e203-47c0-b3c4-92319f73731f"
+Guid = "a3b066d5-3754-462a-aece-8c130206aec2"
 Name = "Thematic KOTOR Companions"
 Author = "Sniggles & JCarter426"
 Tier = "2 - Recommended"
@@ -97,7 +97,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/" = {  }, "https://deadlystream.com/files/file/1313-kotor-dialogue-fixes/" = {  } }
-Guid = "4343ca8f-a08d-4393-8874-507c1161ffa6"
+Guid = "839f5044-4655-4d54-b2a3-346203de871e"
 Name = "JC's Minor Fixes"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -109,18 +109,18 @@ Category = ["Bugfix", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "5532d644-bac1-4873-922a-20ca53db853c"
+Guid = "a1b334ec-b1f9-40e4-a2ae-696574e28ecb"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Minor Fixes for K1*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "3320897f-7ad3-4ff2-be34-7eb93f9d882f"
+Guid = "dbdf934a-e82e-4955-b939-762df9a1a6d6"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\JC's Minor Fixes for K1*\\Straight Fixes\\*", "<<modDirectory>>\\JC's Minor Fixes for K1*\\Resolution Fixes\\*", "<<modDirectory>>\\JC's Minor Fixes for K1*\\Aesthetic Improvements\\*"]
 
 [[thisMod.Instructions]]
-Guid = "009499fe-74cd-4920-a7cb-e57f92838fb6"
+Guid = "97b0833e-4a91-4a90-94a9-5c897f7e2c4a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_enter4.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_enter5.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_enter6.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_enter7.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_exit4.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_exit5.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_exit6.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\man26_exit7.dlg", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\plc_kiosk2.mdl", "<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me Fixes\\plc_kiosk2.mdx"]
@@ -128,7 +128,7 @@ Source = ["<<modDirectory>>\\JC's Minor Fixes for K1 v*\\Things What Bother Me F
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/824-ajunta-pall-unique-appearance/" = {  }, "https://mega.nz/file/McJF1AIC#Jywhu6zXWCRz4gRghxMxoBAWrbU_A3giD1INsOoHqmA" = {  } }
-Guid = "edea9cbd-bfbb-4887-90c2-46e9906cd046"
+Guid = "e76fe583-cf24-4015-b6bb-2faafb36690a"
 Name = "Ajunta Pall Unique Appearance"
 Author = "Silveredge9, Patch by A Future Pilot"
 Tier = "2 - Recommended"
@@ -140,17 +140,17 @@ Category = ["Appearance Change", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "92354f30-be1d-43e0-9f42-ff8f62e6af3c"
+Guid = "70dba201-633e-47ef-9e04-1cb45782cd63"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ajunta Pall Unique Appearance.zip", "<<modDirectory>>\\ajunta_pall_unique_appearance*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "e0f5d95a-9c89-4b84-9c1b-fbe616e5b162"
+Guid = "c5d194e6-e5f2-4961-ae60-fe6f8fb6ed00"
 Action = "Choose"
 Source = ["0c1f007b-a4b2-4a00-b37f-86bd5e0c6337", "b09ac828-f50b-41a5-bd95-9f03e6c90750", "07f81d54-b7f0-4787-907d-3c264ca8d2de", "09d0aab7-f5ae-48a6-917a-e69243a3085f"]
 
 [[thisMod.Instructions]]
-Guid = "3b79ffe1-594a-4991-aff7-8887b5d121f3"
+Guid = "220fd48a-096c-43f5-81a2-691bdba9216f"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Ajunta Pall Unique Appearance\\TSLPatcher.exe"]
@@ -162,7 +162,7 @@ IsSelected = true
 Restrictions = ["b09ac828-f50b-41a5-bd95-9f03e6c90750"]
 [[thisMod.Options.Instructions]]
 Parent = "0c1f007b-a4b2-4a00-b37f-86bd5e0c6337"
-Guid = "cbbb54a4-4fa5-42ee-8494-89db16f37e73"
+Guid = "7b14e061-1e03-498b-8224-72eca9cc65de"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Transparent Skins\\*.t??"]
@@ -173,7 +173,7 @@ Name = "Non-Transparent Skins"
 Restrictions = ["0c1f007b-a4b2-4a00-b37f-86bd5e0c6337"]
 [[thisMod.Options.Instructions]]
 Parent = "b09ac828-f50b-41a5-bd95-9f03e6c90750"
-Guid = "5e68b3cb-cb1c-4120-bc0c-4890c029eec5"
+Guid = "7a7c0984-1095-49f2-b665-ac96fcdda9a4"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Non-Transparent Skins\\*.t??"]
@@ -185,7 +185,7 @@ IsSelected = true
 Restrictions = ["07f81d54-b7f0-4787-907d-3c264ca8d2de"]
 [[thisMod.Options.Instructions]]
 Parent = "09d0aab7-f5ae-48a6-917a-e69243a3085f"
-Guid = "df2c54ca-b1af-4444-9a28-fda6453d1348"
+Guid = "e08c2c17-1c3b-498a-8cff-7e9d777c1f43"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Transparent Skins\\Sith Eyes\\*.t??"]
@@ -196,7 +196,7 @@ Name = "Non-Transparent Sith Eyes"
 Restrictions = ["09d0aab7-f5ae-48a6-917a-e69243a3085f"]
 [[thisMod.Options.Instructions]]
 Parent = "07f81d54-b7f0-4787-907d-3c264ca8d2de"
-Guid = "99e0d796-4705-4a8c-92c8-4ba99387134c"
+Guid = "df93ad13-f310-4975-a754-1575530c038e"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Non-Transparent Skins\\Sith Eyes\\*.t??"]
@@ -204,7 +204,7 @@ Source = ["<<modDirectory>>\\ajunta_pall_unique_appearance_*\\Non-Transparent Sk
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1258-kotor-1-community-patch/" = {  }, "https://mega.nz/file/gQZR1TZY#U7XN5teK9wjXC5Hnj7MFlmHYb8UFyaV5R17ksIuj7Jc" = {  } }
-Guid = "86de017f-f93d-42a0-8c8b-0fabb0ec3990"
+Guid = "30f0ca15-71be-4525-90a2-4a0ace579a6d"
 Name = "KOTOR Community Patch"
 Author = "Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate"
 Tier = "1 - Essential"
@@ -216,25 +216,26 @@ Category = ["Bugfix", "Graphics Improvement", "Immersion"]
 Language = ["YES for Russian and French only, follow the instructions on the mod page to use"]
 
 [[thisMod.Instructions]]
-Guid = "67f7a790-fbd4-49ed-9836-6473aeffb024"
+Guid = "815a4dba-77ca-4ea3-8d27-acbb62b13394"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K1_Community_Patch_v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "663948b0-742f-42e6-b2ab-00568d064a19"
+Guid = "a0b59886-29fd-4d31-bcd9-777251fe7b8b"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\K1_Community_Patch_v*\\INSTALL.exe"]
 
 [[thisMod.Instructions]]
-Guid = "6e29fe5e-b965-473b-b2dd-5d7a44fc4dbb"
+Guid = "97f15589-c4aa-457d-a586-596a81ce40e7"
 Action = "Delete"
+Overwrite = true
 Source = ["<<kotorDirectory>>\\Override\\LKA_leaf03.tpc"]
 
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2456-kotor1-droid-claw-fix/" = {  }, "https://deadlystream.com/files/file/1994-male-scoundrel-ds-underwear-fix/" = {  } }
-Guid = "a5f1a1e7-b0cc-4d26-9504-dee34425404f"
+Guid = "e0b98cc2-addb-4ce0-9f37-daa0dc271f06"
 Name = "Droid Claw Fix"
 Author = "GearHead"
 Tier = "3 - Suggested"
@@ -245,12 +246,12 @@ Category = ["Bugfix"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "d827b8cb-a4bd-47c0-8ff6-222a395a1416"
+Guid = "08ad810d-fec3-46a9-9570-3351fc363f40"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Scoundrel DS Underwear Fix.7z"]
 
 [[thisMod.Instructions]]
-Guid = "70cce3ec-084b-4317-b928-9b175e82ec46"
+Guid = "4d096c7f-6d98-4d33-9ce1-f7feeb8848c9"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Scoundrel DS Underwear Fix\\Scoundrel DS Underwear Fix\\pmbasd01.tpc"]
@@ -258,7 +259,7 @@ Source = ["<<modDirectory>>\\Scoundrel DS Underwear Fix\\Scoundrel DS Underwear 
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1426-k1-ported-alien-vo-replacements/" = {  }, "https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/" = {  } }
-Guid = "dac5e5e2-b295-48a8-95ec-828aed87b497"
+Guid = "216ea791-b2e2-4da8-adec-0ca6c9851f9b"
 Name = "K1 Ported Alien VO Replacements"
 Author = "Ashton Scorpius"
 Tier = "3 - Suggested"
@@ -270,12 +271,12 @@ Category = ["Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "1fb43389-df36-4060-88de-e8aa96d37c01"
+Guid = "b78774b3-c53c-4f14-9168-2e7707df2341"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K1 Twi'lek Heads v1.3.3.7z"]
 
 [[thisMod.Instructions]]
-Guid = "73b2eb84-e5d0-4dac-b3f5-dae47070cd65"
+Guid = "fca3a36f-f4b8-469c-955f-15fbd653b870"
 Action = "Choose"
 Source = ["dc8d0680-0ec6-4f55-a175-d1e9ac611860", "0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1"]
 
@@ -286,7 +287,7 @@ IsSelected = true
 Restrictions = ["dc8d0680-0ec6-4f55-a175-d1e9ac611860"]
 [[thisMod.Options.Instructions]]
 Parent = "0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1"
-Guid = "cae740bf-e097-472b-9625-bbdb077f2bac"
+Guid = "32a56ae4-e12e-43c6-b2a1-b0a9fa2bd02a"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -298,7 +299,7 @@ Name = "Option B - Original Necks"
 Restrictions = ["0b6a16d5-f4c8-43f8-9a1a-604e7eaaccf1"]
 [[thisMod.Options.Instructions]]
 Parent = "dc8d0680-0ec6-4f55-a175-d1e9ac611860"
-Guid = "00cd0227-eaca-4ebe-9c6e-5d8d2488c2d4"
+Guid = "ee166d13-ea63-43cb-824d-709c7e620953"
 Action = "Move"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\Installer.exe"]
@@ -306,7 +307,7 @@ Source = ["<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\Installer.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1367" = {  }, "https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg" = {  } }
-Guid = "b808aed0-8395-401c-a616-4fdf27fd5911"
+Guid = "441053a8-92ea-474b-bd77-e65efd142391"
 Name = "Ultimate Korriban High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -318,12 +319,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "d4ab2cad-3c74-48db-b0b6-642aeb3b81cf"
+Guid = "62709ccd-021b-4581-b1ff-114503b4bb17"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Korriban High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "e88ae1a9-bcc7-4d6f-a76e-9f08e2bf5bea"
+Guid = "8e9198e0-8510-4879-8f0c-625f12ca9f0c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Korriban High Resolution*TPC Version*\\Korriban HR\\Override\\*"]
@@ -331,7 +332,7 @@ Source = ["<<modDirectory>>\\Ultimate Korriban High Resolution*TPC Version*\\Kor
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1365" = {  } }
-Guid = "587b2999-215d-4567-a498-e1689558a6f5"
+Guid = "eae7dd39-a641-4bcf-8ebb-6b743f62b5ed"
 Name = "Ultimate Kashyyyk High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -343,12 +344,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "7c803859-5e2b-4cf6-a524-08a20ecc3d27"
+Guid = "50419189-9736-4f08-a82c-efffc7b34bf7"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Kashyyyk High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "ef39b1a6-3c78-465c-9ab5-3f63c882905b"
+Guid = "89fe1ba1-676a-4bd1-af94-de911254cf3c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Kashyyyk High Resolution*TPC Version*\\Kashyyyk HR\\Override\\*"]
@@ -356,7 +357,7 @@ Source = ["<<modDirectory>>\\Ultimate Kashyyyk High Resolution*TPC Version*\\Kas
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1364" = {  } }
-Guid = "2ca949b3-0a32-464f-940d-533c2f8e11e4"
+Guid = "45defbc4-c6e1-4d86-89b2-55a06af2326c"
 Name = "Ultimate Tatooine High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -368,12 +369,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "1058be8f-e650-468f-a7a8-8c07ebddfddf"
+Guid = "052a610d-14b4-4492-99cc-b83ddd7fe056"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Tatooine High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "1d455a0c-9a46-4bbc-929a-65736c83f6cb"
+Guid = "57528084-39ef-4822-bb17-2e6907715372"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Tatooine High Resolution*TPC Version*\\Tatooine HR\\Override\\*"]
@@ -381,7 +382,7 @@ Source = ["<<modDirectory>>\\Ultimate Tatooine High Resolution*TPC Version*\\Tat
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1368" = {  } }
-Guid = "386db4f0-36bf-46c2-b8b1-e4dff3ea2735"
+Guid = "8a66c854-1051-4471-9983-b0607b083fc1"
 Name = "Ultimate Dantooine High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -393,12 +394,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "3dee89d9-2df9-4a55-ac90-fbfe8e0a37d5"
+Guid = "5994ad00-3032-41f1-9ade-5ff68e8b4787"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Dantooine High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "6169d2b6-0ba6-47a4-9151-fa26b1b17ba5"
+Guid = "dad270ee-3ea5-4baa-96dc-c999f451fd45"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Dantooine High Resolution*TPC Version*\\Dantooine HR\\Override\\LDA_bark02.tpc"]
@@ -406,7 +407,7 @@ Source = ["<<modDirectory>>\\Ultimate Dantooine High Resolution*TPC Version*\\Da
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1370" = {  } }
-Guid = "92ed0fa9-f3be-4143-b1de-10ee0a7b14ad"
+Guid = "9b6cfa1e-a914-42d9-ac87-e7f4c8a6b849"
 Name = "Ultimate Endar Spire/Star Forge/Yavin Station"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -418,12 +419,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "3145bbc0-0225-4a7a-80b5-66d256056a2e"
+Guid = "3a7befae-bd3f-4d69-9a73-3acb7e342efd"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Endar Spire-Star Forg*Yavin Station*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "93a9cc37-31ac-4b1b-88c8-e68c03d6ce86"
+Guid = "35b73e29-772f-4207-abb1-5746525c836a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Endar Spire-Star Forg*Yavin Station*TPC Version*\\Endar Spire - Yavin Station - Star Forge HR\\Override\\*"]
@@ -431,7 +432,7 @@ Source = ["<<modDirectory>>\\Ultimate Endar Spire-Star Forg*Yavin Station*TPC Ve
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1366" = {  } }
-Guid = "1e4f5c54-b718-46d3-85b4-1f73ee6db2b0"
+Guid = "06d1b3d5-f758-4da5-8f54-67b02d93b961"
 Name = "Ultimate Manaan High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -443,12 +444,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b64cdd49-6577-471a-ae15-79ecee3556cb"
+Guid = "03195d16-800a-4b5a-abcf-6cb9fa81e981"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Manaan High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "3ece1023-fa0e-4c56-8e1a-11b634dac680"
+Guid = "c571afa7-f240-49a3-a9c7-65b74bbfa4df"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Manaan High Resolution*TPC Version*\\Manaan HR\\Override\\*"]
@@ -456,7 +457,7 @@ Source = ["<<modDirectory>>\\Ultimate Manaan High Resolution*TPC Version*\\Manaa
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1360" = {  } }
-Guid = "4fc8372f-361e-43e7-ba53-43484e93d39d"
+Guid = "e144bcdb-ae29-47c6-8afe-342afc3474fe"
 Name = "Ultimate Taris High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -468,12 +469,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "32571b1a-7d26-4657-914d-f8d09d8ffe60"
+Guid = "aa210011-61d8-456c-b376-928ea18d13d1"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Taris High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "e6e53b82-399a-438c-ad6a-17cc892a1e95"
+Guid = "a70e52fd-b512-4777-89d7-87f72b0d9ce7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Taris High Resolution*TPC Version*\\Taris HR\\Override\\*"]
@@ -481,7 +482,7 @@ Source = ["<<modDirectory>>\\Ultimate Taris High Resolution*TPC Version*\\Taris 
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1282?" = {  } }
-Guid = "2022677c-622b-449c-b263-41925a33c0a9"
+Guid = "17794d39-4e13-4a5d-bd90-1f11747dc0ea"
 Name = "Ultimate Character Overhaul"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -494,17 +495,18 @@ Language = ["YES"]
 Dependencies = ["2e5b5fa9-8691-480d-8d7c-80d794d9afe9"]
 
 [[thisMod.Instructions]]
-Guid = "65af0195-4b28-4bf3-9124-396b78d90d59"
+Guid = "7679e165-346f-4565-a97c-54b86620c804"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Character Overhaul -REDUX-*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "0170aaf4-ce57-457b-b560-1912c337cd46"
+Guid = "e32f8404-1350-4b6a-8280-7a0888a4e48a"
 Action = "Delete"
+Overwrite = true
 Source = ["<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PFBI01.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PFBI02.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PFBI03.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PFBI04.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PMBI01.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PMBI02.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PMBI03.tpc", "<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\PMBI04.tpc"]
 
 [[thisMod.Instructions]]
-Guid = "eb505753-bfc5-4c91-8331-1fe876815fc7"
+Guid = "d78595dd-b4bf-43d7-9799-45bee1ba8322"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - Ultimate Character Overhaul*TPC\\*.tpc"]
@@ -512,7 +514,7 @@ Source = ["<<modDirectory>>\\Ultimate Character Overhaul*TPC Version*\\KOTOR - U
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1369" = {  } }
-Guid = "d7f59e64-e15a-4c3e-b2f6-bf5f6e3e202b"
+Guid = "e1324049-a3c9-4596-8fe5-e6f1e887ea94"
 Name = "Ultimate Unknown World High Resolution"
 Author = "ShiningRedHD"
 Tier = "1 - Essential"
@@ -524,17 +526,18 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "1035dcb8-eaae-4581-8ea9-e1d97faa2e7e"
+Guid = "35e26540-66ae-4354-a683-5fe87e3e5b80"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate Unknown World High Resolution*TPC Version*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "b2f14e2b-ef5f-46cf-b9e0-1ff32a9a5d46"
+Guid = "df272450-1faf-41ba-97d5-c4417a803c10"
 Action = "Delete"
+Overwrite = true
 Source = ["<<modDirectory>>\\Ultimate Unknown World High Resolution*TPC Version*\\Unknown World HR\\Override\\LUN_blst01.tpc", "<<modDirectory>>\\Ultimate Unknown World High Resolution*TPC Version*\\Unknown World HR\\Override\\LUN_blst02.tpc"]
 
 [[thisMod.Instructions]]
-Guid = "b3e24869-a366-423a-8f80-9488e3da4aed"
+Guid = "38ee5755-a141-43b0-9f63-da70917d5715"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate Unknown World High Resolution*TPC Version*\\Unknown World HR\\Override\\*"]
@@ -542,7 +545,7 @@ Source = ["<<modDirectory>>\\Ultimate Unknown World High Resolution*TPC Version*
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1632" = {  } }
-Guid = "a09e2028-1e08-470f-a0f2-144f6bc5db51"
+Guid = "2b273cfe-005d-4adb-8e97-1beb9a0e2fa0"
 Name = "Korriban Sith Art"
 Author = "MessesWithWolves"
 Tier = "2 - Recommended"
@@ -555,7 +558,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U" = {  } }
-Guid = "de0d209d-be3c-4c61-9d0e-255cb87a1354"
+Guid = "0c9e08d1-ad35-4129-9f12-5f0192e6743a"
 Name = "Deadeye Duncan on Manaan"
 Author = "Seamhainn"
 Tier = "3 - Suggested"
@@ -566,12 +569,12 @@ Category = ["Restored Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "4f161aad-7a6f-4a5a-a26d-0a7be0b9c2a2"
+Guid = "579fe0eb-8eff-43a5-a711-b126f8f5fa9e"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Duncan on Manaan.7z"]
 
 [[thisMod.Instructions]]
-Guid = "f2e81d2f-19f4-4a5d-bd1c-80bd5ba33b72"
+Guid = "d72e20f8-2c5e-4222-8f83-679b19d2a51d"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Duncan on Manaan\\deadeye_man.kmm", "<<modDirectory>>\\Duncan on Manaan\\k_pman_duncan01.ncs", "<<modDirectory>>\\Duncan on Manaan\\k_spwn_duncan.ncs", "<<modDirectory>>\\Duncan on Manaan\\man26_reparg.dlg", "<<modDirectory>>\\Duncan on Manaan\\man26ad_duncan.dlg"]
@@ -579,7 +582,7 @@ Source = ["<<modDirectory>>\\Duncan on Manaan\\deadeye_man.kmm", "<<modDirectory
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2013-consistent-conditioning-icons/" = {  } }
-Guid = "f89b0d82-2b92-4d35-8ba2-b8395b6e52f7"
+Guid = "9167621d-cfc4-4093-8725-7cb780102d03"
 Name = "Consistent Conditioning Icons"
 Author = "Sdub"
 Tier = "4 - Optional"
@@ -590,12 +593,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "5979be4e-bc21-4f5a-8400-93a7274fa362"
+Guid = "a7da85d0-d1e6-4798-91f6-7ecaee226622"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Consistent Conditioning Icons.7z"]
 
 [[thisMod.Instructions]]
-Guid = "dcf35dc1-fb39-40fb-acb5-fde3a448f080"
+Guid = "8ca61412-b593-48e1-927f-9bff1efb91d7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Consistent Conditioning Icons\\Consistent Condining Icons\\Override\\*"]
@@ -603,7 +606,7 @@ Source = ["<<modDirectory>>\\Consistent Conditioning Icons\\Consistent Condining
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1361-hd-pazaak-cards/" = {  } }
-Guid = "1175234c-b65a-447f-8609-45d30bfe01ba"
+Guid = "2df4a18c-edc3-4a9c-8d29-26cacb6b49ea"
 Name = "HD Pazaak Cards"
 Author = "CarthOnasty"
 Tier = "3 - Suggested"
@@ -615,18 +618,18 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b9f26029-f6c6-4e15-a76c-24537bef6f87"
+Guid = "fe744276-b3cb-4089-9540-74be5dc9c1b1"
 Action = "Extract"
 Source = ["<<modDirectory>>\\HD_Pazaak_Cards.zip"]
 
 [[thisMod.Instructions]]
-Guid = "e588622e-151e-44e7-9c03-3fd3691d914a"
+Guid = "e3ae5021-89b6-41dc-8391-dc90c98a956a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\HD_Pazaak_Cards\\*"]
 
 [[thisMod.Instructions]]
-Guid = "a4543d32-3b5d-431a-b9c8-35a186303bd6"
+Guid = "d4648ded-a45e-4528-9e1b-3d33beaa304a"
 Action = "Choose"
 Source = ["7dd603fc-5898-481e-81e7-2aef77bda2ea"]
 
@@ -635,7 +638,7 @@ Guid = "7dd603fc-5898-481e-81e7-2aef77bda2ea"
 Name = "Green Pazaak Cards"
 [[thisMod.Options.Instructions]]
 Parent = "7dd603fc-5898-481e-81e7-2aef77bda2ea"
-Guid = "79d4c36d-3d9b-4a15-b979-224468b4db61"
+Guid = "81bd41a6-8ffa-4671-b24d-cecf13821d8b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\HD_Pazaak_Cards\\green\\*"]
@@ -643,7 +646,7 @@ Source = ["<<modDirectory>>\\HD_Pazaak_Cards\\green\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/" = {  } }
-Guid = "2166d712-a3f8-467d-960e-da78abba84e2"
+Guid = "8ec33425-68fe-4638-9fb8-146072ff3f3a"
 Name = "Republic Soldier Fix"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -655,12 +658,12 @@ Category = ["Graphics Improvement", "Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "92c1ec3a-fb9d-4af3-9fc0-d48b64458150"
+Guid = "83893e3a-9434-4a9e-8f44-aba1db6d44bb"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Republic Soldier Fix for K1*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "ba6df77d-96ac-4e05-b1ad-78de7391dc83"
+Guid = "c87e6217-7aae-4dec-8e05-7b113aef20b6"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\JC's Republic Soldier Fix for K1*\\*\\*"]
@@ -668,7 +671,7 @@ Source = ["<<modDirectory>>\\JC's Republic Soldier Fix for K1*\\*\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/" = {  } }
-Guid = "ba3540f4-25eb-41ad-8405-169e1dd46519"
+Guid = "94bb0857-c0b9-45cd-93bf-4c4e51e3fe03"
 Name = "Republic Soldier's New Shade"
 Author = "ebmar"
 Tier = "2 - Recommended"
@@ -681,12 +684,12 @@ Language = ["YES"]
 InstallAfter = ["9fed8e49-75b5-4613-a311-f60ec8449d78"]
 
 [[thisMod.Instructions]]
-Guid = "64e30073-5ad7-42c2-97d2-127fec7ba0ee"
+Guid = "abcc0c42-a7dc-4d7d-b0dd-7a1144eb84b4"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "fa170900-8510-4bbb-a4ed-571b004178c0"
+Guid = "d5c31c08-5e47-41a6-bfeb-3adbd14165e9"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -694,7 +697,7 @@ Source = ["<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic
 Restrictions = ["9fed8e49-75b5-4613-a311-f60ec8449d78"]
 
 [[thisMod.Instructions]]
-Guid = "ecb73f61-a902-499f-b51a-a3d441247d1b"
+Guid = "566f400f-a260-43e4-bcd1-0fc83b9037b3"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "2"
@@ -702,7 +705,7 @@ Source = ["<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic
 Restrictions = ["9fed8e49-75b5-4613-a311-f60ec8449d78"]
 
 [[thisMod.Instructions]]
-Guid = "c45fb07b-5196-438b-923f-651b85ce8e7c"
+Guid = "7adb8ba1-a220-4f8e-94f5-95a2853a5f7e"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "3"
@@ -710,7 +713,7 @@ Source = ["<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v*\\[K1]_Republic
 Dependencies = ["9fed8e49-75b5-4613-a311-f60ec8449d78"]
 
 [[thisMod.Instructions]]
-Guid = "2d1eab87-4167-498e-ba49-f5bf47cb2f7e"
+Guid = "02dc5a63-6e22-4d64-b631-d6f8256f971a"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "5"
@@ -720,7 +723,7 @@ Dependencies = ["9fed8e49-75b5-4613-a311-f60ec8449d78"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1547-hd-pc-portraits/" = {  } }
-Guid = "eaaf4e1f-7500-4a64-b1f1-5ef12f2e7536"
+Guid = "b9609e41-784b-4d84-8cec-893dbd473f0e"
 Name = "HD PC Portraits"
 Author = "ndix UR"
 Tier = "3 - Suggested"
@@ -731,12 +734,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "c88e799d-82e6-427f-b481-065ab458cf36"
+Guid = "f9c60151-2402-4849-9fbe-6a9ff9f40c76"
 Action = "Extract"
 Source = ["<<modDirectory>>\\hd_pc_portraits*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "997f541e-29d6-4622-b085-ab6570dd52f0"
+Guid = "af2be322-dc45-40ef-b657-0ce39739a954"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\hd_pc_portraits*\\hd_pc_portraits\\Override\\*"]
@@ -744,7 +747,7 @@ Source = ["<<modDirectory>>\\hd_pc_portraits*\\hd_pc_portraits\\Override\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1857-pmha05-hd/" = {  } }
-Guid = "4fc6733a-22b7-42db-bee2-73b2532baa67"
+Guid = "0e016837-8046-4e84-9a5e-015c046002d0"
 Name = "PMHA05 HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -755,12 +758,12 @@ Category = ["Graphics Improvement", "Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "24114674-9d51-41fc-b058-7b888b670668"
+Guid = "68c4c59a-3699-48f0-87a6-d5d7e19b2be0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PMHA05 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "2186b516-44ad-438e-96ff-0ead30d447e7"
+Guid = "72f37dd4-1afc-4aa8-97aa-ece7df781f17"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PMHA05 HD\\*"]
@@ -768,7 +771,7 @@ Source = ["<<modDirectory>>\\PMHA05 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1843-pmha02-hd/" = {  } }
-Guid = "6bf775cf-3d26-4506-8b91-c7484f6b0fa0"
+Guid = "e28dc1f1-6e9c-434e-847b-7f14071b9a5d"
 Name = "PMHA02 HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -779,12 +782,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "cdfd513d-e25b-4cf6-878d-83a8091b1d22"
+Guid = "5802ed94-1814-4b00-80e2-d618621409fc"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PMHA02 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "dbecd3a5-f046-4f5f-9136-60134a90269c"
+Guid = "291a16cc-fe58-41ab-abde-20b93d8b0924"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PMHA02 HD\\*"]
@@ -792,7 +795,7 @@ Source = ["<<modDirectory>>\\PMHA02 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1837-pmha01-hd/" = {  } }
-Guid = "0fb1aaf1-3ab0-4d1e-af24-f1205522c483"
+Guid = "48baade8-e49a-478c-9f0c-41aef4515992"
 Name = "PMHA01 HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -803,12 +806,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "63dfb5d1-32c4-47f8-8429-6e833b820440"
+Guid = "b24c6e4b-bfbf-4096-bc5a-30f8dacf663a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PMHA01 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "c15058a0-3a80-46c6-8a51-7136f51d92c4"
+Guid = "389629a5-81b9-486d-809a-f8a001ad252b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PMHA01 HD\\*"]
@@ -816,7 +819,7 @@ Source = ["<<modDirectory>>\\PMHA01 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1738-pfhc05-hd/" = {  } }
-Guid = "b82fdb2c-c2ab-48eb-a260-0a15a9975a81"
+Guid = "9fb39b76-9982-4638-8fcd-6264a0325b0c"
 Name = "PFHC05 HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -827,12 +830,12 @@ Category = ["Graphics Improvement", "Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "e0953a6c-4d5e-4d47-a68a-55c85d84fbf4"
+Guid = "4bd18993-4aa9-450f-b99e-523323f9f70c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PFHC05 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "1f394dda-fb0c-4a64-8549-7127aca8b167"
+Guid = "d7feb179-b174-4b94-93d8-d98ad78288fb"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PFHC05 HD\\*"]
@@ -840,7 +843,7 @@ Source = ["<<modDirectory>>\\PFHC05 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/" = {  } }
-Guid = "10fa3e88-4473-4bd5-9b57-bf9ec141b0d3"
+Guid = "5c164bc8-77bd-490e-b86c-e88db88e19e5"
 Name = "PFHB02 Dark Side Transition Eye Fix"
 Author = "Darth Parametric"
 Tier = "2 - Recommended"
@@ -852,12 +855,12 @@ Category = ["Bugfix", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "0e6c784b-1cc0-4ee4-9a4f-e267669ebe61"
+Guid = "d68ff6ea-7efc-44d1-bb9f-ac68b8139410"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix.7z"]
 
 [[thisMod.Instructions]]
-Guid = "ebb5973d-6aa2-4fb6-a0aa-127a2d110cef"
+Guid = "1f53285e-09bb-4d11-bd1a-188752f17746"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\UPSCALED\\FOR OVERRIDE\\*"]
@@ -865,7 +868,7 @@ Source = ["<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\[K1]
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1209" = {  } }
-Guid = "0eebc251-88fd-4aee-91c8-dc035882cedc"
+Guid = "674b218f-411d-43f1-818b-86f67da2659c"
 Name = "High-Poly Grenades"
 Author = "MadDerp"
 Tier = "4 - Optional"
@@ -876,12 +879,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "10de3333-33fd-4558-beba-6f474b661732"
+Guid = "7ee908ee-3a1a-4022-8f51-a97c995459b1"
 Action = "Extract"
 Source = ["<<modDirectory>>\\hp_grenades*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "79477b2d-abbd-4061-b725-49b0d7ed4cc7"
+Guid = "1d62a1b8-5163-4462-864c-0e114c219f64"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\hp_grenades*\\*"]
@@ -889,7 +892,7 @@ Source = ["<<modDirectory>>\\hp_grenades*\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1190-emperor-turnips-hd-gizka/" = {  } }
-Guid = "df421abf-0191-4d15-bb77-b89611105f3f"
+Guid = "c8683c87-f62a-42b6-b870-63b7d26ecdeb"
 Name = "HD Gizka"
 Author = "Emperor Turnip"
 Tier = "4 - Optional"
@@ -901,12 +904,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "c7140c1f-0bb0-4b13-ae5c-f07422a0900b"
+Guid = "855de6aa-1474-48e2-8d9a-0b5dd8f87c38"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Emperor Turnip*Gizka.rar"]
 
 [[thisMod.Instructions]]
-Guid = "fe776b01-783d-470e-90bc-e6f79977e9f0"
+Guid = "c58ba9a1-85b7-4f95-9065-028f5a78e5ec"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01.tga", "<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01.txi", "<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01b.tga", "<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01b.txi", "<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01l.tga", "<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01l.txi"]
@@ -914,7 +917,7 @@ Source = ["<<modDirectory>>\\Emperor Turnip*s Gizka\\Creatures\\C_Gizka01.tga", 
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/" = {  } }
-Guid = "870c2865-701c-4d6d-93b9-3ff6d580201b"
+Guid = "c6016dfd-d2e1-4d6e-96f4-d252b9c54190"
 Name = "Gammorean Reskin Pack"
 Author = "Quanon"
 Tier = "2 - Recommended"
@@ -925,12 +928,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "01ab1229-224b-45e8-bd46-2b936616a0dc"
+Guid = "208492f6-1b5f-45d5-a5f7-3f55ddfc32c7"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Quanon_Gammoreans.rar"]
 
 [[thisMod.Instructions]]
-Guid = "02668eed-e4f3-4a82-bd76-ae9486976bb8"
+Guid = "5c04412e-d0a2-4785-a6c6-96021e885e8a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean_Low.tga", "<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean01.tga", "<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean02.tga", "<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean03.tga", "<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean04.tga"]
@@ -938,7 +941,7 @@ Source = ["<<modDirectory>>\\Quanon_Gammoreans\\Quanon_Gammoreans\\C_Gammorean_L
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2188-war-droid-mark-i-hd/" = {  } }
-Guid = "aa7c72fe-9425-4abf-97b4-15e3a5bcf92a"
+Guid = "29dfc708-b980-4809-907c-6ea798825de5"
 Name = "War Droid Mk 1 HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -949,12 +952,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b008154a-c089-4f40-a429-8ff368221345"
+Guid = "ef7d0a43-9442-48b9-9d10-dd8688362def"
 Action = "Extract"
 Source = ["<<modDirectory>>\\C_DrdWar.rar"]
 
 [[thisMod.Instructions]]
-Guid = "7cb9beb4-c821-4fc7-a4d0-4a5197efb35c"
+Guid = "b278c489-dbcd-4705-bcf1-ff1e15b4237d"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\C_DrdWar\\C_DrdWar01.tga", "<<modDirectory>>\\C_DrdWar\\C_DrdWar02.tga", "<<modDirectory>>\\C_DrdWar\\C_DrdWar03.tga", "<<modDirectory>>\\C_DrdWar\\C_DrdWar04.tga", "<<modDirectory>>\\C_DrdWar\\C_DrdWar05.tga"]
@@ -962,7 +965,7 @@ Source = ["<<modDirectory>>\\C_DrdWar\\C_DrdWar01.tga", "<<modDirectory>>\\C_Drd
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2220-astromechhd/" = {  } }
-Guid = "616735bd-c771-454c-a786-54761323bbb2"
+Guid = "f5ce06b3-be6d-4a70-8e76-546f9dd2cec3"
 Name = "AstromechHD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -973,12 +976,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "614b4212-30b2-48f1-9e74-53f42cdb19c2"
+Guid = "ef6775d1-cc27-4276-bc0f-0aa9cb5510d6"
 Action = "Extract"
 Source = ["<<modDirectory>>\\AstromechHD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "21c2d676-0c37-4035-b651-481dfaaad7b3"
+Guid = "71c5ecae-99cf-4590-a5e4-22f4d5cd2f73"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\AstromechHD\\N_astromech01.tga", "<<modDirectory>>\\AstromechHD\\N_astromech02.tga"]
@@ -986,7 +989,7 @@ Source = ["<<modDirectory>>\\AstromechHD\\N_astromech01.tga", "<<modDirectory>>\
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2517-hd-realistic-jawas/" = {  }, "https://deadlystream.com/files/file/1828-pmhb05-hd/" = {  } }
-Guid = "863f18a0-4ac4-4259-ae26-5b375f066bf2"
+Guid = "dbed3420-4286-4c40-a3c5-acfeb2ea133b"
 Name = "HD Realistic Jawas"
 Author = "Etienne76"
 Tier = "3 - Suggested"
@@ -997,12 +1000,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "58de05c3-91b8-4bc6-ae8a-e290f02223ea"
+Guid = "e4ae0fa8-377a-4c01-b66a-7ff4772cf5e4"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PMHB05 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "eff1ddc9-cf0b-440d-ad01-bb983585f82c"
+Guid = "33313591-431f-45e2-ac58-9a325b5e3e5a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PMHB05 HD\\*"]
@@ -1010,7 +1013,7 @@ Source = ["<<modDirectory>>\\PMHB05 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2514-hd-realistic-sand-people/" = {  }, "https://mega.nz/file/1ApXxLgY#iAK97Ydx2xvH5ws7NevJGU3ZJQarhBwDAIFcH73O3W4" = {  } }
-Guid = "7fc37ad2-9f0f-49c8-ba8a-e73d17467da9"
+Guid = "356b4829-163d-4755-958d-53b232fdcb04"
 Name = "HD Realistic Sand People"
 Author = "Etienne76"
 Tier = "3 - Suggested"
@@ -1022,7 +1025,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/" = {  }, "https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/" = {  } }
-Guid = "56bfa08a-96c9-49af-8e24-87d44c2a4175"
+Guid = "21b4c114-2ca9-474a-ac26-20775f48c2a9"
 Name = "Better Twi'lek Heads"
 Author = "Ashton Scorpius"
 Tier = "3 - Suggested"
@@ -1034,12 +1037,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "8ddbb874-f9cf-4622-9428-93ee92c34240"
+Guid = "54943f91-f714-46df-af7c-d587b8b5e951"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K1 SL Mouth Adjustment v*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "cf193f22-e8bf-4616-8851-b4f426f6e78e"
+Guid = "dea7b023-a8dd-49bc-9f96-4abed6a44ed9"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_lashoweh.mdl", "<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_lashoweh.mdx", "<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_shaleenah.mdl", "<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_shaleenah.mdx"]
@@ -1047,7 +1050,7 @@ Source = ["<<modDirectory>>\\K1 SL Mouth Adjustment v*\\Override\\n_lashoweh.mdl
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/982-hd-twilek-female/" = {  } }
-Guid = "845d78be-d2b1-4d7b-8660-d2a2879c27c7"
+Guid = "438b7312-bbf9-4ff1-bafe-abb735ff8789"
 Name = "HD Twi'lek Females"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1059,12 +1062,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "a6d958b0-d256-4634-a39b-c76cd1979b18"
+Guid = "fea5764e-8f4d-4262-8bf6-c9dd062c478f"
 Action = "Extract"
 Source = ["<<modDirectory>>\\hd_twilek_female.rar"]
 
 [[thisMod.Instructions]]
-Guid = "72c5f9d0-dee0-4e60-92ed-99c27600e4a5"
+Guid = "461e5136-a052-4073-9081-5224fe33e9d0"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\hd_twilek_female\\N_TwilekFA01.tga", "<<modDirectory>>\\hd_twilek_female\\N_TwilekFB01.tga", "<<modDirectory>>\\hd_twilek_female\\N_TwilekFC01.tga", "<<modDirectory>>\\hd_twilek_female\\twilek_f01.tga", "<<modDirectory>>\\hd_twilek_female\\twilek_f01.txi", "<<modDirectory>>\\hd_twilek_female\\twilek_f02.tga", "<<modDirectory>>\\hd_twilek_female\\twilek_f02.txi", "<<modDirectory>>\\hd_twilek_female\\twilek_f03.tga", "<<modDirectory>>\\hd_twilek_female\\twilek_f03.txi", "<<modDirectory>>\\hd_twilek_female\\twilek_f04.tga", "<<modDirectory>>\\hd_twilek_female\\twilek_f04.txi"]
@@ -1072,7 +1075,7 @@ Source = ["<<modDirectory>>\\hd_twilek_female\\N_TwilekFA01.tga", "<<modDirector
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/1087-k1-thigh-high-boots-for-female-twilek-body-modders-resource/" = {  } }
-Guid = "5421ef9f-7881-4fb2-be5c-1dd695f79007"
+Guid = "ad857453-f205-4bcd-8416-e88c8d69d2b7"
 Name = "Thigh-High Boots for Twi'lek"
 Author = "DarthParametric"
 Tier = "2 - Recommended"
@@ -1084,12 +1087,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "75bbf94b-28ca-476e-9d8b-261850c27477"
+Guid = "925d8c06-a29e-4822-8be3-47ef6205a069"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z"]
 
 [[thisMod.Instructions]]
-Guid = "efc99867-20d4-444d-ad17-d9a9b608078b"
+Guid = "b32c7f04-a634-4158-bad1-f2801ea6c1e1"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\N_TwilekF.mdl", "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\N_TwilekF.mdx", "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\N_TwilekFB01.tga", "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\N_TwilekFC01.tga", "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\SM_TwiFem.mdl", "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\SM_TwiFem.mdx"]
@@ -1097,7 +1100,7 @@ Source = ["<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOU
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/" = {  } }
-Guid = "c5c4a082-5251-47e8-b47e-0962a05b9f37"
+Guid = "24b13691-2b92-4000-aba3-b00c66265e64"
 Name = "Shaleena/Lashowe Mouth Adjustment"
 Author = "Ashton Scorpius"
 Tier = "3 - Suggested"
@@ -1109,7 +1112,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://mega.nz/file/hJhGEbza#qemCHVzBcCWkL__n6mrmVNzD3P2qdV4MWEYQvJudtJY" = {  } }
-Guid = "ba1b9e75-f832-4f11-8a2b-53d31963b043"
+Guid = "efa96b03-6c86-4ad1-87f9-6aabd8cf2ff8"
 Name = "Calo Nord Recolor"
 Author = "Watcher07"
 Tier = "3 - Suggested"
@@ -1121,12 +1124,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "7c74b81c-042c-4b1c-88ca-61c306b3a891"
+Guid = "51911180-113b-4796-a8d5-01f5e8b6661c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Calo Nord Recolor.zip"]
 
 [[thisMod.Instructions]]
-Guid = "56e6aa3c-9676-468c-b379-9c1d13cb6ab8"
+Guid = "8575bc32-5105-42b3-b594-00c45b46d3e8"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Calo Nord Recolor\\CN_Recolor\\Calo Nord Reskin by Watcher07\\Override\\N_CaloNord01.tga"]
@@ -1134,7 +1137,7 @@ Source = ["<<modDirectory>>\\Calo Nord Recolor\\CN_Recolor\\Calo Nord Reskin by 
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/980-hd-darth-malak/" = {  } }
-Guid = "6ebe4177-5401-4470-9ed5-47ae0a405650"
+Guid = "2414637e-ef76-494a-97aa-805685ab5206"
 Name = "HD Darth Malak"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1147,18 +1150,18 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "62e72c50-41b1-4189-b375-9088f8abde78"
+Guid = "05f60756-c706-405a-96e1-296597d5e25f"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Malak.rar"]
 
 [[thisMod.Instructions]]
-Guid = "a3339ebc-1abf-4cd7-960e-a50870b69494"
+Guid = "87df3b87-6f47-4963-9b2e-637b45ec5aa6"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Malak\\N_DarthMalak01.tga"]
 
 [[thisMod.Instructions]]
-Guid = "f508e502-d987-4db5-9a76-12f9b0c4b394"
+Guid = "8153d49a-f4b1-46da-81ab-54c03d97b109"
 Action = "Choose"
 Source = ["e4252583-8c22-4221-88f4-666c9d3ceaf8", "4520e7de-859c-4b7c-a0c1-3d449880febd"]
 
@@ -1168,7 +1171,7 @@ Name = "Malak (Red Eyes)"
 Restrictions = ["4520e7de-859c-4b7c-a0c1-3d449880febd"]
 [[thisMod.Options.Instructions]]
 Parent = "e4252583-8c22-4221-88f4-666c9d3ceaf8"
-Guid = "b446109f-78f4-4cbb-80ff-762c16049e62"
+Guid = "a4c219ab-ae60-4ffe-83c8-08e76b35acc8"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Malak\\N_DarthMalak01.tga", "<<modDirectory>>\\Malak\\Malak (Red Eyes)\\N_DarthMalakh01.tga", "<<modDirectory>>\\Malak\\Malak (Red Eyes)\\N_JediMalekH02.tga"]
@@ -1180,7 +1183,7 @@ IsSelected = true
 Restrictions = ["e4252583-8c22-4221-88f4-666c9d3ceaf8"]
 [[thisMod.Options.Instructions]]
 Parent = "4520e7de-859c-4b7c-a0c1-3d449880febd"
-Guid = "8a6f17c1-67f2-4317-aff3-ed83cc04b661"
+Guid = "b1a169e9-6fda-4eb7-b46e-cf1407776865"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Malak\\N_DarthMalak01.tga", "<<modDirectory>>\\Malak\\Malak (Blue Eyes)\\N_DarthMalakh01.tga", "<<modDirectory>>\\Malak\\Malak (Blue Eyes)\\N_JediMalekH02.tga"]
@@ -1188,7 +1191,7 @@ Source = ["<<modDirectory>>\\Malak\\N_DarthMalak01.tga", "<<modDirectory>>\\Mala
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2787-cinemalak-hd-malak-retexture/" = {  }, "https://deadlystream.com/files/file/2164-darth-bandon-hd/" = {  } }
-Guid = "f2c0ca08-3e51-4bd6-890b-ea676cb0281e"
+Guid = "61083eb5-9ee1-41cf-965d-c8a60dd56259"
 Name = "CineMalak - HD Darth Malak"
 Author = "PoopaPoppaPalpatine"
 Tier = "2 - Recommended"
@@ -1200,12 +1203,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "658b3563-4e78-4e3b-aa98-d0314b132102"
+Guid = "55ed6664-21ee-4cea-a6c4-b5b930b7c75c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Darth Bandon HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "48396a6c-d222-4f11-98a5-2bd8f445aa2e"
+Guid = "dffe224b-1063-4aaa-9f6f-9c81a5e40642"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Darth Bandon HD\\N_DarthBand01.tga", "<<modDirectory>>\\Darth Bandon HD\\N_DarthBand01.txi", "<<modDirectory>>\\Darth Bandon HD\\N_DarthBand01_H.tga", "<<modDirectory>>\\Darth Bandon HD\\N_DarthBand01_H.txi"]
@@ -1213,7 +1216,7 @@ Source = ["<<modDirectory>>\\Darth Bandon HD\\N_DarthBand01.tga", "<<modDirector
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2350-detrans-darth-revan/" = {  } }
-Guid = "9a749c98-4ab3-4301-94f8-952901083c69"
+Guid = "a3a3672f-eafb-4a9b-a665-1fd44336ede8"
 Name = "Detran's Darth Revan"
 Author = "Detran"
 Tier = "2 - Recommended"
@@ -1226,7 +1229,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2164-darth-bandon-hd/" = {  }, "https://deadlystream.com/files/file/1826-pmhb01-hd/" = {  } }
-Guid = "dbc318cb-ce0a-4c8a-98ef-f71d5823e769"
+Guid = "e2a1cf3a-d0ac-4220-b534-c72e6527b58e"
 Name = "Darth Bandon HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1237,12 +1240,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "d66e8efc-8bf7-49af-896a-132d0f757aac"
+Guid = "42482789-8597-4fa2-9bb0-1d116413e6f0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PMHB01 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "255f8e9d-f401-48cd-82cc-8c720ec54038"
+Guid = "98099d85-aeeb-4d15-929c-73bc1c98769c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PMHB01 HD\\*"]
@@ -1250,7 +1253,7 @@ Source = ["<<modDirectory>>\\PMHB01 HD\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1962-hd-vrook-recolored/" = {  } }
-Guid = "04ed50be-44e0-42ad-8f17-29cc64e7efde"
+Guid = "a219d8a0-b574-4ce9-a51b-410e5a5d2918"
 Name = "HD Vrook"
 Author = "Dark Hope, edited by Publicola"
 Tier = "2 - Recommended"
@@ -1261,12 +1264,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "6d4ff8de-2aaf-4dd9-a6e9-76476c752f0f"
+Guid = "0f9d752f-a37e-4d53-a5ad-356b8633709b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\HD Vrook Recolored.zip"]
 
 [[thisMod.Instructions]]
-Guid = "704d6fd8-1af9-4ab8-9069-d7b28c84d06e"
+Guid = "ea0fea08-8fe2-4211-9f54-8d64cac0d92c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\HD Vrook Recolored\\N_VrookH.tga", "<<modDirectory>>\\HD Vrook Recolored\\N_VrookH.txi"]
@@ -1274,7 +1277,7 @@ Source = ["<<modDirectory>>\\HD Vrook Recolored\\N_VrookH.tga", "<<modDirectory>
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1909-random-hd-ui-elements/" = {  } }
-Guid = "ffb3c6e3-9f49-4ceb-b8ff-16634c0ccfd3"
+Guid = "48862146-c160-47b5-a25d-33b14ac61af5"
 Name = "Random HD UI Elements"
 Author = "Sdub"
 Tier = "3 - Suggested"
@@ -1286,12 +1289,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "a10cad5d-662d-4e57-98ff-fb18da0a4bbd"
+Guid = "f23dafd6-3b33-48b7-b207-a9ce62740505"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Random HD UI Elements.zip"]
 
 [[thisMod.Instructions]]
-Guid = "8cc3061f-371a-4f4d-bbd7-90fad4d057d2"
+Guid = "1e88a224-c8b4-4e93-82ad-5ef1ed0c2d9d"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_idant.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_ikash.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_ikorr.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_imana.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_itari.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_itato.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_iunkn.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_live01.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Planet Icons\\lbl_strforge.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pbastila3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pbastila3e.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pcanderous3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pcarth3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_phk473.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pjolee3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pjuhani3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pmission3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_ptrask3.tga", "<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Party Selection\\po_pzaalbar3.tga"]
@@ -1299,7 +1302,7 @@ Source = ["<<modDirectory>>\\Random HD UI Elements\\Random HD UI Elements\\Plane
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1213-hd-npc-portraits/" = {  } }
-Guid = "e81a2c93-b036-469d-bdd0-c6d9426afe96"
+Guid = "704d7b77-ea9a-4a5c-a531-1b7818aa084b"
 Name = "HD NPC Portraits"
 Author = "ndix UR"
 Tier = "3 - Suggested"
@@ -1312,12 +1315,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "754486ed-f9b0-4a83-b2f5-78800b29b8d0"
+Guid = "d1e4e3d3-0fe4-4d84-9eb0-334ca652801b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\hd_npc_portraits*"]
 
 [[thisMod.Instructions]]
-Guid = "7df1b2ac-a4a5-4920-a3da-c2eb35d09a00"
+Guid = "226541bd-1a07-4a01-abf6-75b9d987aece"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\hd_npc_portraits-v2.0\\hd_npc_portraits\\Override\\*"]
@@ -1325,7 +1328,7 @@ Source = ["<<modDirectory>>\\hd_npc_portraits-v2.0\\hd_npc_portraits\\Override\\
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2516-npc-clothing-m/" = {  }, "https://deadlystream.com/files/file/1799-hd-pfhb03/" = {  } }
-Guid = "e937fd14-5356-41cd-8bc7-b3fb1b18a076"
+Guid = "09fd9085-78e6-4b71-a1ca-65ecf3cb2bcd"
 Name = "NPC Clothing M"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1337,12 +1340,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "4338522c-eac2-4493-a226-ae24b3dcad7a"
+Guid = "33f79fe9-ebba-442c-af1a-3fa82b3db63e"
 Action = "Extract"
 Source = ["<<modDirectory>>\\HD PFHB03.rar"]
 
 [[thisMod.Instructions]]
-Guid = "98c8fd86-25cc-43e3-824c-b921565e5e55"
+Guid = "1c3b3198-942e-4552-9675-faaad9660cb8"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\HD PFHB03\\*"]
@@ -1350,7 +1353,7 @@ Source = ["<<modDirectory>>\\HD PFHB03\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/" = {  }, "https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU" = {  } }
-Guid = "29b1ecf3-83d6-4330-8b30-9722242deb11"
+Guid = "54d86a11-285f-4c57-b787-d38d4fbe5f7f"
 Name = "Juhani Appearance Overhaul"
 Author = "Stormie97, Patch by JCarter"
 Tier = "2 - Recommended"
@@ -1362,19 +1365,19 @@ Category = ["Appearance Change", "Immersion", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "72290e51-c6e3-45f2-ad32-fdb356049486"
+Guid = "7b3dd6cc-df2b-438f-adec-ed17edac7bd2"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JAO_Saber_Replacement.7z", "<<modDirectory>>\\Juhani Appearance Overhaul.rar"]
 
 [[thisMod.Instructions]]
-Guid = "86b2a549-00d8-4818-ad3e-49c6ceccfb14"
+Guid = "49646f0c-63ce-45ed-994b-6a2c08b6c1b8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "2"
 Source = ["<<modDirectory>>\\Juhani Appearance Overhaul\\Juhani Appearance Overhaul.exe"]
 
 [[thisMod.Instructions]]
-Guid = "bbc34b20-0b1c-4728-985a-91dfdc5bd38f"
+Guid = "fba1c7a6-33f0-4a8f-a2e9-aa37eff18a93"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\JAO_Saber_Replacement\\JAO_Saber_Replacement\\Install.exe"]
@@ -1382,7 +1385,7 @@ Source = ["<<modDirectory>>\\JAO_Saber_Replacement\\JAO_Saber_Replacement\\Insta
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/702-juhani-real-cathar-head/" = {  } }
-Guid = "8ff7edfa-751a-46b6-a67b-5d58625a565d"
+Guid = "705ab76c-dcd4-4ba0-ae17-973cebbd834f"
 Name = "Juhani Real Cathar Head"
 Author = "Miro42"
 Tier = "2 - Recommended"
@@ -1393,12 +1396,12 @@ Category = ["Appearance Change", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "279ff19f-12ad-4a3b-9ebf-978c38d193a9"
+Guid = "a092e34f-cb6c-4562-a516-69857f7863bf"
 Action = "Extract"
 Source = ["<<modDirectory>>\\juhaniCathar_head.zip"]
 
 [[thisMod.Instructions]]
-Guid = "5d95cd96-3c67-4b57-835b-cca22603823e"
+Guid = "2c6f1512-afcb-4563-8a8b-e0293ba94172"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\juhaniCathar_head\\p_juhanih.mdl", "<<modDirectory>>\\juhaniCathar_head\\p_juhanih.mdx", "<<modDirectory>>\\juhaniCathar_head\\P_JuhaniH01.tga"]
@@ -1406,7 +1409,7 @@ Source = ["<<modDirectory>>\\juhaniCathar_head\\p_juhanih.mdl", "<<modDirectory>
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/" = {  } }
-Guid = "e7976946-e888-467b-bf6f-cca1314bf403"
+Guid = "413a4eb0-275b-4dea-9374-c898fe1925f0"
 Name = "Korriban: Back in Black"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -1418,12 +1421,12 @@ Category = ["Appearance Change", "Bugfix"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "759ea3fd-5461-411b-908b-60830e202247"
+Guid = "4688cb47-17e3-46b7-814a-845ba072b1b0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Korriban - Back in Black for K1 v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "b19cb180-b91f-4955-88ef-0c240470f723"
+Guid = "b29da666-b121-478f-9ab3-1801c42946d0"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -1431,7 +1434,7 @@ Source = ["<<modDirectory>>\\JC's Korriban - Back in Black for K1 v*\\Korriban_B
 Restrictions = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 
 [[thisMod.Instructions]]
-Guid = "5663e1cd-0022-4fff-8f86-d1bcaf78d359"
+Guid = "5b917689-835d-4be2-a15a-5680bdf4b8ed"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -1441,7 +1444,7 @@ Dependencies = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1378-jcs-fashion-line-i-cloaked-jedi-robes-for-k1/" = {  } }
-Guid = "7f5e7cc9-b969-447f-9107-6c77719100ee"
+Guid = "2b7c73f2-96e3-405f-9ae4-6bc5bad475d5"
 Name = "Cloaked Jedi Robes"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -1453,12 +1456,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "68047b1d-bd2d-43bb-add8-06fa2f5ca0ff"
+Guid = "95f85856-7961-4ee6-a840-6f561361cc6c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "90654aa1-8c37-4f03-9992-13a5abaa3c43"
+Guid = "a6267e4e-3ab8-4885-a163-283615859dc8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "4"
@@ -1467,7 +1470,7 @@ Source = ["<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1*\\I
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/" = {  } }
-Guid = "008b1dd9-7261-4ff9-a86f-ad1ff4574e31"
+Guid = "c95214bf-9368-4dde-a7db-4449e18c8211"
 Name = "JC's Jedi Tailor"
 Author = "JCarter426"
 Tier = "4 - Optional"
@@ -1479,12 +1482,12 @@ Category = ["Immersion"]
 Language = ["NO"]
 
 [[thisMod.Instructions]]
-Guid = "51bc810d-408c-40fa-af11-fd68ab9c611a"
+Guid = "297fcf84-2553-4195-9d44-1d42ff620834"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Jedi Tailor for K1 v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "f7fbe0d4-979c-4a77-ae19-76359213e83c"
+Guid = "94b2351c-7f30-4ea6-bf92-7c19cca7305a"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -1493,7 +1496,7 @@ Source = ["<<modDirectory>>\\JC's Jedi Tailor for K1 v*\\Jedi_Tailor_K1.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2357-robes-with-shadows-for-k1-jcs-port/" = {  }, "https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/" = {  } }
-Guid = "be362cbb-48f9-4c58-a478-b1f49bcc71ac"
+Guid = "08655ef2-cd44-4108-804a-a206089317b0"
 Name = "Robes with Shadows for K1 (JC's Port)"
 Author = "PapaZinos"
 Tier = "2 - Recommended"
@@ -1503,21 +1506,21 @@ Directions = "Only move the files from \"Jedi Robes Override\"."
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-Dependencies = ["7f5e7cc9-b969-447f-9107-6c77719100ee"]
+Dependencies = ["2b7c73f2-96e3-405f-9ae4-6bc5bad475d5"]
 
 [[thisMod.Instructions]]
-Guid = "9c2f19e0-7be4-42c1-936c-268c1f520020"
+Guid = "a9a324af-69f5-4fb0-83ae-eff275155944"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "30c606c8-57b5-4cb7-80c8-019eaa663f6b"
+Guid = "6a050530-698d-4823-8733-f99516d09c9d"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\To Override\\*"]
 
 [[thisMod.Instructions]]
-Guid = "f47c7c38-c968-4b46-9a04-32bfa1d309b0"
+Guid = "07c168d9-1d7a-4aab-8538-ca3c4662a14a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Animated Monitors\\*"]
@@ -1525,7 +1528,7 @@ Source = ["<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1*\\Ultimate_Ebon_H
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/" = {  } }
-Guid = "836dce19-acc9-4fe3-9a26-77d0885420d4"
+Guid = "ddb0e10e-c76b-48ba-ae8d-5967d9f0167d"
 Name = "Qel-Droma Robes Reskin"
 Author = "Effix"
 Tier = "2 - Recommended"
@@ -1534,15 +1537,15 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion", "Appearance Change", "Graphics Improvement"]
 Language = ["YES"]
-Dependencies = ["7f5e7cc9-b969-447f-9107-6c77719100ee"]
+Dependencies = ["2b7c73f2-96e3-405f-9ae4-6bc5bad475d5"]
 
 [[thisMod.Instructions]]
-Guid = "738b03ed-25bf-4d07-a3a0-efda9523ab08"
+Guid = "fb0a47f6-e93d-4df7-bc61-bd3b6b84b54c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes.zip"]
 
 [[thisMod.Instructions]]
-Guid = "d221eecc-50de-4c07-8bad-46a5a84662b1"
+Guid = "aa83f8bb-fcc9-4da4-bbb2-4e1733106501"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\*"]
@@ -1550,7 +1553,7 @@ Source = ["<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked 
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/1001-quanons-hk-47-reskin/" = {  } }
-Guid = "297bb34d-f69f-483c-a29b-835af051e697"
+Guid = "789f0fba-7df2-4f46-bf3a-290d33285d07"
 Name = "Quanon's HK-47"
 Author = "Quanon"
 Tier = "2 - Recommended"
@@ -1562,12 +1565,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "6ff8fe5e-bf61-4676-babe-a5066c5da8de"
+Guid = "2858e191-afd0-4d12-b074-86d0e89fc764"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Quanons_HK47_Reskin.rar"]
 
 [[thisMod.Instructions]]
-Guid = "3842af55-a75e-42d6-9c43-c2ac1ef7b17a"
+Guid = "03922b0d-ecd3-4afd-97a3-a1319c47a0b7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Quanons_HK47_Reskin\\Quanons_HK47_Reskin\\p_hk47_01.tga", "<<modDirectory>>\\Quanons_HK47_Reskin\\Quanons_HK47_Reskin\\p_hk47_01.txi"]
@@ -1575,7 +1578,7 @@ Source = ["<<modDirectory>>\\Quanons_HK47_Reskin\\Quanons_HK47_Reskin\\p_hk47_01
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2442-plc_sign/" = {  }, "https://deadlystream.com/files/file/1749-pfha03-hd/" = {  } }
-Guid = "a5259466-44a7-41ae-91f1-b3d5f87ef7bf"
+Guid = "0d194e81-f3a3-4aa6-a93c-4064fe8e7169"
 Name = "PLC_Sign"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -1586,12 +1589,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "189d1c05-6dca-45f3-9aff-cd28fa085b68"
+Guid = "3b76b9a9-b80d-4f91-a5e6-6dd2628b6e84"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PFHA03 HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "69108404-2412-4234-932d-e04106c028b1"
+Guid = "4a1842bf-7075-4801-b21b-abfd65bcc92c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PFHA03 HD\\*"]
@@ -1601,7 +1604,7 @@ Source = ["<<modDirectory>>\\PFHA03 HD\\*"]
 # Failed to resolve filename
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2277-kiosk-hd/" = {  }, "https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106" = {  }, "https://deadlystream.com/files/file/2031-zaalbar-hd/" = {  } }
-Guid = "793d0eca-e3de-4705-8a67-627067e702a9"
+Guid = "496b4f7b-f24e-4e6f-8a73-55101c7fdc7c"
 Name = "Kiosk HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -1613,12 +1616,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "4f528747-9eb3-4fc8-85cf-3681d224c21a"
+Guid = "a65cbb98-1892-42f6-8b31-05896c8645e6"
 Action = "Extract"
 Source = ["<<modDirectory>>\\ZaalbarHD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "2ef8109d-43fe-47ad-a9d4-adb5e85a037e"
+Guid = "0b801a3a-d6bb-464d-bd30-9c0f3f6dfb00"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ZaalbarHD\\P_Zaalbar02.tga", "<<modDirectory>>\\ZaalbarHD\\PO_pzaalbar.tga", "<<modDirectory>>\\ZaalbarHD\\PO_pzaalbar2.tga"]
@@ -1626,7 +1629,7 @@ Source = ["<<modDirectory>>\\ZaalbarHD\\P_Zaalbar02.tga", "<<modDirectory>>\\Zaa
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2441-plc_desk/" = {  }, "http://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/" = {  } }
-Guid = "99568c69-6cda-405e-b1a1-0942ca6569b7"
+Guid = "091f10f5-7b50-493e-9d24-81ac726bbbe8"
 Name = "PLC_Desk"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -1637,12 +1640,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "f237e450-8348-4623-9355-4482b4a32f91"
+Guid = "4102a9b2-f84d-45c3-b446-337e6653e02a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Bastila Shan HD (clothing).rar"]
 
 [[thisMod.Instructions]]
-Guid = "e660b7fb-838b-4ab3-9e4c-4772576fa72d"
+Guid = "0ed84201-df64-489d-ba0c-917986af60a5"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Bastila Shan HD (clothing)\\P_BastilaBA01.tga", "<<modDirectory>>\\Bastila Shan HD (clothing)\\P_BastilaBB01.tga", "<<modDirectory>>\\Bastila Shan HD (clothing)\\P_BastilaBB01.txi"]
@@ -1650,7 +1653,7 @@ Source = ["<<modDirectory>>\\Bastila Shan HD (clothing)\\P_BastilaBA01.tga", "<<
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2435-lts_escapepod-hd/" = {  }, "https://deadlystream.com/files/file/2222-reptab-hd/" = {  } }
-Guid = "9bda85c2-3286-4bc5-93cf-36470bc3a0d5"
+Guid = "7a2309fd-7fd7-4abc-9c7d-a7174a8993ac"
 Name = "LTS_EscapePod HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -1661,12 +1664,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "ff6265d4-2e37-4a7d-9e7b-202f39ef5d33"
+Guid = "c980f2ff-6a39-4153-89a9-43e40652edf2"
 Action = "Extract"
 Source = ["<<modDirectory>>\\RepTab HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "f823db06-96d0-4a85-95d7-52766e7857be"
+Guid = "e2001ac4-d6ff-4a62-8f64-99fef3180469"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\RepTab HD\\PLC_RepTab.tga", "<<modDirectory>>\\RepTab HD\\PLC_RepTab.txi", "<<modDirectory>>\\RepTab HD\\PLC_RepTab2.tga", "<<modDirectory>>\\RepTab HD\\PLC_RepTab2.txi"]
@@ -1674,7 +1677,7 @@ Source = ["<<modDirectory>>\\RepTab HD\\PLC_RepTab.tga", "<<modDirectory>>\\RepT
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2434-non-game-weapon/" = {  }, "https://deadlystream.com/files/file/1894-astromech-droid-hd/" = {  } }
-Guid = "a240b474-4ce3-430c-a1b8-f8694b233893"
+Guid = "e13ab90b-91c0-4669-9221-8668676a068c"
 Name = "HD Non-Game Weapons"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1685,12 +1688,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "f4e12525-17f1-4e44-a6e4-df4f39e527c1"
+Guid = "62526696-b4f1-4416-9d1d-644f9e30abc6"
 Action = "Extract"
 Source = ["<<modDirectory>>\\DrdAstro HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "f54a037b-8326-443c-9761-a6fae52323ce"
+Guid = "7e267a6a-ab28-43aa-8200-457fd74e7f1f"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\DrdAstro HD\\C_DrdAstro01.tga", "<<modDirectory>>\\DrdAstro HD\\P_t3m3_01.tga", "<<modDirectory>>\\DrdAstro HD\\P_T3M3_01.txi", "<<modDirectory>>\\DrdAstro HD\\P_T3M3_01_n.tga", "<<modDirectory>>\\DrdAstro HD\\P_T3M3_01_n.txi", "<<modDirectory>>\\DrdAstro HD\\PO_pt3m3.tga", "<<modDirectory>>\\DrdAstro HD\\PO_pt3m32.tga"]
@@ -1698,7 +1701,7 @@ Source = ["<<modDirectory>>\\DrdAstro HD\\C_DrdAstro01.tga", "<<modDirectory>>\\
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/" = {  } }
-Guid = "a392d7fc-b24e-437f-a22e-e9ee69e3e65e"
+Guid = "66c93ab8-738e-4400-8ad8-ab11f7a1ac54"
 Name = "K2 Swoops to K1"
 Author = "CaptainSpoque"
 Tier = "3 - Suggested"
@@ -1710,7 +1713,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2430-stunbaton-hd/" = {  }, "https://deadlystream.com/files/file/2056-protocol-droid-hd/" = {  } }
-Guid = "81fe304a-186c-4780-8405-6a0314268ec0"
+Guid = "74ff64d4-b995-4a9e-9220-58394072aeff"
 Name = "Stunbaton HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1722,12 +1725,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "3de38b13-0b99-4028-b6a8-9179def1a7d1"
+Guid = "ef9733d0-7fe8-48b9-98ea-e3bce8ada536"
 Action = "Extract"
 Source = ["<<modDirectory>>\\DrdProtHD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "720fe288-7f1a-45a0-8a14-092096900451"
+Guid = "a9c68cee-ec55-45c2-a7dd-8ad40de74953"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\DrdProtHD\\C_DrdProt01.tga", "<<modDirectory>>\\DrdProtHD\\C_DrdProt02.tga", "<<modDirectory>>\\DrdProtHD\\C_DrdProt03.tga", "<<modDirectory>>\\DrdProtHD\\C_DrdProt04.tga"]
@@ -1735,7 +1738,7 @@ Source = ["<<modDirectory>>\\DrdProtHD\\C_DrdProt01.tga", "<<modDirectory>>\\Drd
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2302-unique-sith-governor/" = {  }, "https://deadlystream.com/files/file/1984-children-npc-fixes/" = {  } }
-Guid = "a281ea67-9318-4b0a-97cc-c4389920d07f"
+Guid = "2e2d6dbc-330c-44cf-9e2f-a63da925ae05"
 Name = "Unique Sith Governor"
 Author = "N-DReW25"
 Tier = "3 - Suggested"
@@ -1747,12 +1750,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "94b9b4c5-97c5-4377-b49f-25584387d89a"
+Guid = "b7da6384-3b1d-4afa-8fe2-e2adad36f227"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Children NPC Fixes.7z"]
 
 [[thisMod.Instructions]]
-Guid = "4bd5ad4e-ef88-48fb-b20d-1fb91967e73b"
+Guid = "d79ac652-51b1-4db2-84b2-5686d07ec382"
 Action = "Choose"
 Source = ["9910790f-a84b-42a6-959e-a56e66c5feb3", "1151abd4-9555-47bb-8acf-51237fd4a27d", "7fdd9141-de59-4c91-a664-30c7d3245fbb", "fb23f813-56be-400c-b74d-0f2d8fb15c1f"]
 
@@ -1762,7 +1765,7 @@ Name = "Caucasian Head"
 Restrictions = ["1151abd4-9555-47bb-8acf-51237fd4a27d", "7fdd9141-de59-4c91-a664-30c7d3245fbb", "fb23f813-56be-400c-b74d-0f2d8fb15c1f"]
 [[thisMod.Options.Instructions]]
 Parent = "9910790f-a84b-42a6-959e-a56e66c5feb3"
-Guid = "182562c4-6e1e-49d8-8f23-7081c34f80f7"
+Guid = "f542f188-04f5-4505-9c4a-5c28f5384747"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Caucasian Head\\N_childFH01.tga"]
@@ -1773,7 +1776,7 @@ Name = "Gloved Children"
 Restrictions = ["9910790f-a84b-42a6-959e-a56e66c5feb3", "7fdd9141-de59-4c91-a664-30c7d3245fbb", "fb23f813-56be-400c-b74d-0f2d8fb15c1f"]
 [[thisMod.Options.Instructions]]
 Parent = "1151abd4-9555-47bb-8acf-51237fd4a27d"
-Guid = "cfd608c3-42b9-49fd-acb8-528594647a3a"
+Guid = "349e6915-b067-4a6c-9671-ca49546d175b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Gloved Children\\N_CommKidF01.tga"]
@@ -1784,7 +1787,7 @@ Name = "Smooth Hands"
 Restrictions = ["9910790f-a84b-42a6-959e-a56e66c5feb3", "1151abd4-9555-47bb-8acf-51237fd4a27d", "fb23f813-56be-400c-b74d-0f2d8fb15c1f"]
 [[thisMod.Options.Instructions]]
 Parent = "7fdd9141-de59-4c91-a664-30c7d3245fbb"
-Guid = "6fc9530b-0064-4f5d-8713-fd9944b999be"
+Guid = "bf6ef332-5f45-4d74-943c-9b01adbd7bda"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Smooth Hands\\N_CommKidF01.tga"]
@@ -1796,7 +1799,7 @@ IsSelected = true
 Restrictions = ["9910790f-a84b-42a6-959e-a56e66c5feb3", "1151abd4-9555-47bb-8acf-51237fd4a27d", "7fdd9141-de59-4c91-a664-30c7d3245fbb"]
 [[thisMod.Options.Instructions]]
 Parent = "fb23f813-56be-400c-b74d-0f2d8fb15c1f"
-Guid = "7978b8c1-268a-487a-b9dc-97d504d5e712"
+Guid = "454c5b04-315c-4cff-983d-5ddc52db44c6"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Tanned Hands\\N_CommKidF01.tga"]
@@ -1804,7 +1807,7 @@ Source = ["<<modDirectory>>\\Children NPC Fixes\\Children NPC Fixes\\Tanned Hand
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2382-ithorian-hd/" = {  }, "https://deadlystream.com/files/file/1133-hd-carth-onasi/" = {  } }
-Guid = "f782ab8f-e9f9-44b4-a8d9-a17392913ac5"
+Guid = "e8fae10d-0190-47ae-8df0-9d922caa495f"
 Name = "Ithorians HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1815,12 +1818,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "cf960b8d-25e6-4cfc-b554-fe1f37320c23"
+Guid = "54285bd9-1848-4528-b28a-02b90e504b96"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Carth Onasi.rar"]
 
 [[thisMod.Instructions]]
-Guid = "cd8952f3-2431-4fc4-9f34-649265f7d08d"
+Guid = "8dfc540e-79b3-44e4-9eb2-52b13425bc25"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Carth Onasi\\P_CarthBA01.tga", "<<modDirectory>>\\Carth Onasi\\P_CarthBB01.tga", "<<modDirectory>>\\Carth Onasi\\P_CarthH01.tga", "<<modDirectory>>\\Carth Onasi\\P_CarthH01.txi"]
@@ -1828,7 +1831,7 @@ Source = ["<<modDirectory>>\\Carth Onasi\\P_CarthBA01.tga", "<<modDirectory>>\\C
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2252-duros-hd/" = {  }, "http://deadlystream.com/files/file/1123-hd-canderous-ordo/" = {  } }
-Guid = "78e0b400-ebac-46a3-a68a-d27ca5ff479a"
+Guid = "379c8094-9f54-4627-bfce-833ba7954734"
 Name = "Duros HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1839,18 +1842,18 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "4a037e0d-9c55-4f9e-b679-ac490c9bd6a5"
+Guid = "1c41df28-57ad-40b8-b432-3b8e742a6d1c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Canderous Patch.rar", "<<modDirectory>>\\Canderous Ordo.rar"]
 
 [[thisMod.Instructions]]
-Guid = "8bae5050-00aa-4ad4-905b-716e5c3a779e"
+Guid = "33d37b36-21af-491f-a0e1-713c13d3ab1f"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Canderous Ordo\\p_CandBA01.tga", "<<modDirectory>>\\Canderous Ordo\\P_CandBB01.tga", "<<modDirectory>>\\Canderous Ordo\\p_candbb01.txi", "<<modDirectory>>\\Canderous Ordo\\P_CandH01.tga", "<<modDirectory>>\\Canderous Ordo\\P_CandH01.txi", "<<modDirectory>>\\Canderous Ordo\\PO_pcanderous.tga"]
 
 [[thisMod.Instructions]]
-Guid = "cc1122e2-9c3f-4685-8d5b-684d5747099e"
+Guid = "21a59317-a743-48b4-9c9e-b71517aa6e6b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Canderous Patch\\P_CandBB01.txi"]
@@ -1858,7 +1861,7 @@ Source = ["<<modDirectory>>\\Canderous Patch\\P_CandBB01.txi"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2383-qarren-hd/" = {  }, "https://deadlystream.com/files/file/1935-jolee-bindo-hd/" = {  } }
-Guid = "cc06c2b5-b45a-4e20-a81e-f9a2351d55da"
+Guid = "b0ece715-5c73-463d-97d7-2d3fb187e6be"
 Name = "Quaren HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1869,32 +1872,30 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "28559edb-d852-4608-a2e2-68c1cc5417d9"
+Guid = "48a1afa5-3dd0-4469-bd5a-269776a52c0a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Jolee Bindo HD — clothes.rar"]
 
 [[thisMod.Instructions]]
-Guid = "2783db27-c532-40b0-bc43-a81989462545"
+Guid = "202e6c16-ca0c-420c-8b97-3388776aa1b3"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Jolee Bindo HD — clothes\\p_joleeba01.tga", "<<modDirectory>>\\Jolee Bindo HD — clothes\\p_joleeba01.txi", "<<modDirectory>>\\Jolee Bindo HD — clothes\\p_joleebb01.tga", "<<modDirectory>>\\Jolee Bindo HD — clothes\\p_joleebb01.txi"]
 
 [[thisMod.Instructions]]
-Guid = "30689ac7-eb1b-4e25-ada5-0a0f50c4ad53"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
+Guid = "186c67c6-28c8-46a1-954e-0bfd37b8e7ca"
+Action = "Extract"
 Source = ["<<modDirectory>>\\Qarren HD.rar"]
 
 [[thisMod.Instructions]]
-Guid = "49f9d9f1-70f4-4855-b032-b80d52bab402"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
+Guid = "635e0243-6942-41e0-b93c-a6af2f1f3b52"
+Action = "Extract"
 Source = ["<<modDirectory>>\\Jolee Bindo HD â\u0080\u0094 clothes.rar"]
 
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2371-davik-hd/" = {  }, "https://deadlystream.com/files/file/1125-hd-kt-400-military-droid-carrier-and-lethisk-class-armed-freighter/" = {  } }
-Guid = "425d6d3b-e8dd-444e-8d4a-28f65b665c6a"
+Guid = "f1062798-8eab-49a0-891a-8a43bceb259b"
 Name = "Davik HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1905,12 +1906,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "dc43cb90-32e1-4004-a0e8-5007e0272433"
+Guid = "50df3567-e9d9-47cf-81e5-2c5be14996da"
 Action = "Extract"
 Source = ["<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter.rar"]
 
 [[thisMod.Instructions]]
-Guid = "cb7c9447-9477-4b02-922f-4a904c5641f2"
+Guid = "e4d08ad2-f826-408f-a56e-a981a302e7fa"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\\LDA_FreightL01.tga", "<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\\LMA_Freight.tga", "<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\\LUN_FreightL02.tga", "<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\\V_FreightL02.tga", "<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter\\V_FreightL02.txi"]
@@ -1918,7 +1919,7 @@ Source = ["<<modDirectory>>\\hd_kt_400_military_droid_carrier_and_lethisk_class_
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2475-doctors-hd/" = {  }, "https://deadlystream.com/files/file/2193-animated-energy-shields/" = {  } }
-Guid = "8f206f3f-ae9a-4d49-9fdc-60cd7421568b"
+Guid = "74d9af84-ffb5-40d4-81ca-1d81d1df30f6"
 Name = "Doctors HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1929,12 +1930,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "c2c006bd-4612-4880-8a73-328299203c1a"
+Guid = "713a9a11-127e-4675-86c8-2bdd1a49173e"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Animated energy shields.rar"]
 
 [[thisMod.Instructions]]
-Guid = "cd134089-3cf1-4faa-a343-ff574b134b7a"
+Guid = "1b44c2f2-7c84-4fe7-9b54-56b886941976"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Animated energy shields\\fx_tex_01.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_08.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_10.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_12.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_14.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_15.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_16.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_17.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_18.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_19.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_20.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_21.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_22.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_24.tga", "<<modDirectory>>\\Animated energy shields\\fx_tex_stealth.tga"]
@@ -1942,7 +1943,7 @@ Source = ["<<modDirectory>>\\Animated energy shields\\fx_tex_01.tga", "<<modDire
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2471-kebla-yurt-hd/" = {  }, "https://deadlystream.com/files/file/1925-terminal-texture/" = {  } }
-Guid = "5d4d43e6-6e0a-4510-801f-a16d1c8f0f7e"
+Guid = "ecf7b8e0-cb99-42bd-9cd3-e1e1a82ce367"
 Name = "Kebla Yurt HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1954,12 +1955,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "1adc9739-4a5e-4853-91e2-aadbe1d8d1a9"
+Guid = "0f316821-62be-44f0-a0ac-33fd8aa4565f"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PLC_CompPnl.rar"]
 
 [[thisMod.Instructions]]
-Guid = "7ce6664f-d619-45ef-994c-1c992a62472a"
+Guid = "47f84a18-62e4-407a-9972-f5057eb88e8d"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\PLC_CompPnl\\PLC_CompPnl.tga", "<<modDirectory>>\\PLC_CompPnl\\PLC_CompPnl.txi"]
@@ -1967,7 +1968,7 @@ Source = ["<<modDirectory>>\\PLC_CompPnl\\PLC_CompPnl.tga", "<<modDirectory>>\\P
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2801-deadeye-duncan-hd/" = {  }, "https://deadlystream.com/files/file/1187-emperor-turnips-hd-rakghouls/" = {  } }
-Guid = "c1ab645f-5e7e-47cd-bc94-ff6555cf4756"
+Guid = "0a5cde69-e5f6-4518-920b-41430891c23c"
 Name = "Deadeye Duncan HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -1978,12 +1979,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "7383b77d-bffc-4fd4-80b9-f20a6bde8eab"
+Guid = "c0375287-9b75-4820-953f-9bc8f1d7f991"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Emperor Turnip*s HD Rakghouls.rar"]
 
 [[thisMod.Instructions]]
-Guid = "53800e56-5c12-4ea8-804e-d2a96241cdd2"
+Guid = "e017f99e-f0b6-4df9-8bb7-e8baabbd3300"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Emperor Turnip*s HD Rakghouls\\Emperor Turnip's HD Rakghouls\\C_Rakghoul01.tga", "<<modDirectory>>\\Emperor Turnip*s HD Rakghouls\\Emperor Turnip's HD Rakghouls\\C_Rakghoul01b.tga"]
@@ -1991,7 +1992,7 @@ Source = ["<<modDirectory>>\\Emperor Turnip*s HD Rakghouls\\Emperor Turnip's HD 
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2806-n_oldamh01-hd/" = {  } }
-Guid = "deac49a6-b9b3-4003-8ec2-1537e7c1898d"
+Guid = "205ecb83-ba6e-4a66-8a9a-9f1b7651d9c7"
 Name = "N_oldAMH01 HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2003,7 +2004,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1894-astromech-droid-hd/" = {  } }
-Guid = "42517169-12b2-4b0b-89b0-cbead5d2f982"
+Guid = "d84b3327-04e9-4af1-be8a-4fabe738fbe9"
 Name = "HD Astromech Droids"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2016,7 +2017,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2056-protocol-droid-hd/" = {  } }
-Guid = "1cfda7a9-141e-4f36-8e43-86742f7ffba6"
+Guid = "1b602c3d-3b94-47da-b70f-8b10ca25044e"
 Name = "Protocol Droids HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2028,7 +2029,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2559-daviks-trophies/" = {  } }
-Guid = "eee05452-5c18-4e31-bd57-6bb128292b66"
+Guid = "6d2912e0-aba5-461a-8c39-a082e693e438"
 Name = "Davik's Trophies"
 Author = "Thor110"
 Tier = "3 - Suggested"
@@ -2040,7 +2041,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1133-hd-carth-onasi/" = {  }, "https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/" = {  }, "https://www.nexusmods.com/kotor/mods/1493" = {  } }
-Guid = "1c005b7d-1eb5-4198-b827-d73221fa8106"
+Guid = "08da6dce-b651-4ecb-a9bf-803d7ef24f2b"
 Name = "HD Carth Onasi"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -2054,12 +2055,12 @@ Language = ["YES"]
 InstallAfter = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 
 [[thisMod.Instructions]]
-Guid = "b74bed69-6b2b-4236-afd8-9135db61de07"
+Guid = "894348b7-51c1-4cfb-b556-23f686dba0a4"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Carth Onasi and Male PC Romance.7z"]
 
 [[thisMod.Instructions]]
-Guid = "0618eca9-ec82-4223-8a72-7a4abdcfddcc"
+Guid = "0cf8847f-bfa3-4dc9-9338-8fac228309b6"
 Action = "Choose"
 Source = ["41c4809d-e6b5-4b10-b176-78425bf39751", "055b08fd-8ac6-48ae-823f-024465433f07"]
 
@@ -2071,7 +2072,7 @@ IsSelected = true
 Restrictions = ["055b08fd-8ac6-48ae-823f-024465433f07"]
 [[thisMod.Options.Instructions]]
 Parent = "41c4809d-e6b5-4b10-b176-78425bf39751"
-Guid = "cdb42e70-e152-45f8-a941-eea5b115badc"
+Guid = "971e0d49-aeaa-4f97-9722-d91590d54173"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -2079,7 +2080,7 @@ Source = ["<<modDirectory>>\\Carth Onasi and Male PC Romance\\Install.exe"]
 Restrictions = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 [[thisMod.Options.Instructions]]
 Parent = "41c4809d-e6b5-4b10-b176-78425bf39751"
-Guid = "30bba0e1-9875-45f6-9018-13812869f881"
+Guid = "378dcbc6-4413-4a18-bd96-0cf96c1d5ba4"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "2"
@@ -2093,7 +2094,7 @@ Description = "This option will make Carth’s romance available to male player 
 Restrictions = ["41c4809d-e6b5-4b10-b176-78425bf39751"]
 [[thisMod.Options.Instructions]]
 Parent = "055b08fd-8ac6-48ae-823f-024465433f07"
-Guid = "1d1e7bd7-9679-4f80-b40d-bd3fdbc31201"
+Guid = "0013b5a6-393f-4dad-9831-a2e02f1d2ae4"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -2101,7 +2102,7 @@ Source = ["<<modDirectory>>\\Carth Onasi and Male PC Romance\\Install.exe"]
 Restrictions = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 [[thisMod.Options.Instructions]]
 Parent = "055b08fd-8ac6-48ae-823f-024465433f07"
-Guid = "8c13fe0f-83d4-4e5c-b473-f1e0093d42b0"
+Guid = "094cc313-3a40-4612-a311-289374caaa91"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "3"
@@ -2111,7 +2112,7 @@ Dependencies = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/1123-hd-canderous-ordo/" = {  }, "https://mega.nz/#!dFJBEYhA!FY9h6AmYVDizyVPZo_I3vXqAIWVrK1TUzT42msGqtpQ" = {  } }
-Guid = "8fc35d18-15e1-49c6-9d32-0fc686448b91"
+Guid = "63c2381f-43c2-4e33-9509-ba1353f5affa"
 Name = "HD Canderous Ordo"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2124,7 +2125,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/941-quanons-canderous-ordo-reskin/" = {  } }
-Guid = "fb8125f9-b71c-40bb-be3a-13ae16cdf1a8"
+Guid = "d6cacee4-b37d-45ce-ae2a-450230e7d44e"
 Name = "Quanon's Canderous Ordo"
 Author = "Quanon"
 Tier = "2 - Recommended"
@@ -2136,12 +2137,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "372d311d-25fd-43bd-8f3c-8fbb30eed8f5"
+Guid = "ce69eff5-4bdf-464f-922d-c6cb1fed79ff"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Quanon_CandOrdo_Reskin.rar"]
 
 [[thisMod.Instructions]]
-Guid = "9b3b020f-9f98-4b5f-9921-625f49c114e0"
+Guid = "f9fac563-e191-441e-94d0-65654b5177a9"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Quanon_CandOrdo_Reskin\\Quanon_CandOrdo_Reskin\\P_CandH01.tga"]
@@ -2149,7 +2150,7 @@ Source = ["<<modDirectory>>\\Quanon_CandOrdo_Reskin\\Quanon_CandOrdo_Reskin\\P_C
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1935-jolee-bindo-hd/" = {  } }
-Guid = "652aea78-189b-4e71-b63f-e4781ac0a66a"
+Guid = "753bd0c5-6f71-4480-9ff8-f77ea783c9cd"
 Name = "Jolee Bindo HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2161,7 +2162,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1192" = {  } }
-Guid = "d0632097-cb0f-4ed3-927c-cc333cc75827"
+Guid = "c01355d4-aa64-4404-b6a4-355de63f2163"
 Name = "Fen's Jolee"
 Author = "Fenharel"
 Tier = "2 - Recommended"
@@ -2174,12 +2175,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "0abe3f34-2c7e-4e57-b2ab-4b55fabf8b45"
+Guid = "ead4790d-40aa-4978-b9b9-86744a8ce542"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Fen's - Jolee*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "70c5dbec-3281-42a4-893c-68ce671e2129"
+Guid = "a97be66c-355f-43f9-ab65-fca47f0d83df"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Fen's - Jolee*\\Fens - Jolee\\Fens - Jolee\\P_JoleeBB01.tga", "<<modDirectory>>\\Fen's - Jolee*\\Fens - Jolee\\Fens - Jolee\\P_JoleeBB01.txi"]
@@ -2187,7 +2188,7 @@ Source = ["<<modDirectory>>\\Fen's - Jolee*\\Fens - Jolee\\Fens - Jolee\\P_Jolee
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2031-zaalbar-hd/" = {  } }
-Guid = "ae557523-50eb-4279-bd3d-787e5ccd7eb4"
+Guid = "85d5a4c1-c098-4761-bbac-49d5db7435db"
 Name = "Zaalbar HD"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2200,7 +2201,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/" = {  } }
-Guid = "c074faac-1b14-4eda-9a97-352303dd5a3d"
+Guid = "d989b7cf-5dc2-4120-807a-8692815c9377"
 Name = "Sith Uniform Reformation Revised"
 Author = "Heyorange, Sith Holocron, JCarter426"
 Tier = "2 - Recommended"
@@ -2213,7 +2214,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1929-stylized-portraits-by-tinman888/" = {  } }
-Guid = "2a3fa6ea-9cd5-44e6-a1d5-96de98a26e64"
+Guid = "64467cf7-095a-4d6b-a750-bf0a2a934456"
 Name = "Stylized Portraits by Tinman888"
 Author = "/u/Tinman888"
 Tier = "4 - Optional"
@@ -2226,7 +2227,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1262-star-map-revamp/" = {  } }
-Guid = "7820b29e-de9a-42b9-90c5-615a753f7eaf"
+Guid = "c2173c7f-0406-4b80-92bd-0bcd5a60ebfa"
 Name = "Star Map Revamp"
 Author = "Carth0nasty"
 Tier = "3 - Suggested"
@@ -2237,12 +2238,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "79f8c869-9370-41f9-aa74-ee3ca30fb643"
+Guid = "ea42dba6-a0a7-4c0d-832b-b1da3c9eb462"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Star-Map_Revamp*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "20bce972-d4f4-4945-bbcc-255b4d3b501e"
+Guid = "c6fedd1e-8679-4eb7-a9ca-96a05ac314e9"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Star-Map_Revamp*\\Star-Map_Revamp*\\*"]
@@ -2250,7 +2251,7 @@ Source = ["<<modDirectory>>\\Star-Map_Revamp*\\Star-Map_Revamp*\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1125-hd-kt-400-military-droid-carrier-and-lethisk-class-armed-freighter/" = {  } }
-Guid = "5aa95e1f-fa3d-4fec-9fae-161223a16881"
+Guid = "12a81673-db45-4a96-a077-595a2fe4e18c"
 Name = "Background Ship Improvements"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -2262,43 +2263,63 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2785-kebla-yurt-renovation/" = {  }, "http://deadlystream.com/files/file/1090-senni-vek-restoration/" = {  } }
-Guid = "4c842621-2c39-4654-8694-74877908a704"
+Guid = "07d81773-6d6d-4d15-9811-d669404453b3"
 Name = "Kebla Yurt Renovation"
 Author = "N-DReW25"
 Tier = "3 - Suggested"
 Description = "Dark Hope gave Kebla herself a makeover earlier, now it's Drew's turn to give her shop a tidying-up. Compared to Janice's shop on the other side of the city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been."
-InstallationMethod = "HoloPatcher Mod"
+InstallationMethod = "TSLPatcher"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b02de57e-d319-4dc4-add2-82c9e7070c65"
+Guid = "d362ced7-fee8-4970-859d-194e8bbdddeb"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Senni Vek Restoration.zip"]
 
 [[thisMod.Instructions]]
-Guid = "bfa195f4-a25a-4b87-b936-e7557436f8ec"
+Guid = "1aba761a-ac9a-48c0-80fa-dc330c3fe59c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Senni Vek Restoration\\For Override\\tat_senni.utc"]
 
 [[thisMod.Instructions]]
-Guid = "3e318672-e607-4d86-b0d9-c7a556e368a1"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
+Guid = "d8b37138-192a-4e0b-a111-4b965af8e53f"
+Action = "Extract"
 Source = ["<<modDirectory>>\\KYR1.1.7z"]
 
 [[thisMod.Instructions]]
-Guid = "9412fa3c-26ed-4810-9b23-64e6c1cd1aad"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
+Guid = "2f86749d-c76a-4744-a0d3-0828f605301f"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\Kebla Yurt Revamp\\TSLPatcher.exe"]
+
+[[thisMod.Instructions]]
+Guid = "1edf7622-1166-49a2-ae3d-30ec0012d414"
+Action = "Extract"
 Source = ["<<modDirectory>>\\SVR1.2.7z"]
+
+[[thisMod.Instructions]]
+Guid = "61274a58-523f-4595-9d7c-813486689e6c"
+Action = "Choose"
+Source = ["c2e2fdf5-dc3a-475a-8839-02a6eb6afc35", "c2e2fdf5-dc3a-475a-8839-02a6eb6afc35"]
+
+[[thisMod.Options]]
+Guid = "c2e2fdf5-dc3a-475a-8839-02a6eb6afc35"
+Name = "Senni Vek Restoration"
+Description = "The generic Rodian thug next to Hulas is called \"tat_senni\" in the game files, suggesting that this Rodian was supposed to be Senni Vek. This installation replaces the generic Rodian with Senni Vek."
+[[thisMod.Options.Instructions]]
+Parent = "c2e2fdf5-dc3a-475a-8839-02a6eb6afc35"
+Guid = "bac203fa-6780-4bda-afa3-37cbe7a47205"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "changes.ini"
+Source = ["<<modDirectory>>\\SVR1.2\\TSLPatcher.exe"]
 
 
 [[thisMod]]
-ModLinkFilenames = { "https://www.gamefront.com/games/knights-of-the-old-republic/file/vurt-s-k1-hi-res-ebon-hawk-retexture" = {  } }
-Guid = "4c60d1e1-16e2-45f2-abe7-dc52888320de"
+Guid = "06222c1f-2a6a-4de9-86bc-62704c13a897"
 Name = "Vurt's K1 Hi-Res Ebon Hawk Retexture"
 Author = "Vurt"
 Tier = "2 - Recommended"
@@ -2310,24 +2331,24 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "6adcd12a-beaa-4c21-b680-9bbf85ecf78d"
+Guid = "4f647242-c6a1-4bea-ba7c-2b91ef46efb3"
 Action = "Extract"
 Source = ["<<modDirectory>>\\vurt_k1_eh_retexture*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "38212bd2-f628-4d4c-b996-14adbbac2f3b"
+Guid = "cd828bb1-72f1-4988-9ea4-a8471d8600e0"
 Action = "Copy"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LDA_EHawk01.tga"]
 
 [[thisMod.Instructions]]
-Guid = "c7c95f59-aa36-4057-8c53-be047d0fe1a9"
+Guid = "0e729471-8436-4d39-90b8-2a9cf3e2d5c8"
 Action = "Rename"
 Destination = "M36_EHawk01.tga"
 Source = ["<<kotorDirectory>>/Override/LDA_EHawk01.tga"]
 
 [[thisMod.Instructions]]
-Guid = "5167ebf8-7a36-40fd-8b68-2f3618186ddc"
+Guid = "554f1013-269c-4032-b41c-cc3f71937f97"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LDA_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LEH_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LKA_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LMA_EHawk.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LSF_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LSI_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LTA_EHawk01_00a.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LTA_EHawk02_00a.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LTS_EHawk01.tga", "<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LUN_EHawk01.tga"]
@@ -2335,7 +2356,7 @@ Source = ["<<modDirectory>>\\vurt_k1_eh_retexture_v*\\LDA_EHawk01.tga", "<<modDi
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/" = {  }, "https://deadlystream.com/files/file/2055-k1s-ebon-hawk-animated-texture/" = {  } }
-Guid = "8dcc6766-e517-4446-9136-56ceafa2bb69"
+Guid = "e95c474a-e72f-40f3-8423-c32ada84c9ee"
 Name = "Ultimate Ebon Hawk Repairs"
 Author = "PapaZinos"
 Tier = "2 - Recommended"
@@ -2347,12 +2368,12 @@ Category = ["Bugfix"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b63eed61-30f0-4b97-95d7-a74a0dd1fb5c"
+Guid = "c69c3d0f-248c-4cc1-816c-f45274ecc403"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K1's Ebon Hawk animated texture.7z"]
 
 [[thisMod.Instructions]]
-Guid = "4de83397-6cff-45f4-8dd9-daafb58f2cc9"
+Guid = "9f060d99-64bf-40fe-9a02-518dcebb8a31"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\K1's Ebon Hawk animated texture\\To override\\LEH_scre02.tga", "<<modDirectory>>\\K1's Ebon Hawk animated texture\\To override\\LEH_scre02.txi"]
@@ -2360,7 +2381,7 @@ Source = ["<<modDirectory>>\\K1's Ebon Hawk animated texture\\To override\\LEH_s
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/" = {  } }
-Guid = "873b9c0d-acc3-4e05-9901-50abe65e6cdc"
+Guid = "5a2bf015-998d-4df6-98aa-d93affefab22"
 Name = "HQ Cockpit Skyboxes"
 Author = "Sithspecter"
 Tier = "2 - Recommended"
@@ -2372,12 +2393,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "e29ebc84-5972-4b1c-973a-9a8da4cc4ccd"
+Guid = "09b68a11-7ef4-4662-8db9-e6adce883198"
 Action = "Extract"
 Source = ["<<modDirectory>>\\High Quality Cockpit Skyboxes*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "20f36d8b-f25f-4d63-97ce-6a13ae21bf01"
+Guid = "86e171e9-2fd4-45d0-9fe8-95fbdfee20a7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\High Quality Cockpit Skyboxes*\\High Quality Cockpit Skyboxes*\\Override\\*"]
@@ -2385,7 +2406,7 @@ Source = ["<<modDirectory>>\\High Quality Cockpit Skyboxes*\\High Quality Cockpi
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2068-yavin-station-hangar/" = {  } }
-Guid = "06b6081c-32a9-4ea2-ac1d-833e9dfe0abf"
+Guid = "9e8ed0e6-bd3b-4ee6-8ba4-02837dc85068"
 Name = "Yavin Station Hangar"
 Author = "WildKarrde"
 Tier = "4 - Optional"
@@ -2398,7 +2419,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/" = {  }, "http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/" = {  } }
-Guid = "1470eec9-a251-4210-874a-59229a6b909e"
+Guid = "3ca8d730-e4b0-49b5-aa18-d40508ca9f67"
 Name = "Ebon Hawk Cockpit Upgrade (LEH_Scre01)"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -2409,12 +2430,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "334cbd4e-dff9-4e1d-a93f-2729eefe95aa"
+Guid = "d7feb070-9297-46f1-b401-e621698c157a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\SH_AnimatedCantinaSign.7z"]
 
 [[thisMod.Instructions]]
-Guid = "de4a25ad-ebad-4c57-a997-952fbcf329cf"
+Guid = "b13be0c4-8a83-4391-b72b-0ebb5f82e266"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\SH_AnimatedCantinaSign\\LTS_signs.tga", "<<modDirectory>>\\SH_AnimatedCantinaSign\\LTS_signs.txi"]
@@ -2422,7 +2443,7 @@ Source = ["<<modDirectory>>\\SH_AnimatedCantinaSign\\LTS_signs.tga", "<<modDirec
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2247-ebon-hawk-cockpit-upgrade-leh_scre02/" = {  }, "http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/" = {  } }
-Guid = "1a7bc7c4-2c84-4697-8b77-4d3e54cc63dd"
+Guid = "969a83b1-550d-48c3-95d0-0d0a10a353d8"
 Name = "Ebon Hawk Cockpit Upgrade (LEH_Scre02)"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -2434,12 +2455,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "9893ca4a-4c56-40b4-8a56-133c127cedc6"
+Guid = "12824d24-4a35-4655-9853-5b39037b457c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\ebon_hawk_camera.zip"]
 
 [[thisMod.Instructions]]
-Guid = "07c0ce32-0390-445e-b91f-34893cec9640"
+Guid = "39df18b7-c7c8-4b5d-80b5-5f8d5e291f47"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\ebon_hawk_camera\\ebon_hawk_camera\\camerastyle.2da", "<<modDirectory>>\\ebon_hawk_camera\\ebon_hawk_camera\\m12aa.vis"]
@@ -2447,7 +2468,7 @@ Source = ["<<modDirectory>>\\ebon_hawk_camera\\ebon_hawk_camera\\camerastyle.2da
 
 [[thisMod]]
 ModLinkFilenames = { "http://www.nexusmods.com/kotor/mods/10/" = {  }, "https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0" = {  } }
-Guid = "4f86c9e2-bc17-42c5-bb54-36b643193e36"
+Guid = "c6cd9c8a-8c15-4994-9811-567e22b050f1"
 Name = "Taris Reskin"
 Author = "Quanon, patch by JCarter426"
 Tier = "2 - Recommended"
@@ -2459,17 +2480,18 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "f98e1e63-9e7d-442c-8f4c-09c4844be0f8"
+Guid = "8cb6a18c-0d05-4e13-8391-f4a038718bb2"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Taris_Reskin*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "2436956d-5af3-4855-af9c-d5ec462d5e87"
+Guid = "27134f7d-a1a3-4560-8e41-72c5dfc4f048"
 Action = "Delete"
+Overwrite = true
 Source = ["<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_Bsky01.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_Bsky02.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_sky0001.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_Sky0001Fix.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_sky0002.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_sky0003.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_SKY0004.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_SKY0004Fix.tga", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\LTS_SKY0005.tga"]
 
 [[thisMod.Instructions]]
-Guid = "aa61a71d-4c95-44f1-bfa4-b42cb8232c74"
+Guid = "e14a9f5d-9ced-4a78-88ac-c136bd0fb0ee"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part1\\*", "<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Taris_Tex_Part2\\*"]
@@ -2477,7 +2499,7 @@ Source = ["<<modDirectory>>\\Taris_Reskin*\\Taris_Reskin\\Taris_TexturePack\\Tar
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/491-kotor-high-quality-starfields-and-nebulas/" = {  } }
-Guid = "615ebe1d-c12a-4314-846a-562c8c7d0152"
+Guid = "aa88face-40a8-4084-b9f8-a21fb5b5ac71"
 Name = "High Quality Starfields and Nebulas"
 Author = "Kexikus"
 Tier = "3 - Suggested"
@@ -2488,12 +2510,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "56f1336c-4fab-4eaa-a324-3899f24b6486"
+Guid = "c4e3b38b-3447-4d29-ad10-b0b0709f9d4e"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K1_HDStarsAndNebulas_*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "7ced63be-871c-44a5-a3dd-c8ea52f5cd7f"
+Guid = "c11cda3f-4531-42ac-9407-facf1430631c"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSF_sky01.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSF_sky02.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSF_space01.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSP_nebula01.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSP_stars01.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSP_stars02.tga", "<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LYV_space01.tga"]
@@ -2501,7 +2523,7 @@ Source = ["<<modDirectory>>\\K1_HDStarsAndNebulas_*\\LSF_sky01.tga", "<<modDirec
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/" = {  }, "https://deadlystream.com/files/file/2796-high-quality-skyboxes-model-fixes-v10/" = {  } }
-Guid = "5a433f9c-c95a-4d03-9be6-a6327fae2a4a"
+Guid = "ad9bf8a7-0d84-421b-973f-92e40715fabe"
 Name = "High Quality Skyboxes II"
 Author = "Kexikus, patch by CaptainSpoque"
 Tier = "2 - Recommended"
@@ -2514,12 +2536,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "342bba8a-6546-450a-9d92-bb1daaee2bbe"
+Guid = "6f1c2f3a-cac7-499f-80e0-aad0c562efbf"
 Action = "Extract"
 Source = ["<<modDirectory>>\\HQSkyboxesII_K1.7z"]
 
 [[thisMod.Instructions]]
-Guid = "952367fc-d40f-4172-bf14-fedaadb7c7cb"
+Guid = "5f5772ad-ec3a-4f6c-b6ef-c41c79bde225"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\HQSkyboxesII_K1\\Override\\*"]
@@ -2527,7 +2549,7 @@ Source = ["<<modDirectory>>\\HQSkyboxesII_K1\\Override\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2354-ebon-hawk-transparent-cockpit-windows-for-k1/" = {  } }
-Guid = "f45a065d-1efb-44c6-b546-77278ea5bb87"
+Guid = "c1cedaf7-3457-4313-9a37-5187215ffa44"
 Name = "Ebon Hawk Transparent Cockpit Windows for K1"
 Author = "WildKarrde"
 Tier = "3 - Suggested"
@@ -2540,7 +2562,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/260-k1-hi-res-beam-effects/" = {  } }
-Guid = "5a9efa52-0eb6-4cac-9928-2e8f73294c0f"
+Guid = "e345c8a3-1f1d-402b-969a-9e82b6632215"
 Name = "Hi-Res Beam Effects"
 Author = "InSidious"
 Tier = "2 - Recommended"
@@ -2551,12 +2573,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "433666d5-a698-4635-8fc5-332090d5e1b9"
+Guid = "7d550d7c-0d28-4fd3-aa53-764429ed8f9a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\DI_HRBM_2.7z"]
 
 [[thisMod.Instructions]]
-Guid = "03373b95-5079-4275-a97a-5b20bc234b3b"
+Guid = "1a7813c1-b9c2-4242-b170-0b71c39c2ca4"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\DI_HRBM_2\\fx_beam01.tga", "<<modDirectory>>\\DI_HRBM_2\\fx_beam02.tga", "<<modDirectory>>\\DI_HRBM_2\\fx_beam03.tga", "<<modDirectory>>\\DI_HRBM_2\\Fx_Drain.tga", "<<modDirectory>>\\DI_HRBM_2\\Fx_Lightning.tga"]
@@ -2564,7 +2586,7 @@ Source = ["<<modDirectory>>\\DI_HRBM_2\\fx_beam01.tga", "<<modDirectory>>\\DI_HR
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/455-hd-fire-and-ice-whee/" = {  } }
-Guid = "bfbfa89c-bf18-436b-9731-e1e35d6eaab4"
+Guid = "51277088-a0f2-4e56-a317-9d0416995f8c"
 Name = "HD Fire and Ice"
 Author = "Cinder Skye"
 Tier = "2 - Recommended"
@@ -2575,12 +2597,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "09d30524-2e5e-441a-bf5c-4c3c0381e91e"
+Guid = "a952093f-6f6f-4d0c-91ab-22cfe592a130"
 Action = "Extract"
 Source = ["<<modDirectory>>\\FireandIceHDWhee.zip"]
 
 [[thisMod.Instructions]]
-Guid = "77feec93-0f3a-427a-a68d-d32ef70c20ae"
+Guid = "57e30e29-be03-4fc6-b2b9-4a280202ae4b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\FireandIceHDWhee\\fx_crystal01.tga", "<<modDirectory>>\\FireandIceHDWhee\\fx_fireball.tga", "<<modDirectory>>\\FireandIceHDWhee\\fx_flame.tga", "<<modDirectory>>\\FireandIceHDWhee\\fx_reflectmap.tga"]
@@ -2588,7 +2610,7 @@ Source = ["<<modDirectory>>\\FireandIceHDWhee\\fx_crystal01.tga", "<<modDirector
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2193-animated-energy-shields/" = {  } }
-Guid = "fd725cb8-c5e1-4f3e-a104-cdb4e8223926"
+Guid = "b152a2fb-3dc9-4f32-83cb-8319942e5f6b"
 Name = "Animated Energy Shields"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2600,7 +2622,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/" = {  } }
-Guid = "83ffc5ae-a55f-404b-93f9-3c43f10c5363"
+Guid = "5cbd724b-9e2d-48bf-b9a2-28bf3c2ce927"
 Name = "Animated Cantina Sign"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -2612,7 +2634,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2581-revamped-fx/" = {  } }
-Guid = "0f0c9e87-08da-4693-996d-eb7ebcee28e3"
+Guid = "44fed19f-a7ca-411d-a7bc-b73956809e01"
 Name = "Revamped FX"
 Author = "olegkuz1997"
 Tier = "3 - Suggested"
@@ -2625,7 +2647,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1925-terminal-texture/" = {  } }
-Guid = "3b0fc864-4ddd-44cf-ab65-df4ddfd6dc36"
+Guid = "844d7c90-55f1-4743-a2f4-3f2c0c586223"
 Name = "Terminal Texture"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -2637,7 +2659,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2222-reptab-hd/" = {  } }
-Guid = "59e96f7e-35c7-4921-9fd1-680d1ae1d1f4"
+Guid = "eccb3004-8062-42d5-a01b-1da589c83c9c"
 Name = "RepTab HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -2649,7 +2671,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1398-k1-animated-swoop-screen-tslport/" = {  } }
-Guid = "ea9771fe-3b1e-4378-b804-b5ce5e17ff43"
+Guid = "8e351404-a959-42ce-8880-e5eba417f37e"
 Name = "Animated Swoop Monitors"
 Author = "ebmar"
 Tier = "3 - Suggested"
@@ -2660,12 +2682,12 @@ Category = ["Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "b790b3de-0767-4c35-ad85-39d92ac74933"
+Guid = "0c85aa3f-5fdd-48d5-a7c9-6619310f0893"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort].7z"]
 
 [[thisMod.Instructions]]
-Guid = "aba20f13-c6e8-4b52-96e9-19edb44fad48"
+Guid = "c5f1e045-fda0-4bd6-86d6-1a332c514fe1"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort]\\[K1]_Animated_Swoop_Screen_[TSLPort]\\to_Override\\AnmtdSwpScrn.tpc", "<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort]\\[K1]_Animated_Swoop_Screen_[TSLPort]\\to_Override\\plc_swscreen.mdl", "<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort]\\[K1]_Animated_Swoop_Screen_[TSLPort]\\to_Override\\plc_swscreen.mdx", "<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort]\\[K1]_Animated_Swoop_Screen_[TSLPort]\\to_Override\\TSL_SwpMntr.tpc"]
@@ -2673,7 +2695,7 @@ Source = ["<<modDirectory>>\\[K1]_Animated_Swoop_Screen_[TSLPort]\\[K1]_Animated
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/916-loadscreens-in-color/" = {  } }
-Guid = "d37abc59-8014-4031-9ab0-be3d45e75cf0"
+Guid = "90b8af39-0aff-4167-b503-18f4c0ae0d91"
 Name = "Loadscreens in Color"
 Author = "Sithspecter"
 Tier = "3 - Suggested"
@@ -2684,12 +2706,12 @@ Category = ["Appearance Change", "Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "113abe4e-3078-4496-b472-03073dbed497"
+Guid = "9ceae3e3-f8f6-42b9-8665-ea22294fbd7b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Loadscreens in Color.zip"]
 
 [[thisMod.Instructions]]
-Guid = "aade124e-71a9-45cd-97da-62411dada529"
+Guid = "c55416a7-3071-4ff9-91b9-a28d61f2966b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Loadscreens in Color\\Override\\*"]
@@ -2697,7 +2719,7 @@ Source = ["<<modDirectory>>\\Loadscreens in Color\\Override\\*"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1846-new_lightsaber_blade_model_k1/" = {  } }
-Guid = "77cf7c65-bb41-4eaf-9938-eb1df0b9355f"
+Guid = "f1259a88-ea85-4120-97ac-2ce5e605c0c0"
 Name = "New Lightsaber Blade Models"
 Author = "Crazy34"
 Tier = "1 - Essential"
@@ -2709,12 +2731,12 @@ Category = ["Appearance Change", "Immersion", "Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "68779440-bed5-43ab-8722-f1c3546ba835"
+Guid = "a79cd9a1-a204-4b58-8988-6af732d84751"
 Action = "Extract"
 Source = ["<<modDirectory>>\\New_Lightsaber_Blades_K1_v_*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "35f64673-709f-4aa8-aae6-bdbf83549fd7"
+Guid = "d19d30fe-3c53-4e10-9c5b-f00accdcb37c"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -2723,7 +2745,7 @@ Source = ["<<modDirectory>>\\New_Lightsaber_Blades_K1_v_*\\New_Lightsaber_Blades
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2506-darth-malaks-lightsaber-k1/" = {  } }
-Guid = "3fb32d74-7773-450c-8637-c56a3ac9e18c"
+Guid = "fe27eb84-28fc-4b06-b092-e16f46376bd1"
 Name = "Darth Malak's Lightsaber"
 Author = "Marius Fett"
 Tier = "1 - Essential"
@@ -2735,7 +2757,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1271-jcs-blaster-visual-effects-for-k1/" = {  } }
-Guid = "acbc9e72-f0d8-43de-8f88-a891cd4d2339"
+Guid = "d431aa42-b064-49fe-b2a7-079fd87938ba"
 Name = "Blaster Visual Effects"
 Author = "JCarter426"
 Tier = "3 - Suggested"
@@ -2747,12 +2769,12 @@ Category = ["Graphics Improvement"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "20d25364-69d6-46fd-a063-9ee6f680d296"
+Guid = "2ef8658e-1a03-46d0-925f-f3d0fb841285"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Blaster Visual Effects for K1.zip"]
 
 [[thisMod.Instructions]]
-Guid = "f9fab6e6-17d2-47e4-9545-11c88a1fc699"
+Guid = "f1480aa1-d2aa-4654-a993-e2d468da4d98"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_B1.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_B2.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_G1.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_G2.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_R1.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_R2.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_W1.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX_Laser_W2.tga", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_b.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_b.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_bc.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_bc.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_r.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_r.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_w.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_laserfire_w.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_b1.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_b1.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_bc1.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_bc1.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_r1.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_r1.mdx", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_w1.mdl", "<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\w_lfire_pb_w1.mdx"]
@@ -2760,7 +2782,7 @@ Source = ["<<modDirectory>>\\JC's Blaster Visual Effects for K1\\Override\\JC_FX
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1899-wookie-warblade-fix/" = {  } }
-Guid = "8dcdd0b8-5f64-4c44-846e-394f83f8a0bb"
+Guid = "0d4fe225-0fc4-45cc-8820-5d9e5bae2372"
 Name = "Wookiee Warblade Fix"
 Author = "RedRob"
 Tier = "3 - Suggested"
@@ -2771,12 +2793,12 @@ Category = ["Bugfix"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "f26f7fee-b520-489b-999b-363f5e289ced"
+Guid = "822bac61-5764-4a23-b7ec-eeb251d0fd8c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\WookieWarbladeFix-Redrob41.7z"]
 
 [[thisMod.Instructions]]
-Guid = "140d86c3-42ef-4582-82c5-d92428d2cc99"
+Guid = "2ebb3531-4ae6-4f70-933c-52f39e33a459"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_warblade_001.mdl", "<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_warblade_001.mdx", "<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_WBld_001.tga", "<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_WBld_001.txi"]
@@ -2784,7 +2806,7 @@ Source = ["<<modDirectory>>\\WookieWarbladeFix-Redrob41\\w_warblade_001.mdl", "<
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1856-request-kill-the-czerka-jerk-on-kashyyyk/" = {  } }
-Guid = "0f7dc449-bef9-4662-91f3-2302e0ee533f"
+Guid = "5a7b3236-63ab-4e90-a43c-2b2eb85671f6"
 Name = "Kill the Czerka Jerk on Kashyyyk"
 Author = "TamerBill"
 Tier = "3 - Suggested"
@@ -2795,12 +2817,12 @@ Category = ["Added Content"]
 Language = ["NO"]
 
 [[thisMod.Instructions]]
-Guid = "9f8e0e89-ea93-4044-a120-07e2ecbf92c6"
+Guid = "c0f4e36c-6d8f-4945-b7c3-e37657814697"
 Action = "Extract"
 Source = ["<<modDirectory>>\\KillCzerkaJerk.zip"]
 
 [[thisMod.Instructions]]
-Guid = "48436190-7e28-4074-83eb-2edef6895763"
+Guid = "23a218f8-f02b-40ac-af65-7e5e0bcddbbc"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\KillCzerkaJerk\\TSLPatcher.exe"]
@@ -2808,7 +2830,7 @@ Source = ["<<modDirectory>>\\KillCzerkaJerk\\TSLPatcher.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/375-korriban-academy-workbench/" = {  } }
-Guid = "1679d317-0b52-48be-b2ba-8260e3077abf"
+Guid = "36c2301b-9a15-4601-a874-e6c1d66158d6"
 Name = "Korriban Academy Workbench"
 Author = "InSidious"
 Tier = "3 - Suggested"
@@ -2819,12 +2841,12 @@ Category = ["Added Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "39f738c9-1e61-4e20-a4fb-86d805c95435"
+Guid = "ae08d3bb-856e-4b36-ad0b-c51e7dcb558f"
 Action = "Extract"
 Source = ["<<modDirectory>>\\di_kaw2.7z"]
 
 [[thisMod.Instructions]]
-Guid = "c17ae771-93b8-418b-b735-52926d117f5f"
+Guid = "7fff5d0a-0eb1-41a9-938a-e0cda343f4c1"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\di_kaw2\\di_spwb_01.ncs", "<<modDirectory>>\\di_kaw2\\di_wb_01.utp", "<<modDirectory>>\\di_kaw2\\k_pebo_upgrade.ncs", "<<modDirectory>>\\di_kaw2\\kor35_utharwynn.dlg"]
@@ -2832,7 +2854,7 @@ Source = ["<<modDirectory>>\\di_kaw2\\di_spwb_01.ncs", "<<modDirectory>>\\di_kaw
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1090-senni-vek-mod/" = {  }, "https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/" = {  } }
-Guid = "59821b50-f662-474d-ba22-1cd2fea124e5"
+Guid = "fc96fc71-93bf-48b2-af45-389ab35a8f2b"
 Name = "Senni Vek Mod"
 Author = "N-DReW25"
 Tier = "3 - Suggested"
@@ -2844,12 +2866,12 @@ Category = ["Added", "Restored Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "3b407bfe-1acb-4a47-a2c3-5b2f09402f3c"
+Guid = "9ed75296-bab7-4600-9693-dde4156dc2ac"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Bek Control Room Restoration*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "f2343bb6-7660-4073-af4a-868d248f2722"
+Guid = "3a6c4e82-8a53-4183-8126-1ab4d5edad36"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Bek Control Room Restoration*\\Bek Control Room Restoration*\\For Override\\tar11_lockdoo001.utd"]
@@ -2857,7 +2879,7 @@ Source = ["<<modDirectory>>\\Bek Control Room Restoration*\\Bek Control Room Res
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2228-kotor-1-twilek-male-npc-diversity/" = {  }, "https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/" = {  } }
-Guid = "69e8cbd6-fb49-420e-9d07-0095b0ee9172"
+Guid = "aeb5e93b-5e9f-4464-8a2d-26adfa037b99"
 Name = "KOTOR 1 Twi'lek Male NPC Diversity"
 Author = "Leilukin"
 Tier = "3 - Suggested"
@@ -2869,12 +2891,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "a31dd371-0459-4cb2-9547-3d31e1a174d7"
+Guid = "653166cf-5659-4dc0-9913-f2761ee9c12d"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Juhani Dialogue Restoration.zip"]
 
 [[thisMod.Instructions]]
-Guid = "15f74ceb-5cb4-41ab-85b0-0bffbd37b0f7"
+Guid = "48dfe23c-3a1f-4b1b-ade2-ba775792542a"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_p05.ncs", "<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_p19.ncs", "<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_p20.ncs", "<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_p21.ncs", "<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restoration\\Installation\\k_hjuh_w10.ncs"]
@@ -2882,7 +2904,7 @@ Source = ["<<modDirectory>>\\Juhani Dialogue Restoration\\Juhani Dialogue Restor
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2108-ixgil-the-bith/" = {  } }
-Guid = "14943030-1a53-4654-b1be-0b2e2da45e76"
+Guid = "570688cc-fbd5-4d19-8eaa-799046a7b508"
 Name = "Ixgil the Bith"
 Author = "Crimson Knight"
 Tier = "4 - Optional"
@@ -2893,12 +2915,12 @@ Category = ["Bugfix"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "78432c99-543d-438f-9005-a5a9716a0e0a"
+Guid = "5f9c30c8-ab84-4e9f-8a04-ce9b96893d67"
 Action = "Extract"
 Source = ["<<modDirectory>>\\CK-Ixgil the Bith.zip"]
 
 [[thisMod.Instructions]]
-Guid = "e91fc830-6141-4e36-aaef-3b2fe57ed910"
+Guid = "c29921a7-2537-4305-a103-135bd77a2bf8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\CK-Ixgil the Bith\\Ixgil the Bith\\INSTALL.exe"]
@@ -2906,7 +2928,7 @@ Source = ["<<modDirectory>>\\CK-Ixgil the Bith\\Ixgil the Bith\\INSTALL.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/" = {  }, "http://deadlystream.com/files/file/1124-sneak-attack-10-restoration/" = {  } }
-Guid = "3083d285-054b-41be-a341-eb77058bb87b"
+Guid = "f4c9911f-7c5c-4360-b9dc-72dacbed6cd2"
 Name = "Hidden Bek Control Room Restoration"
 Author = "N-DReW25"
 Tier = "4 - Optional"
@@ -2917,12 +2939,12 @@ Category = ["Restored Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "1b79ed65-4324-4805-9dad-c640e8cec793"
+Guid = "000f4e40-ff38-4912-b8c3-2fdced17f3d9"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Sneak Attack 10 Restoration.zip"]
 
 [[thisMod.Instructions]]
-Guid = "37d56f06-3b82-4809-8b5c-8428989487b5"
+Guid = "c94fdb1d-f21b-4fb8-87e9-4d56e3c76d8e"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Sneak Attack 10 Restoration\\Sneak Attack 10 Restoration\\TSLPatcher.exe"]
@@ -2930,7 +2952,7 @@ Source = ["<<modDirectory>>\\Sneak Attack 10 Restoration\\Sneak Attack 10 Restor
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/" = {  } }
-Guid = "1b02e539-26f3-4325-8601-6bb94d25b52e"
+Guid = "5836bbdf-9eac-4563-adc7-4a3a473375f0"
 Name = "Swoop Bike Upgrades"
 Author = "Salk"
 Tier = "4 - Optional"
@@ -2942,7 +2964,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2428-jedi-choice-dialogue-enhancement/" = {  } }
-Guid = "9a08b1e5-70d7-4c94-82e1-4a521b09f694"
+Guid = "7d917c2e-5090-4f62-b231-75055a256015"
 Name = "Jedi Choice Dialogue Enhancement"
 Author = "Emperor Devon"
 Tier = "3 - Suggested"
@@ -2955,7 +2977,7 @@ Language = ["NO"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/" = {  }, "https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/" = {  } }
-Guid = "9b45c4cc-e45e-4303-bf6a-8f4a41174a1a"
+Guid = "f3453d4b-8ba7-4a6d-8e9d-b7cd7ec83b9c"
 Name = "Juhani Dialogue Restoration"
 Author = "Leilukin"
 Tier = "2 - Recommended"
@@ -2966,12 +2988,12 @@ Category = ["Restored Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "bfe08d82-9e0a-4b49-9432-a3d20617ebe9"
+Guid = "9429d7f3-0178-45c7-877c-3bc82216ca68"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PC Dialogue with Davik's Slaves Change.7z"]
 
 [[thisMod.Instructions]]
-Guid = "16084c9a-d2a1-45e4-bfa4-a5447ab93005"
+Guid = "69c07370-1acb-4d48-8284-f457514dbf10"
 Action = "Choose"
 Source = ["31e74d5a-a6d0-4935-a735-7ecef9d78d02", "e2075360-1148-41eb-adda-27574761924b"]
 
@@ -2982,7 +3004,7 @@ Description = "Removes the option for the player to flirt with Davik's slaves by
 Restrictions = ["e2075360-1148-41eb-adda-27574761924b"]
 [[thisMod.Options.Instructions]]
 Parent = "31e74d5a-a6d0-4935-a735-7ecef9d78d02"
-Guid = "33c74fcf-2b06-44a5-b4f5-ec4999890db2"
+Guid = "89e08dee-28d1-42ed-ba45-ae28286ee180"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -2996,7 +3018,7 @@ IsSelected = true
 Restrictions = ["31e74d5a-a6d0-4935-a735-7ecef9d78d02"]
 [[thisMod.Options.Instructions]]
 Parent = "e2075360-1148-41eb-adda-27574761924b"
-Guid = "95589397-8b7c-47ab-bc3d-5026c22fda90"
+Guid = "8947cb0e-f1ca-46e4-aade-ff4ce082f6f8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -3005,7 +3027,7 @@ Source = ["<<modDirectory>>\\PC Dialogue with Davik's Slaves Change\\PC Dialogue
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1402-jcs-vision-enhancement-for-k1/" = {  } }
-Guid = "77db9ffb-79f3-480a-8e91-491fe806e871"
+Guid = "c53c24ff-e300-41c4-9553-f96409315db9"
 Name = "Vision Enhancement"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -3017,12 +3039,12 @@ Category = ["Appearance Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "cdbc45e9-a97f-405c-94e0-6bd3f697a2f8"
+Guid = "cc98d62b-34b3-4712-ba21-bf72eef5de01"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Vision Enhancement for K1 v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "7de270c9-0f04-4b73-95cf-d73e2ab7cfe4"
+Guid = "50e71825-12f2-4671-91ed-5285a8fa506f"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -3031,7 +3053,7 @@ Source = ["<<modDirectory>>\\JC's Vision Enhancement for K1 v*\\Vision_Enhanceme
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/895-leviathan-differentiated-dialogue/" = {  } }
-Guid = "169b3818-a156-451b-a00a-b27b0058f8e2"
+Guid = "188c5860-571a-48b3-b2fe-8b48f4c97e74"
 Name = "Leviathan Differentiated Dialogue"
 Author = "Revanator"
 Tier = "3 - Suggested"
@@ -3042,12 +3064,12 @@ Category = ["Added Content", "Immersion"]
 Language = ["NO"]
 
 [[thisMod.Instructions]]
-Guid = "b0a097c5-bcf9-4ffb-9840-dbd52bca7bc5"
+Guid = "72a0d997-5f86-464b-b918-cca5c1af91c1"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Leviathan Differentiated Dialogue.7z"]
 
 [[thisMod.Instructions]]
-Guid = "a2516774-fcda-43f7-9838-554f7ec8f193"
+Guid = "d8b266f1-fdab-4823-a757-06ed97a50a7b"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Leviathan Differentiated Dialogue\\Leviathan Differentiated Dialogue\\lev40_rodpris2.dlg"]
@@ -3055,7 +3077,7 @@ Source = ["<<modDirectory>>\\Leviathan Differentiated Dialogue\\Leviathan Differ
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1270-balanced-pazaak/" = {  } }
-Guid = "d7265a13-59d9-439c-9608-648d4456a1a1"
+Guid = "9c0f0c1b-0b14-454d-8dd8-5dd605aada29"
 Name = "Balanced Pazaak"
 Author = "A Future Pilot"
 Tier = "3 - Suggested"
@@ -3066,12 +3088,12 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "d87591d1-66ec-4926-9265-9c02d1819500"
+Guid = "a36c03e9-ea75-4519-9684-3a96fbbac507"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Balanced Pazaak.zip"]
 
 [[thisMod.Instructions]]
-Guid = "93ef8b87-6fbb-472f-95c5-068f0120acb2"
+Guid = "2c51582c-52f1-4250-a7d8-536bef366298"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Balanced Pazaak\\Override\\pazaakdecks.2da"]
@@ -3079,7 +3101,7 @@ Source = ["<<modDirectory>>\\Balanced Pazaak\\Override\\pazaakdecks.2da"]
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/" = {  }, "https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/" = {  } }
-Guid = "24ab8bd2-639d-4dc7-9f7b-dea88cb88b59"
+Guid = "60a828d8-3830-42f4-98b3-076232227524"
 Name = "Ebon Hawk Camera Replacement"
 Author = "LDR"
 Tier = "1 - Essential"
@@ -3090,19 +3112,19 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "615d6137-c3ea-4a68-99fa-b068fe25e582"
+Guid = "50a0e1c5-357c-4e91-a905-eb7dc844b232"
 Action = "Extract"
 Source = ["<<modDirectory>>\\ldr_repshipunknownworld.zip"]
 
 [[thisMod.Instructions]]
-Guid = "ec415f63-9621-4767-9599-e39403dd706a"
+Guid = "fedda143-360f-4f98-a146-d1c14b1f637e"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
 Source = ["<<modDirectory>>\\ldr_repshipunknownworld\\ldr_repshipunknownworld\\TSLPatcher.exe"]
 
 [[thisMod.Instructions]]
-Guid = "56242441-b526-460a-a609-94e1f2099659"
+Guid = "e9471b4e-b651-497d-8397-8bf5ae30556e"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -3110,7 +3132,7 @@ Source = ["<<modDirectory>>\\ldr_repshipunknownworld\\ldr_repshipunknownworld\\T
 Dependencies = ["07fae5cf-f2ce-4df9-9e2b-8f2f85efde38"]
 
 [[thisMod.Instructions]]
-Guid = "1a743577-9318-4d85-a6d8-e85b68725cf6"
+Guid = "861203b7-081b-42dd-b76c-c3156a265543"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "2"
@@ -3120,7 +3142,7 @@ Dependencies = ["274832c0-e4ce-4fde-a532-0228fa0f0864"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2522-rebalanced-grenades/" = {  }, "https://deadlystream.com/files/file/1191-improved-grenades/" = {  } }
-Guid = "93adc2e7-5d59-432c-937e-517885db97dc"
+Guid = "4397962d-cc47-4fd3-9fca-b1c1f76d4afd"
 Name = "Rebalanced Grenades"
 Author = "Timbo"
 Tier = "2 - Recommended"
@@ -3131,12 +3153,12 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "fd7cd872-0105-4576-a3c9-922de4d0fddb"
+Guid = "3d562096-694d-4137-89cd-da5eae4eb1b0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Improved Grenades.7z"]
 
 [[thisMod.Instructions]]
-Guid = "6133828a-769d-45fb-8538-4537a5f0dfac"
+Guid = "3dc82f2f-6129-439e-a647-665421b97f56"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\Improved Grenades\\Improved Grenades\\Improved Grenades\\Vanilla Increased Radius +Demo\\k_sup_grenade.ncs", "<<modDirectory>>\\Improved Grenades\\Improved Grenades\\Improved Grenades\\Vanilla Increased Radius +Demo\\k_sup_grenade.nss"]
@@ -3144,7 +3166,7 @@ Source = ["<<modDirectory>>\\Improved Grenades\\Improved Grenades\\Improved Gren
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2409-grenades-and-mines-hd/" = {  } }
-Guid = "d654682f-bdfc-4aee-8dce-ece3fa50337a"
+Guid = "3a524073-9f63-4719-a763-b4bb3483efb3"
 Name = "Grenades and Mines HD"
 Author = "Dark Hope"
 Tier = "3 - Suggested"
@@ -3154,11 +3176,11 @@ Directions = "Delete \"ii_trapkit_001.tga\" through \"ii_trapkit_004.tga\" befor
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-Dependencies = ["0eebc251-88fd-4aee-91c8-dc035882cedc"]
+Dependencies = ["674b218f-411d-43f1-818b-86f67da2659c"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/90" = {  } }
-Guid = "46aacec8-781b-44db-a3db-73fc30ca31b9"
+Guid = "20a82f74-320f-4f4d-90fa-954ef2d008a7"
 Name = "Random Turret Minigame Remover"
 Author = "KittyKitty"
 Tier = "3 - Suggested"
@@ -3169,12 +3191,12 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "e68e9a6b-61f5-4524-b2e9-d213bac20368"
+Guid = "f9dac358-34ce-4ef7-ac7b-38c30de1d655"
 Action = "Extract"
 Source = ["<<modDirectory>>\\NO_Fighters.zip-90-v1-0.zip"]
 
 [[thisMod.Instructions]]
-Guid = "8fae185c-d718-46c3-b54b-7f9239dfa8e6"
+Guid = "7da7746b-79be-4b57-8c30-d612467afa92"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
 Source = ["<<modDirectory>>\\NO_Fighters.zip-90-v1-0\\k_sup_galaxmap.ncs", "<<modDirectory>>\\NO_Fighters.zip-90-v1-0\\k_sup_galaxymap.ncs"]
@@ -3182,7 +3204,7 @@ Source = ["<<modDirectory>>\\NO_Fighters.zip-90-v1-0\\k_sup_galaxmap.ncs", "<<mo
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2184-trask-ulgo-without-tutorials/" = {  } }
-Guid = "e0a689fd-e321-4c0b-bf1b-8bc91523ab56"
+Guid = "0ae217ca-020b-4e09-b408-20d067f0c7dd"
 Name = "Trask Without Tutorials"
 Author = "Leilukin"
 Tier = "2 - Recommended"
@@ -3193,12 +3215,12 @@ Category = ["Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "29cf287f-5bb3-4a6f-953c-e0308dc428ec"
+Guid = "a3217b5d-3aa7-4c6d-af31-973ca2a10cb0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Trask Ulgo Without Tutorials.7z"]
 
 [[thisMod.Instructions]]
-Guid = "a6c9039a-a032-4d88-a117-b98aff855bd0"
+Guid = "93bc1d67-5779-4e8d-a2bc-8c8ac4ddc4d3"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Trask Ulgo Without Tutorials\\Trask Ulgo Without Tutorials\\Install.exe"]
@@ -3206,7 +3228,7 @@ Source = ["<<modDirectory>>\\Trask Ulgo Without Tutorials\\Trask Ulgo Without Tu
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2097-all-hands-on-deck-for-the-leviathan-prison-break/" = {  }, "https://deadlystream.com/files/file/1747-black-vulkar-base-engine-lab-bench-for-swoop-accelerator/" = {  } }
-Guid = "3c0efae8-9177-41d4-9fa3-56483ef7a6c7"
+Guid = "dce739ac-4a6e-4476-b06d-6febeb2777c6"
 Name = "All Hands on Deck for the Leviathan Prison Break"
 Author = "Darth Parametric"
 Tier = "2 - Recommended"
@@ -3218,12 +3240,12 @@ Category = ["Bugfix", "Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "ea8bc700-62a5-4aa4-9276-9fb4963bdbee"
+Guid = "b4580258-4593-474e-9973-9583025b1e5c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[K1]_Vulkar_Accel_Bench*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "43326075-7b4a-4e91-b3f3-52f950bbe4a4"
+Guid = "db85a460-5c27-4f72-9fcb-03b65f59d119"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\[K1]_Vulkar_Accel_Bench_v*\\[K1]_Vulkar_Accel_Bench_v*\\INSTALL.exe"]
@@ -3231,7 +3253,7 @@ Source = ["<<modDirectory>>\\[K1]_Vulkar_Accel_Bench_v*\\[K1]_Vulkar_Accel_Bench
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2281-jcs-leviathan-aint-no-air-in-space-for-k1/" = {  }, "https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/" = {  } }
-Guid = "56dfc2fa-2591-410a-aba1-5812001c7b50"
+Guid = "af67db4b-0f24-4074-9e8f-422571cde8bd"
 Name = "Ain't No Air in Space"
 Author = "JCarter426"
 Tier = "4 - Optional"
@@ -3242,12 +3264,12 @@ Category = ["Immersion"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "d7b5dcb2-5c9b-4319-bc68-18b253855d60"
+Guid = "5a19324d-96fe-4e06-a7fb-f2c6459ca35e"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "e59d9a3e-29b4-4d37-ba15-7456610cab24"
+Guid = "538a92d5-b101-4f2d-86b8-47393cad4e39"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v*\\Install.exe"]
@@ -3255,7 +3277,7 @@ Source = ["<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v*
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2284-party-conversations-on-ebon-hawk/" = {  } }
-Guid = "a9c0679a-3c81-4fb0-ad24-0f62ed6cf0b7"
+Guid = "b4bf3958-6629-4b2c-ba99-a4f365c0ec36"
 Name = "Party Conversations on the Ebon Hawk"
 Author = "WildKarrde"
 Tier = "1 - Essential"
@@ -3268,7 +3290,7 @@ Language = ["YES"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/" = {  }, "https://deadlystream.com/files/file/2115-jcs-romance-enhancement-pan-galactic-flirting-for-k1/" = {  } }
-Guid = "22545d7c-4356-4def-9f22-cdc62e81ea02"
+Guid = "0f3efb96-6c00-43cd-8042-3997398a29d5"
 Name = "JC's Romance Enhancement: Dark Sacrifice"
 Author = "JCarter426"
 Tier = "1 - Essential"
@@ -3279,12 +3301,12 @@ Category = ["Restored Content"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "0cd46f54-7a5d-4c77-8ba0-a17d36848054"
+Guid = "7bf663f8-98cd-4e8b-a7c9-1aa829f3c85b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\JC's Romance Enhancement - Pan-Galactic Flirting for K1 v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "1a7741f5-9a58-47d8-aae5-82eab661226c"
+Guid = "89ec779d-db03-4094-8696-c0482e314ef2"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\JC's Romance Enhancement - Pan-Galactic Flirting for K1 v*\\Install.exe"]
@@ -3292,7 +3314,7 @@ Source = ["<<modDirectory>>\\JC's Romance Enhancement - Pan-Galactic Flirting fo
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/1487-k1-saber-throw-knockdown-effect/" = {  } }
-Guid = "fd006b03-0698-4c54-b8e1-c6e35c0947a7"
+Guid = "6ebb3161-3189-4eac-9aa8-6ac276d52924"
 Name = "Saber Throw Knockdown Effect"
 Author = "uwadmin12"
 Tier = "2 - Recommended"
@@ -3303,12 +3325,12 @@ Category = ["Mechanics Change"]
 Language = ["YES"]
 
 [[thisMod.Instructions]]
-Guid = "4c851408-ff3f-4411-b0ce-28b26b5c3174"
+Guid = "d588e080-b399-4a4a-9df1-79d7ad32b030"
 Action = "Extract"
 Source = ["<<modDirectory>>\\saberthrow_kd.zip"]
 
 [[thisMod.Instructions]]
-Guid = "20c3d9e0-8067-4990-a63c-6d9c07707595"
+Guid = "28c9051e-636b-4478-927a-e7f968a3c191"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\saberthrow_kd\\TSLPatcher.exe"]
@@ -3316,7 +3338,7 @@ Source = ["<<modDirectory>>\\saberthrow_kd\\TSLPatcher.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/" = {  } }
-Guid = "316d6560-72e6-4d81-983d-6a35b64d5b2e"
+Guid = "153e44b0-131f-4a7a-9e42-0ec0c4fbe90f"
 Name = "Sunry Murder Recording Enhancement"
 Author = "FallenGuardian"
 Tier = "2 - Recommended"
@@ -3327,12 +3349,12 @@ Category = ["Added Content", "Immersion"]
 Language = ["NO"]
 
 [[thisMod.Instructions]]
-Guid = "daf66525-dcee-4e7f-a6d6-56a7228f2b52"
+Guid = "9898c0eb-814e-4085-8db6-b03b5799a205"
 Action = "Extract"
 Source = ["<<modDirectory>>\\SMRE Version *.zip"]
 
 [[thisMod.Instructions]]
-Guid = "127f1ab1-ef25-4722-9cc6-ed0d9af63810"
+Guid = "cf2258c9-0cac-49b8-8822-1e386169e5e6"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\SMRE Version *\\SMRE\\SMRE Installer.exe"]
@@ -3340,7 +3362,7 @@ Source = ["<<modDirectory>>\\SMRE Version *\\SMRE\\SMRE Installer.exe"]
 
 [[thisMod]]
 ModLinkFilenames = { "https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/" = {  } }
-Guid = "71fac314-1c68-4fdc-bf46-0bbff8e2c31a"
+Guid = "cfc1b204-ef2e-4dee-9d6f-bc869626e76d"
 Name = "PC Dialogue with Davik's Slave Change"
 Author = "Leilukin"
 Tier = "2 - Recommended"
@@ -3350,1063 +3372,3 @@ Directions = "I personally recommend option 2."
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/" = {  } }
-Guid = "fadea12f-836d-4151-878e-a92b100d3a2f"
-Name = "Party Model Fixes"
-Author = "redrob41"
-Tier = "2 - Recommended"
-Description = "Several of the companion models are messed up in ways that you don't really notice until you begin slapping hi-res textures on them. Since we're going to get to that, this mod is pretty important as a prerequisite."
-Directions = "In the \"Bastila uvw fix\" folder, move all the files from the Bastila Clothes - Option 1 folder into the Override. Move all the files in the Canderous folder. Delete the two .tga files in the Carth folder before moving. Move all the files in the HK-47 folder. Delete the .tga file from the Jolee folder before removing. Ignore the Juhani folder. Move all the files from the Mission folder."
-IsSelected = true
-Category = ["Bugfix"]
-
-[[thisMod.Instructions]]
-Guid = "00a39225-4db1-4d9c-8e30-1acde8c0718b"
-Action = "Extract"
-Source = ["<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41.7z"]
-
-[[thisMod.Instructions]]
-Guid = "3ca71b61-bfe7-4e1c-8e09-b269d99e30c6"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Bastila uvw fix\\Bastila Clothes (BB) - option1 basic uvw fix\\P_BastilaBB.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Bastila uvw fix\\Bastila Clothes (BB) - option1 basic uvw fix\\P_BastilaBB.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Canderous uvw fix\\P_CandBB.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Canderous uvw fix\\P_CandBB.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthBB.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthBB.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthH.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Carth uvw fix\\P_CarthH.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\HK47 uvw fix\\P_HK47.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\HK47 uvw fix\\P_HK47.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Jolee uvw fix\\P_JoleeBB.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Jolee uvw fix\\P_JoleeBB.mdx", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Mission uvw fix\\P_MissionBB.mdl", "<<modDirectory>>\\K1 Party Model fixes and HD Bastila by RedRob41\\Mission uvw fix\\P_MissionBB.mdx"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1985-heyoranges-sith-uniform-reformation/" = {  } }
-Guid = "4608dd66-b4e1-47bf-94d4-93a4f73b3434"
-Name = "Sith Uniform Reformation"
-Author = "Heyorange"
-Tier = "3 - Suggested"
-Description = "If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias."
-Directions = "Install the default option, not one of the latter two."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "39c8575e-081e-4873-bb73-02ab5759f51e"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Heyorange's Sith Uniform Reformation *.zip"]
-
-[[thisMod.Instructions]]
-Guid = "fa895e36-48e6-4fc5-8160-7d69167876ec"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Heyorange's Sith Uniform Reformation *\\1. Heyorange's Sith Uniform Reformation\\Override\\*"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1405-repeating-blaster-attacks-restoration/" = {  } }
-Guid = "7c33777f-ab65-490e-9514-5b088dad947b"
-Name = "Repeating Blaster Attacks Restoration"
-Author = "R2-X2"
-Tier = "1 - Essential"
-Description = "Blasters in the original KOTOR are underpowered all-around, but out of the entire laughingstock none is worse than blaster repeaters, which cost more in return for equivalent damage and less crit chance. It turns out that these weapons were originally supposed to have two attack rounds, but BioWare didn't have the time or know-how to implement this before the game went gold. This mod restores this function, with only a few instances where it doesn't work due to hardcoded scripting."
-Directions = "The two optional files included in this mod package are untested with the builds and, from a balance perspective, not recommended."
-IsSelected = true
-Category = ["Mechanics Change & Bugfix"]
-
-[[thisMod.Instructions]]
-Guid = "9418f404-9296-46df-9c78-8bffbe3c1a1c"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Repeating blaster attacks restoration.zip"]
-
-[[thisMod.Instructions]]
-Guid = "f08844b1-e6f5-4069-8403-ff473d4c3705"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Repeating blaster attacks restoration\\k_ai_master.ncs", "<<modDirectory>>\\Repeating blaster attacks restoration\\k_ai_master.nss"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1868-recruit-t3-m4-early/" = {  } }
-Guid = "9b99ee39-b1a0-4045-a703-cc6d72e427dd"
-Name = "Recruit T3-M4 Early"
-Author = "brents742"
-Tier = "2 - Recommended"
-Description = "This mod restores the option to buy T3-M4 from Janice Nall as soon as you have the cash to do so. Dialogue was present in the files indicating that this was always meant to have been an option, but for some reason was scrapped from the final release. You can now buy T3 as soon as you're ready and use him until you unlock Mission, Zalbaar, and your other party members."
-IsSelected = true
-Category = ["Restored Content"]
-
-[[thisMod.Instructions]]
-Guid = "4a00bddf-7190-4b5b-9600-3bda04043d8e"
-Action = "Extract"
-Source = ["<<modDirectory>>\\RecruitT3M4Early.rar"]
-
-[[thisMod.Instructions]]
-Guid = "e2dbcb78-020d-4af5-8198-8eff858a1ebc"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\k_ptar_a05ab_en.ncs", "<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\k_ptar_opengate.ncs", "<<modDirectory>>\\RecruitT3M4Early\\RecruitT3M4Early\\tar02_janice021.dlg"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/" = {  } }
-Guid = "053609ed-e576-4f84-a517-1c30eb76e237"
-Name = "Security Spikes for K1"
-Author = "JCarter426"
-Tier = "2 - Recommended"
-Description = "In all BioWare's infinite brilliance, when they ported KOTOR to PC they didn't just cap the menus to 800x600, they also broke security spikes so they're literally unusable. This mod can't fix that, but it can give you a workaround: either some hacky functionality that works just like spikes do, or cold, hard cash in the places where spikes would normally drop."
-IsSelected = true
-Category = ["Bugfix"]
-
-[[thisMod.Instructions]]
-Guid = "5ae65a03-010e-4adb-9cf9-02cec80677b1"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Security Spikes for K1*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "934e67ea-ccd9-4c0a-8dd0-68b65d1dcc26"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\JC's Security Spikes for K1*\\Security_Spikes_K1.exe"]
-
-[[thisMod.Instructions]]
-Guid = "1abfbab7-ca4c-41fb-a5d3-86a53eb150ae"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\KOTOR1-Security-Spikes.zip"]
-
-
-# VALIDATION ISSUES:
-# Failed to process component for download
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/861-high-quality-blasters/" = {  } }
-Guid = "07fae5cf-f2ce-4df9-9e2b-8f2f85efde38"
-Name = "High Quality Blasters"
-Author = "Sithspecter"
-Tier = "1 - Essential"
-Description = "Massively improves the appearance of almost all blaster weapons in-game without altering their original design."
-Directions = "After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti"
-IsSelected = true
-Category = ["Graphics Improvement"]
-
-[[thisMod.Instructions]]
-Guid = "39c9b7e8-b3e5-4abe-8f3b-2c823698ce1f"
-Action = "Extract"
-Source = ["<<modDirectory>>\\High Quality Blasters*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "0d2f80d0-8c47-4fff-8ba8-9ea854f304a8"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\High Quality Blasters*\\High Quality Blasters*\\High Quality Blasters Installer.exe"]
-
-[[thisMod.Instructions]]
-Guid = "f7efa4f6-b54f-465f-b27b-4e6cc4c447ac"
-Action = "Rename"
-Destination = "w_ionrfl_004.mdl"
-Source = ["<<kotorDirectory>>\\Override\\w_ionrfl_04.mdl"]
-
-[[thisMod.Instructions]]
-Guid = "fd2d51e8-d90b-4519-84ac-64a6339e5bf1"
-Action = "Rename"
-Destination = "w_ionrfl_004.mdx"
-Source = ["<<kotorDirectory>>\\Override\\w_ionrfl_04.mdx"]
-
-[[thisMod.Instructions]]
-Guid = "1e1d9c29-2ac5-412e-a2f2-8b8fe288df23"
-Action = "Delete"
-Source = ["<<kotorDirectory>>\\Override\\g1_w_rptnblstr01.uti", "<<kotorDirectory>>\\Override\\w_blstrpstl_006.mdl", "<<kotorDirectory>>\\Override\\w_blstrpstl_006.mdx", "<<kotorDirectory>>\\Override\\w_rptnblstr_004.mdl", "<<kotorDirectory>>\\Override\\w_rptnblstr_004.mdx"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/" = {  } }
-Guid = "3d838c1d-f07c-4943-9a02-841d8a2521f6"
-Name = "Trandoshans Rescaled"
-Author = "DarthParametric"
-Tier = "4 - Optional"
-Description = "Canonically Trandoshans are huge, as tall as Wookiees. This mod rescales them to stand about as high."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "e3c31777-3eb5-45a2-be01-1f5f15005f24"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Trandoshans_Rescale.7z"]
-
-[[thisMod.Instructions]]
-Guid = "62bb8be7-94e2-4335-9516-655411153dee"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Trandoshans_Rescale\\[K1]_Trandoshans_Rescale\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/2312-k1-melee-texture-enhancement/" = {  } }
-Guid = "628b07d0-0735-40a2-b761-9f07615e265a"
-Name = "K1 Melee Texture Enhancement"
-Author = "Lewok2007"
-Description = "The swords, axes, and stun batons in Vanilla K1 aren't the most prettiest things you could look at in the game. I have decided to\r\nmake a texture enhancement for the swords since Snigaroo put a request for a skin to do something like this on the mod build request\r\nthread for TSL and K1. I also wanted to make this eventually, so why not do it now? The vanilla K1 swords have been upscaled to 2048 x 2048\r\nfrom 64 x 64. I then used KotorBlender and GIMP to make the swords look better. Likewise for the axes and the stun batons."
-Directions = "1. Extract the .zip\r\n2. Copy all of the .tpc files from \"override\"\r\n3. Paste them into the override folder in the K1 directory"
-IsSelected = true
-
-[[thisMod.Instructions]]
-Guid = "831aa7e7-42c0-4373-b2dd-90226e3b1b80"
-Action = "Extract"
-Source = ["<<modDirectory>>\\K1 Melee Texture Enhancement.zip"]
-
-[[thisMod.Instructions]]
-Guid = "9c9fb8a2-e1ed-4e82-a2d9-dc0e5b0f4169"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\K1 Melee Texture Enhancement\\override\\*"]
-
-[[thisMod.Instructions]]
-Guid = "35810cad-ee72-40a5-a308-c03f49c694d5"
-Action = "Choose"
-Source = ["8d1764f6-0c92-4379-bb71-3db4ca4a1d1d"]
-
-[[thisMod.Instructions]]
-Guid = "13b9500e-52b9-42ec-960a-837b51568fa5"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\K1 Melee Texture Enahcnementv1.1.1.zip"]
-
-[[thisMod.Options]]
-Guid = "8d1764f6-0c92-4379-bb71-3db4ca4a1d1d"
-Name = "Alternative Stun Baton"
-Description = "Person-who-wouldn't-wish-to-be-credited also provided an alternate stun baton texture for the 004 stun baton in a discussion with him, and button textures I \r\nused on the stun batons and swords. The alternate stun baton texture has a wood and leather appearance."
-IsSelected = true
-[[thisMod.Options.Instructions]]
-Parent = "8d1764f6-0c92-4379-bb71-3db4ca4a1d1d"
-Guid = "d19aa58c-36eb-4992-9736-9c8be6e21273"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\K1 Melee Texture Enhancement\\override\\Alternate 4th Stun Baton\\w_Stunbaton_004.tpc"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1555-custom-selkath-animation/" = {  } }
-Guid = "eb8b1dc5-5854-4884-9bf7-bc61c8278512"
-Name = "Custom Selkath Animation"
-Author = "Alvar007"
-Tier = "3 - Suggested"
-Description = "At many points in the files the Selkath are called on to make an \"angry\" animation type, but BioWare never made one for them. This is a custom animation for the Selkath that allow them to react properly whenever the files call for an angry emote."
-IsSelected = true
-Category = ["Bugfix"]
-
-[[thisMod.Instructions]]
-Guid = "5c65474e-d9e2-47d9-82d4-a9bc46d370ab"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Custom Selkath Animation.rar"]
-
-[[thisMod.Instructions]]
-Guid = "b1a04b11-9254-45e0-913e-019f22dc0270"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Custom Selkath Animation\\Custom Selkath Animation\\Install Custom Selkath Animation.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/693-sherruk-attacks-with-lightsabers/" = {  } }
-Guid = "21fa792a-1f00-4e3f-986a-6dd8aa746d2c"
-Name = "Sherruk Attacks with Lightsabers"
-Author = "Shem, patch by A Future Pilot & Darth Parametric"
-Tier = "3 - Suggested"
-Description = "Sherruk, the Mandalorian leader on Dantooine, likes to collect the lightsabers of the Jedi whom he's killed, and the settlers on the plains tell you that he's been heard to use them in battle. With this mod he really does use those lightsabers--and an impressively expanded inventory of equipment--to fuck your shit up."
-Directions = "Install the base mod first, then move the file from the patch directly to your override."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "9d560d71-5753-4184-bfc5-e70ccdb37717"
-Action = "Extract"
-Source = ["<<modDirectory>>\\SAWL Patch.rar", "<<modDirectory>>\\sherruksabers.7z"]
-
-[[thisMod.Instructions]]
-Guid = "6a28ae3d-ce7e-4e36-bcd0-f19e45096cc5"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\sherruksabers\\TSLPatcher.exe"]
-
-[[thisMod.Instructions]]
-Guid = "5073a174-49f5-4343-a001-61dbd020eb23"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\SAWL Patch\\SAWL Patch\\Override\\dan14_sherruk.utc"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1218-helena-shan-improvement/" = {  } }
-Guid = "c07594e9-573b-42eb-9784-591cc3e097ac"
-Name = "Helena Shan Improvement"
-Author = "VarsityPuppet"
-Tier = "2 - Recommended"
-Description = "This mod changes Helana Shan's appearance to more closely resemble that of her daughter Bastila, while also improving on her texture."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "b0f1f1cc-f8b5-4efe-80f9-8ce2aeede6b3"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Helena_Shan_Improvement.zip"]
-
-[[thisMod.Instructions]]
-Guid = "7e8a609a-7f13-4f79-9320-207069d1f652"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Helena_Shan_Improvement\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1006-bastilas-dark-bodysuit-by-quanon-revanator/" = {  } }
-Guid = "7b0377dd-43f5-4abc-bfc8-e7fbbe524d17"
-Name = "Bastila's Dark Bodysuit"
-Author = "Revanator"
-Tier = "2 - Recommended"
-Description = "As much as I'd like to think that Malak is just too lazy to care, it's unlikely he'd let Bastila run around with the same pseudo-robes she used as a Jedi without marking her as subservient to the Dark Side. This mod adds a new, slick dark-themed version of Bastila's clothing which she receives for the temple mount encounter and beyond."
-Directions = "Use the regular install--other install variants have been linked to sequence breaks, but the normal install variant is fully functional."
-IsSelected = true
-Category = ["Appearance Change & Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "ab4ca424-c54f-458a-9a0a-57514a745712"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Bastila's Dark Bodysuit.7z"]
-
-[[thisMod.Instructions]]
-Guid = "5a340df2-34f4-4898-83db-35b1285ab623"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\Bastila's Dark Bodysuit\\Bastila's Dark Bodysuit\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/" = {  } }
-Guid = "682c97fc-9123-4d13-a98c-49f84f18eb91"
-Name = "Taris Dueling Arena Adjustment"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "The \"crowd\" in the Taris Dueling Arena is, by default, just a few sprites stuffed in the background. They look awful, and I bet they looked awful even in 2003. Blessedly, this mod fixes that by switching the sprites out with a much more dense crowd, as well as fixing other miscellaneous issues with the arena."
-IsSelected = true
-Category = ["Appearance Change", "Bugfix & Graphics Improvement"]
-
-[[thisMod.Instructions]]
-Guid = "2c83882d-2394-402e-a030-a127682edbb2"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Taris_Dueling_Arena_Adjustment*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "21ae9cad-a507-4caf-bc90-c528e1c709ca"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Taris_Dueling_Arena_Adjustment_v*\\[K1]_Taris_Dueling_Arena_Adjustment_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://drive.google.com/file/d/1NuewBFq390wkZuBkbJzN-mN4sIRlvXGd/view" = {  } }
-Guid = "f5123696-472a-4c0a-ab77-167859464a22"
-Name = "Bendak Bounty Non-Darkside Option"
-Author = "Thrak Farelle, edited by A Future Pilot"
-Tier = "3 - Suggested"
-Description = "Since Selven can be killed as a government contract with no DS points gained, why can't Bendak? This mod allows the player to decide whether they're agreeing to the death match just because they want blood (DS) or because they simply want to ensure Bendak doesn't kill anyone else (LS)."
-Directions = "This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "fce3fc55-3c14-43c2-9437-b68aa75b03e1"
-Action = "Copy"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\tar02_duelorg021.dlg"]
-
-[[thisMod.Instructions]]
-Guid = "33314de5-99f2-45fd-ae71-39a0d0b691f7"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\view"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/" = {  } }
-Guid = "053a958b-1c45-448e-97ca-6ff636aba196"
-Name = "Kashyyyk Shadowlands Forcefield Rework"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "By default, the forcefield in the Kashyyyk shadowlands doesn't have any point of interaction to it, and so to get around this oversight BioWare had to use some camera trickery to prevent the player from seeing what Jolee was doing. This mod fixes this, as well as some other issues with the area, allowing the area transition to work with a more normal camera angle."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "3a7511d2-432c-4222-9303-0d037c630991"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "63c9617c-b531-4f23-a2e2-32ee6e6f0cc4"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\\[K1]_Control_Panel_For_Kashyyyk_Shadowlands_Forcefield_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/" = {  } }
-Guid = "44d6261a-39c7-4bea-af34-0fe8066a270c"
-Name = "Missing Lamps Fix"
-Author = "Ebmar"
-Tier = "4 - Optional"
-Description = "Several lamps which are supposed to be visible had bad references assigned to them, which caused them to fail spawning in and led to phantom light sources. This mod fixes that, as well as fixing the positioning of a misaligned pillar in the same area."
-Directions = "Run the patcher twice, first to install the lamp fix and then once to install the optional pillar facing fix."
-IsSelected = true
-Category = ["Bugfix"]
-
-[[thisMod.Instructions]]
-Guid = "b7588e3a-d733-4261-b05a-decdc778f471"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "ecf9ff26-835a-4eaf-b095-0acc0fed45af"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\Install.exe"]
-
-[[thisMod.Instructions]]
-Guid = "00d03e21-8bc7-42b1-8089-40191a5ca01f"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "1"
-Source = ["<<modDirectory>>\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\[K1]_UWTMF_Missing_Lamps_Fix_v*\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1289-sith-soldier-texture-restoration/" = {  } }
-Guid = "2cfecb5b-debf-48ed-9ab8-3add52df933a"
-Name = "Sith Soldier Texture Restoration"
-Author = "A Future Pilot"
-Tier = "3 - Suggested"
-Description = "It turns out there were several textures planned for Sith Troopers that didn't make it fully into the game. This mod restores an alternate white texture which was meant for Elite troopers, who by default simply share the appearance of regular troopers."
-IsSelected = true
-Category = ["Restored Content"]
-
-[[thisMod.Instructions]]
-Guid = "b5d90cfa-1515-47ea-ba3b-326daaccf3df"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Sith Soldier Texture Restoration*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "61e7527e-4963-4b47-8a9f-65714311b53f"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\Sith Soldier Texture Restoration*\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/" = {  } }
-Guid = "32781e7c-1f9b-4fa2-a346-bc86c42cc6e7"
-Name = "Diversified Wounded Republic Soldiers"
-Author = "DarthParametric"
-Tier = "3 - Suggested"
-Description = "By default, the Republic soldiers in Zelka Forn's clinic on Taris all have the exact same model. This mod varies their appearance to preserve realism."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "de330238-8b09-49da-9e35-42e5290e075f"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "300bb576-2c1d-482e-80f6-2aca44292ae7"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\\[K1]_Diversified_Wounded_Republic_Soldiers_On_Taris_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1199-diversified-jedi-captives-on-the-star-forge/" = {  } }
-Guid = "36a3c134-2a0e-4fff-a7c2-41e1c72d972e"
-Name = "Diversified Jedi Captives"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "This mod ensures all the Jedi captives on the Star Forge don't use the same model, and are instead realistically unique in appearance."
-Directions = "I recommend the Base install option. If you wish to add these NPCs to Dantooine, you can also install the optional module; just make sure to add the compatibility patch if you're using 'Cloaked Jedi Robes' above."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "84646b89-bf0f-4643-a34a-3b3514a763de"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "412db5c3-a8d3-4e65-9495-445e9649498c"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\\[K1]_Diversified_Jedi_Captives_on_the_SF_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/772-juhani-romance-enhancement/" = {  } }
-Guid = "fda7e614-8963-42d2-a47a-33f0e4d1b0d9"
-Name = "Juhani Romance Enhancement"
-Author = "Kexikus"
-Tier = "3 - Suggested"
-Description = "In the vanilla version of KOTOR that shipped, there is actually a romance option for female characters and Juhani, though it's tough as sin to proc due to a myriad of bugs (fixed by the K1CP in this mod package). Even so, it's very underdone and has no real conclusion to speak of. This mod's goal is to at least provide some basic closure to the romance and confirm that yes, you did actually proc it properly."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "d19925d5-5fca-457c-9c1d-c5596dd282fe"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Juhani_Romance_Enhancement.zip"]
-
-[[thisMod.Instructions]]
-Guid = "c14c1955-baff-4c69-b92f-505c8879ae6b"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Juhani_Romance_Enhancement\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1101-dodonna's-transmission/" = {  } }
-Guid = "9070c478-07a9-4805-8daa-b835360a155c"
-Name = "Dodonna's Transmission"
-Author = "danil-ch"
-Tier = "2 - Recommended"
-Description = "When just about to assault the Star Forge, Admiral Dodonna contacts the Ebon Hawk. Inexplicably, in the DS version of the cutscene the player is present, but in the LS version, despite the player's incredible importance, they're entirely absent. This mod adds the player into the LS version of the scene as well, so they match up."
-Directions = "Recommend the Revisited option."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "5ecdadf2-3e09-45d5-bbc3-d00a98f159ab"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*.rar"]
-
-[[thisMod.Instructions]]
-Guid = "55c295bd-efe3-4065-b28c-e8bcd158e746"
-Action = "Choose"
-Source = ["f54f00ba-805b-4639-8c89-cb4c56eb9cca", "6da14f0e-28f7-44cc-b991-f0ef2afa10dd"]
-
-[[thisMod.Options]]
-Guid = "f54f00ba-805b-4639-8c89-cb4c56eb9cca"
-Name = "Standard"
-Restrictions = ["6da14f0e-28f7-44cc-b991-f0ef2afa10dd"]
-[[thisMod.Options.Instructions]]
-Parent = "f54f00ba-805b-4639-8c89-cb4c56eb9cca"
-Guid = "6a6fab03-9719-4037-999b-f198e7b603ac"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*\\[K1]_Dodonna's_Transmission_v*\\Transmission.exe"]
-
-[[thisMod.Options]]
-Guid = "6da14f0e-28f7-44cc-b991-f0ef2afa10dd"
-Name = "Revisited"
-IsSelected = true
-Restrictions = ["f54f00ba-805b-4639-8c89-cb4c56eb9cca"]
-[[thisMod.Options.Instructions]]
-Parent = "6da14f0e-28f7-44cc-b991-f0ef2afa10dd"
-Guid = "e9d7748e-4f49-4417-8f75-750a031eb194"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "1"
-Source = ["<<modDirectory>>\\[K1]_Dodonna's_Transmission_v*\\[K1]_Dodonna's_Transmission_v*\\Transmission.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1342-movie-style-holograms-for-end-game-cutscenes/" = {  } }
-Guid = "28d0bd4c-de3f-434c-84fd-927b9228feec"
-Name = "Movie-Style Endgame Holograms"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "Gets rid of the ugly, \"painted\" holograms used for Dodonna's transmission sequence and replaces them with variants closer to the movies, and KOTOR 2."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "e52917f7-7a1f-4543-b62f-1989ab7c5f76"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "03ac7ad9-ec5c-434c-b511-e5c7b1d43e92"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\\[K1]_Movie-Style_Holograms_for_End_Game_Cutscenes_v*\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1736-movie-style-holograms-for-twisted-rancor-trio-puzzle/" = {  } }
-Guid = "6c8c632f-7b30-41ba-bd8c-562f562b917d"
-Name = "Movie-Style Holograms for the Twisted Rancor Trio"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "Replaces the holograms for the Twisted Rancor Trio puzzle on Taris with variants closer to those seen in the movies, and KOTOR 2."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "02a96315-754d-4021-ae59-849c5e9977a6"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle.7z"]
-
-[[thisMod.Instructions]]
-Guid = "d11f946c-7a08-4675-a1bd-fc82b055f702"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\\[K1]_Movie-Style_Holograms_For_Twisted_Rancor_Trio_Puzzle\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1346-movie-style-rakatan-holograms/" = {  } }
-Guid = "6b3c1671-76f8-46c3-b3d2-c58ea9fe1e8a"
-Name = "Movie-Style Rakatan Holograms"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "Replaces the Rakatan Elder holograms with variants closer to those seen in the movies, and KOTOR 2."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "27f901c6-2b98-4f05-b90b-096dc73c22e9"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Rakatan_Holograms_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "91c77bbe-c687-441b-bebb-6c74a07d1fc7"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Movie-Style_Rakatan_Holograms_v*\\[K1]_Movie-Style_Rakatan_Holograms_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1958-dark-side-ending-cutscene-enhancement/" = {  } }
-Guid = "19ed5522-11e7-4836-87b6-1abb6afa31fa"
-Name = "Dark-Side Ending Cutscene Enhancement"
-Author = "DarthParametric"
-Tier = "2 - Recommended"
-Description = "A major improvement to the endgame cutscene for DS players, enhancing the lightmaps, crowd, and architecture of the arena to be more realistic."
-IsSelected = true
-Category = ["Immersion & Graphics Improvement"]
-
-[[thisMod.Instructions]]
-Guid = "36465fdc-fcd9-47f4-ba7a-9dc9ce00e9ed"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "954a7550-83ff-42cf-9494-b57d475f0e88"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*\\[K1]_Dark_Side_Ending_Cutscene_Enhancement_v*\\INSTALL.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1531-k1-legends-elder-droids-unique-vo/" = {  } }
-Guid = "80e27e9d-c37e-492a-80c1-bae1defef97d"
-Name = "Elder Droid Unique VO"
-Author = "ebmar"
-Tier = "4 - Optional"
-Description = "By default, the droids in the Elder's compound on Lehon make beeping noises similar to what T3 and other utility droids do, despite the identical model on Dantooine having a VO that clearly indicates it was programmed to speak verbally, in an ancient version of the Rakatan language. This mod modifies the droid's VO set so it no longer beeps, and instead speaks ancient Rakata like the droid on Dantooine."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "6c72048d-5d3c-435e-9544-4c191bc7617f"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "3ab47fa1-59a2-4d6b-a2ec-1d10c48fae71"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\\[K1]_Legends_-_Elder_Droids_Unique_VO_v*\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/" = {  } }
-Guid = "e23269d2-86c8-4125-8fec-9cbfbc5dec4d"
-Name = "Ajunta Pall's Swords Revamped"
-Author = "Rece"
-Tier = "2 - Recommended"
-Description = "Gives the swords in Ajunta Pall's tomb unique stats and the ability to be sold for credits, unlike in vanilla."
-Directions = "Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended)."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "23e50d50-d560-4381-94bf-33be94f61b67"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Ajunta*s Swords.7z"]
-
-[[thisMod.Instructions]]
-Guid = "1d7729e9-98f5-48c4-a77b-4f07eaaf6ef8"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\Ajunta*s Swords\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1338-k1-legends-ajunta-palls-blade/" = {  } }
-Guid = "c0a5aad0-b76b-48da-8b85-0d5553d4eef8"
-Name = "Ajunta Pall's Blade"
-Author = "Ebmar"
-Tier = "3 - Suggested"
-Description = "Rather than working on all the Sith specter's weapons, this mod focuses on making Ajunta Pall's true blade a visually unique representation of the terror of the Sith Lord."
-Directions = "Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords."
-IsSelected = true
-Category = ["Appearance Change"]
-
-[[thisMod.Instructions]]
-Guid = "f6ff4821-ced0-449f-b7d3-8fa9fc1a2e3a"
-Action = "Extract"
-Source = ["<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "10ad60b3-4e60-4afc-9b77-bd65176720ba"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\TSLPatcher.exe"]
-Restrictions = ["e23269d2-86c8-4125-8fec-9cbfbc5dec4d"]
-
-[[thisMod.Instructions]]
-Guid = "7b7a65ec-ecbb-4b75-b4ac-bcd901a46c2a"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "2"
-Source = ["<<modDirectory>>\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\[K1]_Legends_Ajunta_Pall's_Blade_v*\\TSLPatcher.exe"]
-Dependencies = ["e23269d2-86c8-4125-8fec-9cbfbc5dec4d"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1454-jcs-mandalorian-armor-for-k1/" = {  } }
-Guid = "e0247c47-3dd1-4673-b323-bc8b6c67702c"
-Name = "JC's Mandalorian Armor"
-Author = "JCarter426"
-Tier = "2 - Recommended"
-Description = "Makes Mandalorian armor consistent throughout the game, and ensures that all models use the colored ranking system present in KOTOR."
-Directions = "Install Option A, then re-run the patcher and also install the extra textures."
-IsSelected = true
-Category = ["Appearance Change & Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "5d0cf6f1-a5fe-4745-a4d2-befce8a676a8"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Mandalorian Armor for K1 v*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "ba93a076-3f2f-463c-84ad-effae9badf17"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\JC's Mandalorian Armor for K1 v*\\Mandalorian_Armor_K1.exe"]
-
-[[thisMod.Instructions]]
-Guid = "47fd1e91-b062-4d53-8b36-7782c3c89eba"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "2"
-Source = ["<<modDirectory>>\\JC's Mandalorian Armor for K1 v*\\Mandalorian_Armor_K1.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/" = {  } }
-Guid = "bb23963b-b276-4d77-b2e0-6b90cdca53a1"
-Name = "Weapon Base Stats Rebalance"
-Author = "TK-664"
-Tier = "1 - Essential"
-Description = "In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris."
-IsSelected = true
-Category = ["Mechanics Change"]
-
-[[thisMod.Instructions]]
-Guid = "0187044d-6190-473b-8e46-7a1907c35cb1"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Weapon Base Stats Re-balance K1.rar"]
-
-[[thisMod.Instructions]]
-Guid = "f58a722b-19b0-41c4-88b7-c9d7076eec79"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Weapon Base Stats Re-balance K1\\Weapon Base Stats Re-balance K1\\Install WBSR.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/312-gaffi-stick-improvement/" = {  } }
-Guid = "2da4ae86-73bf-4027-b54b-bfd44bb041b8"
-Name = "Gaffi Stick Improvement"
-Author = "Fallen Guardian"
-Tier = "3 - Suggested"
-Description = "A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain."
-IsSelected = true
-Category = ["Graphics Improvement"]
-
-[[thisMod.Instructions]]
-Guid = "e5ec508f-b7c4-48c8-a103-1f14c9eec679"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Gaffi Stick Improvement.zip"]
-
-[[thisMod.Instructions]]
-Guid = "12635ba2-e116-44a0-946f-c7b13cc6bfd1"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Gaffi Stick Improvement\\Gaffi Stick Improvement\\Gaffi Stick Improvement.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/2231-quarterstaff-replacement-pack-for-k1/" = {  } }
-Guid = "4e94e96b-01ce-4b7b-9e6c-ebd65bcc3cc3"
-Name = "Quarterstaff Replacement Pack"
-Author = "DeadMan, ported by N-DReW25"
-Tier = "3 - Suggested"
-Description = "Similar to the above mod, this mod retextures the quarterstaff-style weapons to HD variants."
-IsSelected = true
-Category = ["Graphics Improvement"]
-
-[[thisMod.Instructions]]
-Guid = "e944eeaa-fe03-4e39-817f-6144345f70d9"
-Action = "Extract"
-Source = ["<<modDirectory>>\\QSRPK1.7z"]
-
-[[thisMod.Instructions]]
-Guid = "aa019912-c432-476e-a948-6fa7f46e8236"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\dm_qrtstaff_001.tga", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\dm_qrtstaff_001.txi", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\dm_qrtstaff_002.tga", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\dm_qrtstaff_002.txi", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\iw_qtrstaff_001.tga", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\iw_qtrstaff_002.tga", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\w_Qtrstaff_001.mdl", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\w_Qtrstaff_001.mdx", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\w_Qtrstaff_002.mdl", "<<modDirectory>>\\QSRPK1\\QSRPK1\\For Override\\w_Qtrstaff_002.mdx"]
-
-
-# URL RESOLUTION FAILURE: https://www.nexusmods.com/kotor/mods/66/
-# Download returned empty filename
-[[thisMod]]
-ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/66/" = { "DantTrainingLS-66-1-0.zip" = true } }
-Guid = "1cf7313c-5073-4ae5-992f-5e21fc08be5b"
-Name = "Dantooine Training Lightsabers"
-Author = "Kexikus"
-Tier = "3 - Suggested"
-Description = "Canonically, Jedi fought with low-power training lightsabers during their training, not swords. This mod provides the PC and Bastila with a training lightsaber for the purposes of the Dantooine training montage, replacing the scene's default longswords."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "cdf66f5e-739c-4fc5-97ca-917739523341"
-Action = "Extract"
-Source = ["<<modDirectory>>\\DantTrainingLS*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "a787ae38-6f3f-4e36-b692-480f0485c851"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\DantTrainingLS*\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/2008-logical-datapads/" = {  } }
-Guid = "f1c63885-b9bc-4c94-b3ce-ef579a6f7b19"
-Name = "Logical Datapads"
-Author = "Sdub"
-Tier = "2 - Recommended"
-Description = "Datapad, datapad, datapad, datapad, datapad. You wouldn't be able to tell it by looking at them, but in vanilla those are five different items. No more. This mod logically renames all datapads to actually explain what they are, so you don't risk an aneurism while looking for a specific one in your inventory."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "76971344-b9c1-4c11-b6bc-b9ac3ed4894b"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Logical Datapads.7z"]
-
-[[thisMod.Instructions]]
-Guid = "f36c5234-1db8-41d4-97db-24038b77e386"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Logical Datapads\\Logical Datapads\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "http://deadlystream.com/files/file/681-realistic-visual-effects/" = {  } }
-Guid = "1b9f5ad1-74e3-4446-9807-c70b85f8c646"
-Name = "Realistic Visual Effects"
-Author = "Shem"
-Tier = "2 - Recommended"
-Description = "Removes the glowing and other unrealistic visual effects when using flurry, critical strike, etc."
-IsSelected = true
-Category = ["Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "f54804a4-e59f-4ef0-9230-86812acf2301"
-Action = "Extract"
-Source = ["<<modDirectory>>\\visual_effects_k1.7z"]
-
-[[thisMod.Instructions]]
-Guid = "cfa2f7a6-3513-4feb-a8d5-5a64a69bbb92"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\visual_effects_k1\\Real Visual Effects K1.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1866-npc-alignment-fix/" = {  } }
-Guid = "a5856589-5b28-4ca3-b93a-deba5c0391c0"
-Name = "NPC Alignment Fix"
-Author = "TK-664"
-Tier = "2 - Recommended"
-Description = "Corrects a vanilla oversight where many enemies did not have an alignment at all, thereby rendering most items which gave bonus damage/resistances to LS/DS pointless."
-IsSelected = true
-Category = ["Bugfix & Immersion"]
-
-[[thisMod.Instructions]]
-Guid = "0445fd0c-cefa-4640-9e72-79e76396fb12"
-Action = "Extract"
-Source = ["<<modDirectory>>\\NPC_Alignment_Fix*.rar"]
-
-[[thisMod.Instructions]]
-Guid = "dc0b82a8-80d3-4a0e-acb5-e2a4c5731f63"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\NPC_Alignment_Fix*\\TSLPatcher.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/" = {  } }
-Guid = "9c9522b6-1e80-4e19-9c22-307bc8e2eef3"
-Name = "JC's Romance Enhancement: Biromantic Bastila for K1"
-Author = "JCarter426"
-Description = "This mod allows those playing as a female character to romance Bastila, an option available only for male player characters in the original release of the game. The female version of the romance will play out just as the male version, through talking to Bastila as your player gains experience and by choosing certain dialogue options. The romance can also be ended just as the male romance can, by choosing or avoiding certain dialogue options."
-Directions = "1. Extract files from the downloaded archive.\r\n2. Run Install.exe.\r\n3. Click \"Install Mod\" and select your game directory (default name SWKOTOR)."
-IsSelected = true
-
-[[thisMod.Instructions]]
-Guid = "e114f3ce-fce5-4558-99b4-6a003ddd8b20"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Romance Enhancement - Biromantic Bastila v*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "1565c218-923c-40d6-8a02-9691c1b3c9c8"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\JC's Romance Enhancement - Biromantic Bastila v*\\Install.exe"]
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1384" = {  } }
-Guid = "eff1eb51-4264-4afc-b4d2-44e362dedce6"
-Name = "Remove Duplicate TGA/TPC"
-Author = "Flachzangen, bash version by /u/th3w1zard1"
-Tier = "1 - Essential"
-Description = "This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do."
-Directions = "Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that TPC should be deleted and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](https://www.reddit.com/r/kotor/wiki/k1buildtpcdelete). MAKE SURE THIS SCRIPT RUNS PROPERLY!"
-IsSelected = true
-Category = ["Patch"]
-
-[[thisMod.Instructions]]
-Guid = "c3bfe552-ab67-4bcf-8715-c4a27bf2903b"
-Action = "DelDuplicate"
-Destination = "<<kotorDirectory>>\\Override"
-Arguments = ".tpc"
-
-
-[[thisMod]]
-ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1282?tab=files" = {  } }
-Guid = "2e5b5fa9-8691-480d-8d7c-80d794d9afe9"
-Name = "Ultimate Character Overhaul Patches"
-Author = "ShiningRedHD"
-Tier = "1 - Essential"
-Description = "This is the point at which we're going to install all the various patches produced for the Ultimate Character Overhaul for any of the other texture mods which you've installed."
-Directions = "Scroll down to the \"optional files\" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP, and then all remaining content that matches content you chose to use from the builds. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option."
-IsSelected = true
-Category = ["Patch & Graphics Improvement"]
-Dependencies = ["63cf4877-84ac-4862-ab8d-938eccd9dbb5", "eff1eb51-4264-4afc-b4d2-44e362dedce6"]
-InstallAfter = ["eff1eb51-4264-4afc-b4d2-44e362dedce6"]
-
-[[thisMod.Instructions]]
-Guid = "9837f055-a64f-4261-a439-0be3246663bb"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Minor Fixes - Compatibility Patch*.rar"]
-Dependencies = ["1f32e2d3-c28a-4832-bcca-f08767605f50"]
-
-[[thisMod.Instructions]]
-Guid = "d0c4ad43-57ca-4ad3-b082-663e69025a3b"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\JC's Minor Fixes - Compatibility Patch*\\JC's Minor Fixes - Patch\\*\\*"]
-Dependencies = ["1f32e2d3-c28a-4832-bcca-f08767605f50"]
-
-[[thisMod.Instructions]]
-Guid = "23e93ad2-29d2-41ae-be92-1a9ea5278ae6"
-Action = "Extract"
-Source = ["<<modDirectory>>\\KOTOR 1 Community Patch - Compatibility Patch*.rar"]
-Dependencies = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
-
-[[thisMod.Instructions]]
-Guid = "77799c33-36d3-41c7-91bf-a0cdea676484"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\KOTOR 1 Community Patch - Compatibility Patch*\\KOTOR 1 Community Patch - Patch\\*"]
-Dependencies = ["e782d4ee-4f65-4bc3-9c98-f372694d4582"]
-
-[[thisMod.Instructions]]
-Guid = "e945ad88-34b6-4b01-a912-2a1686698264"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*.rar"]
-Dependencies = ["c3a39ce9-3490-4494-96a8-3a59deb4fb4e"]
-
-[[thisMod.Instructions]]
-Guid = "0bb5faef-f101-4eb5-a3d3-060ac1167fce"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\N_RepSold_F01.tpc", "<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\N_RepSold_FH01.tpc", "<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\N_RepSold01.tpc", "<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\N_repsoldH.tpc", "<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\PFBBL01.tpc", "<<modDirectory>>\\Republic Soldier's New Shade - Compatibility Patch*\\Republic Soldier's New Shade - Patch\\New Shade\\PMBBL01.tpc"]
-Dependencies = ["c3a39ce9-3490-4494-96a8-3a59deb4fb4e"]
-
-[[thisMod.Instructions]]
-Guid = "e5893dcd-9b3e-404f-b216-448984ce889d"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Miscellaneous Compatibility Patches*.rar"]
-
-[[thisMod.Instructions]]
-Guid = "3483f9d3-765c-4028-b315-271c657a3da0"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Miscellaneous Compatibility Patches*\\Miscellaneous Compatibility Patches\\Juhani Cathar Head - Patch\\P_JuhaniH01.tga"]
-Dependencies = ["fcc0cc31-9b96-4bbf-85e2-46afc3563f8d"]
-
-[[thisMod.Instructions]]
-Guid = "852d0129-946e-4c10-a204-505b1321dac1"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Miscellaneous Compatibility Patches*\\Miscellaneous Compatibility Patches\\Sherruk with Lightsabers - Patch\\N_Mandalorian02.tga"]
-Dependencies = ["21fa792a-1f00-4e3f-986a-6dd8aa746d2c"]
-
-[[thisMod.Instructions]]
-Guid = "ccf781d7-04ab-4951-8fe9-35912f5af59c"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Miscellaneous Compatibility Patches*\\Miscellaneous Compatibility Patches\\Thigh-High Boots for Twi'lek - Patch\\NPC Replacement\\N_TwilekFB01.tga", "<<modDirectory>>\\Miscellaneous Compatibility Patches*\\Miscellaneous Compatibility Patches\\Thigh-High Boots for Twi'lek - Patch\\NPC Replacement\\N_TwilekFC01.tga"]
-Dependencies = ["6f2ff55e-1908-4923-90cb-e6f64ae35f29"]
-
-[[thisMod.Instructions]]
-Guid = "39124897-ae22-4449-a4a4-6a645991ef24"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Better Twi'lek Male Heads - Compatibility Patch*.rar"]
-Dependencies = ["9c16f610-c331-4eca-9448-3dcf804bd839"]
-
-[[thisMod.Instructions]]
-Guid = "c971ff33-eff6-4569-8282-e169f972e77b"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\Better Twi'lek Male Heads - Compatibility Patch*\\Better Twi'lek Male Heads - Patch\\Textures\\*"]
-Dependencies = ["9c16f610-c331-4eca-9448-3dcf804bd839"]
-
-[[thisMod.Instructions]]
-Guid = "111858a5-78a1-45b9-b137-8695d3bfeef6"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Mandalorian Armor - Compatibility Patch*.rar"]
-Dependencies = ["e0247c47-3dd1-4673-b323-bc8b6c67702c"]
-
-[[thisMod.Instructions]]
-Guid = "f98af71b-7f8f-4209-a4df-a95a63ff626c"
-Action = "Move"
-Destination = "<<kotorDirectory>>\\Override"
-Source = ["<<modDirectory>>\\JC's Mandalorian Armor - Compatibility Patch*\\JC's Mandalorian Armor - Patch\\*\\*"]
-Dependencies = ["e0247c47-3dd1-4673-b323-bc8b6c67702c"]
