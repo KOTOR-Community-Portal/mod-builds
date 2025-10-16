@@ -20,17 +20,17 @@ You now need to download [this file](https://deadlystream.com/files/file/1321-ko
 From this point forward all mods are installed as if the mods_*x* folder is the **main game directory**. For any TSLPatcher executable which asks you to select the main game folder/folder with the executable in it, you will select the mods_*x* folder. Similarly, any mods directing you to place their files within the game's override folder will be placed within the override folder within mods_*x*.
 
 <!--<<ModSync>>
-Guid = "fe5e866a-ea87-4e13-9fc3-e2ad597e2b5e"
+Guid = "2d3a0161-7281-4749-88fe-6f853987ff70"
 Instructions = [
      = {
-        Guid = "9193c60c-15f8-442d-8449-44b061814602"
+        Guid = "daabfdd0-dded-4491-b08b-8f83fd12cd38"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\mtslrcm.zip",
         ]
     }
      = {
-        Guid = "ab757279-4fb6-43bf-8991-6af818b463a6"
+        Guid = "c08997da-1caa-4d19-b53e-94aadfd1f20a"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\mtslrcm\\dlc\\*",
@@ -60,39 +60,39 @@ ___
 **Installation Instructions:** The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Dialogue Tweak, Mandalore Conversation, and Extra 1 - SLM.
 
 <!--<<ModSync>>
-Guid = "7d777bc9-5fec-45f0-9a42-a9f6e3caf9c0"
+Guid = "1453405e-cead-4f15-9c47-17f5975cb080"
 Instructions = [
      = {
-        Guid = "cf66eafc-a7a3-42a8-b208-af88a6059241"
+        Guid = "7ad6611d-18ab-47d4-84fd-2d80dd11973c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\URCMTP 1.3 CENSORED.7z",
         ]
     }
      = {
-        Guid = "7260c2b8-2bc0-43fe-878a-f8fe576551f0"
+        Guid = "f3eaed17-e87b-4e0b-878a-73eadee08bdb"
         Action = "Choose"
         Source = [
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "1d1b05b5-bd4d-4c6a-ae7c-8614ba84d7ab",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
-            "7137f8a9-9bad-461f-9636-66a0d86008c1",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "5c122257-c72d-4b6d-9511-db87fd9d234a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
+            "ed57364a-8a93-40df-b23d-9070ce8a946a",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "7137f8a9-9bad-461f-9636-66a0d86008c1"
+        Guid = "ed57364a-8a93-40df-b23d-9070ce8a946a"
         Name = "1 - Kaevee Removal, Part 1"
         Description = "For the first half of removal of the padawan Kaevee. Restores functionality with the Salvager Camp."
         Instructions = [
              = {
-                Guid = "69ea3380-ad59-4e50-ad10-1e839a62d3f1"
+                Guid = "3406b5d3-f54d-4720-b090-ddfdd64a98c8"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\URCMTP 1.3 CENSORED/Individual component installer\\TSLPatcher.exe",
@@ -102,12 +102,12 @@ Options = [
         ]
     }
      = {
-        Guid = "1d1b05b5-bd4d-4c6a-ae7c-8614ba84d7ab"
+        Guid = "5c122257-c72d-4b6d-9511-db87fd9d234a"
         Name = "1 - Kaevee Removal, Part 2"
         Description = "For the second half of removal of the padawan Kaevee. Restores functionality with the Enclave Sublevel."
         Instructions = [
              = {
-                Guid = "e2497e49-0105-41fe-ac1b-a9334c236dff"
+                Guid = "484e381b-40b8-4137-a0c3-ac751b8b76c6"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\URCMTP 1.3 CENSORED/Individual component installer\\TSLPatcher.exe",
@@ -139,10 +139,10 @@ ___
 **Installation Instructions:** Move just 153sion.dlg to the override.
 
 <!--<<ModSync>>
-Guid = "38cabdfe-5101-4b44-99c1-0507f18c7e2e"
+Guid = "7631fcbb-8031-46d5-b09a-2039ad99cb69"
 Instructions = [
      = {
-        Guid = "42101cd6-12cf-4e1b-b773-7432b855f7b2"
+        Guid = "f69f2bd5-ad45-42b8-86d7-2db82432728c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SSR.7z",
@@ -173,10 +173,10 @@ Some information has been censored to prevent spoilers.
 **Masters:** Mobile TSLRCM (The Sith Lords Restored Content Mod)
 
 <!--<<ModSync>>
-Guid = "fb35bf23-136f-4102-8b94-9fd3d58ae9ba"
+Guid = "4f4a4e5b-1044-4269-aae5-4d66b027678a"
 Instructions = [
      = {
-        Guid = "96448ce2-4e9d-452a-9f06-8f47b5b14402"
+        Guid = "178122e2-e459-4ed5-b788-98d7b0655da7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KOTOR2-Thematic-Companions_v1.0.3_spoiler-free.zip",
@@ -203,17 +203,17 @@ ___
 **Installation Instructions:** I advise users to only install the Jedi Master/Sith Lord fixes.
 
 <!--<<ModSync>>
-Guid = "bd7cce7a-bc86-4212-a60b-4845b5b85b38"
+Guid = "3b7cec10-a3f4-4c06-ac83-498225a2f526"
 Instructions = [
      = {
-        Guid = "35c7257c-3156-4275-82a5-2bbd89c0d558"
+        Guid = "501cef66-0a7c-4428-9bb2-a181cdb78fac"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL_prestige_save_fixes.zip",
         ]
     }
      = {
-        Guid = "41a0b674-53ba-4a91-b79c-d4c0cc5639d8"
+        Guid = "cf6ec08e-324e-4973-a3b3-a7c88dd31766"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\TSL_prestige_save_fixes\\TSL_prestige_save_fixes\\*",
@@ -241,17 +241,17 @@ ___
 **Installation Instructions:** Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!
 
 <!--<<ModSync>>
-Guid = "836ff740-932c-4991-960f-26b74dd41a6a"
+Guid = "4ece5239-a3dd-43ad-8d42-8416459eb253"
 Instructions = [
      = {
-        Guid = "c53b7c3e-c253-4443-aa19-023585433251"
+        Guid = "005a0b20-31fd-426b-aa5b-388b6ccfe67f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\CK-Classic Class Attack Bonus and Weaker Consulars.zip",
         ]
     }
      = {
-        Guid = "0be03239-da03-4b47-8051-4be7709f8406"
+        Guid = "1c102e3a-200d-489a-99f3-dea3fe5121cf"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Classic Class Attack Bonus and Weaker Consulars\\TSLPatcher.exe",
@@ -279,17 +279,17 @@ ___
 **Installation Instructions:** Extract the mod. Ignore the included subfolders, and move just the files in the base folder to your override. Overwrite when prompted.
 
 <!--<<ModSync>>
-Guid = "8824cf6f-6916-4906-9dee-40480c561352"
+Guid = "6ea5f1c6-0968-440d-9713-90db929c9ec8"
 Instructions = [
      = {
-        Guid = "dd3b98f0-03b3-4cab-af99-27ff8f103577"
+        Guid = "9822d5ab-347b-4c55-be60-11411eda1596"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Ultimate_Robes_Repair_For_TSL_v1.3.7z",
         ]
     }
      = {
-        Guid = "1a4b99df-336f-4c84-b617-067ed030c9c6"
+        Guid = "74fed55b-339b-4df1-8311-73b2d6f8e98c"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Ultimate_Robes_Repair_For_TSL_v1.3\\Ultimate_Robes_Repair_For_TSL_v1.3\\*",
@@ -319,17 +319,17 @@ ___
 **Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
 <!--<<ModSync>>
-Guid = "1743ce12-8d23-4fd2-8d06-e840a3405722"
+Guid = "c180b52d-632f-43df-85b7-13c823d66af7"
 Instructions = [
      = {
-        Guid = "64fb1977-561f-4afe-b4e9-3433f8c25e7d"
+        Guid = "c37901d3-f779-420a-8832-947f0fff46a5"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K2CP_v1.6.2.zip",
         ]
     }
      = {
-        Guid = "e890acd5-c355-497e-ab0b-f2c0568a6ac7"
+        Guid = "14225da6-3b40-4a40-85d7-825164df0619"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\K2CP_v1.6.2\\TSLPatcher.exe",
@@ -355,14 +355,22 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "75abb591-d9b0-4269-9b6d-b39930a33955"
+Guid = "261eb921-731b-4b32-9151-34760e3a1152"
 Instructions = [
      = {
-        Guid = "e74f598d-d4f2-41c2-9d35-e4e71c598b7c"
+        Guid = "cd03b1dc-e563-4a82-b672-34f8c9a682ae"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Remote Tells Influence Patch for TSLRCM.zip",
         ]
+    }
+     = {
+        Guid = "a04283f6-b843-48f8-8606-a9e24ef90073"
+        Action = "Move"
+        Source = [
+            "<<modDirectory>>\\Remote Tells Influence Patch for TSLRCM\\*",
+        ]
+        Destination = "<<kotorDirectory>>\\Override"
     }
 ]
 -->
@@ -383,17 +391,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "a57b4c54-69d8-4038-a320-4929501124c5"
+Guid = "2351d30e-2ab1-44a0-9185-ba1b370495d6"
 Instructions = [
      = {
-        Guid = "330014d8-20fd-42cb-bf1b-584f412ed000"
+        Guid = "f0dbeafa-c164-485b-81e2-dcdb38494f37"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Fixed_Czerka_Salvager.zip",
         ]
     }
      = {
-        Guid = "0e3eb359-f1b4-4158-9411-3fdc14636449"
+        Guid = "84d9511d-4a7d-4667-88d4-c355af584dba"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Fixed_Czerka_Salvager\\TSLPatcher.exe",
@@ -419,17 +427,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "75ed7312-205c-4eb6-b13c-dd818f9eda42"
+Guid = "2f7f6e9a-b27b-49f4-bc7a-6092bd2aaaf4"
 Instructions = [
      = {
-        Guid = "d83cca50-79e9-4ad6-805e-2c47932fc021"
+        Guid = "1d650da6-b8be-4545-92ff-15bb77bfba51"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\k2-pfhc06-fix.zip",
         ]
     }
      = {
-        Guid = "52f4b6da-ac3a-4e91-aa35-e8a404ddfe25"
+        Guid = "e177e33d-b1d8-483a-9b5e-8fcc288bbc4d"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\k2-pfhc06-fix\\*",
@@ -457,17 +465,17 @@ ___
 **Download Instructions:** Use the V2 version of the mod.
 
 <!--<<ModSync>>
-Guid = "ee5cbe4b-1b78-4829-9afa-2ecf78d760ee"
+Guid = "4274d009-b4d9-448f-93e3-6daf0e6f10e6"
 Instructions = [
      = {
-        Guid = "58e5ce5b-c302-4fd5-b05c-f7b460371ff0"
+        Guid = "d510c539-b92a-4b35-9655-d4cf11165c75"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Droid special weapons fix for TSL v2.0.7z",
         ]
     }
      = {
-        Guid = "4a2d88cb-927d-4af5-bd93-f7f957377d29"
+        Guid = "e22ab1d6-5746-4a2a-9d4e-ee61bc4b9b22"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Droid special weapons fix for TSL v2.0\\TSLPatcher.exe",
@@ -495,17 +503,17 @@ ___
 **Masters:** Mobile TSLRCM (The Sith Lords Restored Content Mod)
 
 <!--<<ModSync>>
-Guid = "b32298c9-810e-49c2-9cb9-c1088c46ec66"
+Guid = "9a00a2cc-38c4-40ca-838a-bfe81ee85ba8"
 Instructions = [
      = {
-        Guid = "2a68055d-0fc3-4c4a-a373-7e479ace063f"
+        Guid = "088d0ab6-aa52-4ea7-84a5-664f411eb116"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\dendis_merchant_mod.rar",
         ]
     }
      = {
-        Guid = "553ec79d-0bdb-4594-bc81-f2f9fd0b00fc"
+        Guid = "cd32a0bc-2c61-4b56-902d-a5cf32ce3735"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\dendis merchant mod\\TSLPatcher.exe",
@@ -533,17 +541,17 @@ ___
 **Installation Instructions:** If you are using the K2 Community Patch, install the contents of every folder but Straight Fixes (that was already in the K2CP).
 
 <!--<<ModSync>>
-Guid = "baca5328-c306-48a6-922c-89196bfc4d9d"
+Guid = "6aee31b0-1b6f-4079-ac91-8648ae9c5ffd"
 Instructions = [
      = {
-        Guid = "ce8cdf14-7d5f-4b89-b94f-4d1df2716d6a"
+        Guid = "095d2d87-d958-416c-9598-0a73aceb8fee"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Minor Fixes CENSORED.rar",
         ]
     }
      = {
-        Guid = "6919c9b3-6e45-4813-bd3b-86050cc514bf"
+        Guid = "80c7e835-a817-4702-ac88-754e0de28389"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\JC's Minor Fixes CENSORED\\JC's Minor Fixes for K2 v1.5\\*",
@@ -569,17 +577,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "e2b32b59-4577-4096-a623-7222c8f25a90"
+Guid = "a7a3eab8-07f9-4e19-bef4-e6e4ec79e258"
 Instructions = [
      = {
-        Guid = "32404ffe-0b06-4d30-aeee-6d30ec836a35"
+        Guid = "f5addf39-cd16-4167-b089-a4362fcaf45a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Maintenance_Officer_New_Dead_Ver1.2.zip",
         ]
     }
      = {
-        Guid = "aa4b52fd-62eb-4b7a-9529-e5369daa6788"
+        Guid = "1f5c690b-8caa-491e-8c89-f9496075e2e9"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Maintenance_Officer_New_Dead_Ver1.2\\*",
@@ -605,17 +613,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "78af8a1f-6ac5-4878-811a-ccac687676ee"
+Guid = "24272bfb-05e4-4128-92ff-41931592217e"
 Instructions = [
      = {
-        Guid = "73b22081-12ad-40e8-907c-4e94ca822175"
+        Guid = "9195b347-1e84-4c37-a537-09f70d259310"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\DI_HRBM_2.7z",
         ]
     }
      = {
-        Guid = "f795fc3e-65b2-4e79-97fc-a93be2a851ff"
+        Guid = "6fe38b62-973b-417a-b2f3-6cb0e9ef89d8"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\DI_HRBM_2\\*",
@@ -641,17 +649,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "a349e0bc-4877-460e-8efd-2d38bf9b43c1"
+Guid = "336cc1f4-69e4-4afd-98c4-e6d87f013871"
 Instructions = [
      = {
-        Guid = "ba50bffe-dd4f-40d8-b4a3-d4106aa9866f"
+        Guid = "745e806e-d5d6-46d4-ba51-b5acaf228150"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\FireandIceHDWhee.zip",
         ]
     }
      = {
-        Guid = "b625d334-39c0-4114-b3d2-adf138c3de98"
+        Guid = "3969786c-4c04-495f-8f58-90302f4cd45d"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\FireandIceHDWhee\\*",
@@ -677,17 +685,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "40831d75-3362-4108-9a2e-7157f779ec5f"
+Guid = "f80ff304-4880-45ed-be01-3048ca9dfec4"
 Instructions = [
      = {
-        Guid = "72f1ef6f-02a6-4cf6-9d1d-73bb9ce34a25"
+        Guid = "5b3f8e2b-fbc3-4ca1-b860-e1d2333a53f2"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Animated energy shields.rar",
         ]
     }
      = {
-        Guid = "3457b006-6e23-4d49-a1a6-289b2150d5d6"
+        Guid = "a659b99f-adf4-45a1-9875-7cfcd53c1e47"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Animated energy shields\\*",
@@ -713,17 +721,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "f9c96304-57cb-4f86-a69b-16b4887aa6f9"
+Guid = "f39a6c9d-a412-4245-95ae-88ef8803524b"
 Instructions = [
      = {
-        Guid = "cf2c4a4f-69ca-4e8a-85bc-0b5ac13fdac4"
+        Guid = "c522a72c-0eb9-48e9-aea7-93a981b5dbc4"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL_Head_Model_Fixes_by_RedRob41.zip",
         ]
     }
      = {
-        Guid = "afbf53a2-a872-4f9a-8cc1-5b7d17aa5a52"
+        Guid = "9419ebcb-d636-45c4-82e7-7557ffcee8f8"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\TSL_Head_Model_Fixes_by_RedRob41\\*",
@@ -749,17 +757,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "f943e644-a4b0-41e3-afec-74b2d37adbe7"
+Guid = "c2aeb093-4655-4766-99dd-89de5d121e88"
 Instructions = [
      = {
-        Guid = "a3237e3b-9e7b-4ae3-b8cc-550620dc670e"
+        Guid = "58774534-fcdd-4388-a932-a3b16a58d85f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\NewHolocrons.rar",
         ]
     }
      = {
-        Guid = "3787dda6-f77c-4d65-bc19-717dee56443d"
+        Guid = "9c3002a7-281c-455f-a76b-d75f0b79711a"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\NewHolocrons\\NewHolocrons\\*",
@@ -787,17 +795,17 @@ ___
 **Installation Instructions:** Go into the NPC Replacement folder and move all the loose files to the override directory. Ignore the optional folder.
 
 <!--<<ModSync>>
-Guid = "71760e6d-b300-4ad5-8528-605e69fcbbe7"
+Guid = "05e942df-bda6-4656-95f3-90269b52a1f7"
 Instructions = [
      = {
-        Guid = "246f51d0-e56f-48ff-975c-877c215258da"
+        Guid = "b780215d-2f3b-4b6d-878c-dcaef0cbabde"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z",
         ]
     }
      = {
-        Guid = "4fb5d4b1-8fc8-4bf3-88e5-56c18505bbaf"
+        Guid = "61945d09-858e-4525-b247-36729affae9f"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\*",
@@ -825,33 +833,33 @@ ___
 **Installation Instructions:** Choose whether to use the slim or original necks; your preference.
 
 <!--<<ModSync>>
-Guid = "06d9e428-d26a-4875-b43b-ad0d1e6b588b"
+Guid = "8d1f1b70-dc54-446f-b6ab-cb666fbdf237"
 Instructions = [
      = {
-        Guid = "c21f29fc-2c87-4509-9484-e4b11e826ab3"
+        Guid = "e5d3d9cf-1bf0-47b4-9512-c593b4c6c570"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL Twi'lek Heads v1.3.2.7z",
         ]
     }
      = {
-        Guid = "a20c366f-4701-47d8-ac31-7effae1f397b"
+        Guid = "0c54e818-8670-4342-9e95-88f74f9eed48"
         Action = "Choose"
         Source = [
-            "f8da22ee-4e59-4e64-8a5e-34936aa564ff",
-            "f5c7c725-7c36-41db-b2a8-0c3c6c8c55b7",
-            "374b07b3-e870-40fa-b77c-6a744ceee1cb",
+            "ece9e8e7-9d00-42b8-83a5-a21505cd4a5f",
+            "5808bc53-fa44-4b49-947a-3b051ef7f22a",
+            "1d74e268-57a7-4ac4-af2d-9108ab306d89",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "f8da22ee-4e59-4e64-8a5e-34936aa564ff"
+        Guid = "ece9e8e7-9d00-42b8-83a5-a21505cd4a5f"
         Name = "Option A - Slim Necks"
         Description = "Select this option to slim down on the lard necks!"
         Instructions = [
              = {
-                Guid = "6192de47-6185-4616-9783-5aa479a215f2"
+                Guid = "039904bc-886d-4612-aa2f-1e7b0e4fc796"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Twi'lek Heads v1.3.2\\TSLPatcher.exe",
@@ -861,12 +869,12 @@ Options = [
         ]
     }
      = {
-        Guid = "f5c7c725-7c36-41db-b2a8-0c3c6c8c55b7"
+        Guid = "5808bc53-fa44-4b49-947a-3b051ef7f22a"
         Name = "Option B - Original Necks"
         Description = "Select this option to keep the original necks inspired by Bib Fortuna."
         Instructions = [
              = {
-                Guid = "dd120479-d5ce-4b5b-82a2-1bae0ad84991"
+                Guid = "2b5e21ac-b561-4246-a3f4-1798e10b0c48"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Twi'lek Heads v1.3.2\\TSLPatcher.exe",
@@ -876,12 +884,12 @@ Options = [
         ]
     }
      = {
-        Guid = "374b07b3-e870-40fa-b77c-6a744ceee1cb"
+        Guid = "1d74e268-57a7-4ac4-af2d-9108ab306d89"
         Name = "M4-78 EP Compatibility Patch"
         Description = "After installing Option A or B, select this for compatibility with M4-78 EP."
         Instructions = [
              = {
-                Guid = "45cf259e-00b9-4c2e-9f6b-c63a25450223"
+                Guid = "ba07c863-6a30-403c-8926-46647bacd9e5"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Twi'lek Heads v1.3.2\\TSLPatcher.exe",
@@ -913,10 +921,10 @@ ___
 **Installation Instructions:** Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
 
 <!--<<ModSync>>
-Guid = "81b6f31e-05d9-44c2-a6b1-74021428a909"
+Guid = "6ff1c6ff-d923-4527-bc96-53804814030f"
 Instructions = [
      = {
-        Guid = "3111ddbb-d084-4003-8342-d439340b7909"
+        Guid = "29588f59-503d-462a-9fb3-b3cb440747c0"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL Twi'lek Male NPC Diversity CENSORED.7z",
@@ -943,17 +951,17 @@ ___
 **Installation Instructions:** I recommend against the use of the upscaled textures for this mod on mobile.
 
 <!--<<ModSync>>
-Guid = "8b95cef8-dcac-4055-9f50-0b5891f17ef3"
+Guid = "7bc6f1b4-33fb-4227-900d-0d9a6bc6f410"
 Instructions = [
      = {
-        Guid = "c1499fad-1d06-40cb-bb15-2c345420edf3"
+        Guid = "caf42138-b8f7-4e5c-a718-5d12439f40d7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Dahnis Unique Look.7z",
         ]
     }
      = {
-        Guid = "c9b6f788-f83d-4816-8118-10e180a72f39"
+        Guid = "cf1b7870-c91a-44df-b16a-f3aaab516549"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Dahnis Unique Look\\TSLPatcher.exe",
@@ -979,10 +987,10 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "ece773cd-563d-42e5-9795-9304eeb51ffd"
+Guid = "7e8d2268-c7d9-49f7-867b-f3044ed5e14a"
 Instructions = [
      = {
-        Guid = "4a11bdf6-3160-46db-af80-2a978b5dfe4b"
+        Guid = "d1dcd89d-df69-4fa4-891f-8a47e62b5a5f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL_Darth_Malaks_Armour_PMBM05_Reskin-9-1-0.7z",
@@ -1009,32 +1017,32 @@ ___
 **Installation Instructions:** Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite.
 
 <!--<<ModSync>>
-Guid = "ed0d0209-9eca-4950-957c-2e5c3ee5f7fb"
+Guid = "eaba1130-1bb6-4e6b-aa61-024b24667773"
 Instructions = [
      = {
-        Guid = "5409567b-e768-443c-994a-e035d043e3e6"
+        Guid = "302ac40e-31b0-42ee-89e5-2d10fc455777"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Supermodel Fix for K2 v1.6.zip",
         ]
     }
      = {
-        Guid = "4e519aff-781c-4069-84c5-7d7c8b16a850"
+        Guid = "6f923807-831b-4d6c-a8e8-f7aa0c140418"
         Action = "Choose"
         Source = [
-            "232f4aa0-47e8-4ee6-9b78-6c0508a51493",
-            "46d2925e-e3d3-4b10-aafd-d4fd971727b2",
+            "c0f7a59e-846a-4cce-92f2-003480581bf3",
+            "c92bfa4f-c05e-4f6d-880f-57929b32a407",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "232f4aa0-47e8-4ee6-9b78-6c0508a51493"
+        Guid = "c0f7a59e-846a-4cce-92f2-003480581bf3"
         Name = "K1 Style Running"
         Description = "Install files from K1 Style Running folder"
         Instructions = [
              = {
-                Guid = "44e82c3f-9923-41ab-9a95-649f107e2169"
+                Guid = "00c33578-0a42-4dbe-8646-b4447e73b467"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\JC's Supermodel Fix for K2 v1.6\\K1 Style Running\\*",
@@ -1044,12 +1052,12 @@ Options = [
         ]
     }
      = {
-        Guid = "46d2925e-e3d3-4b10-aafd-d4fd971727b2"
+        Guid = "c92bfa4f-c05e-4f6d-880f-57929b32a407"
         Name = "Override"
         Description = "Install files from Override folder"
         Instructions = [
              = {
-                Guid = "8ebf6bc7-2bd4-405f-8a8e-7b94c9728c2d"
+                Guid = "fa0a7a27-54bd-4f16-a9fb-7fd67b4f46dd"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\JC's Supermodel Fix for K2 v1.6\\Override\\*",
@@ -1079,17 +1087,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "c9669e63-624a-46f5-9f94-61e7e1a1cf1f"
+Guid = "9d6f36a4-e5a7-48aa-afb2-2414ca2116c9"
 Instructions = [
      = {
-        Guid = "77f12956-4d95-426e-b69f-d4a909b18abd"
+        Guid = "bd25ad9b-2135-45cb-b84f-36aabf28c245"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Mandalorian Worn-Out Armour Reskin.rar",
         ]
     }
      = {
-        Guid = "2d58313a-d3f9-4154-9067-84d63b8508c7"
+        Guid = "9e502fdc-0579-4255-8453-10df2e331960"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Mandalorian Worn-Out Armour Reskin\\Mandalorian Worn-Out Armour Reskin\\*",
@@ -1117,17 +1125,17 @@ ___
 **Installation Instructions:** Recommend the 'zombie-like' appearance, as it matches vanilla DS transitions.
 
 <!--<<ModSync>>
-Guid = "ce4e72d0-d887-49e8-80c5-c71d7c6cdad0"
+Guid = "90178130-1276-40b0-919c-fd0b9f12ba32"
 Instructions = [
      = {
-        Guid = "f5e05595-28f4-44c6-8e1d-263930bbcf08"
+        Guid = "38d28e86-7c34-4485-a5c6-231f772dd62c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Effixians_PFHC03_Restoration.zip",
         ]
     }
      = {
-        Guid = "52ca50cd-b7f7-4f0a-9928-c4bd1fb13725"
+        Guid = "c28dc138-cdef-4861-b548-1af009036ac2"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Effixians_PFHC03_Restoration/Movie Style Sith Eyes\\TSLPatcher.exe",
@@ -1153,32 +1161,32 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "3ca3755a-bb7a-4454-a8ee-21423eb8af59"
+Guid = "1e905662-21a7-402d-983a-9867b40b99a1"
 Instructions = [
      = {
-        Guid = "5eec0fd9-11cb-46ba-a633-f21688405901"
+        Guid = "b95d34ef-da13-4739-a6e2-1e793fd0efa0"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\scruffyatton.zip",
         ]
     }
      = {
-        Guid = "73199596-e892-41f9-8fed-767286bd5f5e"
+        Guid = "6c32f86f-a850-4590-9c85-cd5ad1f8ece2"
         Action = "Choose"
         Source = [
-            "1ab24f84-8066-4999-9bc2-de4423ee09fe",
-            "46bd3e28-e8b3-4bd1-af3f-470897aa914c",
+            "80884ccb-fe57-4c86-ae35-18ebbd4c4216",
+            "891eff9b-ff29-40b2-b34a-be51cba4dc11",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "1ab24f84-8066-4999-9bc2-de4423ee09fe"
+        Guid = "80884ccb-fe57-4c86-ae35-18ebbd4c4216"
         Name = "scruffyatton"
         Description = "Install files from scruffyatton folder"
         Instructions = [
              = {
-                Guid = "6efb2b6c-fca2-474f-8e7c-f3e02403728d"
+                Guid = "6ff76895-d6da-4065-b62f-9057b8cad7fd"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\scruffyatton\\scruffyatton\\*",
@@ -1188,12 +1196,12 @@ Options = [
         ]
     }
      = {
-        Guid = "46bd3e28-e8b3-4bd1-af3f-470897aa914c"
+        Guid = "891eff9b-ff29-40b2-b34a-be51cba4dc11"
         Name = "__MACOSX"
         Description = "Install files from __MACOSX folder"
         Instructions = [
              = {
-                Guid = "16caa50b-fac6-4b92-b541-13f9e0d285bb"
+                Guid = "e099d536-7fd0-4cb6-9247-cbf7f84302c7"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\scruffyatton\\__MACOSX\\*",
@@ -1221,10 +1229,10 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "a06ba322-4c51-49d3-91b1-9b3c7095de2c"
+Guid = "9f054ac1-a645-47ba-a845-ff3de4612ce3"
 Instructions = [
      = {
-        Guid = "96336af7-f363-4b28-91b9-ec492d082009"
+        Guid = "7ef45e17-4118-4ad3-9e24-cafb7fea0fc9"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Smoother G0-T0-1296-1-0-1750625306.7z",
@@ -1253,33 +1261,33 @@ ___
 **Installation Instructions:** Choose which version of the head model you would like to use from the screenshots provided. Place the files from the corresponding folder into your override.
 
 <!--<<ModSync>>
-Guid = "9079e9f3-e2eb-47eb-a1d4-1dca70ffc539"
+Guid = "0725c09d-c7cf-42a9-b129-46fd4ec60a43"
 Instructions = [
      = {
-        Guid = "36810c55-2efb-44f9-96dc-d515081e1acd"
+        Guid = "53413d52-30fd-4914-9fd6-f48cf0b159ed"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Dark Harbinger.zip",
         ]
     }
      = {
-        Guid = "5a05e2a8-0b0a-44f2-8b88-ef908f3a18a0"
+        Guid = "d9dacc7e-eab3-4714-b4f0-105706c1f7a8"
         Action = "Choose"
         Source = [
-            "f425cd92-4ad7-4859-b274-2e5d0c6483d6",
-            "954b95ef-3de0-4f3e-881c-61ff8a8bf9ce",
-            "5c9ec070-d81e-41ba-a002-319a2eccf943",
+            "2c585718-e976-4c31-ada8-14d2d94c550a",
+            "f61f89b1-a670-4980-84d1-228caeb2cc13",
+            "26ef290a-a4fb-4192-8e0b-3f94c4b0b714",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "f425cd92-4ad7-4859-b274-2e5d0c6483d6"
+        Guid = "2c585718-e976-4c31-ada8-14d2d94c550a"
         Name = "Eyes of Death"
         Description = "Install files from Eyes of Death folder"
         Instructions = [
              = {
-                Guid = "91292315-700c-4f3e-a860-cb44ba3c4e1b"
+                Guid = "0af97a3b-a265-48a8-8b7f-5a52af09bead"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Dark Harbinger\\Eyes of Death\\*",
@@ -1289,12 +1297,12 @@ Options = [
         ]
     }
      = {
-        Guid = "954b95ef-3de0-4f3e-881c-61ff8a8bf9ce"
+        Guid = "f61f89b1-a670-4980-84d1-228caeb2cc13"
         Name = "Eyes of Wound"
         Description = "Install files from Eyes of Wound folder"
         Instructions = [
              = {
-                Guid = "3e98474b-6061-4d94-8063-d2c4027388e0"
+                Guid = "d07111fb-c0bc-4254-a336-34610924520e"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Dark Harbinger\\Eyes of Wound\\*",
@@ -1304,12 +1312,12 @@ Options = [
         ]
     }
      = {
-        Guid = "5c9ec070-d81e-41ba-a002-319a2eccf943"
+        Guid = "26ef290a-a4fb-4192-8e0b-3f94c4b0b714"
         Name = "Self Infliction"
         Description = "Install files from Self Infliction folder"
         Instructions = [
              = {
-                Guid = "a75e07e7-e113-402a-a3bb-0cc6cabee64e"
+                Guid = "62594cd7-9a69-4532-a437-25e50a3d5208"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Dark Harbinger\\Self Infliction\\*",
@@ -1339,17 +1347,17 @@ ___
 **Installation Instructions:** Install the files within the Override folder.
 
 <!--<<ModSync>>
-Guid = "7d007dca-0d65-4cdc-b407-c8b21d6d39df"
+Guid = "eabfa1b5-8084-4f32-96c3-dca97d9aa14c"
 Instructions = [
      = {
-        Guid = "0b39c34d-0462-43cc-a729-275462e8ddb8"
+        Guid = "601ff0c7-3ff2-4e2e-984c-81b6322960a7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\bettersion.7z",
         ]
     }
      = {
-        Guid = "c9d2d029-0288-41d9-9988-e996e0c29fe5"
+        Guid = "27694378-7e30-499e-b33f-3849991988df"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\bettersion\\bettersion\\*",
@@ -1377,17 +1385,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "652172f0-b589-4388-a7cd-388d79c20560"
+Guid = "ea98609c-0d57-4a2f-a9a3-42746140fcd5"
 Instructions = [
      = {
-        Guid = "a029bc58-5331-495f-bb9c-0af733405ea8"
+        Guid = "8753f269-4489-41be-b7d9-3980f9aea644"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Lore-Friendly Mandalore's Mask Spoiler-Free.rar",
         ]
     }
      = {
-        Guid = "1ad09a2a-09d5-4d64-b852-195505217ccb"
+        Guid = "68033cdb-017f-4778-9a34-cff17e345f3a"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Lore-Friendly Mandalore's Mask Spoiler-Free\\Lore-Friendly Mandalore's Mask\\*",
@@ -1415,10 +1423,10 @@ ___
 **Download Instructions:** Either option is fine, choose which you prefer based on the screenshots.
 
 <!--<<ModSync>>
-Guid = "bbf1c49c-0e27-41dc-842b-9d913db98f0a"
+Guid = "2e5411be-3bd9-4fc5-99bd-83302ec843c2"
 Instructions = [
      = {
-        Guid = "1d15e39b-a9e6-41e7-84fb-b70875a610f5"
+        Guid = "28efc3c8-869c-45fa-96a0-d9036f398dd2"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\VLC.7z",
@@ -1443,17 +1451,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "ff5c7efc-9c9f-4039-8cc9-20718385308d"
+Guid = "926d4c46-2446-49e7-9d44-f2b2090b0f25"
 Instructions = [
      = {
-        Guid = "b7b54519-f7b5-4241-82b8-6fa71381b2b8"
+        Guid = "f630f7b4-a68e-4601-a847-f009df827825"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL Mira Unpoofed v1.0.3.7z",
         ]
     }
      = {
-        Guid = "b11bf66d-fa6e-4918-a255-c4f3aff094de"
+        Guid = "e805fe5f-94ad-4331-a01f-32598e589429"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\TSL Mira Unpoofed v1.0.3\\Override\\*",
@@ -1479,17 +1487,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "1d8902b1-a7e1-43d3-8682-a8f209b0ae11"
+Guid = "855436f9-4e03-42fd-9d76-6b7da9169d7c"
 Instructions = [
      = {
-        Guid = "80ed9e19-4d1c-44e5-837d-38180afcc4c8"
+        Guid = "372e84b0-90cb-4b75-8784-0ad4a590fb34"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Canonical Jedi Exile 1.2.rar",
         ]
     }
      = {
-        Guid = "b24dd078-9d55-4d4c-921e-01d681afe4e6"
+        Guid = "6662326a-cb1b-48dd-b122-3705e37f3a9c"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Canonical Jedi Exile 1.2\\*",
@@ -1517,33 +1525,33 @@ ___
 **Installation Instructions:** Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections.
 
 <!--<<ModSync>>
-Guid = "4df24734-ba4c-4cf7-bab1-3609dc0bec3f"
+Guid = "d2e27061-0070-4e8f-9a55-950ed1ff39c3"
 Instructions = [
      = {
-        Guid = "8df36a64-775f-4725-87f6-cc5b7b2f3640"
+        Guid = "21ccabcd-5497-418c-878f-cb56c7136a8a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Lightsaber Visual Effects for K2 v1.5.zip",
         ]
     }
      = {
-        Guid = "c58bb332-c570-404c-8608-c07b3201a37f"
+        Guid = "611c0f6f-4b7d-45ac-ba7a-6f38185e5827"
         Action = "Choose"
         Source = [
-            "a70e46a8-b32a-4384-96a0-d23567f40c03",
-            "6204e757-3dca-4b21-8b50-fff8fc4ea88f",
-            "53357b25-49b9-4ffb-a0af-3c214cbd3b4d",
+            "9f7ed7e8-2c29-42fc-9cb3-0cb361970e1b",
+            "660972d5-3eab-4c0a-b69e-6c41a086d10f",
+            "8a55b8cc-1659-46b3-b54c-f8592216dd27",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "a70e46a8-b32a-4384-96a0-d23567f40c03"
+        Guid = "9f7ed7e8-2c29-42fc-9cb3-0cb361970e1b"
         Name = "Alternate Textures"
         Description = "Install files from Alternate Textures folder"
         Instructions = [
              = {
-                Guid = "dc402ff5-2989-4494-aba0-d7c3c18a2d31"
+                Guid = "211aac9a-5a21-4ff7-89ab-4ffe8c945d02"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\JC's Lightsaber Visual Effects for K2 v1.5\\Alternate Textures\\*",
@@ -1553,12 +1561,12 @@ Options = [
         ]
     }
      = {
-        Guid = "6204e757-3dca-4b21-8b50-fff8fc4ea88f"
+        Guid = "660972d5-3eab-4c0a-b69e-6c41a086d10f"
         Name = "Override"
         Description = "Install files from Override folder"
         Instructions = [
              = {
-                Guid = "4d33a9eb-ad67-4890-8753-16fc97b2330b"
+                Guid = "9ed320a0-9d27-4831-80c8-4bd8d57b64e6"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\JC's Lightsaber Visual Effects for K2 v1.5\\Override\\*",
@@ -1568,12 +1576,12 @@ Options = [
         ]
     }
      = {
-        Guid = "53357b25-49b9-4ffb-a0af-3c214cbd3b4d"
+        Guid = "8a55b8cc-1659-46b3-b54c-f8592216dd27"
         Name = "USM New Colors"
         Description = "Install files from USM New Colors folder"
         Instructions = [
              = {
-                Guid = "8738c0a5-5bcd-4697-85d9-2971b254e853"
+                Guid = "11bf321d-fd00-47b5-a502-c5601114ea0b"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\JC's Lightsaber Visual Effects for K2 v1.5\\USM New Colors\\*",
@@ -1601,17 +1609,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "3e6def9c-41ff-4cf2-b8d9-a06f00cdc0a7"
+Guid = "b64c089e-fe76-4791-9102-137929ccc5d7"
 Instructions = [
      = {
-        Guid = "0e742ce0-4dfa-4c32-b15e-d828a3cfd5bb"
+        Guid = "4c40a3b0-758c-4e7d-b676-c19acd002bc7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Enhanced_Lightsaber_Hilt_Variety_v1.2.zip",
         ]
     }
      = {
-        Guid = "be48f5b2-8907-4c56-9958-6fedd1f8a993"
+        Guid = "231aae26-e1c2-46ec-99e9-36a8d1691148"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Enhanced_Lightsaber_Hilt_Variety_v1.2\\*",
@@ -1639,32 +1647,32 @@ ___
 **Installation Instructions:** Use the files in the "Alternate Textures" folder.
 
 <!--<<ModSync>>
-Guid = "c0a438d9-ad77-488c-af2d-fa3d5f56e92f"
+Guid = "724dd778-fe4a-4322-884e-812cc1309d86"
 Instructions = [
      = {
-        Guid = "c4affd8c-a1ea-41f2-b7eb-d3d587424dfa"
+        Guid = "5e31f846-f6d2-48c7-ba78-1e34e3d8d8d8"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SH_Peragus Large Monitor Adjustment.7z",
         ]
     }
      = {
-        Guid = "1243b1af-5d43-488f-a0b9-626a55a11cc1"
+        Guid = "377e981b-40ae-4623-a95f-081e0065d0ff"
         Action = "Choose"
         Source = [
-            "9737f753-a102-4454-a4ca-77f3d98d0173",
-            "3e8d1dda-33a6-4800-86af-c27d8672e6eb",
+            "5d4e3916-6657-4ff7-a444-4e4a816235a3",
+            "80b28039-c30a-4e99-abad-0cd5f5bfcb6e",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "9737f753-a102-4454-a4ca-77f3d98d0173"
+        Guid = "5d4e3916-6657-4ff7-a444-4e4a816235a3"
         Name = "Alternate Textures (see description for details)"
         Description = "Install files from Alternate Textures (see description for details) folder"
         Instructions = [
              = {
-                Guid = "4511a0bb-0c4f-4238-925a-14c71c2a5a8f"
+                Guid = "d21e11f9-069d-4784-bbd7-a7011f488716"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\SH_Peragus Large Monitor Adjustment\\Alternate Textures (see description for details)\\*",
@@ -1674,12 +1682,12 @@ Options = [
         ]
     }
      = {
-        Guid = "3e8d1dda-33a6-4800-86af-c27d8672e6eb"
+        Guid = "80b28039-c30a-4e99-abad-0cd5f5bfcb6e"
         Name = "Original Textures"
         Description = "Install files from Original Textures folder"
         Instructions = [
              = {
-                Guid = "5f68fb1d-2203-4bcc-84f0-344bfbc21b17"
+                Guid = "1fd153d2-b3e5-4410-bf0c-261a539214bc"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\SH_Peragus Large Monitor Adjustment\\Original Textures\\*",
@@ -1709,33 +1717,33 @@ ___
 **Installation Instructions:** Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 
 <!--<<ModSync>>
-Guid = "deb99468-12f6-4a3f-bc90-2637aef9c47a"
+Guid = "354a6d50-4218-48b5-ad66-63ca2f1328aa"
 Instructions = [
      = {
-        Guid = "7026f78c-2627-4e37-9f1c-39b4cbbefa68"
+        Guid = "576adf4a-e189-4e2f-8de5-c05b20bd9793"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Peragus_II_by_Trench.7z",
         ]
     }
      = {
-        Guid = "1f934461-6643-4f74-a134-2d39a3d03e60"
+        Guid = "405504d3-eeda-4e64-ad05-60f6f3238654"
         Action = "Choose"
         Source = [
-            "31b28eb3-7ea6-457e-9ef5-a9564ed3414b",
-            "0b00dec6-7133-4a09-acf4-5007d4e4255f",
-            "d588a20e-8eda-4bf0-a6f6-865b9c2a89aa",
+            "103804a1-a853-45f7-867f-b109552e4e7f",
+            "e150a5e3-3648-452b-95a9-8460a012c5dc",
+            "27101032-190c-4251-a48c-98b48d612ab4",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "31b28eb3-7ea6-457e-9ef5-a9564ed3414b"
+        Guid = "103804a1-a853-45f7-867f-b109552e4e7f"
         Name = "Peragus II (One Replacement Screen for SH's Mod)"
         Description = "Install files from Peragus II (One Replacement Screen for SH's Mod) folder"
         Instructions = [
              = {
-                Guid = "6da5b131-5a03-4f0a-972e-b78e64a4bc96"
+                Guid = "5f576b9a-bc13-4c29-974e-79dd409d9eca"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Peragus_II_by_Trench\\Peragus II (One Replacement Screen for SH's Mod)\\*",
@@ -1745,12 +1753,12 @@ Options = [
         ]
     }
      = {
-        Guid = "0b00dec6-7133-4a09-acf4-5007d4e4255f"
+        Guid = "e150a5e3-3648-452b-95a9-8460a012c5dc"
         Name = "Peragus II (Original)"
         Description = "Install files from Peragus II (Original) folder"
         Instructions = [
              = {
-                Guid = "b7f12253-fbc9-4a34-b8a2-d0ec33009df8"
+                Guid = "bac2b856-1e51-42f7-bbc6-d01bb0903ab6"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Peragus_II_by_Trench\\Peragus II (Original)\\*",
@@ -1760,12 +1768,12 @@ Options = [
         ]
     }
      = {
-        Guid = "d588a20e-8eda-4bf0-a6f6-865b9c2a89aa"
+        Guid = "27101032-190c-4251-a48c-98b48d612ab4"
         Name = "Peragus II (With Extra Asteroids)"
         Description = "Install files from Peragus II (With Extra Asteroids) folder"
         Instructions = [
              = {
-                Guid = "83f752c7-8425-47e4-b037-05d95abb5e10"
+                Guid = "64978ab3-14b8-4ded-b56e-4e85932317be"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Peragus_II_by_Trench\\Peragus II (With Extra Asteroids)\\*",
@@ -1793,17 +1801,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "9222cc77-b117-4ef4-b889-61388439e306"
+Guid = "20d044a8-a49c-49d3-8e22-54e5d7737a14"
 Instructions = [
      = {
-        Guid = "d75fa7fb-ced3-4d79-8b8c-f6161dc61b34"
+        Guid = "e7d658f9-b011-4ec1-a673-ed5cac9d30ff"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Improved Peragus Asteroid Fields v1.2.zip",
         ]
     }
      = {
-        Guid = "f0411717-38b9-4f6d-bc3d-c1600123bf99"
+        Guid = "6b4502b3-0a1b-46ba-9620-58348d9d9569"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Improved Peragus Asteroid Fields v1.2\\*",
@@ -1829,17 +1837,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "69f74d50-a6f5-4975-94fc-214e5697ad14"
+Guid = "2a12f89f-029e-4c68-bac5-86b4b5be3159"
 Instructions = [
      = {
-        Guid = "7b1c61c1-b824-4714-96f5-7a7266b32441"
+        Guid = "6cfc71f2-9fad-4865-8692-ba6f6b85ad0f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SH_Swoop Monitors.7z",
         ]
     }
      = {
-        Guid = "53a5202c-c87a-40e3-b0b6-8dc9947bf754"
+        Guid = "e242c313-ac8f-478d-affa-50044067348e"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\SH_Swoop Monitors\\*",
@@ -1865,17 +1873,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "c4024b29-9f52-4908-9841-e58b263728ae"
+Guid = "ed87b903-3644-431f-8517-74a7349e1344"
 Instructions = [
      = {
-        Guid = "e8ed692d-7b10-4bd3-9362-435c724e59a8"
+        Guid = "b99c0440-4ff5-4ff4-afab-23cb9c911d6e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC&#39;s Citadel Station Backdrop.zip",
         ]
     }
      = {
-        Guid = "832a234d-ffa0-4741-b823-49831abb49a1"
+        Guid = "d75da62e-5724-441f-b6d3-3956aa85e34a"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\JC&#39;s Citadel Station Backdrop\\Override\\*",
@@ -1905,32 +1913,32 @@ ___
 **Installation Instructions:** After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 
 <!--<<ModSync>>
-Guid = "4a8fc181-39dc-4ef8-8024-5cad89342389"
+Guid = "68b5694f-d18d-42b3-81e7-05413b4d8bba"
 Instructions = [
      = {
-        Guid = "0da6ab76-b147-428d-b116-e4653ff5a314"
+        Guid = "e3899489-83e8-4250-a4a2-d6b769cf6ea7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\HQSkyboxesII_TSL_M478EP.7z",
         ]
     }
      = {
-        Guid = "e4a5dda4-d273-4344-8b0e-47b0345eca62"
+        Guid = "4d5d79a5-25ee-4b47-9e99-32ef3d53a514"
         Action = "Choose"
         Source = [
-            "55d3110b-0df2-4ebf-ae27-2307c12541a8",
-            "57bcfb81-df27-4865-834c-1626ced705c6",
+            "d2742775-d76c-45b2-b9eb-68c6ccf50b91",
+            "8b0164cf-702f-484a-92b7-f907efd47ca9",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "55d3110b-0df2-4ebf-ae27-2307c12541a8"
+        Guid = "d2742775-d76c-45b2-b9eb-68c6ccf50b91"
         Name = "HQ Skyboxes II - M4-78EP Add-On: Part 1"
         Description = "Part 1. Remember to install Part 2 as well!"
         Instructions = [
              = {
-                Guid = "6b12ccf7-8ff9-4693-8594-c97e570a9e37"
+                Guid = "71be81f4-8cc3-45a6-bb12-aa74390867a6"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\HQSkyboxesII_TSL_M478EP\\TSLPatcher.exe",
@@ -1940,12 +1948,12 @@ Options = [
         ]
     }
      = {
-        Guid = "57bcfb81-df27-4865-834c-1626ced705c6"
+        Guid = "8b0164cf-702f-484a-92b7-f907efd47ca9"
         Name = "HQ Skyboxes II - M4-78EP Add-On: Part 2"
         Description = "Part 2. Remember to install Part 1 as well!"
         Instructions = [
              = {
-                Guid = "3ad9d9d6-63fd-4c23-8d91-fd7cbbdc1225"
+                Guid = "cf157b72-e82e-471d-ab7a-c7f841523fa3"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\HQSkyboxesII_TSL_M478EP\\TSLPatcher.exe",
@@ -1973,17 +1981,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "96563ece-b4e6-4af4-ba96-9d711f3bda5f"
+Guid = "13e9cf10-e1d1-4b2c-9d60-9f9f38d5c0b7"
 Instructions = [
      = {
-        Guid = "489f9b36-3415-441b-8585-2640b13f6dbc"
+        Guid = "56b2c753-3266-438c-9cfb-1253691e3490"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Spark_Effect_v1.0.7z",
         ]
     }
      = {
-        Guid = "c3eda340-53e5-453d-ab05-adcdde29c386"
+        Guid = "81c3298c-1823-4528-b8ab-fafdb2e3e416"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Spark_Effect_v1.0\\Spark_Effect_v1.0\\*",
@@ -2028,17 +2036,17 @@ ___
 **Download Instructions:** Download the larger of the two files.
 
 <!--<<ModSync>>
-Guid = "c3848977-c9c9-4416-999a-5345610fe10d"
+Guid = "baca6e40-381e-4d45-af47-67d88ebdde5a"
 Instructions = [
      = {
-        Guid = "1c45bb12-5738-4367-9efa-b57247df1a82"
+        Guid = "f69c9675-6b38-484b-9533-97f26a368cbd"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\aleema_ketos_robe_description_correction.zip",
         ]
     }
      = {
-        Guid = "27f9ebaf-6b5c-45f3-9644-fe033fc7114d"
+        Guid = "d7b28cc4-4b5f-4c57-92b4-8c9d077a911d"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\aleema_ketos_robe_description_correction\\aleema_ketos_robe_description_correction\\*",
@@ -2064,10 +2072,10 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "f067ced1-730e-40b3-96a0-caa739fed508"
+Guid = "b9a996cd-a4a2-461b-a788-35e885dc7a0c"
 Instructions = [
      = {
-        Guid = "9a1261ba-6a4b-4a14-9aab-eddefb270d99"
+        Guid = "5748902e-ff8f-48d7-8ad6-59071a54bea7"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\VSTMF1.3 CENSORED.7z",
@@ -2092,17 +2100,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "128403d1-e72c-4ab3-9b1b-0d51c70fe25b"
+Guid = "8ae8cf7d-3893-45a1-b5cc-a3ba26ac2f64"
 Instructions = [
      = {
-        Guid = "debc7f93-9d60-4609-af67-326a1abf9b68"
+        Guid = "2ff54a6c-5911-4b7c-9908-133eebf5f769"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Onderon news make sense v1.1.zip",
         ]
     }
      = {
-        Guid = "41a0f2bf-8f45-4066-b84b-a60564fe814b"
+        Guid = "209b6002-40b4-4f05-83ca-d480e4999abd"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Onderon news make sense\\TSLPatcher.exe",
@@ -2128,17 +2136,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "10b638dd-c743-4daa-a1f5-5f10b08b2aca"
+Guid = "a2beea88-d08a-460f-a8ab-fdc6bd9d2ab6"
 Instructions = [
      = {
-        Guid = "339f85b4-00ea-4537-b319-eac6e52df9ab"
+        Guid = "8b651243-f137-4453-934d-8c64d51f22ad"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL Ebon Hawk Map v1.2.3.7z",
         ]
     }
      = {
-        Guid = "2f258407-d9c9-421f-bcea-0f7c126cf383"
+        Guid = "ed08a9f6-423c-4218-80b1-aec1835df949"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\TSL Ebon Hawk Map v1.2.3\\TSLPatcher.exe",
@@ -2164,17 +2172,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "ccb48f17-2b97-4ecf-a099-d9f7ee839161"
+Guid = "25faa6a3-76cc-4d74-bd14-ab49b218c0fc"
 Instructions = [
      = {
-        Guid = "3d3d4117-4be7-4824-9420-cd0f32b4e197"
+        Guid = "86d9c82e-523c-4dff-a600-fe6e73b5aea3"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KEBCD.rar",
         ]
     }
      = {
-        Guid = "22440911-c22e-41d7-8df3-c95fdbae958c"
+        Guid = "9eb97bd9-aee8-4f99-ba87-2a488adfd28e"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\KEBCD\\KEBCD\\*",
@@ -2200,17 +2208,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "f4334dae-d0e0-4d51-9737-bf012e3f0615"
+Guid = "370a19b2-fff8-405d-bedc-984d818e8010"
 Instructions = [
      = {
-        Guid = "cb4f2784-42f7-4580-b169-9a6703177554"
+        Guid = "a67383de-d646-4726-bbb5-c7b420065f8a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\thorium_charge_mod.rar",
         ]
     }
      = {
-        Guid = "b86236c5-a9f5-41d9-ae10-42b722758d7d"
+        Guid = "494c6531-fef9-4505-b298-f7c6d833e1c1"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\thorium_charge_mod\\*",
@@ -2236,17 +2244,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "4b79fda6-9d17-43a0-a100-3fe3d45e8e05"
+Guid = "ca18a090-165a-440c-8b46-616eda70616c"
 Instructions = [
      = {
-        Guid = "0d65fea4-96f4-4bfb-940b-7a08433854fb"
+        Guid = "1993a7fb-3bce-43b4-b95a-6479104c1b41"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Kill The Ithorian 1.1.zip",
         ]
     }
      = {
-        Guid = "a6b645b7-5aea-4a35-a821-469e13051e7f"
+        Guid = "946b911f-79b9-4a5b-b164-d4467e2f1781"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Kill The Ithorian 1.1\\*",
@@ -2272,10 +2280,10 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "5586ed1b-5e67-45a1-afb8-e0dc85265db6"
+Guid = "08d358a0-4876-46ca-9d08-e1b43e34cd28"
 Instructions = [
      = {
-        Guid = "74dcd9ac-d475-4606-9d6d-ffb2ed38f074"
+        Guid = "4c063611-a083-42f4-b5ab-f2524880220e"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\RFL.7z",
@@ -2304,33 +2312,33 @@ ___
 **Installation Instructions:** MAKE SURE to install the mobile TSLRCM version, the default version will crash your game.
 
 <!--<<ModSync>>
-Guid = "81815406-51a8-410f-b40a-adc6f0ec9e3e"
+Guid = "00f9d895-1249-405d-8597-ec19b24e28d1"
 Instructions = [
      = {
-        Guid = "68dec231-5829-43ac-b983-d00cfb5094b1"
+        Guid = "5ba20e04-c1be-4741-aa83-f3894e6390d8"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\EE.7z",
         ]
     }
      = {
-        Guid = "238fdf68-a5e5-4f9e-91e3-1fc9feacf2b0"
+        Guid = "52916a08-505b-48a1-9c00-6b090c2c3141"
         Action = "Choose"
         Source = [
-            "dc67611a-f0da-4fd0-92b5-7ed34f27e646",
-            "68f9ec9a-63dc-43ac-b01f-947059dfb5a9",
-            "5794e669-dcf0-412d-8c30-58c141d51199",
+            "186cf7b0-54aa-4300-82ab-4156a5039691",
+            "622ab223-e058-4ead-a29d-70ffd7fd2b4c",
+            "59507b57-67d6-48e3-bdac-7473a6ca5c7a",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "dc67611a-f0da-4fd0-92b5-7ed34f27e646"
+        Guid = "186cf7b0-54aa-4300-82ab-4156a5039691"
         Name = "TSLRCM Standalone"
         Description = "Installs EE into a K2 game with TSLRCM installed (no M4-78)."
         Instructions = [
              = {
-                Guid = "aa20e46c-6cea-4470-bbf2-6ba2813493c4"
+                Guid = "d66aa7b8-f8f0-4e84-94d6-6e901345ff39"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\EE/EE Russian\\TSLPatcher.exe",
@@ -2340,12 +2348,12 @@ Options = [
         ]
     }
      = {
-        Guid = "68f9ec9a-63dc-43ac-b01f-947059dfb5a9"
+        Guid = "622ab223-e058-4ead-a29d-70ffd7fd2b4c"
         Name = "TSLRCM Standalone (mobile)"
         Description = "Installs EE into a K2 game with TSLRCM installed (mobile version)."
         Instructions = [
              = {
-                Guid = "6a1b4f77-7a00-46de-9e33-504a61907fbb"
+                Guid = "5f2292a3-4603-4aa3-84bf-4da0d3f4572c"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\EE/EE Russian\\TSLPatcher.exe",
@@ -2355,12 +2363,12 @@ Options = [
         ]
     }
      = {
-        Guid = "5794e669-dcf0-412d-8c30-58c141d51199"
+        Guid = "59507b57-67d6-48e3-bdac-7473a6ca5c7a"
         Name = "DO NOT USE"
         Description = "DO NOT USE"
         Instructions = [
              = {
-                Guid = "e3a01b50-56a8-423b-8458-126b072373c1"
+                Guid = "1a619f18-9abb-4d11-ae13-bb82a7b0c847"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\EE/EE Russian\\TSLPatcher.exe",
@@ -2392,17 +2400,17 @@ ___
 **Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files—this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
 
 <!--<<ModSync>>
-Guid = "cd50aa16-1b6d-4a4f-8c2a-a9564f38037b"
+Guid = "d0c2b0cb-3c2b-42dd-917c-6ab627bd8afe"
 Instructions = [
      = {
-        Guid = "8a15c065-6cd0-412d-a77f-419052974f29"
+        Guid = "ea0607aa-83bc-46fe-865f-cf09071f05e2"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\EKA.rar",
         ]
     }
      = {
-        Guid = "a51b6332-c9e8-4a09-a982-60bfde008604"
+        Guid = "2a985bde-0c38-431f-8e71-0a1f303200e3"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\EKA\\TSLPatcher.exe",
@@ -2430,17 +2438,17 @@ ___
 **Installation Instructions:** Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 
 <!--<<ModSync>>
-Guid = "4ea79366-f3ee-4f70-9f64-546b8a742d61"
+Guid = "2524898d-03f6-4da2-bdf1-f6993000450c"
 Instructions = [
      = {
-        Guid = "b0f3d9d6-e166-40ce-b0c5-0c0960da7e43"
+        Guid = "3dc918bc-57e9-4dab-9a27-405f7091d03c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Prologue Item Recovery.7z",
         ]
     }
      = {
-        Guid = "c6a6eed6-c1a6-488f-b55c-2b4a9c544ece"
+        Guid = "6e3474ab-1668-471a-a64e-9d1fb00d4724"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Prologue Item Recovery/A - Module Installation\\TSLPatcher.exe",
@@ -2470,17 +2478,17 @@ ___
 **Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
 <!--<<ModSync>>
-Guid = "05be4607-07c8-48a2-942b-8501c3292eee"
+Guid = "2488ebc0-24f9-4310-8ad3-4f0ac8f2cc03"
 Instructions = [
      = {
-        Guid = "2b0b8ea0-be94-498b-8e18-0470bae0703a"
+        Guid = "1c034e87-24d9-4818-8803-33db7c21e7d6"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Balance Tweak Pack 1.1.rar",
         ]
     }
      = {
-        Guid = "5a747431-c186-408f-8832-f05c814f22aa"
+        Guid = "db726673-7335-442e-98d9-26d45fe4d289"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\1 - Discple and Handmaiden Grant Both Bonuses\\TSLPatcher.exe",
@@ -2508,10 +2516,10 @@ ___
 **Installation Instructions:** Recommend running all three options, the main install first and then the two optionals.
 
 <!--<<ModSync>>
-Guid = "00607097-f889-4764-8d0b-607e2d8abe1c"
+Guid = "0cfec8ce-0c02-478a-b32e-9779d5dc2d24"
 Instructions = [
      = {
-        Guid = "4e7a286f-910d-4fdd-a0af-09a8ca1efeb6"
+        Guid = "c006b822-2636-4eba-8492-ed1250b8c6c8"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Mines_Overhaul_TSL CENSORED.7z",
@@ -2536,17 +2544,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "fd541576-3617-46ec-849c-e3d7ca367c97"
+Guid = "c85bb929-be99-4ee5-90f7-8119520ff700"
 Instructions = [
      = {
-        Guid = "4df1294a-0ed3-4596-a1a8-693e979e5ce6"
+        Guid = "11aa0291-a5b6-49b4-b82e-89df75c18457"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\No Health Regeneration.zip",
         ]
     }
      = {
-        Guid = "31c5dbce-4172-4b4a-a02c-f1c1361710ab"
+        Guid = "dd3f0238-8394-414d-8a2a-fe756d485f2e"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\No Health Regeneration\\TSLPatcher.exe",
@@ -2591,10 +2599,10 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "b442be3f-3180-425d-a8aa-d472b7dc4d48"
+Guid = "a5c52c7a-6483-4c6b-993e-baedcfe07a37"
 Instructions = [
      = {
-        Guid = "980fb285-7715-4520-aaf9-bd8fa2d43346"
+        Guid = "4ba3297d-cf08-485d-b928-ed3005bcc469"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KOTOR2-TJM_v1.0.0_spoiler-free.zip",
@@ -2619,17 +2627,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "b07bde2f-ab4f-40ea-9fc3-bbae7625ffed"
+Guid = "66e43cb6-dbe0-46d2-9a1d-80a8f8e5fe15"
 Instructions = [
      = {
-        Guid = "becc4827-d3cd-4859-b1a7-491e86685502"
+        Guid = "9615493d-1709-4a60-bba9-4d9e7af9d708"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Better Disciple Meditation.zip",
         ]
     }
      = {
-        Guid = "9e8982db-f466-4c61-ab69-550d5f2eb59e"
+        Guid = "38ead34a-2d03-44fb-b128-b03076f8b563"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Better Disciple Meditation\\nwnnsscomp.exe",
@@ -2655,17 +2663,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "b4e844c7-e20b-40c2-b244-baea446ad38f"
+Guid = "ebe6d653-63dd-4e73-b8d1-04dbdba6e6bf"
 Instructions = [
      = {
-        Guid = "ee985e95-254e-41e7-9efa-897692866b8c"
+        Guid = "383622cd-4b48-4cb0-8111-ed43c12a8c15"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor.zip",
         ]
     }
      = {
-        Guid = "c6d9289c-ef33-4e21-b5c0-4a14c321099f"
+        Guid = "907b39f4-6bad-4022-b48d-bc3154cd34bd"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor\\TSLPatcher.exe",
@@ -2693,34 +2701,34 @@ ___
 **Installation Instructions:** Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
 
 <!--<<ModSync>>
-Guid = "e67547de-af14-4cae-9df7-458e3e203576"
+Guid = "2ef77238-9bf2-4950-94d4-9e9d34911073"
 Instructions = [
      = {
-        Guid = "52484fb8-d075-4328-8454-a3cb73ee9cf3"
+        Guid = "f26414e6-b1cd-49f3-9e40-4278908868ff"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Crystal Attunement for K2 v1.1.zip",
         ]
     }
      = {
-        Guid = "f86a03ca-065f-4f7c-9e51-194e614a7a01"
+        Guid = "865d63f2-8a85-43c3-a0ae-88edd7c794ad"
         Action = "Choose"
         Source = [
-            "6d0de361-92f5-468c-a39e-29be266199db",
-            "69d23401-e0ac-468b-af84-b3f591ae2597",
-            "a7a4b7c6-22e0-42bf-98fc-c35a9402972b",
-            "a1687517-a8cd-4161-9428-d5d539d875f1",
+            "844a2c7a-beb0-44ac-ab93-9783ebf03586",
+            "d602d3d6-7e11-42c4-8cc6-e14e7c74a12c",
+            "20fce60a-7e15-4bdf-8114-5e2a270cd2bd",
+            "1c4fb394-dd17-4dbc-bbd7-6990d32a6fc3",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "6d0de361-92f5-468c-a39e-29be266199db"
+        Guid = "844a2c7a-beb0-44ac-ab93-9783ebf03586"
         Name = "Class-Based Properties + Workbench Attunement"
         Description = "This option gives the Quest Crystal differing properties based on your character class and allows you to attune the crystal yourself at a workbench when Kreia is not available."
         Instructions = [
              = {
-                Guid = "5cea59fe-8c42-4b3d-a423-941051e8962b"
+                Guid = "92bd4611-e009-48ce-8fbf-3cd70358c2a6"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Crystal Attunement for K2 v1.1\\TSLPatcher.exe",
@@ -2730,12 +2738,12 @@ Options = [
         ]
     }
      = {
-        Guid = "69d23401-e0ac-468b-af84-b3f591ae2597"
+        Guid = "d602d3d6-7e11-42c4-8cc6-e14e7c74a12c"
         Name = "Class-Based Properties"
         Description = "This option gives the Quest Crystal differing properties based on your character class."
         Instructions = [
              = {
-                Guid = "fd8e4825-72a3-42bd-81dc-dc2cbdcffc39"
+                Guid = "51da5757-a83e-4fb7-bc7c-5aeb2cee9bdc"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Crystal Attunement for K2 v1.1\\TSLPatcher.exe",
@@ -2745,12 +2753,12 @@ Options = [
         ]
     }
      = {
-        Guid = "a7a4b7c6-22e0-42bf-98fc-c35a9402972b"
+        Guid = "20fce60a-7e15-4bdf-8114-5e2a270cd2bd"
         Name = "Workbench Attunement"
         Description = "This option allows you to attune the Quest Crystal yourself at a workbench when Kreia is not available."
         Instructions = [
              = {
-                Guid = "99d9f025-426b-4391-9d4f-f1dabf8cb670"
+                Guid = "dd0d664b-9074-466d-bc74-e8d8574d84fe"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Crystal Attunement for K2 v1.1\\TSLPatcher.exe",
@@ -2760,12 +2768,12 @@ Options = [
         ]
     }
      = {
-        Guid = "a1687517-a8cd-4161-9428-d5d539d875f1"
+        Guid = "1c4fb394-dd17-4dbc-bbd7-6990d32a6fc3"
         Name = "Bug Fixes Only"
         Description = "This option installs only the bug fixes for spawning the Quest Crystal that are included with the other options."
         Instructions = [
              = {
-                Guid = "0d757070-8814-44c5-899e-f43f85becd5b"
+                Guid = "a15da617-cc3d-45d9-8a08-8a23b9c5cff2"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Crystal Attunement for K2 v1.1\\TSLPatcher.exe",
@@ -2795,10 +2803,10 @@ ___
 **Masters:** Mobile TSLRCM (The Sith Lords Restored Content Mod)
 
 <!--<<ModSync>>
-Guid = "2a5bd23d-5f3c-408f-b9d3-674dcbbea034"
+Guid = "5a3735e5-728e-4fb7-87d1-5df22d4549db"
 Instructions = [
      = {
-        Guid = "b9b52005-e0de-49a6-8e49-79f6524b8cfd"
+        Guid = "e0be8174-ecc5-4405-b7e4-3556557e50af"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Better JJT Thugs.7z",
@@ -2827,10 +2835,10 @@ ___
 **Installation Instructions:** Install part 1 and then part 2, then, if using Better JJT Thugs, also install the compatch.
 
 <!--<<ModSync>>
-Guid = "d987e3b3-ca79-4f98-a920-02b8b9db21d7"
+Guid = "dd12a653-1f7b-4ad8-bbdf-a969834aaddd"
 Instructions = [
      = {
-        Guid = "52b00887-3dcf-4b5a-bb25-681ffe5e47e6"
+        Guid = "689ab45f-5b45-432c-9db5-2e32c3793bd3"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\LJJT1.2 [CENSORED].7z",
@@ -2859,33 +2867,33 @@ ___
 **Installation Instructions:** I recommend the "With Additional Scene" option for maximum restored content and internal consistency for the sequence.
 
 <!--<<ModSync>>
-Guid = "24077154-9178-43e2-96c3-f171dd234a21"
+Guid = "401b4b48-bc1f-4e94-b5d3-b628fa43cf0b"
 Instructions = [
      = {
-        Guid = "30e501d0-e586-43c0-ae41-0333c5dfc356"
+        Guid = "550e48e2-fccc-4a98-a49b-13e1a34cd192"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL Mira's Vanilla Escape for TSLRCM v1_0.zip",
         ]
     }
      = {
-        Guid = "8aef45a5-672e-44b1-8a30-993525b6e7c1"
+        Guid = "7a62bee3-5ae9-4456-853d-45fc7d23056a"
         Action = "Choose"
         Source = [
-            "92fb733c-0fca-405d-9e0d-1a2388b81371",
-            "480b37b7-a6b9-4656-a4dd-aa6b3f219a89",
-            "9e051dc3-7695-49ef-98cc-40f713573cb7",
+            "6dea67bd-4706-43ed-9221-1ad4dbe1f562",
+            "be53f880-93e6-4669-bac6-0a1c6c09441a",
+            "dd563a60-34df-4d55-9f34-5f22698add0d",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "92fb733c-0fca-405d-9e0d-1a2388b81371"
+        Guid = "6dea67bd-4706-43ed-9221-1ad4dbe1f562"
         Name = "INSTALL: Vanilla Sequence (No Added Scene)"
         Description = "Main Installation, follows the vanilla scene sequence with no added scenes."
         Instructions = [
              = {
-                Guid = "576d82e8-51d6-4975-9cc8-c37744b6cd83"
+                Guid = "12e844be-2f4b-414a-a6b1-d68b422649bc"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Mira's Vanilla Escape for TSLRCM v1_0\\TSLPatcher.exe",
@@ -2895,12 +2903,12 @@ Options = [
         ]
     }
      = {
-        Guid = "480b37b7-a6b9-4656-a4dd-aa6b3f219a89"
+        Guid = "be53f880-93e6-4669-bac6-0a1c6c09441a"
         Name = "INSTALL: With Additional Scene"
         Description = "Main Install, includes an additional scene where Mira intercepts Atton on the way to the docks."
         Instructions = [
              = {
-                Guid = "8c23c3cb-c9a0-4907-ace1-bca6b8ec29fe"
+                Guid = "9070d1c0-b0ff-43ab-a7c0-8ee1bc50cd3a"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Mira's Vanilla Escape for TSLRCM v1_0\\TSLPatcher.exe",
@@ -2910,12 +2918,12 @@ Options = [
         ]
     }
      = {
-        Guid = "9e051dc3-7695-49ef-98cc-40f713573cb7"
+        Guid = "dd563a60-34df-4d55-9f34-5f22698add0d"
         Name = "INSTALL: Minor Fixes Only"
         Description = "Installs only the minor fixes and improvements to the surrounding cutscenes, leaving Mira's rescue as in TSLRCM."
         Instructions = [
              = {
-                Guid = "a12b2b85-6e8a-4e29-9f4d-420fce54955f"
+                Guid = "182797f4-4a31-467a-8c23-11f822004d18"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSL Mira's Vanilla Escape for TSLRCM v1_0\\TSLPatcher.exe",
@@ -2945,32 +2953,32 @@ ___
 **Installation Instructions:** There are two versions of the install, and the first one is incompatible with the mod builds and will be marked "DO NOT USE." Switch to the second install when running the patcher.
 
 <!--<<ModSync>>
-Guid = "9f47f07d-2ab4-4af8-8f2d-f7b0f37d021a"
+Guid = "9d18bf5d-e601-4c97-b904-a6c7c6a4577b"
 Instructions = [
      = {
-        Guid = "a800c5d3-b7c5-409d-af8a-07d0ea2df538"
+        Guid = "0546b215-a5c5-4ccc-b9f8-55627568d839"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Kriea LLSword.7z",
         ]
     }
      = {
-        Guid = "144c8443-96a3-4a5e-aaeb-9659d7703a29"
+        Guid = "761cae9e-5cc0-4af7-a8a5-d0db47adf16a"
         Action = "Choose"
         Source = [
-            "d45f31aa-1096-4c5e-a5d6-7390baee202c",
-            "1e2d841e-5d96-47fb-833e-24df9e87dcaa",
+            "9723311e-61ce-4898-ba8c-d70d91113109",
+            "8b237be5-d03f-4fe3-b70a-2e4268d66040",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "d45f31aa-1096-4c5e-a5d6-7390baee202c"
+        Guid = "9723311e-61ce-4898-ba8c-d70d91113109"
         Name = "DO NOT USE"
         Description = "NOT COMPATIBLE, DO NOT USE"
         Instructions = [
              = {
-                Guid = "583cc589-c866-42d5-8989-750c8fa5954f"
+                Guid = "6301c600-74c5-4557-9374-ec7c649fee1b"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Kriea LLSword\\TSLPatcher.exe",
@@ -2980,12 +2988,12 @@ Options = [
         ]
     }
      = {
-        Guid = "1e2d841e-5d96-47fb-833e-24df9e87dcaa"
+        Guid = "8b237be5-d03f-4fe3-b70a-2e4268d66040"
         Name = "Long Sword Version"
         Description = "In the Long sword option, there will be a Republic Officer corpse near Kreia. Kreia will now pick up a Long sword from the corpse and use it to fight Sion."
         Instructions = [
              = {
-                Guid = "92d21f55-d95c-44d1-8f21-0f9c52557a9c"
+                Guid = "3b79c16a-cc4b-40d0-925a-a971398b36bf"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Kriea LLSword\\TSLPatcher.exe",
@@ -3013,17 +3021,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "3ccf284b-2d9c-470a-8b7a-af350d35beca"
+Guid = "5cd82e21-00ef-46ec-a9c7-156df7739ece"
 Instructions = [
      = {
-        Guid = "6e2279d8-a0ea-4a46-aaf3-446f2348ff21"
+        Guid = "741f13d6-e9f3-4288-8ee1-eff0d10fa8e6"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KFIC.rar",
         ]
     }
      = {
-        Guid = "3cd44e65-8a30-4b75-8c1c-813af55401f1"
+        Guid = "9674816c-182e-4ac9-b3fe-095067514196"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\KFIC\\TSLPatcher.exe",
@@ -3051,17 +3059,17 @@ ___
 **Masters:** Mobile TSLRCM (The Sith Lords Restored Content Mod)
 
 <!--<<ModSync>>
-Guid = "8ceb28f6-3a32-4d61-b2b1-f8d4e14e7680"
+Guid = "551835cf-b238-4176-876e-60c61f38f8e8"
 Instructions = [
      = {
-        Guid = "e0465e61-312b-46bc-81ef-29ebb250a256"
+        Guid = "c40dc49a-dd0b-473d-93a5-ada26ac6a029"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\N-V Tweak CENSORED.rar",
         ]
     }
      = {
-        Guid = "eda113c3-7b40-4a69-bfb6-acdcb45105f1"
+        Guid = "122bf131-0ed7-42ac-8c31-1c8518fc4444"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\N-V Tweak CENSORED\\N-V Tweak\\*",
@@ -3089,10 +3097,10 @@ ___
 **Masters:** Mobile TSLRCM (The Sith Lords Restored Content Mod)
 
 <!--<<ModSync>>
-Guid = "958fe9dc-6d75-4a36-bd6a-e08764b023ce"
+Guid = "6b203db9-f894-43c5-aa6d-1e273d8c57e0"
 Instructions = [
      = {
-        Guid = "b9ed772d-c878-47e3-b848-13952d52eac3"
+        Guid = "673a6944-d4c6-4c5f-89fc-6d18ffcdb965"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\DSME 12-24.7z",
@@ -3119,32 +3127,32 @@ ___
 **Installation Instructions:** Run the installer once for the first part of the install, then again to apply the second half.
 
 <!--<<ModSync>>
-Guid = "19875c75-40ff-4fe5-88fc-983ae38891cf"
+Guid = "0295722b-f8d0-4f4a-8a0f-51d0b0077015"
 Instructions = [
      = {
-        Guid = "f15096c9-56aa-4045-9c10-326472d24998"
+        Guid = "ef20ae7e-30a4-4d76-a081-e31458ee9e07"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\SAWLv1.1.7z",
         ]
     }
      = {
-        Guid = "0e6f85c3-4e7f-4bc5-9296-1a372007bc40"
+        Guid = "c91f482c-7d1c-4925-9fc6-f522a2c14ec8"
         Action = "Choose"
         Source = [
-            "43c88fa3-ef45-4d0d-88d2-234fe2dd249a",
-            "6fa3cbc1-8883-4004-9bcd-2e85f497aa8e",
+            "6c5c2cbb-d98b-4fa6-b486-c10ff21398f5",
+            "a252c291-686a-4d7c-b526-b32b74e624db",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "43c88fa3-ef45-4d0d-88d2-234fe2dd249a"
+        Guid = "6c5c2cbb-d98b-4fa6-b486-c10ff21398f5"
         Name = "Sith Assassins With Lightsabers - Part 1"
         Description = "Installs the majority of the mod, the exception being for the Turret Minigame."
         Instructions = [
              = {
-                Guid = "72a1c817-8923-4c77-9fb4-1a4364df8d9f"
+                Guid = "fa0f842b-9b1e-4f8a-a510-52bc312a78be"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\SAWLv1.1\\TSLPatcher.exe",
@@ -3154,12 +3162,12 @@ Options = [
         ]
     }
      = {
-        Guid = "6fa3cbc1-8883-4004-9bcd-2e85f497aa8e"
+        Guid = "a252c291-686a-4d7c-b526-b32b74e624db"
         Name = "InstallPart2"
         Description = "Installs the parts for the Turret Minigame."
         Instructions = [
              = {
-                Guid = "2dce7016-7184-4f83-aa2c-9b7ebce0825c"
+                Guid = "f6fc2f11-ee83-4073-b8c1-860ae82de51b"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\SAWLv1.1\\TSLPatcher.exe",
@@ -3189,10 +3197,10 @@ ___
 **Installation Instructions:** I recommend the reduced difficulty option if using SAwL, but without SAwL you should be fine to use the full version of this mod, though it will give a similar level of challenge as using SAwL alone. Remember to also apply the compatch for SAwL after running the main install option of your choice, if using SAwL.
 
 <!--<<ModSync>>
-Guid = "aed87398-7b7d-466d-b654-a740fbc38b91"
+Guid = "d47e9f52-549b-4d46-831a-71db583074bf"
 Instructions = [
      = {
-        Guid = "ebcbbf5f-d9ca-48e7-b2b9-6cce99baff15"
+        Guid = "4dbc88b1-6811-498c-8932-4a5d4931ec39"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\True_Sith_Assassins_v1c1 CENSORED.7z",
@@ -3219,33 +3227,33 @@ ___
 **Installation Instructions:** Strongly recommend using the Snigaroo Cut for balance and immersion's sake.
 
 <!--<<ModSync>>
-Guid = "70db2a56-caa0-4d46-bd98-1b44198d4fe6"
+Guid = "ff027f20-4b82-4c70-bdfe-ae8085944618"
 Instructions = [
      = {
-        Guid = "be6c7ea9-9982-46fe-b287-ca4e949e2498"
+        Guid = "79464f7c-4e1f-4a72-a424-5c244c82faca"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\For_Mandalore_v1c2.zip",
         ]
     }
      = {
-        Guid = "2d453e62-08ef-4276-9d79-c6a16bf125b3"
+        Guid = "217b78c3-a89a-48c7-840e-6c38e87a339c"
         Action = "Choose"
         Source = [
-            "a7570997-2a91-4a9e-9ef8-828f9979cccd",
-            "b9e0e091-c3f3-4e5f-914f-c3cfb16aa1af",
-            "64d50765-a546-4cd7-8ea5-d6a5cc4ed62e",
+            "f9b38a20-563c-4be7-95fc-ee16502dcf92",
+            "d544b724-8c7f-4ec0-85e6-9b6b633e3978",
+            "428d60a9-db4b-4bed-bc08-0999aed0bdf6",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "a7570997-2a91-4a9e-9ef8-828f9979cccd"
+        Guid = "f9b38a20-563c-4be7-95fc-ee16502dcf92"
         Name = "For Mandalore! (Non-TSLRCM)"
         Description = "Install this version only if you do not have TSLRCM installed."
         Instructions = [
              = {
-                Guid = "3dd8f42b-a5f3-4b96-b268-f998ae35e9d6"
+                Guid = "c654b817-967d-45e7-b7b3-92e789b07c3b"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\For_Mandalore_v1c2\\TSLPatcher.exe",
@@ -3255,12 +3263,12 @@ Options = [
         ]
     }
      = {
-        Guid = "b9e0e091-c3f3-4e5f-914f-c3cfb16aa1af"
+        Guid = "d544b724-8c7f-4ec0-85e6-9b6b633e3978"
         Name = "For Mandalore! (TSLRCM)"
         Description = "Install this version only if you have TSLRCM installed."
         Instructions = [
              = {
-                Guid = "512e1b4d-58a7-45b0-bfd4-b8cbd3b59f31"
+                Guid = "299204cc-af13-483e-8b09-48d1ca48ed97"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\For_Mandalore_v1c2\\TSLPatcher.exe",
@@ -3270,12 +3278,12 @@ Options = [
         ]
     }
      = {
-        Guid = "64d50765-a546-4cd7-8ea5-d6a5cc4ed62e"
+        Guid = "428d60a9-db4b-4bed-bc08-0999aed0bdf6"
         Name = "For Mandalore! - The Snigaroo Cut"
         Description = "Alternate lite version. Requires TSLRCM."
         Instructions = [
              = {
-                Guid = "744aaaa5-78a5-4320-9544-dbbe1f0d1989"
+                Guid = "56b5d4d3-d5d9-4473-8d99-9da77b324002"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\For_Mandalore_v1c2\\TSLPatcher.exe",
@@ -3305,36 +3313,36 @@ ___
 **Installation Instructions:** When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 
 <!--<<ModSync>>
-Guid = "d1839070-387b-40f2-a25f-b912f84a0d4d"
+Guid = "a07f8070-11a0-4a9f-b15b-ca9bfc307333"
 Instructions = [
      = {
-        Guid = "8d03ed96-5a12-4d89-ac8c-6eba3f518048"
+        Guid = "d9a84261-927e-4512-8386-550478ac7077"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3.7z",
         ]
     }
      = {
-        Guid = "8f0b4c58-bcb2-4c0d-9f3f-32f278b00b80"
+        Guid = "0d5540da-38a0-40e0-9e05-34e881d0602d"
         Action = "Choose"
         Source = [
-            "71704fdf-3230-4047-b0af-d6681c05092b",
-            "105a36e5-fdba-4f7c-89f8-df5c50844362",
-            "8c0db7fd-5126-489f-b55c-77aeca7615da",
-            "bf064320-1a6e-4b4d-91b2-dc5a118edca8",
-            "0d012777-ce78-495e-94c2-c85667cf44de",
-            "789b35e0-8df5-4ffd-9236-3b605d906b7e",
+            "e4f6a8bb-82d0-42f9-9433-cbac1981f023",
+            "32c668e3-1010-468c-b3eb-7a570dbf40e3",
+            "1616ba97-d4b1-4e97-970e-95929c025915",
+            "83e43896-5dac-41f5-8aed-b462383b710a",
+            "d1697ff9-6976-44fe-8e12-0dcf38a2af2e",
+            "ceb52801-1500-47a0-a675-8edc5831b260",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "71704fdf-3230-4047-b0af-d6681c05092b"
+        Guid = "e4f6a8bb-82d0-42f9-9433-cbac1981f023"
         Name = "Main Install - Miners in Vanilla-Style Uniforms"
         Description = "Main installation, with the miners on the kolto tanks wearing the same uniforms as in the vanilla medbay (which are slightly different from the version which the player wears)."
         Instructions = [
              = {
-                Guid = "f9d197ac-fc6c-48ff-a3ff-143dd90968e8"
+                Guid = "b883b7ea-3c84-4bdf-afb9-fb9d0309b54f"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\TSLPatcher.exe",
@@ -3344,12 +3352,12 @@ Options = [
         ]
     }
      = {
-        Guid = "105a36e5-fdba-4f7c-89f8-df5c50844362"
+        Guid = "32c668e3-1010-468c-b3eb-7a570dbf40e3"
         Name = "Main Install - Miners in Player-Style Uniforms"
         Description = "Main installation, with the miners in the kolto tanks wearing uniforms that match the version worn by the player and the hologram miners."
         Instructions = [
              = {
-                Guid = "31025fe5-6178-450e-8766-7c0c679116b5"
+                Guid = "37933749-13b1-4fcd-8e2f-f2a0507fa05c"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\TSLPatcher.exe",
@@ -3359,12 +3367,12 @@ Options = [
         ]
     }
      = {
-        Guid = "8c0db7fd-5126-489f-b55c-77aeca7615da"
+        Guid = "1616ba97-d4b1-4e97-970e-95929c025915"
         Name = "Main Install - Miners in Underwear"
         Description = "Main installation, with the miners in the kolto tanks wearing underwear."
         Instructions = [
              = {
-                Guid = "31717c2d-7380-4352-9960-14a253295495"
+                Guid = "f5dcce05-a190-40b6-8b84-9b54cdde5cf3"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\TSLPatcher.exe",
@@ -3374,12 +3382,12 @@ Options = [
         ]
     }
      = {
-        Guid = "bf064320-1a6e-4b4d-91b2-dc5a118edca8"
+        Guid = "83e43896-5dac-41f5-8aed-b462383b710a"
         Name = "Main Install - Miners in Kainzorus Prime's Mining Gear"
         Description = "Main installation, with the miners in the mining gear from \"Peragus Mining Gear\" by Kainzorus Prime.  Requires \"Peragus Mining Gear\" to be installed first."
         Instructions = [
              = {
-                Guid = "45272983-f296-49b0-97da-8fd4b47d4bb1"
+                Guid = "b0c8683b-72b2-4308-8a4a-00a5b37f0631"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\TSLPatcher.exe",
@@ -3389,12 +3397,12 @@ Options = [
         ]
     }
      = {
-        Guid = "0d012777-ce78-495e-94c2-c85667cf44de"
+        Guid = "d1697ff9-6976-44fe-8e12-0dcf38a2af2e"
         Name = "OPTION - Burned Skin Textures"
         Description = "Install files from OPTION - Burned Skin Textures folder"
         Instructions = [
              = {
-                Guid = "2984a52e-3e8d-48dc-820a-535d74c75435"
+                Guid = "53a873d7-97b2-41db-8a6f-2109bc2115ad"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\OPTION - Burned Skin Textures\\*",
@@ -3404,12 +3412,12 @@ Options = [
         ]
     }
      = {
-        Guid = "789b35e0-8df5-4ffd-9236-3b605d906b7e"
+        Guid = "ceb52801-1500-47a0-a675-8edc5831b260"
         Name = "OPTION - Upscaled Textures"
         Description = "Install files from OPTION - Upscaled Textures folder"
         Instructions = [
              = {
-                Guid = "dba4347d-1c38-489e-9931-5cecf3ba6f55"
+                Guid = "bdd5ca8e-0cc8-4d01-8431-d529979b474f"
                 Action = "Move"
                 Source = [
                     "<<modDirectory>>\\Peragus Medical Bay Enhancement v1_3\\OPTION - Upscaled Textures\\*",
@@ -3437,17 +3445,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "7ee07295-3f74-4927-8cb8-8340d2208d27"
+Guid = "a45135f9-c22c-4183-825e-de2c9327c5fa"
 Instructions = [
      = {
-        Guid = "ad848a87-21ee-465d-b2fd-5e734b53d499"
+        Guid = "c79ea443-f2da-4d5f-835b-8dc152fc41ae"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL_High_Quality_Blasters.zip",
         ]
     }
      = {
-        Guid = "14767ebd-7ec6-4ff8-a8ef-c854b1b73d1f"
+        Guid = "977a29c2-106f-4c05-a871-c7a876ce77ea"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Install\\TSLPatcher.exe",
@@ -3475,17 +3483,17 @@ ___
 **Installation Instructions:** Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 
 <!--<<ModSync>>
-Guid = "f4fd17fb-a11b-413a-b173-33fcf96bc861"
+Guid = "84cfd068-c0c5-4ca7-b7d3-b4831ad11834"
 Instructions = [
      = {
-        Guid = "4793ef37-e970-408a-b06b-a9e37b7be5e3"
+        Guid = "1df47335-55a7-4b80-b3eb-839bc44b008f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Droid animations fix.rar",
         ]
     }
      = {
-        Guid = "344813dc-521e-4dbc-a7c4-ea2b819f029f"
+        Guid = "e6d8e9b3-4105-4304-b4e3-0f9c530f728b"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Droid animations fix\\Droid animations fix\\*",
@@ -3511,17 +3519,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "d3136492-525d-45ef-a7df-4ad15b1fd69b"
+Guid = "8ad0bb90-607a-4c48-b1a1-af019c9019be"
 Instructions = [
      = {
-        Guid = "5da5eeb1-f464-41ad-b1a7-d812c2fe9775"
+        Guid = "e7e11da4-4292-43b2-a7ea-807d38c41a0f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Quarterstaff Replacement Pack CENSORED.rar",
         ]
     }
      = {
-        Guid = "a1459eb4-9995-4524-883e-ca3b493f400d"
+        Guid = "1f8bfdb5-af22-4b0c-ad94-81f3baec26d6"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Quarterstaff Replacement Pack\\TSLPatcher.exe",
@@ -3547,17 +3555,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "2cea3713-ea8c-4694-b027-a1d0b1c9be24"
+Guid = "620c754d-8731-4960-8431-7794883a8ef0"
 Instructions = [
      = {
-        Guid = "a7302107-19ae-495d-8996-c6fe53cd549f"
+        Guid = "0fb53563-a8a0-44a4-b96c-01b36f5344be"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Rescaled Trandoshans.zip",
         ]
     }
      = {
-        Guid = "22e1e23b-36e7-4a04-b091-243a67664e54"
+        Guid = "6c8f7613-e932-4721-b403-aa6855c7a1fb"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\Rescaled Trandoshans\\TSLPatcher.exe",
@@ -3585,17 +3593,17 @@ ___
 **Installation Instructions:** Run the TSLPatcher for the Head Fix, then use the screenshots included with the mod to determine whether you prefer option 1 or 2 for the body modification (I recommend 2). Once you know your preference, enter the Body Options folder and and run the patcher for the version which matches your preference. Finally, once again use the screenshots to determine whether you wish to utilize the alternate texture also located in the Body Options folder (recommended).
 
 <!--<<ModSync>>
-Guid = "b94058c7-e35e-4802-b3aa-05fa8e8b0be3"
+Guid = "e42fc8e6-bd72-4ba8-8552-dd1e42fbb65f"
 Instructions = [
      = {
-        Guid = "4ef3e4a6-83b2-4c52-b556-6c6a0b5fb793"
+        Guid = "5ff36bbe-fe9e-46fb-8c00-b7a54229d591"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41.zip",
         ]
     }
      = {
-        Guid = "d4b6c619-be94-45ca-aff0-345d5414c47a"
+        Guid = "a939f800-9d1d-4c71-81b7-9e78fc7a6281"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\1 - Head Fix\\TSLPatcher.exe",
@@ -3603,7 +3611,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "3e424d73-454f-4e30-8f4f-334fdd6aa7b7"
+        Guid = "5fdeed57-a214-4313-aea7-b214a0a05086"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\*",
@@ -3631,34 +3639,34 @@ ___
 **Installation Instructions:** Select between one of the two TSLRCM-compatible install options.
 
 <!--<<ModSync>>
-Guid = "fcfed9f0-393d-4dbc-b4ff-f9a38bb31ae3"
+Guid = "0178d1a9-c035-4633-9d09-36c54c1a6971"
 Instructions = [
      = {
-        Guid = "8ceaecce-1aef-49ad-b6de-21f0fa680b9a"
+        Guid = "8d4ff98f-0a17-4cfa-b6a7-c4ecea1e1967"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\VRHK 1.1.7z",
         ]
     }
      = {
-        Guid = "fb629c02-7cb4-45b3-8dc7-93c87a0092e0"
+        Guid = "7c79bd45-b5aa-4aaf-bcff-903b1e105050"
         Action = "Choose"
         Source = [
-            "df476c4c-9811-4a12-a928-7ee66d438a59",
-            "d0d414bb-8dc2-4f6e-882b-f2c6ec85cdfe",
-            "2347f6b0-07e9-4c32-807d-15484f23d54d",
-            "b45fc849-e4e2-430b-aa45-68ed07ebb5c7",
+            "af6448d6-15f8-4ea1-8ed5-fc595c6c858c",
+            "424c0060-ddbe-43dc-961a-6b001b3f575c",
+            "c5bc0282-4d10-470c-aabf-8c983df613c5",
+            "54ac4658-cdbe-4969-bd9c-5441f50d6fab",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "df476c4c-9811-4a12-a928-7ee66d438a59"
+        Guid = "af6448d6-15f8-4ea1-8ed5-fc595c6c858c"
         Name = "DO NOT USE"
         Description = "DO NOT USE"
         Instructions = [
              = {
-                Guid = "be8a9670-021d-4724-be9b-128f8dae5b0f"
+                Guid = "7834344a-5813-4f78-affa-7dc408e5a495"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\VRHK 1.1\\nwnnsscomp.exe",
@@ -3668,12 +3676,12 @@ Options = [
         ]
     }
      = {
-        Guid = "d0d414bb-8dc2-4f6e-882b-f2c6ec85cdfe"
+        Guid = "424c0060-ddbe-43dc-961a-6b001b3f575c"
         Name = "DO NOT USE"
         Description = "DO NOT USE"
         Instructions = [
              = {
-                Guid = "01da96b3-e42e-40cb-9160-df4549479fd4"
+                Guid = "6c720a29-e3a4-490e-9263-c79e216e2409"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\VRHK 1.1\\nwnnsscomp.exe",
@@ -3683,12 +3691,12 @@ Options = [
         ]
     }
      = {
-        Guid = "2347f6b0-07e9-4c32-807d-15484f23d54d"
+        Guid = "c5bc0282-4d10-470c-aabf-8c983df613c5"
         Name = "VRHK (TSLRCM compatible)"
         Description = "This installs the \"VRHK\" mod in a TSLRCM compatible form."
         Instructions = [
              = {
-                Guid = "09720467-657f-4050-89e5-99cbe46d76af"
+                Guid = "9a47dad2-e82b-4f1f-b518-abe87003cb39"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\VRHK 1.1\\nwnnsscomp.exe",
@@ -3698,12 +3706,12 @@ Options = [
         ]
     }
      = {
-        Guid = "b45fc849-e4e2-430b-aa45-68ed07ebb5c7"
+        Guid = "54ac4658-cdbe-4969-bd9c-5441f50d6fab"
         Name = "VRHK + HD Reskin (TSLRCM compatible)"
         Description = "This installs the \"VRHK\" mod and HD reskins in a TSLRCM compatible form."
         Instructions = [
              = {
-                Guid = "f070b730-648e-427c-8257-dda1b5454d0b"
+                Guid = "026ff4ca-0f00-41ef-93b3-4fcaf5c762ee"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\VRHK 1.1\\nwnnsscomp.exe",
@@ -3735,10 +3743,10 @@ ___
 **Installation Instructions:** Run the patcher using the Default install option. Expanded Ending is not compatible with mobile.
 
 <!--<<ModSync>>
-Guid = "69e3b5bb-5699-47dd-ac57-5d3957c3dec5"
+Guid = "196f01a8-2663-4fe9-b5a7-6318bc22b847"
 Instructions = [
      = {
-        Guid = "ab894784-24b6-4197-8425-1dd846319f95"
+        Guid = "ad99c8b7-2440-4e80-9354-d606dd26e070"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Consistent Bastila Recognition CENSORED.7z",
@@ -3765,17 +3773,17 @@ ___
 **Installation Instructions:** Ignore all the loose files in the folder; use the TSLPatcher to install the mod. Then copy the two files from the patch into override.
 
 <!--<<ModSync>>
-Guid = "fd5ca02f-b174-4749-a552-1e0bd11d6b5c"
+Guid = "947e3b6a-fc6b-49a3-bf35-6adea8a2d5c0"
 Instructions = [
      = {
-        Guid = "13346046-4c88-448e-82a9-60cea073fd7c"
+        Guid = "bd7e9011-c4c3-4983-8931-8891a0009ab9"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\FS_Fit_Handmaiden.7z",
         ]
     }
      = {
-        Guid = "469de050-b7af-4d5e-8eb6-1047a801c157"
+        Guid = "e2da4c8a-6102-47ef-bdd1-a56bee5ed58e"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\FS_Fit_Handmaiden\\TSLPatcher.exe",
@@ -3783,7 +3791,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "760e1217-5673-4f61-8e37-d74fcbac423f"
+        Guid = "6ffbca19-544e-426f-9bd6-8d454dae6647"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\FS_Fit_Handmaiden\\*",
@@ -3791,7 +3799,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>\\Override"
     }
      = {
-        Guid = "b168f11d-3dea-4fd1-9101-4aa27a9e7ffb"
+        Guid = "96bad357-1062-4a2d-8009-94cedd1927d0"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\FS_Fit_Handmaiden Patch.rar",
@@ -3818,32 +3826,32 @@ ___
 **Installation Instructions:** Install the TSLRCM option.
 
 <!--<<ModSync>>
-Guid = "63102247-7945-48f4-a966-ceec7f922e9d"
+Guid = "80bb3938-296e-46cd-8e46-9e6b5676b58f"
 Instructions = [
      = {
-        Guid = "3280538c-405f-4db5-8519-04348d4f4719"
+        Guid = "573fa3d8-b1d9-4bc5-8117-ffe4374fb580"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\JC's Handmaiden Sisters v2.0.zip",
         ]
     }
      = {
-        Guid = "09e4ee47-4f9d-44ab-9fc2-3a415feee5fd"
+        Guid = "a3908433-5073-4e18-937d-6983099ee05a"
         Action = "Choose"
         Source = [
-            "6f760744-57e9-4010-9be8-d6e219572c78",
-            "201adb54-9099-4d9e-a845-35b37c939ade",
+            "010ab7e5-58b4-477b-a26d-555de5fe8895",
+            "c2ae6b32-76e1-4f9b-9d2a-7a6f0fc5a011",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "6f760744-57e9-4010-9be8-d6e219572c78"
+        Guid = "010ab7e5-58b4-477b-a26d-555de5fe8895"
         Name = "Base Installer"
         Description = "Pick this option if you don't have TSLRCM installed."
         Instructions = [
              = {
-                Guid = "cb0f29f8-e358-4af9-8ac5-d368856e88e5"
+                Guid = "06c5d321-963b-4e62-83de-d9ac72e2260f"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Handmaiden Sisters v2.0\\TSLPatcher.exe",
@@ -3853,12 +3861,12 @@ Options = [
         ]
     }
      = {
-        Guid = "201adb54-9099-4d9e-a845-35b37c939ade"
+        Guid = "c2ae6b32-76e1-4f9b-9d2a-7a6f0fc5a011"
         Name = "TSLRCM-Compatible Installer"
         Description = "Pick this option if you have TSLRCM installed."
         Instructions = [
              = {
-                Guid = "cc726434-1b8c-451e-95c8-29f4c4acd148"
+                Guid = "b9b4c447-480f-41d7-9386-659ca5ad4208"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\JC's Handmaiden Sisters v2.0\\TSLPatcher.exe",
@@ -3888,35 +3896,35 @@ ___
 **Installation Instructions:** Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the enemy with a worse weapon option.
 
 <!--<<ModSync>>
-Guid = "a1befb5c-41ae-4db3-8a22-b30daabe5aa3"
+Guid = "dad4bb9d-8a0c-4baa-8631-4771e621e084"
 Instructions = [
      = {
-        Guid = "103868ed-2eab-4b7e-bc5a-db99a0562865"
+        Guid = "185d0be8-a1c7-42d7-9ed0-af26793bfcac"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\VCChanges1.1.zip",
         ]
     }
      = {
-        Guid = "9a176cc6-935f-4f9d-b80d-aa6c777ebdb1"
+        Guid = "ebe61bdd-eb14-4c2c-8124-4b0ba6c3adeb"
         Action = "Choose"
         Source = [
-            "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b",
-            "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b",
-            "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b",
-            "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b",
-            "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b",
+            "ae788168-41f6-4d7a-bdda-947128c83d2b",
+            "ae788168-41f6-4d7a-bdda-947128c83d2b",
+            "ae788168-41f6-4d7a-bdda-947128c83d2b",
+            "ae788168-41f6-4d7a-bdda-947128c83d2b",
+            "ae788168-41f6-4d7a-bdda-947128c83d2b",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "9522e3e2-ff0d-4dec-9742-1c5c7d707c8b"
+        Guid = "ae788168-41f6-4d7a-bdda-947128c83d2b"
         Name = "Medpac Replacement"
         Description = "Replaces the vibrocutter with a medpac."
         Instructions = [
              = {
-                Guid = "58032182-9e86-4463-a377-fc110c8b2cc1"
+                Guid = "a3322449-3b1d-4e3a-9e8c-7cd6811ae3aa"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\VcChanges_1.1\\TSLPatcher.exe",
@@ -3946,34 +3954,34 @@ ___
 **Installation Instructions:** Install the Vanilla/TSLRCM option.
 
 <!--<<ModSync>>
-Guid = "03923e4a-adc8-4bb3-8556-94682cd0d4aa"
+Guid = "10eea030-bf81-468e-b38a-95ad30093122"
 Instructions = [
      = {
-        Guid = "2d53ce7b-a04e-4d93-a255-f1297bb8f7f0"
+        Guid = "63e9a394-57db-4f9a-ac04-a884efec87fe"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\TSLGalaxyMapFixPack.zip",
         ]
     }
      = {
-        Guid = "e8b22938-8b55-45a1-8ec5-695758b613fc"
+        Guid = "9be61e1b-5286-417a-b230-dd321d6542d0"
         Action = "Choose"
         Source = [
-            "10a9cf0a-8267-4ad5-935f-be4edb8e37f1",
-            "10a9cf0a-8267-4ad5-935f-be4edb8e37f1",
-            "10a9cf0a-8267-4ad5-935f-be4edb8e37f1",
-            "10a9cf0a-8267-4ad5-935f-be4edb8e37f1",
+            "7cfb29ac-270c-4eb6-bf21-2f1adf1e4199",
+            "7cfb29ac-270c-4eb6-bf21-2f1adf1e4199",
+            "7cfb29ac-270c-4eb6-bf21-2f1adf1e4199",
+            "7cfb29ac-270c-4eb6-bf21-2f1adf1e4199",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "10a9cf0a-8267-4ad5-935f-be4edb8e37f1"
+        Guid = "7cfb29ac-270c-4eb6-bf21-2f1adf1e4199"
         Name = "Vanilla/TSLRCM"
         Description = "All planets on the Galaxy Map Screen will be moved to their canonical locations. The Galaxy Map texture on the Ebon Hawk will show only the planets accessible in vanilla and TSLRCM. Keep in mind that the texture does not change depending on which planets are available."
         Instructions = [
              = {
-                Guid = "3f6e08af-2df6-41a1-a0b7-0a98df8291b9"
+                Guid = "be39c2bb-77ab-4f5d-a069-0d4047f55e8e"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\TSLGalaxyMapFixPack\\TSLPatcher.exe",
@@ -4005,17 +4013,17 @@ ___
 **Download Instructions:** Download just the main file, not the robes patch.
 
 <!--<<ModSync>>
-Guid = "656196b9-c04f-463b-b8f4-903ef0afb72e"
+Guid = "b2398d9b-2622-4959-9be3-6a30dc9512dc"
 Instructions = [
      = {
-        Guid = "5856e76a-c86b-47ec-9e8d-34011637c740"
+        Guid = "fc904460-5436-4384-93c9-77c2943f3fdf"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[TSL]_Fixed_Hologram_Models_v1.6_R-KOTOR_BUILD.7z",
         ]
     }
      = {
-        Guid = "643c5eda-7eb7-4b91-805c-71bb27a10b3e"
+        Guid = "7e926cab-434d-492d-83e6-dcefb00c3809"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[TSL]_Fixed_Hologram_Models_v1.6_R-KOTOR_BUILD\\TSLPatcher.exe",
@@ -4043,17 +4051,17 @@ ___
 **Download Instructions:** Download both files.
 
 <!--<<ModSync>>
-Guid = "fe065b02-e126-4d29-be13-01678444e528"
+Guid = "b233d060-6d63-4d71-9fa4-4f4ef4828954"
 Instructions = [
      = {
-        Guid = "d81d397a-b8bf-4d27-bb57-72d014d1461f"
+        Guid = "b8d4b967-88f0-43c2-bb9f-507ee52fa490"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\relightingtsl_101PERt_2.1.zip",
         ]
     }
      = {
-        Guid = "1d1d6199-8f35-49c1-9c50-e70e2d1f05e8"
+        Guid = "fc00076c-1ac3-4769-a783-22583e7d11f8"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\relightingtsl_101PERt_2.1\\*",
@@ -4079,17 +4087,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "d9b3b4b7-b7d2-46b7-b962-4fdd2014aa51"
+Guid = "43135f83-8b9e-4700-85f9-93ff5ba4eff8"
 Instructions = [
      = {
-        Guid = "766789d8-bf81-48ff-aa28-51594959707b"
+        Guid = "20b8d9eb-4c5a-40f6-bfc2-4cb54adf9b8a"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\K2 Companion Starting Armors 1.1.zip",
         ]
     }
      = {
-        Guid = "345e3c34-af08-4a0e-8c0e-f3223b38e866"
+        Guid = "ba02b482-8b9d-445c-826c-adeac1ba0172"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\K2 Companion Starting Armors 1.1\\TSLPatcher.exe",
@@ -4097,7 +4105,7 @@ Instructions = [
         Destination = "<<kotorDirectory>>"
     }
      = {
-        Guid = "779bb516-c3a3-47fd-9673-640a8ca9fbe4"
+        Guid = "554e3aa4-4b6e-4f08-98b9-b35e46079060"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\K2 Companion Starting Armors 1.1\\Source\\*",
@@ -4123,17 +4131,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "536ea47b-231f-4f0d-98bf-08da5029e104"
+Guid = "5d5cfd7b-f0dc-4d76-848a-17f303a0fd41"
 Instructions = [
      = {
-        Guid = "4bc44201-68dc-4edd-916e-8e0ef2b63194"
+        Guid = "756f11ae-3fe9-4590-83e9-6bdd67648cec"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Improved Enlightenment and Corruption Feats.zip",
         ]
     }
      = {
-        Guid = "062d2def-04ee-41e3-82d6-b8633e3d6612"
+        Guid = "40da7165-0f3b-4156-a88f-3cb8141de243"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Improved Enlightenment and Corruption Feats\\Improved Enlightenment and Corruption Feats\\*",
@@ -4159,17 +4167,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "19b9bab6-9b05-4e4a-aa45-b7bf574a7b25"
+Guid = "02e96899-300f-4885-97c2-71c8d2057c7b"
 Instructions = [
      = {
-        Guid = "5c6be273-9751-42cf-9c8a-97d22ed46e53"
+        Guid = "404c6596-5f99-4d04-805e-0e5975e7464b"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\[TSL] Repair Affects Stun Droid.zip",
         ]
     }
      = {
-        Guid = "f228ad51-e16c-48dd-967c-71766a26b280"
+        Guid = "7e8cffef-c617-4d77-8e09-0af0ed7e537e"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\[TSL] Repair Affects Stun Droid\\TSLPatcher.exe",
@@ -4197,10 +4205,10 @@ ___
 **Installation Instructions:** Recommend installing all three modules.
 
 <!--<<ModSync>>
-Guid = "7563f147-ba03-4916-a81a-2ff0ed84e675"
+Guid = "cd0cac6e-d914-4f22-a8c5-1f7cc4b1bdfe"
 Instructions = [
      = {
-        Guid = "4b6507fd-29fc-48b0-a00a-e2ff4b385449"
+        Guid = "92524ed3-974d-494e-b6f1-9dd78a8e6a72"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Improved_Force_Sight_v1c1 CENSORED.7z",
@@ -4227,32 +4235,32 @@ ___
 **Installation Instructions:** I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
 
 <!--<<ModSync>>
-Guid = "eb7e5673-4f08-430e-acc3-ccc0bb9999d2"
+Guid = "722da673-024d-45c6-a445-36b06f0bc78a"
 Instructions = [
      = {
-        Guid = "1bbff90f-5d4d-4f59-961b-ca018deae455"
+        Guid = "233eb847-7f63-47a9-a2e1-0cf165860360"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Alignment_Affects_Force_Powers_TSL.zip",
         ]
     }
      = {
-        Guid = "487d9e3d-7550-40e7-b941-f9a3fe31e6a6"
+        Guid = "3cfd8635-2eec-4420-92fb-d27846e9c4dd"
         Action = "Choose"
         Source = [
-            "fc827bd2-386f-4707-8c6f-5b0cacaef68a",
-            "bbaf492a-e69f-4dcf-94e9-612eef2a5207",
+            "02253203-051a-4ab8-812a-d5380a3c052b",
+            "446e2e60-aebb-4353-bef0-a15a60665a99",
         ]
     }
 ]
 Options = [
      = {
-        Guid = "fc827bd2-386f-4707-8c6f-5b0cacaef68a"
+        Guid = "02253203-051a-4ab8-812a-d5380a3c052b"
         Name = "Alignment Affects Force Powers"
         Description = "Installs the mod \"Alignment Affects Force Powers\" for TSL. You only need to pick one install option."
         Instructions = [
              = {
-                Guid = "d0e8df6a-cc81-4839-8c08-376a694079ca"
+                Guid = "54b7f057-1862-45c8-a23e-4b25d81be5aa"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Alignment_Affects_Force_Powers_TSL\\nwnnsscomp.exe",
@@ -4262,12 +4270,12 @@ Options = [
         ]
     }
      = {
-        Guid = "bbaf492a-e69f-4dcf-94e9-612eef2a5207"
+        Guid = "446e2e60-aebb-4353-bef0-a15a60665a99"
         Name = "Alignment Affects Force Powers + Treat Injury Affects Force Healing"
         Description = "Installs both \"Alignment Affects Force Powers\" AND \"Treat Injury Affects Force Healing\" for TSL. If you want to use both of these mods together, this option is required. There is no need to install anything else."
         Instructions = [
              = {
-                Guid = "f36cc360-16fb-4f9d-a67c-a757ff20a88d"
+                Guid = "8affe151-d347-4b20-ac07-2eecf6c40885"
                 Action = "Patcher"
                 Source = [
                     "<<modDirectory>>\\Alignment_Affects_Force_Powers_TSL\\nwnnsscomp.exe",
@@ -4297,17 +4305,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "3e2efeb6-a112-47c3-8e29-59ed540e1627"
+Guid = "e1570b82-13ab-429a-a89b-5631b0ddf1cd"
 Instructions = [
      = {
-        Guid = "a426e463-ed3c-4ce5-b5de-16d427dca5fd"
+        Guid = "c0cf6beb-6f35-4d33-8e7c-65348e568789"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\Bao-Dur - Darth Maul.rar",
         ]
     }
      = {
-        Guid = "37057d54-c20a-480e-aa1d-badffad19831"
+        Guid = "0d46ec60-8944-4d91-ab47-8274f2c8d9c0"
         Action = "Move"
         Source = [
             "<<modDirectory>>\\Bao-Dur - Darth Maul\\*",
@@ -4333,17 +4341,17 @@ ___
 
 
 <!--<<ModSync>>
-Guid = "c1f31c5f-476a-4db3-ad3c-57e07cd9d49e"
+Guid = "c0b081c1-c2d8-4bb2-9e27-78ffda5d34dd"
 Instructions = [
      = {
-        Guid = "37d1d4b0-f1b8-4344-96df-b17685c8d86e"
+        Guid = "07842f73-7acd-4a58-b166-d27b9582e43f"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\visual_effects_tsl.7z",
         ]
     }
      = {
-        Guid = "47452098-ac3b-44aa-802b-50e07fbec485"
+        Guid = "cade000e-eaca-40ed-9308-eb60aa57c500"
         Action = "Patcher"
         Source = [
             "<<modDirectory>>\\visual_effects_tsl\\TSLPatcher.exe",
@@ -4371,10 +4379,10 @@ ___
 **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 
 <!--<<ModSync>>
-Guid = "3caa0d18-f5f7-441a-b288-d1bbf1f88fde"
+Guid = "ca25658f-3dab-4e4d-b345-5ab5aa5ee545"
 Instructions = [
      = {
-        Guid = "0469aa8b-cd70-4cc7-bb31-42e998f091c7"
+        Guid = "abf8079e-91f7-48a9-a406-843580612095"
         Action = "DelDuplicate"
     }
 ]
@@ -4398,10 +4406,10 @@ Do note—this mod is quite difficult. Winning the fights it amends *is not mand
 
 
 <!--<<ModSync>>
-Guid = "4a6bebcb-029f-4d10-913d-979536eba515"
+Guid = "401c1857-7e1b-481c-930e-382414149923"
 Instructions = [
      = {
-        Guid = "f51900aa-7017-401a-b532-5d448377872f"
+        Guid = "caef696a-522d-4d38-b82d-a80e3c7abb7c"
         Action = "Extract"
         Source = [
             "<<modDirectory>>\\KOTOR2-TOMB_v1.0.3_spoiler-free.zip",

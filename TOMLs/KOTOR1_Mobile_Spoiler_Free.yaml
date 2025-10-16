@@ -1,5 +1,5 @@
 ---
-Guid: d46b7491-b1a6-4939-872b-8a5db0e81503
+Guid: 576bc34e-5f5a-4a45-a78d-0f31c2032abd
 Name: KOTOR Dialogue Fixes
 Author: Salk & Kainzorus Prime
 Description: In addition to fixing several typos, this mod takes the PC's dialogue—which is written in such a way as to make the PC sound constantly shocked, stupid, or needlessly evil—and replaces it with more moderate and reasonable responses, even for DS choices.
@@ -18,11 +18,11 @@ Instructions:
   - <<modDirectory>>\KotOR_Dialogue_Fixes_5_2.7z
 - Action: choose
   Source:
-  - 7693ef53-9e15-4387-a08f-e395d9925b78
-  - 25288c16-a829-4c8e-9596-611085ce623a
+  - 87da1528-81ff-47f9-8392-c56965764079
+  - ed9016b7-023b-4c44-8bc3-d361948a4a9c
 
 ---
-Guid: 448792d8-9bc0-4df6-acbd-f94e5a502492
+Guid: 113b74a2-6e4c-4e28-9597-75e32f387296
 Name: Character Startup Changes
 Author: jonathan7, patch by A Future Pilot
 Description: In a normal KOTOR start, your character's feats are pre-selected. This mod changes the initial level-up so that the number of feat points given is determined by class, but you can choose the feats you wish to invest into.
@@ -53,7 +53,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: ba0a890c-9025-49d7-8d4e-a25bde86dc1f
+Guid: 68bd7f23-0421-4073-a0a7-3b1938db0d4d
 Name: Thematic KOTOR Companions
 Author: Sniggles & JCarter426
 Description: >-
@@ -74,7 +74,7 @@ ModLinkFilenames:
   https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.1/KOTOR1-Thematic-Companions_v1.0.1_spoiler-free.zip: {}
 
 ---
-Guid: 6d97683c-d11e-4384-8b06-2c59ff5010e1
+Guid: a05856e2-fdb9-4058-b897-9fc46be8534d
 Name: JC's Minor Fixes
 Author: JCarter426
 Description: KOTOR, like with any game, has a slew of little oversights, or things BioWare messed up by accident. The goal of this mod is to fix most of those small things not addressed in other, larger mods.
@@ -94,14 +94,14 @@ Instructions:
   - <<modDirectory>>\JC's Minor Fixes for K1 v1.1.zip
 - Action: choose
   Source:
-  - 3a56e9b5-a5c8-4530-9074-c7d40e7e6e06
-  - 10bc1160-4e59-4091-9765-2b146feff46d
-  - 503a4930-e420-49d4-a464-3c3eaf84c326
-  - 96e9868b-aa94-42d3-a11d-9347f817c472
-  - 76ed718d-87ee-450f-a608-e1bf96d3e9c5
+  - f94eecb3-0c29-456d-a430-2cad7dc1954d
+  - f99e3f16-5c20-43bb-9a10-12a9233a717b
+  - 5e9bf3d8-4ac7-455b-8bc3-e35594fcf813
+  - 346cc30c-1306-4d04-8c46-dfdf1d68b130
+  - d2301ded-a7a8-4578-ac24-6464869c8b65
 
 ---
-Guid: d57c1938-fdb7-499f-a87c-af6341c607ab
+Guid: ef5ba142-89d8-461b-9940-e4dfe9d9a8c7
 Name: Ajunta Pall Unique Appearance
 Author: Silveredge9, Patch by A Future Pilot
 Description: This mod reskins NPC specter Ajunta Pall to have a unique appearance that matches the honorary statue in his tomb.
@@ -122,11 +122,11 @@ Instructions:
   - <<modDirectory>>\ajunta_pall_unique_appearance_1.1.rar
 - Action: choose
   Source:
-  - 2e6a3119-12e2-4aeb-9c6f-ec6d7b1affb4
-  - 01fefc86-e9fd-44de-84d7-a8ab7830ad58
+  - c9ce2103-43d1-484d-8b07-a29e06ca9712
+  - dc62d3a4-449a-4d0c-937f-7d7295968ff0
 
 ---
-Guid: e357c4b9-a1dc-4e55-bccc-5b76cd61ae22
+Guid: df5c0b08-649f-4490-834f-8341eb904929
 Name: KOTOR Community Patch
 Author: Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate
 Description: >-
@@ -163,7 +163,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: a9d64758-61be-4f3b-b302-715b5be19af2
+Guid: a0e39b19-ee1f-4541-93b8-b2277e72f1f3
 Name: Droid Claw Fix
 Author: GearHead
 Description: A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage—be warned, it can be quite a significant difficulty boost in places.
@@ -185,7 +185,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 41cb2d11-fda4-4588-bc2f-0595e9e93805
+Guid: 2d82207d-1f32-4f13-b8eb-567d515f5003
 Name: K1 Ported Alien VO Replacements
 Author: Ashton Scorpius
 Description: Several alien species in the original game use recycled VO primarily utilized by other species, but KOTOR 2 gives these aliens unique voiceovers instead. This mod uses alien VO ported from KOTOR 2 to give these species their unique VO in the original game as well.
@@ -204,17 +204,17 @@ Instructions:
   - <<modDirectory>>\K1 PAVOR v1.3.2.7z
 - Action: choose
   Source:
-  - aff4324a-5127-41fa-aecd-74ef2fc6500e
-  - ac11be32-4540-4d2b-ae9b-d754b5c32d39
-  - fc7c859f-ae43-4bc1-b3b1-b8f6b3f5f4cf
-  - fee259dc-2457-4160-847d-ae5ff7bfd1b9
+  - 41718e09-989c-417a-a397-c8532d3a4a60
+  - 46c4c3e8-ae80-4b62-9ab2-ab82dc9603ef
+  - 58e7d5d7-eae8-47d0-b794-0f943884700b
+  - fc7bb56a-0a0a-40b7-a090-b00bab28e2e5
 - Action: move
   Source:
   - <<modDirectory>>\K1 PAVOR v1.3.2\source\*
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 20cd8b52-0d21-4aab-8b9e-a638528ae9f1
+Guid: 38dedb3c-4b8b-40e0-b61d-a3b2045edeeb
 Name: Deadeye Duncan on Manaan
 Author: Seamhainn
 Description: This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.
@@ -236,7 +236,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: bd1530b6-4e72-4e5d-894f-1e6bc36a4725
+Guid: 33ae07e6-5a19-49be-8355-b824d86db8e5
 Name: Consistent Conditioning Icons
 Author: Sdub
 Description: The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.
@@ -258,7 +258,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 4b34206c-7893-41e0-9add-d67e639aa032
+Guid: 6deecf35-0dd4-4cde-bf24-0bb82f8f2f17
 Name: Republic Soldier Fix
 Author: JCarter426
 Description: Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character. The Soldier class's vanilla default clothing is horrible enough that this mod's worth it based on that change alone.
@@ -278,11 +278,11 @@ Instructions:
   - <<modDirectory>>\JC's Republic Soldier Fix for K1 v1.3.zip
 - Action: choose
   Source:
-  - b092e8f3-c5a3-448c-9b8f-c63bec54987c
-  - 66b58de0-949d-48a2-8f3f-8ded3bc16270
+  - 9f1c9390-215f-40d1-a265-24408479f4c1
+  - a383ebdf-23e3-4622-a2ea-10270f5b4bf2
 
 ---
-Guid: aa231e51-1f33-44f5-a4eb-9cb879ba75f9
+Guid: f6811806-a2fa-4c99-bfdc-a5dbae5e5d92
 Name: Republic Soldier's New Shade
 Author: ebmar
 Description: By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.
@@ -301,15 +301,15 @@ Instructions:
   - <<modDirectory>>\[K1]_Republic_Soldier's_New_Shade_v1.1.1.7z
 - Action: choose
   Source:
-  - a7200e1e-07d0-4175-a9f1-bec192cef28c
-  - 937efa82-47fd-499f-b65d-272ebd552fc1
-  - 2f92cff4-1420-4f45-b698-c4aeb6938bc0
-  - faf2f457-40f7-4855-8a1c-71f03679e305
-  - c92eeddf-55b3-4ee6-9f06-13fb65ac8dbc
-  - ac90c9d4-61b5-4d52-90c5-55f948fc4454
+  - 50183292-c0f7-45fd-bd63-453a091e7d7b
+  - cb7b424f-9e13-4f0a-958c-beb1373df498
+  - 11251def-5835-438e-9d4b-21aa0a219a46
+  - cbd9ca72-10d1-4767-820c-3b2c40c1d591
+  - 72576356-e260-460d-b6ce-c264648d3327
+  - 27553f26-527d-4456-87cf-920d40e1db48
 
 ---
-Guid: f52a86ba-651d-4592-a905-66367cdfe426
+Guid: 449ee500-0e73-432c-8a97-a80ed55baa0a
 Name: PFHB02 Dark Side Transition Eye Fix
 Author: Darth Parametric
 Description: The eye overlays on the second black female head were input incorrectly and become offset as the player transitions to the Dark Side, creating the appearance of duplicated irises. This mod fixes that, as well as offering an upscale option which improves the base appearance of the head.
@@ -332,7 +332,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 8c9ddf6d-b270-4014-871c-6c389246ed03
+Guid: 4523e1fb-9cf4-49ee-94f1-6eb1de78f02d
 Name: High-Poly Grenades
 Author: MadDerp
 Description: Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.
@@ -343,8 +343,7 @@ IsSelected: true
 Language:
 - YES
 ModLinkFilenames:
-  https://www.nexusmods.com/kotor/mods/1209:
-    hp_grenades-0-4-1209-0-4-1547556830.zip: true
+  https://www.nexusmods.com/kotor/mods/1209: {}
 Instructions:
 - Action: extract
   Source:
@@ -355,7 +354,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 308a089c-33ff-4a49-b7b4-3ad22d1b5cae
+Guid: 9422f189-4de2-4e9d-bad3-bef8c8d26956
 Name: Better Twi'lek Heads
 Author: Ashton Scorpius
 Description: "Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: *supposed* to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry."
@@ -374,11 +373,11 @@ Instructions:
   - <<modDirectory>>\K1 Twi'lek Heads v1.3.3.7z
 - Action: choose
   Source:
-  - c958c765-5442-4072-b2e9-25ce438c670f
-  - 9513dd6d-0640-44f3-8098-553de31492f9
+  - 88b91610-980a-48f2-920d-1c1340e494f5
+  - e1fb21ca-b414-432b-83af-e0565fb0a1fa
 
 ---
-Guid: 4191325b-90dd-4ae1-89a7-a47ae4ffbf60
+Guid: dcf78efc-e242-4b56-98aa-57917eaf913a
 Name: Thigh-High Boots for Twi'lek
 Author: DarthParametric
 Description: In vanilla, female Twi'lek's thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This modder's resource serves to add the boots as an equipped object.
@@ -401,7 +400,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: a6080781-5e11-46cd-8aaf-5edc82145202
+Guid: 4560336a-9060-483d-be73-b7338b6997d9
 Name: Shaleena/Lashowe Mouth Adjustment
 Author: Ashton Scorpius
 Description: Fixes a bug with two female NPC heads which caused their upper teeth to be invisible during dialogue.
@@ -423,7 +422,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: dac06f34-078a-4c7c-83eb-565a5d689961
+Guid: 8a5683e0-c961-4e1c-9df9-c0d00c077f52
 Name: Calo Nord Recolor
 Author: Watcher07
 Description: Recolors the famous bounty hunter Calo Nord's clothing to be more muted in tone; you wouldn't expect a famous bounty hunter to run around in bright colors, but in vanilla Calo sure loved to. Note that this does not allow you to play as Calo, nor does it add the custom blaster skin or republic uniform skin seen in the screenshots.
@@ -446,7 +445,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 2f2e6db1-1e86-4b3d-8d0d-7a9a5fbfd694
+Guid: d3c57a6e-3671-4f19-9dcc-2b6d7db5efeb
 Name: K2 Swoops to K1
 Author: CaptainSpoque
 Description: This mod ports the "shield effect" that pops up when your swoop (basically a racing bike) takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I don't recommend that.
@@ -464,13 +463,13 @@ Instructions:
   - <<modDirectory>>\[K1] Swoop from K2 to K1.rar
 - Action: choose
   Source:
-  - 7011cb7b-7231-448e-95ff-929a306f03d4
-  - 7011cb7b-7231-448e-95ff-929a306f03d4
-  - 7011cb7b-7231-448e-95ff-929a306f03d4
-  - 7011cb7b-7231-448e-95ff-929a306f03d4
+  - 8c0aadd9-2969-4efe-8e2f-375b3e288eec
+  - 8c0aadd9-2969-4efe-8e2f-375b3e288eec
+  - 8c0aadd9-2969-4efe-8e2f-375b3e288eec
+  - 8c0aadd9-2969-4efe-8e2f-375b3e288eec
 
 ---
-Guid: 882559bb-ba79-4c7c-987a-a1ad93dafd4d
+Guid: 1b38f3ea-c53e-4087-9439-6997f5362c7c
 Name: Juhani Real Cathar Head
 Author: Miro42
 Description: NPC Juhani's head model has always been a disappointing reminder of the limitations of low resolution. This mod makes the best attempt of any I've seen so far to portray her as truly Cathar, without going to extremes or failing to overcome the limitations of her original facial design.
@@ -493,7 +492,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 1c96e03f-5a9b-40db-aadf-949c3a0dd6dd
+Guid: 218b4fc5-fc16-44c9-b0e3-07e1c7229eda
 Name: 'Korriban: Back in Black'
 Author: JCarter426
 Description: When you reach the planet Korriban, you'll find an academy for Force-users there. All the students are nonsensically dressed up in officer's outfits and not proper robes, though! Thankfully, this mod fixes that.
@@ -513,15 +512,15 @@ Instructions:
   - <<modDirectory>>\JC's Korriban - Back in Black for K1 v2.3.zip
 - Action: choose
   Source:
-  - 2e2bb1a5-a0cf-4b25-be09-7ef8e1518a12
-  - 00e48252-77a6-4ba1-8cb9-df52ad8d981c
-  - 1bcefa30-4c94-4000-a8e6-96a0e28b59db
-  - 41f823f7-a006-4f0d-8405-5f1d476023f8
-  - 99aaeb0e-2334-4462-ab52-dd9b234e6534
-  - 7b2a7aea-9012-43ab-b35d-80ce0e49f18f
+  - 133d945a-2cbf-4ae8-9b8f-a0a1f4aa418e
+  - 475877f5-f842-47e9-a3ee-aacf7af607fa
+  - 467ab72d-2113-4720-ab28-5ab512469862
+  - e3b51b93-442f-445f-b7a5-8c0736139669
+  - 8f6a9ce9-e13e-4f63-b5c3-3e315cb118de
+  - 35177f86-70cf-4f21-9c14-7afe5bd705e6
 
 ---
-Guid: e0be1b73-7093-4cf8-ab4e-13ab2ee76c11
+Guid: d30111af-6196-4278-95b0-adbf264a9d55
 Name: Cloaked Jedi Robes
 Author: JCarter426
 Description: The robes in KOTOR 2 are of a more billowing, loose style than the tight-fitting and narrow robes that KOTOR usually features, and seem to be the fanbase's preference. This mod migrates the KOTOR 2 robes into the original game, while still leaving options to retain some of the aesthetic choices of vanilla.
@@ -540,15 +539,15 @@ Instructions:
   - <<modDirectory>>\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4.7z
 - Action: choose
   Source:
-  - 3259e402-c6b3-4482-a68c-50e5a1f29a51
-  - 4ab75494-bd03-4bfb-b674-5e7967186c2e
-  - cf36ce5d-0438-4023-88f1-60ed1ec1fe7b
-  - e9f31329-36ff-47d1-8107-df96c243fdcc
-  - c0b15477-21b6-49fa-a6c8-3d765ef4dd08
-  - 4f01f985-6ba9-445e-96d1-f29afa1e0224
+  - d54c9911-97ff-4e74-8633-e0b5a86dabd1
+  - 1e42a19f-2c8a-4a1a-87c9-84abad529c5b
+  - d46ff78d-75b7-4a74-a2b0-147d8243367a
+  - 289e89fb-be40-47a7-b894-3055137e84b3
+  - beb8bcd9-e97e-4720-ac91-cdd27dbf9050
+  - cfc8f868-6747-4633-95d9-408aaa142837
 
 ---
-Guid: ddd41c46-933c-4b16-9e85-f92260d16db5
+Guid: 1e57a336-d877-4a70-ac5e-07afb5fd6df3
 Name: JC's Jedi Tailor
 Author: JCarter426
 Description: It's very annoying when you've got your party together and you want to show your swag off with color-coordinated outfits, but the game only gives you gaudy blue robes. Worry no longer! JC has given us a solution in the form of a skilled Trandoshan tailor, who will dye your robes on demand—it's also compatible with Cloaked Jedi Robes! He even has some very well-written and lore-friendly dialogue about current events.
@@ -567,11 +566,11 @@ Instructions:
   - <<modDirectory>>\JC's Jedi Tailor for K1 v1.4.zip
 - Action: choose
   Source:
-  - 4a41d707-d1ba-4784-be00-d794c534afac
-  - 0c1dc519-08a6-4469-b87f-799311fc19e2
+  - 25af407a-6c5b-462b-b3d6-a51e49abf4af
+  - c18c39a3-8310-4e44-8a0f-0de03745729c
 
 ---
-Guid: e0af5793-1246-4dd0-a023-5158deff3ae1
+Guid: 4fbbde11-8fc3-447d-b306-25600a7d9d78
 Name: Robes with Shadows for K1 (JC's Port)
 Author: PapaZinos
 Description: Coming in to support JC, PapaZinos here adds dynamic shadows to the ported K2 Jedi robes. Without this mod JC's mod functions, but doesn't have proper dynamically-cast shadows matching the robe outlines.
@@ -580,7 +579,7 @@ Category:
 Tier: 2 - Recommended
 IsSelected: true
 Dependencies:
-- e0be1b73-7093-4cf8-ab4e-13ab2ee76c11
+- d30111af-6196-4278-95b0-adbf264a9d55
 Directions: Only move the files from "Jedi Robes Override".
 Language:
 - YES
@@ -596,7 +595,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 4af4c6c3-a66e-42da-acce-f1378f3d0504
+Guid: 286117e3-ed94-47ce-add7-b27145211333
 Name: Qel-Droma Robes Reskin
 Author: Effix
 Description: This mod reskins the Qel-Droma robes to look closer to their canon counterparts, while also improving their general appearance and making them compatible with JC's Jedi Tailor.
@@ -607,7 +606,7 @@ Category:
 Tier: 2 - Recommended
 IsSelected: true
 Dependencies:
-- e0be1b73-7093-4cf8-ab4e-13ab2ee76c11
+- d30111af-6196-4278-95b0-adbf264a9d55
 Language:
 - YES
 ModLinkFilenames:
@@ -622,7 +621,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: bcf1c2ad-65b8-4b21-b119-844500ed1106
+Guid: 65cc19f6-a8fb-455a-b0d1-0c223c94617c
 Name: Unique Sith Governor
 Author: N-DReW25
 Description: >-
@@ -648,7 +647,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: a56c203f-916c-4c6a-9a8e-3128d9b667dd
+Guid: c5003c16-0579-454e-b486-84910ce89d94
 Name: Sith Uniform Reformation Revised
 Author: Heyorange, Sith Holocron, JCarter426
 Description: If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias. New, and thanks to Sith Holocron, these textures have also been further enhanced and upscaled to match the rest of the vanilla game's upscales present in the mod builds.
@@ -668,13 +667,13 @@ Instructions:
   - <<modDirectory>>\Heyorange's Sith Uniform Reformation Revised.7z
 - Action: choose
   Source:
-  - 94e28f97-f53e-4ee3-a5cf-67073bc1026a
-  - ccea3823-5989-4c5e-ad00-7f17a1460e13
-  - 234f2123-155b-4475-8c6c-868efa9b778d
-  - 4940389a-0b9a-49f2-9ec2-5454c9b46512
+  - 6119d542-a3a1-45a2-8cce-7d4369bd3680
+  - 3912eecf-b8cd-4db1-a5a9-be48df2d3ad3
+  - 6a62a7c2-9f2c-4e1f-a380-82e6e5443dfb
+  - f47d2464-2e71-4fcd-bcd3-b767f2c91fc3
 
 ---
-Guid: ceba2b7d-13e3-4595-9664-eef7d90ac146
+Guid: aceb98e9-9b8e-4b4f-9f23-0399e5beb628
 Name: Star Map Revamp
 Author: Carth0nasty
 Description: Reskins several ancient alien devices you encounter in the course of the game, with similar improvements to the map of the galaxy the star maps display.
@@ -692,11 +691,11 @@ Instructions:
   - <<modDirectory>>\Star-Map_Revamp_1-1.zip
 - Action: choose
   Source:
-  - dc926117-0d0e-47b1-87da-02997af9fde4
-  - ac5eea21-1b63-44a0-801f-3474c5744507
+  - 6121ea9c-6cd4-4284-9834-0f47ec53ccb3
+  - 1ec88a25-ea7a-4775-9a0f-9ac3f20894e5
 
 ---
-Guid: aca0e97d-1f3a-4276-97e0-5ffb3426b978
+Guid: 6ad6f487-c4aa-48ac-82a9-2d9170c275b8
 Name: Kebla Yurt Renovation
 Author: N-DReW25
 Description: Dark Hope gave shopowner Kebla a makeover earlier, now it's N-Drew's turn to give her shop a tidying-up. Compared to other shops you see in Kebla's city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.
@@ -718,7 +717,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 6c4b84a3-9de5-44d1-b7da-b938ce1ddc7d
+Guid: 9b318aef-61a0-4fd7-921b-ac8914f90fc0
 Name: Ultimate Ebon Hawk Repairs
 Author: PapaZinos
 Description: Fixes quite a few holes in the model of the *Ebon Hawk*, your ship. No gaps!
@@ -741,7 +740,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: ece6e4e1-cbec-4eb4-aea0-24ae2538ea70
+Guid: 7263448d-eb18-483e-a2e0-18a5a0734f92
 Name: HQ Cockpit Skyboxes
 Author: Sithspecter
 Description: Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.
@@ -764,7 +763,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 43ba84da-ef29-4b26-8e8c-ec9dae89f683
+Guid: cb67d58e-32c7-417d-ba8f-e19f4866f90f
 Name: Yavin Station Hangar
 Author: WildKarrde
 Description: By default when landing on Yavin station (a merchant hub), you leave the *Ebon Hawk* and are placed directly into a hallway, but in the intro movie for Yavin you can see the *Ebon Hawk* landing in a hangar that looks... well, remarkably similar to another hangar in the game. This mod by WildKarrde brings that hangar to life and integrates it into the station geometry, so you can properly exit the ship and cycle through the airlocks onto the station.
@@ -783,13 +782,13 @@ Instructions:
   - <<modDirectory>>\K1 Yavin Station Hangar v1_5.7z
 - Action: choose
   Source:
-  - e32d4a4b-6318-4d78-a92b-4f280907eab7
-  - f02a9030-2939-41bb-91c8-19db6c6241d0
-  - 4af9b8b7-bf86-4253-972e-fc508f25d17e
-  - a49c8307-daf6-4e7b-a326-ab6838a7644a
+  - 85c05c38-51d4-48f4-9a5c-b037be00d0fb
+  - a5d6e38c-0609-4142-82ee-597c2d965c9f
+  - 2706f123-23bd-422e-8b64-2073c4865d06
+  - 060ff9c6-f980-4498-a653-1686c096b1f8
 
 ---
-Guid: 6b4dbd70-ecca-4f76-bfa1-737e55bd110e
+Guid: 58bad521-ed1f-4610-9506-35d69c38cdb3
 Name: Taris Reskin
 Author: Quanon, patch by JCarter426
 Description: Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.
@@ -820,7 +819,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 7f19a28f-9c92-46d2-bb72-ae7ee3c3d21a
+Guid: e6d7a43f-5150-4711-a40f-b06835619354
 Name: High Quality Starfields and Nebulas
 Author: Kexikus
 Description: Upscales and beautifies the various starfields encountered throughout the game. Some information has been censored to prevent spoilers.
@@ -842,7 +841,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 2ecc9f68-5ebf-4b11-b249-66bbf3178ba4
+Guid: 1ee03ecb-ecbb-4a93-a78b-453ef6302ab4
 Name: High Quality Skyboxes II
 Author: Kexikus, patch by CaptainSpoque
 Description: Massively improves and increases the resolution of all skyboxes for all planets in the game.
@@ -874,7 +873,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 671413ff-9726-4431-89ef-245c6f5d1bb8
+Guid: e5bdba7f-07e6-41f7-966b-158464763742
 Name: Ebon Hawk Transparent Cockpit Windows for K1
 Author: WildKarrde
 Description: By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside.
@@ -893,11 +892,11 @@ Instructions:
   - <<modDirectory>>\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1.7z
 - Action: choose
   Source:
-  - 5405fc97-3035-4ccc-b9eb-444b0d2fd9e5
-  - 27e28b08-78fc-47be-9e2a-94d802d713ec
+  - cd229574-1a3d-4801-be9a-1a874af2019d
+  - e14f6fc2-ae2a-4f43-bd8b-2f763d171a93
 
 ---
-Guid: 62ff8790-5873-4766-8df4-ec91250b0bee
+Guid: 015130dd-df92-48bb-b34c-6fc502d6574a
 Name: Hi-Res Beam Effects
 Author: InSidious
 Description: An ambitious effect replacer for most "beam" style attacks in the game. Don't let the still screenshots fool you, this is an extremely well-made mod that looks excellent compared to the original textures when in-game.
@@ -919,7 +918,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 3dbae052-b9b7-4a00-aa7b-974fee076c42
+Guid: f102cc80-c2f8-4c53-bae2-a3f1b48b5c0b
 Name: HD Fire and Ice
 Author: Cinder Skye
 Description: Makes further improvements to the fire and ice textures above and beyond those included in the above mod.
@@ -941,7 +940,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 92b52bc4-53e2-4e92-b29f-b2ac640e1c55
+Guid: a028280d-18a2-4578-9c4f-c5cfc3e5b6c8
 Name: Animated Energy Shields
 Author: Dark Hope
 Description: Probably one of the best mods I never thought about having before. Modernizes the incredibly unwieldy and intrusive old energy shield graphics, which were both ugly and interfered with the player's vision, with new animated textures that are simultaneously more modern, less intrusive, and higher-quality.
@@ -964,7 +963,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 6bf2fb3d-8d6e-41ef-890e-936c59e15e23
+Guid: 842a678c-ac8c-4065-867c-7acb41605583
 Name: Animated Cantina Sign
 Author: Sith Holocron
 Description: Animates some cantina signs which were previously stationary.
@@ -986,7 +985,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 7b5bedbc-f1bb-40fe-b833-9a329fd86dbd
+Guid: faa8d1c9-f57b-4b87-bb08-78fdc5530632
 Name: New Lightsaber Blade Models
 Author: Crazy34
 Description: With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
@@ -1007,15 +1006,15 @@ Instructions:
   - <<modDirectory>>\New_Lightsaber_Blades_K1_v_1.rar
 - Action: choose
   Source:
-  - 04860ffa-eab8-46ca-8a93-3a108e8b93ec
-  - 6d629c1b-0dc3-4bad-9450-8087517fda03
-  - f0d82810-ff29-450a-a6fd-2675fae908d0
-  - 8f57314f-4f61-4152-89ab-750cf3213f1d
-  - da86251d-a693-4c54-bfc2-23efc618ec0e
-  - 39fe4bfd-658e-4597-bcde-665da9932291
+  - 4b73a30d-20b4-4cf9-b501-06d43aebcec4
+  - 0100c9d9-7bf2-4de1-b10e-ed31d5db1674
+  - 72a45b9d-da93-433f-99e3-74dd463bb49f
+  - 7030b1ed-e716-4aee-a4be-39cefef3326d
+  - 9ee706a4-bf69-4ce4-bbf0-e31508b9c2b9
+  - 78b51bf0-2970-4cfd-9142-4821cacab12e
 
 ---
-Guid: 690eadb2-aeb0-4d6a-948e-4b01f2fec2c8
+Guid: 26c5ce01-103f-402d-bce2-1c9ec414e75e
 Name: Wookiee Warblade Fix
 Author: RedRob
 Description: A reuploaded variant of an older fix by RedRob, this mod elongates the handle of the Wookiee Warblade weapon so that the player no longer tries to grip it directly with their hands.
@@ -1037,7 +1036,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: c1bf3a19-a4e8-4f9c-90ee-cb807b8195f2
+Guid: a474bf48-2b11-45f5-a85f-a04a900e30f1
 Name: Kill the Czerka Jerk on Kashyyyk
 Author: TamerBill
 Description: If you're feeling a bit sociopathic, this mod lets you kill a particularly rude Czerka employee on Kashyyyk.
@@ -1059,7 +1058,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 465d1078-35f2-4639-9b8a-5e8f47335817
+Guid: c316481a-fd18-479d-9413-202eed234c50
 Name: Korriban Academy Workbench
 Author: InSidious
 Description: By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.
@@ -1081,7 +1080,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: a0b6a5b6-0775-4611-ba0b-2b00dd14cc89
+Guid: 87334e0c-0aec-4619-b970-fca26afdc147
 Name: Senni Vek Restoration
 Author: N-DReW25
 Description: Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.
@@ -1103,7 +1102,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: f391967e-5994-48ae-9032-c38171296a60
+Guid: 12c248f5-b003-4114-b76a-207471442706
 Name: KOTOR 1 Twi'lek Male NPC Diversity
 Author: Leilukin
 Description: Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs.
@@ -1122,12 +1121,12 @@ Instructions:
   - <<modDirectory>>\K1 Twi'lek Male NPC Diversity.7z
 - Action: choose
   Source:
-  - d4085435-33a4-4e2f-a153-9aa5e8a3492d
-  - 36d3c971-4afb-4c09-b210-587ac826a664
-  - 46bcfe79-1f21-418f-80a5-4851ab25faae
+  - 899ba68f-e83a-4ff8-b810-a42a6c3aef83
+  - d6cfc2e2-812e-481d-bbf8-a09bea7f3892
+  - 50202673-d9d5-444a-a715-7a4774897cc3
 
 ---
-Guid: d6878fb9-9ec3-43b0-b9f2-14fbbb90045d
+Guid: 4de00c33-8644-4725-bff8-7571d9c02885
 Name: Ixgil the Bith
 Author: Crimson Knight
 Description: >-
@@ -1153,7 +1152,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 6b237a65-622c-4fd3-8462-b7668d50162e
+Guid: c8bf68a5-0651-42be-aabd-dfe4831ba578
 Name: Hidden Bek Control Room Restoration
 Author: N-DReW25
 Description: In the PC release, there's a locked door in a gang compound on Taris which was probably never intended to be closed off to the player. This mod unlocks it and restores some limited dialogue with its occupant provided you initiate a certain sequence.
@@ -1175,7 +1174,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 819be690-aa39-4b6a-aae2-b44670d2ca1a
+Guid: 679ebde3-41cf-4038-944e-fe33f2d6b435
 Name: Swoop Bike Upgrades
 Author: Salk
 Description: "Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance to make winning races easier. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not."
@@ -1197,7 +1196,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: b057a5b6-e8ed-4544-b7c5-81d79fe3da7b
+Guid: ce5c0fbe-4433-484a-b82d-81eace3660e6
 Name: JCDE
 Author: Emperor Devon
 Description: >-
@@ -1224,7 +1223,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 0de69d90-ce12-4bc8-86d2-ffd1809d3dea
+Guid: 840c89a2-d205-4c4a-8a57-7b616d869329
 Name: J Dialogue Restoration
 Author: Leilukin
 Description: Inexplicably, a particular optional companion has dialogue to ask about each planet you visit which was removed, as well as special conversations about two other unique circumstances the party finds themselves in. This mod restores them all. Some information has been censored to prevent spoilers.
@@ -1246,7 +1245,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 3f7410b1-0b99-4b69-a86f-2b1469f5f7f6
+Guid: da367010-35e3-47bd-8d77-06cddaa31e42
 Name: Vision Enhancement
 Author: JCarter426
 Description: In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.
@@ -1264,11 +1263,11 @@ Instructions:
   - <<modDirectory>>\JC's Vision Enhancement for K1 v1.2.zip
 - Action: choose
   Source:
-  - dcba1f01-8103-4e2b-86c7-6d631ab1ac99
-  - 5e3bf297-18cf-435b-bd54-17e5dbe2aac3
+  - 8d00cac1-d4ab-4df0-86ec-47e71b96ef01
+  - 13976161-9c60-4fc1-86e7-971086d3f679
 
 ---
-Guid: 8bdcea7f-4caf-477b-87c2-9a1f0fc86151
+Guid: cf9bb137-1c84-49ba-94c4-c4faf8f5e5c1
 Name: LDD
 Author: Revanator
 Description: In the vanilla game, during a brief sequence where you play as a companion, when your controlled companion speaks to other NPCs they don't have any unique dialogue. This mod gives them new flavor dialogue which matches their personalities. Some information has been censored to prevent spoilers.
@@ -1291,7 +1290,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 4d73f2ed-970d-42f6-b3ee-e4811f637e08
+Guid: 9c95cd49-620b-4783-8dc9-76a0edb74e5c
 Name: Balanced Pazaak
 Author: A Future Pilot
 Description: Pazaak (basically blackjack with bonus cards) in the original KOTOR features AI that cheat, badly. While there's no way to prevent the computer from favoring NPCs in draws, there is a way to drastically reduce their ability to help themselves, and that's to give them all decks one tier lower than what their difficulty says they should have.
@@ -1313,7 +1312,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 10f4a01e-10d3-41ac-a1ca-ab951ae62355
+Guid: 3e6e7e8e-9d71-48fa-97e7-f385f36c74de
 Name: Ebon Hawk Camera Replacement
 Author: LDR
 Description: By default, the camera angle inside the *Ebon Hawk* is ridiculously close to the PC, which not only makes the PC take up the majority of the screen, it also makes it very hard to see around you. This mod replaces the *Ebon Hawk* camera angle with one closer to the camera angles present in the rest of the game, and similar to KOTOR 2's *Ebon Hawk* camera angle.
@@ -1335,7 +1334,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 82729324-a567-4f67-8da8-f09b55824038
+Guid: 868a744c-7cd4-424d-acd5-071c9d83a462
 Name: Rebalanced Grenades
 Author: Timbo
 Description: In the base-game, grenades typically aren't very useful after the first few planets, once Force powers and the PC's combat capabilities begin to spin up. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.
@@ -1357,7 +1356,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 19d8c0d2-bd34-4253-bc55-c96c861eb2ec
+Guid: 2d7fe37d-d9f2-4068-8b7f-d94ed025ae9a
 Name: Grenades and Mines HD
 Author: Dark Hope
 Description: A companion to the high-poly grenade mod which creates much-improved textures that can take advantage of the better grenade model.
@@ -1366,7 +1365,7 @@ Category:
 Tier: 3 - Suggested
 IsSelected: true
 Dependencies:
-- 8c9ddf6d-b270-4014-871c-6c389246ed03
+- 4523e1fb-9cf4-49ee-94f1-6eb1de78f02d
 Directions: Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
 Language:
 - YES
@@ -1382,7 +1381,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: d433f7a6-a807-4705-a7d1-376b7644d32e
+Guid: 3fa3ec82-2f08-47bd-b1fb-d3581fec09c1
 Name: Ain't No Air in Space
 Author: JCarter426
 Description: Ain't no air in space.
@@ -1404,7 +1403,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 88f382f2-34e2-4fe9-9f16-2f0e232b0c91
+Guid: 9030d4e5-7d6c-4e85-8221-a79b04e9a078
 Name: Party Conversations on the Ebon Hawk
 Author: WildKarrde
 Description: There are many companion dialogues that, in vanilla, can only happen if you bring both the relevant companions to the overworld and run around with them for a bit. In this mod, Wildkarrde borrows a bit from how KOTOR 2 handles companion interactions by allowing many of these dialogues to occur on the your ship, so you won't miss the unique interactions even if you don't use the companions in question.
@@ -1423,12 +1422,12 @@ Instructions:
   - <<modDirectory>>\K1 Party Conversations on Ebon Hawk v1_3.zip
 - Action: choose
   Source:
-  - b3fdb700-ab4c-4db1-94c1-493899681981
-  - 8651704d-3039-4154-8ceb-e8478794179d
-  - ec8b746a-3476-4480-8223-721338fa0b1e
+  - c5914e42-6316-47d5-bae3-118c904f9d0f
+  - 54d6eb74-dcdd-4e53-af8f-43d64e815460
+  - 1556f9d5-1f8b-4904-ac09-0ae77b02f86d
 
 ---
-Guid: 54114c8d-76bb-4f30-87e3-e6f652cd1b3e
+Guid: c9fbf413-5452-4eb2-b48c-add173940c6b
 Name: "JC's Romance Enhancement: Dark Sacrifice"
 Author: JCarter426
 Description: "In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod."
@@ -1454,7 +1453,7 @@ Instructions:
   Destination: <<kotorDirectory>>\Override
 
 ---
-Guid: 2834c2d6-cf41-46a0-a756-b35eda0fff1a
+Guid: ae62d6f5-9789-4176-b84d-bf6e033ffe68
 Name: Saber Throw Knockdown Effect
 Author: uwadmin12
 Description: By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.
@@ -1476,7 +1475,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: c64fe017-0298-40a9-8e9f-458026f9bf45
+Guid: 14bd19a2-3e50-44ee-af9e-074766e7e322
 Name: Sunry Murder Recording Enhancement
 Author: FallenGuardian
 Description: Rather than having Sunry only verbally explain what happened when he murdered the Sith officer on Manaan, there's now a recording that goes along with the dialogue that shows what happened.
@@ -1499,7 +1498,7 @@ Instructions:
   Destination: <<kotorDirectory>>
 
 ---
-Guid: 1ec9e432-2245-4464-b861-41ebe701d120
+Guid: ab77d095-409a-4939-97fe-009f4de91bdd
 Name: PC Dialogue with Davik's Slave Change
 Author: Leilukin
 Description: "2003 was a different time, but this mod *really* proves that. In vanilla, if you request a 'massage' from some slaves—which has some sexual implications in Star Wars—you get nothing more than a disgusted remark from some companions. You can even threaten them without consequence. This mod properly amends this, giving you two options: for those deeply bothered by the ability to take advantage of the slaves the option to pressure them into servicing you can be removed entirely, whereas the second retains the massage, but gives Dark Side points for requesting it, as well as adding DS points for threatening the slaves at any point."
@@ -1518,6 +1517,6 @@ Instructions:
   - <<modDirectory>>\PC Dialogue with Davik's Slaves Change.7z
 - Action: choose
   Source:
-  - e9eb369d-2c8d-4c37-8a39-bf6ea0c14d5e
-  - 4e9ef486-2487-4b73-bbcd-3dbf44f574ec
+  - 1ac53060-98a4-4be7-8d7e-59c2f33be17b
+  - 1edfc52a-add9-4a9c-855b-596c5463578a
 

@@ -5,7 +5,7 @@
   </Metadata>
   <Components>
     <Component>
-      <Guid>d46b7491-b1a6-4939-872b-8a5db0e81503</Guid>
+      <Guid>576bc34e-5f5a-4a45-a78d-0f31c2032abd</Guid>
       <Name>KOTOR Dialogue Fixes</Name>
       <Author>Salk &amp; Kainzorus Prime</Author>
       <Description>In addition to fixing several typos, this mod takes the PC's dialogue—which is written in such a way as to make the PC sound constantly shocked, stupid, or needlessly evil—and replaces it with more moderate and reasonable responses, even for DS choices.</Description>
@@ -22,29 +22,29 @@
       <Directions>The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable would normally be)—in this very specific case, NOT the override.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>e45d9273-07e5-4cd2-8016-83727734a6b8</Guid>
+          <Guid>c71a8f2a-7fdc-4fe5-9e49-c2a11a00b4e8</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR_Dialogue_Fixes_5_2.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>cd742700-4a9c-4c41-a2ea-ba13d966aa00</Guid>
+          <Guid>49465f8d-37db-4651-a7f5-d791c7b328d3</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>7693ef53-9e15-4387-a08f-e395d9925b78</Item>
-            <Item>25288c16-a829-4c8e-9596-611085ce623a</Item>
+            <Item>87da1528-81ff-47f9-8392-c56965764079</Item>
+            <Item>ed9016b7-023b-4c44-8bc3-d361948a4a9c</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>7693ef53-9e15-4387-a08f-e395d9925b78</Guid>
+          <Guid>87da1528-81ff-47f9-8392-c56965764079</Guid>
           <Name>Corrections only</Name>
           <Description>Install files from Corrections only folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>bae59f94-6f62-49a8-917b-0a35e9791ba8</Guid>
+              <Guid>6e77b310-e7bc-4faa-971f-6ce807503bf4</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR_Dialogue_Fixes_5_2\Corrections only\*</Item>
@@ -54,12 +54,12 @@
           </Instructions>
         </Option>
         <Option>
-          <Guid>25288c16-a829-4c8e-9596-611085ce623a</Guid>
+          <Guid>ed9016b7-023b-4c44-8bc3-d361948a4a9c</Guid>
           <Name>PC Response Moderation version</Name>
           <Description>Install files from PC Response Moderation version folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>8101c29d-b0b2-4091-aaac-375445d7f22f</Guid>
+              <Guid>f570679a-7b02-4e1d-add6-1a4611bf4a02</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR_Dialogue_Fixes_5_2\PC Response Moderation version\*</Item>
@@ -71,7 +71,7 @@
       </Options>
     </Component>
     <Component>
-      <Guid>448792d8-9bc0-4df6-acbd-f94e5a502492</Guid>
+      <Guid>113b74a2-6e4c-4e28-9597-75e32f387296</Guid>
       <Name>Character Startup Changes</Name>
       <Author>jonathan7, patch by A Future Pilot</Author>
       <Description>In a normal KOTOR start, your character's feats are pre-selected. This mod changes the initial level-up so that the number of feat points given is determined by class, but you can choose the feats you wish to invest into.</Description>
@@ -89,14 +89,14 @@
       <Directions>Make sure you don't forget to install the patch!</Directions>
       <Instructions>
         <Instruction>
-          <Guid>7ae2616f-a8c5-44b0-8119-dd75f19094f3</Guid>
+          <Guid>3e9baefa-ccda-49c1-8332-8a80b24355e0</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Character Start Up Changes.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>7197a929-0b67-43be-a971-ff87df562072</Guid>
+          <Guid>9d0572cf-0d25-48a8-b716-f3d61fdd3416</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Character Start Up Changes\TSLPatcher.exe</Item>
@@ -104,14 +104,14 @@
           <Destination>&lt;&lt;kotorDirectory&gt;&gt;</Destination>
         </Instruction>
         <Instruction>
-          <Guid>f168cb15-6e30-43c9-89c2-ab570acccec5</Guid>
+          <Guid>b1155cb8-bbb1-41dd-8a48-5a4e0cc5d47d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Character_Startup_Changes_Patch.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>72b091c4-8ad2-4b8c-9e4f-4cac9194c7f8</Guid>
+          <Guid>64bb45f7-86df-4f15-9da4-bf23bf40a0dc</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Character_Startup_Changes_Patch\Override\*</Item>
@@ -121,7 +121,7 @@
       </Instructions>
     </Component>
     <Component>
-      <Guid>ba0a890c-9025-49d7-8d4e-a25bde86dc1f</Guid>
+      <Guid>68bd7f23-0421-4073-a0a7-3b1938db0d4d</Guid>
       <Name>Thematic KOTOR Companions</Name>
       <Author>Sniggles &amp; JCarter426</Author>
       <Description>BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique and less rigidly tied to the D&amp;D system if they can be stronger than what the system otherwise allows. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats &amp; feats they should have had.
@@ -141,7 +141,7 @@ Companion names, genders, and some information about their backstories have been
       </ModLinkFilenames>
     </Component>
     <Component>
-      <Guid>6d97683c-d11e-4384-8b06-2c59ff5010e1</Guid>
+      <Guid>a05856e2-fdb9-4058-b897-9fc46be8534d</Guid>
       <Name>JC's Minor Fixes</Name>
       <Author>JCarter426</Author>
       <Description>KOTOR, like with any game, has a slew of little oversights, or things BioWare messed up by accident. The goal of this mod is to fix most of those small things not addressed in other, larger mods.</Description>
@@ -159,32 +159,32 @@ Companion names, genders, and some information about their backstories have been
       <Directions>Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>e54d634a-d59f-47ee-9a42-c0c49d9e7ff2</Guid>
+          <Guid>195eb338-150e-4e83-805d-12bf68e8b6b4</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>ba66854a-39fd-41e7-b59c-7b7a4003caaf</Guid>
+          <Guid>7bc525d4-9a44-41a3-83e9-a617aa00513b</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>3a56e9b5-a5c8-4530-9074-c7d40e7e6e06</Item>
-            <Item>10bc1160-4e59-4091-9765-2b146feff46d</Item>
-            <Item>503a4930-e420-49d4-a464-3c3eaf84c326</Item>
-            <Item>96e9868b-aa94-42d3-a11d-9347f817c472</Item>
-            <Item>76ed718d-87ee-450f-a608-e1bf96d3e9c5</Item>
+            <Item>f94eecb3-0c29-456d-a430-2cad7dc1954d</Item>
+            <Item>f99e3f16-5c20-43bb-9a10-12a9233a717b</Item>
+            <Item>5e9bf3d8-4ac7-455b-8bc3-e35594fcf813</Item>
+            <Item>346cc30c-1306-4d04-8c46-dfdf1d68b130</Item>
+            <Item>d2301ded-a7a8-4578-ac24-6464869c8b65</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>3a56e9b5-a5c8-4530-9074-c7d40e7e6e06</Guid>
+          <Guid>f94eecb3-0c29-456d-a430-2cad7dc1954d</Guid>
           <Name>Aesthetic Improvements</Name>
           <Description>Install files from Aesthetic Improvements folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>fa40edc3-1558-4965-b59d-f66f83e39ba5</Guid>
+              <Guid>0f88e2c0-7b9a-4727-89c2-8d04e8724353</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1\Aesthetic Improvements\*</Item>
@@ -194,12 +194,12 @@ Companion names, genders, and some information about their backstories have been
           </Instructions>
         </Option>
         <Option>
-          <Guid>10bc1160-4e59-4091-9765-2b146feff46d</Guid>
+          <Guid>f99e3f16-5c20-43bb-9a10-12a9233a717b</Guid>
           <Name>Bug Fixes</Name>
           <Description>Install files from Bug Fixes folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>3cbc7791-c31f-4033-bdc3-6d24ec5c1f2e</Guid>
+              <Guid>15c07e8d-9023-4f01-a76b-2c6621230090</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1\Bug Fixes\*</Item>
@@ -209,12 +209,12 @@ Companion names, genders, and some information about their backstories have been
           </Instructions>
         </Option>
         <Option>
-          <Guid>503a4930-e420-49d4-a464-3c3eaf84c326</Guid>
+          <Guid>5e9bf3d8-4ac7-455b-8bc3-e35594fcf813</Guid>
           <Name>Resolution Fixes</Name>
           <Description>Install files from Resolution Fixes folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>e0f15707-24bd-4e60-82a0-c2cf517d1c67</Guid>
+              <Guid>19c97885-273e-4427-9424-ad25001fe130</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1\Resolution Fixes\*</Item>
@@ -224,12 +224,12 @@ Companion names, genders, and some information about their backstories have been
           </Instructions>
         </Option>
         <Option>
-          <Guid>96e9868b-aa94-42d3-a11d-9347f817c472</Guid>
+          <Guid>346cc30c-1306-4d04-8c46-dfdf1d68b130</Guid>
           <Name>Straight Fixes</Name>
           <Description>Install files from Straight Fixes folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>0f45fcb5-6425-4392-9ed4-94607885095d</Guid>
+              <Guid>d9d33a9e-2431-4f6c-8f6e-56b1d404f38d</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1\Straight Fixes\*</Item>
@@ -239,12 +239,12 @@ Companion names, genders, and some information about their backstories have been
           </Instructions>
         </Option>
         <Option>
-          <Guid>76ed718d-87ee-450f-a608-e1bf96d3e9c5</Guid>
+          <Guid>d2301ded-a7a8-4578-ac24-6464869c8b65</Guid>
           <Name>Things What Bother Me Fixes</Name>
           <Description>Install files from Things What Bother Me Fixes folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>64a5f7d1-e862-4fd7-9bd5-d16f52f9fca2</Guid>
+              <Guid>182716ef-b9e9-4aa9-8b7e-cf6f547f50ff</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Minor Fixes for K1 v1.1\Things What Bother Me Fixes\*</Item>
@@ -256,7 +256,7 @@ Companion names, genders, and some information about their backstories have been
       </Options>
     </Component>
     <Component>
-      <Guid>d57c1938-fdb7-499f-a87c-af6341c607ab</Guid>
+      <Guid>ef5ba142-89d8-461b-9940-e4dfe9d9a8c7</Guid>
       <Name>Ajunta Pall Unique Appearance</Name>
       <Author>Silveredge9, Patch by A Future Pilot</Author>
       <Description>This mod reskins NPC specter Ajunta Pall to have a unique appearance that matches the honorary statue in his tomb.</Description>
@@ -275,29 +275,29 @@ Companion names, genders, and some information about their backstories have been
       <Directions>For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>ca11f299-4a05-4e86-90c8-c713d2c1a92a</Guid>
+          <Guid>51354666-37a4-4260-b629-c7259429471b</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\ajunta_pall_unique_appearance_1.1.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>4076099a-3f5c-44c7-8a39-9d7b6281774f</Guid>
+          <Guid>f622f206-288f-4c80-ad95-c25293ecb2f2</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>2e6a3119-12e2-4aeb-9c6f-ec6d7b1affb4</Item>
-            <Item>01fefc86-e9fd-44de-84d7-a8ab7830ad58</Item>
+            <Item>c9ce2103-43d1-484d-8b07-a29e06ca9712</Item>
+            <Item>dc62d3a4-449a-4d0c-937f-7d7295968ff0</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>2e6a3119-12e2-4aeb-9c6f-ec6d7b1affb4</Guid>
+          <Guid>c9ce2103-43d1-484d-8b07-a29e06ca9712</Guid>
           <Name>Non-Transparent Skins</Name>
           <Description>Install files from Non-Transparent Skins folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>a8e472db-8a6d-4c33-99af-5284b363e1a9</Guid>
+              <Guid>b67a5ff3-54aa-451d-b575-882ca98d55ea</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\ajunta_pall_unique_appearance_1.1\Non-Transparent Skins\*</Item>
@@ -307,12 +307,12 @@ Companion names, genders, and some information about their backstories have been
           </Instructions>
         </Option>
         <Option>
-          <Guid>01fefc86-e9fd-44de-84d7-a8ab7830ad58</Guid>
+          <Guid>dc62d3a4-449a-4d0c-937f-7d7295968ff0</Guid>
           <Name>Transparent Skins</Name>
           <Description>Install files from Transparent Skins folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>f68ff396-9dee-41fe-bcbf-119abfd0e381</Guid>
+              <Guid>603e7a0c-ccd3-45db-93c4-22dfeec2798e</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\ajunta_pall_unique_appearance_1.1\Transparent Skins\*</Item>
@@ -324,7 +324,7 @@ Companion names, genders, and some information about their backstories have been
       </Options>
     </Component>
     <Component>
-      <Guid>e357c4b9-a1dc-4e55-bccc-5b76cd61ae22</Guid>
+      <Guid>df5c0b08-649f-4490-834f-8341eb904929</Guid>
       <Name>KOTOR Community Patch</Name>
       <Author>Various Authors; Darth Parametric, JCarter426 &amp; A Future Pilot Collate</Author>
       <Description>An ambitious compilation intending to be a comprehensive bugfix mod for the original game, the KOTOR Community Patch combines hundreds of various fixes and improvements from over a dozen other mods, as well as fixes put together by AFP, DP and JC on their own. With bugfixes as important to KOTOR as TSLRCM's are to KOTOR 2, I can't recommend its use highly enough.
@@ -346,14 +346,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>ff537414-1b73-4463-a733-0d753b8007d3</Guid>
+          <Guid>f0533a67-d892-45fa-9ba2-91bc15cb9863</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1_Community_Patch_v1.10.0.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>29e12af9-ce93-41d0-a7c9-82905612cf35</Guid>
+          <Guid>78e601d7-3516-4f99-9b02-c22486c01a5f</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1_Community_Patch_v1.10.0\TSLPatcher.exe</Item>
@@ -361,14 +361,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           <Destination>&lt;&lt;kotorDirectory&gt;&gt;</Destination>
         </Instruction>
         <Instruction>
-          <Guid>9d201215-737a-404d-8146-e1bb014ee2ef</Guid>
+          <Guid>efab00d1-0a55-484b-8a13-12c5e3fd9e95</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1CP Patch.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>ab7cb22a-fd72-4017-adba-d70eb1943f6f</Guid>
+          <Guid>9539f683-04d4-4029-a4eb-884561d28110</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1CP Patch\K1CP Patch\*</Item>
@@ -378,7 +378,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>a9d64758-61be-4f3b-b302-715b5be19af2</Guid>
+      <Guid>a0e39b19-ee1f-4541-93b8-b2277e72f1f3</Guid>
       <Name>Droid Claw Fix</Name>
       <Author>GearHead</Author>
       <Description>A basegame bug prevented some droid NPCs from being able to equip unique "weapons" that let them do more damage. This mod fixes the oversight and restores the damage—be warned, it can be quite a significant difficulty boost in places.</Description>
@@ -394,14 +394,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>8afff898-14fe-4cd1-859e-307bbc959b72</Guid>
+          <Guid>c226cdd8-11b9-4b6c-940b-5a53db4776fb</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR1 Droid Claw Fix.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>479b7687-3a5e-4837-baa3-f32a66e87a58</Guid>
+          <Guid>6bf596cc-65c8-410d-b250-9ab710f48164</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR1 Droid Claw Fix\TSLPatcher.exe</Item>
@@ -411,7 +411,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>41cb2d11-fda4-4588-bc2f-0595e9e93805</Guid>
+      <Guid>2d82207d-1f32-4f13-b8eb-567d515f5003</Guid>
       <Name>K1 Ported Alien VO Replacements</Name>
       <Author>Ashton Scorpius</Author>
       <Description>Several alien species in the original game use recycled VO primarily utilized by other species, but KOTOR 2 gives these aliens unique voiceovers instead. This mod uses alien VO ported from KOTOR 2 to give these species their unique VO in the original game as well.</Description>
@@ -428,24 +428,24 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>a2dbdefd-7166-41d5-99d1-7a4ddc360171</Guid>
+          <Guid>667f1b28-bfd6-41fa-a19d-798dd89e9216</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>17544619-940a-499b-9a33-b0ca893f1877</Guid>
+          <Guid>9931fb56-908d-4093-bfff-981b0921fbac</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>aff4324a-5127-41fa-aecd-74ef2fc6500e</Item>
-            <Item>ac11be32-4540-4d2b-ae9b-d754b5c32d39</Item>
-            <Item>fc7c859f-ae43-4bc1-b3b1-b8f6b3f5f4cf</Item>
-            <Item>fee259dc-2457-4160-847d-ae5ff7bfd1b9</Item>
+            <Item>41718e09-989c-417a-a397-c8532d3a4a60</Item>
+            <Item>46c4c3e8-ae80-4b62-9ab2-ab82dc9603ef</Item>
+            <Item>58e7d5d7-eae8-47d0-b794-0f943884700b</Item>
+            <Item>fc7bb56a-0a0a-40b7-a090-b00bab28e2e5</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>1192b940-6386-42f0-9317-c219678c7211</Guid>
+          <Guid>1996500a-5438-4718-95fb-4a5cbb360b84</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2\source\*</Item>
@@ -455,12 +455,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
       <Options>
         <Option>
-          <Guid>aff4324a-5127-41fa-aecd-74ef2fc6500e</Guid>
+          <Guid>41718e09-989c-417a-a397-c8532d3a4a60</Guid>
           <Name>Main Mod Installation</Name>
           <Description>Select this option first.</Description>
           <Instructions>
             <Instruction>
-              <Guid>130ebab8-b5b9-4295-90e2-7f2160ea8b2d</Guid>
+              <Guid>2e93391a-f1fc-4aaf-85db-1d347f341700</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2\TSLPatcher.exe</Item>
@@ -471,12 +471,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>ac11be32-4540-4d2b-ae9b-d754b5c32d39</Guid>
+          <Guid>46c4c3e8-ae80-4b62-9ab2-ab82dc9603ef</Guid>
           <Name>KOTOR 1 Community Patch Compatibility Patch</Name>
           <Description>Select this if you have K1CP installed.</Description>
           <Instructions>
             <Instruction>
-              <Guid>c2ea8780-195d-433c-b4d6-3ec000a9090b</Guid>
+              <Guid>a928f47b-33fb-42c4-83d8-93dbe7934fe1</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2\TSLPatcher.exe</Item>
@@ -487,12 +487,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>fc7c859f-ae43-4bc1-b3b1-b8f6b3f5f4cf</Guid>
+          <Guid>58e7d5d7-eae8-47d0-b794-0f943884700b</Guid>
           <Name>K1 Restoration Compatibility Patch</Name>
           <Description>Select this option if you have K1R installed.</Description>
           <Instructions>
             <Instruction>
-              <Guid>1b6b0d9b-9e41-4520-a9ed-ded8aaf6691d</Guid>
+              <Guid>2794825c-071f-49a2-b25c-d304869acc29</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2\TSLPatcher.exe</Item>
@@ -503,12 +503,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>fee259dc-2457-4160-847d-ae5ff7bfd1b9</Guid>
+          <Guid>fc7bb56a-0a0a-40b7-a090-b00bab28e2e5</Guid>
           <Name>NPC Overhaul Compatibility Patch</Name>
           <Description>Select this option if you have the NPC Overhaul Mod installed.</Description>
           <Instructions>
             <Instruction>
-              <Guid>5fd5f8bb-f38c-46ae-bec7-fbc1a10e7edc</Guid>
+              <Guid>0c110a81-e8c2-4a84-a10f-cb585e7f7bfb</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 PAVOR v1.3.2\TSLPatcher.exe</Item>
@@ -521,7 +521,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>20cd8b52-0d21-4aab-8b9e-a638528ae9f1</Guid>
+      <Guid>38dedb3c-4b8b-40e0-b61d-a3b2045edeeb</Guid>
       <Name>Deadeye Duncan on Manaan</Name>
       <Author>Seamhainn</Author>
       <Description>This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.</Description>
@@ -537,14 +537,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>a46b6e97-127b-458e-b44e-59cac4d18654</Guid>
+          <Guid>eeec6919-2473-4ca2-8e52-5145fc9f7750</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Duncan on Manaan.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>dc46047f-6c20-4e79-bcce-69485f1e4bfc</Guid>
+          <Guid>db442818-3d17-48f8-b952-b1dd69582481</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Duncan on Manaan\*</Item>
@@ -554,7 +554,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>bd1530b6-4e72-4e5d-894f-1e6bc36a4725</Guid>
+      <Guid>33ae07e6-5a19-49be-8355-b824d86db8e5</Guid>
       <Name>Consistent Conditioning Icons</Name>
       <Author>Sdub</Author>
       <Description>The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.</Description>
@@ -570,14 +570,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>734bed45-1372-450b-8865-bab23b412738</Guid>
+          <Guid>c3c33ba7-8de1-4a68-9e75-6b40e0e0c1c6</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Consistent Conditioning Icons.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>bc93ca49-1fa3-4937-83f8-a3d2858bc2d5</Guid>
+          <Guid>372e83a5-6e1c-4935-b2a7-28711c00b6a9</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Consistent Conditioning Icons\Consistent Condining Icons\*</Item>
@@ -587,7 +587,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>4b34206c-7893-41e0-9add-d67e639aa032</Guid>
+      <Guid>6deecf35-0dd4-4cde-bf24-0bb82f8f2f17</Guid>
       <Name>Republic Soldier Fix</Name>
       <Author>JCarter426</Author>
       <Description>Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character. The Soldier class's vanilla default clothing is horrible enough that this mod's worth it based on that change alone.</Description>
@@ -605,29 +605,29 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>Move the files from both the Override and Optional folders to your game's override folder.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>968814fa-cc21-44a5-90a4-151c5aabeb87</Guid>
+          <Guid>55375491-81ec-4e28-9db0-761654e8194e</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Republic Soldier Fix for K1 v1.3.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>b8ac2335-80a8-4f78-b00a-e74684647128</Guid>
+          <Guid>4d45a024-0e28-428e-bb97-27be2893dd46</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>b092e8f3-c5a3-448c-9b8f-c63bec54987c</Item>
-            <Item>66b58de0-949d-48a2-8f3f-8ded3bc16270</Item>
+            <Item>9f1c9390-215f-40d1-a265-24408479f4c1</Item>
+            <Item>a383ebdf-23e3-4622-a2ea-10270f5b4bf2</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>b092e8f3-c5a3-448c-9b8f-c63bec54987c</Guid>
+          <Guid>9f1c9390-215f-40d1-a265-24408479f4c1</Guid>
           <Name>Optional</Name>
           <Description>Install files from Optional folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>32371f3d-4d6e-4156-b3e3-fcfbe39ce2f0</Guid>
+              <Guid>27b868ff-9c0f-41f5-bb27-321beb98ea27</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Republic Soldier Fix for K1 v1.3\Optional\*</Item>
@@ -637,12 +637,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>66b58de0-949d-48a2-8f3f-8ded3bc16270</Guid>
+          <Guid>a383ebdf-23e3-4622-a2ea-10270f5b4bf2</Guid>
           <Name>Override</Name>
           <Description>Install files from Override folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>ddb8f166-b6b7-4d06-82f9-cf502f0da04f</Guid>
+              <Guid>776091d6-0cee-4eb4-8e19-3552180ae677</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Republic Soldier Fix for K1 v1.3\Override\*</Item>
@@ -654,7 +654,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>aa231e51-1f33-44f5-a4eb-9cb879ba75f9</Guid>
+      <Guid>f6811806-a2fa-4c99-bfdc-a5dbae5e5d92</Guid>
       <Name>Republic Soldier's New Shade</Name>
       <Author>ebmar</Author>
       <Description>By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.</Description>
@@ -671,33 +671,33 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>6c57ef8e-fabd-4cd0-aee0-aadce3d3f0fd</Guid>
+          <Guid>57ec3e53-241e-4094-a37f-f30078203edd</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>ee691844-7c0a-47ab-9fcd-f5447b1a15ac</Guid>
+          <Guid>058557a2-c753-444d-83cb-81f778f320a5</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>a7200e1e-07d0-4175-a9f1-bec192cef28c</Item>
-            <Item>937efa82-47fd-499f-b65d-272ebd552fc1</Item>
-            <Item>2f92cff4-1420-4f45-b698-c4aeb6938bc0</Item>
-            <Item>faf2f457-40f7-4855-8a1c-71f03679e305</Item>
-            <Item>c92eeddf-55b3-4ee6-9f06-13fb65ac8dbc</Item>
-            <Item>ac90c9d4-61b5-4d52-90c5-55f948fc4454</Item>
+            <Item>50183292-c0f7-45fd-bd63-453a091e7d7b</Item>
+            <Item>cb7b424f-9e13-4f0a-958c-beb1373df498</Item>
+            <Item>11251def-5835-438e-9d4b-21aa0a219a46</Item>
+            <Item>cbd9ca72-10d1-4767-820c-3b2c40c1d591</Item>
+            <Item>72576356-e260-460d-b6ce-c264648d3327</Item>
+            <Item>27553f26-527d-4456-87cf-920d40e1db48</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>a7200e1e-07d0-4175-a9f1-bec192cef28c</Guid>
+          <Guid>50183292-c0f7-45fd-bd63-453a091e7d7b</Guid>
           <Name>Main: New Shade for Male NPC Republic Soldier</Name>
           <Description>Install the new shade version of male NPC Republic Soldier</Description>
           <Instructions>
             <Instruction>
-              <Guid>1d0e7335-28de-4df5-a102-19bc26015ce0</Guid>
+              <Guid>ffc6b445-d2c7-4077-9175-e7bfe0d04767</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -708,12 +708,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>937efa82-47fd-499f-b65d-272ebd552fc1</Guid>
+          <Guid>cb7b424f-9e13-4f0a-958c-beb1373df498</Guid>
           <Name>Option-1: Vanilla version for JC's "Republic Soldier Fix for K1" - Male and Female</Name>
           <Description>Install the vanilla male and female version NPC Republic Soldier with added envmask/shinyness</Description>
           <Instructions>
             <Instruction>
-              <Guid>6707de73-8577-4154-bf47-cf562906c101</Guid>
+              <Guid>507c25c9-2d82-407a-9b90-c2eb7e4129c5</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -724,12 +724,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>2f92cff4-1420-4f45-b698-c4aeb6938bc0</Guid>
+          <Guid>11251def-5835-438e-9d4b-21aa0a219a46</Guid>
           <Name>Option-2: Vanilla Version Model - Female NPC Republic Soldier</Name>
           <Description>Install the vanilla female version model NPC Republic Soldier with added envmask/shinyness</Description>
           <Instructions>
             <Instruction>
-              <Guid>058912fa-1903-47fd-bf3c-51b7537ae60d</Guid>
+              <Guid>ba63bb71-959d-475a-b8a8-f114f143c616</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -740,12 +740,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>faf2f457-40f7-4855-8a1c-71f03679e305</Guid>
+          <Guid>cbd9ca72-10d1-4767-820c-3b2c40c1d591</Guid>
           <Name>Option-3: New Shade for JC's "Republic Soldier Uniform for PC" - Male and Female</Name>
           <Description>Need to have JC's "Republic Soldier Fix for K1" installed first, as this option will not work without the models from that mod. This will install the new shade version of both male and female PC Republic Soldier</Description>
           <Instructions>
             <Instruction>
-              <Guid>a5e550b8-0139-41e5-b1b6-45c713a556df</Guid>
+              <Guid>2d0af907-532b-437b-b0f4-0613022a392f</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -756,12 +756,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>c92eeddf-55b3-4ee6-9f06-13fb65ac8dbc</Guid>
+          <Guid>72576356-e260-460d-b6ce-c264648d3327</Guid>
           <Name>Option-4: Vanilla version for JC's "Republic Soldier Uniform for PC" - Male and Female</Name>
           <Description>Need to have JC's "Republic Soldier Fix for K1" installed first, as this option will not work without the models from that mod. This will install the vanilla version of both male and female PC Republic Soldier with added envmask/shinyness</Description>
           <Instructions>
             <Instruction>
-              <Guid>be834850-a528-4d38-b184-d6b023769f5b</Guid>
+              <Guid>fb5d2509-a42d-48e2-b1e5-f7342d7596c3</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -772,12 +772,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>ac90c9d4-61b5-4d52-90c5-55f948fc4454</Guid>
+          <Guid>27553f26-527d-4456-87cf-920d40e1db48</Guid>
           <Name>Option-5: New Shade for JC's "Republic Soldier Fix for K1" - Male and Female NPC Republic Soldier</Name>
           <Description>Need to have JC's "Republic Soldier Fix for K1" installed first, as this option will not work without the models from that mod. This will install the new shade version of both male and female NPC Republic Soldier</Description>
           <Instructions>
             <Instruction>
-              <Guid>a5999aa4-4eb1-4c48-8c6a-d7d1b117110e</Guid>
+              <Guid>055b739d-a2f3-4302-803c-1aaa448602c3</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Republic_Soldier's_New_Shade_v1.1.1\TSLPatcher.exe</Item>
@@ -790,7 +790,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>f52a86ba-651d-4592-a905-66367cdfe426</Guid>
+      <Guid>449ee500-0e73-432c-8a97-a80ed55baa0a</Guid>
       <Name>PFHB02 Dark Side Transition Eye Fix</Name>
       <Author>Darth Parametric</Author>
       <Description>The eye overlays on the second black female head were input incorrectly and become offset as the player transitions to the Dark Side, creating the appearance of duplicated irises. This mod fixes that, as well as offering an upscale option which improves the base appearance of the head.</Description>
@@ -807,14 +807,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>I recommend avoiding the upscale option for the purposes of playing on mobile.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>f8e73fd7-8993-44ab-a6e1-52bc760941c4</Guid>
+          <Guid>6805919d-b7a8-4b92-870d-6b37ecd397cc</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>931702a8-cd8e-4a17-90cb-9b0b734213bc</Guid>
+          <Guid>3d30cdae-35d8-44ec-b104-bd946ac8c2a7</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\*</Item>
@@ -824,7 +824,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>8c9ddf6d-b270-4014-871c-6c389246ed03</Guid>
+      <Guid>4523e1fb-9cf4-49ee-94f1-6eb1de78f02d</Guid>
       <Name>High-Poly Grenades</Name>
       <Author>MadDerp</Author>
       <Description>Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.</Description>
@@ -836,20 +836,18 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
         <Item>YES</Item>
       </Language>
       <ModLinkFilenames>
-        <Url Value="https://www.nexusmods.com/kotor/mods/1209">
-          <File Name="hp_grenades-0-4-1209-0-4-1547556830.zip" ShouldDownload="True" />
-        </Url>
+        <Url Value="https://www.nexusmods.com/kotor/mods/1209" />
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>4e3711fb-c8be-4604-b6d6-0e8e2741281f</Guid>
+          <Guid>931a7c5d-f456-403f-9ee0-e58b08354aca</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\hp_grenades-0-4-1209-0-4-1547556830.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>c7dd481c-b474-4d3a-8f50-27e5031d1a81</Guid>
+          <Guid>572962d1-ea36-4a24-ad3e-f6d7e04f9d1c</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\hp_grenades-0-4-1209-0-4-1547556830\*</Item>
@@ -859,7 +857,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>308a089c-33ff-4a49-b7b4-3ad22d1b5cae</Guid>
+      <Guid>9422f189-4de2-4e9d-bad3-bef8c8d26956</Guid>
       <Name>Better Twi'lek Heads</Name>
       <Author>Ashton Scorpius</Author>
       <Description>Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: *supposed* to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry.</Description>
@@ -876,29 +874,29 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>Choose whether to use the slim or original necks; your preference.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>e85474b8-dc20-4b29-8042-7402ac8e538a</Guid>
+          <Guid>606889eb-01cf-4f70-b3ac-5fd69c0b2b14</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Twi'lek Heads v1.3.3.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>dc009dc9-5041-4a2e-aab8-ded492ccdd5a</Guid>
+          <Guid>c6dd7376-05c7-45fb-86ca-e205b9918d95</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>c958c765-5442-4072-b2e9-25ce438c670f</Item>
-            <Item>9513dd6d-0640-44f3-8098-553de31492f9</Item>
+            <Item>88b91610-980a-48f2-920d-1c1340e494f5</Item>
+            <Item>e1fb21ca-b414-432b-83af-e0565fb0a1fa</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>c958c765-5442-4072-b2e9-25ce438c670f</Guid>
+          <Guid>88b91610-980a-48f2-920d-1c1340e494f5</Guid>
           <Name>Option A - Slim Necks</Name>
           <Description>Select this option to slim down on the lard necks!</Description>
           <Instructions>
             <Instruction>
-              <Guid>1b1189db-478c-42cf-b6d6-8992d81f7164</Guid>
+              <Guid>c489cb34-2e10-49b0-8d90-94cd45fd2528</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Twi'lek Heads v1.3.3\TSLPatcher.exe</Item>
@@ -909,12 +907,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>9513dd6d-0640-44f3-8098-553de31492f9</Guid>
+          <Guid>e1fb21ca-b414-432b-83af-e0565fb0a1fa</Guid>
           <Name>Option B - Original Necks</Name>
           <Description>Select this option to keep the original necks inspired by Bib Fortuna.</Description>
           <Instructions>
             <Instruction>
-              <Guid>3ac3ef42-aa9a-4513-9cda-e8985c8acabe</Guid>
+              <Guid>e5e102cc-5a13-4e64-bb9e-cc3043542a0e</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Twi'lek Heads v1.3.3\TSLPatcher.exe</Item>
@@ -927,7 +925,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>4191325b-90dd-4ae1-89a7-a47ae4ffbf60</Guid>
+      <Guid>dcf78efc-e242-4b56-98aa-57917eaf913a</Guid>
       <Name>Thigh-High Boots for Twi'lek</Name>
       <Author>DarthParametric</Author>
       <Description>In vanilla, female Twi'lek's thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This modder's resource serves to add the boots as an equipped object.</Description>
@@ -944,14 +942,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>6e23f833-603a-494e-81de-124cb86737e0</Guid>
+          <Guid>e5eb7499-3d8e-4f04-b411-54a04774fd6d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>2aad8639-4daa-4d9e-ad74-25fd8c0f0a96</Guid>
+          <Guid>33ed1a94-6804-4cb0-bccc-f02318783623</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\*</Item>
@@ -961,7 +959,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>a6080781-5e11-46cd-8aaf-5edc82145202</Guid>
+      <Guid>4560336a-9060-483d-be73-b7338b6997d9</Guid>
       <Name>Shaleena/Lashowe Mouth Adjustment</Name>
       <Author>Ashton Scorpius</Author>
       <Description>Fixes a bug with two female NPC heads which caused their upper teeth to be invisible during dialogue.</Description>
@@ -977,14 +975,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>d34769ed-d26a-4646-85f8-b6836f59b4b1</Guid>
+          <Guid>e7c4d641-bdfd-4d0e-9fed-d786f43793d5</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 SL Mouth Adjustment v1.1.1.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>ddebc128-58e7-4755-8349-570ebd4c231b</Guid>
+          <Guid>d14e6263-acb9-4718-b854-69829b973f43</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 SL Mouth Adjustment v1.1.1\Override\*</Item>
@@ -994,7 +992,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>dac06f34-078a-4c7c-83eb-565a5d689961</Guid>
+      <Guid>8a5683e0-c961-4e1c-9df9-c0d00c077f52</Guid>
       <Name>Calo Nord Recolor</Name>
       <Author>Watcher07</Author>
       <Description>Recolors the famous bounty hunter Calo Nord's clothing to be more muted in tone; you wouldn't expect a famous bounty hunter to run around in bright colors, but in vanilla Calo sure loved to. Note that this does not allow you to play as Calo, nor does it add the custom blaster skin or republic uniform skin seen in the screenshots.</Description>
@@ -1010,14 +1008,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>45a2f14f-9511-448e-9b3c-7748cb11180a</Guid>
+          <Guid>7ca2fa21-21da-43eb-a7de-1ffa9e339157</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Calo Nord Recolor.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>ab43ae83-f0e9-4423-88c9-823bd0ca0fd1</Guid>
+          <Guid>d7392793-14a2-4f3a-a6a8-7c18fac7c681</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Calo Nord Recolor\CN_Recolor\*</Item>
@@ -1027,7 +1025,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>2f2e6db1-1e86-4b3d-8d0d-7a9a5fbfd694</Guid>
+      <Guid>d3c57a6e-3671-4f19-9dcc-2b6d7db5efeb</Guid>
       <Name>K2 Swoops to K1</Name>
       <Author>CaptainSpoque</Author>
       <Description>This mod ports the "shield effect" that pops up when your swoop (basically a racing bike) takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I don't recommend that.</Description>
@@ -1043,31 +1041,31 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>5cee4875-bad3-4c22-ad6e-08e9a9295491</Guid>
+          <Guid>045c2815-f0cb-47b5-8039-90cea35b962c</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[K1] Swoop from K2 to K1.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>b952aff5-f8a4-43cd-9664-602c1316c08d</Guid>
+          <Guid>e34b6ec6-4ae9-455e-b9f0-1a7f33087d70</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>7011cb7b-7231-448e-95ff-929a306f03d4</Item>
-            <Item>7011cb7b-7231-448e-95ff-929a306f03d4</Item>
-            <Item>7011cb7b-7231-448e-95ff-929a306f03d4</Item>
-            <Item>7011cb7b-7231-448e-95ff-929a306f03d4</Item>
+            <Item>8c0aadd9-2969-4efe-8e2f-375b3e288eec</Item>
+            <Item>8c0aadd9-2969-4efe-8e2f-375b3e288eec</Item>
+            <Item>8c0aadd9-2969-4efe-8e2f-375b3e288eec</Item>
+            <Item>8c0aadd9-2969-4efe-8e2f-375b3e288eec</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>7011cb7b-7231-448e-95ff-929a306f03d4</Guid>
+          <Guid>8c0aadd9-2969-4efe-8e2f-375b3e288eec</Guid>
           <Name>K1 Vanilla with K2 shield</Name>
           <Description>Adds the shield effect from K2 to the K1 swoop model</Description>
           <Instructions>
             <Instruction>
-              <Guid>22ee644c-22a6-4f84-955a-e61ef26e60b5</Guid>
+              <Guid>e7c8b6c8-dfe4-44ba-9c8c-dc25f3ae22e1</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\[K1] Swoop from K2 to K1\K1 Vanilla with K2 shield.exe</Item>
@@ -1080,7 +1078,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>882559bb-ba79-4c7c-987a-a1ad93dafd4d</Guid>
+      <Guid>1b38f3ea-c53e-4087-9439-6997f5362c7c</Guid>
       <Name>Juhani Real Cathar Head</Name>
       <Author>Miro42</Author>
       <Description>NPC Juhani's head model has always been a disappointing reminder of the limitations of low resolution. This mod makes the best attempt of any I've seen so far to portray her as truly Cathar, without going to extremes or failing to overcome the limitations of her original facial design.</Description>
@@ -1097,14 +1095,14 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>aa1dce9a-29a3-4fba-81d1-7cbdcefadd57</Guid>
+          <Guid>4767b90b-aa5a-48f8-91a0-28e3009c5763</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\juhaniCathar_head.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>723657f3-dcea-4ec1-99ac-4c94a99a2d24</Guid>
+          <Guid>f9991058-fcab-440b-acc4-eddc3955aecc</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\juhaniCathar_head\*</Item>
@@ -1114,7 +1112,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>1c96e03f-5a9b-40db-aadf-949c3a0dd6dd</Guid>
+      <Guid>218b4fc5-fc16-44c9-b0e3-07e1c7229eda</Guid>
       <Name>Korriban: Back in Black</Name>
       <Author>JCarter426</Author>
       <Description>When you reach the planet Korriban, you'll find an academy for Force-users there. All the students are nonsensically dressed up in officer's outfits and not proper robes, though! Thankfully, this mod fixes that.</Description>
@@ -1132,33 +1130,33 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>38ff0384-f1ac-418b-904d-b70e43e10b0e</Guid>
+          <Guid>dc928aeb-7916-4500-9b75-c96a506628f7</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>de5b1cc8-4af5-4d64-817b-67e1de1e7a78</Guid>
+          <Guid>7b593c1a-663c-406d-8c24-889ce9058c91</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>2e2bb1a5-a0cf-4b25-be09-7ef8e1518a12</Item>
-            <Item>00e48252-77a6-4ba1-8cb9-df52ad8d981c</Item>
-            <Item>1bcefa30-4c94-4000-a8e6-96a0e28b59db</Item>
-            <Item>41f823f7-a006-4f0d-8405-5f1d476023f8</Item>
-            <Item>99aaeb0e-2334-4462-ab52-dd9b234e6534</Item>
-            <Item>7b2a7aea-9012-43ab-b35d-80ce0e49f18f</Item>
+            <Item>133d945a-2cbf-4ae8-9b8f-a0a1f4aa418e</Item>
+            <Item>475877f5-f842-47e9-a3ee-aacf7af607fa</Item>
+            <Item>467ab72d-2113-4720-ab28-5ab512469862</Item>
+            <Item>e3b51b93-442f-445f-b7a5-8c0736139669</Item>
+            <Item>8f6a9ce9-e13e-4f63-b5c3-3e315cb118de</Item>
+            <Item>35177f86-70cf-4f21-9c14-7afe5bd705e6</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>2e2bb1a5-a0cf-4b25-be09-7ef8e1518a12</Guid>
+          <Guid>133d945a-2cbf-4ae8-9b8f-a0a1f4aa418e</Guid>
           <Name>Basic Installation</Name>
           <Description>This option installs the basic mod. It is recommended that you remove any previous versions or other mods that may affect the same files before running this.</Description>
           <Instructions>
             <Instruction>
-              <Guid>3eea0d7f-1d86-4180-8daa-a2af63c8ee8a</Guid>
+              <Guid>63368d08-8a3f-4153-9db4-abc3fdda3f23</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1169,12 +1167,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>00e48252-77a6-4ba1-8cb9-df52ad8d981c</Guid>
+          <Guid>475877f5-f842-47e9-a3ee-aacf7af607fa</Guid>
           <Name>KOTOR Community Patch-Compatible Installation</Name>
           <Description>Choose this option if you have the KOTOR Community Patch installed. This option will not overwrite the changes that the Community Patch makes to Korriban, but will install the rest of the Back in Black mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>94024156-b364-4912-afe0-c80a3e393a68</Guid>
+              <Guid>d8fb30d4-42d3-47f6-8a24-0e5db7224298</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1185,12 +1183,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>1bcefa30-4c94-4000-a8e6-96a0e28b59db</Guid>
+          <Guid>467ab72d-2113-4720-ab28-5ab512469862</Guid>
           <Name>Tariga Male Option</Name>
           <Description>This undoes the changes made to Tariga's gender. Run this if you use another mod that fixes this, such as Tariga Gender on Tamlen DLG Fix, after installing the rest Korriban: Back in Black.</Description>
           <Instructions>
             <Instruction>
-              <Guid>0c5d51f5-7856-4f68-943b-844bbd74afb6</Guid>
+              <Guid>81bc865f-513e-4727-9cd5-baad04370030</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1201,12 +1199,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>41f823f7-a006-4f0d-8405-5f1d476023f8</Guid>
+          <Guid>e3b51b93-442f-445f-b7a5-8c0736139669</Guid>
           <Name>Uthar Uniform Option</Name>
           <Description>This option will give Uthar a black Sith uniform instead of robes. And unlike in the original game, his uniform will be consistent across all areas. Run this after installing the rest of the mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>43c32300-2f29-4118-9b65-c3348c24fc95</Guid>
+              <Guid>06dd0831-062a-4226-b774-e65941004d42</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1217,12 +1215,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>99aaeb0e-2334-4462-ab52-dd9b234e6534</Guid>
+          <Guid>8f6a9ce9-e13e-4f63-b5c3-3e315cb118de</Guid>
           <Name>Uthar Armor Option</Name>
           <Description>This option will give Uthar the silver armor that other Sith Masters in the game wear. Run this after installing the rest of the mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>089e4e47-f24c-452f-b4ed-7129f2771a52</Guid>
+              <Guid>afde893c-3080-4fd7-869e-ca6e00bcacf4</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1233,12 +1231,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>7b2a7aea-9012-43ab-b35d-80ce0e49f18f</Guid>
+          <Guid>35177f86-70cf-4f21-9c14-7afe5bd705e6</Guid>
           <Name>Yuthura Uniform Option</Name>
           <Description>This option will give Yuthura a black Sith uniform instead of robes. And unlike in the original game, her uniform will be consistent across all areas. Run this after installing the rest of the mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>f55ad0bb-53b2-441f-9d42-f9a8860b8c6e</Guid>
+              <Guid>18aec5b6-502e-463d-8fc9-2e48e0904a8f</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Korriban - Back in Black for K1 v2.3\TSLPatcher.exe</Item>
@@ -1251,7 +1249,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>e0be1b73-7093-4cf8-ab4e-13ab2ee76c11</Guid>
+      <Guid>d30111af-6196-4278-95b0-adbf264a9d55</Guid>
       <Name>Cloaked Jedi Robes</Name>
       <Author>JCarter426</Author>
       <Description>The robes in KOTOR 2 are of a more billowing, loose style than the tight-fitting and narrow robes that KOTOR usually features, and seem to be the fanbase's preference. This mod migrates the KOTOR 2 robes into the original game, while still leaving options to retain some of the aesthetic choices of vanilla.</Description>
@@ -1268,33 +1266,33 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>0f76a227-52e7-4a54-9156-03d7a32f7389</Guid>
+          <Guid>26e354a7-c64c-4ed7-b26b-d656c6b71d53</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>0626d889-976c-4e21-b24b-47e01e7c4b16</Guid>
+          <Guid>0aff10b3-b307-4012-a220-3623896546bc</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>3259e402-c6b3-4482-a68c-50e5a1f29a51</Item>
-            <Item>4ab75494-bd03-4bfb-b674-5e7967186c2e</Item>
-            <Item>cf36ce5d-0438-4023-88f1-60ed1ec1fe7b</Item>
-            <Item>e9f31329-36ff-47d1-8107-df96c243fdcc</Item>
-            <Item>c0b15477-21b6-49fa-a6c8-3d765ef4dd08</Item>
-            <Item>4f01f985-6ba9-445e-96d1-f29afa1e0224</Item>
+            <Item>d54c9911-97ff-4e74-8633-e0b5a86dabd1</Item>
+            <Item>1e42a19f-2c8a-4a1a-87c9-84abad529c5b</Item>
+            <Item>d46ff78d-75b7-4a74-a2b0-147d8243367a</Item>
+            <Item>289e89fb-be40-47a7-b894-3055137e84b3</Item>
+            <Item>beb8bcd9-e97e-4720-ac91-cdd27dbf9050</Item>
+            <Item>cfc8f868-6747-4633-95d9-408aaa142837</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>3259e402-c6b3-4482-a68c-50e5a1f29a51</Guid>
+          <Guid>d54c9911-97ff-4e74-8633-e0b5a86dabd1</Guid>
           <Name>100% Brown</Name>
           <Description>This option replaces the Jedi robe models with cloaked models and textures based on the robes from KOTOR 2. Jedi wear robes in various shades of brown, while Dark Jedi wear black robes.</Description>
           <Instructions>
             <Instruction>
-              <Guid>4f6dfc66-13d8-43ee-bf5c-ac5132126708</Guid>
+              <Guid>07e46dc1-da82-45b8-90f0-2bc4e9ce9f82</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1305,12 +1303,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>4ab75494-bd03-4bfb-b674-5e7967186c2e</Guid>
+          <Guid>1e42a19f-2c8a-4a1a-87c9-84abad529c5b</Guid>
           <Name>100% Brown (No Gloves)</Name>
           <Description>This option replaces the Jedi robe models with cloaked models and textures based on the robes from KOTOR 2. Jedi wear robes in various shades of brown, while Dark Jedi wear black robes. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.</Description>
           <Instructions>
             <Instruction>
-              <Guid>fe608a42-967e-423f-88c1-a1af88c0e8b2</Guid>
+              <Guid>66ba7168-58a3-438f-9ab1-8c2ac85947fc</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1321,12 +1319,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>cf36ce5d-0438-4023-88f1-60ed1ec1fe7b</Guid>
+          <Guid>d46ff78d-75b7-4a74-a2b0-147d8243367a</Guid>
           <Name>k_brb</Name>
           <Description>This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 while retaining the KOTOR 1 color scheme. Jedi robes come in brown, red, and blue, while Dark Jedi wear black robes.</Description>
           <Instructions>
             <Instruction>
-              <Guid>0ae593e3-9e97-47ce-b784-9de293ee4138</Guid>
+              <Guid>b00a8b9a-0fdf-4896-9388-764669585f02</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1337,12 +1335,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>e9f31329-36ff-47d1-8107-df96c243fdcc</Guid>
+          <Guid>289e89fb-be40-47a7-b894-3055137e84b3</Guid>
           <Name>Brown-Red-Blue (No Gloves)</Name>
           <Description>This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 while retaining the KOTOR 1 color scheme. Jedi robes come in brown, red, and blue, while Dark Jedi wear black robes. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.</Description>
           <Instructions>
             <Instruction>
-              <Guid>b72b4d18-86a2-4393-8790-2f387309bd47</Guid>
+              <Guid>6ded5778-5c6c-4741-82ef-a37532179c31</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1353,12 +1351,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>c0b15477-21b6-49fa-a6c8-3d765ef4dd08</Guid>
+          <Guid>beb8bcd9-e97e-4720-ac91-cdd27dbf9050</Guid>
           <Name>k_brb-a</Name>
           <Description>This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 and textures in a mix of the other styles. It retains the color scheme of the Brown-Red-Blue option while keeping the variety of the 100% Brown option.</Description>
           <Instructions>
             <Instruction>
-              <Guid>d6f5c371-6e54-4b74-a00d-5186e8191be5</Guid>
+              <Guid>28103d80-e15a-4c55-b5a6-ec4588164e25</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1369,12 +1367,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>4f01f985-6ba9-445e-96d1-f29afa1e0224</Guid>
+          <Guid>cfc8f868-6747-4633-95d9-408aaa142837</Guid>
           <Name>Brown-Red-Blue Alternative (No Gloves)</Name>
           <Description>This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 and textures in a mix of the other styles. It retains the color scheme of the Brown-Red-Blue option while keeping the variety of the 100% Brown option. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.</Description>
           <Instructions>
             <Instruction>
-              <Guid>4d02bec0-5d52-402e-9f75-2224faaa1256</Guid>
+              <Guid>54dc7132-47cc-4d53-893d-da303c0618ca</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\TSLPatcher.exe</Item>
@@ -1387,7 +1385,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>ddd41c46-933c-4b16-9e85-f92260d16db5</Guid>
+      <Guid>1e57a336-d877-4a70-ac5e-07afb5fd6df3</Guid>
       <Name>JC's Jedi Tailor</Name>
       <Author>JCarter426</Author>
       <Description>It's very annoying when you've got your party together and you want to show your swag off with color-coordinated outfits, but the game only gives you gaudy blue robes. Worry no longer! JC has given us a solution in the form of a skilled Trandoshan tailor, who will dye your robes on demand—it's also compatible with Cloaked Jedi Robes! He even has some very well-written and lore-friendly dialogue about current events.</Description>
@@ -1404,29 +1402,29 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       <Directions>If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).</Directions>
       <Instructions>
         <Instruction>
-          <Guid>15087bcf-1daa-49a3-bee5-9ad7c72d4275</Guid>
+          <Guid>c451b684-4406-443b-b6ea-6b4700ac6d98</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Jedi Tailor for K1 v1.4.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>4ba7927c-7045-47a8-8139-8201fa7c4936</Guid>
+          <Guid>31ed4efa-d1db-442d-961c-de66020b637f</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>4a41d707-d1ba-4784-be00-d794c534afac</Item>
-            <Item>0c1dc519-08a6-4469-b87f-799311fc19e2</Item>
+            <Item>25af407a-6c5b-462b-b3d6-a51e49abf4af</Item>
+            <Item>c18c39a3-8310-4e44-8a0f-0de03745729c</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>4a41d707-d1ba-4784-be00-d794c534afac</Guid>
+          <Guid>25af407a-6c5b-462b-b3d6-a51e49abf4af</Guid>
           <Name>JC's Jedi Tailor for K1 - Basic Installation</Name>
           <Description>This installs the most up-to-date version of the base Jedi Tailor mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>56db3971-6d8c-4ad6-a2da-d3495f650c1f</Guid>
+              <Guid>10f090b5-5667-425f-b889-4cd4b21539ff</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Jedi Tailor for K1 v1.4\TSLPatcher.exe</Item>
@@ -1437,12 +1435,12 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
           </Instructions>
         </Option>
         <Option>
-          <Guid>0c1dc519-08a6-4469-b87f-799311fc19e2</Guid>
+          <Guid>c18c39a3-8310-4e44-8a0f-0de03745729c</Guid>
           <Name>100% Brown Compatibility Patch</Name>
           <Description>This is a compatibility patch for the 100% Brown option of my Cloaked Jedi Robes mod. It adjusts the tailor's dialogue to make all reference to robe color consistent with the brown shades in that mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>bed23b96-5946-4994-95ad-832ed753ba1b</Guid>
+              <Guid>b34f73d9-db54-4562-b84c-c01ed7207bfd</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Jedi Tailor for K1 v1.4\TSLPatcher.exe</Item>
@@ -1455,7 +1453,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Options>
     </Component>
     <Component>
-      <Guid>e0af5793-1246-4dd0-a023-5158deff3ae1</Guid>
+      <Guid>4fbbde11-8fc3-447d-b306-25600a7d9d78</Guid>
       <Name>Robes with Shadows for K1 (JC's Port)</Name>
       <Author>PapaZinos</Author>
       <Description>Coming in to support JC, PapaZinos here adds dynamic shadows to the ported K2 Jedi robes. Without this mod JC's mod functions, but doesn't have proper dynamically-cast shadows matching the robe outlines.</Description>
@@ -1471,18 +1469,18 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </ModLinkFilenames>
       <Directions>Only move the files from "Jedi Robes Override".</Directions>
       <Dependencies>
-        <Item>e0be1b73-7093-4cf8-ab4e-13ab2ee76c11</Item>
+        <Item>d30111af-6196-4278-95b0-adbf264a9d55</Item>
       </Dependencies>
       <Instructions>
         <Instruction>
-          <Guid>28861160-7d67-4b54-a32f-d21cb4a9b178</Guid>
+          <Guid>a8f2425e-91e4-49ad-9d89-d0b4ec11fdcf</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Robes_With_Shadows_JC_K1_v1.2.0.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>2c6c633f-3ee1-4e68-9c51-ac6692b55f8f</Guid>
+          <Guid>33a8c672-4535-4407-be2d-3f0d5bf95f8e</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Robes_With_Shadows_JC_K1_v1.2.0\Robes_With_Shadows_JC_K1_v1.2.0\*</Item>
@@ -1492,7 +1490,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>4af4c6c3-a66e-42da-acce-f1378f3d0504</Guid>
+      <Guid>286117e3-ed94-47ce-add7-b27145211333</Guid>
       <Name>Qel-Droma Robes Reskin</Name>
       <Author>Effix</Author>
       <Description>This mod reskins the Qel-Droma robes to look closer to their canon counterparts, while also improving their general appearance and making them compatible with JC's Jedi Tailor.</Description>
@@ -1509,18 +1507,18 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
         <Url Value="https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/" />
       </ModLinkFilenames>
       <Dependencies>
-        <Item>e0be1b73-7093-4cf8-ab4e-13ab2ee76c11</Item>
+        <Item>d30111af-6196-4278-95b0-adbf264a9d55</Item>
       </Dependencies>
       <Instructions>
         <Instruction>
-          <Guid>4794220b-f4db-4d63-9d48-5c2502ce0e5b</Guid>
+          <Guid>40145579-b51e-405c-83ea-9d703de5549f</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>e1abbc6f-4c3a-4c38-94d4-dac6f7de86b8</Guid>
+          <Guid>04f7dada-da56-4c23-9063-36d95d273fd9</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\*</Item>
@@ -1530,7 +1528,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
       </Instructions>
     </Component>
     <Component>
-      <Guid>bcf1c2ad-65b8-4b21-b119-844500ed1106</Guid>
+      <Guid>65cc19f6-a8fb-455a-b0d1-0c223c94617c</Guid>
       <Name>Unique Sith Governor</Name>
       <Author>N-DReW25</Author>
       <Description>This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod.
@@ -1548,14 +1546,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>fb5c25b6-1c08-42ab-82e2-12e982f75213</Guid>
+          <Guid>b1305e91-81ea-45df-a9db-1cf560f0f341</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\USG.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>a5855a42-4ed5-404b-9f3c-b2840801b68f</Guid>
+          <Guid>38cb6562-9c63-4c32-be0b-66bb71c5bd6c</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\USG\TSLPatcher.exe</Item>
@@ -1565,7 +1563,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>a56c203f-916c-4c6a-9a8e-3128d9b667dd</Guid>
+      <Guid>c5003c16-0579-454e-b486-84910ce89d94</Guid>
       <Name>Sith Uniform Reformation Revised</Name>
       <Author>Heyorange, Sith Holocron, JCarter426</Author>
       <Description>If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias. New, and thanks to Sith Holocron, these textures have also been further enhanced and upscaled to match the rest of the vanilla game's upscales present in the mod builds.</Description>
@@ -1583,31 +1581,31 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>57cd4322-a21e-41b7-8856-96edd9cd3ff1</Guid>
+          <Guid>d0f879ca-5a11-4407-a22b-594a330c1f6d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Heyorange's Sith Uniform Reformation Revised.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>f2dce804-33ff-4755-a2f0-604c0206f402</Guid>
+          <Guid>dec2f9c5-2d3a-4f00-a247-8312f5d31e16</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>94e28f97-f53e-4ee3-a5cf-67073bc1026a</Item>
-            <Item>ccea3823-5989-4c5e-ad00-7f17a1460e13</Item>
-            <Item>234f2123-155b-4475-8c6c-868efa9b778d</Item>
-            <Item>4940389a-0b9a-49f2-9ec2-5454c9b46512</Item>
+            <Item>6119d542-a3a1-45a2-8cce-7d4369bd3680</Item>
+            <Item>3912eecf-b8cd-4db1-a5a9-be48df2d3ad3</Item>
+            <Item>6a62a7c2-9f2c-4e1f-a380-82e6e5443dfb</Item>
+            <Item>f47d2464-2e71-4fcd-bcd3-b767f2c91fc3</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>94e28f97-f53e-4ee3-a5cf-67073bc1026a</Guid>
+          <Guid>6119d542-a3a1-45a2-8cce-7d4369bd3680</Guid>
           <Name>Basic Installation</Name>
           <Description>This option installs the basic mod. Do not choose this option if using the KOTOR Community Patch.</Description>
           <Instructions>
             <Instruction>
-              <Guid>0567daa2-df11-496c-8912-b21085741ef0</Guid>
+              <Guid>e998b78a-4c58-488a-9833-627dd439e981</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Heyorange's Sith Uniform Reformation Revised\TSLPatcher.exe</Item>
@@ -1618,12 +1616,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>ccea3823-5989-4c5e-ad00-7f17a1460e13</Guid>
+          <Guid>3912eecf-b8cd-4db1-a5a9-be48df2d3ad3</Guid>
           <Name>KOTOR Community Patch-Compatible Installation</Name>
           <Description>Choose this option if you are using the KOTOR Community Patch.</Description>
           <Instructions>
             <Instruction>
-              <Guid>911785fb-406a-4f15-9338-e957a5db6e39</Guid>
+              <Guid>1b7f5b4c-12d0-4f64-bb54-53962ee77883</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Heyorange's Sith Uniform Reformation Revised\TSLPatcher.exe</Item>
@@ -1634,12 +1632,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>234f2123-155b-4475-8c6c-868efa9b778d</Guid>
+          <Guid>6a62a7c2-9f2c-4e1f-a380-82e6e5443dfb</Guid>
           <Name>Extra: Sith Students + Czerka on Korriban Fix</Name>
           <Description>This option adds a reskin of the standard uniform for Sith students on Korriban and fixes Czerka workers on Korriban to have the correct uniforms. Do not choose this option if you are using another mod which makes similar changes, such as Korriban: Back in Black.</Description>
           <Instructions>
             <Instruction>
-              <Guid>fe0c1d39-6f42-4b44-b6fc-562460aa58c9</Guid>
+              <Guid>7426c4fd-1a8b-4a85-a9af-45b0e9a41b36</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Heyorange's Sith Uniform Reformation Revised\TSLPatcher.exe</Item>
@@ -1650,12 +1648,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>4940389a-0b9a-49f2-9ec2-5454c9b46512</Guid>
+          <Guid>f47d2464-2e71-4fcd-bcd3-b767f2c91fc3</Guid>
           <Name>Extra: KOTOR 1 Restoration Fix</Name>
           <Description>This option adds a reskin of the Sith uniform for the wounded officer added by the KOTOR 1 Restoration Mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>74f7b390-ad21-4926-8c65-84c69d2a6651</Guid>
+              <Guid>3e0e0147-5d6a-4fba-a924-065073a0b0c7</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Heyorange's Sith Uniform Reformation Revised\TSLPatcher.exe</Item>
@@ -1668,7 +1666,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>ceba2b7d-13e3-4595-9664-eef7d90ac146</Guid>
+      <Guid>aceb98e9-9b8e-4b4f-9f23-0399e5beb628</Guid>
       <Name>Star Map Revamp</Name>
       <Author>Carth0nasty</Author>
       <Description>Reskins several ancient alien devices you encounter in the course of the game, with similar improvements to the map of the galaxy the star maps display.</Description>
@@ -1684,29 +1682,29 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>eefb03d7-e76e-4b4d-8d22-f9edc5a3b793</Guid>
+          <Guid>b3ff3520-1de7-49d1-ab3d-c7f11edc9399</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Star-Map_Revamp_1-1.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>f8732205-45e2-4423-9eec-2d65d79dd89f</Guid>
+          <Guid>52ffca6f-0f73-4e00-8a60-bafe697544d8</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>dc926117-0d0e-47b1-87da-02997af9fde4</Item>
-            <Item>ac5eea21-1b63-44a0-801f-3474c5744507</Item>
+            <Item>6121ea9c-6cd4-4284-9834-0f47ec53ccb3</Item>
+            <Item>1ec88a25-ea7a-4775-9a0f-9ac3f20894e5</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>dc926117-0d0e-47b1-87da-02997af9fde4</Guid>
+          <Guid>6121ea9c-6cd4-4284-9834-0f47ec53ccb3</Guid>
           <Name>Star-Map_Revamp_1-1</Name>
           <Description>Install files from Star-Map_Revamp_1-1 folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>862e8ddf-7a15-427c-a49b-32f80db9b953</Guid>
+              <Guid>331a0ed0-9212-4357-9e15-7e31b959178d</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Star-Map_Revamp_1-1\Star-Map_Revamp_1-1\*</Item>
@@ -1716,12 +1714,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>ac5eea21-1b63-44a0-801f-3474c5744507</Guid>
+          <Guid>1ec88a25-ea7a-4775-9a0f-9ac3f20894e5</Guid>
           <Name>__MACOSX</Name>
           <Description>Install files from __MACOSX folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>a9728ec0-f3a0-4dc0-9f5d-a878f1811e64</Guid>
+              <Guid>267a4873-a0eb-4a78-9d7f-92ad775588e5</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\Star-Map_Revamp_1-1\__MACOSX\*</Item>
@@ -1733,7 +1731,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>aca0e97d-1f3a-4276-97e0-5ffb3426b978</Guid>
+      <Guid>6ad6f487-c4aa-48ac-82a9-2d9170c275b8</Guid>
       <Name>Kebla Yurt Renovation</Name>
       <Author>N-DReW25</Author>
       <Description>Dark Hope gave shopowner Kebla a makeover earlier, now it's N-Drew's turn to give her shop a tidying-up. Compared to other shops you see in Kebla's city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.</Description>
@@ -1749,14 +1747,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>015d23bb-8d39-4295-94e6-3f6fe6ec998d</Guid>
+          <Guid>0c267cc4-6aa6-4d69-b90f-f56c2d3f4d80</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KYR1.1.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>098d231a-b572-4490-bbff-93f5a54dbe91</Guid>
+          <Guid>250dc3d4-3462-444c-98e0-cbd1cbaa7214</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Kebla Yurt Revamp\TSLPatcher.exe</Item>
@@ -1766,7 +1764,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>6c4b84a3-9de5-44d1-b7da-b938ce1ddc7d</Guid>
+      <Guid>9b318aef-61a0-4fd7-921b-ac8914f90fc0</Guid>
       <Name>Ultimate Ebon Hawk Repairs</Name>
       <Author>PapaZinos</Author>
       <Description>Fixes quite a few holes in the model of the *Ebon Hawk*, your ship. No gaps!</Description>
@@ -1783,14 +1781,14 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>75ad42b8-9ff8-4023-925a-ca3f1ce2bc91</Guid>
+          <Guid>feaec4ab-fec0-4241-b265-a0eb663f6a93</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>5cd9e723-8494-4d66-90d6-66ac637722cd</Guid>
+          <Guid>dd67d0ea-c333-41f7-984d-af9ac6f471a0</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0\*</Item>
@@ -1800,7 +1798,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>ece6e4e1-cbec-4eb4-aea0-24ae2538ea70</Guid>
+      <Guid>7263448d-eb18-483e-a2e0-18a5a0734f92</Guid>
       <Name>HQ Cockpit Skyboxes</Name>
       <Author>Sithspecter</Author>
       <Description>Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.</Description>
@@ -1817,14 +1815,14 @@ Some information has been censored to prevent spoilers.</Description>
       <DownloadInstructions>I strongly recommend the Small version for mobile.</DownloadInstructions>
       <Instructions>
         <Instruction>
-          <Guid>a9030b1c-5862-4bc3-8c3e-701debf358a2</Guid>
+          <Guid>c35f0277-1533-409b-b79e-0ce386668999</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\High Quality Cockpit Skyboxes L.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>e88df669-8b45-460e-9b04-3a65fce4b7ba</Guid>
+          <Guid>f69ddf30-85cd-446a-82a0-846af27de710</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\High Quality Cockpit Skyboxes L\High Quality Cockpit Skyboxes L\*</Item>
@@ -1834,7 +1832,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>43ba84da-ef29-4b26-8e8c-ec9dae89f683</Guid>
+      <Guid>cb67d58e-32c7-417d-ba8f-e19f4866f90f</Guid>
       <Name>Yavin Station Hangar</Name>
       <Author>WildKarrde</Author>
       <Description>By default when landing on Yavin station (a merchant hub), you leave the *Ebon Hawk* and are placed directly into a hallway, but in the intro movie for Yavin you can see the *Ebon Hawk* landing in a hangar that looks... well, remarkably similar to another hangar in the game. This mod by WildKarrde brings that hangar to life and integrates it into the station geometry, so you can properly exit the ship and cycle through the airlocks onto the station.</Description>
@@ -1851,31 +1849,31 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>b949909b-4d0e-4052-9b9a-b7d982a07869</Guid>
+          <Guid>885dd543-02dc-4d1c-bbe4-963ed11cc74b</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Yavin Station Hangar v1_5.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>69eb97d8-ccdb-4af7-953d-0108698576d8</Guid>
+          <Guid>09356c3c-2266-4bbc-ae50-8738451aaa72</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>e32d4a4b-6318-4d78-a92b-4f280907eab7</Item>
-            <Item>f02a9030-2939-41bb-91c8-19db6c6241d0</Item>
-            <Item>4af9b8b7-bf86-4253-972e-fc508f25d17e</Item>
-            <Item>a49c8307-daf6-4e7b-a326-ab6838a7644a</Item>
+            <Item>85c05c38-51d4-48f4-9a5c-b037be00d0fb</Item>
+            <Item>a5d6e38c-0609-4142-82ee-597c2d965c9f</Item>
+            <Item>2706f123-23bd-422e-8b64-2073c4865d06</Item>
+            <Item>060ff9c6-f980-4498-a653-1686c096b1f8</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>e32d4a4b-6318-4d78-a92b-4f280907eab7</Guid>
+          <Guid>85c05c38-51d4-48f4-9a5c-b037be00d0fb</Guid>
           <Name>Main Installation</Name>
           <Description>Main Installation of the mod.  Must be installed first before adding the visible forcefield option.</Description>
           <Instructions>
             <Instruction>
-              <Guid>84b41d45-324a-4cff-a6cc-6abd2f463ed9</Guid>
+              <Guid>4ccccb87-756a-473a-b269-3a98926406dc</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Yavin Station Hangar v1_5\TSLPatcher.exe</Item>
@@ -1886,12 +1884,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>f02a9030-2939-41bb-91c8-19db6c6241d0</Guid>
+          <Guid>a5d6e38c-0609-4142-82ee-597c2d965c9f</Guid>
           <Name>OPTION: Add Visible Forcefield</Name>
           <Description>Adds a visible forcefield effect to the hangar entrance.  Requires the Main Installation to be run first.</Description>
           <Instructions>
             <Instruction>
-              <Guid>583c4512-9c85-42e9-b733-d35882e02aea</Guid>
+              <Guid>3964b956-d7d2-4f53-952a-4bdf63389222</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Yavin Station Hangar v1_5\TSLPatcher.exe</Item>
@@ -1902,12 +1900,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>4af9b8b7-bf86-4253-972e-fc508f25d17e</Guid>
+          <Guid>2706f123-23bd-422e-8b64-2073c4865d06</Guid>
           <Name>HQ Cockpit Skybox Textures</Name>
           <Description>Install files from HQ Cockpit Skybox Textures folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>5e9ff242-161a-45a9-848a-45027c9e40d2</Guid>
+              <Guid>dc0ecb26-60f5-40b4-8620-691d5fc6a136</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Yavin Station Hangar v1_5\HQ Cockpit Skybox Textures\*</Item>
@@ -1917,12 +1915,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>a49c8307-daf6-4e7b-a326-ab6838a7644a</Guid>
+          <Guid>060ff9c6-f980-4498-a653-1686c096b1f8</Guid>
           <Name>Option - Alternate Airlock Door (v1_0)</Name>
           <Description>Install files from Option - Alternate Airlock Door (v1_0) folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>1c4dbab2-058c-4227-94b9-f19825ea32c6</Guid>
+              <Guid>fae32ec6-6319-4f11-bf6c-0d9d4bde50f3</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Yavin Station Hangar v1_5\Option - Alternate Airlock Door (v1_0)\*</Item>
@@ -1934,7 +1932,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>6b4dbd70-ecca-4f76-bfa1-737e55bd110e</Guid>
+      <Guid>58bad521-ed1f-4610-9506-35d69c38cdb3</Guid>
       <Name>Taris Reskin</Name>
       <Author>Quanon, patch by JCarter426</Author>
       <Description>Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.</Description>
@@ -1952,14 +1950,14 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga</Directions>
       <Instructions>
         <Instruction>
-          <Guid>1cb3f5f5-af1e-4b85-b6a7-901917b92410</Guid>
+          <Guid>6d2355ef-e9e7-4473-9b66-bdc39ccd713e</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Taris_Reskin-10-1-0.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>f37d5f75-4391-487d-b589-d6e1b6d5f178</Guid>
+          <Guid>d0bc9989-df50-4373-8cc9-8cbc20c1c111</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Taris_Reskin-10-1-0\Taris_Reskin\*</Item>
@@ -1967,14 +1965,14 @@ Some information has been censored to prevent spoilers.</Description>
           <Destination>&lt;&lt;kotorDirectory&gt;&gt;\Override</Destination>
         </Instruction>
         <Instruction>
-          <Guid>507f84df-baed-4055-b768-d7492a076caf</Guid>
+          <Guid>3e113b4f-13a4-4304-bc98-83b2edf01580</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Taris Reskin Patch.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>15ad5761-5c17-472e-8102-bbebe06923b5</Guid>
+          <Guid>33c0e3a0-65be-4ab1-873f-bc4f83b10b33</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Taris Reskin Patch\Taris Reskin Patch\*</Item>
@@ -1984,7 +1982,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>7f19a28f-9c92-46d2-bb72-ae7ee3c3d21a</Guid>
+      <Guid>e6d7a43f-5150-4711-a40f-b06835619354</Guid>
       <Name>High Quality Starfields and Nebulas</Name>
       <Author>Kexikus</Author>
       <Description>Upscales and beautifies the various starfields encountered throughout the game. Some information has been censored to prevent spoilers.</Description>
@@ -2000,14 +1998,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>6b0275ca-7449-4ed5-8090-e78457bc9627</Guid>
+          <Guid>67994a21-7eab-4609-9edc-c1d979ec245b</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1_HDStarsAndNebulasCENSORED.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>6b3c5857-c6c7-4e29-8de6-b20aa572c14f</Guid>
+          <Guid>c654a670-bc2f-4fe1-b96d-04b69be9fc30</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1_HDStarsAndNebulasCENSORED\K1_HDStarsAndNebulas\*</Item>
@@ -2017,7 +2015,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>2ecc9f68-5ebf-4b11-b249-66bbf3178ba4</Guid>
+      <Guid>1ee03ecb-ecbb-4a93-a78b-453ef6302ab4</Guid>
       <Name>High Quality Skyboxes II</Name>
       <Author>Kexikus, patch by CaptainSpoque</Author>
       <Description>Massively improves and increases the resolution of all skyboxes for all planets in the game.</Description>
@@ -2036,14 +2034,14 @@ Some information has been censored to prevent spoilers.</Description>
       <DownloadInstructions>Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.</DownloadInstructions>
       <Instructions>
         <Instruction>
-          <Guid>cd781d6a-e482-47f9-a6ac-faa98b0e4a22</Guid>
+          <Guid>c557015b-9e00-4560-9ed7-42b25d78d9bb</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\HQSkyboxesII_K1_BOSSR.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>60dbf4bc-b1e6-4ee3-a4f7-dede80b38503</Guid>
+          <Guid>eda33aba-2fc3-4169-b988-7904a5984e08</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\HQSkyboxesII_K1_BOSSR\override\*</Item>
@@ -2051,14 +2049,14 @@ Some information has been censored to prevent spoilers.</Description>
           <Destination>&lt;&lt;kotorDirectory&gt;&gt;\Override</Destination>
         </Instruction>
         <Instruction>
-          <Guid>30bc878a-48c7-463d-bf0a-1fec06c2dc2d</Guid>
+          <Guid>2fc733dc-6ad6-4e7e-a3e9-0989c31259ff</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\High quality skyboxes model fixes.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>1a080121-9962-4224-b73d-fb12961b7280</Guid>
+          <Guid>09a2a2ea-1251-4c24-afaf-fb44721893d4</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\High quality skyboxes model fixes\High quality skyboxes model fixes\*</Item>
@@ -2068,7 +2066,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>671413ff-9726-4431-89ef-245c6f5d1bb8</Guid>
+      <Guid>e5bdba7f-07e6-41f7-966b-158464763742</Guid>
       <Name>Ebon Hawk Transparent Cockpit Windows for K1</Name>
       <Author>WildKarrde</Author>
       <Description>By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside.</Description>
@@ -2085,29 +2083,29 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).</Directions>
       <Instructions>
         <Instruction>
-          <Guid>b05a3eb4-55a0-4a93-9065-4a91501e55b0</Guid>
+          <Guid>cd98b671-30c0-4174-862a-6990fd9d4c82</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>38a7d3ef-61a7-41a3-a47a-abe89cc153e8</Guid>
+          <Guid>36b92aad-34e9-44fc-8682-1836c3b8fe20</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>5405fc97-3035-4ccc-b9eb-444b0d2fd9e5</Item>
-            <Item>27e28b08-78fc-47be-9e2a-94d802d713ec</Item>
+            <Item>cd229574-1a3d-4801-be9a-1a874af2019d</Item>
+            <Item>e14f6fc2-ae2a-4f43-bd8b-2f763d171a93</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>5405fc97-3035-4ccc-b9eb-444b0d2fd9e5</Guid>
+          <Guid>cd229574-1a3d-4801-be9a-1a874af2019d</Guid>
           <Name>Compatibility Patches</Name>
           <Description>Install files from Compatibility Patches folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>236735a6-cdae-4117-8492-b2adef440e85</Guid>
+              <Guid>ba1a4393-3648-4dd9-aa47-3122a6402ba5</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1\Compatibility Patches\*</Item>
@@ -2117,12 +2115,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>27e28b08-78fc-47be-9e2a-94d802d713ec</Guid>
+          <Guid>e14f6fc2-ae2a-4f43-bd8b-2f763d171a93</Guid>
           <Name>Main Installation</Name>
           <Description>Install files from Main Installation folder</Description>
           <Instructions>
             <Instruction>
-              <Guid>a3f00fcc-4718-46f7-a88c-b3be60ef6436</Guid>
+              <Guid>cd1b13b8-5e17-43d7-a8da-1ef07d723eb9</Guid>
               <Action>Move</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1\Main Installation\*</Item>
@@ -2134,7 +2132,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>62ff8790-5873-4766-8df4-ec91250b0bee</Guid>
+      <Guid>015130dd-df92-48bb-b34c-6fc502d6574a</Guid>
       <Name>Hi-Res Beam Effects</Name>
       <Author>InSidious</Author>
       <Description>An ambitious effect replacer for most "beam" style attacks in the game. Don't let the still screenshots fool you, this is an extremely well-made mod that looks excellent compared to the original textures when in-game.</Description>
@@ -2150,14 +2148,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>e257a421-73fa-4d5c-b56a-1cd83cf45561</Guid>
+          <Guid>5c436c61-725c-4fe2-b2cf-eecfad271d45</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\DI_HRBM_2.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>5d858920-6cc2-4468-b937-d0dd1684b310</Guid>
+          <Guid>bd44939b-c440-4f82-b105-5a6fcf74493b</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\DI_HRBM_2\*</Item>
@@ -2167,7 +2165,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>3dbae052-b9b7-4a00-aa7b-974fee076c42</Guid>
+      <Guid>f102cc80-c2f8-4c53-bae2-a3f1b48b5c0b</Guid>
       <Name>HD Fire and Ice</Name>
       <Author>Cinder Skye</Author>
       <Description>Makes further improvements to the fire and ice textures above and beyond those included in the above mod.</Description>
@@ -2183,14 +2181,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>b54c859b-84ca-4616-b469-3877d6aba92a</Guid>
+          <Guid>8680742f-9b2b-48ac-8fd3-7f85b71d75b8</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\FireandIceHDWhee.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>d003b8c1-0e46-47ba-b381-edbc117d8182</Guid>
+          <Guid>5f80230b-b8f7-4d6c-9ebe-66f1bdd4a4f1</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\FireandIceHDWhee\*</Item>
@@ -2200,7 +2198,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>92b52bc4-53e2-4e92-b29f-b2ac640e1c55</Guid>
+      <Guid>a028280d-18a2-4578-9c4f-c5cfc3e5b6c8</Guid>
       <Name>Animated Energy Shields</Name>
       <Author>Dark Hope</Author>
       <Description>Probably one of the best mods I never thought about having before. Modernizes the incredibly unwieldy and intrusive old energy shield graphics, which were both ugly and interfered with the player's vision, with new animated textures that are simultaneously more modern, less intrusive, and higher-quality.</Description>
@@ -2217,14 +2215,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>ab451272-8aa6-4ac7-bddc-f143db40c564</Guid>
+          <Guid>f71e05dc-0f20-4d23-a648-ae9ab12f945d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Animated energy shields.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>49b3b224-9cdd-4057-980d-abbdeb008b7b</Guid>
+          <Guid>6bb7b51d-1565-4696-90f7-7def4b5a6400</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Animated energy shields\*</Item>
@@ -2234,7 +2232,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>6bf2fb3d-8d6e-41ef-890e-936c59e15e23</Guid>
+      <Guid>842a678c-ac8c-4065-867c-7acb41605583</Guid>
       <Name>Animated Cantina Sign</Name>
       <Author>Sith Holocron</Author>
       <Description>Animates some cantina signs which were previously stationary.</Description>
@@ -2250,14 +2248,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>f49aba92-c3d6-490e-8d84-6a44f1173c7b</Guid>
+          <Guid>c92f12b8-e897-46e9-b8ce-b070808e77b8</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\SH_AnimatedCantinaSign.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>0b8beb83-15db-4f05-9a5c-e2a56386b84b</Guid>
+          <Guid>a13f3a4e-42eb-49c3-aa58-0a2921d317b2</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\SH_AnimatedCantinaSign\*</Item>
@@ -2267,7 +2265,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>7b5bedbc-f1bb-40fe-b833-9a329fd86dbd</Guid>
+      <Guid>faa8d1c9-f57b-4b87-bb08-78fdc5530632</Guid>
       <Name>New Lightsaber Blade Models</Name>
       <Author>Crazy34</Author>
       <Description>With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.</Description>
@@ -2286,33 +2284,33 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!</Directions>
       <Instructions>
         <Instruction>
-          <Guid>6eed5786-89b9-40f6-8397-bf21376d93d8</Guid>
+          <Guid>9c63f671-9cd2-48ba-b989-f4f97a1019cb</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>1284f3f3-a3ac-482f-9ac8-ef788399b60e</Guid>
+          <Guid>baa900db-6fc8-4853-8b20-789c55144fb5</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>04860ffa-eab8-46ca-8a93-3a108e8b93ec</Item>
-            <Item>6d629c1b-0dc3-4bad-9450-8087517fda03</Item>
-            <Item>f0d82810-ff29-450a-a6fd-2675fae908d0</Item>
-            <Item>8f57314f-4f61-4152-89ab-750cf3213f1d</Item>
-            <Item>da86251d-a693-4c54-bfc2-23efc618ec0e</Item>
-            <Item>39fe4bfd-658e-4597-bcde-665da9932291</Item>
+            <Item>4b73a30d-20b4-4cf9-b501-06d43aebcec4</Item>
+            <Item>0100c9d9-7bf2-4de1-b10e-ed31d5db1674</Item>
+            <Item>72a45b9d-da93-433f-99e3-74dd463bb49f</Item>
+            <Item>7030b1ed-e716-4aee-a4be-39cefef3326d</Item>
+            <Item>9ee706a4-bf69-4ce4-bbf0-e31508b9c2b9</Item>
+            <Item>78b51bf0-2970-4cfd-9142-4821cacab12e</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>04860ffa-eab8-46ca-8a93-3a108e8b93ec</Guid>
+          <Guid>4b73a30d-20b4-4cf9-b501-06d43aebcec4</Guid>
           <Name>Modify Standard Lightsaber (Vanilla sabers)</Name>
           <Description>Adds new blade models and environmental glow to lightsabers.</Description>
           <Instructions>
             <Instruction>
-              <Guid>6b3a65cf-f43d-4765-b62f-03e93318dc73</Guid>
+              <Guid>69a35d82-8f9d-4f99-a237-48089edb9999</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2323,12 +2321,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>6d629c1b-0dc3-4bad-9450-8087517fda03</Guid>
+          <Guid>0100c9d9-7bf2-4de1-b10e-ed31d5db1674</Guid>
           <Name>Adds black core lightsabers</Name>
           <Description>Adds new black core lightsabers.</Description>
           <Instructions>
             <Instruction>
-              <Guid>0d69b17f-c324-4716-8598-e1d5ffeed26d</Guid>
+              <Guid>7d1abb1c-c4b8-4f3c-99f2-0414726978cd</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2339,12 +2337,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>f0d82810-ff29-450a-a6fd-2675fae908d0</Guid>
+          <Guid>72a45b9d-da93-433f-99e3-74dd463bb49f</Guid>
           <Name>Adds unstable lightsabers</Name>
           <Description>Adds new unstable lightsabers.</Description>
           <Instructions>
             <Instruction>
-              <Guid>0e96a64b-a997-4db1-97af-de6998095359</Guid>
+              <Guid>fcf72b2e-0c32-4bf8-9cd7-7936723a4ed4</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2355,12 +2353,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>8f57314f-4f61-4152-89ab-750cf3213f1d</Guid>
+          <Guid>7030b1ed-e716-4aee-a4be-39cefef3326d</Guid>
           <Name>Adds crossguard lightsabers (Optinal)</Name>
           <Description>Adds new crossguard lightsabers. Requires the installation of the standrad lightsabers first!</Description>
           <Instructions>
             <Instruction>
-              <Guid>916220a6-dfb9-49c4-a851-3b057a981c3e</Guid>
+              <Guid>dccac3ec-7ea5-4e99-bad2-54ec019178cb</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2371,12 +2369,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>da86251d-a693-4c54-bfc2-23efc618ec0e</Guid>
+          <Guid>9ee706a4-bf69-4ce4-bbf0-e31508b9c2b9</Guid>
           <Name>Adds black core crossguard lightsabers (Optinal)</Name>
           <Description>Adds new black core crossguard lightsabers. Requires the installation of the black core lightsabers first!</Description>
           <Instructions>
             <Instruction>
-              <Guid>e9c9d245-6d77-4b57-96ed-d5ca7d9aa646</Guid>
+              <Guid>1f5a8f19-b347-4325-bc56-3c8626e07f1a</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2387,12 +2385,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>39fe4bfd-658e-4597-bcde-665da9932291</Guid>
+          <Guid>78b51bf0-2970-4cfd-9142-4821cacab12e</Guid>
           <Name>Adds unstable crossguard lightsabers (Optinal)</Name>
           <Description>Adds new unstable crossguard lightsabers. Requires the installation of the unstable lightsabers first!</Description>
           <Instructions>
             <Instruction>
-              <Guid>386bf921-844a-4125-8106-14015b4f3762</Guid>
+              <Guid>191552d8-c384-4285-b839-9bd638f1a8b5</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\New_Lightsaber_Blades_K1_v_1\TSLPatcher.exe</Item>
@@ -2405,7 +2403,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>690eadb2-aeb0-4d6a-948e-4b01f2fec2c8</Guid>
+      <Guid>26c5ce01-103f-402d-bce2-1c9ec414e75e</Guid>
       <Name>Wookiee Warblade Fix</Name>
       <Author>RedRob</Author>
       <Description>A reuploaded variant of an older fix by RedRob, this mod elongates the handle of the Wookiee Warblade weapon so that the player no longer tries to grip it directly with their hands.</Description>
@@ -2421,14 +2419,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>55b20800-4496-4076-bc76-e6e40c79d3c1</Guid>
+          <Guid>7492b88d-dda3-41f1-9f28-e6ff06d197cd</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\WookieWarbladeFix-Redrob41.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>59586c4b-43b0-41dc-bd11-206bdf3a560d</Guid>
+          <Guid>252b7b1c-0fcd-47b5-b78c-d74c717a8e5e</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\WookieWarbladeFix-Redrob41\*</Item>
@@ -2438,7 +2436,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>c1bf3a19-a4e8-4f9c-90ee-cb807b8195f2</Guid>
+      <Guid>a474bf48-2b11-45f5-a85f-a04a900e30f1</Guid>
       <Name>Kill the Czerka Jerk on Kashyyyk</Name>
       <Author>TamerBill</Author>
       <Description>If you're feeling a bit sociopathic, this mod lets you kill a particularly rude Czerka employee on Kashyyyk.</Description>
@@ -2454,14 +2452,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>d99144c7-0a66-4b19-aa31-eee3bc8020a9</Guid>
+          <Guid>4919b186-5588-47c2-9acb-cc4d2d69547d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KillCzerkaJerk.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>5b1d539f-f58c-4ef8-8965-d967d7f7b992</Guid>
+          <Guid>a4ee902c-a736-4957-bb0d-90f70801c2c5</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\KillCzerkaJerk\nwnnsscomp.exe</Item>
@@ -2471,7 +2469,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>465d1078-35f2-4639-9b8a-5e8f47335817</Guid>
+      <Guid>c316481a-fd18-479d-9413-202eed234c50</Guid>
       <Name>Korriban Academy Workbench</Name>
       <Author>InSidious</Author>
       <Description>By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.</Description>
@@ -2487,14 +2485,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>ed5a733e-209e-42e9-8f7b-1e9cf3e02030</Guid>
+          <Guid>f73b9d2c-d1fe-4257-a034-89ca8a3cf0de</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\di_kaw2.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>f5b3cc60-d2ee-45db-89fb-9ac0000507f7</Guid>
+          <Guid>cd570075-9c28-45a7-ba91-49efa188ea7d</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\di_kaw2\*</Item>
@@ -2504,7 +2502,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>a0b6a5b6-0775-4611-ba0b-2b00dd14cc89</Guid>
+      <Guid>87334e0c-0aec-4619-b970-fca26afdc147</Guid>
       <Name>Senni Vek Restoration</Name>
       <Author>N-DReW25</Author>
       <Description>Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.</Description>
@@ -2520,14 +2518,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>f8d50508-5856-4c86-8087-a51d3d002215</Guid>
+          <Guid>2c0afec4-58cc-428d-a8fd-e5b9dc13360a</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Senni Vek Restoration CENSORED.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>782b9981-0da5-4932-8510-ec838f7a0a1a</Guid>
+          <Guid>a89c59d8-d046-41a6-a1eb-6c66737dec9a</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Senni Vek Restoration CENSORED\Senni Vek Restoration\*</Item>
@@ -2537,7 +2535,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>f391967e-5994-48ae-9032-c38171296a60</Guid>
+      <Guid>12c248f5-b003-4114-b76a-207471442706</Guid>
       <Name>KOTOR 1 Twi'lek Male NPC Diversity</Name>
       <Author>Leilukin</Author>
       <Description>Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs.</Description>
@@ -2554,30 +2552,30 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).</Directions>
       <Instructions>
         <Instruction>
-          <Guid>151b6393-bea6-4cad-b49d-aab34e29d7de</Guid>
+          <Guid>ec8ef373-270c-41b2-9e9b-3ec55816a36d</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Twi'lek Male NPC Diversity.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>668309ff-d286-42ce-8c29-191e617ffa9e</Guid>
+          <Guid>6340d64e-61d4-4c87-a95a-cd752afa2d84</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>d4085435-33a4-4e2f-a153-9aa5e8a3492d</Item>
-            <Item>36d3c971-4afb-4c09-b210-587ac826a664</Item>
-            <Item>46bcfe79-1f21-418f-80a5-4851ab25faae</Item>
+            <Item>899ba68f-e83a-4ff8-b810-a42a6c3aef83</Item>
+            <Item>d6cfc2e2-812e-481d-bbf8-a09bea7f3892</Item>
+            <Item>50202673-d9d5-444a-a715-7a4774897cc3</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>d4085435-33a4-4e2f-a153-9aa5e8a3492d</Guid>
+          <Guid>899ba68f-e83a-4ff8-b810-a42a6c3aef83</Guid>
           <Name>Main Installation</Name>
           <Description>The main component of the mod.</Description>
           <Instructions>
             <Instruction>
-              <Guid>84dfd318-f2fa-40f4-b0c1-e87062c15a00</Guid>
+              <Guid>a07298c9-ef0f-4dcb-981e-9c6806927322</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR 1 Twi'lek Male NPC Diversity\TSLPatcher.exe</Item>
@@ -2588,12 +2586,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>36d3c971-4afb-4c09-b210-587ac826a664</Guid>
+          <Guid>d6cfc2e2-812e-481d-bbf8-a09bea7f3892</Guid>
           <Name>RC-K1CP/Senni Vek Restoration Compatibility</Name>
           <Description>Compatibility patch for N-DReW25's Restored Content for K1CP (RC-K1CP) or Senni Vek Mod's "Senni Vek Restoration" version. NOTE: You MUST install the main component of my mod before installing this patch!</Description>
           <Instructions>
             <Instruction>
-              <Guid>6d3cdc17-339e-4eb1-92ad-e03eacd4ffa1</Guid>
+              <Guid>8665828d-b10c-4848-8f02-82477275768f</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR 1 Twi'lek Male NPC Diversity\TSLPatcher.exe</Item>
@@ -2604,12 +2602,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>46bcfe79-1f21-418f-80a5-4851ab25faae</Guid>
+          <Guid>50202673-d9d5-444a-a715-7a4774897cc3</Guid>
           <Name>Senni Vek's Ambush Compatibility</Name>
           <Description>Compatibility patch for the "Senni Vek's Ambush" version of N-DReW25's Senni Vek Mod. NOTE: You MUST install the main component of my mod before installing this patch!</Description>
           <Instructions>
             <Instruction>
-              <Guid>5135331e-1251-4992-b287-3ac4bd2fb596</Guid>
+              <Guid>7fd1caf0-e6f8-4b51-9d74-7f1bc2f7cc4f</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\KotOR 1 Twi'lek Male NPC Diversity\TSLPatcher.exe</Item>
@@ -2622,7 +2620,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>d6878fb9-9ec3-43b0-b9f2-14fbbb90045d</Guid>
+      <Guid>4de00c33-8644-4725-bff8-7571d9c02885</Guid>
       <Name>Ixgil the Bith</Name>
       <Author>Crimson Knight</Author>
       <Description>The definition of modding hubris. When the power to change the universe at the tips of one's fingers leads a man to spend more time making a mod than the combined thousands of users who ever download it will even see what he did on screen.
@@ -2640,14 +2638,14 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>40233af9-e7a9-4688-a2df-48b27896f100</Guid>
+          <Guid>8bfe320c-cb15-4e1d-b4a0-3e36b5424311</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\CK-Ixgil the Bith.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>0217f12a-d8ea-48ee-9160-d64f4837b343</Guid>
+          <Guid>43a2bd17-7519-4eca-8c84-43389ed31591</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Ixgil the Bith\TSLPatcher.exe</Item>
@@ -2657,7 +2655,7 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </Instructions>
     </Component>
     <Component>
-      <Guid>6b237a65-622c-4fd3-8462-b7668d50162e</Guid>
+      <Guid>c8bf68a5-0651-42be-aabd-dfe4831ba578</Guid>
       <Name>Hidden Bek Control Room Restoration</Name>
       <Author>N-DReW25</Author>
       <Description>In the PC release, there's a locked door in a gang compound on Taris which was probably never intended to be closed off to the player. This mod unlocks it and restores some limited dialogue with its occupant provided you initiate a certain sequence.</Description>
@@ -2673,14 +2671,14 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>b7884b5d-3472-4c65-ac15-24135fb74243</Guid>
+          <Guid>fd22649f-c629-4f1d-b401-e5a6864dbd70</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Bek Control Room Restoration 1.1.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>8a6d01f5-5217-47e8-a6b1-abaf9022c5b2</Guid>
+          <Guid>73296c32-532f-4d28-a778-a36261e5d6f7</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Bek Control Room Restoration 1.1\Bek Control Room Restoration 1.1\*</Item>
@@ -2690,7 +2688,7 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </Instructions>
     </Component>
     <Component>
-      <Guid>819be690-aa39-4b6a-aae2-b44670d2ca1a</Guid>
+      <Guid>679ebde3-41cf-4038-944e-fe33f2d6b435</Guid>
       <Name>Swoop Bike Upgrades</Name>
       <Author>Salk</Author>
       <Description>Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance to make winning races easier. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.</Description>
@@ -2706,14 +2704,14 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>0f52a9ad-2fb5-40d5-92f9-fcce2dda7d89</Guid>
+          <Guid>de37e844-0292-4004-9738-6bf0b2b9b8a9</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[KotOR] Swoop Bike Upgrades 1.1.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>4be1e6e7-aee3-490b-8ee9-7544525b8bc7</Guid>
+          <Guid>bd232265-29fc-45cd-8c1e-c1522f3c8426</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\[KotOR] Swoop Bike Upgrades 1.1\TSLPatcher.exe</Item>
@@ -2723,7 +2721,7 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
       </Instructions>
     </Component>
     <Component>
-      <Guid>b057a5b6-e8ed-4544-b7c5-81d79fe3da7b</Guid>
+      <Guid>ce5c0fbe-4433-484a-b82d-81eace3660e6</Guid>
       <Name>JCDE</Name>
       <Author>Emperor Devon</Author>
       <Description>This mod takes some extremely simplistic and childish dialogue and makes it more expansive and detailed, with unique player responses based upon your current alignment.
@@ -2742,14 +2740,14 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Move "dan13_dorak.dlg" only.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>46e38b27-198e-4348-b4e3-2fb91573807d</Guid>
+          <Guid>e8904b74-3384-4df1-b5a2-86373e677c00</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JCDE.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>3e88fd7b-7f2b-4726-bc8a-ebd9e2cebc8a</Guid>
+          <Guid>438a3a08-192d-4001-9bc8-151caa8e1666</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JCDE\JCDE\*</Item>
@@ -2759,7 +2757,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>0de69d90-ce12-4bc8-86d2-ffd1809d3dea</Guid>
+      <Guid>840c89a2-d205-4c4a-8a57-7b616d869329</Guid>
       <Name>J Dialogue Restoration</Name>
       <Author>Leilukin</Author>
       <Description>Inexplicably, a particular optional companion has dialogue to ask about each planet you visit which was removed, as well as special conversations about two other unique circumstances the party finds themselves in. This mod restores them all. Some information has been censored to prevent spoilers.</Description>
@@ -2775,14 +2773,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>6751c5d5-c8da-4bf2-9f6e-48367505dfc2</Guid>
+          <Guid>c2c77be2-37cb-4a16-8749-347aac37a069</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\J Dialogue Restoration.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>513b954b-3998-40c7-a563-ce566c33d70c</Guid>
+          <Guid>69116e39-c87f-4203-961c-8ea58b24e85c</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\J Dialogue Restoration\J Dialogue Restoration\*</Item>
@@ -2792,7 +2790,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>3f7410b1-0b99-4b69-a86f-2b1469f5f7f6</Guid>
+      <Guid>da367010-35e3-47bd-8d77-06cddaa31e42</Guid>
       <Name>Vision Enhancement</Name>
       <Author>JCarter426</Author>
       <Description>In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.</Description>
@@ -2808,29 +2806,29 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>b2644bd9-7122-4a53-86a7-bf563ecf6b73</Guid>
+          <Guid>f4b15f8d-5388-458c-89c5-05a6474abe82</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Vision Enhancement for K1 v1.2.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>c52cb827-411e-4a1d-939b-c2eef7fedc85</Guid>
+          <Guid>9aad02f7-4c25-420b-ac84-58b5c28754ca</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>dcba1f01-8103-4e2b-86c7-6d631ab1ac99</Item>
-            <Item>5e3bf297-18cf-435b-bd54-17e5dbe2aac3</Item>
+            <Item>8d00cac1-d4ab-4df0-86ec-47e71b96ef01</Item>
+            <Item>13976161-9c60-4fc1-86e7-971086d3f679</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>dcba1f01-8103-4e2b-86c7-6d631ab1ac99</Guid>
+          <Guid>8d00cac1-d4ab-4df0-86ec-47e71b96ef01</Guid>
           <Name>JC's Vision Enhancement for K1 - Basic Installation</Name>
           <Description>This installs the basic version of the Vision Enhancement. Choose this option if you aren't worried about changes other mods make to the visions.</Description>
           <Instructions>
             <Instruction>
-              <Guid>6ad68161-9672-4d75-8dfe-36cbe51a2b3a</Guid>
+              <Guid>1a478b54-8977-4791-ac1a-4e284cf7c49b</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Vision Enhancement for K1 v1.2\TSLPatcher.exe</Item>
@@ -2841,12 +2839,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>5e3bf297-18cf-435b-bd54-17e5dbe2aac3</Guid>
+          <Guid>13976161-9c60-4fc1-86e7-971086d3f679</Guid>
           <Name>JC's Vision Enhancement for K1 - K1R-Compatible Installation</Name>
           <Description>Choose this option if you use the KOTOR 1 Restoration and want to retain its changes to the Taris vision.</Description>
           <Instructions>
             <Instruction>
-              <Guid>075871cc-4632-47f1-998a-8c98dce9f7e2</Guid>
+              <Guid>054e6425-2a90-4830-92eb-947a8e129ad9</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Vision Enhancement for K1 v1.2\TSLPatcher.exe</Item>
@@ -2859,7 +2857,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>8bdcea7f-4caf-477b-87c2-9a1f0fc86151</Guid>
+      <Guid>cf9bb137-1c84-49ba-94c4-c4faf8f5e5c1</Guid>
       <Name>LDD</Name>
       <Author>Revanator</Author>
       <Description>In the vanilla game, during a brief sequence where you play as a companion, when your controlled companion speaks to other NPCs they don't have any unique dialogue. This mod gives them new flavor dialogue which matches their personalities. Some information has been censored to prevent spoilers.</Description>
@@ -2876,14 +2874,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>4ae34e3f-13c9-4298-854e-de056e03a7a0</Guid>
+          <Guid>066bc5ac-b8e8-4371-a571-16c25a45361c</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\LDD.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>b06acddf-00a0-4f51-9d6c-6be28b4b3610</Guid>
+          <Guid>07b8b9f0-5b44-44a1-9171-75a74292c00a</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\LDD\LDD\*</Item>
@@ -2893,7 +2891,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>4d73f2ed-970d-42f6-b3ee-e4811f637e08</Guid>
+      <Guid>9c95cd49-620b-4783-8dc9-76a0edb74e5c</Guid>
       <Name>Balanced Pazaak</Name>
       <Author>A Future Pilot</Author>
       <Description>Pazaak (basically blackjack with bonus cards) in the original KOTOR features AI that cheat, badly. While there's no way to prevent the computer from favoring NPCs in draws, there is a way to drastically reduce their ability to help themselves, and that's to give them all decks one tier lower than what their difficulty says they should have.</Description>
@@ -2909,14 +2907,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>25de96a7-b184-42d3-b27c-518efa4fde38</Guid>
+          <Guid>590fd8a6-61e6-497b-88cf-fcbacefcb66b</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Balanced Pazaak.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>354b9e04-0444-4d4f-ade3-da6f4885ae9c</Guid>
+          <Guid>df6f2a8c-23ec-4839-a3b8-85353c2e0122</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Balanced Pazaak\Override\*</Item>
@@ -2926,7 +2924,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>10f4a01e-10d3-41ac-a1ca-ab951ae62355</Guid>
+      <Guid>3e6e7e8e-9d71-48fa-97e7-f385f36c74de</Guid>
       <Name>Ebon Hawk Camera Replacement</Name>
       <Author>LDR</Author>
       <Description>By default, the camera angle inside the *Ebon Hawk* is ridiculously close to the PC, which not only makes the PC take up the majority of the screen, it also makes it very hard to see around you. This mod replaces the *Ebon Hawk* camera angle with one closer to the camera angles present in the rest of the game, and similar to KOTOR 2's *Ebon Hawk* camera angle.</Description>
@@ -2942,14 +2940,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>3afdf32e-43bf-4086-a657-451e5cd8a242</Guid>
+          <Guid>72a9d097-f245-4af5-b353-e95b06f878ed</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\ebon_hawk_camera.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>7f2fdfda-33ea-429d-8324-edae8d477a35</Guid>
+          <Guid>3c4ae8d2-aacd-4f79-94ab-44067462abb2</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\ebon_hawk_camera\ebon_hawk_camera\*</Item>
@@ -2959,7 +2957,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>82729324-a567-4f67-8da8-f09b55824038</Guid>
+      <Guid>868a744c-7cd4-424d-acd5-071c9d83a462</Guid>
       <Name>Rebalanced Grenades</Name>
       <Author>Timbo</Author>
       <Description>In the base-game, grenades typically aren't very useful after the first few planets, once Force powers and the PC's combat capabilities begin to spin up. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.</Description>
@@ -2975,14 +2973,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>f6fbebaf-d260-4a2e-8973-111aa1da5afa</Guid>
+          <Guid>c78a83ab-dab6-4155-8cb6-9fd05f05c0a6</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Rebalanced Grenades v1.0.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>585c8f9d-3c44-4850-be8b-ddf685d64f63</Guid>
+          <Guid>dc53a6f7-73f7-4bf5-8c22-c267b5f1ee7e</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Rebalanced Grenades v1.0\TSLPatcher.exe</Item>
@@ -2992,7 +2990,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>19d8c0d2-bd34-4253-bc55-c96c861eb2ec</Guid>
+      <Guid>2d7fe37d-d9f2-4068-8b7f-d94ed025ae9a</Guid>
       <Name>Grenades and Mines HD</Name>
       <Author>Dark Hope</Author>
       <Description>A companion to the high-poly grenade mod which creates much-improved textures that can take advantage of the better grenade model.</Description>
@@ -3008,18 +3006,18 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Directions>Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.</Directions>
       <Dependencies>
-        <Item>8c9ddf6d-b270-4014-871c-6c389246ed03</Item>
+        <Item>4523e1fb-9cf4-49ee-94f1-6eb1de78f02d</Item>
       </Dependencies>
       <Instructions>
         <Instruction>
-          <Guid>a256096e-6f2e-4cf8-b3b7-1200314e98f9</Guid>
+          <Guid>1a0a1c69-21fd-411f-8db9-92875e4c8179</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Grenades and mines HD.rar</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>16eb4537-7084-4f2a-84f3-c3bb6cf41969</Guid>
+          <Guid>5dcd271b-cfda-4c99-80d5-d5a715849186</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\Grenades and mines HD\*</Item>
@@ -3029,7 +3027,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>d433f7a6-a807-4705-a7d1-376b7644d32e</Guid>
+      <Guid>3fa3ec82-2f08-47bd-b1fb-d3581fec09c1</Guid>
       <Name>Ain't No Air in Space</Name>
       <Author>JCarter426</Author>
       <Description>Ain't no air in space.</Description>
@@ -3045,14 +3043,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>22a2269b-d19a-4267-a8d7-427f6c2ba4b0</Guid>
+          <Guid>85ed2f9d-4c1f-43f5-ac05-28980a23da49</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Leviathan - Ain't No Air In Space for K1.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>1ee30473-fafe-4d26-bdb7-862cdb32ed5f</Guid>
+          <Guid>3b753b0e-f439-41fe-b306-d729b82ca50a</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Leviathan - Ain't No Air In Space for K1\TSLPatcher.exe</Item>
@@ -3062,7 +3060,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>88f382f2-34e2-4fe9-9f16-2f0e232b0c91</Guid>
+      <Guid>9030d4e5-7d6c-4e85-8221-a79b04e9a078</Guid>
       <Name>Party Conversations on the Ebon Hawk</Name>
       <Author>WildKarrde</Author>
       <Description>There are many companion dialogues that, in vanilla, can only happen if you bring both the relevant companions to the overworld and run around with them for a bit. In this mod, Wildkarrde borrows a bit from how KOTOR 2 handles companion interactions by allowing many of these dialogues to occur on the your ship, so you won't miss the unique interactions even if you don't use the companions in question.</Description>
@@ -3079,30 +3077,30 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>Use the K1CP compatible install option, if using the K1CP (you should be).</Directions>
       <Instructions>
         <Instruction>
-          <Guid>a933b135-1130-43bd-b737-cb3d0096e656</Guid>
+          <Guid>546b0abd-8075-4bdf-988f-94875386be14</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Party Conversations on Ebon Hawk v1_3.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>07e451a0-58ba-4fbc-8438-0c5c69bb6ece</Guid>
+          <Guid>9b76853a-4c80-4298-afc3-c77130b6f9bc</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>b3fdb700-ab4c-4db1-94c1-493899681981</Item>
-            <Item>8651704d-3039-4154-8ceb-e8478794179d</Item>
-            <Item>ec8b746a-3476-4480-8223-721338fa0b1e</Item>
+            <Item>c5914e42-6316-47d5-bae3-118c904f9d0f</Item>
+            <Item>54d6eb74-dcdd-4e53-af8f-43d64e815460</Item>
+            <Item>1556f9d5-1f8b-4904-ac09-0ae77b02f86d</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>b3fdb700-ab4c-4db1-94c1-493899681981</Guid>
+          <Guid>c5914e42-6316-47d5-bae3-118c904f9d0f</Guid>
           <Name>Standard Installation</Name>
           <Description>Standard version of the full installation.  Not compatible with the KOTOR 1 Community Patch.</Description>
           <Instructions>
             <Instruction>
-              <Guid>1f76e033-1361-4275-8299-efa8dafdeb92</Guid>
+              <Guid>9a53c2bc-8dcb-493a-bfec-24d338ce58eb</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Party Conversations on Ebon Hawk v1_3\TSLPatcher.exe</Item>
@@ -3113,12 +3111,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>8651704d-3039-4154-8ceb-e8478794179d</Guid>
+          <Guid>54d6eb74-dcdd-4e53-af8f-43d64e815460</Guid>
           <Name>KOTOR 1 Community Patch Compatible</Name>
           <Description>K1CP-compatible version of the full installation.</Description>
           <Instructions>
             <Instruction>
-              <Guid>3f5eabd5-78ef-4ada-9871-f77e94e28895</Guid>
+              <Guid>7e1479fe-fe24-49ad-aa16-2e2d5cc763ed</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Party Conversations on Ebon Hawk v1_3\TSLPatcher.exe</Item>
@@ -3129,12 +3127,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>ec8b746a-3476-4480-8223-721338fa0b1e</Guid>
+          <Guid>1556f9d5-1f8b-4904-ac09-0ae77b02f86d</Guid>
           <Name>OPTION:  Ebon Hawk/Hideout Only</Name>
           <Description>Makes it so that party conversations only play at the Ebon Hawk and the Taris apartment hideout.  Requires the main portion of the mod to be installed first.</Description>
           <Instructions>
             <Instruction>
-              <Guid>2b655a21-2463-4a0f-94ce-4f16eb246050</Guid>
+              <Guid>f435160d-e549-414d-bda4-c3037028c8db</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\K1 Party Conversations on Ebon Hawk v1_3\TSLPatcher.exe</Item>
@@ -3147,7 +3145,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Options>
     </Component>
     <Component>
-      <Guid>54114c8d-76bb-4f30-87e3-e6f652cd1b3e</Guid>
+      <Guid>c9fbf413-5452-4eb2-b48c-add173940c6b</Guid>
       <Name>JC's Romance Enhancement: Dark Sacrifice</Name>
       <Author>JCarter426</Author>
       <Description>In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.</Description>
@@ -3163,14 +3161,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>65eae954-0446-4f9b-a48a-d24965262efd</Guid>
+          <Guid>f194709c-dc25-466b-b1c5-44da588afd56</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>6ec31033-5780-4f6b-9502-677e8711460a</Guid>
+          <Guid>c301b2dd-f016-4673-b38a-097f6b0e84e9</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0\TSLPatcher.exe</Item>
@@ -3178,7 +3176,7 @@ Some information has been censored to prevent spoilers.</Description>
           <Destination>&lt;&lt;kotorDirectory&gt;&gt;</Destination>
         </Instruction>
         <Instruction>
-          <Guid>1c0833bc-546b-49b7-a7e7-fc52df1fe0bd</Guid>
+          <Guid>650c18b8-39ef-48f5-a2d2-2093eec5943c</Guid>
           <Action>Move</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0\source\*</Item>
@@ -3188,7 +3186,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>2834c2d6-cf41-46a0-a756-b35eda0fff1a</Guid>
+      <Guid>ae62d6f5-9789-4176-b84d-bf6e033ffe68</Guid>
       <Name>Saber Throw Knockdown Effect</Name>
       <Author>uwadmin12</Author>
       <Description>By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.</Description>
@@ -3204,14 +3202,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>6f7d9286-909e-4167-8cdc-297cfd7d1d65</Guid>
+          <Guid>1ee22343-0e85-4e6d-b529-ac283748c0dd</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\saberthrow_kd.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>13441227-8b0e-41f0-9c9a-04a48b4d45e8</Guid>
+          <Guid>c642e633-ab74-4b0e-a7bd-56708c5b0d31</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\saberthrow_kd\TSLPatcher.exe</Item>
@@ -3221,7 +3219,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>c64fe017-0298-40a9-8e9f-458026f9bf45</Guid>
+      <Guid>14bd19a2-3e50-44ee-af9e-074766e7e322</Guid>
       <Name>Sunry Murder Recording Enhancement</Name>
       <Author>FallenGuardian</Author>
       <Description>Rather than having Sunry only verbally explain what happened when he murdered the Sith officer on Manaan, there's now a recording that goes along with the dialogue that shows what happened.</Description>
@@ -3238,14 +3236,14 @@ Some information has been censored to prevent spoilers.</Description>
       </ModLinkFilenames>
       <Instructions>
         <Instruction>
-          <Guid>441f0959-e9b7-4650-b7c4-a4b43e4abc80</Guid>
+          <Guid>e4537709-7f58-4414-8525-4f41ede34b8e</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\SMRE Version 3.0.zip</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>3311c46b-8ae4-4f02-859a-1709e3089f9b</Guid>
+          <Guid>2428f381-ad0a-40e6-bd84-5d2acefd25c1</Guid>
           <Action>Patcher</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\SMRE\TSLPatcher.exe</Item>
@@ -3255,7 +3253,7 @@ Some information has been censored to prevent spoilers.</Description>
       </Instructions>
     </Component>
     <Component>
-      <Guid>1ec9e432-2245-4464-b861-41ebe701d120</Guid>
+      <Guid>ab77d095-409a-4939-97fe-009f4de91bdd</Guid>
       <Name>PC Dialogue with Davik's Slave Change</Name>
       <Author>Leilukin</Author>
       <Description>2003 was a different time, but this mod *really* proves that. In vanilla, if you request a 'massage' from some slaves—which has some sexual implications in Star Wars—you get nothing more than a disgusted remark from some companions. You can even threaten them without consequence. This mod properly amends this, giving you two options: for those deeply bothered by the ability to take advantage of the slaves the option to pressure them into servicing you can be removed entirely, whereas the second retains the massage, but gives Dark Side points for requesting it, as well as adding DS points for threatening the slaves at any point.</Description>
@@ -3272,29 +3270,29 @@ Some information has been censored to prevent spoilers.</Description>
       <Directions>I personally recommend option 2.</Directions>
       <Instructions>
         <Instruction>
-          <Guid>4c2efc55-ceb8-494f-82e3-8ba583d64534</Guid>
+          <Guid>f4bbb269-150c-4f4e-8bee-5bd36e35b16e</Guid>
           <Action>Extract</Action>
           <Source>
             <Item>&lt;&lt;modDirectory&gt;&gt;\PC Dialogue with Davik's Slaves Change.7z</Item>
           </Source>
         </Instruction>
         <Instruction>
-          <Guid>749d8b81-06f2-4c9d-877b-ebfcd7971b0b</Guid>
+          <Guid>0f972efa-91c8-4628-8701-1b1dfae47c43</Guid>
           <Action>Choose</Action>
           <Source>
-            <Item>e9eb369d-2c8d-4c37-8a39-bf6ea0c14d5e</Item>
-            <Item>4e9ef486-2487-4b73-bbcd-3dbf44f574ec</Item>
+            <Item>1ac53060-98a4-4be7-8d7e-59c2f33be17b</Item>
+            <Item>1edfc52a-add9-4a9c-855b-596c5463578a</Item>
           </Source>
         </Instruction>
       </Instructions>
       <Options>
         <Option>
-          <Guid>e9eb369d-2c8d-4c37-8a39-bf6ea0c14d5e</Guid>
+          <Guid>1ac53060-98a4-4be7-8d7e-59c2f33be17b</Guid>
           <Name>No Flirting with Davik's Slaves</Name>
           <Description>Removes the option for the player to flirt with Davik's slaves by requesting a massage from them.</Description>
           <Instructions>
             <Instruction>
-              <Guid>64f5ac14-a5b7-4c9b-9fda-afde8803a0db</Guid>
+              <Guid>0de18e02-57a9-4457-ba3f-65c6c6b64916</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\PC Dialogue with Davik's Slaves Change\TSLPatcher.exe</Item>
@@ -3305,12 +3303,12 @@ Some information has been censored to prevent spoilers.</Description>
           </Instructions>
         </Option>
         <Option>
-          <Guid>4e9ef486-2487-4b73-bbcd-3dbf44f574ec</Guid>
+          <Guid>1edfc52a-add9-4a9c-855b-596c5463578a</Guid>
           <Name>Dark Side Points for Massage Request</Name>
           <Description>Requesting a massage from Davik's slaves will give the player Dark Side points.</Description>
           <Instructions>
             <Instruction>
-              <Guid>937859f3-3f05-45b6-89d1-4290c7bfbf91</Guid>
+              <Guid>6c794d78-47bc-416c-aa1b-c4185f642d6c</Guid>
               <Action>Patcher</Action>
               <Source>
                 <Item>&lt;&lt;modDirectory&gt;&gt;\PC Dialogue with Davik's Slaves Change\TSLPatcher.exe</Item>
