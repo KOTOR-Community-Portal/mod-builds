@@ -1,135 +1,3 @@
-# KOTOR 2 Full Build
-
-## Installation Notes
-
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
-
-### Zeroing Step
-
-Unless you have *freshly* installed the game or have never installed KOTOR 2 previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. A significant amount of troubleshooting support we offer is the result of leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
-
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is possible, and therefore necessary for a functional install.
-
-### KOTOR 2 on Steam
-
-If you are playing KOTOR 2 on Steam, *please* check that you're not subscribed to any content on the Workshop--yes, even if you're double-triple-super positive you're not. At least 2-3 times a month we have people come in asking for tech support swearing that they're not subbed to anything on the Workshop, then they go check and it turns out that they subbed to TSLRCM a decade ago and completely forgot about it. It's not fun to find that out after you start your game.
-
-Checking is very simple: just go to your Steam library, right-click KOTOR 2 and select properties, then go to the Workshop tab and confirm nothing appears in the list. Doing this not only helps you avoid major errors during the install process, it also helps us to help you in the event that something goes wrong with your install, because we'll know immediately that the Workshop isn't the problem.
-
-### TSLPatcher Installation Requirements
-
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
-
-Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
-
-As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor, you may need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
-
-### Single Install
-
-It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. If you want to make a backup of your vanilla gamestate, make sure to compress the entire game into an archive (.rar, .zip, .7z, etc.) before starting the install process.
-
-### Known Bugs
-
-* Although all instances of this error should now be fixed, some textures may still have a partial transparency effect applied to them (you will be able to faintly see through them, or part of them, as if they were a slightly more opaque hologram). If you encounter any instances of such textures please report them so I can fix any leftovers.
-* There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
-* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
-
-### Updating from a Prior Build
-
-If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
-
-### Linux Players
-
-Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. It's likely you will need to both lowercase the files before installing any installer-based mod and then again at the end of the process as a batch action in your game directory and all subfolders, as the TSLPatcher/HoloPatcher will generate several files as part of their install processes which will have capitals that are misread.
-
-Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
-
-### Total Filesize on Disk
-
-For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 6.5GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 15.5GB. The total size of the install when extracted (plus HD movies (Pops Maellard's version) in 1920x1080 resolution) is approximately 35GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
-
-## Optional Install Assistant - Quicker TSLPatching
-
-Because of the way KOTOR mods install, it's virtually impossible to have a true mod manager/installer hybrid like those you may be familiar with for other games, like MO2 or FOMM. The best we can really get are tools to accelerate installations, of which one is supported for the mod builds.
-
-### Quicker TSLPatching
-
-[**Quicker TSLPatching**](https://www.nexusmods.com/kotor/mods/1214?tab=description) is a system workaround (specifically a registry edit) which makes it easier to install mods. This script *will not work* on Mac operating systems (neither Linux, I believe) not running Windows on a partition, but there are some comments in the Posts section of the download page that might offer alternatives that allow it to function properly.
-
-This mod features no level of automation, and only serves to speed up the install process of mods installed via the TSLPatcher executable. Mods will frequently use the TSLPatcher to install, and the TSLPatcher often requires you to manually point the installer at your game's base installation directory. Sometimes the patchers do this automatically, but sometimes they fail, which is where this script comes in; it'll create a symlink to your KOTOR and KOTOR 2 install directories direct to your desktop, where the TSLPatcher defaults to pointing, so you only need to scroll down and click the folder to install without navigating through your system's file structure to find the game folder. The script is confirmed safe and once your install is complete you can delete the desktop folders with no problems. To install, you only need to run the script and follow the instructions it presents, choosing your KOTOR directory in the first popup window and your KOTOR 2 directory in the second. If the script does not function for you, check the Posts section of the mod download page to see some alternate suggestions for manually forcing the functionality of the script.
-
-## CRITICAL: PC Version Differences & Fixes
-
-**Your entire install could be unstable if the information in this step is not taken into account**. I hope that's gotten everyone's attention, because it really is that important. This section will be a bit long by necessity, but it is critical.
-
-KOTOR 2 has multiple different versions. The easiest way to refer to these are the Aspyr patch and legacy version. The legacy version is the original release, while the Aspyr patch is a newer update and the default version of the Steam, GoG, and Mac Appstore game copies. It may also be on some more obscure storefronts like the Amazon Games version of KOTOR 2, but we haven't been able to find anyone who owns it there to confirm--if you're ever unsure about which copy you're using, you can boot a freshly-installed copy of the game up with a controller plugged in and see if it responds to controller commands: if it does, you have the patch. If you don't have a controller handy, you can check the resolution options available ingame; if you see 1920x1080 or ultrawide options, you have the patch.
-
-As implied by the above, the Aspyr patch adds some useful functionality like native controller and widescreen support. The patch unfortunately also adds several bugs. Until recently most of these problems were not fixable, though some had workarounds. However, through a series of new tools and patches by J, *all* of the serious problems caused by the Aspyr patch can now be fixed. The only significant issues of note that remain are:
-
-1. The possibility of losing savegames (this can be entirely avoided just by turning off cloud saves)
-2. What can best be described as "dialogue floatiness". Sometimes the dialogue will just... skip, for no good reason. This is different than memory leak-related dialogue skipping, if you're familiar with that in the context of KOTOR. It's more like delayed input reading, where one mouse press to bypass a dialogue line will register as two and instantly skip the next dialogue as well. This is a really annoying bug, but thankfully is fairly rare.
-3. When playing with a controller plugged in, even if not *actually using* the controller, it can cause an issue where the camera becomes vertically offset after upgrading an item in the workbench. Unplugging any controllers while playing resolves the issue entirely, but if you intend to play with a controller the issue must be resolved by saving and loading after it occurs.
-
-All of the above is being brought up now for two important reasons: first, if you're using the Aspyr patch, you *must* apply the fix packages linked further down in this section for this build to function properly. And second, if your game version *isn't* using the Aspyr version, you need to decide whether or not you want it to be.
-
-Unlike the original KOTOR, where the widescreen application is so good that running it actually makes the game *more* stable, the same is very much not true of KOTOR 2. KOTOR 2's widescreen potential through UniWS is constrained to an extremely small number of resolutions, and the UniWS application for KOTOR 2 is extremely outdated, causing gradual save corruption and eventually wrecking the player's ability to load their saves. If that was gobbledygook to you, tl;dr *if you don't use the Aspyr patch, you can't apply widescreen to your game safely*. So even though it has some issues, if you either want widescreen support or to have controller support for your game and are not on GoG/Steam/Mac Appstore, you NEED to apply the Aspyr patch to your game copy. My personal recommendation, having played KOTOR 2 an embarassing 35+ times on the legacy version and a single time on the Aspyr version with J's fixes, is to use the Aspyr version if you can. No, it isn't perfect. But the better stability it affords is well worth the few annoying bugs it creates. If you want to use it, you can install it from the link provided by Tarhiel in [this thread on the GoG forums](https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/post58). We've checked the files and confirmed that they are just a copy of the Aspyr patch: just extract the files and move them directly into your KOTOR 2 game folder, overwriting when prompted, and you will update your install to the Aspyr version.
-
-For those who have the Aspyr patch installed, the below are the fixes which must be applied in order for this build to function normally:
-
-### 3C-FD Patcher
-
-**Name:** [3C-FD Patcher](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
-
-**Author:** J
-
-**Description:** Actual unadulterated black magic fuckery that fixes a huge number of the persistent and glaring problems of the Aspyr patch.
-
-**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
-
-**Installation Method:** Executable
-
-**Compatibility Warning:** If you didn't read the wall of text that preceded this mod, you can brick your entire install here. You'd seriously better not have just skipped straight here.
-
-Ensure to only use this if on the most recent Steam/GoG patch, or if having manually applied the Aspyr patch to your game! Also ensure your executable is a fresh copy with no edits: it CANNOT have a 4GB/Large Address Aware patch already applied to it (this mod adds that patch). Finally, please note that **this mod cannot be utilized on the Mac Appstore version of the game**, since it doesn't launch via an executable; for Mac Appstore players, you will unfortunately need to play without these fixes. Since your games will not have the capacity to use 4GB of RAM, we recommend against utilizing the "Ultimate" series of upscales included later in this install, as a stability measure. Without the upscales, the Mac Appstore version should still be able to run the rest of the build without memory issues.
-
-When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/kotormods/tree/main/C3-FD_patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
-
-___
-
-### Water Restoration
-
-**Name:** [Water Restoration](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
-
-**Author:** J
-
-**Description:** Restores many of the water effects which were removed with the Aspyr patch.
-
-**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Known Bugs:** This mod causes some strong light reflections below the grates on Citadel Station, but the mod author is looking into resolving this.
-
-___
-
-### Stutter Fix
-
-**Name:** [Stutter Fix and Force Cage Update](https://deadlystream.com/files/file/2699-stutter-fix-and-force-cage-update/)
-
-**Author:** J
-
-**Description:** Inexplicably, Force cages were given certain water texture properties which caused them to generate horrid visual lag whenever the player's camera faced their direction. This simple mod removes this property to resolve the issue, and also optionally enhances the force cage's model and texture
-
-**Category & Tier:** Bugfix, Graphics Improvement / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Download Instructions:** Download just forcecage_updated_1.1.0.zip
-
 ## Mod List
 
 ### 4GB Patcher
@@ -144,7 +12,7 @@ ___
 
 **Installation Method:** Executable
 
-**Installation Instructions:**  This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version. Just like 3C-FD, since the Mac Appstore version is not an executable, this program cannot be utilized on the Mac Appstore edition of the game.
+**Installation Instructions:** This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version. Just like 3C-FD, since the Mac Appstore version is not an executable, this program cannot be utilized on the Mac Appstore edition of the game.
 
 ___
 
@@ -174,13 +42,13 @@ ___
 
 **Description:** Reverts and otherwise modifies certain TSLRCM settings to make the game more sensible and internally consistent (mostly unrestoring content which was likely intentionally cut by Obsidian). This includes removing Jedi Padawan Kaevee.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Patch / 1 - Essential
 
-**Non-English Functionality:** PARTIAL - All components can be installed *except* for Trayus Mandalore Conversation.
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** Multi-Run TSLPatcher
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Don't use the complete installer, instead selecting the individual component installer—this is *critical* for compatibility, not just to choose specific options. The installer for this mod will need to be run 6 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Kreia-Atris Dialogue Tweak, Trayus Mandalore Conversation, and Trayus Sith Lord Masks. Most of the other options for this mod are untested with the mod builds, but will likely function--I still recommend against using them, since compatibility isn't 100% guaranteed, but you can try. The one exception is *Atton at the End*, which is completely incompatible with one of the most important mods in this build, which is a much more comprehensive implementation of Atton's dialogue at endgame.
 
@@ -194,13 +62,13 @@ ___
 
 **Description:** Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Move just 153sion.dlg to the override.
 
@@ -216,13 +84,13 @@ ___
 
 As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** If you would like to have Visas's class as Sith Assassin, install the "Standard + Sith Assassin Visas" option. Otherwise, simply install "Standard."
 
@@ -290,13 +158,13 @@ ___
 
 **Description:** A community bugfix and general improvement patch for KOTOR 2 meant to be a supplement to TSLRCM, fixing bugs that TSLRCM didn't catch or viewed too minor to address; highly recommended.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Graphics Improvement & Bugfix / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
@@ -556,13 +424,13 @@ ___
 
 **Description:** For those gluttons for punishment among us, this mod reverts the inventory of Dendis Dobo, the honest but struggling merchant on Citadel Station, to its pre-TSLRCM state. In TSLRCM all merchants have improved inventories, but with this mod Dendis has only a pittance of poor goods, to represent the cost of his honesty and exactly how much his business is struggling compared to his brother.
 
-**Masters:** TSLRCM
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
 
-**Category & Tier:** Immersion / 4 - Optional
+**Masters:** TSLRCM
 
 ___
 
@@ -574,7 +442,7 @@ ___
 
 **Description:** This collection from JCarter includes many small fixes, upscaled textures, and other helpful improvements too small to warrant their own mod, but well worth it when compiled as it is here.
 
-**Category & Tier:** Bugfix & Graphics Improvement & Immersion / 2 - Recommended
+**Category & Tier:** Bugfix, Graphics Improvement & Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -657,8 +525,6 @@ ___
 **Author:** InSidious
 
 **Description:** Improves the in-game beam and lightning effect quality.
-
-**Note:** The still screenshots don't do this mod justice; the live effects are great.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -916,7 +782,7 @@ ___
 
 **Description:** If you'd prefer stylized art of the KOTOR 2 party instead of the above party portraits, this mod is an alternate option to the above.
 
-**Category & Tier:** Appearance Change / 4 - Option
+**Category & Tier:** Appearance Change / 4 - Optional
 
 **Non-English Functionality:** YES
 
@@ -1738,7 +1604,7 @@ ___
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
 
@@ -1756,13 +1622,13 @@ Be aware, however, that PartySwap *does* require some fourth wall-breaking eleme
 
 The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despawning them) which you use to run the script. This stim appears in the *shields* quickbar at the bottom-left of the screen, however; be aware of this, since it doesn't show up in the normal stims category!
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion & Mechanics Change / 1 - Essential
 
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
 
@@ -1776,8 +1642,6 @@ ___
 
 **Description:** Restores some additional content to the Dantooine Enclave, including more variance depending upon your influence with Kreia.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Restored Content / 1 - Essential
 
 **Non-English Functionality:** English and Russian ONLY
@@ -1785,6 +1649,8 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Steam Notes:** This mod disables the ability to unlock certain achievements! Other mods might do the same, but this one has been confirmed incompatible with at least one achievement. I recommend it regardless, but if you care about achievements over story this mod won't be for you.
+
+**Masters:** TSLRCM
 
 ___
 
@@ -1796,13 +1662,13 @@ ___
 
 **Description:** PartySwap and Extended Enclave are both large mods that modify many of the same files, so they don't play well together natively. Thankfully, this compatch fixes all those issues and makes them completely compatible.
 
-**Masters:** PartySwap + Extended Enclave
-
 **Category & Tier:** Patch / 1 - Essential
 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** PartySwap, Extended Enclave
 
 **Installation Instructions:** Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build.
 
@@ -1816,13 +1682,13 @@ ___
 
 **Description:** Slightly extends the scene which plays out immediately before the *Ebon Hawk* touches down on Korriban.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Restored Content / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 ___
 
@@ -1852,13 +1718,13 @@ ___
 
 **Description:** Modifies an imbalanced power and removes an unused feat to prevent feat waste.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change & Patch / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
@@ -1906,13 +1772,13 @@ ___
 
 **Description:** The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
 
@@ -2086,13 +1952,13 @@ ___
 
 **Description:** Replaces lower-quality in-game dialogue in the initial *Ravager* scene between Nihilus and Visas with versions from one of the game's pre-rendered cutscenes.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
+
+**Masters:** TSLRCM
 
 ___
 
@@ -2104,13 +1970,13 @@ ___
 
 **Description:** I find that Sion's character comes off completely one-dimensional, ruining both his own interesting character arc and his relationship with Kreia, unless he can express a feeling of sentimentality for the Exile. Unfortunately this is conveyed via a romantic obsession between Sion and the player, and by default this is locked to a female Exile. In the interests of presenting Sion at his best as a character, this mod causes Sion to become obsessed with the player regardless of their gender.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 2 - Recommended
 
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
+
+**Masters:** TSLRCM
 
 ___
 
@@ -2298,7 +2164,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** Congrats, you are about to experience one of the best mods ever made for KOTOR, and I don't say that lightly. WildKarrde has quietly but consistently put out extremely high-quality content, but they really outdid themselves with this one. This is a comprehensive and *incredibly* professional rework of the ending sequence of KOTOR 2. TSLRCM is famous for tightening the ending up, but it still leaves several plot holes flapping in the wind--how does Malachor get destroyed in an LS ending if HK-47 is never rebuilt and G0-T0 isn't stopped? Why does the Exile have to preserve Malachor if they're DS? How is the party saved? What next? None of these questions are answered, but WildKarrde's mod not only answers them all, it does it with an incredible level of professionalism which makes it feel like it was content straight-up made by Obsidian, on a level more seamless than even restored content from TSLRCM often achieves. 
+**Description:** Congrats, you are about to experience one of the best mods ever made for KOTOR, and I don't say that lightly. WildKarrde has quietly but consistently put out extremely high-quality content, but they really outdid themselves with this one. This is a comprehensive and *incredibly* professional rework of the ending sequence of KOTOR 2. TSLRCM is famous for tightening the ending up, but it still leaves several plot holes flapping in the wind--how does Malachor get destroyed in an LS ending if HK-47 is never rebuilt and G0-T0 isn't stopped? Why does the Exile have to preserve Malachor if they're DS? How is the party saved? What next? None of these questions are answered, but WildKarrde's mod not only answers them all, it does it with an incredible level of professionalism which makes it feel like it was content straight-up made by Obsidian, on a level more seamless than even restored content from TSLRCM often achieves.
 
 **Category & Tier:** Restored Content & Immersion / 1 - Essential
 
@@ -2394,7 +2260,7 @@ ___
 
 **Description:** This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room.
 
-**Category & Tier:** Immersion / 4 - Option
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES, however some text will be in English
 
@@ -2466,13 +2332,13 @@ ___
 
 **Description:** By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Carth and Cede to properly wear Republic officer uniforms in their holograms and in-game appearances.
 
-**Masters:** TSLRCM
-
-**Category & Tier:** Bugfix & Graphics Improvement & Appearance Change / 1 - Essential
+**Category & Tier:** Bugfix, Graphics Improvement & Appearance Change / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Download Instructions:** Download just the main file, not the robes patch.
 
@@ -2588,13 +2454,13 @@ ___
 
 **Description:** This is the point at which we're going to install all the various patches produced for the Ultimate Character Overhaul for any of the other texture mods which you've installed.
 
-**Masters:** Ultimate Character Overhaul & Various Texture Mods
-
 **Category & Tier:** Patch & Graphics Improvement / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+**Masters:** Ultimate Character Overhaul
 
 **Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatches for TSLRCM, the K2CP, JC's Minor Fixes, and then all remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's Male Twi'lek Diversity mod), following the below instructions:
 
@@ -2692,132 +2558,3 @@ ___
 
 If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k2/redrob_deletionsk2.md).
 
-## Enhanced Widescreen Support Mods
-
-Assuming that you are on the Aspyr patch of the game, the following mods can enhance your widescreen gameplay. These mods should *only* be installed if you are on the Aspyr patch; while as previously mentioned widescreen can technically be applied to a legacy KOTOR 2 installation independently of the Aspyr patch it is destabilizing to do so, and strongly recommended against when utilizing this guide.
-
-### Main Menu Fix
-
-**Name:** [Main Menu Fix for Widescreen](https://deadlystream.com/files/file/1138-tsl-main-menu-model-fix-for-widescreen/)
-
-**Author:** DarthParametric
-
-**Description:** A fix for TSL's stretched menu when playing the game widescreen.
-
-**Category & Tier:** Graphics Improvement & Bugfix / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Installation Instructions:** Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
-
-___
-
-### K2 Cutscenes Rescaled
-
-**Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
-
-**Author:** Pops Maellard
-
-**Description:** This mod is a *killer* cutscene improvement mod, using a very clean, very sharp AI pass to upscale and clarify the cutscenes.
-
-Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
-
-**Category & Tier:** Graphics Improvement / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Download Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. If using TSLRCM or Extended Enclave, download both the main file most closely corresponding to your monitor resolution as well as the file of the same resolution with "_mods" appended to the filename (for instance, *k2rs_30fps_1920x1080.7z* and *k2rs_30fps_mods_1920x1080.7z*).
-
-**Installation Instructions:** When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Install the main module first, then open the "mods" version of the file and apply the upscaled cutscenes for any mods which you use from the main build list. Bear in mind that the files from this mod go in your *movies* folder, not override.
-
-If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
-___
-
-### K2 Remastered Cutscenes
-
-**Name:** [KOTOR 2 Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
-
-**Author:** naelavok 
-
-**Description:** Using predictive AI, /u/naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. A movie replacer like this is necessary to fix the fullscreen bug (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
-
-**Category & Tier:** Graphics Improvement / 1 - Essential
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Components, possible .bat patcher
-
-**Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
-
-If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
-___
-
-### Loading Screen Rescaled
-
-**Name:** [K2 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
-
-**Author:** Pops Maellard
-
-**Description:** If you decide not to use Pops Mallard's cutscene mod above, this mod is a standalone version of their enhanced legal screen (which I personally enjoy) that you can download as a standalone.
-
-**Category & Tier:** Graphics Improvement / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
-### Workbench Camera Tweak
-
-**Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
-
-**Author:** DarthParametric
-
-**Description:** This mod pulls the camera on the Workbench in closer to show off the textures of what you're editing better. Works best at high resolution and with texture mods, which is why it's listed here in widescreen improvements.
-
-**Category & Tier:** Appearance Change / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
-### Upscaled Maps
-
-**Name:** [Upscaled Maps](https://www.nexusmods.com/kotor2/mods/1086)
-
-**Author:** Tunalex
-
-**Description:** This mod upscales every map, including the minimap, to be much more visually clear. Much prettier and also less blurry!
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-## Misc. Basegame Issues & Fixes
-
-### Crash After Character Creation
-
-This is a common issue which users tend to think is caused by the mod builds, but 99.9% of the time you don't have a mod error, and this is a basegame issue. Sometimes the game refuses to load when you have the Frame Buffer Effects setting enabled, so just disabling it in your Advanced Graphics Options ingame will allow you to load the game. This can also get you past loadscreen crashes that may rarely occur later in the game.
-
-### Character Stuck After Combat
-
-This isn't a bug that modding can fix (or cause), it's an engine bug. It's related to the game's framerate being unsynced with your monitor's refresh rate. If you're on a 60hz monitor, you can just toggle v-sync. If you're 144hz or similar, you can either set your monitor to 60hz manually for the duration of play and also toggle v-sync, OR edit the game's .ini file to set the refresh rate setting to your monitor's refresh rate.
-
-### Swoop Racing
-
-Although I don't recommend staying in compatibility mode for Windows XP SP3 long-term, as it can exacerbate loadscreen crashes, sometimes swoop racing can mess up in a way that makes it necessary. If you find your swoop bike floating several meters off the track, exit the game and launch it in compatibility mode for XP SP3. You should be able to race normally, and you can turn off the compatibility mode after the racing segment is over.
-
-### Dialogue Skipping
-
-Dialogue skipping is when an NPC's dialogue line is registered by the game, but jumped past immediately as it's switched to—you briefly see the subtitles, then they're gone with no other indication that character was speaking. I often get asked if this is a build problem, but it's not. The builds exacerbate it in some ways by adding more data to the game (it seems to be related to a memory leak in some way), but the biggest culprit by far is the Aspyr patch, though the issue can happen on any game version. Thankfully, with the 3C-FD patcher, this issue is basically no longer a problem--though bear in mind that it is different from the "dialogue floatiness" I describe in the section on the Aspyr section, and the input delay dialogue skipping with the Aspyr patch still exists. That issue is not related to a memory leak and is not consistent, however, as traditional dialogue skipping is.

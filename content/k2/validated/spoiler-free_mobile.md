@@ -1,33 +1,3 @@
-# KOTOR 2 Full Build: Mobile Version
-
-## Installation Notes
-
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
-
-Although this is a mobile-compatible build, due to required compatibility tools we must use to get this build working, you will need to install all mods to a 'dummy directory' on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly. This means you **MUST** have a PC or Mac in order to utilize this build for mobile, although you **CAN** install just [MTSLRCM](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/) (the mobile version of The Sith Lords Restored Content Mod) with just your mobile device.
-
-### Install Computer Instructions
-
-It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR 2 installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
-
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
-
-Please also bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the KOTOR 2 editable executable, which you will put together during the TSLRCM installation step. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
-
-As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor on the system which you're using to install mods, you may need to disable your second while installing.
-
-### Known Bugs
-
-* There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
-
-### Mac OS Users
-
-It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
-
-### Updating from a Prior Build
-
-If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
-
 ## Mod List
 
 ### TSLRCM
@@ -54,33 +24,31 @@ ___
 
 ### TSLRCM Tweak Pack
 
-**Name:** [TSLRCM Tweak Pack](http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/)
+**Name:** [TSLRCM Tweak Pack](https://mega.nz/file/oZQTBKDB#tVIzlkuZsO9RT90shcSkhZhOzaD071wmKlNvpNmvwF4)
 
 **Author:** Pavijan (update by Fair Strides)
 
-**Description:** Reverts and otherwise modifies certain TSLRCM settings to make the game more sensible and internally consistent (mostly unrestoring content which was likely intentionally cut by Obsidian). This includes removing Jedi Padawan Kaevee.
-
-**Masters:** TSLRCM
+**Description:** Reverts and otherwise modifies certain TSLRCM settings to make the game more sensible and internally consistent (mostly unrestoring content which was likely intentionally cut by Obsidian, and polishing some other things that don't make sense). Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Patch / 1 - Essential
 
-**Non-English Functionality:** PARTIAL - All components can be installed *except* for Trayus Mandalore Conversation.
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** Don't use the complete installer, instead selecting the individual component installer—this is *critical* for compatibility, not just to choose specific options. The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Kreia-Atris Dialogue Tweak, Trayus Mandalore Conversation, and Trayus Sith Lord Masks.
+**Masters:** TSLRCM
+
+**Installation Instructions:** The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Dialogue Tweak, Mandalore Conversation, and Extra 1 - SLM.
 
 ___
 
-### Silent Sion
+### SSR
 
-**Name:** [Silent Sion Restoration](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
+**Name:** [SSR](https://mega.nz/file/4NoEHRCK#wCmTr8e_BW3z6O-FC1QD9oBZ-Rtqn2wK4R_ChySWvms)
 
 **Author:** Emperor Devon
 
-**Description:** Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
-
-**Masters:** TSLRCM
+**Description:** It's hard to explain this without spoilers—basically, a character confronts your player at a certain point. At the start of this conversation, TSLRCM restores a line which radically changes the tone and impact of the confrontation. Emperor Devon—rightly, I think—concludes that this was content which was cut purposefully rather than for time constraints, and removes the spoken dialogue to restore it to the vanilla standard, where the confrontation begins silently.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -88,13 +56,15 @@ ___
 
 **Installation Method:** Loose-File
 
+**Masters:** TSLRCM
+
 **Installation Instructions:** Move just 153sion.dlg to the override.
 
 ___
 
 ### Thematic KOTOR 2 Companions
 
-**Name:** [Thematic KOTOR 2 Companions](https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/)
+**Name:** [Thematic KOTOR 2 Companions](https://github.com/JCarter426/KOTOR2-Thematic-Companions/releases/download/v1.0.3/KOTOR2-Thematic-Companions_v1.0.3_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
@@ -102,7 +72,7 @@ ___
 
 As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
-**Masters:** TSLRCM
+Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -110,7 +80,7 @@ As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Compan
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If you would like to have Visas's class as Sith Assassin, install the "Standard + Sith Assassin Visas" option. Otherwise, simply install "Standard."
+**Masters:** TSLRCM
 
 ___
 
@@ -120,7 +90,7 @@ ___
 
 **Author:** Rovan
 
-**Description:** For some reason, some prestige classes in KOTOR 2 have worse saving throws than their predecessor class. This mod fixes this, ensuring that the more advanced classes always have slightly better throws.
+**Description:** In KOTOR 2, the player character can unlock higher mysteries of the Force and achieve a prestige class, which amounts to an upgrade to one of the three default Jedi classes (Guardian, Sentinel, and Consular). For some reason, some prestige classes in KOTOR 2 have worse saving throws than their predecessor class. This mod fixes this, ensuring that the more advanced classes always have slightly better throws.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -176,13 +146,13 @@ ___
 
 **Description:** A community bugfix and general improvement patch for KOTOR 2 meant to be a supplement to TSLRCM, fixing bugs that TSLRCM didn't catch or viewed too minor to address; highly recommended.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Graphics Improvement & Bugfix / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
@@ -194,7 +164,7 @@ ___
 
 **Author:** tk102, patch by Leilukin
 
-**Description:** This is going to require a bit of an explanation. I personally believe this mod breaks immersion—so why add it? The bottom-line is that KOTOR 2's influence system is asinine, and major plot points are locked behind very high—or very low—influence with several companions. Your influence with companions is also extremely obfuscated, only really discernible by their LS/DS alignment relative to your alignment, but this is a very buggy system which breaks with high Charisma values on the player, or with certain feats. There is no other way ingame to tell what your influence is without this mod. I mark it as optional because it *does* break immersion, but for many players I think having a system to determine influence will be extremely important for enjoyment of the story.
+**Description:** This is going to require a bit of an explanation. I personally believe this mod breaks immersion—so why add it? In KOTOR 2, companions have [influence](/faq/k2.html#How_does_KOTOR_2's_influence_system_work)—a mechanic by which the player character can influence their allies, either to align with their views or grow hostile to them. Sadly, KOTOR 2's influence system is asinine. Major plot points are locked behind very high—or very low—influence with several companions. Your influence with companions is also extremely obfuscated, only really discernible by a companion's LS/DS alignment relative to your alignment, but this is a very buggy system which breaks with high Charisma values on the player, or with certain feats. There is no other way ingame to tell what your influence is without this mod. I mark it as optional because it *does* break immersion, but for many players I think having a system to determine influence will be extremely important for enjoyment of the story.
 
 **Category & Tier:** Mechanics Change / 4 - Optional
 
@@ -210,31 +180,13 @@ ___
 
 **Author:** OzilsEyes
 
-**Description:** I'm betting that *anyone* who has played KOTOR 2 before will remember that fucking son of a bitch Czerka salvager in the Telos military base. His pathfinding would make the most awful escort quest target in history blush in embarassment. This mod by Ozils is an outright lifesaver, applying much-enhanced follower logic to the salvager and automatically teleporting him to the party if you get too far away. No more 20 minutes of painstakingly dragging his ass through the base!
+**Description:** You'll eventually encounter a salvager who needs to be saved. While you *can* just opt to kill him, if you're not a psychopath you can choose to save him. But this is a mistake. He has pathfinding so bad it would make the worst escort quest target in history blush in embarassment. This mod by Ozils is an outright lifesaver, applying much-enhanced follower logic to the salvager and automatically teleporting him to the party if you get too far away, so you can guide him to where he needs to go very easily.
 
 **Category & Tier:** Bugfix / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
-
-### Ritual and Water Textures
-
-**Name:** [Ritual and Water Textures](https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/)
-
-**Author:** Nehua
-
-**Description:** A very nice retexture of the ritual "dome" during the party assault on Freedon Nadd's tomb. Note that the water texture from this mod is not (and cannot be) used for game stability, due to the way the mod is packaged; we will only use the ritual texture.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Installation Instructions:** Move only the files from the ritual folder, not the water.
 
 ___
 
@@ -278,27 +230,27 @@ ___
 
 **Author:** TK-664
 
-**Description:** For those gluttons for punishment among us, this mod reverts the inventory of Dendis Dobo, the honest but struggling merchant on Citadel Station, to its pre-TSLRCM state. In TSLRCM all merchants have improved inventories, but with this mod Dendis has only a pittance of poor goods, to represent the cost of his honesty and exactly how much his business is struggling compared to his brother.
+**Description:** For those gluttons for punishment among us, this mod reverts the inventory of an honest but struggling merchant to its pre-TSLRCM state. In TSLRCM all merchants have improved inventories, but with this mod the merchant has only a pittance of poor goods, to represent the cost of his honesty and exactly how much his business is struggling.
 
-**Masters:** TSLRCM
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
 
-**Category & Tier:** Immersion / 4 - Optional
+**Masters:** TSLRCM
 
 ___
 
 ### JC's Minor Fixes
 
-**Name:** [JC's Minor Fixes](https://deadlystream.com/files/file/1215-jcs-minor-fixes-for-k2/)
+**Name:** [JC's Minor Fixes](https://mega.nz/#!ZZADWSST!m4Bbnklf_D1SrtGn1Kms86sQsb5s4Fx9vkesb5HWY3w)
 
 **Author:** JCarter426
 
-**Description:** This collection from JCarter includes many small fixes, upscaled textures, and other helpful improvements too small to warrant their own mod, but well worth it when compiled as it is here.
+**Description:** This collection from JCarter includes many small fixes, upscaled textures, and other helpful improvements too small to warrant their own mod, but well worth it when compiled as it is here. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Bugfix & Graphics Improvement & Immersion / 2 - Recommended
+**Category & Tier:** Bugfix, Graphics Improvement & Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -314,7 +266,7 @@ ___
 
 **Author:** Malkior
 
-**Description:** The poor maintenance officer on Peragus makes it very clear that he was shot several times before he died. This reskin gives him the burn wounds from the mining droid lasers.
+**Description:** Very early on, you encounter the body of a man who you eventually come to learn was shot at close-range by lasers multiple times before dying. This reskin gives him the burns from the lasers blasts.
 
 **Category & Tier:** Immersion / 4 - Optional
 
@@ -331,8 +283,6 @@ ___
 **Author:** InSidious
 
 **Description:** Improves the in-game beam and lightning effect quality.
-
-**Note:** The still screenshots don't do this mod justice; the live effects are great.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -392,11 +342,11 @@ ___
 
 ### New Holocron Textures
 
-**Name:** [New Holocron Textures](http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/)
+**Name:** [New Holocron Textures](https://mega.nz/#!4cRTRCgK!ZHFEmvQJO_j6Z5Nr3ALHtk2BYfKiQbOuKxvFkcHq25E)
 
 **Author:** Sith Holocron
 
-**Description:** Retextures the Sith Holocrons present in Atris's meditation chamber on Telos and gives them a pulsing animation.
+**Description:** This mod improves the appearance of certain holocrons the player comes across in the course of the game. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
@@ -444,11 +394,13 @@ ___
 
 ### Twi'lek Male Diversity
 
-**Name:** [TSL Twi'lek Male NPC Diversity](https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/)
+**Name:** [TSL Twi'lek Male NPC Diversity](https://mega.nz/file/sBQF1IqL#YRXBbJaY-DabSxJVliGmxhBZszk33sRoxkJVxWwgmW8)
 
 **Author:** Leilukin
 
-**Description:** Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs.
+**Description:** Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs. Some information has been censored to prevent spoilers.
+
+**Screenshots:** [Here](https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/) (just be careful to ONLY look at the screenshots and not read the description! The description's information, with censoring to prevent spoilers, is replicated identically in the download's readme!)
 
 **Category & Tier:** Appearance Change / 3 - Suggested
 
@@ -520,7 +472,7 @@ ___
 
 **Author:** LordRevan999
 
-**Description:** Makes in-game Mandalorian armor appear realistically worn out. It's been 10 years since the Mandalorian Wars and the last time the Mandalorians had a state, and their suits should reflect that.
+**Description:** As ever, you're going to be meeting some Mandalorians in KOTOR 2. It's been 10 years since the Mandalorian Wars and the last time the Mandalorians had a state, though, and their suits should reflect that. This mod helps them along by making their suits a bit more battered and worn-down, reflecting that passage of time from their days of glory.
 
 **Screenshots:** [Here](http://imgur.com/Wt4AXpP)
 
@@ -563,8 +515,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-**Special Installation Notes:** Ignore the MacOS folder, only move files from the override.
 
 ___
 
@@ -610,7 +560,7 @@ ___
 
 **Author:** FF97
 
-**Description:** This mod improves the resolution of Sion's base textures, as well as adding detail to his wounds and atrophied eye. The screenshots don't do it proper justice; this is a well-executed improvement.
+**Description:** This mod improves the resolution of the Sith who is arguably your primary antagonist, Darth Sion. It features upscaled base textures, as well as added detail to his wounds and atrophied eye. The screenshots don't do it proper justice; this is a well-executed improvement.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -624,11 +574,13 @@ ___
 
 ### Lore-Friendly Mandalore
 
-**Name:** [Lore-Friendly Mandalore Mask](https://deadlystream.com/files/file/1848-expanded-lore-friendly-mandalores-mask-with-matching-armor-and-icons-upscaled-high-quality-textures/)
+**Name:** [Lore-Friendly Mandalore Mask](https://mega.nz/file/BVgAFAwD#ZWawHTY_eN3q88qgFj5WTvjGbwPmP1hKvOuHQ0EKYSs)
 
 **Author:** constantinople33
 
-**Description:** In old Legends canon, Mandalore's mask looks nothing at all like what it looks like ingame. This mod is an attempt to rectify this while still keeping the majority of Mandalore's aesthetic intact. It's a well-executed attempt in my opinion, though I recommend using the silver mask instead of the gold, I don't really think it works otherwise.
+**Description:** In KOTOR 2, you meet a character who claims he has the right to be known as the Mandalore, leader of the Mandalorians. The problem is, this so-called Mandalore's mask looks nothing at all like what it was meant to look like in old Legends. This mod is an attempt to rectify this while still keeping the majority of the character's aesthetic intact. Some information has been censored to prevent spoilers.
+
+**Screenshots:** [Here](https://deadlystream.com/downloads/screens/monthly_2021_03/673517072_ALLSILVERupclose.jpg.eb5b898669f5f75e184a2c051c52249d.jpg)
 
 **Category & Tier:** Immersion & Appearance Change / 3 - Suggested
 
@@ -638,13 +590,13 @@ ___
 
 ___
 
-### Visas Reduced Model Clipping
+### VLC
 
-**Name:** [Visas Reduced Model Clipping](https://deadlystream.com/files/file/2299-visas-reduced-model-clipping/)
+**Name:** [VLC](https://mega.nz/file/YZZwTIgC#dDJ_mKlPrndK1SuRUIimeCuWv5vytZwmkwzrhyP0CFk)
 
 **Author:** Feeling
 
-**Description:** Visas's chin *REALLY* likes to atomically fuse with her weird Sith turtleneck. This mod does the best it can to separate the two.
+**Description:** There's a character whose chin *REALLY* likes to atomically fuse with her weird turtleneck. This mod does the best it can to separate the two.
 
 **Category & Tier:** Bugfix / 3 - Suggested
 
@@ -662,7 +614,7 @@ ___
 
 **Author:** Ashton Scorpius
 
-**Description:** Let's be honest, Mira has a Karen cut. This mod resolves her deeply internalized desire to ask for the manager.
+**Description:** One of the NPCs ingame... well, let's be honest, she has a Karen cut. This mod resolves her deeply internalized desire to ask for the manager.
 
 **Category & Tier:** Appearance Change / 4 - Optional
 
@@ -844,11 +796,11 @@ ___
 
 ### Transparent Cockpit Windows
 
-**Name:** [Transparent Cockpit Windows TSL](https://deadlystream.com/files/file/2355-transparent-cockpit-windows-for-tsl/)
+**Name:** [Transparent Cockpit Windows TSL](https://mega.nz/file/hVIkxTTT#OxWWTv_F2x7Ty5Pe9LxGF1-njIajR09o1icahWWbTZg)
 
 **Author:** WildKarrde
 
-**Description:** By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside.
+**Description:** By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
@@ -856,29 +808,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd.
-
 **Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
-
-___
-
-### HD Cockpit Skyboxes
-
-**Name:** [HD Cockpit Skyboxes](http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
-
-**Author:** tjsase
-
-**Description:** Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Download Instructions:** Strongly recommend low resolution for the mobile version. Make sure to use the .tpc file format files!
-
-**Installation Instructions:** Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 
 ___
 
@@ -902,19 +832,17 @@ ___
 
 ### Short-Term Memory Fix
 
-**Name:** [Vaklu Short-Term Memory Fix](https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/)
+**Name:** [Vaklu Short-Term Memory Fix](hhttps://mega.nz/file/YBxwkAST#s7LZXnitmO2Ym0AL7_caHbtpLMZB9ajn51_tweslUbc)
 
 **Author:** SuperChameau
 
-**Description:** In your dialogue with Vaklu when supporting him as your candidate for the Onderon throne, he virtually repeats himself verbatim in two sentences back-to-back. I see some grey on those temples man, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. This change is fully voiced using original voice work thanks to dialogue splicing.
+**Description:** In a certain dialogue you can have with Onderonian General Vaklu under certain circumstances, he virtually repeats himself back-to-back. There's some grey on his temples, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. Moreover, this change is fully voiced using original voice work thanks to dialogue splicing. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
-
-**Installation Instructions:** Recommend Drew's fix, as it preserves more of the original dialogue.
 
 ___
 
@@ -940,7 +868,7 @@ ___
 
 **Author:** Ashton Scorpius
 
-**Description:** If you fall into that group of people that gets *really* annoyed with all the fog on the edges of the Ebon Hawk minimap, boy howdy do I have a mod for you.
+**Description:** If you fall into that group of people that gets *really* annoyed with all the fog on the edges of the Ebon Hawk minimap, boy howdy do I have a mod for you. This lets you download the area map of the Ebon Hawk, so there's no foggy edges or unseen pieces of it on your map.
 
 **Category & Tier:** Immersion / 4 - Optional
 
@@ -950,13 +878,13 @@ ___
 
 ___
 
-### Kinrath Egg Crystal Drop
+### KEBCD
 
-**Name:** [Kinrath Egg Bash Crystal Drop Fix](http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/)
+**Name:** [KEBCD](https://mega.nz/#!QIQzVJaa!Aabd6hL7TQoTnXO69cIPTMfuK-GiHhESNvz5ZZhe1AU)
 
 **Author:** Hassat Hunter
 
-**Description:** In KOTOR, bashing Kinrath eggs had a chance to result in red lightsaber crystals. This mod adds the same chance to KOTOR 2's Kinrath eggs.
+**Description:** This mod restores some functionality which was present in the original KOTOR, but wasn't included in vanilla KOTOR 2. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -972,7 +900,7 @@ ___
 
 **Author:** darth_gil
 
-**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking the merchant Akkere's inventory (which you are never informed has updated), *and* Akkere can die during the fighting on Dantooine. I recommend using this mod, which adds a thorium charge on Dxun (where it most logically would be), just to save a little bit of hassle.
+**Description:** Thorium charges are used to blow open heavily-fortified rooms, of which there are two in the game. There are also two thorium charges in the vanilla game—*however*. One of them is hidden behind completing a quest and then re-checking a merchant's inventory (which you are never informed has updated), *and* that merchant can die, or the quest can fail in multiple other ways. I recommend using this mod, which adds an extra Thorium charge in a logical location, just to save a little bit of hassle.
 
 **Category & Tier:** Added Content / 2 - Recommended
 
@@ -988,7 +916,7 @@ ___
 
 **Author:** Markus Ramikin
 
-**Description:** This mod allows you to kill the Ithorian on Citadel Staton you were previously only able to save.
+**Description:** This mod allows you to kill a random Ithorian you were previously only able to save.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -998,13 +926,13 @@ ___
 
 ___
 
-### Red Floating Lightsabers
+### RFL
 
-**Name:** [Red Floating Lightsabers](https://deadlystream.com/files/file/2635-red-floating-lightsabers/)
+**Name:** [RFL](https://mega.nz/file/EdISyaTT#J0mcWYaPPSIlRJ370YH0DGy8IaHRqiw85jv3F8BMqmw)
 
 **Author:** Crimson Knight
 
-**Description:** At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic—that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red—logically, red is what Kreia would've had on hand.
+**Description:** Oh boy this is *really* hard to explain without spoilers. Okay, there are lategame enemies that are not organic, but are vulnerable to crowd-control that logically only organics would be. These same enemies also have an appearance which isn't very logical given where they're located. This mod fixes both oversights.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
@@ -1014,71 +942,13 @@ ___
 
 ___
 
-### Mira or Hanharr
+### EE
 
-**Name:** [Choose Mira or Hanharr](http://deadlystream.com/files/file/108-choose-mira-or-hanharr/)
-
-**Author:** Hassat Hunter
-
-**Description:** This mod lets you choose whether you want to have Mira or Hanharr as your champion against Visquis in the Jekk'Jekk Tar, regardless of Dark or Light alignment. This means you can have Hanharr while LS, or vice-versa with Mira.
-
-**Category & Tier:** Immersion & Mechanics Change / 1 - Essential
-
-**Non-English Functionality:** NO
-
-**Installation Method:** Loose-File Mod
-
-___
-
-### Kreia's Fall Cutscene
-
-**Name:** [Kreia's Fall Ingame Cutscene](https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
-
-**Author:** danil-ch
-
-**Description:** Improves the quality of the cutscene which reveals Kreia's casting out of the Triumvirate by rendering it in-game rather than as a low-quality movie.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
-
-**Installation Method:** TSLPatcher Mod
-
-___
-
-### PartySwap
-
-**Name:** [PartySwap](https://deadlystream.com/files/file/544-partyswap/)
-
-**Author:** DarthTyren & Leilukin
-
-**Description:** PartySwap is a legendary mod, and one of the best ever made for KOTOR 2. Through some unobtrusive scripting magic, it allows you to bring both the Disciple and Handmaiden with you as companions simultaneously, without removing another companion from the party wheel. You can experience all their content and use them both throughout the entire campaign, as was originally intended by Obsidian.
-
-Be aware, however, that PartySwap *does* require some fourth wall-breaking elements, including the need to use a script and dialogue window to summon the Handmaiden in order for its party trickery to work. I don't like this any more than you probably do, but I still think having both the Handmaiden and Disciple is far superior to having only one of them, and I think it's an acceptable price for what the mod provides.
-
-The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despawning them) which you use to run the script. This stim appears in the *shields* quickbar at the bottom-left of the screen, however; be aware of this, since it doesn't show up in the normal stims category!
-
-**Masters:** TSLRCM
-
-**Category & Tier:** Immersion & Mechanics Change / 1 - Essential
-
-**Non-English Functionality:** NO
-
-**Installation Method:** HoloPatcher Mod
-
-**Installation Instructions:** Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
-
-___
-
-### Extended Enclave
-
-**Name:** [Extended Enclave](http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/)
+**Name:** [EE](https://mega.nz/file/QFRVRLAS#mSAKsMhhVX7zCYvaDWjG-Q7Gh7kVk2lUSrB2AzVSq7c)
 
 **Author:** danil-ch & Darth Hayze
 
-**Description:** Restores some additional content to the Dantooine Enclave, including more variance depending upon your influence with Kreia.
-
-**Masters:** TSLRCM
+**Description:** Restores some additional content toward the end of the game, especially dialogue and a few extra sequences. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Restored Content / 1 - Essential
 
@@ -1086,45 +956,27 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Make SURE to install the mobile TSLRCM version, your game will crash if using the main install option.
+**Masters:** TSLRCM
+
+**Installation Instructions:** MAKE SURE to install the mobile TSLRCM version, the default version will crash your game.
 
 ___
 
-### PartySwap-EE Compatch
+### EKA
 
-**Name:** [PartySwap/Extended Enclave Compatch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/)
-
-**Author:** Leilukin
-
-**Description:** PartySwap and Extended Enclave are both large mods that modify many of the same files, so they don't play well together natively. Thankfully, this compatch fixes all those issues and makes them completely compatible.
-
-**Masters:** PartySwap + Extended Enclave
-
-**Category & Tier:** Patch / 1 - Essential
-
-**Non-English Functionality:** NO
-
-**Installation Method:** TSLPatcher Mod
-
-**Installation Instructions:** Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build.
-
-___
-
-### Extended Korriban Arrival
-
-**Name:** [Extended Korriban Arrival](http://deadlystream.com/files/file/250-extended-korriban-arrival/)
+**Name:** [EKA](https://mega.nz/file/kMRV2QyY#n5Hq7--g4SJWzZkame7yY1tFtdjJlC3yNo4AY2agCd8)
 
 **Author:** danil-ch
 
-**Description:** Slightly extends the scene which plays out immediately before the *Ebon Hawk* touches down on Korriban.
-
-**Masters:** TSLRCM
+**Description:** Slightly extends the scene which plays out immediately before the Ebon Hawk touches down on a particular world. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Restored Content / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files—this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
 
@@ -1136,7 +988,7 @@ ___
 
 **Author:** Leilukin
 
-**Description:** A mod made at my request by Leilukin, for which I'm very grateful! Originally, even if you play the short prologue on the Ebon Hawk, you're not able to keep your items from that sequence, even though none of them are overpowered or unreasonable for that stage of the game. This mod gives them back to you, so long as T3 is able to breach the door to the security room in the hanger.
+**Description:** A mod made at my request by Leilukin, for which I'm very grateful! KOTOR 2 has a *very* short prologue Ebon Hawk—it's optional, but even if you choose to complete it you don't get to keep any of the items you acquired during that sequence, even though none of them are overpowered for this point of the game. This mod gives them back to you, so long as you're able to slice—or blow—a security door somewhere on the first planet.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1156,13 +1008,13 @@ ___
 
 **Description:** Modifies an imbalanced power and removes an unused feat to prevent feat waste.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change & Patch / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
@@ -1170,11 +1022,11 @@ ___
 
 ### Mines Overhaul
 
-**Name:** [Mines Overhaul](https://deadlystream.com/files/file/2753-mines-overhaul-tsl/)
+**Name:** [Mines Overhaul](https://mega.nz/file/sYpUDAZb#svmp8QVcVcOtXe5InWw2kMYT-lcQPyhlz-rutAItqhc)
 
 **Author:** offthegridmorty
 
-**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!
+**Description:** This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so! Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1192,7 +1044,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Having health regen by default in KOTOR 2 is bad for many reasons: it makes an already easy game easier; it negates the benefit of the health regeneration feat they added; and it makes the use & crafting of medkits and other health-restoring tools much less useful. I played with this mod and the game was still pretty easy by the end, but it was WAY more fun early on. It made me have to worry about health and especially healing items for quite a bit more time, which preserved the challenge beyond Telos.
+**Description:** Having health regen by default in KOTOR 2 is bad for many reasons: it makes an already easy game easier; it negates the benefit of the health regeneration feat they added; and it makes the use & crafting of medkits and other health-restoring tools much less useful. I played with this mod and the game was still pretty easy by the end, but it was WAY more fun early on. It made me have to worry about health and especially healing items for quite a bit more time, which preserved the challenge.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1202,33 +1054,33 @@ ___
 
 ___
 
-### Thematic Sith Lords
+### TSL
 
-**Name:** [Thematic Sith Lords](https://deadlystream.com/files/file/1535-thematic-sith-lords/)
+**Name:** [TSL](https://github.com/JCarter426/KOTOR2-TSL/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
 
-**Author:** Sniggles & JCarter426
+**Author:** Snigaroo
 
-**Description:** The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others.
+**Description:** The results of my first foray into KOTOR modding. The goal of this mod is to make bosses thematically unique, so that fights against them are fun and that certain character builds excel at fighting some of them and struggle against others. Needless to say, some information has been censored to prevent spoilers.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
 
 **Masters:** TSLRCM
 
-**Category & Tier:** Mechanics Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
+**Installation Instructions:** The "No Force Rating" option removes inherent DS alignment bonus to saves in some game areas; these DS bonuses also give equivalent maluses to LS characters in those modules. The choice of whether to use it or not is entirely up to you; I personally do recommend it simply because the module-based alignment system in the game is not very well-balanced or coherent at present, and we have yet to make a mod which rationalizes it.
 
 ___
 
-### Thematic Jedi Masters
+### TJM
 
-**Name:** [Thematic Jedi Masters](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
+**Name:** [TJM](https://github.com/JCarter426/KOTOR2-TJM/releases/download/v1.0.0/KOTOR2-TJM_v1.0.0_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
-**Description:** The much younger brother of Thematic Sith Lords, Thematic Jedi Masters was born of me discovering that all of the Masters except Atris have the same class (Guardian), and one doesn't even have any Force Points for your encounter! These fights were extremely half-baked, and that's where this mod comes in. Unlike Thematic Sith Lords the design philosophy was not of a rock-paper-scissors style (so you aren't going to find a tremendous glaring weakness with a Master as you might on a Lord) but rather to accentuate a given master's strengths in line with their respective natures.
+**Description:** There are some opponents in the game which you only face in certain circumstances. In the basegame, these opponents didn't *seem* that bad, but when you look at the backend and see how they're set up, it's a catastrophe. This mod redesigns them to be much more accurate to their expressed natures, as well as fixing several oversights with the encounters. Do be aware this mod *can* be quite challenging, if you're not familiar with d20 mechanics.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1244,7 +1096,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Let's be honest, Disciple kinda sucks. This mod makes him suck *marginally* less by making his meditation ability actually useful, so you might have some incentive to take him around with you at least some of the time, or bring him out to re-apply his meditation bonus.
+**Description:** Some players, depending on a factor which I will not spoil, get the Disciple as a companion. This character has the ability to meditate with the player to restore their FP, but it's kinda useless. This mod makes it more situationally beneficial, to further incentivize the use of an otherwise-underutilized companion.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1260,7 +1112,7 @@ ___
 
 **Author:** Effix
 
-**Description:** Bao-Dur gets more than a little screwed. He can't wear robes because they never made a model for them with his mechanical arm cutout, and he can't wear heavy armor because they didn't make a model for that, either. Especially with his stat distribution in mind, that makes him kind of garbage. This mod restores the ability to give him heavy armor, at least, which gives him at least a bit better utility.
+**Description:** One of your companions, Bao-Dur, gets more than a little screwed by missing models. He can't wear certain clothing types because Obsidian didn't have time to make a model for him that fit a mechanical arm he has, and he can't wear heavy armor for the same reason. Especially with his stat distribution in mind, that makes him kind of garbage. This mod restores the ability to give him heavy armor, which gives him at least a bit better utility.
 
 **Category & Tier:** Bugfix & Immersion / 2 - Recommended
 
@@ -1276,7 +1128,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** For being a crystal which is specifically attuned to the player, your little pet rock wasn't very malleable. This mod adds a ton of different alignment levels for your player crystal based upon your alignment and class, fixes several bugs with the crystal, and also allows the player to attune the crystal at workbenches when Kreia isn't available.
+**Description:** In the course of the game you will find a very special lightsaber crystal that's supposed to be bonded to you. Unfortunately, this crystal isn't actually very changeable, whatever your own nature. This mod adds a ton of different alignment levels for your player crystal based upon your alignment and class, fixes several bugs with the crystal, and also allows the player to attune the crystal at workbenches when Kreia isn't available.
 
 **Category & Tier:** Mechanics Change, Bugfix & Immersion / 2 - Recommended
 
@@ -1288,13 +1140,13 @@ ___
 
 ___
 
-### Jekk'Jekk'Tarr Thugs
+### JJT Thugs
 
-**Name:** [Better Jekk'Jekk'Tarr Thugs](https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/)
+**Name:** [Better JJT Thugs](https://mega.nz/file/RJQUXAra#Uvg3QIizZCtb8ExDO3NI3o3UgB95hFbdD5LSaCXGijk)
 
 **Author:** SuperChameau
 
-**Description:** The thugs in the Jekk'Jekk'Tarr, despite many of them being bounty hunters in a seedy bar, for the most part didn't carry any weapons at all. This mod fixes that, giving the patrons weapons with which to defend themselves.
+**Description:** At one point, you can go to a seedy bar with a lot of rough patrons, to put it lightly. In vanilla, these patrons often didn't have any weapons to defend themselves. This mod gives them sidearms. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1306,13 +1158,13 @@ ___
 
 ___
 
-### Logical Jekk'Jekk Tarr
+### Logical JJT
 
-**Name:** [Logical Jekk'Jekk'Tarr](https://deadlystream.com/files/file/2790-logical-jekkjekk-tarr/)
+**Name:** [Logical JJT](https://mega.nz/file/sNRh2RAA#BVWoWDVvu2Yr2ND3rxbMN0oPPxAp6p0_sqZwtujIVfo)
 
 **Author:** N-DReW25
 
-**Description:** The Jekk'Jekk'Tarr sequence in the vanilla game, and even in TSLRCM, has a lot of problems. The most glaring was the player's ability to enter the bar without suffering severe ill-effects, even though dialogue elsewhere suggested that even skin contact would be nearly instantly fatal. This mod resolves almost all of the idiosyncracies of the sequence in a very lore-friendly and logical way.
+**Description:** It's difficult to explain this without spoilers, but in brief the same bar referenced in the above mod has *significant* continuity and consistency errors associated with it, and this mod fixes all of them, thereby making interactions with the bar much more sensible for the player.
 
 **Category & Tier:** Bugfix & Immersion / 2 - Recommended
 
@@ -1322,7 +1174,7 @@ ___
 
 **Masters:** TSLRCM
 
-**Installation Instructions:** Install part 1 and then part 2, then, if using Better Jekk'Jekk Tarr Thugs, also install the compatch.
+**Installation Instructions:** Install part 1 and then part 2, then, if using Better JJT Thugs, also install the compatch.
 
 ___
 
@@ -1332,7 +1184,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** TSLRCM edits the scene with Mira escaping the tunnels beneath the Jekk'Jekk'Tarr, restoring one scene but, in the process, removing another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process.
+**Description:** Although this mod does contain some spoilers, I think it's safe enough for you to read the description up to the "LIST OF MINOR FIXES/ENHANCEMENTS" section, and have left it uncensored as a result. Long story short, there's a scene TSLRCM restores but, in the process, it removes another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process.
 
 **Category & Tier:** Restored Content / 2 - Recommended
 
@@ -1348,11 +1200,11 @@ ___
 
 ### Kreia's Longsword
 
-**Name:** [Kreia's Lightsaber/Longsword](https://deadlystream.com/files/file/1538-kreias-lightsaber-long-sword/)
+**Name:** [Kreia's L/Longsword](https://mega.nz/file/0BwkDajR#YFB285r2DBtrTW3tjyktHpwkKOObrexD0jWpbGyv6NU)
 
 **Author:** bead-v
 
-**Description:** This mod fixes the sequence where Kreia is confronted with Sion on the *Harbinger* so that Kreia doesn't just pull a vibroblade out of nowhere. Instead, she reaches down and picks up a longsword from the nearby corpse of a Republic soldier, more sensibly.
+**Description:** This mod fixes a sequence where Kreia used to pull a vibrosword out of nowhere, even if you didn't have one in your inventory. Now with this mod Kreia will instead find a logically-placed weapon in the environment nearby. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -1360,19 +1212,33 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The lightsaber version of this mod is broken when used alongside the mod builds, so please ensure to use specifically the longsword version.
+**Installation Instructions:** There are two versions of the install, and the first one is incompatible with the mod builds and will be marked "DO NOT USE." Switch to the second install when running the patcher.
 
 ___
 
-### Visas VO Tweak
+### KFIC
 
-**Name:** [Visas Voiceover Tweak](http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/)
+**Name:** [KFIC](https://mega.nz/#!tUAnQbBa!nVx_3eTbh_ngW3P48x3oD5NfhNK_5wnilBtxJNHGaM0)
 
 **Author:** danil-ch
 
-**Description:** Replaces lower-quality in-game dialogue in the initial *Ravager* scene between Nihilus and Visas with versions from one of the game's pre-rendered cutscenes.
+**Description:** Improves the quality of a critical cutscene by rendering it in-game rather than as a low-quality movie.
 
-**Masters:** TSLRCM
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
+### N-V Tweak
+
+**Name:** [N-V Tweak](https://mega.nz/#!sI513Iaa!eqAhNkDHRCyNNG0KrtJDN1RsCSDJEy4pLW-c_V3prD0)
+
+**Author:** danil-ch
+
+**Description:** Replaces lower-quality in-game dialogue in a sequence with dialogue recorded for one of the game's cutscenes. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -1380,17 +1246,17 @@ ___
 
 **Installation Method:** Loose-File Mod
 
+**Masters:** TSLRCM
+
 ___
 
-### Sion and a Male Exile
+### DSME
 
-**Name:** [Darth Sion and the Male Exile](http://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/)
+**Name:** [DSME](https://mega.nz/file/5ExhzTSD#ClzfIBLAn95udlO-0p2_nY4LDAyCWvZ86xm1Eu_OlRo)
 
 **Author:** Leilukin
 
-**Description:** I find that Sion's character comes off completely one-dimensional, ruining both his own interesting character arc and his relationship with Kreia, unless he can express a feeling of sentimentality for the Exile. Unfortunately this is conveyed via a romantic obsession between Sion and the player, and by default this is locked to a female Exile. In the interests of presenting Sion at his best as a character, this mod causes Sion to become obsessed with the player regardless of their gender.
-
-**Masters:** TSLRCM
+**Description:** For reasons of story, I find that a certain character comes off completely one-dimensional, ruining his own interesting character arc, unless he can express feelings of sentimentality for the main character. Unfortunately this is conveyed via a romance of sorts, and by default this is locked to a female MC. In the interests of presenting this character at their best, this mod causes the character to become obsessed with the player regardless of their gender. I should stress that this is only included because I find it to be fitting regardless of gender, and hold this character's expression of feelings as plot-relevant.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1398,35 +1264,35 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
+**Masters:** TSLRCM
+
 ___
 
-### Assassins with Lightsabers
+### SAwL
 
-**Name:** [Sith Assassins with Lightsabers](https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/)
+**Name:** [SAwL](https://mega.nz/file/8IRV1LSY#wZZqDdiILBXolsVTuB84rVFxmYkFW6DSwz9Bttfr1ak)
 
 **Author:** Lewok2007
 
-**Description:** Replaces the Sith Assassins' default weaponry with lightsabers. It makes more sense that they would hunt the last of the Jedi with weapons meant to face them.
-
-Be ready for a hard slog through the *Harbinger* if you choose to use this mod.
+**Description:** Be prepared for a real challenge if you use this mod. Early on, you will be faced with something very realistic, but extremely difficult. Only use this mod if you're alright with facing a serious challenge you are likely to die from several times. Information has been censored to preserve the surprise.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Multi-Run HoloPatcher
+**Installation Method:** Multi-Run TSLPatcher
 
 **Installation Instructions:** Run the installer once for the first part of the install, then again to apply the second half.
 
 ___
 
-### True Sith Assassins
+### True
 
-**Name:** [True Sith Assassins](https://deadlystream.com/files/file/2649-true-sith-assassins-awareness-restoration/)
+**Name:** [True SA](https://mega.nz/file/ZNBXEBzQ#paC-xJTpC7xP8baTTwsT-WW9UQytlUuaTETD75atuco)
 
 **Author:** offthegridmorty
 
-**Description:** By default, Sith Assassins aren't *actually* using stealth, and you don't *actually* roll Awareness to detect them. This mod not only gives the Sith Assassins some levels of Sneak Attack (they are literally stealthed assassins, after all) it also makes them actually use stealth just like the player would, and the party either needs to damage them or roll a successful Awareness check to detect them. As you may expect, this mod can be *hard* depending upon your character build, and also whether you're using Sith Assassins with Lightsabers. It does have an option to reduce the difficulty, though, which makes it more immersive and less about you getting your shit kicked in, if that's appealing to you.
+**Description:** This mod can be considered an add-on to SAwL. It does work differently and can be used standalone (I actively recommend using it even if you choose not to use SAwL), but for the most part it is basically a realism/difficulty enhancement to SAwL. It enhances realism by adding a stealth feature to the same challenge which is modified in SAwL, gives the challenge certain Sneak Attack feats (they should logically have had these), and also forces the player and party to actively roll Awareness to detect the threats. This might sound like, combined with SAwL, it would be insane--and, normally, it would be. I recommend using the reduced difficulty option in this mod so you can have the realism without an unsurvivable difficulty spike.
 
 **Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
 
@@ -1434,7 +1300,7 @@ ___
 
 **Installation Method:** Multi-Run HoloPatcher
 
-**Installation Instructions:** Unless you intend on playing a character with very high awareness, I recommend the reduced difficulty option if using Lewok's Sith Assassins with Lightsabers, because the damage will be ridiculous. Remember to also apply the compatch for Lewok's mod after running the main install option of your choice, if using it.
+**Installation Instructions:** I recommend the reduced difficulty option if using SAwL, but without SAwL you should be fine to use the full version of this mod, though it will give a similar level of challenge as using SAwL alone. Remember to also apply the compatch for SAwL after running the main install option of your choice, if using SAwL.
 
 ___
 
@@ -1444,7 +1310,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Sensed a pattern with Morty and continually putting out banger mods yet? This is a neat one which gives the player the ability to summon Mandalorian reinforcements to support them. Normally this would be too overpowered and kind of out-of-place, but at my request Morty has graciously made an install option specifically for use in the mod builds which only adds the Mandalorian support squads to the *Ravager*, where it makes sense for them to be present and available to come assist the player.
+**Description:** This is a neat mod by Morty which gives the player the ability to summon Mandalorian reinforcements to support them after a certain point in the story, where it makes sense for them to gain access to this support. However normally this would be too overpowered and kind of out-of-place. Morty has however graciously made an install option specifically for use in the mod builds which only adds the Mandalorian support squads to a very narrow and specific sequence lategame, where it makes sense for them to be present and available to come assist the player.
 
 **Category & Tier:** Mechanics Change & Immersion / 3 - Suggested
 
@@ -1462,7 +1328,7 @@ ___
 
 **Author:** WildKarrde
 
-**Description:** A really neat mod which makes the Peragus medical bay a little bit more coherent—you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
+**Description:** A really neat mod which makes a medical bay you encounter a little bit more coherent—the occupants are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1512,7 +1378,7 @@ ___
 
 ### Quarterstaff Replacements
 
-**Name:** [Quarterstaff Replacement Pack](http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
+**Name:** [Quarterstaff Replacement Pack](https://mega.nz/file/ZEpn2Twb#pRXWGZyezYKTl1B3wti__jjH7tGL_uYyCOdERWHOWnU)
 
 **Author:** DeadMan
 
@@ -1548,7 +1414,7 @@ ___
 
 **Author:** redrob41
 
-**Description:** There's just no way around it: Luxa's model is all kinds of fucked up. This mod accomplishes a herculean task in getting her to look not just normal, but excellent.
+**Description:** There's just no way around it: the NPC Luxa's model is all kinds of fucked up. This mod accomplishes a herculean task in getting her to look not just normal, but excellent.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1560,13 +1426,13 @@ ___
 
 ___
 
-### Visually Repair HK
+### VRHK
 
-**Name:** [Visually Repair HK-47](https://deadlystream.com/files/file/1434-visually-repair-hk-47/)
+**Name:** [VRHK](https://mega.nz/file/5QBnDTyA#8SegkhRE7q418FGR7X-5FzJ2EMHOUHULRi-LYh4REj8)
 
 **Author:** Kexikus
 
-**Description:** This mod brings to KOTOR 2 the same concept that the original game had with repairing HK. In addition to moderately increasing HK's stats over the course of the repairs (a much-welcome improvement, as droids in KOTOR 2 tend to underperform anyway), this mod also allows you to visually see HK become his old self again as the HK-50 components are gradually integrated, fixed and painted-over. The mod even includes some excellent reskins of the HK-50s and -51s! **AND** it's fully-voiced in a seamless way using original game dialogue! You'll have to forgive me, this is like a wet dream for me, seriously.
+**Description:** It's difficult to describe this mod without spoiling its contents, but in essence it allows you to progressively upgrade a companion while visually seeing the progress of your repairs, and also provides an improved skin for that companion so the process is even easier to see. To top it all off, the entire sequence is lore-friendly and completely voiced by vanilla companion dialogue. It's an excellent mod.
 
 **Category & Tier:** Added Content, Appearance Change & Immersion / 2 - Recommended
 
@@ -1580,11 +1446,11 @@ ___
 
 ### Consistent Bastila Recognition
 
-**Name:** [Consistent Bastila Recognition](https://deadlystream.com/files/file/2695-consistent-bastila-recognition/)
+**Name:** [Consistent Bastila Recognition](https://mega.nz/file/4VomiLIL#Sr8tbGz44_Eleh_Uk2_JpWozmAflgltHYMoC2kpVCpc)
 
 **Author:** Leilukin
 
-**Description:** The player sees Bastila twice in KOTOR 2: once in a holo-recording left in T3's memory banks, and once in a vision from the Tomb of Ludo Kressh. The problem is that the player recognizes Bastila in Kressh's tomb, but not in the holo-recording. There's no reason why this should be, and this mod fixes the discrepancy: the player now recognizes Bastila in T3's recording also.
+**Description:** Without giving too much away, the KOTOR 2 protagonist knows who Bastila is, and correctly identifies her, but misidentifies her another time, when it should have always been obvious who she was. This mod fixes the issue and causes the player to properly identify Bastila both times.
 
 **Category & Tier:** Immersion / 2 - Recommended
 
@@ -1604,7 +1470,7 @@ ___
 
 **Author:** Fair Strides, patch by JCarter426
 
-**Description:** The Handmaiden has an inhumanly thin waist and scrawny arms by default. This mod fixes both as best it can, leaving her appearing more realistic and giving her at least some indication of upper arm strength.
+**Description:** The Handmaiden, a possible companion, originally has an inhumanly thin waist and scrawny arms, the latter of which makes no sense for her character. This mod fixes both as best it can, leaving her appearing more realistic and giving her at least some indication of upper arm strength.
 
 **Category & Tier:** Appearance Change / 2 - Recommended
 
@@ -1612,7 +1478,7 @@ ___
 
 **Installation Method:** TSLPatcher Mod & Loose-File Patch
 
-**Installation Instructions:** Ignore all the loose files in the folder; use the TSLPatcher to install the mod.
+**Installation Instructions:** Ignore all the loose files in the folder; use the TSLPatcher to install the mod. Then copy the two files from the patch into override.
 
 ___
 
@@ -1622,7 +1488,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** By default, KOTOR 2 has all the handmaidens look exactly the same, except for Brianna herself. This mod restores the original intended appearance of the other sisters, so it actually makes sense when they say that Brianna honors the face of her mother.
+**Description:** The handmaiden has five half-sisters who all, by default, share her appearance. Canonically, however, it's established that they all look different than the companion handmaiden sister. This mod restores the different appearance of the five other sisters.
 
 **Category & Tier:** Restored Content & Immersion / 2 - Recommended
 
@@ -1640,15 +1506,15 @@ ___
 
 **Author:** Lewok2007
 
-**Description:** This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room.
+**Description:** This is just a thing what bothers me, from a game design perspective. Immediately after the prologue the player is given a weapon, but then they get a new and better weapon weapon immediately after, *before* facing any enemies with the first weapon. This mod moves the better weapon onto an enemy, so the player has to beat them with the first weapon before they can switch to the better option.
 
-**Category & Tier:** Immersion / 4 - Option
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES, however some text will be in English
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the first droids with a plasma torch.
+**Installation Instructions:** Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the enemy with a worse weapon option.
 
 ___
 
@@ -1672,19 +1538,19 @@ ___
 
 ### Fixed Hologram Models
 
-**Name:** [Fixed Hologram Models & Admiralty Redux](https://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/)
+**Name:** [Fixed Hologram Models & Admiralty Redux](https://www.darthparametric.com/files/kotor/tsl/[TSL]_Fixed_Hologram_Models_v1.6_R-KOTOR_BUILD.7z)
 
 **Author:** DarthParametric
 
-**Description:** By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Carth and Cede to properly wear Republic officer uniforms in their holograms and in-game appearances.
+**Description:** By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Admirals that appear in the game to wear Republic uniforms in their holograms and in-game appearances. Some information has been censored to prevent spoilers.
 
-**Masters:** TSLRCM
-
-**Category & Tier:** Bugfix & Graphics Improvement & Appearance Change / 1 - Essential
+**Category & Tier:** Bugfix, Graphics Improvement & Appearance Change / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Download Instructions:** Download just the main file, not the robes patch.
 
@@ -1705,24 +1571,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Download Instructions:** Download both files.
-
-___
-
-### Player & Party Underwear
-
-**Name:** [Player & Party Underwear](https://deadlystream.com/files/file/344-player-party-underwear/)
-
-**Author:** redrob41
-
-**Description:** I'm not a sex-pervert, I swear. We use this mod because of the improvements it makes to the base character models, and also for its fixes to some texture mapping, such as the male player's default underwear model.
-
-**Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Multiple TSLPatchers & Loose-File Mod
-
-**Installation Instructions:** Male and female PCs, Mira, the Disciple and Atton are the only changes that can be used from this pack. Use the linked pictures on deadlystream to decide which packages of those you would like to use, then (for the male and female PCs) move the files to the override or (for Mira, the Disciple and Atton) run the TSLPatcher to install for each version. Note that for female PCs, one of the four underwear replacers can be chosen *in addition to* the "Dancer Muscles" fix, which changes the PC's model specifically for that one outfit.
 
 ___
 
@@ -1748,7 +1596,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Light Side Enlightenment (not to be confused with the Force power Enlightenment) and Dark Side Corruption, the bonus feats given to Jedi Master and Sith Lord prestige classes, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss.
+**Description:** Without spoiling anything about it, KOTOR 2 has a prestige class system: unique classes that give the player certain benefits. The bonuses for two of these specific classes, Light Side Enlightenment and Dark Side Corruption, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1776,11 +1624,11 @@ ___
 
 ### Improved Force Sight
 
-**Name:** [Improved Force Sight](https://deadlystream.com/files/file/2651-improved-force-sight/)
+**Name:** [Improved Force Sight](https://mega.nz/file/0YwSlQpT#pF08ITF0Zf0EjSXF10YsCXLAZKMeD1HqgywXr6-TDWY)
 
 **Author:** offthegridmorty
 
-**Description:** Another by Morty, and a great companion to his True Sith Assassins mod, this mod improves Force Sight by giving it some more immediate combat utility, allowing it to significantly boost the player's Awareness stat, while also tweaking its behavior for Kreia and Visas.
+**Description:** Another by Morty, and a great companion to his "True [SA]" mod, this mod improves Force Sight by giving it some more immediate combat utility, allowing it to significantly boost the player's Awareness stat, while also tweaking its behavior for some companions where it makes logical sense. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1816,7 +1664,7 @@ ___
 
 **Author:** Nimduril
 
-**Description:** Reskins Bao-Dur to have a different default appearance, but also to have a complete Dark Side transformation.
+**Description:** Reskins NPC Bao-Dur to not only look better, but also have a complete Dark Side transformation.
 
 **Screenshots:** [Here](https://imgur.com/a/oVwUs)
 
@@ -1864,13 +1712,13 @@ ___
 
 ### TOMB
 
-**Name:** [Thematic Obscured Mausoleum Burial](https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/)
+**Name:** [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB/releases/download/v1.0.3/KOTOR2-TOMB_v1.0.3_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
-**Description:** The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
+**Description:** This mod serves to fix many idiosyncrasies with a very specific module of the game, as well as adding more player agency and dynamism to the sequence. I unfortunately can't be more detailed than that.
 
-Do note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
+Do note—this mod is quite difficult. Winning the fights it amends *is not mandatory*, however, and you will still be able to continue even if you lose one or more of the encounters. The area these fights are contained in is also entirely optional.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1889,6 +1737,7 @@ ___
 **Description:** KOTOR on mobile devices has case sensitivity. To make these mods function properly on iOS, the files must be batch-renamed to their case-sensitive versions. This step is **ONLY NEEDED IF YOU ARE GOING TO BE PLAYING ON AN iOS DEVICE**!
 
 **Category & Tier:** Bugfix / 1 - Essential
+
 
 **Installation Instructions:** Before proceeding, delete the dummy executable used to facilitate the mod installations. If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.
 
@@ -1910,14 +1759,3 @@ For more information:
 
 * [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
 
-## IMPORTANT: Final Installation Instructions
-
-First, navigate to mods_english's override directory, locate, and delete two files, if they're present: "CM_baremetal.tga" and "CM_baremetal.txi".
-
-Once that's completed, if you did not complete the case sensitivity step, delete the dummy executable file in mods_english which you downloaded at the beginning of the process now. Your install is now complete! You can now connect your mobile device to your system, and move the dlc folder containing the mods_english folder to the install point for your device:
-
-**iOS**:
-On iOS, they are placed in iTunes > Apps > Documents, in the same spot that the ‘saves’ folder goes.
-
-**ANDROID**:
-On Android the files should be placed in /Home/Android/data/com.aspyr.swkotor2/files/

@@ -1,18 +1,22 @@
+[metadata]
+fileFormatVersion = "2.0"
+
 [[thisMod]]
-Guid = "42bb7b1c-f344-4fd2-9b0e-432153ac4210"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/" = {  } }
+Guid = "c6dbc13b-602e-44a6-be53-8ae30d77c7e3"
 Name = "Mobile TSLRCM (The Sith Lords Restored Content Mod)"
 Author = "zbyl2, DarthStoney, Hassat Hunter & VarsityPuppet"
 Tier = "1 - Essential"
 Description = "The whole reason why you would mod KOTOR 2, the legendary mod that includes bugfixes, restored content, and altered scenes to return the game to what it was meant to be. This mod isn't just essential—it's mandatory."
 InstallationMethod = "Loose-File Mod"
 Directions = "For now, disregard the installation instructions included in the mod, as we will be dragging over the completed installation in batch. Once the mod is downloaded, extract it to a location of your choice on your PC/Mac and delete everything inside the dlc folder except for the 'mods_*x*' directory, the 'x' corresponding to your language of choice.\r\n\r\nYou now need to download [this file](https://deadlystream.com/files/file/1321-kotor-2-editable-executable/) and place it within your mods_*x* folder. **This file is critical for future installations to function properly**. This is a dummy .exe file which lets later mods install to the right place on your device, and without error. We will delete it as one of the final steps of this installation process, as it's only needed for installations to function normally.\r\n\r\nFrom this point forward all mods are installed as if the mods_*x* folder is the **main game directory**. For any TSLPatcher executable which asks you to select the main game folder/folder with the executable in it, you will select the mods_*x* folder. Similarly, any mods directing you to place their files within the game's override folder will be placed within the override folder within mods_*x*."
-IsSelected = false
+IsSelected = true
 Category = ["Bugfix", "Immersion", "Mechanics Change", "Restored Content"]
 Language = ["YES, *but* you must install the version of MTSLRCM which corresponds to your language of choice."]
-ModLink = ["https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/", "https://deadlystream.com/files/file/1321-kotor-2-editable-executable/"]
 
 [[thisMod]]
-Guid = "70a26251-f364-4de0-958f-f317f68cedda"
+ModLinkFilenames = { "http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/" = {  } }
+Guid = "8720ca2f-bacf-4be7-94fc-e88c73c88294"
 Name = "TSLRCM Tweak Pack"
 Author = "Pavijan (update by Fair Strides)"
 Tier = "1 - Essential"
@@ -22,14 +26,15 @@ Directions = "Don't use the complete installer, instead selecting the individual
 IsSelected = true
 Category = ["Patch"]
 Language = ["PARTIAL - All components can be installed *except* for Trayus Mandalore Conversation."]
-ModLink = ["http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "ba389120-d9d2-4b2c-8309-2fe22ceca734"
+Guid = "8319acb0-1ba3-4da0-b4a5-ac0318a38e75"
 Action = "Extract"
 Source = ["<<modDirectory>>\\URCMTP*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "053d72c7-e8db-4c8f-89db-65da3eabaaef"
+Guid = "9e9c7656-82c5-46e9-9ac3-d3dcdfc4ce21"
 Action = "Choose"
 Source = ["49fa91d6-bd1e-451b-bed5-69e268d6a30c", "c2c85aa2-d06e-4950-a2dc-5687e7213bef", "9ef8800b-1e2b-48a2-a657-f599e056b549", "2acade32-7526-4896-8f94-2f908f13ec9a", "cb7d378b-6bf7-4e73-a35a-056098d7158b", "7157fcc1-7981-4380-a990-c22cac12579d", "f8789f89-4bc0-4f34-8088-f5533a104605", "2bbc15eb-f9cc-45ff-8a33-4ba611c42b67"]
 
@@ -37,79 +42,158 @@ Source = ["49fa91d6-bd1e-451b-bed5-69e268d6a30c", "c2c85aa2-d06e-4950-a2dc-5687e
 Guid = "49fa91d6-bd1e-451b-bed5-69e268d6a30c"
 Name = "Kaevee part 1"
 IsSelected = true
-Instructions = [{Guid = "28e34870-e876-4eae-97bb-90f163359105", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "0", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "49fa91d6-bd1e-451b-bed5-69e268d6a30c"
+Guid = "8ca03478-0ff2-4f70-bb19-3be5c4e496e7"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "0"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "c2c85aa2-d06e-4950-a2dc-5687e7213bef"
 Name = "Kaevee part 2"
 IsSelected = true
-Instructions = [{Guid = "00057d6e-6fe8-4092-8a6f-bb47b75eadb9", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "1", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "c2c85aa2-d06e-4950-a2dc-5687e7213bef"
+Guid = "42eede3c-dc44-4b35-a8c8-f8d714a2e8a2"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "1"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "9ef8800b-1e2b-48a2-a657-f599e056b549"
 Name = "Saedhe's Head"
 IsSelected = true
-Instructions = [{Guid = "66edaf3c-db0f-4951-a7b5-4244d857d379", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "2", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "9ef8800b-1e2b-48a2-a657-f599e056b549"
+Guid = "ca37ddc3-6704-4105-b7e1-c72ad07b3cb8"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "2"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "2acade32-7526-4896-8f94-2f908f13ec9a"
 Name = "Atton at the End"
 IsSelected = true
-Instructions = [{Guid = "0366c6e0-ec2c-4639-86b8-b4f6ce857c49", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "4", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "2acade32-7526-4896-8f94-2f908f13ec9a"
+Guid = "7a48e264-2ba6-4303-9fcf-a724f030879d"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "4"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "cb7d378b-6bf7-4e73-a35a-056098d7158b"
 Name = "Kreia-Atris Dialogue Tweak"
 IsSelected = true
-Instructions = [{Guid = "dde898b6-7dc3-4acf-b865-18deaefe8b52", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "5", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "cb7d378b-6bf7-4e73-a35a-056098d7158b"
+Guid = "d697209f-66de-4bb6-9d77-785564d6346d"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "5"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "7157fcc1-7981-4380-a990-c22cac12579d"
 Name = "Trayus Mandalore Conversation"
 IsSelected = true
-Instructions = [{Guid = "afb6f6ec-671e-4e58-b6a7-9938261ea5ef", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "6", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "7157fcc1-7981-4380-a990-c22cac12579d"
+Guid = "e5192645-b299-4783-928f-d330da3c13dd"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "6"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "f8789f89-4bc0-4f34-8088-f5533a104605"
 Name = "Trayus Sith Lord Masks"
 IsSelected = true
-Instructions = [{Guid = "5cd7cd85-357b-4256-9ba3-6d02503701fc", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "7", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "f8789f89-4bc0-4f34-8088-f5533a104605"
+Guid = "682d4078-879b-48ab-98a3-870dd17b2f03"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "7"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 [[thisMod.Options]]
 Guid = "2bbc15eb-f9cc-45ff-8a33-4ba611c42b67"
 Name = "Gand Warrior's Awareness Check"
-IsSelected = false
-Instructions = [{Guid = "1f7347db-9345-4cca-b6c8-6eda3df4fa51", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "8", Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "2bbc15eb-f9cc-45ff-8a33-4ba611c42b67"
+Guid = "213a8ca2-3e4a-413f-8f65-00c600023477"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "8"
+Source = ["<<modDirectory>>\\URCMTP*\\Individual component installer\\U_TSLRCM_TP_IND.exe"]
 
 
 [[thisMod]]
-Guid = "5d5ef1e4-ce9e-4444-b7e6-e254b7583033"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2426-silent-sion-restoration/" = {  }, "https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/" = {  } }
+Guid = "cbcb0466-c9fd-4f4d-96d3-a843bda6e990"
 Name = "Silent Sion Restoration"
 Author = "Emperor Devon"
 Tier = "2 - Recommended"
 Description = "Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing."
 InstallationMethod = "Loose-File"
 Directions = "Move just 153sion.dlg to the override."
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2426-silent-sion-restoration/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
+[[thisMod.Instructions]]
+Guid = "44ec3d32-19e1-444d-bb6a-2c72ba311b8f"
+Action = "Extract"
+Source = ["<<modDirectory>>/Effixians_PFHC03_Restoration.zip"]
+
+[[thisMod.Options]]
+Guid = "03489b29-2689-4792-bd19-9849331b93cc"
+Name = "Vanilla Zombie"
+IsSelected = true
+Restrictions = ["ff137ca4-18e7-460b-89fd-e2cb2e5fa6fd"]
+[[thisMod.Options.Instructions]]
+Parent = "03489b29-2689-4792-bd19-9849331b93cc"
+Guid = "765a3cd9-9f47-44ec-8666-881e01a2762c"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\Effixians_PFHC03_Restoration\\Effixians_PFHC03_Restoration\\Vanilla Zombie\\TSLPatcher - Install Effixian's PFHC03 Restoration - Vanilla Zombie.exe"]
+
+[[thisMod.Options]]
+Guid = "ff137ca4-18e7-460b-89fd-e2cb2e5fa6fd"
+Name = "Movie Style Sith Eyes"
+Restrictions = ["03489b29-2689-4792-bd19-9849331b93cc"]
+[[thisMod.Options.Instructions]]
+Parent = "ff137ca4-18e7-460b-89fd-e2cb2e5fa6fd"
+Guid = "0d851311-7535-4c12-9e17-4c465cafe260"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\Effixians_PFHC03_Restoration\\Effixians_PFHC03_Restoration\\Movie Style Sith Eyes\\TSLPatcher - Install Effixian's PFHC03 Restoration - Movie Style Sith Eyes.exe"]
+
 
 [[thisMod]]
-Guid = "a9246aa5-7302-4b90-90c5-256e9e659eed"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/" = {  } }
+Guid = "a42520e5-36df-45dd-a203-ff1fe8fd42bd"
 Name = "Thematic KOTOR 2 Companions"
 Author = "Sniggles & JCarter426"
 Tier = "2 - Recommended"
 Description = "In the original KOTOR, BioWare did a few wacky things with character progression. Obsidian, not wanting to be outdone, decided to be even worse by just straight-up copying the statlines of several KOTOR companions for KOTOR 2 companions!\r\n\r\nAs part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members."
 InstallationMethod = "TSLPatcher"
 Directions = "If you would like to have Visas's class as Sith Assassin, install the \"Standard + Sith Assassin Visas\" option. Otherwise, simply install \"Standard.\""
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2662-thematic-kotor-2-companions/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
 
 [[thisMod]]
-Guid = "1de89504-686d-475a-995f-c05a959d289b"
+ModLinkFilenames = { "http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/" = {  } }
+Guid = "7f112845-0527-426b-952f-fcda34e7716c"
 Name = "Prestige Class Saving Throw Fixes"
 Author = "Rovan"
 Tier = "2 - Recommended"
@@ -119,35 +203,35 @@ Directions = "I advise users to only install the Jedi Master/Sith Lord fixes."
 IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/"]
+
 [[thisMod.Instructions]]
-Guid = "e359c827-5f1c-4b1b-8f46-870beaccbf3b"
+Guid = "7dedd3fe-b3fe-467f-8898-5e3112bb1512"
 Action = "Extract"
 Source = ["<<modDirectory>>/TSL_prestige_save_fixes.zip"]
 
 [[thisMod.Instructions]]
-Guid = "1fd43302-e909-4503-81fd-11d27663ea30"
+Guid = "5defd558-2c34-4704-96c3-280dffd4c712"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/TSL_prestige_save_fixes/TSL_prestige_save_fixes/jedimaster_sithlord fixes/*"]
 
 
 [[thisMod]]
-Guid = "75b596db-3c78-4fe6-bc7b-5b2f6bb3f169"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2812-classic-class-attack-bonus/" = {  } }
+Guid = "a7939e96-bb3f-4196-bc15-930701cafd9f"
 Name = "Classic Class Attack Bonus"
 Author = "Crimson Knight"
 Tier = "1 - Essential"
 Description = "In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 1.25:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 1.25:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game."
 InstallationMethod = "TSLPatcher Mod"
 Directions = "Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2812-classic-class-attack-bonus/"]
 
 [[thisMod]]
-Guid = "8ad64060-837c-4561-b749-a6b0116963d1"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2075-robes-with-shadows-for-tsl/" = {  } }
+Guid = "3709be0b-6d2a-47b2-85c5-555fd3ad102b"
 Name = "Robes with Shadows for TSL"
 Author = "PapaZinos"
 Tier = "3 - Suggested"
@@ -157,22 +241,22 @@ Directions = "Extract the mod. Ignore the included subfolders, and move just the
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2075-robes-with-shadows-for-tsl/"]
+
 [[thisMod.Instructions]]
-Guid = "d5ef01a7-fdd3-4754-bb19-a5249523e17c"
+Guid = "e52293cb-c408-4529-b3c2-6bbd41af9236"
 Action = "Extract"
 Source = ["<<modDirectory>>/Ultimate_Robes_Repair_For_TSL*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "634f692e-3a24-40f0-8584-2a1f71db727e"
+Guid = "2455f55d-d132-4137-8c54-c64b8dbef83c"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/Ultimate_Robes_Repair_For_TSL*/Ultimate_Robes_Repair_For_TSL*/*.*"]
 
 
 [[thisMod]]
-Guid = "6a499432-db6b-4ccf-a008-6230db724d25"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1280-kotor-2-community-patch/" = {  } }
+Guid = "f7e826ed-e5ac-4d4e-85b7-1289044ea5ee"
 Name = "K2 Community Patch"
 Author = "Multiple; A Future Pilot, JCarter426 Curates"
 Tier = "1 - Essential"
@@ -182,21 +266,49 @@ Directions = "Remember, warnings during an installation are normal—errors are 
 IsSelected = true
 Category = ["Graphics Improvement", "Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1280-kotor-2-community-patch/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "28d76c75-9027-4a16-bcbf-61a098beb38d"
+Guid = "732fbca2-cc0f-43c0-8f7f-bc012ea585ab"
 Action = "Extract"
 Source = ["<<modDirectory>>/KOTOR 2 Community Patch*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "06b94344-42a2-4fae-9205-586768ffe939"
+Guid = "2f80e725-863a-473d-b6c3-be7b6490f4af"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>/KOTOR 2 Community Patch*/INSTALL.exe"]
 
+[[thisMod.Instructions]]
+Guid = "70ffaf8d-e9ac-48fe-a22d-99d3464ac2d0"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\K2CP_v1.6.2.zip"]
 
+
+# URL RESOLUTION FAILURE: https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence
+# Direct download failed. This can happen when:
+
+• The download link is broken or expired
+• The server is blocking automated downloads
+• The file has been moved or deleted
+
+Please try downloading manually from: https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence
+
+Technical details: Response status code does not indicate success: 403 (Forbidden).
+# URL RESOLUTION FAILURE: https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0
+# Direct download failed. This can happen when:
+
+• The download link is broken or expired
+• The server is blocking automated downloads
+• The file has been moved or deleted
+
+Please try downloading manually from: https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0
+
+Technical details: Response status code does not indicate success: 400 (Bad Request).
 [[thisMod]]
-Guid = "2201f6f5-f21f-4ad3-adb6-c75c5b0fcb48"
+ModLinkFilenames = { "https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence" = { "remote-tells-influence" = true }, "https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0" = { "Remote Tells Influence Patch for TSLRCM.zip" = true } }
+Guid = "968beb74-af3d-403a-9b0e-aea15d1e4619"
 Name = "Remote Tells Influence"
 Author = "tk102, patch by Leilukin"
 Tier = "4 - Optional"
@@ -205,59 +317,58 @@ InstallationMethod = "Loose-File Mod & Patch"
 IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["NO"]
-ModLink = ["https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence", "https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0"]
+
 [[thisMod.Instructions]]
-Guid = "da86ee90-4f3c-42d6-bf7b-394d48819db5"
+Guid = "b806064b-24f0-4c0b-a66e-ea2e8b7f1e7e"
 Action = "Extract"
 Source = ["<<modDirectory>>/remote_influence.zip"]
 
 [[thisMod.Instructions]]
-Guid = "a5c7f213-bc0e-4899-9d63-440a94f89e5d"
+Guid = "0e2f885d-8def-4937-9189-19bcfa6d39c2"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\remote_influence\\remote.dlg", "<<modDirectory>>\\remote_influence\\tk_remote_getinf.ncs"]
 
 [[thisMod.Instructions]]
-Guid = "841d3890-b66f-4ae7-be10-a5e345c13a71"
+Guid = "18211311-18d4-48cc-996a-1cc600e712b2"
 Action = "Extract"
 Source = ["<<modDirectory>>/Remote Tells Influence Patch for TSLRCM.zip"]
 
 [[thisMod.Instructions]]
-Guid = "cc4ad629-90c4-466b-80f9-02357ea62cc3"
+Guid = "8a12aa46-7d51-4936-9b77-f6274e3710e7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>/Remote Tells Influence Patch for TSLRCM/remote.dlg"]
 
 
 [[thisMod]]
-Guid = "694f3b53-566c-434f-b35a-6c862cc8545c"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2576-fixed-better-czerka-salvager/" = {  } }
+Guid = "f6971bf3-49f9-4244-b39b-62351ada273e"
 Name = "Fixed / Better Czerka Salvager"
 Author = "OzilsEyes"
 Tier = "2 - Recommended"
 Description = "I'm betting that *anyone* who has played KOTOR 2 before will remember that fucking son of a bitch Czerka salvager in the Telos military base. His pathfinding would make the most awful escort quest target in history blush in embarassment. This mod by Ozils is an outright lifesaver, applying much-enhanced follower logic to the salvager and automatically teleporting him to the party if you get too far away. No more 20 minutes of painstakingly dragging his ass through the base!"
 InstallationMethod = "TSLPatcher"
-IsSelected = false
+IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2576-fixed-better-czerka-salvager/"]
 
 [[thisMod]]
-Guid = "caa4114b-1b9d-4e9e-a702-f12b9326747b"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/" = {  } }
+Guid = "c0d7f042-1b1e-4b3e-9fd9-79cb426190ac"
 Name = "Ritual and Water Textures"
 Author = "Nehua"
 Tier = "2 - Recommended"
 Description = "A very nice retexture of the ritual \"dome\" during the party assault on Freedon Nadd's tomb. Note that the water texture from this mod is not (and cannot be) used for game stability, due to the way the mod is packaged; we will only use the ritual texture."
 InstallationMethod = "Loose-File Mod"
 Directions = "Move only the files from the ritual folder, not the water."
-IsSelected = false
+IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/"]
 
 [[thisMod]]
-Guid = "2a17dd63-3313-4f70-a84e-1ac168ff8813"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1442-pfhc06-fix/" = {  } }
+Guid = "7b642a94-f477-4d72-99bc-dc11399253f2"
 Name = "PFHC06 Fix"
 Author = "Ferc Kast"
 Tier = "3 - Suggested"
@@ -266,45 +377,47 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1442-pfhc06-fix/"]
+
 [[thisMod.Instructions]]
-Guid = "a6335262-b7a0-4386-9a17-0bb2f906f18c"
+Guid = "e9917f43-e65b-4d2e-b14c-980802a031f7"
 Action = "Extract"
 Source = ["<<modDirectory>>/k2-pfhc06-fix.zip"]
 
 [[thisMod.Instructions]]
-Guid = "5fa9b526-7b08-4d13-9a06-a3bbdd110476"
+Guid = "5e46d2ef-58fb-4dfc-83b6-296642876e48"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\k2-pfhc06-fix\\*"]
 
 
 [[thisMod]]
-Guid = "1a106d62-0456-4249-9ea1-77c5efe4642d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1860-droid-special-weapons-fix-for-tsl-v10/" = {  } }
+Guid = "81428214-b84a-4fb6-a828-2aad37de0fd9"
 Name = "Droid Special Weapons Fix"
 Author = "LoneWanderer"
 Tier = "2 - Recommended"
 Description = "Several droid special weapons have inaccurate descriptions or plain wrong damage and effect values listed. This mod fixes all that up to make the descriptions of the items and their effects match what they actually do ingame."
 InstallationMethod = "TSLPatcher Mod"
+DownloadInstructions = "Use the V2 version of the mod."
 IsSelected = true
 Category = ["Bugfix"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/1860-droid-special-weapons-fix-for-tsl-v10/"]
+
 [[thisMod.Instructions]]
-Guid = "80bfc14b-f662-42a7-9868-754699cc57bd"
+Guid = "4ab7831d-17e7-442b-8ac2-4aa54b73291e"
 Action = "Extract"
 Source = ["<<modDirectory>>/Droid special weapons fix for TSL*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "406a84be-49a2-4675-9e36-8c528eaf8730"
+Guid = "fa5ffed1-0e92-4bd8-b351-8cb1c1c492c6"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Droid special weapons fix for TSL*\\Droid special weapons fix for TSL*\\TSLPatcher.exe"]
 
 
 [[thisMod]]
-Guid = "1c2e5944-6e65-4d8d-a5f3-d0dcf8e4e9a5"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1904-honest-merchant-tslrcm/" = {  } }
+Guid = "dfcc3436-613e-412b-bcde-4e5947f1e351"
 Name = "Honest Merchant"
 Author = "TK-664"
 Tier = "4 - Optional"
@@ -313,21 +426,23 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1904-honest-merchant-tslrcm/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "eaa5ab22-d2fc-4a9f-9b85-0b26128d816c"
+Guid = "be4a5d16-c19a-47c9-9ec8-b1ce0f6d8dcc"
 Action = "Extract"
 Source = ["<<modDirectory>>\\dendis_merchant_mod.rar"]
 
 [[thisMod.Instructions]]
-Guid = "0ac66920-6586-47fe-86f4-000a94ed340f"
+Guid = "d9d5d36f-74c6-47c0-aaa0-4b9e83f3bb39"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\dendis_merchant_mod\\dendis merchant mod\\TSLPatcher.exe"]
 
 
 [[thisMod]]
-Guid = "03e74b29-5415-451e-9eea-0b58f3a40304"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1215-jcs-minor-fixes-for-k2/" = {  } }
+Guid = "d0c56d2e-253e-448b-ad39-2b46c564570c"
 Name = "JC's Minor Fixes"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -337,28 +452,28 @@ Directions = "If you are using the K2 Community Patch, install the contents of e
 IsSelected = true
 Category = ["Bugfix", "Graphics Improvement", "Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1215-jcs-minor-fixes-for-k2/"]
+
 [[thisMod.Instructions]]
-Guid = "7a5c7eba-7963-4f9d-a631-831febda1db8"
+Guid = "8c1f6816-996a-4720-9f5b-f960f9259385"
 Action = "Extract"
 Source = ["<<modDirectory>>/JC's Minor Fixes for K2*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "cb1add21-9d12-4f8e-bb6e-a244bc9294df"
+Guid = "5bab375c-57c9-4fe5-bc27-fadfec92f6a3"
 Action = "Delete"
 Source = ["<<modDirectory>>/JC's Minor Fixes for K2*/Straight Fixes/*.*"]
 Dependencies = ["6777f8ed-8978-49a0-ace2-3005efcf1dcf"]
 
 [[thisMod.Instructions]]
-Guid = "ff312dc5-47f2-46d9-9e6a-94f5bcd2d877"
+Guid = "ba75ad9d-ff40-4083-9a2d-9a8c9f2cc68a"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/JC's Minor Fixes for K2*/*/*.*"]
 
 
 [[thisMod]]
-Guid = "b8ae9e31-ff44-44aa-b2a0-431b515925da"
+ModLinkFilenames = { "https://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/" = {  } }
+Guid = "2bf0df3c-2108-4076-b007-4ccdaf0d562c"
 Name = "Maintenance Officer Realistic Reskin"
 Author = "Malkior"
 Tier = "4 - Optional"
@@ -367,22 +482,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/"]
+
 [[thisMod.Instructions]]
-Guid = "1d397e39-ac7f-4c8d-af39-8801a870e034"
+Guid = "0661de44-b00f-4396-8f8c-9c80cfd9741e"
 Action = "Extract"
 Source = ["<<modDirectory>>/Maintenance_Officer_New_Dead_*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "596cd223-3982-4fc1-9472-85208d7dffe1"
+Guid = "ac486568-e605-416a-9925-3af5d9698633"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Maintenance_Officer_New_Dead_*\\*.*"]
 
 
 [[thisMod]]
-Guid = "816cd250-f7cd-43d3-92d1-f3725c50d15b"
+ModLinkFilenames = { "http://deadlystream.com/files/file/221-hi-res-beam-effects/" = {  } }
+Guid = "d13ed2e8-bb17-4cf0-a3a2-3eb4d0d6b0a8"
 Name = "Hi-Res Beam Effects"
 Author = "InSidious"
 Tier = "2 - Recommended"
@@ -391,22 +506,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/221-hi-res-beam-effects/"]
+
 [[thisMod.Instructions]]
-Guid = "f44cbdec-a084-41a1-aa84-419f08db7ec0"
+Guid = "dfa19552-f0ac-4c9c-87de-b625cdc7bcff"
 Action = "Extract"
 Source = ["<<modDirectory>>/DI_HRBM_2.7z"]
 
 [[thisMod.Instructions]]
-Guid = "ab6e31eb-ec67-49aa-8824-5a3e8d60f589"
+Guid = "719e287f-3e86-445b-8bbf-c34ae8e250fa"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\DI_HRBM_2\\*"]
 
 
 [[thisMod]]
-Guid = "0ee01522-3238-412d-9cee-4d585f45212e"
+ModLinkFilenames = { "http://deadlystream.com/files/file/454-fire-and-ice-hd-whee/" = {  } }
+Guid = "30eeda35-8263-4de5-a760-ae7cb7543501"
 Name = "Fire And Ice HD"
 Author = "Cinder Skye"
 Tier = "2 - Recommended"
@@ -415,22 +530,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/454-fire-and-ice-hd-whee/"]
+
 [[thisMod.Instructions]]
-Guid = "56083af6-24e4-407f-9f72-c48a58787a77"
+Guid = "13ecd41e-e87b-4439-b882-9697c9829b2d"
 Action = "Extract"
 Source = ["<<modDirectory>>/FireandIceHDWhee.zip"]
 
 [[thisMod.Instructions]]
-Guid = "aef93d79-dec5-4df4-91d8-8199fa2eff7a"
+Guid = "955747a5-0270-4234-ad01-445347a685bb"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override\\"
-Overwrite = true
 Source = ["<<modDirectory>>/FireandIceHDWhee/*.*"]
 
 
 [[thisMod]]
-Guid = "d7ad6ac6-3627-4936-9921-c1f25640e501"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2193-animated-energy-shields/" = {  } }
+Guid = "0eb5a7ab-0dc8-4197-8283-9b26c6eb4339"
 Name = "Animated Energy Shields"
 Author = "Dark Hope"
 Tier = "2 - Recommended"
@@ -439,22 +554,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2193-animated-energy-shields/"]
+
 [[thisMod.Instructions]]
-Guid = "316312fd-87e5-4ba4-9f3f-6b5ba11a0d89"
+Guid = "a60dc180-24e5-4479-83d7-06bda69f4e2d"
 Action = "Extract"
 Source = ["<<modDirectory>>/Animated energy shields.rar"]
 
 [[thisMod.Instructions]]
-Guid = "f2499e32-f0ce-4d16-9058-c61061b60cb2"
+Guid = "6bf1b4f9-42fa-4701-b4a4-a8ef1b007551"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Animated energy shields\\*.*"]
 
 
 [[thisMod]]
-Guid = "ced8b747-8bb1-4f97-8392-4dcb3a11f5ee"
+ModLinkFilenames = { "http://deadlystream.com/files/file/489-tsl-head-model-fixes/" = {  } }
+Guid = "2920ba79-6846-4aa7-837a-5696ad2e14a8"
 Name = "TSL Head Model Fixes"
 Author = "Redrob41"
 Tier = "2 - Recommended"
@@ -463,22 +578,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/489-tsl-head-model-fixes/"]
+
 [[thisMod.Instructions]]
-Guid = "6ae8fb11-742b-421c-ae31-1d7eb9cd08db"
+Guid = "7d2aba01-be51-462b-83bb-2fca8eb0d2c7"
 Action = "Extract"
 Source = ["<<modDirectory>>/TSL_Head_Model_Fixes_by_RedRob41.zip"]
 
 [[thisMod.Instructions]]
-Guid = "4dd25b38-6c83-478f-9661-4dc5d1e1a5c7"
+Guid = "b3e95719-1d59-400d-b173-14eb852c81f7"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\TSL_Head_Model_Fixes_by_RedRob41\\*.*"]
 
 
 [[thisMod]]
-Guid = "4cbd2752-0bdb-425b-96a4-3c5d82b876a8"
+ModLinkFilenames = { "http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/" = {  } }
+Guid = "4cdd4463-bc11-4a88-b44b-7fe5298142a2"
 Name = "New Holocron Textures"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -487,9 +602,9 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/"]
+
 [[thisMod.Instructions]]
-Guid = "3941c392-53be-45c4-8398-4502fb1690aa"
+Guid = "adeb0e01-1546-4643-8e28-1454509de521"
 Action = "Extract"
 Source = ["<<modDirectory>>/AtrisHolocron.7z"]
 
@@ -498,18 +613,28 @@ Guid = "dff6c0c9-5718-44e2-b9cc-26d6e8fc82f3"
 Name = "Animated Holocrons"
 IsSelected = true
 Restrictions = ["2b2c203c-3009-406e-a287-0ddca535d4ab"]
-Instructions = [{Guid = "e1a56ad0-64b5-4246-b7b6-52099a2d30e7", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\AtrisHolocron\\Animated Version\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "dff6c0c9-5718-44e2-b9cc-26d6e8fc82f3"
+Guid = "b7edfc70-0774-4677-a18d-54a22f8d94f3"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\AtrisHolocron\\Animated Version\\*.*"]
 
 [[thisMod.Options]]
 Guid = "2b2c203c-3009-406e-a287-0ddca535d4ab"
 Name = "Non-Animated Holocrons"
-IsSelected = false
 Restrictions = ["dff6c0c9-5718-44e2-b9cc-26d6e8fc82f3"]
-Instructions = [{Guid = "89eb23b3-f22a-45e8-965b-ffd67c999bf9", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\AtrisHolocron\\Non-Animated Version\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "2b2c203c-3009-406e-a287-0ddca535d4ab"
+Guid = "ca5ba088-ba57-49ed-9ad0-3da5a921fa63"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\AtrisHolocron\\Non-Animated Version\\*.*"]
 
 
 [[thisMod]]
-Guid = "c5fbc3c4-d905-413a-b39e-24f048a852e4"
+ModLinkFilenames = { "http://deadlystream.com/files/file/1088-tsl-thigh-high-boots-for-female-twilek-body-modders-resource/" = {  } }
+Guid = "e9daff23-4132-4e01-8ec2-a77a733843b0"
 Name = "Thigh-High Boots for Twi'lek"
 Author = "DarthParametric"
 Tier = "2 - Recommended"
@@ -519,22 +644,22 @@ Directions = "Go into the NPC Replacement folder and move all the loose files to
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/1088-tsl-thigh-high-boots-for-female-twilek-body-modders-resource/"]
+
 [[thisMod.Instructions]]
-Guid = "b7588555-36a4-4c64-b153-697a46816401"
+Guid = "af18f9bb-f832-4ecf-95b6-391893ca0e0f"
 Action = "Extract"
 Source = ["<<modDirectory>>/[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z"]
 
 [[thisMod.Instructions]]
-Guid = "efac77c5-2314-4be8-af81-15e0c9bba9f6"
+Guid = "e0a357e9-a2de-42ea-96f2-5134c3073419"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[TSL]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\NPC Replacement\\*.*"]
 
 
 [[thisMod]]
-Guid = "44e93414-b5d2-4ab2-987e-4c3ef130d1d9"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1432-tsl-better-male-twilek-heads/" = {  } }
+Guid = "a70d9031-5dc4-4fea-97f8-b8bae5082132"
 Name = "Better Twi'lek Heads"
 Author = "Ashton Scorpius"
 Tier = "3 - Suggested"
@@ -544,60 +669,118 @@ Directions = "Choose whether to use the slim or original necks; your preference.
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1432-tsl-better-male-twilek-heads/"]
+
 [[thisMod.Instructions]]
-Guid = "0f279cb6-7136-4f14-b258-10e7a95da76c"
+Guid = "89525fbe-3e34-475f-bc6f-1932597f33e2"
 Action = "Extract"
 Source = ["<<modDirectory>>/TSL Twilek Heads*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "9f3a1ba1-79cb-466c-8856-c8926a6ee1cf"
+Guid = "9ee79991-f686-4ee3-b8d5-246fea18f2f4"
 Action = "Choose"
 Source = ["7d16d747-2e94-44a2-a963-d64f00a6d8dc", "f00b9b00-3f21-4fd5-bbd7-ccc3a9101379"]
+
+[[thisMod.Instructions]]
+Guid = "a7a549fe-7bb6-4380-a3e0-2ca70ed69fad"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\TSL Twi'lek Heads v1.3.2.7z"]
 
 [[thisMod.Options]]
 Guid = "7d16d747-2e94-44a2-a963-d64f00a6d8dc"
 Name = "Option A - Slim Necks"
 IsSelected = true
 Restrictions = ["f00b9b00-3f21-4fd5-bbd7-ccc3a9101379"]
-Instructions = [{Guid = "0f84fd5f-7332-46de-adbb-4fa90d10f778", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\TSL Twilek Heads*\\Option A - Slim Necks\\*.*", "<<modDirectory>>\\TSL Twilek Heads*\\Textures\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "7d16d747-2e94-44a2-a963-d64f00a6d8dc"
+Guid = "b4084450-aaf4-4cf6-a3cd-75f46616ce82"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\TSL Twilek Heads*\\Option A - Slim Necks\\*.*", "<<modDirectory>>\\TSL Twilek Heads*\\Textures\\*.*"]
 
 [[thisMod.Options]]
 Guid = "f00b9b00-3f21-4fd5-bbd7-ccc3a9101379"
 Name = "Option B - Original Necks"
-IsSelected = false
 Restrictions = ["7d16d747-2e94-44a2-a963-d64f00a6d8dc"]
-Instructions = [{Guid = "c1486079-3614-49e0-89ad-17a27bc53c63", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\TSL Twilek Heads*\\Option B - Original Necks\\*.*", "<<modDirectory>>\\TSL Twilek Heads*\\Textures\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "f00b9b00-3f21-4fd5-bbd7-ccc3a9101379"
+Guid = "76e452a2-c10c-4b54-b766-2acaae103855"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\TSL Twilek Heads*\\Option B - Original Necks\\*.*", "<<modDirectory>>\\TSL Twilek Heads*\\Textures\\*.*"]
 
 
 [[thisMod]]
-Guid = "dfb3861a-f476-4c06-a554-d98f94284351"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/" = {  }, "http://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/" = {  } }
+Guid = "cdc1bb36-9eca-4444-90ab-687848a9b0c7"
 Name = "TSL Twi'lek Male NPC Diversity"
 Author = "Leilukin"
 Tier = "3 - Suggested"
 Description = "Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the \"Optional - Original Necks\" folder."
-IsSelected = false
+IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/"]
+
+[[thisMod.Instructions]]
+Guid = "612f3453-0ff7-4060-845b-62f4a14318d4"
+Action = "Extract"
+Source = ["<<modDirectory>>\\Darth Sion and Male Exile Mod.7z"]
+
+[[thisMod.Instructions]]
+Guid = "265592fc-a568-49c6-9e72-9112db0d7d92"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "0"
+Source = ["<<modDirectory>>\\Darth Sion and Male Exile Mod\\Darth Sion and Male Exile Mod\\Install.exe"]
+
 
 [[thisMod]]
-Guid = "ce686977-cedc-4b74-9122-54ba65ddf43d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2198-dahnis-unique-look/" = {  }, "https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/" = {  } }
+Guid = "bf0e0550-978e-4bfe-8753-d06f27d93e6e"
 Name = "Dahnis Unique Look"
 Author = "Leilukin"
 Tier = "3 - Suggested"
 Description = "Female Twi'lek have the same appearance differentiation problem the males do, but unlike the males I find most of the alternate textures out there for females a bit too flashy for my taste. This is a somewhat subdued change more in line with vanilla, but still giving a unique look which makes the NPC Dahnis stand out."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "I recommend against the use of the upscaled textures for this mod on mobile."
-IsSelected = false
+IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2198-dahnis-unique-look/"]
 
+[[thisMod.Instructions]]
+Guid = "199d1502-7b23-4b7d-9d18-c4820e8b42aa"
+Action = "Extract"
+Source = ["<<modDirectory>>\\PartySwap_EEnclave_ComPatch.zip"]
+Restrictions = ["e565bb84-38ea-48e1-adda-e17837a4f2ee"]
+
+[[thisMod.Instructions]]
+Guid = "5ce0cfc3-0e26-407e-8bcc-e4d1a3dfcc2d"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "0"
+Source = ["<<modDirectory>>\\PartySwap_EEnclave_ComPatch\\PartySwap & Ext Enclave Comp Patch\\PS EE Comp Patch Installer.exe"]
+Restrictions = ["e565bb84-38ea-48e1-adda-e17837a4f2ee"]
+
+[[thisMod.Instructions]]
+Guid = "9f839364-5fec-40f7-b868-7454e91f4707"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\Dahnis Unique Look.7z"]
+
+[[thisMod.Instructions]]
+Guid = "244da736-8f75-43f5-a4fa-cdafa58f0787"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\PartySwap_EEnclave_ComPatch.7z"]
+
+
+# URL RESOLUTION FAILURE: http://www.nexusmods.com/kotor2/mods/9/?
+# Download returned empty filename
 [[thisMod]]
-Guid = "439de73e-228d-4a5c-b8c0-f01c3fdd1e17"
+ModLinkFilenames = { "http://www.nexusmods.com/kotor2/mods/9/?" = { "TSL_Darth_Malaks_Armour_PMBM05_Reskin-9-1-0.7z" = true } }
+Guid = "c3b9f611-7f5d-47a9-94c1-5f4b01543ab6"
 Name = "Darth Malak's Armor"
 Author = "DarthParametric"
 Tier = "3 - Suggested"
@@ -606,82 +789,88 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement", "Immersion"]
 Language = ["YES"]
-ModLink = ["http://www.nexusmods.com/kotor2/mods/9/?"]
+
 [[thisMod.Instructions]]
-Guid = "fdbb26f6-2439-42df-8148-5893d6498555"
+Guid = "3b39b12a-9572-4252-b598-c33403161ea8"
 Action = "Extract"
 Source = ["<<modDirectory>>/TSL_Darth_Malaks_Armour_PMBM05_Reskin*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "391e24db-868e-4f39-b989-c2f363eb4ac9"
+Guid = "415adbb6-3a0a-45a1-a10b-c624514d7120"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/TSL_Darth_Malaks_Armour_PMBM05_Reskin*/?TSL?_Darth_Malak's_Armour_PMBM05_Reskin/Override/*"]
 
 
 [[thisMod]]
-Guid = "725aafc6-c3a9-460c-a341-f319f74d666d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1141-jcs-supermodel-fix-for-k2/" = {  } }
+Guid = "0a011e27-e4bd-471f-a602-1a2d4f82e60e"
 Name = "Supermodel Fix"
 Author = "JCarter426"
 Tier = "2 - Recommended"
 Description = "Fixes several model errors present due to misnamed animations and misplaced weapon positions."
 InstallationMethod = "Loose-File Mod"
 Directions = "Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite."
+KnownBugs = "This mod will cause female models wielding blaster rifles or blaster repeaters to run... well, strangely, with the rifle merged into their torso. This is a known bug which JC is looking to fix, but for now as long as you aren't playing a woman wielding a rifle or repeater, you should never notice it. If you do intend on doing a female rifle-wielder run, skipping this mod is probably for the best."
 IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1141-jcs-supermodel-fix-for-k2/"]
+
 [[thisMod.Instructions]]
-Guid = "93dcf585-cbd4-414f-95b3-ea725422a8ab"
+Guid = "2281d110-75a5-4573-99da-04c9b5ca345b"
 Action = "Extract"
 Source = ["<<modDirectory>>/JC's Supermodel Fix for K2*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "722b353d-4c30-45d2-8ce8-bd49791b1a6a"
+Guid = "8ecc419c-e7e4-41c9-b882-288ef44b0444"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/JC's Supermodel Fix for K2*/Override/*.*"]
 
 [[thisMod.Instructions]]
-Guid = "8636db63-a2e7-41e1-9af6-3ec20bacfb92"
+Guid = "cba46770-4547-4078-860a-8f07fd7086c8"
 Action = "Choose"
 Source = ["b062e266-7a29-4f7f-a413-7a9b4d3e154b"]
 
 [[thisMod.Options]]
 Guid = "b062e266-7a29-4f7f-a413-7a9b4d3e154b"
 Name = "K1-Style Running"
-IsSelected = false
-Instructions = [{Guid = "81fc85c9-8acd-4490-8f9e-39c7807a3a68", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>/JC's Supermodel Fix for K2*/K1 Style Running/*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "b062e266-7a29-4f7f-a413-7a9b4d3e154b"
+Guid = "7182bb4c-2aad-4b41-9732-5d3c113a26ea"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>/JC's Supermodel Fix for K2*/K1 Style Running/*.*"]
 
 
 [[thisMod]]
-Guid = "0e21d7fe-ece4-47b3-94fc-0670a02298e1"
+ModLinkFilenames = { "https://mega.nz/#!1A4RCLha!Ro2GNVUPRfgot-woqh80jVaukixr-cnUmTdakuc0Ca4" = {  } }
+Guid = "ece3015f-b6d8-4c93-bb15-b554888728ca"
 Name = "Mandalorian Worn-Out Armor"
 Author = "LordRevan999"
 Tier = "2 - Recommended"
 Description = "Makes in-game Mandalorian armor appear realistically worn out. It's been 10 years since the Mandalorian Wars and the last time the Mandalorians had a state, and their suits should reflect that."
 InstallationMethod = "Loose-File Mod"
+Screenshots = "[Here](http://imgur.com/Wt4AXpP)"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://mega.nz/#!1A4RCLha!Ro2GNVUPRfgot-woqh80jVaukixr-cnUmTdakuc0Ca4", "http://imgur.com/Wt4AXpP"]
+
 [[thisMod.Instructions]]
-Guid = "8192bd0c-c184-47fb-8eef-92aae65a319d"
+Guid = "15aa32a3-9003-43bb-84ce-a2d36a2811c3"
 Action = "Extract"
 Source = ["<<modDirectory>>/Mandalorian Worn-Out Armour Reskin.rar"]
 
 [[thisMod.Instructions]]
-Guid = "6e86ec73-e8fc-4048-8722-e14d56e263d0"
+Guid = "47c5a7cf-6a70-46d4-86a4-abd345138984"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Mandalorian Worn-Out Armour Reskin\\Mandalorian Worn-Out Armour Reskin\\*.*"]
 
 
 [[thisMod]]
-Guid = "ac7b3b00-c0aa-4bea-a5a5-f23be9c0378b"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/" = {  }, "https://deadlystream.com/files/file/2189-bao-dur-can-wear-heavy-armor/" = {  } }
+Guid = "c38c9bed-36ea-4844-bd59-f3aa5b4eed8f"
 Name = "PFHC03 Restoration"
 Author = "Effix"
 Tier = "2 - Recommended"
@@ -691,29 +880,22 @@ Directions = "Recommend the 'zombie-like' appearance, as it matches vanilla DS t
 IsSelected = true
 Category = ["Restored Content"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/"]
+
 [[thisMod.Instructions]]
-Guid = "0979e82b-08b2-486b-9ded-196735679eba"
+Guid = "90325423-f388-4480-94b5-ec198e6ae580"
 Action = "Extract"
-Source = ["<<modDirectory>>/Effixians_PFHC03_Restoration.zip"]
+Source = ["<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor.zip"]
 
-[[thisMod.Options]]
-Guid = "03489b29-2689-4792-bd19-9849331b93cc"
-Name = "Vanilla Zombie"
-IsSelected = true
-Restrictions = ["ff137ca4-18e7-460b-89fd-e2cb2e5fa6fd"]
-Instructions = [{Guid = "3274fbc7-4953-47f1-aa1b-964e84600aa9", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\Effixians_PFHC03_Restoration\\Effixians_PFHC03_Restoration\\Vanilla Zombie\\TSLPatcher - Install Effixian's PFHC03 Restoration - Vanilla Zombie.exe"]}]
-
-[[thisMod.Options]]
-Guid = "ff137ca4-18e7-460b-89fd-e2cb2e5fa6fd"
-Name = "Movie Style Sith Eyes"
-IsSelected = false
-Restrictions = ["03489b29-2689-4792-bd19-9849331b93cc"]
-Instructions = [{Guid = "46ea1460-f359-4a24-94ae-579b14d3086e", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\Effixians_PFHC03_Restoration\\Effixians_PFHC03_Restoration\\Movie Style Sith Eyes\\TSLPatcher - Install Effixian's PFHC03 Restoration - Movie Style Sith Eyes.exe"]}]
+[[thisMod.Instructions]]
+Guid = "8655e809-8919-4fe7-92c2-876c9d5ff493"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor\\Bao-Dur_Can_Wear_Heavy_Armor\\Bao-Dur_Can_Wear_Heavy_Armor.exe"]
 
 
 [[thisMod]]
-Guid = "70e85e18-4c4c-4b51-b7a2-9579c1b02166"
+ModLinkFilenames = { "http://deadlystream.com/files/file/528-atton-rand-with-scruff/" = {  } }
+Guid = "4124850b-d175-460e-b6e3-aba64a409ed4"
 Name = "Atton Rand with Scruff"
 Author = "felixfelicitas"
 Tier = "3 - Suggested"
@@ -722,78 +904,93 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/528-atton-rand-with-scruff/"]
+
 [[thisMod.Instructions]]
-Guid = "9d9a5d16-78f4-4cb4-a183-a0398996ff06"
+Guid = "a120cb19-747a-41fa-9f93-07aa5294e3e0"
 Action = "Extract"
 Source = ["<<modDirectory>>/scruffyatton.zip"]
 
 [[thisMod.Instructions]]
-Guid = "282ca2fc-6232-4a8b-9db6-30ba4ec961ef"
+Guid = "f8bfd360-663d-4549-a630-3fed75f4b1de"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\scruffyatton\\scruffyatton\\*.tga*"]
 
 
 [[thisMod]]
-Guid = "1db93541-244d-4cd1-b728-7a0bbc0b9c0c"
+ModLinkFilenames = { "https://www.nexusmods.com/kotor2/mods/1296" = {  } }
+Guid = "64e1815c-45c9-4164-bd57-9d61c0b7390e"
 Name = "Rounder G0-T0"
 Author = "dirigibalistic"
 Tier = "2 - Recommended"
 Description = "The definition of \"round\" was apparently different in 2003. Instead of an awful hexagonal abomination, this mod properly makes the G0-T0 droid spherical, significantly improving its appearance ingame."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://www.nexusmods.com/kotor2/mods/1296"]
 
 [[thisMod]]
-Guid = "8a9200c0-010e-459c-bdf2-844e09cadb1e"
+ModLinkFilenames = { "https://mega.nz/#!kARxFSbS!wVaTMHT3LZ1Z2nFzjCiattphsim1p-0ReALIcb9h8pQ" = {  } }
+Guid = "e2659de2-9d6c-4d24-826c-93c29d5b17e9"
 Name = "Dark Harbinger"
 Author = "NiuHaka"
 Tier = "2 - Recommended"
 Description = "Reskins a player head to look better, as well as having a unique Dark Side transformation."
 InstallationMethod = "Loose-File Mod"
 Directions = "Choose which version of the head model you would like to use from the screenshots provided. Place the files from the corresponding folder into your override."
+Screenshots = "[Here](http://imgur.com/a/RN4oE)"
 IsSelected = true
 Category = ["Appearance Change", "Bugfix", "Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://mega.nz/#!kARxFSbS!wVaTMHT3LZ1Z2nFzjCiattphsim1p-0ReALIcb9h8pQ", "http://imgur.com/a/RN4oE"]
+
 [[thisMod.Instructions]]
-Guid = "f800ee41-859f-43d1-af68-ef72e3097f8a"
+Guid = "2d662bc1-fe76-470d-b9d0-848a93a81fd8"
 Action = "Extract"
 Source = ["<<modDirectory>>/Dark Harbinger.zip"]
 
 [[thisMod.Instructions]]
-Guid = "5ef999fd-36d6-4b50-9ebb-25325efd8452"
+Guid = "e483f415-eab4-4a07-8be5-51669f934304"
 Action = "Choose"
 Source = ["30713af0-6206-462a-8e37-c2b216622db8", "abbebb7c-4bb7-46ab-b27d-d8acbac09a6d", "6b7e51bf-57ef-4d6f-b72b-6233e13460e3"]
 
 [[thisMod.Options]]
 Guid = "30713af0-6206-462a-8e37-c2b216622db8"
 Name = "Eyes of Wound"
-IsSelected = false
 Restrictions = ["abbebb7c-4bb7-46ab-b27d-d8acbac09a6d", "6b7e51bf-57ef-4d6f-b72b-6233e13460e3"]
-Instructions = [{Guid = "54d7f9d7-5e3b-4c4a-9b20-48eada1c10f5", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\Dark Harbinger\\Eyes of Wound\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "30713af0-6206-462a-8e37-c2b216622db8"
+Guid = "32b539cc-dfb7-4047-91b1-2cc6bc01d612"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\Dark Harbinger\\Eyes of Wound\\*.*"]
 
 [[thisMod.Options]]
 Guid = "abbebb7c-4bb7-46ab-b27d-d8acbac09a6d"
 Name = "Eyes of Death"
-IsSelected = false
 Restrictions = ["30713af0-6206-462a-8e37-c2b216622db8", "6b7e51bf-57ef-4d6f-b72b-6233e13460e3"]
-Instructions = [{Guid = "83400214-edaa-4915-abb8-e95abfe0c869", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\Dark Harbinger\\Eyes of Death\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "abbebb7c-4bb7-46ab-b27d-d8acbac09a6d"
+Guid = "032ebf15-5c29-4d2c-acb3-abf035341ad8"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\Dark Harbinger\\Eyes of Death\\*.*"]
 
 [[thisMod.Options]]
 Guid = "6b7e51bf-57ef-4d6f-b72b-6233e13460e3"
 Name = "Self Infliction"
 IsSelected = true
 Restrictions = ["30713af0-6206-462a-8e37-c2b216622db8", "abbebb7c-4bb7-46ab-b27d-d8acbac09a6d"]
-Instructions = [{Guid = "bc6464e1-4004-48c4-b3ce-f50dea8ea06f", Action = "Move", Destination = "<<kotorDirectory>>/Override", Overwrite = true, Source = ["<<modDirectory>>\\Dark Harbinger\\Self Infliction\\*.*"]}]
+[[thisMod.Options.Instructions]]
+Parent = "6b7e51bf-57ef-4d6f-b72b-6233e13460e3"
+Guid = "95d39e84-7bd7-4146-a9bf-02bf1b1b997e"
+Action = "Move"
+Destination = "<<kotorDirectory>>/Override"
+Source = ["<<modDirectory>>\\Dark Harbinger\\Self Infliction\\*.*"]
 
 
 [[thisMod]]
-Guid = "d9967c53-933d-4cb9-a94a-b8fc63c6cdee"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1244-darth-sion-remake/" = {  } }
+Guid = "15424392-0d8d-4088-a974-c5e288c4f9aa"
 Name = "Darth Sion Remake"
 Author = "FF97"
 Tier = "2 - Recommended"
@@ -803,22 +1000,22 @@ Directions = "Install the files within the Override folder."
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1244-darth-sion-remake/"]
+
 [[thisMod.Instructions]]
-Guid = "c685a3a3-08d5-4c76-ac25-e754b2ee1d50"
+Guid = "03f10d89-3d62-4744-b858-eca3d4b1ab34"
 Action = "Extract"
 Source = ["<<modDirectory>>/bettersion.7z"]
 
 [[thisMod.Instructions]]
-Guid = "21223fbb-0b9b-4adf-87cb-4c15bae422f3"
+Guid = "475c943a-8d70-415b-b89f-d06e15b7930d"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\bettersion\\bettersion\\Override\\*"]
 
 
 [[thisMod]]
-Guid = "2d0f3cd9-a86d-40ee-baf5-4c3b75654f2a"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1848-expanded-lore-friendly-mandalores-mask-with-matching-armor-and-icons-upscaled-high-quality-textures/" = {  } }
+Guid = "a18beba8-1c81-4032-a852-6d460c9b2627"
 Name = "Lore-Friendly Mandalore Mask"
 Author = "constantinople33"
 Tier = "3 - Suggested"
@@ -827,34 +1024,35 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion", "Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1848-expanded-lore-friendly-mandalores-mask-with-matching-armor-and-icons-upscaled-high-quality-textures/"]
+
 [[thisMod.Instructions]]
-Guid = "17b3f9f8-bece-49dc-8ebf-4b6fc96e0b87"
+Guid = "f8edeb80-c293-4390-a5f7-e644cedcd96b"
 Action = "Extract"
 Source = ["<<modDirectory>>/Expanded lore friendly mandalores mask HD*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "7ff0926b-82ba-46da-bb6d-cc5fbd98cd77"
+Guid = "ebe44be5-63b0-4cee-9c9c-6b6f8fc37c86"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Expanded lore friendly mandalores mask HD*\\Expanded lore friendly mandalores mask HD*\\Most Lore friendly verison\\*.*"]
 
 
 [[thisMod]]
-Guid = "69ac9db7-7546-43cb-8db3-e6dc5c5af160"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2299-visas-reduced-model-clipping/" = {  } }
+Guid = "0de3306b-a540-4bba-be60-87ad238cd3d1"
 Name = "Visas Reduced Model Clipping"
 Author = "Feeling"
 Tier = "3 - Suggested"
 Description = "Visas's chin *REALLY* likes to atomically fuse with her weird Sith turtleneck. This mod does the best it can to separate the two."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+DownloadInstructions = "Either option is fine, choose which you prefer based on the screenshots."
+IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2299-visas-reduced-model-clipping/"]
 
 [[thisMod]]
-Guid = "2543a39f-35ed-48e0-9978-48474e722363"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/" = {  } }
+Guid = "52cd922b-0cfc-4928-995d-e0e4f044355c"
 Name = "Mira Unpoofed"
 Author = "Ashton Scorpius"
 Tier = "4 - Optional"
@@ -863,22 +1061,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/"]
+
 [[thisMod.Instructions]]
-Guid = "f00f085a-22b7-4db8-bab5-6304a259af14"
+Guid = "499ddab7-604b-4b81-8189-563f329ef913"
 Action = "Extract"
 Source = ["<<modDirectory>>/TSL Mira Unpoofed*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "579ad0a3-fba0-4e26-a75a-16d56bd8a2a3"
+Guid = "c0df7985-7675-401c-b541-3b2430b571f8"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\TSL Mira Unpoofed v*\\Override\\*.*"]
 
 
 [[thisMod]]
-Guid = "1308d166-446b-4b8d-b014-999996b7276d"
+ModLinkFilenames = { "http://deadlystream.com/files/file/170-canonical-jedi-exile/" = {  } }
+Guid = "a341d921-6963-4e7c-b77f-1bb57eafdfef"
 Name = "Canonical Jedi Exile"
 Author = "michaelfung2000"
 Tier = "4 - Optional"
@@ -887,47 +1085,60 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/170-canonical-jedi-exile/"]
+
 [[thisMod.Instructions]]
-Guid = "c47914db-f785-4188-8147-42040c723562"
+Guid = "55dbbe2b-0d9f-4baa-bfe0-e5e47e97b650"
 Action = "Extract"
 Source = ["<<modDirectory>>/Canonical Jedi Exile*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "e44964e7-06a2-4f0f-a5df-c857c6f2df44"
+Guid = "f5d20a7a-f74d-4493-9579-09d84694f2ed"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/Canonical Jedi Exile*/*.tga"]
 
 
 [[thisMod]]
-Guid = "5179599c-74c9-4ee5-879e-c67456eed122"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1317-jcs-lightsaber-visual-effects-for-k2/" = {  }, "https://deadlystream.com/files/file/810-jcs-handmaiden-sisters/" = {  } }
+Guid = "c1157de7-e292-4bb8-8b9d-f547c8d0fa99"
 Name = "JC's Lightsaber Visual Effects"
 Author = "JCarter426"
 Tier = "2 - Recommended"
 Description = "This mod by JC significantly upscales the texture of lightsaber blades, in the process making them much sharper and brighter, while also recoloring the various color crystals to make them appear more naturally like the color they're meant to represent"
 InstallationMethod = "Loose-File Mod"
 Directions = "Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections."
-IsSelected = false
+IsSelected = true
 Category = ["Appearance Change", "Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1317-jcs-lightsaber-visual-effects-for-k2/"]
+
+[[thisMod.Instructions]]
+Guid = "6a479c01-87a5-4c80-a5c2-ba6b74aa6c8f"
+Action = "Extract"
+Source = ["<<modDirectory>>\\JC's Handmaiden Sisters v*.zip"]
+
+[[thisMod.Instructions]]
+Guid = "519c5935-4961-48fa-9df5-a7124ba93785"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "1"
+Source = ["<<modDirectory>>\\JC's Handmaiden Sisters v*\\Handmaiden_Sisters.exe"]
+
 
 [[thisMod]]
-Guid = "0cfb8ca3-60d1-41f0-a1a5-c03f1bcd1902"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2794-enhanced-lightsaber-hilt-variety/" = {  } }
+Guid = "eaeffc55-79ef-482e-ac0c-ce4e20c10cd9"
 Name = "Enhanced Lightsaber Hilt Variety"
 Author = "J"
 Tier = "1 - Essential"
 Description = "J's mod here is some more black magic fuckery, finding out a way to make lightsaber \"textures\" (of a sort) apply both on the legacy patch and Aspyr patch versions of the game, when they were previously broken on the latter. What's more, he's made this mod compatible with JC's lightsaber visual effects above, and also added Crazy34's lightsaber reflections to his sabers, so your (and enemy!) lightsabers will dynamically reflect off of nearby surfaces. The model differentiations here aren't groundbreaking, but they're better than vanilla where all the sabers are entirely the same, especially when you see just how great the reflections look ingame."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Appearance Change", "Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2794-enhanced-lightsaber-hilt-variety/"]
 
 [[thisMod]]
-Guid = "18ebe080-38f9-4e5a-ae59-0543db0d282d"
+ModLinkFilenames = { "http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/" = {  } }
+Guid = "ac7bd264-7053-48d3-9c60-ae12c9cadbb9"
 Name = "Peragus Large Monitor Adjustment"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -937,22 +1148,22 @@ Directions = "Use the files in the \"Alternate Textures\" folder."
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/"]
+
 [[thisMod.Instructions]]
-Guid = "755e796f-e1e6-4b9b-b873-c0ef6548b545"
+Guid = "de7a5b01-ae78-47e4-86a6-17453a0e79c5"
 Action = "Extract"
 Source = ["<<modDirectory>>/SH_Peragus Large Monitor Adjustment.7z"]
 
 [[thisMod.Instructions]]
-Guid = "61d0426a-2edf-4178-bd0d-0d620dc73bc2"
+Guid = "3dc6b02d-b473-4a2c-897a-47db6a808c9d"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/SH_Peragus Large Monitor Adjustment/Alternate Textures*/*.t*"]
 
 
 [[thisMod]]
-Guid = "25064ed0-1a94-487a-9424-18b85aaed9c1"
+ModLinkFilenames = { "http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/" = {  } }
+Guid = "11a0c203-8f34-4d7c-b2ca-980f5ae17964"
 Name = "Replacement Peragus II Artwork"
 Author = "Sith Holocron"
 Tier = "3 - Suggested"
@@ -962,30 +1173,29 @@ Directions = "Move the files from the Original folder to the override, as well a
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/"]
+
 [[thisMod.Instructions]]
-Guid = "9d611e9c-f038-4d41-a1ba-7e33279b9e01"
+Guid = "0a8055fa-587d-471e-b574-cb93b5331e8f"
 Action = "Extract"
 Source = ["<<modDirectory>>/Peragus_II_by_Trench.7z"]
 
 [[thisMod.Instructions]]
-Guid = "a552156d-3ac7-47d1-858e-c0f4039c5441"
+Guid = "65def1b0-8f17-42c9-8434-9ade8ae15d71"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/Peragus_II_by_Trench/Peragus II (Original)/*.*"]
 
 [[thisMod.Instructions]]
-Guid = "c99ed48a-81c0-4c57-936a-0d9643cc7aa0"
+Guid = "a5130b14-c1c7-4b77-83bf-e946bea180dc"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Peragus_II_by_Trench\\Peragus II (One Replacement Screen for SH's Mod)\\*.*"]
 Dependencies = ["c57fd24c-7264-43a7-b886-6a8a0213149e"]
 
 
 [[thisMod]]
-Guid = "00450881-f8ca-4bad-9833-3ad64f78d270"
+ModLinkFilenames = { "http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/" = {  } }
+Guid = "aeb89a90-5a22-4c28-ba1c-7bb6fef3ff19"
 Name = "Improved Peragus Asteroids"
 Author = "VasiliiZaytsev"
 Tier = "2 - Recommended"
@@ -994,22 +1204,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/"]
+
 [[thisMod.Instructions]]
-Guid = "ab8c93c3-7084-4ab5-88f6-a32c858e2627"
+Guid = "01e6d83b-5268-49de-91be-d5146903b809"
 Action = "Extract"
 Source = ["<<modDirectory>>/Improved Peragus Asteroid Fields*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "49470452-d3e1-4941-aa9f-280dddac6c28"
+Guid = "8f455a84-dcdb-4b5b-9b48-d1f859fdc30a"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Improved Peragus Asteroid Fields*\\*.*"]
 
 
 [[thisMod]]
-Guid = "0492f779-2119-44a4-9166-299676d60cd3"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/" = {  } }
+Guid = "380d9388-95fa-41cc-8fcd-1929ff365cf8"
 Name = "Swoop Monitor Replacement Pack"
 Author = "Sith Holocron"
 Tier = "4 - Optional"
@@ -1018,22 +1228,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/"]
+
 [[thisMod.Instructions]]
-Guid = "8840b2f2-f0e6-4bf4-bc58-3b3211cf7c83"
+Guid = "76fb4503-1feb-4291-b7a3-6536ea2e540f"
 Action = "Extract"
 Source = ["<<modDirectory>>/SH_Swoop Monitors.7z"]
 
 [[thisMod.Instructions]]
-Guid = "90b29beb-7147-412a-9985-a3cd7a1702ab"
+Guid = "229e72f0-8dc0-4078-9e13-df284cd82bc8"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/SH_Swoop Monitors/*.*"]
 
 
 [[thisMod]]
-Guid = "0b803698-783d-45c4-ae16-d3cb0869aa0c"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1217-jcs-citadel-station-backdrop/" = {  } }
+Guid = "e64d2660-2b73-4cd2-be8b-daf4abfd72d4"
 Name = "JC's Citadel Station Backdrop"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -1042,147 +1252,175 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1217-jcs-citadel-station-backdrop/"]
+
 [[thisMod.Instructions]]
-Guid = "790fc7d6-dc57-4970-97f2-90d9bf1e968c"
+Guid = "1cda3090-506a-49cd-a4c6-295200d6be1a"
 Action = "Extract"
 Source = ["<<modDirectory>>/JC*s Citadel Station Backdrop.zip"]
 
 [[thisMod.Instructions]]
-Guid = "00809cb3-348b-4e4c-a509-0a2778fae115"
+Guid = "07b27690-4c43-4163-a6ba-1cc1d075c105"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\JC*s Citadel Station Backdrop\\Override\\*.*"]
 
 
 [[thisMod]]
-Guid = "8dff7242-22bd-42c7-ad5c-fc5448c31ebb"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1793-high-quality-skyboxes-ii/" = {  } }
+Guid = "fb5d1409-b0f9-4673-b6fe-44ab932a08ce"
 Name = "HQ Skyboxes II"
 Author = "Kexikus"
 Tier = "2 - Recommended"
 Description = "Dramatically improves the quality of every single skybox in the game—one of the more impressive graphics mods ever released."
 InstallationMethod = "TSLPatcher Mod"
 Directions = "After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted."
+DownloadInstructions = "Download just the main file (HQSkyboxesII_TSL_1k.7z), not any of the compatches. I **strongly** recommend the 1k version for mobile devices; it will be hard to see the full benefit of the 2k version on a mobile device, the 2k version is a much larger filesize, and the larger texture size could interfere with module loading on the mobile version."
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1793-high-quality-skyboxes-ii/"]
+
 [[thisMod.Instructions]]
-Guid = "87676242-074a-4da7-b42e-ef8b6dea7222"
+Guid = "45e0615f-becd-45c1-a721-0baffb7cf61e"
 Action = "Extract"
 Source = ["<<modDirectory>>/HQSkyboxesII_TSL.7z"]
 
 [[thisMod.Instructions]]
-Guid = "01f9f384-d7dc-44e4-b891-e7324a045863"
+Guid = "1a77e3e8-9740-43bc-b76f-ff42e7af85f8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>/HQSkyboxesII_TSL/INSTALL.exe"]
 
 [[thisMod.Instructions]]
-Guid = "74625d3f-a225-4251-8d5c-c276f49919f2"
+Guid = "ccc3338e-fcd1-4c1c-8db4-6245c00ea564"
 Action = "Extract"
 Source = ["<<modDirectory>>/KOTOR 2 Community Patch*.7z"]
 Dependencies = ["6777f8ed-8978-49a0-ace2-3005efcf1dcf"]
 
 [[thisMod.Instructions]]
-Guid = "11c0e90b-5e72-40ec-92bb-8771e00519df"
+Guid = "8974d373-d7a4-45e6-b9b6-1c13b16e4d1f"
 Action = "Move"
 Destination = "<<kotorDirectory>>/Override"
-Overwrite = true
 Source = ["<<modDirectory>>/KOTOR 2 Community Patch*/tslpatchdata/231teld.mdl", "<<modDirectory>>/KOTOR 2 Community Patch*/tslpatchdata/231teld.mdx"]
 Dependencies = ["6777f8ed-8978-49a0-ace2-3005efcf1dcf"]
 
 
 [[thisMod]]
-Guid = "2e805c24-73cf-4a2e-b15e-9a3adb7c9c4a"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2314-spark-effect-ebon-hawk/" = {  }, "https://deadlystream.com/files/file/1406-tsl-ebon-hawk-downloadable-map/" = {  } }
+Guid = "4d793718-c000-4eb6-b1ea-40529c31113e"
 Name = "Spark Effect - Ebon Hawk"
 Author = "PapaZinos"
 Tier = "2 - Recommended"
 Description = "You won't notice it until you see the side-by-side, but the vanilla spark effect is AWFUL. This mod is an incredible improvement on the base effect."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2314-spark-effect-ebon-hawk/"]
+
+[[thisMod.Instructions]]
+Guid = "5b079966-6237-4742-84d3-f1d2f5e3db46"
+Action = "Extract"
+Source = ["<<modDirectory>>\\TSL EHDM*.7z"]
+
+[[thisMod.Instructions]]
+Guid = "e81ad5d2-71f4-4eb0-8b2e-f3a94c4734c9"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL EHDM*\\TSLPatcher.exe"]
+
+[[thisMod.Instructions]]
+Guid = "fdd65a89-6b9f-4f07-a30f-c600b0df7f83"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\Spark_Effect_v1.0.7z"]
+
+[[thisMod.Instructions]]
+Guid = "c1f760d1-18ee-4270-9d04-cf2b1e8709df"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\TSL Ebon Hawk Map v1.2.3.7z"]
+
 
 [[thisMod]]
-Guid = "5dff5b3e-6394-48f5-bfde-39f542c41986"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2355-transparent-cockpit-windows-for-tsl/" = {  } }
+Guid = "4b43e8e0-1288-45c4-aae5-7d2ceafe300d"
 Name = "Transparent Cockpit Windows TSL"
 Author = "WildKarrde"
 Tier = "3 - Suggested"
 Description = "By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside."
 InstallationMethod = "TSLPatcher Mod"
 Directions = "Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: \"K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos\", \"High Quality Skyboxes II by Kexikus\" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and \"Spark Effect - Ebon Hawk by PapaZinos\"."
-IsSelected = false
+DownloadInstructions = "I recommend the reskin-friendly version; the reflectivity version is untested with the builds and may look odd."
+IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2355-transparent-cockpit-windows-for-tsl/"]
 
 [[thisMod]]
-Guid = "1c09a2a8-b866-44ec-b85f-9a9e4816f055"
+ModLinkFilenames = { "http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/" = {  } }
+Guid = "6611c686-2c86-4724-93b0-2247816f204b"
 Name = "HD Cockpit Skyboxes"
 Author = "tjsase"
 Tier = "2 - Recommended"
 Description = "Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk."
 InstallationMethod = "Loose-File Mod"
 Directions = "Move the loose files to the override, followed by the file in the \"With Nar Realistic Skybox\" folder if you use HQ Skyboxes II."
-IsSelected = false
+DownloadInstructions = "Strongly recommend low resolution for the mobile version. Make sure to use the .tpc file format files!"
+IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/"]
 
 [[thisMod]]
-Guid = "b56cc31d-4eb4-4bcc-bd6d-4e85679679bc"
+ModLinkFilenames = { "http://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/" = {  } }
+Guid = "2a02cf4d-831d-4c8c-bbf9-02a25763ee30"
 Name = "Aleema Keto's Robe Description Correction"
 Author = "milestails"
 Tier = "4 - Optional"
 Description = "Aleema Keto's Robe, as described in KOTOR 2, doesn't fit with the old EU. This mod fixes the robe description to match Keto's actual backstory."
 InstallationMethod = "Loose-File Mod"
+DownloadInstructions = "Download the larger of the two files."
 IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/"]
+
 [[thisMod.Instructions]]
-Guid = "5e88b6c4-dd58-4c0a-933b-b66ee553460b"
+Guid = "61dc8e05-40cd-4583-ab33-3d5039329234"
 Action = "Extract"
 Source = ["<<modDirectory>>\\aleema_ketos_robe_description_correction.zip"]
 
 [[thisMod.Instructions]]
-Guid = "cd8e1d2e-5586-4826-b4a9-3583db8722fa"
+Guid = "8a4e3f52-218e-47a8-b108-6cb1b3acc364"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\aleema_ketos_robe_description_correction\\aleema_ketos_robe_description_correction\\aleema_ketos_robe_description_correction\\a_robe_24.uti"]
 
 
 [[thisMod]]
-Guid = "c403f17b-8d79-4f4e-b6fc-90fb5b6e4af8"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/" = {  } }
+Guid = "10671d36-7df0-405e-9dd6-36e5767c9916"
 Name = "Vaklu Short-Term Memory Fix"
 Author = "SuperChameau"
 Tier = "3 - Suggested"
 Description = "In your dialogue with Vaklu when supporting him as your candidate for the Onderon throne, he virtually repeats himself verbatim in two sentences back-to-back. I see some grey on those temples man, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. This change is fully voiced using original voice work thanks to dialogue splicing."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Recommend Drew's fix, as it preserves more of the original dialogue."
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/"]
 
 [[thisMod]]
-Guid = "cf67fcfd-5c57-40d0-9cbd-206c672c0af6"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2655-onderon-news-make-sense/" = {  } }
+Guid = "e663c1ae-0543-4211-9e0c-e4c0589dc86b"
 Name = "Onderon News Make Sense"
 Author = "SuperChameau"
 Tier = "3 - Suggested"
 Description = "In vanilla, there's either a misrecorded or miswritten line which refers to Telos Station as \"Peragus Station.\" This mod fixes the issue by splicing dialogue from the same news holo so that the anchor says \"Telos Station\" both times."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Bugfix"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2655-onderon-news-make-sense/"]
 
 [[thisMod]]
-Guid = "78e7c667-094c-4170-b6d5-32d138ff64fb"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1406-tsl-ebon-hawk-downloadable-map/" = {  } }
+Guid = "556aa70a-6e8f-4b26-a7f7-decdcbb33c2a"
 Name = "Ebon Hawk Downloadable Map"
 Author = "Ashton Scorpius"
 Tier = "4 - Optional"
@@ -1191,21 +1429,10 @@ InstallationMethod = "HoloPatcher Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/1406-tsl-ebon-hawk-downloadable-map/"]
-[[thisMod.Instructions]]
-Guid = "3e6da841-f6a1-4fee-a8b6-fd3ef2f2213f"
-Action = "Extract"
-Source = ["<<modDirectory>>\\TSL EHDM*.7z"]
-
-[[thisMod.Instructions]]
-Guid = "cd5a29c2-19fc-415c-b72f-038bcb200ad9"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\TSL EHDM*\\TSLPatcher.exe"]
-
 
 [[thisMod]]
-Guid = "45ede608-9239-44e1-b8a1-3f1cf49940a7"
+ModLinkFilenames = { "http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/" = {  } }
+Guid = "742d820d-ba30-445a-817f-99d7a469ee01"
 Name = "Kinrath Egg Bash Crystal Drop Fix"
 Author = "Hassat Hunter"
 Tier = "3 - Suggested"
@@ -1214,22 +1441,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/"]
+
 [[thisMod.Instructions]]
-Guid = "74412f0d-24f9-41a5-8b38-60faebe69dca"
+Guid = "cedbc32c-bcd8-4925-8418-2395b1c8fffe"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Kinrath Egg Bash Crystal Drop*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "4f930cf1-290d-434f-abca-d552e8b30a21"
+Guid = "1cee9165-2023-4642-a3e9-17f502dcc3e7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Kinrath Egg Bash Crystal Drop*\\Kinrath Egg Bash Crystal Drop*\\a_eggsmash.ncs", "<<modDirectory>>\\Kinrath Egg Bash Crystal Drop*\\Kinrath Egg Bash Crystal Drop*\\knrthegg.utp"]
 
 
 [[thisMod]]
-Guid = "c8aac6cc-ec2c-4049-82fb-b9d75a02f974"
+ModLinkFilenames = { "http://deadlystream.com/files/file/147-thorium-charge-mod/" = {  } }
+Guid = "638bd447-f6f5-468f-b9bc-30bb4b0ae7f0"
 Name = "Thorium Charge Mod"
 Author = "darth_gil"
 Tier = "2 - Recommended"
@@ -1238,22 +1465,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Added Content"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/147-thorium-charge-mod/"]
+
 [[thisMod.Instructions]]
-Guid = "19aa6516-c573-4d2c-931e-3a55352a5270"
+Guid = "10a258df-aa90-4961-ba54-12b4e10a0b8b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\thorium_charge_mod.rar"]
 
 [[thisMod.Instructions]]
-Guid = "0ca2b897-3f55-4f28-9aed-40ae368aa8d6"
+Guid = "f7f1be32-0513-4142-a77e-b332c58a68dd"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\thorium_charge_mod\\dead_mandy.utp", "<<modDirectory>>\\thorium_charge_mod\\pl_thorium.uti"]
 
 
 [[thisMod]]
-Guid = "8fb44621-34b2-4f88-a69b-ec065575ff9d"
+ModLinkFilenames = { "http://deadlystream.com/files/file/10-kill-the-ithorian/" = {  } }
+Guid = "bf1fe485-ef61-4612-926c-688d7366e5b5"
 Name = "Kill the Ithorian"
 Author = "Markus Ramikin"
 Tier = "3 - Suggested"
@@ -1262,34 +1489,34 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/10-kill-the-ithorian/"]
+
 [[thisMod.Instructions]]
-Guid = "02535730-f72c-4817-8b76-d6a8843658e9"
+Guid = "beb3c8ce-d883-4324-834c-e45f8082c5b1"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Kill The Ithorian*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "37e89639-a518-4f20-90cf-bacf4acabcc9"
+Guid = "031d0412-4aa9-4a58-b330-b72e53711228"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Kill The Ithorian*\\Deadly_Cage.ncs", "<<modDirectory>>\\Kill The Ithorian*\\term_slusk.dlg"]
 
 
 [[thisMod]]
-Guid = "ec06e392-67bd-4f83-a2c7-084b84fa273b"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2635-red-floating-lightsabers/" = {  } }
+Guid = "3352d1eb-e7eb-4aec-b3ed-93da58558a0c"
 Name = "Red Floating Lightsabers"
 Author = "Crimson Knight"
 Tier = "2 - Recommended"
 Description = "At the end of the game, the lightsabers Kreia attacks you with are purple, and also treated ingame as organic—that is, not immune to fear, paralysis or stun. This mod makes them immune to those statuses and also makes them red—logically, red is what Kreia would've had on hand."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Appearance Change", "Bugfix"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2635-red-floating-lightsabers/"]
 
 [[thisMod]]
-Guid = "072c6014-c6a0-4e88-a9f1-d98b1fe4001b"
+ModLinkFilenames = { "http://deadlystream.com/files/file/108-choose-mira-or-hanharr/" = {  } }
+Guid = "0a882837-e8e5-41b8-9b85-715ef621bbe2"
 Name = "Choose Mira or Hanharr"
 Author = "Hassat Hunter"
 Tier = "1 - Essential"
@@ -1298,22 +1525,22 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion", "Mechanics Change"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/108-choose-mira-or-hanharr/"]
+
 [[thisMod.Instructions]]
-Guid = "39d58980-f583-4b90-afe4-0b1c79ec3ecf"
+Guid = "2fa399f2-6832-4936-b9f4-b080e4a7ec0c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Choose Mira or Hanharr.rar"]
 
 [[thisMod.Instructions]]
-Guid = "e3af5796-dcac-4e85-b5b8-c5dc10f21a02"
+Guid = "89441749-48a8-4ef7-8ec2-7c5bff438e03"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Choose Mira or Hanharr\\305han2.dlg"]
 
 
 [[thisMod]]
-Guid = "fc241735-7edd-4b26-915b-b776c67c89a7"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/" = {  } }
+Guid = "161afca1-d08d-4f6d-bec3-1aee71a663b7"
 Name = "Kreia's Fall Ingame Cutscene"
 Author = "danil-ch"
 Tier = "2 - Recommended"
@@ -1322,14 +1549,14 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["PARTIAL - Compatibility with English, French and German"]
-ModLink = ["https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/"]
+
 [[thisMod.Instructions]]
-Guid = "6eba33d7-775a-430e-aae6-bb5afc518c7f"
+Guid = "b48ebad2-d1d3-4caa-a4c9-c1a26a2e045a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Kreia_Fall_In-game*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "67c0c5da-027a-45a4-86e4-eb840ccdbd78"
+Guid = "abf71038-ccac-4300-bc7c-502a6384daf8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -1337,7 +1564,8 @@ Source = ["<<modDirectory>>\\Kreia_Fall_In-game*\\install.exe"]
 
 
 [[thisMod]]
-Guid = "a7f84a70-d772-4ab7-bb76-062492c1afd1"
+ModLinkFilenames = { "https://deadlystream.com/files/file/544-partyswap/" = {  } }
+Guid = "4f317bb6-92b9-4a61-8110-1cb6dc8b9d52"
 Name = "PartySwap"
 Author = "DarthTyren & Leilukin"
 Tier = "1 - Essential"
@@ -1347,30 +1575,39 @@ Directions = "Run the HoloPatcher executable. Select the default install, not M4
 IsSelected = true
 Category = ["Immersion", "Mechanics Change"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/544-partyswap/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+InstallBefore = ["0efcc984-b410-4439-9f9a-5df1d49dc5c0"]
+
 [[thisMod.Instructions]]
-Guid = "dcb71702-7e4e-4658-9ef5-936e156afcbc"
+Guid = "a6df2834-d4a7-4a58-b65c-e5291e77c3ec"
 Action = "Extract"
 Source = ["<<modDirectory>>\\PartySwap 1.4.1.7z"]
 
 [[thisMod.Instructions]]
-Guid = "35b9ed49-78b6-4814-83aa-3e2131bdfbf5"
+Guid = "ecdf4886-1883-49bb-bfb8-965d8550108f"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
-Source = ["<<modDirectory>>\\PartySwap 1.4.1\\PartySwap 1.4.1\\PartySwap Installer.exe"]
+Source = ["<<modDirectory>>\\PartySwap 1.4.1\\PartySwap Installer.exe"]
 
 [[thisMod.Instructions]]
-Guid = "baad6969-6232-40ae-a85b-13de6d211c04"
+Guid = "ebce8714-2dee-49d1-a189-d80fd27cc3a4"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
-Source = ["<<modDirectory>>\\PartySwap 1.4.1\\PartySwap 1.4.1\\Compatibility Patches\\Kreia's Fall Cutscene (In-Game)\\Install.exe"]
+Source = ["<<modDirectory>>\\PartySwap 1.4.1\\Compatibility Patches\\Kreia's Fall Cutscene (In-Game)\\Install.exe"]
 Dependencies = ["fc241735-7edd-4b26-915b-b776c67c89a7"]
+
+[[thisMod.Instructions]]
+Guid = "7bd6e3ac-4978-4fc3-8691-304f04f86e5d"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\PartySwap 1.4.2.7z"]
 
 
 [[thisMod]]
-Guid = "93526fda-3dc4-4aaa-b66c-4d8b2f21ea18"
+ModLinkFilenames = { "http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/" = {  } }
+Guid = "e1ba3e44-4206-487f-b9e2-aa8eda4decd0"
 Name = "Extended Enclave"
 Author = "danil-ch & Darth Hayze"
 Tier = "1 - Essential"
@@ -1380,14 +1617,15 @@ Directions = "Make SURE to install the mobile TSLRCM version, your game will cra
 IsSelected = true
 Category = ["Restored Content"]
 Language = ["English and Russian ONLY"]
-ModLink = ["http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "fc775576-edb4-4547-85ba-3556884f8e28"
+Guid = "10091a9f-c9d0-4ac1-b2f2-d3a035adb115"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Extended Enclave*.rar"]
 
 [[thisMod.Instructions]]
-Guid = "af68ffe1-d937-4f7c-9896-289f4e3a5169"
+Guid = "d2ade01a-1c35-4bf1-b99f-a219109abc37"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -1395,7 +1633,8 @@ Source = ["<<modDirectory>>\\Extended Enclave*\\ExtendedEnclave_English\\Ext Enc
 
 
 [[thisMod]]
-Guid = "1d537642-b78c-4c5d-9089-4ad931eff86c"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/" = {  }, "https://deadlystream.com/files/file/2211-prologue-item-recovery/" = {  } }
+Guid = "61a74c05-54c9-4032-8e44-bb10959640c0"
 Name = "PartySwap/Extended Enclave Compatch"
 Author = "Leilukin"
 Tier = "1 - Essential"
@@ -1405,24 +1644,23 @@ Directions = "Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweak
 IsSelected = true
 Category = ["Patch"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/"]
-[[thisMod.Instructions]]
-Guid = "dcfe681b-2e39-4850-b0e4-90659c267c7b"
-Action = "Extract"
-Source = ["<<modDirectory>>\\PartySwap_EEnclave_ComPatch.zip"]
-Restrictions = ["e565bb84-38ea-48e1-adda-e17837a4f2ee"]
+Dependencies = ["4f317bb6-92b9-4a61-8110-1cb6dc8b9d52", "e1ba3e44-4206-487f-b9e2-aa8eda4decd0"]
 
 [[thisMod.Instructions]]
-Guid = "7e9f9d38-5454-4761-92b9-796f1c40ac3a"
+Guid = "019a8bbc-8583-4c21-9341-e5eb649c9a9c"
+Action = "Extract"
+Source = ["<<modDirectory>>\\Prologue Item Recovery.7z"]
+
+[[thisMod.Instructions]]
+Guid = "ad2fac33-d9a5-4db2-8702-6c95e218087f"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\PartySwap_EEnclave_ComPatch\\PartySwap & Ext Enclave Comp Patch\\PS EE Comp Patch Installer.exe"]
-Restrictions = ["e565bb84-38ea-48e1-adda-e17837a4f2ee"]
+Source = ["<<modDirectory>>\\Prologue Item Recovery\\Prologue Item Recovery\\A - Module Installation\\Install.exe"]
 
 
 [[thisMod]]
-Guid = "022c0545-6b24-4d1e-ba3c-4cb8a5ebd805"
+ModLinkFilenames = { "http://deadlystream.com/files/file/250-extended-korriban-arrival/" = {  } }
+Guid = "d63889f5-a7a2-4f14-837c-208790aa7fd8"
 Name = "Extended Korriban Arrival"
 Author = "danil-ch"
 Tier = "3 - Suggested"
@@ -1432,21 +1670,23 @@ Directions = "Due differences in the way the mobile versions localize some files
 IsSelected = true
 Category = ["Restored Content"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/250-extended-korriban-arrival/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "b5d87cd2-d1f5-4dc6-aebf-6ecc75795321"
+Guid = "6a06b389-e491-4dc7-a3ee-b1f37cdf95dd"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Extended Korriban Arrival 1.2.rar"]
 
 [[thisMod.Instructions]]
-Guid = "f1b2f872-72a8-4c52-aae7-dbdb478b1492"
+Guid = "76612f9a-ddad-4a39-94d2-5eaf092aba55"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Extended Korriban Arrival*\\install.exe"]
 
 
 [[thisMod]]
-Guid = "695f1ccc-7e8b-4fcc-b6cd-83f6e9f3f044"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2211-prologue-item-recovery/" = {  } }
+Guid = "45e0632f-c7b9-42e1-9f94-04f9849ceafa"
 Name = "Prologue Item Recovery"
 Author = "Leilukin"
 Tier = "2 - Recommended"
@@ -1456,21 +1696,10 @@ Directions = "Use the TSLPatcher installer method (mandatory for compatibility),
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2211-prologue-item-recovery/"]
-[[thisMod.Instructions]]
-Guid = "343696b9-a0cc-4682-8cd4-a998759bc019"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Prologue Item Recovery.7z"]
-
-[[thisMod.Instructions]]
-Guid = "1ed7d9cd-64b1-4dbb-bfd5-7283a100d822"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Prologue Item Recovery\\Prologue Item Recovery\\A - Module Installation\\Install.exe"]
-
 
 [[thisMod]]
-Guid = "996397c8-efe3-42e8-9e95-66f2f4817d69"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1790-balance-tweak-pack/" = {  } }
+Guid = "512bfe7f-6f53-483e-9078-5652ee965fe3"
 Name = "Balance Tweak Pack"
 Author = "Pavijan"
 Tier = "2 - Recommended"
@@ -1480,120 +1709,110 @@ Directions = "Run the installers for Force Crush Balance and Disable Droid Inter
 IsSelected = true
 Category = ["Mechanics Change", "Patch"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1790-balance-tweak-pack/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "00590701-9e14-41f9-b93c-2ab8d54b5b2c"
+Guid = "fca8ee24-a665-4ba9-9341-40355c6636a7"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Balance Tweak Pack 1.1.rar"]
 
 [[thisMod.Instructions]]
-Guid = "b6c6f500-99c3-4b69-a0cd-0f307924c47c"
+Guid = "b819a7fc-b0bd-4a1d-8684-b33f22d75907"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Balance Tweak Pack*\\2 - Force Crush Balance\\FC Balance.exe"]
 
 [[thisMod.Instructions]]
-Guid = "7ed1156f-314f-4763-b29f-54d1a7adf8d6"
+Guid = "408d0a81-4c1e-45b0-bd63-a4eaac251840"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Balance Tweak Pack*\\4 - Disable Droid Interface Feat\\DI Feat Removal.exe"]
 
 
 [[thisMod]]
-Guid = "d72be14c-b48a-4f57-a122-c413412ac798"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2753-mines-overhaul-tsl/" = {  } }
+Guid = "a7aa3497-7bcb-4411-8e5b-b075a259fa79"
 Name = "Mines Overhaul"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "This is a really, *really* cool mod that does a lot of things: fixes basegame bugs with mines, restores several mine types to the game, rebalances the mines, and even lets enemy troops plant mines in combat whenever it's logical for them to do so!"
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Recommend running all three options, the main install first and then the two optionals."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2753-mines-overhaul-tsl/"]
 
 [[thisMod]]
-Guid = "e41793c0-f43e-4754-8cb6-98eec704f5df"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2530-no-health-regeneration/" = {  } }
+Guid = "7b38d4b7-559e-4f68-89d2-0c46ab6cd92e"
 Name = "No Health Regeneration"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "Having health regen by default in KOTOR 2 is bad for many reasons: it makes an already easy game easier; it negates the benefit of the health regeneration feat they added; and it makes the use & crafting of medkits and other health-restoring tools much less useful. I played with this mod and the game was still pretty easy by the end, but it was WAY more fun early on. It made me have to worry about health and especially healing items for quite a bit more time, which preserved the challenge beyond Telos."
 InstallationMethod = "TSLPatcher Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2530-no-health-regeneration/"]
 
 [[thisMod]]
-Guid = "baf74863-1ac4-4582-aaf6-c74978a34e78"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1535-thematic-sith-lords/" = {  } }
+Guid = "79595c28-532a-49c5-8987-616d4fc42ba8"
 Name = "Thematic Sith Lords"
 Author = "Sniggles & JCarter426"
 Tier = "2 - Recommended"
 Description = "The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others."
-InstallationMethod = "TSLPatcher"
+InstallationMethod = "TSLPatcher Mod"
 Directions = "First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1535-thematic-sith-lords/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "f5271dcb-b327-46cc-8be8-7de80ab544e0"
+Guid = "1719bee6-c0b8-4f4f-8051-6cc3b467b229"
 Action = "Extract"
-Source = ["<<modDirectory>>\\Thematic Sith Lords 2.7z"]
+Source = ["<<modDirectory>>\\Thematic Sith Lords.7z"]
 
 [[thisMod.Instructions]]
-Guid = "f0b2bc95-9894-49ad-8920-40939498202b"
-Action = "Choose"
-Source = ["bacef86d-efd8-45da-9f4c-2a79d8953be1", "ebf3987a-60d1-40eb-a18e-3564fae3fced", "1e18ff2a-4594-4b1a-8e75-ac447961821f"]
+Guid = "5b25df48-5484-481c-a8af-04a27be4fb18"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\Thematic Sith Lords\\Thematic Sith Lords.exe"]
 
-[[thisMod.Options]]
-Guid = "bacef86d-efd8-45da-9f4c-2a79d8953be1"
-Name = "Standard"
-Description = "This option adjusts the Sith Lords' combat statistics."
-IsSelected = false
-Instructions = [{Guid = "fc8805aa-d3bd-416f-9322-724e5e1d19a7", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "standard.ini", Source = ["<<modDirectory>>\\Thematic Sith Lords\\TSLPatcher.exe"]}]
-
-[[thisMod.Options]]
-Guid = "ebf3987a-60d1-40eb-a18e-3564fae3fced"
-Name = "No Force Rating"
-Description = "This option includes the changes from the Standard option and removes the Force rating from the Sith academy on Korriban."
-IsSelected = false
-Instructions = [{Guid = "ff536833-6cd3-4fab-b2f4-628a5bf45c59", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "no_force_rating.ini", Source = ["<<modDirectory>>\\Thematic Sith Lords\\TSLPatcher.exe"]}]
-
-[[thisMod.Options]]
-Guid = "1e18ff2a-4594-4b1a-8e75-ac447961821f"
-Name = "Sith Assassin Visas (Optional)"
-Description = "This option changes Visas Marr's class from Jedi Sentinel to Sith Assassin in your first encounter with her. Run this after you have installed either the Standard or No Force Rating options if you would like Visas to be a Sith Assassin."
-IsSelected = false
-Instructions = [{Guid = "0ea47789-06b1-4ac5-bf2a-9982da66e91f", Action = "Patcher", Destination = "<<kotorDirectory>>", Arguments = "assassin_visas.ini", Source = ["<<modDirectory>>\\Thematic Sith Lords\\TSLPatcher.exe"]}]
+[[thisMod.Instructions]]
+Guid = "b33cec56-80c2-474e-a1b1-790503b59c67"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\Thematic Sith Lords 2.7z"]
 
 
 [[thisMod]]
-Guid = "da04a13c-8443-45af-91e6-56d6cb14c2f7"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2633-thematic-jedi-masters/" = {  } }
+Guid = "a312b7a6-18cf-48c7-9901-c146c34bbeee"
 Name = "Thematic Jedi Masters"
 Author = "Sniggles & JCarter426"
 Tier = "2 - Recommended"
 Description = "The much younger brother of Thematic Sith Lords, Thematic Jedi Masters was born of me discovering that all of the Masters except Atris have the same class (Guardian), and one doesn't even have any Force Points for your encounter! These fights were extremely half-baked, and that's where this mod comes in. Unlike Thematic Sith Lords the design philosophy was not of a rock-paper-scissors style (so you aren't going to find a tremendous glaring weakness with a Master as you might on a Lord) but rather to accentuate a given master's strengths in line with their respective natures."
 InstallationMethod = "TSLPatcher Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2633-thematic-jedi-masters/"]
 
 [[thisMod]]
-Guid = "7db71a4d-da9e-42ea-93b4-9355df93c351"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2612-better-disciple-meditation/" = {  } }
+Guid = "934105e5-91ca-48b1-be8f-e91cd818904e"
 Name = "Better Disciple Meditation"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "Let's be honest, Disciple kinda sucks. This mod makes him suck *marginally* less by making his meditation ability actually useful, so you might have some incentive to take him around with you at least some of the time, or bring him out to re-apply his meditation bonus."
 InstallationMethod = "TSLPatcher Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2612-better-disciple-meditation/"]
 
 [[thisMod]]
-Guid = "694ca24a-bfea-4aeb-ab1d-f494791af63e"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2189-bao-dur-can-wear-heavy-armor/" = {  } }
+Guid = "c9331ffd-1ed6-43e7-b301-da3aaf160911"
 Name = "Bao-Dur Can Wear Heavy Armor"
 Author = "Effix"
 Tier = "2 - Recommended"
@@ -1602,72 +1821,76 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Bugfix", "Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2189-bao-dur-can-wear-heavy-armor/"]
-[[thisMod.Instructions]]
-Guid = "b5072ce8-413d-4e5b-bc3f-65a8212941fe"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor.zip"]
-
-[[thisMod.Instructions]]
-Guid = "7ef7c99e-c3ec-4e0a-b2a0-01f10977d120"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Source = ["<<modDirectory>>\\Bao-Dur_Can_Wear_Heavy_Armor\\Bao-Dur_Can_Wear_Heavy_Armor\\Bao-Dur_Can_Wear_Heavy_Armor.exe"]
-
 
 [[thisMod]]
-Guid = "f36c2b58-b0f6-4284-9779-799ad934d53d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2269-jcs-crystal-attunement-for-k2/" = {  } }
+Guid = "0e2f9474-e907-477e-9425-d5a53896f672"
 Name = "JC's Crystal Attunement"
 Author = "JCarter426"
 Tier = "2 - Recommended"
 Description = "For being a crystal which is specifically attuned to the player, your little pet rock wasn't very malleable. This mod adds a ton of different alignment levels for your player crystal based upon your alignment and class, fixes several bugs with the crystal, and also allows the player to attune the crystal at workbenches when Kreia isn't available."
 InstallationMethod = "TSLPatcher"
 Directions = "Practically speaking there are only two relevant install options: \"Class-Based Properties + Workbench Attunement\", which is the full package, or \"Bug Fixes Only\". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change", "Bugfix", "Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2269-jcs-crystal-attunement-for-k2/"]
 
 [[thisMod]]
-Guid = "0233135f-9b4c-4a3e-bdeb-c9501b4c7e93"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/" = {  } }
+Guid = "a5ddf91a-2340-4f92-88a4-9c2c43e2e700"
 Name = "Better Jekk'Jekk'Tarr Thugs"
 Author = "SuperChameau"
 Tier = "2 - Recommended"
 Description = "The thugs in the Jekk'Jekk'Tarr, despite many of them being bounty hunters in a seedy bar, for the most part didn't carry any weapons at all. This mod fixes that, giving the patrons weapons with which to defend themselves."
 InstallationMethod = "HoloPatcher"
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
 
 [[thisMod]]
-Guid = "726059d9-fe56-4825-aa09-bd437958efaa"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2790-logical-jekkjekk-tarr/" = {  }, "https://deadlystream.com/files/file/2001-exiles-saber-fix/" = {  } }
+Guid = "854ea792-03a6-47ea-8fd4-ba2892ceadd2"
 Name = "Logical Jekk'Jekk'Tarr"
 Author = "N-DReW25"
 Tier = "2 - Recommended"
 Description = "The Jekk'Jekk'Tarr sequence in the vanilla game, and even in TSLRCM, has a lot of problems. The most glaring was the player's ability to enter the bar without suffering severe ill-effects, even though dialogue elsewhere suggested that even skin contact would be nearly instantly fatal. This mod resolves almost all of the idiosyncracies of the sequence in a very lore-friendly and logical way."
 InstallationMethod = "HoloPatcher"
 Directions = "Install part 1 and then part 2, then, if using Better Jekk'Jekk Tarr Thugs, also install the compatch."
-IsSelected = false
+IsSelected = true
 Category = ["Bugfix", "Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2790-logical-jekkjekk-tarr/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
+[[thisMod.Instructions]]
+Guid = "2932360a-4cb7-479f-95b5-60940e23d554"
+Action = "Extract"
+Source = ["<<modDirectory>>\\Exile's Saber Fix.7z"]
+
+[[thisMod.Instructions]]
+Guid = "d5a6a670-3dd0-476c-8e60-335f0f4d75f7"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\Exile's Saber Fix\\Exile's Saber Fix\\For Override\\003atton.dlg"]
+
 
 [[thisMod]]
-Guid = "33595f10-5ad0-41e0-9d3e-4c3c60e1b9b3"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/" = {  } }
+Guid = "42802f4b-3267-4788-af02-38bf280c26d4"
 Name = "Mira's Vanilla Escape for TSLRCM"
 Author = "WildKarrde"
 Tier = "2 - Recommended"
 Description = "TSLRCM edits the scene with Mira escaping the tunnels beneath the Jekk'Jekk'Tarr, restoring one scene but, in the process, removing another. This mod restores the vanilla sequence while also keeping the dialogue restored by TSLRCM, and even adding in a few lines unrestored by TSLRCM in the process."
 InstallationMethod = "TSLPatcher"
 Directions = "I recommend the \"With Additional Scene\" option for maximum restored content and internal consistency for the sequence."
-IsSelected = false
+IsSelected = true
 Category = ["Restored Content"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
 
 [[thisMod]]
-Guid = "d87709ed-1138-4b99-a0ff-61f218ab2f4a"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1538-kreias-lightsaber-long-sword/" = {  } }
+Guid = "823a75c0-a989-4ab5-a175-15e4447b66fb"
 Name = "Kreia's Lightsaber/Longsword"
 Author = "bead-v"
 Tier = "3 - Suggested"
@@ -1677,14 +1900,14 @@ Directions = "The lightsaber version of this mod is broken when used alongside t
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1538-kreias-lightsaber-long-sword/"]
+
 [[thisMod.Instructions]]
-Guid = "3afe9479-f8af-470c-ad95-64db36f74666"
+Guid = "e112491a-2792-4cf2-a1b8-b92435a60d34"
 Action = "Extract"
 Source = ["<<modDirectory>>\\KreiasLightsaberLongSword_v*.zip"]
 
 [[thisMod.Instructions]]
-Guid = "de85f859-df3b-4e0a-86a8-dbc2b8650602"
+Guid = "0940ff4d-21d3-41f6-9c0c-c2838ea8d249"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "1"
@@ -1692,7 +1915,8 @@ Source = ["<<modDirectory>>\\KreiasLightsaberLongSword*\\KreiasLightsaberLongSwo
 
 
 [[thisMod]]
-Guid = "406c98f5-0916-4ff6-9825-3689608305a6"
+ModLinkFilenames = { "http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/" = {  } }
+Guid = "9851e433-547f-4e2c-ab74-5f7d8394d99b"
 Name = "Visas Voiceover Tweak"
 Author = "danil-ch"
 Tier = "3 - Suggested"
@@ -1701,22 +1925,23 @@ InstallationMethod = "Loose-File Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "ebb1c621-6d5a-473b-8dc7-f583d0106008"
+Guid = "a6ec8fef-7840-4763-b05d-0f3a53169d6c"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Nihilus_Visas.rar"]
 
 [[thisMod.Instructions]]
-Guid = "142272d1-edee-447c-981e-0cca91a6f5e1"
+Guid = "7aaeefb0-f857-4139-86a2-74ab0bd2fd8f"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Nihilus_Visas\\262NIHLUS005.lip", "<<modDirectory>>\\Nihilus_Visas\\262NIHLUS009.lip", "<<modDirectory>>\\Nihilus_Visas\\262NIHLUS010.lip", "<<modDirectory>>\\Nihilus_Visas\\262NIHLUS011.lip", "<<modDirectory>>\\Nihilus_Visas\\262NIHLUS012.lip", "<<modDirectory>>\\Nihilus_Visas\\nihilus.dlg"]
 
 
 [[thisMod]]
-Guid = "51d9c9b7-054f-4e6e-825c-52fefcdcb4d9"
+ModLinkFilenames = { "http://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/" = {  } }
+Guid = "47d9c701-8dad-40e1-b6f8-262d3119565a"
 Name = "Darth Sion and the Male Exile"
 Author = "Leilukin"
 Tier = "2 - Recommended"
@@ -1725,74 +1950,95 @@ InstallationMethod = "HoloPatcher Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["http://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/"]
-[[thisMod.Instructions]]
-Guid = "a7bf61e9-4f12-46c5-9da7-d3d309c7cddb"
-Action = "Extract"
-Source = ["<<modDirectory>>\\Darth Sion and Male Exile Mod.7z"]
-
-[[thisMod.Instructions]]
-Guid = "f7185d2e-0400-45d2-bdfb-d8a150b60fc9"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "0"
-Source = ["<<modDirectory>>\\Darth Sion and Male Exile Mod\\Darth Sion and Male Exile Mod\\Install.exe"]
-
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
 
 [[thisMod]]
-Guid = "0076b72e-9e66-4fd3-85a1-f518b5396364"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/" = {  }, "http://deadlystream.com/files/file/739-sith-assassins-with-lightsabers/" = {  } }
+Guid = "773cd54f-038a-4b25-817a-95046f183496"
 Name = "Sith Assassins with Lightsabers"
 Author = "Lewok2007"
 Tier = "2 - Recommended"
 Description = "Replaces the Sith Assassins' default weaponry with lightsabers. It makes more sense that they would hunt the last of the Jedi with weapons meant to face them.\r\n\r\nBe ready for a hard slog through the *Harbinger* if you choose to use this mod."
 InstallationMethod = "Multi-Run HoloPatcher"
 Directions = "Run the installer once for the first part of the install, then again to apply the second half."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/"]
+
+[[thisMod.Instructions]]
+Guid = "cb111e95-d140-4a5f-9fa5-17845819aeb6"
+Action = "Extract"
+Source = ["<<modDirectory>>\\sasabers.7z"]
+
+[[thisMod.Instructions]]
+Guid = "aa652a2b-dbbf-4852-adb0-945ff8d7086f"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\sasabers\\TSLPatcher.exe"]
+
 
 [[thisMod]]
-Guid = "aad68725-7e94-4bc3-a068-d5d5ef6900c4"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2649-true-sith-assassins-awareness-restoration/" = {  }, "http://deadlystream.com/files/file/195-peragus-sith-troops-to-sith-assassins/" = {  } }
+Guid = "b7de12f4-c8e6-4609-9c36-d3a9a14965e6"
 Name = "True Sith Assassins"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "By default, Sith Assassins aren't *actually* using stealth, and you don't *actually* roll Awareness to detect them. This mod not only gives the Sith Assassins some levels of Sneak Attack (they are literally stealthed assassins, after all) it also makes them actually use stealth just like the player would, and the party either needs to damage them or roll a successful Awareness check to detect them. As you may expect, this mod can be *hard* depending upon your character build, and also whether you're using Sith Assassins with Lightsabers. It does have an option to reduce the difficulty, though, which makes it more immersive and less about you getting your shit kicked in, if that's appealing to you."
 InstallationMethod = "Multi-Run HoloPatcher"
 Directions = "Unless you intend on playing a character with very high awareness, I recommend the reduced difficulty option if using Lewok's Sith Assassins with Lightsabers, because the damage will be ridiculous. Remember to also apply the compatch for Lewok's mod after running the main install option of your choice, if using it."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change", "Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2649-true-sith-assassins-awareness-restoration/"]
+
+[[thisMod.Instructions]]
+Guid = "9018bf32-7208-496d-91ce-be6c48f263ca"
+Action = "Extract"
+Source = ["<<modDirectory>>\\SithToAssassins.rar"]
+
+[[thisMod.Instructions]]
+Guid = "54b684d2-b326-4e24-8d27-c4fa879d9890"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "0"
+Source = ["<<modDirectory>>\\SithToAssassins\\Peragus Sith Troops To Sith Assassins\\TSLPatcher.exe"]
+
+[[thisMod.Instructions]]
+Guid = "308ec68e-471b-48aa-9494-4d2be388145f"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "1"
+Source = ["<<modDirectory>>\\SithToAssassins\\Peragus Sith Troops To Sith Assassins\\TSLPatcher.exe"]
+
 
 [[thisMod]]
-Guid = "8266d5c0-a46c-434d-89ac-c4ce74d62b53"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2666-for-mandalore/" = {  } }
+Guid = "8ee20029-4764-485a-a688-40c9ee298379"
 Name = "For Mandalore!"
 Author = "offthegridmorty"
 Tier = "3 - Suggested"
 Description = "Sensed a pattern with Morty and continually putting out banger mods yet? This is a neat one which gives the player the ability to summon Mandalorian reinforcements to support them. Normally this would be too overpowered and kind of out-of-place, but at my request Morty has graciously made an install option specifically for use in the mod builds which only adds the Mandalorian support squads to the *Ravager*, where it makes sense for them to be present and available to come assist the player."
 InstallationMethod = "HoloPatcher"
 Directions = "Strongly recommend using the Snigaroo Cut for balance and immersion's sake."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change", "Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2666-for-mandalore/"]
 
 [[thisMod]]
-Guid = "f9e0fccc-5eab-486f-968e-e949de41cc1a"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/" = {  } }
+Guid = "4d6d9948-7bb2-462d-9c41-0563cb55df2a"
 Name = "Peragus Medical Bay Enhancement"
 Author = "WildKarrde"
 Tier = "2 - Recommended"
 Description = "A really neat mod which makes the Peragus medical bay a little bit more coherent—you and the miners are no longer expected to breathe bacta gel, for instance. A small mod on balance, but one of my favorites."
 InstallationMethod = "TSLPatcher"
 Directions = "When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the \"OPTION - Burned Skin Textures\" folder (or the upscaled textures therein) to your override."
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/"]
 
 [[thisMod]]
-Guid = "bac99eb0-55ef-4b09-9b05-dc975ba430e5"
+ModLinkFilenames = { "http://deadlystream.com/files/file/915-high-quality-blasters/" = {  } }
+Guid = "93edcd94-8e6c-41ff-a442-142ea21d69a2"
 Name = "High Quality Blasters"
 Author = "Sithspecter"
 Tier = "1 - Essential"
@@ -1801,34 +2047,36 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["PARTIAL - Some text will be blank or in English"]
-ModLink = ["http://deadlystream.com/files/file/915-high-quality-blasters/"]
+
 [[thisMod.Instructions]]
-Guid = "e7a6beff-9a2e-4fdb-9758-8c674cf53ffd"
+Guid = "8fa72311-9edb-4083-a608-bf29f61ed45a"
 Action = "Extract"
 Source = ["<<modDirectory>>\\TSL_High_Quality_Blasters.zip"]
 
 [[thisMod.Instructions]]
-Guid = "1c403321-1a79-4194-a934-058baaed32ab"
+Guid = "358e89d1-ff88-4632-a08e-fee2a6d3459c"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\TSL_High_Quality_Blasters\\Install\\High Quality Blasters Installer.exe"]
 
 
 [[thisMod]]
-Guid = "3006056a-72d8-4776-a776-a8ef1edaf3cf"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2748-droid-models-animation-fix/" = {  } }
+Guid = "8d947478-25a2-482c-9f59-a9208a068096"
 Name = "Droid Models Animation Fix"
 Author = "CaptainSpoque"
 Tier = "2 - Recommended"
 Description = "By default there are several droid NPCs in both KOTOR games which have no animations set for them to dodge, which causes them to just sort of freeze whenever the player attacks them but doesn't land a hit. I've noticed this for years and never realized what it was, but Spoque has put together a package here that adds the dodges to the droid models and fixes them freezing mid-fight."
 InstallationMethod = "Loose-File Mod"
 Directions = "Move all the various files inside the 7 folders within the \"TSL Version\" folder, EXCEPT for \"War Droid K1,\" if using HQ Blasters above."
-IsSelected = false
+KnownBugs = "This mod breaks some death animations (droids stand straight up after death, for example). I only found this happening to a single droid, though, so I believe the fixes this mod provides outweighs the bugs, which have already been reported and hopefully will soon be fixed."
+IsSelected = true
 Category = ["Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2748-droid-models-animation-fix/"]
 
 [[thisMod]]
-Guid = "a5ebebbe-36a9-47c5-9fba-feff78fd8027"
+ModLinkFilenames = { "http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/" = {  } }
+Guid = "63712e3f-492c-41b4-a52f-cc6c7dc8d592"
 Name = "Quarterstaff Replacement Pack"
 Author = "DeadMan"
 Tier = "2 - Recommended"
@@ -1837,21 +2085,22 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/"]
+
 [[thisMod.Instructions]]
-Guid = "bf8b53e1-713f-4853-b700-c2e32ddcb1c5"
+Guid = "70c6ec52-4cd9-4a33-b774-0eb8c0cc0524"
 Action = "Extract"
 Source = ["<<modDirectory>>\\dm_qrts.rar"]
 
 [[thisMod.Instructions]]
-Guid = "82472837-92f6-4899-b48a-25aef993ed52"
+Guid = "3e08bcc6-690c-446c-8d7f-4e4401aafa15"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\dm_qrts\\TSLPatcher.exe"]
 
 
 [[thisMod]]
-Guid = "f0be4752-6ca8-4b24-93f5-8a11e4c1ca7d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/946-re-scaled-trandoshans/" = {  } }
+Guid = "24fdffca-ac28-4ae8-ac2a-29fd92bd53ae"
 Name = "Rescaled Trandoshans"
 Author = "Schizo"
 Tier = "4 - Optional"
@@ -1860,21 +2109,22 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/946-re-scaled-trandoshans/"]
+
 [[thisMod.Instructions]]
-Guid = "5546881e-e65b-406f-a229-b48cddde27e6"
+Guid = "3125d4fa-e876-4b8d-b07b-c9b9858bccf0"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Rescaled Trandoshans.zip"]
 
 [[thisMod.Instructions]]
-Guid = "01ee87d6-009a-4eab-b15e-33e094ed7a3e"
+Guid = "7382d6cb-54da-40bf-994b-65ebe3d548f8"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\Rescaled Trandoshans\\Rescaled Trandoshans\\TSLPatcher.exe"]
 
 
 [[thisMod]]
-Guid = "7d7e552c-7170-4e36-ba97-67dfc4433852"
+ModLinkFilenames = { "https://deadlystream.com/files/file/452-luxa-hair-fix/" = {  } }
+Guid = "76921581-32c4-4761-a07b-d46e4a0f4ebf"
 Name = "Luxa Hair Fix"
 Author = "redrob41"
 Tier = "2 - Recommended"
@@ -1884,53 +2134,66 @@ Directions = "Run the TSLPatcher for the Head Fix, then use the screenshots incl
 IsSelected = true
 Category = ["Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/452-luxa-hair-fix/"]
+
 [[thisMod.Instructions]]
-Guid = "b65c4d14-9165-4e16-a49e-71ffd2bc0175"
+Guid = "360355a9-11eb-4c60-b60c-49ddffe73f09"
 Action = "Extract"
 Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41.zip"]
 
 [[thisMod.Instructions]]
-Guid = "c8bd8a42-027b-4d4f-8ff3-f70e411a0c5f"
+Guid = "a48bd4cd-534f-4e51-8b72-6c86a74bc70d"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\1 - Head Fix\\TSLPatcher (InstallMod) for Head Fix.exe"]
 
 [[thisMod.Instructions]]
-Guid = "d766e4ad-dc8d-4d99-bb31-07f5f17768ce"
+Guid = "e5cdd75f-5f1b-4437-99c7-ecb9eb0272dd"
 Action = "Choose"
 Source = ["12134ba7-b493-470f-a212-521c0512e095", "a87c7309-9463-4eb8-8281-551b53cf6a12"]
 
 [[thisMod.Instructions]]
-Guid = "e5765acb-bda1-4521-b4b2-65e316e150c0"
+Guid = "c804ec61-7e9c-4fdf-bd99-117662989d8e"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\3 - Alternate Texture\\N_Lala_XuA01.tga"]
 
 [[thisMod.Options]]
 Guid = "12134ba7-b493-470f-a212-521c0512e095"
 Name = "Option 1 - Narrow Waist"
-IsSelected = false
 Restrictions = ["a87c7309-9463-4eb8-8281-551b53cf6a12"]
-Instructions = [{Guid = "177f3adc-3373-41bd-90d0-d2a46cc7c109", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\1 - Narrow Waist\\TSLPatcher (InstallMod).exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "12134ba7-b493-470f-a212-521c0512e095"
+Guid = "4da23318-7ee6-40c6-92ea-d6845248df6e"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\1 - Narrow Waist\\TSLPatcher (InstallMod).exe"]
 
 [[thisMod.Options]]
 Guid = "a87c7309-9463-4eb8-8281-551b53cf6a12"
 Name = "Option 2 - Regular Waist"
 IsSelected = true
 Restrictions = ["12134ba7-b493-470f-a212-521c0512e095"]
-Instructions = [{Guid = "6c986100-12a4-432d-8192-e8f1d1ca4b31", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\2 - Regular Waist\\TSLPatcher (InstallMod).exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "a87c7309-9463-4eb8-8281-551b53cf6a12"
+Guid = "02169fd3-23b1-4911-a70e-e8ac684dddea"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\2 - Regular Waist\\TSLPatcher (InstallMod).exe"]
 
 [[thisMod.Options]]
 Guid = "09ea8a15-aa17-4f86-929f-ae7a205593a6"
 Name = "Alternative Texture"
-IsSelected = false
-Instructions = [{Guid = "3636bad0-783e-49cf-a51d-8c8d55f6bf01", Action = "Move", Destination = "<<kotorDirectory>>\\Override", Overwrite = true, Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\3 - Alternate Texture\\N_Lala_XuA01.tga"]}]
+[[thisMod.Options.Instructions]]
+Parent = "09ea8a15-aa17-4f86-929f-ae7a205593a6"
+Guid = "e941f34e-609c-489e-ba3f-fa7f41cb8555"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\TSL_Luxa_Fix_by_RedRob41\\2 - Body Options\\3 - Alternate Texture\\N_Lala_XuA01.tga"]
 
 
 [[thisMod]]
-Guid = "0ac20352-04d3-4826-b165-3aa11284f3e1"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1434-visually-repair-hk-47/" = {  } }
+Guid = "917a3b84-1a1c-4d1d-9b84-7e4667ae9435"
 Name = "Visually Repair HK-47"
 Author = "Kexikus"
 Tier = "2 - Recommended"
@@ -1940,35 +2203,43 @@ Directions = "Select between one of the two TSLRCM-compatible install options."
 IsSelected = true
 Category = ["Added Content", "Appearance Change", "Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/1434-visually-repair-hk-47/"]
+
 [[thisMod.Instructions]]
-Guid = "1353f4b1-42bd-4f40-a1eb-59e3791b6e64"
+Guid = "d62d8962-9bb1-40a5-aa07-bee2518d9172"
 Action = "Extract"
 Source = ["<<modDirectory>>\\RepairHK47.zip"]
 
 [[thisMod.Instructions]]
-Guid = "07eda14e-a3ae-428b-8b3d-57734d5002cb"
+Guid = "e8131e3b-e868-4a00-9e7a-ef681d36f34e"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "3"
 Source = ["<<modDirectory>>\\RepairHK47\\TSLPatcher.exe"]
 
+[[thisMod.Instructions]]
+Guid = "f490a4b0-e08b-48fb-b227-9fc92623a3ad"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\RepairHK47_v1_1.zip"]
+
 
 [[thisMod]]
-Guid = "c2f5bb66-8dd9-49d1-a6ef-3bc894a79721"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2695-consistent-bastila-recognition/" = {  } }
+Guid = "ee3dd13a-27ab-4311-8382-277d7105b0c1"
 Name = "Consistent Bastila Recognition"
 Author = "Leilukin"
 Tier = "2 - Recommended"
 Description = "The player sees Bastila twice in KOTOR 2: once in a holo-recording left in T3's memory banks, and once in a vision from the Tomb of Ludo Kressh. The problem is that the player recognizes Bastila in Kressh's tomb, but not in the holo-recording. There's no reason why this should be, and this mod fixes the discrepancy: the player now recognizes Bastila in T3's recording also."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Run the patcher using the Default install option. Expanded Ending is not compatible with mobile."
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2695-consistent-bastila-recognition/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
 
 [[thisMod]]
-Guid = "9c6835bb-ad9e-4200-a4cc-f049f8b321af"
+ModLinkFilenames = { "http://deadlystream.com/files/file/846-handmaiden-fit-and-athletic/" = {  }, "https://mega.nz/#!gcxRTYTJ!ILbLFRyGEr4lGZYDOLN_Qg17fCm-TJw4Y1RDuy4WiWI" = {  } }
+Guid = "43a86f7a-bfe8-4f3a-89b4-407f2086ea2a"
 Name = "Handmaiden - Fit and Athletic"
 Author = "Fair Strides, patch by JCarter426"
 Tier = "2 - Recommended"
@@ -1978,28 +2249,28 @@ Directions = "Ignore all the loose files in the folder; use the TSLPatcher to in
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/846-handmaiden-fit-and-athletic/", "https://mega.nz/#!gcxRTYTJ!ILbLFRyGEr4lGZYDOLN_Qg17fCm-TJw4Y1RDuy4WiWI"]
+
 [[thisMod.Instructions]]
-Guid = "200d7435-40fd-42f1-a319-d7979731fe90"
+Guid = "023574cf-2210-4475-8246-6e87833dce4f"
 Action = "Extract"
 Source = ["<<modDirectory>>\\FS_Fit_Handmaiden Patch.rar", "<<modDirectory>>\\FS_Fit_Handmaiden.7z"]
 
 [[thisMod.Instructions]]
-Guid = "2a14df43-88c2-4069-baf0-8a6512a429a8"
+Guid = "9970805f-923a-43aa-a5e5-0ba060e7f5dc"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\FS_Fit_Handmaiden\\TSLPatcher.exe"]
 
 [[thisMod.Instructions]]
-Guid = "e104bb0e-349d-48fd-9457-3061abb493d8"
+Guid = "a85946a7-0624-4a1a-93fd-878a4affd909"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\FS_Fit_Handmaiden Patch\\P_HandmaidenBB.mdl", "<<modDirectory>>\\FS_Fit_Handmaiden Patch\\P_HandmaidenBB.mdx"]
 
 
 [[thisMod]]
-Guid = "c7d36098-5efa-44ca-a3b9-8408a5b8f910"
+ModLinkFilenames = { "https://deadlystream.com/files/file/810-jcs-handmaiden-sisters/" = {  } }
+Guid = "066a0564-e142-4466-a0b1-177c72bcf513"
 Name = "JC's Handmaiden Sisters"
 Author = "JCarter426"
 Tier = "2 - Recommended"
@@ -2009,35 +2280,23 @@ Directions = "Install the TSLRCM option."
 IsSelected = true
 Category = ["Restored Content", "Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/810-jcs-handmaiden-sisters/"]
-[[thisMod.Instructions]]
-Guid = "8cfb034e-8734-4d9c-ac2a-6d63de6858e0"
-Action = "Extract"
-Source = ["<<modDirectory>>\\JC's Handmaiden Sisters v*.zip"]
-
-[[thisMod.Instructions]]
-Guid = "d41044e3-9aa7-4800-9ad6-103c41052b68"
-Action = "Patcher"
-Destination = "<<kotorDirectory>>"
-Arguments = "1"
-Source = ["<<modDirectory>>\\JC's Handmaiden Sisters v*\\Handmaiden_Sisters.exe"]
-
 
 [[thisMod]]
-Guid = "8d6b9c8e-fbee-491f-94c9-c658f8cc02f3"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2670-vibrocutter-changes/" = {  } }
+Guid = "b67826fb-15a4-4f03-a3bf-c68738b281c1"
 Name = "Vibrocutter Changes"
 Author = "Lewok2007"
-Tier = "4 - Option"
+Tier = "4 - Optional"
 Description = "This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Recommend the \"Location and Medpac\" install option, it gives the player an extra medpac as compensation for having to fight the first droids with a plasma torch."
-IsSelected = false
+IsSelected = true
 Category = ["Immersion"]
 Language = ["YES, however some text will be in English"]
-ModLink = ["https://deadlystream.com/files/file/2670-vibrocutter-changes/"]
 
 [[thisMod]]
-Guid = "1008ce05-39cb-45de-b401-d0936b02acc7"
+ModLinkFilenames = { "http://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/" = {  } }
+Guid = "b46c9c26-0bf4-40bc-9b46-50a8cad00c20"
 Name = "TSL Galaxy Map Fix Pack"
 Author = "bead-v, Kexikus, and Sith Holocron"
 Tier = "3 - Suggested"
@@ -2047,14 +2306,14 @@ Directions = "Install the Vanilla/TSLRCM option."
 IsSelected = true
 Category = ["Graphics Improvement", "Immersion"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/"]
+
 [[thisMod.Instructions]]
-Guid = "31e5a02f-1c07-4135-9d46-6121db9629d9"
+Guid = "e0260c2d-a158-4110-8d8c-fe0ed2d6110d"
 Action = "Extract"
 Source = ["<<modDirectory>>\\TSLGalaxyMapFixPack.zip"]
 
 [[thisMod.Instructions]]
-Guid = "00fce8f7-7b21-452d-9977-235b92d9af44"
+Guid = "4fb5ffec-bf05-409f-adb3-9d56e1e825ff"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Arguments = "0"
@@ -2062,23 +2321,26 @@ Source = ["<<modDirectory>>\\TSLGalaxyMapFixPack\\TSLGalaxyMapFixPack\\TSLPatche
 
 
 [[thisMod]]
-Guid = "3b4c24bb-fea4-4a66-8d80-13e6ef07b554"
+ModLinkFilenames = { "https://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/" = {  } }
+Guid = "21f687b7-d93c-40ce-96e2-89432bec16b1"
 Name = "Fixed Hologram Models & Admiralty Redux"
 Author = "DarthParametric"
 Tier = "1 - Essential"
 Description = "By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Carth and Cede to properly wear Republic officer uniforms in their holograms and in-game appearances."
 InstallationMethod = "TSLPatcher Mod"
+DownloadInstructions = "Download just the main file, not the robes patch."
 IsSelected = true
 Category = ["Bugfix", "Graphics Improvement", "Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/"]
+Dependencies = ["c6dbc13b-602e-44a6-be53-8ae30d77c7e3"]
+
 [[thisMod.Instructions]]
-Guid = "4f2edac1-f1cd-4e5b-8dee-9b51fb45466d"
+Guid = "4935191a-8ed4-412f-ab42-51dab9831e7d"
 Action = "Extract"
 Source = ["<<modDirectory>>\\[TSL]_Fixed_Hologram_Models_and_Admiralty_Redux_for_TSLRCM_v*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "4e979682-43c8-4730-8528-0794ca0428e7"
+Guid = "108facc9-6db6-4c0f-9225-4c05cad239f0"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>\\Override"
 Arguments = "0"
@@ -2086,19 +2348,21 @@ Source = ["<<modDirectory>>\\[TSL]_Fixed_Hologram_Models_and_Admiralty_Redux_for
 
 
 [[thisMod]]
-Guid = "c4162985-6075-42ac-acf5-26f9e03412b8"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2752-relighting-tsl-early-release/" = {  } }
+Guid = "4115ebcb-876c-4f9e-bf58-8dc3f6dcc95e"
 Name = "Relighting TSL"
 Author = "J"
 Tier = "2 - Recommended"
 Description = "KOTOR 2 has some absolutely shittily-lit sections. This mod by J is an attempt to fix that awful lighting--although it's currently in beta, the sections which J has already finished are fully-functional ingame."
 InstallationMethod = "Loose-File Mod"
-IsSelected = false
+DownloadInstructions = "Download both files."
+IsSelected = true
 Category = ["Bugfix", "Graphics Improvement"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2752-relighting-tsl-early-release/"]
 
 [[thisMod]]
-Guid = "746e02c5-8ec2-4e4b-a409-424ed1ece874"
+ModLinkFilenames = { "https://deadlystream.com/files/file/344-player-party-underwear/" = {  } }
+Guid = "62d21d21-6cff-4061-bb88-468776749c64"
 Name = "Player & Party Underwear"
 Author = "redrob41"
 Tier = "2 - Recommended"
@@ -2108,21 +2372,20 @@ Directions = "Male and female PCs, Mira, the Disciple and Atton are the only cha
 IsSelected = true
 Category = ["Appearance Change", "Bugfix"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/344-player-party-underwear/"]
+
 [[thisMod.Instructions]]
-Guid = "00413325-808b-4a9c-b1b5-b6fe39f816de"
+Guid = "0e55ce9e-491f-408d-a836-7070039fc599"
 Action = "Extract"
 Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_*.7z"]
 
 [[thisMod.Instructions]]
-Guid = "f4a6c60e-8aa5-434c-aa36-bd3db19e8561"
+Guid = "bf3494eb-667e-4669-b3f1-3835b596e9f7"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear*\\Male - Shirtless with Boxers\\*", "<<modDirectory>>\\TSL_Player_and_Party_Under_wear*\\Female - Dancer Muscles match Standard underwear\\*", "<<modDirectory>>\\TSL_Player_and_Party_Under_wear*\\Female - Athletic\\*"]
 
 [[thisMod.Instructions]]
-Guid = "34d03912-8511-4871-a404-888d39fe407c"
+Guid = "4fe765c0-ae47-4fde-a5d2-8ff8a3985832"
 Action = "Choose"
 Source = ["952d7c1f-ef77-4853-9b37-d3018f8a7d87", "f7da7924-4df7-4d16-bcce-5b80f8466af7", "20b1d788-4be0-4f1a-b5f5-7e6da1f0c7d6"]
 
@@ -2130,23 +2393,39 @@ Source = ["952d7c1f-ef77-4853-9b37-d3018f8a7d87", "f7da7924-4df7-4d16-bcce-5b80f
 Guid = "952d7c1f-ef77-4853-9b37-d3018f8a7d87"
 Name = "Atton Underwear Mod"
 IsSelected = true
-Instructions = [{Guid = "23463d95-ca95-4214-908e-978b27401a44", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Atton\\TSLPatcher (Install Atton Mod).exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "952d7c1f-ef77-4853-9b37-d3018f8a7d87"
+Guid = "46a3e421-7d51-4c01-8abd-2bacb3455d5b"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Atton\\TSLPatcher (Install Atton Mod).exe"]
 
 [[thisMod.Options]]
 Guid = "f7da7924-4df7-4d16-bcce-5b80f8466af7"
 Name = "Disciple Underwear Mod"
 IsSelected = true
-Instructions = [{Guid = "24271657-d593-4786-ab58-413482c52162", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Disciple\\option 2\\TSLPatcher (Install Disciple Mod).exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "f7da7924-4df7-4d16-bcce-5b80f8466af7"
+Guid = "c7637255-dae6-419b-8867-c83b1926b3d3"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Disciple\\option 2\\TSLPatcher (Install Disciple Mod).exe"]
 
 [[thisMod.Options]]
 Guid = "20b1d788-4be0-4f1a-b5f5-7e6da1f0c7d6"
 Name = "Mira Underwear Mod"
 IsSelected = true
-Instructions = [{Guid = "dc2acc99-7571-4d5a-b2d7-9e722e0499e5", Action = "Patcher", Destination = "<<kotorDirectory>>", Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Mira\\TSLPatcher (Install Mira Mod).exe"]}]
+[[thisMod.Options.Instructions]]
+Parent = "20b1d788-4be0-4f1a-b5f5-7e6da1f0c7d6"
+Guid = "c49d0752-a04b-46a1-88f6-0fd8817f50eb"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Source = ["<<modDirectory>>\\TSL_Player_and_Party_Under_wear_v2_by_RedRob41\\Party - Mira\\TSLPatcher (Install Mira Mod).exe"]
 
 
 [[thisMod]]
-Guid = "06446748-b481-4213-abdb-976c3b91a9f8"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2145-k2-companion-starting-armors/" = {  } }
+Guid = "cf11e9ce-cb13-446a-9743-b64e020cf11a"
 Name = "Companion Starting Armors"
 Author = "Ol' Cappy"
 Tier = "3 - Suggested"
@@ -2155,95 +2434,121 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Immersion"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2145-k2-companion-starting-armors/"]
+
 [[thisMod.Instructions]]
-Guid = "eff21440-334f-4161-aae5-b1b802e62644"
+Guid = "98ec29b4-1a52-4e75-88c6-6202422d190b"
 Action = "Extract"
 Source = ["<<modDirectory>>\\K2 Companion Starting Armors 1.1.zip"]
 
 [[thisMod.Instructions]]
-Guid = "61daaaa1-1852-47c1-92c1-d559190faff9"
+Guid = "f80d1ddc-4c79-422e-827c-383dbcd05be0"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\K2 Companion Starting Armors*\\Install K2 Companion Starting Armors.exe"]
 
 
 [[thisMod]]
-Guid = "6d6f7ef6-3667-43e9-a788-363bef923c85"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/" = {  } }
+Guid = "4e4b3586-1723-4bca-8e6f-3ed5cfe868b3"
 Name = "Improved LS Enlightenment & DS Corruption Feats"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "Light Side Enlightenment (not to be confused with the Force power Enlightenment) and Dark Side Corruption, the bonus feats given to Jedi Master and Sith Lord prestige classes, are really bad. Not only do they only impact a companion's alignment (which is rarely of use to the player), they are also buggy and can overflow, flinging the companion to the complete opposite alignment than they should be! They basically only exist to make things worse. This mod by Morty gives those feats a clear niche: now, instead of impacting companions' alignment directly, it impacts it indirectly by tripling the effects of any influence gain or loss."
 InstallationMethod = "TSLPatcher Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2577-improved-ls-enlightenment-ds-corruption-feats/"]
 
 [[thisMod]]
-Guid = "4cbb1514-d7be-483a-ba26-a093acd76e80"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/" = {  } }
+Guid = "f8c50a38-d54b-4ae8-aee4-4074f747da1f"
 Name = "Repair Affects Stun Droid"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "Because logically it should, right? Force abilities aren't magical... well, okay, they sort of are, but you know what I mean; their strength and finesse are dependent upon the skill and knowledge of the person using them. It makes sense that a Jedi who is very knowledgable about droids would know exactly how to disable them."
 InstallationMethod = "TSLPatcher Mod"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/"]
 
 [[thisMod]]
-Guid = "8d41c70a-9bea-4ebe-afba-eff4b1456c15"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2651-improved-force-sight/" = {  }, "http://deadlystream.com/files/file/833-improved-ai/" = {  } }
+Guid = "b2db77ed-677b-476f-9af5-a14c965ce136"
 Name = "Improved Force Sight"
 Author = "offthegridmorty"
 Tier = "2 - Recommended"
 Description = "Another by Morty, and a great companion to his True Sith Assassins mod, this mod improves Force Sight by giving it some more immediate combat utility, allowing it to significantly boost the player's Awareness stat, while also tweaking its behavior for Kreia and Visas."
 InstallationMethod = "HoloPatcher Mod"
 Directions = "Recommend installing all three modules."
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["YES"]
-ModLink = ["https://deadlystream.com/files/file/2651-improved-force-sight/"]
+
+[[thisMod.Instructions]]
+Guid = "777c1b8f-5a45-40c4-b46c-af068d17481f"
+Action = "Extract"
+Source = ["<<modDirectory>>\\improvedai.zip"]
+
+[[thisMod.Instructions]]
+Guid = "bbcfd739-9d1a-4da6-a7c9-2b93f47f5276"
+Action = "Extract"
+Source = ["<<modDirectory>>\\improvedai\\Improved AI\\Modified AI.exe"]
+
+[[thisMod.Instructions]]
+Guid = "623b5d30-c26a-4150-8934-84408be23f5e"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "1"
+Source = ["<<modDirectory>>\\improvedai\\Improved AI\\Modified AI\\Install AI Tweak.exe"]
+
+[[thisMod.Instructions]]
+Guid = "efc78f71-2a30-47c6-9982-528100adec6a"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\Improved_Force_Sight_v1c1.zip"]
+
 
 [[thisMod]]
-Guid = "0efea97b-45ae-44dc-a105-f468c4f1340d"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2815-alignment-affects-force-powers-tsl/" = {  } }
+Guid = "4c340a1d-58f2-42f2-bab2-6ceb95dac02e"
 Name = "Alignment Affects Force Powers"
 Author = "offthegridmorty"
 Tier = "1 - Essential"
 Description = "Just like its companion mod for KOTOR, this mod is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have."
 InstallationMethod = "TSLPatcher"
 Directions = "I strongly recommend the combined install of \"Alignment Affects Force Powers + Treat Injury Affects Force Healing.\""
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change", "Immersion"]
 Language = ["YES, though some text may be blank or in English"]
-ModLink = ["https://deadlystream.com/files/file/2815-alignment-affects-force-powers-tsl/"]
 
 [[thisMod]]
-Guid = "b0fa4c5e-3f1f-4886-b491-6cdea7c52219"
+ModLinkFilenames = { "https://mega.nz/#!BJgCDJLY!miLH-LcFEgiRWlmfWixicFdn1o_uoFHb76g9NOo0CHM" = {  } }
+Guid = "fc9f01dd-2af3-49eb-a591-063872f2b8ee"
 Name = "Bao-Dur/Darth Maul"
 Author = "Nimduril"
 Tier = "3 - Suggested"
 Description = "Reskins Bao-Dur to have a different default appearance, but also to have a complete Dark Side transformation."
 InstallationMethod = "Loose-File Mod"
+Screenshots = "[Here](https://imgur.com/a/oVwUs)"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["https://mega.nz/#!BJgCDJLY!miLH-LcFEgiRWlmfWixicFdn1o_uoFHb76g9NOo0CHM", "https://imgur.com/a/oVwUs"]
+
 [[thisMod.Instructions]]
-Guid = "b5abc478-d519-4f07-b787-94c7b74f444f"
+Guid = "26a8fd4a-4489-4d35-a6e3-8e320aff8948"
 Action = "Extract"
 Source = ["<<modDirectory>>\\Bao-Dur - Darth Maul.rar"]
 
 [[thisMod.Instructions]]
-Guid = "ac1a3e5b-f312-4a84-936b-6eace65da2b8"
+Guid = "65e99823-f80e-424c-8004-aeba2be39ca8"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
 Source = ["<<modDirectory>>\\Bao-Dur - Darth Maul\\P_Bao_DurA.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\P_Bao_DurAD01.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\P_Bao_DurH.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\P_Bao_DurHD1.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\P_Bao_DurHD2.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\P_BaoDur_Arm.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\PO_PBaoDur.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\PO_PBaoDurd1.tga", "<<modDirectory>>\\Bao-Dur - Darth Maul\\PO_PBaoDurd2.tga"]
 
 
 [[thisMod]]
-Guid = "5a434fa1-8897-4fcc-baa8-f907cdc448ec"
+ModLinkFilenames = { "http://deadlystream.com/files/file/735-realistic-visual-effects/" = {  } }
+Guid = "7d1eaac4-2752-4354-9f33-988dbe3dac88"
 Name = "Realistic Visual Effects"
 Author = "Shem"
 Tier = "2 - Recommended"
@@ -2252,64 +2557,115 @@ InstallationMethod = "TSLPatcher Mod"
 IsSelected = true
 Category = ["Appearance Change"]
 Language = ["YES"]
-ModLink = ["http://deadlystream.com/files/file/735-realistic-visual-effects/"]
+
 [[thisMod.Instructions]]
-Guid = "e388e0b3-04ad-44b0-a4e9-8fbc24ffbe7f"
+Guid = "200b68e7-3bab-46dc-836a-ec4638837815"
 Action = "Extract"
 Source = ["<<modDirectory>>\\visual_effects_tsl.7z"]
 
 [[thisMod.Instructions]]
-Guid = "f5e5a522-c486-4a73-b2cf-7e915adca689"
+Guid = "42a75079-8c0f-46a5-aaae-46cbad98fdd7"
 Action = "Patcher"
 Destination = "<<kotorDirectory>>"
 Source = ["<<modDirectory>>\\visual_effects_tsl\\Real Visual Effects TSL.exe"]
 
 
 [[thisMod]]
-Guid = "52239e34-c73a-4ee3-9edd-341ab5cac432"
+ModLinkFilenames = { "https://www.nexusmods.com/kotor/mods/1384" = {  }, "https://pastebin.com/6WCN122S" = {  } }
+Guid = "e157bc3f-16cc-451b-92f2-f18b9f620703"
 Name = "Remove Duplicate TGA/TPC"
 Author = "Flachzangen, bash version by /u/th3w1zard1"
 Tier = "1 - Essential"
 Description = "This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash."
 InstallationMethod = ".bat Patcher"
 Directions = "Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete.html).\r\n\r\n**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs \"Finished, Press any key to continue\" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above."
-IsSelected = false
+IsSelected = true
 Category = ["Patch"]
-ModLink = ["https://www.nexusmods.com/kotor/mods/1384", "https://pastebin.com/6WCN122S", "https://kotor.neocities.org/modding/mod_builds/k1/delete.html"]
 
 [[thisMod]]
-Guid = "72b65f83-6bd9-448f-baae-297cd8c3a87e"
+ModLinkFilenames = { "https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/" = {  } }
+Guid = "35720fac-fa95-4f9e-8840-e64a1430477b"
 Name = "Thematic Obscured Mausoleum Burial"
 Author = "Sniggles & JCarter426"
 Tier = "2 - Recommended"
 Description = "The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.\r\n\r\nDo note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point."
 InstallationMethod = "TSLPatcher"
-IsSelected = false
+IsSelected = true
 Category = ["Mechanics Change"]
 Language = ["NO"]
-ModLink = ["https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/"]
 
 [[thisMod]]
-Guid = "f72915d0-42b2-45fe-987e-6669c8bacc28"
+ModLinkFilenames = { "https://github.com/DeadlyStream/KOTORCaseFixer/releases/tag/v1.0" = {  } }
+Guid = "1c64d025-0372-4d1c-b1cb-a16311a6d451"
 Name = "Case Sensitivity Fix"
 Author = "JCarter426"
 Tier = "1 - Essential"
 Description = "KOTOR on mobile devices has case sensitivity. To make these mods function properly on iOS, the files must be batch-renamed to their case-sensitive versions. This step is **ONLY NEEDED IF YOU ARE GOING TO BE PLAYING ON AN iOS DEVICE**!"
-InstallationMethod = "Loose-File Mod"
 Directions = "Before proceeding, delete the dummy executable used to facilitate the mod installations. If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.\r\n\r\nIf you are on MacOS or Linux, first, run Terminal and navigate to your mods_english directory with the cd command.\r\n\r\n`cd [full filepath to mods_english on your device]`\r\n\r\nThen, enter the following command:\r\n\r\n`find . -depth | xargs -n 1 rename -f 's/(.*)\\/([^\\/]*)/$1\\/\\L$2/' {} \\;`\r\n\r\nIf you are prompted for permission, rerun the command with elevated privileges using the sudo command.\r\n\r\n`sudo find . -depth | xargs -n 1 rename -f 's/(.*)\\/([^\\/]*)/$1\\/\\L$2/' {} \\;`\r\n\r\nFor more information:\r\n\r\n* [cd command](https://linuxize.com/post/linux-cd-command/)\r\n\r\n* [sudo command](https://linuxize.com/post/sudo-command-in-linux/)"
-IsSelected = false
+IsSelected = true
 Category = ["Bugfix"]
-ModLink = ["https://github.com/DeadlyStream/KOTORCaseFixer/releases/tag/v1.0", "https://linuxize.com/post/linux-cd-command/", "https://linuxize.com/post/sudo-command-in-linux/"]
-[[thisMod.Instructions]]
-Guid = "4ff42bf2-8da2-4c77-9f56-37ef55c8eb0a"
-Action = "Extract"
-Source = ["<<modDirectory>>\\hd_npc_portraits-v1.1.7z"]
+
+[[thisMod]]
+ModLinkFilenames = { "https://deadlystream.com/files/file/1847-new_lightsaber_blade_model_tsl/" = {  } }
+Guid = "aafffcc3-3dc9-4108-b4bd-8c61ce1aff45"
+Name = "New Lightsaber Blade Models"
+Author = "Crazy34"
+Tier = "1 - Essential"
+Description = "With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added"
+Directions = "Utilize the option to modify vanilla sabers."
+IsSelected = true
+Category = ["Appearance Change", "Immersion & Graphics Improvement"]
 
 [[thisMod.Instructions]]
-Guid = "d8ed815e-5181-48c5-bb97-af5feb9f045c"
+Guid = "208a495f-3473-4b95-b485-12e3621fa4d5"
+Action = "Extract"
+Source = ["<<modDirectory>>/New_Lightsaber_Blades_TSL*.rar"]
+
+[[thisMod.Instructions]]
+Guid = "a673ffb3-71cc-4d2b-a310-74a09d09382e"
+Action = "Patcher"
+Destination = "<<kotorDirectory>>"
+Arguments = "0"
+Source = ["<<modDirectory>>\\New_Lightsaber_Blades_TSL*\\New_Lightsaber_Blades_TSL*\\TSLPatcher.exe"]
+
+
+[[thisMod]]
+ModLinkFilenames = { "http://deadlystream.com/files/file/18-workbench-crystal-attunement/" = {  } }
+Guid = "bef23217-9776-48cd-948f-d2a9ae0e6382"
+Name = "Workbench Crystal Attunement"
+Author = "Markus Ramikin"
+Tier = "2 - Recommended"
+Description = "Allows the player to attune their unique crystal at workbenches, with or without Kreia in the party. Also has options to remove the \"learn to use the Workshop\" options."
+IsSelected = true
+Category = ["Immersion"]
+
+[[thisMod.Instructions]]
+Guid = "0e96e449-a095-4855-ad4f-b8391c985ad7"
+Action = "Extract"
+Source = ["<<modDirectory>>\\WCA1.2.zip"]
+
+[[thisMod.Instructions]]
+Guid = "d70827b4-0f06-4bf0-9556-56becd3cb42b"
+Action = "Choose"
+Source = ["1d1aa70b-1a50-4c60-9c5d-18a6f671c91b", "6a035700-57c3-4d0d-bd3b-914bc9cf6bb0"]
+
+[[thisMod.Options]]
+Guid = "1d1aa70b-1a50-4c60-9c5d-18a6f671c91b"
+Name = "Version A"
+[[thisMod.Options.Instructions]]
+Parent = "1d1aa70b-1a50-4c60-9c5d-18a6f671c91b"
+Guid = "3a47dc5b-c8ec-4d6c-a067-fb07fe385137"
 Action = "Move"
 Destination = "<<kotorDirectory>>\\Override"
-Overwrite = true
-Source = ["<<modDirectory>>\\hd_npc_portraits-v1.1\\hd_npc_portraits\\*"]
+Source = ["<<modDirectory>>\\WCA1.2\\version A\\c_wrkb_crys.ncs", "<<modDirectory>>\\WCA1.2\\version A\\workbnch.dlg"]
 
-
+[[thisMod.Options]]
+Guid = "6a035700-57c3-4d0d-bd3b-914bc9cf6bb0"
+Name = "Version B"
+IsSelected = true
+[[thisMod.Options.Instructions]]
+Parent = "6a035700-57c3-4d0d-bd3b-914bc9cf6bb0"
+Guid = "7a6b3dd9-7d42-496f-b5b0-2a5549f3dce5"
+Action = "Move"
+Destination = "<<kotorDirectory>>\\Override"
+Source = ["<<modDirectory>>\\WCA1.2\\version B\\c_wrkb_crys.ncs", "<<modDirectory>>\\WCA1.2\\version B\\workbnch.dlg"]

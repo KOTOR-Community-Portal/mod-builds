@@ -1,0 +1,3314 @@
+{
+  "metadata": {
+    "fileFormatVersion": "2.0"
+  },
+  "components": [
+    {
+      "guid": "d46b7491-b1a6-4939-872b-8a5db0e81503",
+      "name": "KOTOR Dialogue Fixes",
+      "author": "Salk & Kainzorus Prime",
+      "description": "In addition to fixing several typos, this mod takes the PC's dialogue—which is written in such a way as to make the PC sound constantly shocked, stupid, or needlessly evil—and replaces it with more moderate and reasonable responses, even for DS choices.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1313-kotor-dialogue-fixes/": {}
+      },
+      "directions": "The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable would normally be)—in this very specific case, NOT the override.",
+      "instructions": [
+        {
+          "guid": "333efb92-7c23-4fdc-9e5e-4e12dc8ebd13",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\KotOR_Dialogue_Fixes_5_2.7z"
+          ]
+        },
+        {
+          "guid": "5d70ec71-e1e2-4905-ae10-b04b8e07e858",
+          "action": "Choose",
+          "source": [
+            "7693ef53-9e15-4387-a08f-e395d9925b78",
+            "25288c16-a829-4c8e-9596-611085ce623a"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "7693ef53-9e15-4387-a08f-e395d9925b78",
+          "name": "Corrections only",
+          "description": "Install files from Corrections only folder",
+          "instructions": [
+            {
+              "guid": "1da01a93-656b-4403-8a5c-664c0fa031f4",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\KotOR_Dialogue_Fixes_5_2\\Corrections only\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "25288c16-a829-4c8e-9596-611085ce623a",
+          "name": "PC Response Moderation version",
+          "description": "Install files from PC Response Moderation version folder",
+          "instructions": [
+            {
+              "guid": "4a339eff-8c99-4bf6-9684-64a428bd2d2f",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\KotOR_Dialogue_Fixes_5_2\\PC Response Moderation version\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "448792d8-9bc0-4df6-acbd-f94e5a502492",
+      "name": "Character Startup Changes",
+      "author": "jonathan7, patch by A Future Pilot",
+      "description": "In a normal KOTOR start, your character's feats are pre-selected. This mod changes the initial level-up so that the number of feat points given is determined by class, but you can choose the feats you wish to invest into.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/349-character-start-up-change/": {},
+        "https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg": {}
+      },
+      "directions": "Make sure you don't forget to install the patch!",
+      "instructions": [
+        {
+          "guid": "0992a904-0e61-40e1-9f64-175c956bf5aa",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Character Start Up Changes.zip"
+          ]
+        },
+        {
+          "guid": "0ae1d740-70fd-49d1-829d-39556e6df612",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\Character Start Up Changes\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        },
+        {
+          "guid": "a4c1eff1-4fe9-4b6f-bbea-f7879a83a828",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Character_Startup_Changes_Patch.zip"
+          ]
+        },
+        {
+          "guid": "c7fa3664-dc6a-4541-8145-45568a4f894e",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Character_Startup_Changes_Patch\\Override\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "ba0a890c-9025-49d7-8d4e-a25bde86dc1f",
+      "name": "Thematic KOTOR Companions",
+      "author": "Sniggles & JCarter426",
+      "description": "BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique and less rigidly tied to the D&D system if they can be stronger than what the system otherwise allows. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.\r\n\r\nAs part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.\r\n\r\nCompanion names, genders, and some information about their backstories have been censored in the attached changes breakdown to avoid spoilers.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.1/KOTOR1-Thematic-Companions_v1.0.1_spoiler-free.zip": {}
+      }
+    },
+    {
+      "guid": "6d97683c-d11e-4384-8b06-2c59ff5010e1",
+      "name": "JC's Minor Fixes",
+      "author": "JCarter426",
+      "description": "KOTOR, like with any game, has a slew of little oversights, or things BioWare messed up by accident. The goal of this mod is to fix most of those small things not addressed in other, larger mods.",
+      "category": [
+        "Bugfix",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/": {}
+      },
+      "directions": "Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the \"Things what bother me\" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all \"MAN26\" files and the two \"plc_kiosk\" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.",
+      "instructions": [
+        {
+          "guid": "9218075d-3836-4a06-9f1c-8f1223fa15aa",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1.zip"
+          ]
+        },
+        {
+          "guid": "91db83e8-90cf-4986-929e-7e9b77bf33c6",
+          "action": "Choose",
+          "source": [
+            "3a56e9b5-a5c8-4530-9074-c7d40e7e6e06",
+            "10bc1160-4e59-4091-9765-2b146feff46d",
+            "503a4930-e420-49d4-a464-3c3eaf84c326",
+            "96e9868b-aa94-42d3-a11d-9347f817c472",
+            "76ed718d-87ee-450f-a608-e1bf96d3e9c5"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "3a56e9b5-a5c8-4530-9074-c7d40e7e6e06",
+          "name": "Aesthetic Improvements",
+          "description": "Install files from Aesthetic Improvements folder",
+          "instructions": [
+            {
+              "guid": "81f5a924-ac7f-4c72-b6eb-51507b0ee3b9",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1\\Aesthetic Improvements\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "10bc1160-4e59-4091-9765-2b146feff46d",
+          "name": "Bug Fixes",
+          "description": "Install files from Bug Fixes folder",
+          "instructions": [
+            {
+              "guid": "1fc1c3dc-b92c-47f9-8518-50e987df118a",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1\\Bug Fixes\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "503a4930-e420-49d4-a464-3c3eaf84c326",
+          "name": "Resolution Fixes",
+          "description": "Install files from Resolution Fixes folder",
+          "instructions": [
+            {
+              "guid": "0e982bb5-77e3-44fa-a79d-64305c32a722",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1\\Resolution Fixes\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "96e9868b-aa94-42d3-a11d-9347f817c472",
+          "name": "Straight Fixes",
+          "description": "Install files from Straight Fixes folder",
+          "instructions": [
+            {
+              "guid": "1565ec48-8eea-4d4b-a1ab-5222ef93c54d",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1\\Straight Fixes\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "76ed718d-87ee-450f-a608-e1bf96d3e9c5",
+          "name": "Things What Bother Me Fixes",
+          "description": "Install files from Things What Bother Me Fixes folder",
+          "instructions": [
+            {
+              "guid": "a2fdd58e-160c-47d8-96da-091f00e21859",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Minor Fixes for K1 v1.1\\Things What Bother Me Fixes\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "d57c1938-fdb7-499f-a87c-af6341c607ab",
+      "name": "Ajunta Pall Unique Appearance",
+      "author": "Silveredge9, Patch by A Future Pilot",
+      "description": "This mod reskins NPC specter Ajunta Pall to have a unique appearance that matches the honorary statue in his tomb.",
+      "category": [
+        "Appearance Change",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/824-ajunta-pall-unique-appearance/": {},
+        "https://mega.nz/file/McJF1AIC#Jywhu6zXWCRz4gRghxMxoBAWrbU_A3giD1INsOoHqmA": {}
+      },
+      "directions": "For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.",
+      "instructions": [
+        {
+          "guid": "7b9f35a7-f8ab-438f-a79d-858299d6733f",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\ajunta_pall_unique_appearance_1.1.rar"
+          ]
+        },
+        {
+          "guid": "85f7ac98-4e42-4243-9fda-5e0fec0c7c8c",
+          "action": "Choose",
+          "source": [
+            "2e6a3119-12e2-4aeb-9c6f-ec6d7b1affb4",
+            "01fefc86-e9fd-44de-84d7-a8ab7830ad58"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "2e6a3119-12e2-4aeb-9c6f-ec6d7b1affb4",
+          "name": "Non-Transparent Skins",
+          "description": "Install files from Non-Transparent Skins folder",
+          "instructions": [
+            {
+              "guid": "4b07265c-74b8-4280-b39e-e5acdad00a68",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\ajunta_pall_unique_appearance_1.1\\Non-Transparent Skins\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "01fefc86-e9fd-44de-84d7-a8ab7830ad58",
+          "name": "Transparent Skins",
+          "description": "Install files from Transparent Skins folder",
+          "instructions": [
+            {
+              "guid": "8b342270-7ad1-4cfc-8480-1d08722417cb",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\ajunta_pall_unique_appearance_1.1\\Transparent Skins\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "e357c4b9-a1dc-4e55-bccc-5b76cd61ae22",
+      "name": "KOTOR Community Patch",
+      "author": "Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate",
+      "description": "An ambitious compilation intending to be a comprehensive bugfix mod for the original game, the KOTOR Community Patch combines hundreds of various fixes and improvements from over a dozen other mods, as well as fixes put together by AFP, DP and JC on their own. With bugfixes as important to KOTOR as TSLRCM's are to KOTOR 2, I can't recommend its use highly enough.\r\n\r\nPlease make sure to **NOT READ** the list of changes included within the mod, however; due to its size and composite nature, I can't censor information for the whole thing, and there's a lot of spoilers in it if you read the readme fully!",
+      "category": [
+        "Bugfix",
+        "Graphics Improvement",
+        "Immersion"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "YES for Russian and French only, follow the instructions on the mod page to use"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1258-kotor-1-community-patch/": {},
+        "https://mega.nz/file/gQZR1TZY#U7XN5teK9wjXC5Hnj7MFlmHYb8UFyaV5R17ksIuj7Jc": {}
+      },
+      "directions": "Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.",
+      "instructions": [
+        {
+          "guid": "fe117079-ac97-4871-aab8-e3076800b6b7",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1_Community_Patch_v1.10.0.zip"
+          ]
+        },
+        {
+          "guid": "2f3c1966-5fb1-4014-8b16-8eaa2b78dbc6",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\K1_Community_Patch_v1.10.0\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        },
+        {
+          "guid": "60f2d34a-d2fa-4ada-9c29-48cd8607b8e1",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1CP Patch.rar"
+          ]
+        },
+        {
+          "guid": "44469a9b-0a4d-4403-a34e-b7d3278db33e",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\K1CP Patch\\K1CP Patch\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "a9d64758-61be-4f3b-b302-715b5be19af2",
+      "name": "Droid Claw Fix",
+      "author": "GearHead",
+      "description": "A basegame bug prevented some droid NPCs from being able to equip unique \"weapons\" that let them do more damage. This mod fixes the oversight and restores the damage—be warned, it can be quite a significant difficulty boost in places.",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2456-kotor1-droid-claw-fix/": {}
+      },
+      "instructions": [
+        {
+          "guid": "4c1e1430-013c-4c5d-a1db-a2d9dcef59ed",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\KotOR1 Droid Claw Fix.zip"
+          ]
+        },
+        {
+          "guid": "e5c5aa1b-b966-40d9-92a3-996586dc7c67",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\KotOR1 Droid Claw Fix\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "41cb2d11-fda4-4588-bc2f-0595e9e93805",
+      "name": "K1 Ported Alien VO Replacements",
+      "author": "Ashton Scorpius",
+      "description": "Several alien species in the original game use recycled VO primarily utilized by other species, but KOTOR 2 gives these aliens unique voiceovers instead. This mod uses alien VO ported from KOTOR 2 to give these species their unique VO in the original game as well.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1426-k1-ported-alien-vo-replacements/": {}
+      },
+      "directions": "Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.",
+      "instructions": [
+        {
+          "guid": "11256657-67e0-4cb2-80a9-38d3538af4ed",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 PAVOR v1.3.2.7z"
+          ]
+        },
+        {
+          "guid": "d633d5e6-b908-4948-b43a-7d93d3bdf3bb",
+          "action": "Choose",
+          "source": [
+            "aff4324a-5127-41fa-aecd-74ef2fc6500e",
+            "ac11be32-4540-4d2b-ae9b-d754b5c32d39",
+            "fc7c859f-ae43-4bc1-b3b1-b8f6b3f5f4cf",
+            "fee259dc-2457-4160-847d-ae5ff7bfd1b9"
+          ]
+        },
+        {
+          "guid": "04afa1d0-97ab-41b7-bb71-559e2521b319",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\K1 PAVOR v1.3.2\\source\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ],
+      "options": [
+        {
+          "guid": "aff4324a-5127-41fa-aecd-74ef2fc6500e",
+          "name": "Main Mod Installation",
+          "description": "Select this option first.",
+          "instructions": [
+            {
+              "guid": "d6ebbe5e-c499-4826-b27a-2550d9b5aa14",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 PAVOR v1.3.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_1.ini"
+            }
+          ]
+        },
+        {
+          "guid": "ac11be32-4540-4d2b-ae9b-d754b5c32d39",
+          "name": "KOTOR 1 Community Patch Compatibility Patch",
+          "description": "Select this if you have K1CP installed.",
+          "instructions": [
+            {
+              "guid": "b41a7ed3-d087-4551-b5a3-c7f150254b9b",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 PAVOR v1.3.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_2.ini"
+            }
+          ]
+        },
+        {
+          "guid": "fc7c859f-ae43-4bc1-b3b1-b8f6b3f5f4cf",
+          "name": "K1 Restoration Compatibility Patch",
+          "description": "Select this option if you have K1R installed.",
+          "instructions": [
+            {
+              "guid": "f30b0754-b295-4e99-8d2a-e69739468f1b",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 PAVOR v1.3.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_3.ini"
+            }
+          ]
+        },
+        {
+          "guid": "fee259dc-2457-4160-847d-ae5ff7bfd1b9",
+          "name": "NPC Overhaul Compatibility Patch",
+          "description": "Select this option if you have the NPC Overhaul Mod installed.",
+          "instructions": [
+            {
+              "guid": "9d318d1b-05b0-4b88-9a9e-91fff8d71dd8",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 PAVOR v1.3.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_4.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "20cd8b52-0d21-4aab-8b9e-a638528ae9f1",
+      "name": "Deadeye Duncan on Manaan",
+      "author": "Seamhainn",
+      "description": "This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U": {}
+      },
+      "instructions": [
+        {
+          "guid": "c2f42739-142b-4409-ba9a-8ca72316fe15",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Duncan on Manaan.7z"
+          ]
+        },
+        {
+          "guid": "184b9179-6d82-4041-8d32-647ce49c2d26",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Duncan on Manaan\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "bd1530b6-4e72-4e5d-894f-1e6bc36a4725",
+      "name": "Consistent Conditioning Icons",
+      "author": "Sdub",
+      "description": "The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2013-consistent-conditioning-icons/": {}
+      },
+      "instructions": [
+        {
+          "guid": "07d552c1-d818-4ee4-aeda-671511937992",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Consistent Conditioning Icons.7z"
+          ]
+        },
+        {
+          "guid": "67bdf4e6-f253-4192-bd92-729be3daac62",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Consistent Conditioning Icons\\Consistent Condining Icons\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "4b34206c-7893-41e0-9add-d67e639aa032",
+      "name": "Republic Soldier Fix",
+      "author": "JCarter426",
+      "description": "Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character. The Soldier class's vanilla default clothing is horrible enough that this mod's worth it based on that change alone.",
+      "category": [
+        "Graphics Improvement",
+        "Appearance Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/": {}
+      },
+      "directions": "Move the files from both the Override and Optional folders to your game's override folder.",
+      "instructions": [
+        {
+          "guid": "569f956a-39ca-43ff-af4f-0d421956f935",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Republic Soldier Fix for K1 v1.3.zip"
+          ]
+        },
+        {
+          "guid": "02a8f5a6-a122-4609-9c3e-07971b4cf9fd",
+          "action": "Choose",
+          "source": [
+            "b092e8f3-c5a3-448c-9b8f-c63bec54987c",
+            "66b58de0-949d-48a2-8f3f-8ded3bc16270"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "b092e8f3-c5a3-448c-9b8f-c63bec54987c",
+          "name": "Optional",
+          "description": "Install files from Optional folder",
+          "instructions": [
+            {
+              "guid": "df0ea06a-ea2d-4884-8b64-44c3d6312dca",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Republic Soldier Fix for K1 v1.3\\Optional\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "66b58de0-949d-48a2-8f3f-8ded3bc16270",
+          "name": "Override",
+          "description": "Install files from Override folder",
+          "instructions": [
+            {
+              "guid": "48e2f94a-f1ce-43e1-a938-37d3fa5b0e1e",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\JC's Republic Soldier Fix for K1 v1.3\\Override\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "aa231e51-1f33-44f5-a4eb-9cb879ba75f9",
+      "name": "Republic Soldier's New Shade",
+      "author": "ebmar",
+      "description": "By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/": {}
+      },
+      "directions": "If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.",
+      "instructions": [
+        {
+          "guid": "706fe787-adb1-407a-a2ed-4455e4ada163",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1.7z"
+          ]
+        },
+        {
+          "guid": "32285076-7041-4960-87b3-3353e50e2213",
+          "action": "Choose",
+          "source": [
+            "a7200e1e-07d0-4175-a9f1-bec192cef28c",
+            "937efa82-47fd-499f-b65d-272ebd552fc1",
+            "2f92cff4-1420-4f45-b698-c4aeb6938bc0",
+            "faf2f457-40f7-4855-8a1c-71f03679e305",
+            "c92eeddf-55b3-4ee6-9f06-13fb65ac8dbc",
+            "ac90c9d4-61b5-4d52-90c5-55f948fc4454"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "a7200e1e-07d0-4175-a9f1-bec192cef28c",
+          "name": "Main: New Shade for Male NPC Republic Soldier",
+          "description": "Install the new shade version of male NPC Republic Soldier",
+          "instructions": [
+            {
+              "guid": "3712858e-65a6-4650-bb8d-0f1e04981953",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Main.ini"
+            }
+          ]
+        },
+        {
+          "guid": "937efa82-47fd-499f-b65d-272ebd552fc1",
+          "name": "Option-1: Vanilla version for JC's \"Republic Soldier Fix for K1\" - Male and Female",
+          "description": "Install the vanilla male and female version NPC Republic Soldier with added envmask/shinyness",
+          "instructions": [
+            {
+              "guid": "93d3243b-f686-4238-8438-e8f9fd9f8dbf",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Option_1.ini"
+            }
+          ]
+        },
+        {
+          "guid": "2f92cff4-1420-4f45-b698-c4aeb6938bc0",
+          "name": "Option-2: Vanilla Version Model - Female NPC Republic Soldier",
+          "description": "Install the vanilla female version model NPC Republic Soldier with added envmask/shinyness",
+          "instructions": [
+            {
+              "guid": "54e95e8f-7143-48ed-8a61-27a596f11fe0",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Option_2.ini"
+            }
+          ]
+        },
+        {
+          "guid": "faf2f457-40f7-4855-8a1c-71f03679e305",
+          "name": "Option-3: New Shade for JC's \"Republic Soldier Uniform for PC\" - Male and Female",
+          "description": "Need to have JC's \"Republic Soldier Fix for K1\" installed first, as this option will not work without the models from that mod. This will install the new shade version of both male and female PC Republic Soldier",
+          "instructions": [
+            {
+              "guid": "9d542ec7-5e7e-48eb-95d4-54e7dd2fa63d",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Option_3.ini"
+            }
+          ]
+        },
+        {
+          "guid": "c92eeddf-55b3-4ee6-9f06-13fb65ac8dbc",
+          "name": "Option-4: Vanilla version for JC's \"Republic Soldier Uniform for PC\" - Male and Female",
+          "description": "Need to have JC's \"Republic Soldier Fix for K1\" installed first, as this option will not work without the models from that mod. This will install the vanilla version of both male and female PC Republic Soldier with added envmask/shinyness",
+          "instructions": [
+            {
+              "guid": "92d3b329-6c92-483b-8c8e-6b46a35d6f7f",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Option_4.ini"
+            }
+          ]
+        },
+        {
+          "guid": "ac90c9d4-61b5-4d52-90c5-55f948fc4454",
+          "name": "Option-5: New Shade for JC's \"Republic Soldier Fix for K1\" - Male and Female NPC Republic Soldier",
+          "description": "Need to have JC's \"Republic Soldier Fix for K1\" installed first, as this option will not work without the models from that mod. This will install the new shade version of both male and female NPC Republic Soldier",
+          "instructions": [
+            {
+              "guid": "ac922153-6be1-4f04-9812-f2f2670191bc",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1]_Republic_Soldier's_New_Shade_v1.1.1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Option_5.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "f52a86ba-651d-4592-a905-66367cdfe426",
+      "name": "PFHB02 Dark Side Transition Eye Fix",
+      "author": "Darth Parametric",
+      "description": "The eye overlays on the second black female head were input incorrectly and become offset as the player transitions to the Dark Side, creating the appearance of duplicated irises. This mod fixes that, as well as offering an upscale option which improves the base appearance of the head.",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/": {}
+      },
+      "directions": "I recommend avoiding the upscale option for the purposes of playing on mobile.",
+      "instructions": [
+        {
+          "guid": "425d3d25-f54a-41c1-ab80-2cf147880017",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix.7z"
+          ]
+        },
+        {
+          "guid": "d429e65a-980a-4ab5-9a5a-3c54f013770f",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\[K1]_Player_Head_PFHB02_DS_Transition_Eye_Fix\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "8c9ddf6d-b270-4014-871c-6c389246ed03",
+      "name": "High-Poly Grenades",
+      "author": "MadDerp",
+      "description": "Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://www.nexusmods.com/kotor/mods/1209": {
+          "hp_grenades-0-4-1209-0-4-1547556830.zip": true
+        }
+      },
+      "instructions": [
+        {
+          "guid": "cfa937f0-3274-4944-bd2e-fc75d740575f",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\hp_grenades-0-4-1209-0-4-1547556830.zip"
+          ]
+        },
+        {
+          "guid": "5201a71e-7353-448c-a14a-99988ffdb564",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\hp_grenades-0-4-1209-0-4-1547556830\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "308a089c-33ff-4a49-b7b4-3ad22d1b5cae",
+      "name": "Better Twi'lek Heads",
+      "author": "Ashton Scorpius",
+      "description": "Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: *supposed* to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/": {}
+      },
+      "directions": "Choose whether to use the slim or original necks; your preference.",
+      "instructions": [
+        {
+          "guid": "4776e6ef-38eb-45c6-bdc2-fc557ed0e848",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3.7z"
+          ]
+        },
+        {
+          "guid": "aa47954c-5a4d-4749-8404-30f44b0e31eb",
+          "action": "Choose",
+          "source": [
+            "c958c765-5442-4072-b2e9-25ce438c670f",
+            "9513dd6d-0640-44f3-8098-553de31492f9"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "c958c765-5442-4072-b2e9-25ce438c670f",
+          "name": "Option A - Slim Necks",
+          "description": "Select this option to slim down on the lard necks!",
+          "instructions": [
+            {
+              "guid": "d7d46ebd-f171-4962-983e-cdac7b0818f0",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_1.ini"
+            }
+          ]
+        },
+        {
+          "guid": "9513dd6d-0640-44f3-8098-553de31492f9",
+          "name": "Option B - Original Necks",
+          "description": "Select this option to keep the original necks inspired by Bib Fortuna.",
+          "instructions": [
+            {
+              "guid": "c67ea40a-faa9-43f5-9514-ec0a811bb538",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Twi'lek Heads v1.3.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_2.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "4191325b-90dd-4ae1-89a7-a47ae4ffbf60",
+      "name": "Thigh-High Boots for Twi'lek",
+      "author": "DarthParametric",
+      "description": "In vanilla, female Twi'lek's thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This modder's resource serves to add the boots as an equipped object.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/1087-k1-thigh-high-boots-for-female-twilek-body-modders-resource/": {}
+      },
+      "directions": "Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.",
+      "instructions": [
+        {
+          "guid": "97d24148-8fb0-4791-9bca-8befdaf3c321",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE.7z"
+          ]
+        },
+        {
+          "guid": "8b88befc-b14d-4f33-bc9d-8ba1162d356b",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\[K1]_Thigh-High_Boots_For_Twilek_Body_MODDERS_RESOURCE\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "a6080781-5e11-46cd-8aaf-5edc82145202",
+      "name": "Shaleena/Lashowe Mouth Adjustment",
+      "author": "Ashton Scorpius",
+      "description": "Fixes a bug with two female NPC heads which caused their upper teeth to be invisible during dialogue.",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/": {}
+      },
+      "instructions": [
+        {
+          "guid": "ee4fd1a6-4ff7-4d99-944d-0c92730859f0",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 SL Mouth Adjustment v1.1.1.7z"
+          ]
+        },
+        {
+          "guid": "46bec90c-bdd8-46f1-9004-e18bc6dd2b25",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\K1 SL Mouth Adjustment v1.1.1\\Override\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "dac06f34-078a-4c7c-83eb-565a5d689961",
+      "name": "Calo Nord Recolor",
+      "author": "Watcher07",
+      "description": "Recolors the famous bounty hunter Calo Nord's clothing to be more muted in tone; you wouldn't expect a famous bounty hunter to run around in bright colors, but in vanilla Calo sure loved to. Note that this does not allow you to play as Calo, nor does it add the custom blaster skin or republic uniform skin seen in the screenshots.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/file/hJhGEbza#qemCHVzBcCWkL__n6mrmVNzD3P2qdV4MWEYQvJudtJY": {}
+      },
+      "screenshots": "[Here](http://imgur.com/a/KoIKD)",
+      "instructions": [
+        {
+          "guid": "49029037-573c-4111-b0c3-f0a552f1e55c",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Calo Nord Recolor.zip"
+          ]
+        },
+        {
+          "guid": "8b590f9d-3a23-4184-9922-5ef647aa2856",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Calo Nord Recolor\\CN_Recolor\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "2f2e6db1-1e86-4b3d-8d0d-7a9a5fbfd694",
+      "name": "K2 Swoops to K1",
+      "author": "CaptainSpoque",
+      "description": "This mod ports the \"shield effect\" that pops up when your swoop (basically a racing bike) takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I don't recommend that.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/": {}
+      },
+      "instructions": [
+        {
+          "guid": "ae0b8884-4a23-4f32-9636-24906a988172",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\[K1] Swoop from K2 to K1.rar"
+          ]
+        },
+        {
+          "guid": "cdb8678f-8ae3-4f3d-982b-dbf2af36dda0",
+          "action": "Choose",
+          "source": [
+            "7011cb7b-7231-448e-95ff-929a306f03d4",
+            "7011cb7b-7231-448e-95ff-929a306f03d4",
+            "7011cb7b-7231-448e-95ff-929a306f03d4",
+            "7011cb7b-7231-448e-95ff-929a306f03d4"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "7011cb7b-7231-448e-95ff-929a306f03d4",
+          "name": "K1 Vanilla with K2 shield",
+          "description": "Adds the shield effect from K2 to the K1 swoop model",
+          "instructions": [
+            {
+              "guid": "6a776a22-c5bb-4782-8385-aad5a716878c",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\[K1] Swoop from K2 to K1\\K1 Vanilla with K2 shield.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "882559bb-ba79-4c7c-987a-a1ad93dafd4d",
+      "name": "Juhani Real Cathar Head",
+      "author": "Miro42",
+      "description": "NPC Juhani's head model has always been a disappointing reminder of the limitations of low resolution. This mod makes the best attempt of any I've seen so far to portray her as truly Cathar, without going to extremes or failing to overcome the limitations of her original facial design.",
+      "category": [
+        "Appearance Change",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/702-juhani-real-cathar-head/": {}
+      },
+      "instructions": [
+        {
+          "guid": "158f6a77-6323-44a8-b5df-1008759e1259",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\juhaniCathar_head.zip"
+          ]
+        },
+        {
+          "guid": "716d0f6d-9c7a-4b60-97ee-f3e335804919",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\juhaniCathar_head\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "1c96e03f-5a9b-40db-aadf-949c3a0dd6dd",
+      "name": "Korriban: Back in Black",
+      "author": "JCarter426",
+      "description": "When you reach the planet Korriban, you'll find an academy for Force-users there. All the students are nonsensically dressed up in officer's outfits and not proper robes, though! Thankfully, this mod fixes that.",
+      "category": [
+        "Appearance Change",
+        "Bugfix"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/": {}
+      },
+      "directions": "If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.",
+      "instructions": [
+        {
+          "guid": "d0669245-a28a-472c-917e-d121df8bc5a5",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3.zip"
+          ]
+        },
+        {
+          "guid": "187f0221-ddf0-4d96-8c1d-54aa6c4b56c9",
+          "action": "Choose",
+          "source": [
+            "2e2bb1a5-a0cf-4b25-be09-7ef8e1518a12",
+            "00e48252-77a6-4ba1-8cb9-df52ad8d981c",
+            "1bcefa30-4c94-4000-a8e6-96a0e28b59db",
+            "41f823f7-a006-4f0d-8405-5f1d476023f8",
+            "99aaeb0e-2334-4462-ab52-dd9b234e6534",
+            "7b2a7aea-9012-43ab-b35d-80ce0e49f18f"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "2e2bb1a5-a0cf-4b25-be09-7ef8e1518a12",
+          "name": "Basic Installation",
+          "description": "This option installs the basic mod. It is recommended that you remove any previous versions or other mods that may affect the same files before running this.",
+          "instructions": [
+            {
+              "guid": "4c4e02d6-b46c-4fc6-b8b1-fc453963ceb7",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "00e48252-77a6-4ba1-8cb9-df52ad8d981c",
+          "name": "KOTOR Community Patch-Compatible Installation",
+          "description": "Choose this option if you have the KOTOR Community Patch installed. This option will not overwrite the changes that the Community Patch makes to Korriban, but will install the rest of the Back in Black mod.",
+          "instructions": [
+            {
+              "guid": "83cec814-5a3b-46c4-9ec2-4462e0eac693",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "CP.ini"
+            }
+          ]
+        },
+        {
+          "guid": "1bcefa30-4c94-4000-a8e6-96a0e28b59db",
+          "name": "Tariga Male Option",
+          "description": "This undoes the changes made to Tariga's gender. Run this if you use another mod that fixes this, such as Tariga Gender on Tamlen DLG Fix, after installing the rest Korriban: Back in Black.",
+          "instructions": [
+            {
+              "guid": "b3c171ee-a5ed-4f6a-be48-a0803b46d037",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Tariga_m.ini"
+            }
+          ]
+        },
+        {
+          "guid": "41f823f7-a006-4f0d-8405-5f1d476023f8",
+          "name": "Uthar Uniform Option",
+          "description": "This option will give Uthar a black Sith uniform instead of robes. And unlike in the original game, his uniform will be consistent across all areas. Run this after installing the rest of the mod.",
+          "instructions": [
+            {
+              "guid": "a0f499e7-9fa1-4218-8654-0ac14f77b057",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Uthar_U.ini"
+            }
+          ]
+        },
+        {
+          "guid": "99aaeb0e-2334-4462-ab52-dd9b234e6534",
+          "name": "Uthar Armor Option",
+          "description": "This option will give Uthar the silver armor that other Sith Masters in the game wear. Run this after installing the rest of the mod.",
+          "instructions": [
+            {
+              "guid": "6558c464-09f9-4693-b797-97c312815da4",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Uthar_A.ini"
+            }
+          ]
+        },
+        {
+          "guid": "7b2a7aea-9012-43ab-b35d-80ce0e49f18f",
+          "name": "Yuthura Uniform Option",
+          "description": "This option will give Yuthura a black Sith uniform instead of robes. And unlike in the original game, her uniform will be consistent across all areas. Run this after installing the rest of the mod.",
+          "instructions": [
+            {
+              "guid": "dba0c278-cccd-423b-8635-ee95eb7d0631",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Korriban - Back in Black for K1 v2.3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Yuthura_U.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "e0be1b73-7093-4cf8-ab4e-13ab2ee76c11",
+      "name": "Cloaked Jedi Robes",
+      "author": "JCarter426",
+      "description": "The robes in KOTOR 2 are of a more billowing, loose style than the tight-fitting and narrow robes that KOTOR usually features, and seem to be the fanbase's preference. This mod migrates the KOTOR 2 robes into the original game, while still leaving options to retain some of the aesthetic choices of vanilla.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1378-jcs-fashion-line-i-cloaked-jedi-robes-for-k1/": {}
+      },
+      "directions": "When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.",
+      "instructions": [
+        {
+          "guid": "3241ef15-b70d-4c63-8f52-e54b28acf682",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4.7z"
+          ]
+        },
+        {
+          "guid": "159dc140-5e2f-4494-910b-c790d0620ea0",
+          "action": "Choose",
+          "source": [
+            "3259e402-c6b3-4482-a68c-50e5a1f29a51",
+            "4ab75494-bd03-4bfb-b674-5e7967186c2e",
+            "cf36ce5d-0438-4023-88f1-60ed1ec1fe7b",
+            "e9f31329-36ff-47d1-8107-df96c243fdcc",
+            "c0b15477-21b6-49fa-a6c8-3d765ef4dd08",
+            "4f01f985-6ba9-445e-96d1-f29afa1e0224"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "3259e402-c6b3-4482-a68c-50e5a1f29a51",
+          "name": "100% Brown",
+          "description": "This option replaces the Jedi robe models with cloaked models and textures based on the robes from KOTOR 2. Jedi wear robes in various shades of brown, while Dark Jedi wear black robes.",
+          "instructions": [
+            {
+              "guid": "d43799c5-8316-4146-b815-f5d1864fccf8",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_bbb.ini"
+            }
+          ]
+        },
+        {
+          "guid": "4ab75494-bd03-4bfb-b674-5e7967186c2e",
+          "name": "100% Brown (No Gloves)",
+          "description": "This option replaces the Jedi robe models with cloaked models and textures based on the robes from KOTOR 2. Jedi wear robes in various shades of brown, while Dark Jedi wear black robes. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.",
+          "instructions": [
+            {
+              "guid": "b48f3c06-4ee6-4c77-9d0a-69b2d465437f",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_bbb_ng.ini"
+            }
+          ]
+        },
+        {
+          "guid": "cf36ce5d-0438-4023-88f1-60ed1ec1fe7b",
+          "name": "k_brb",
+          "description": "This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 while retaining the KOTOR 1 color scheme. Jedi robes come in brown, red, and blue, while Dark Jedi wear black robes.",
+          "instructions": [
+            {
+              "guid": "c20b9a54-b5c8-4e99-b8b5-ab43183fc862",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_brb.ini"
+            }
+          ]
+        },
+        {
+          "guid": "e9f31329-36ff-47d1-8107-df96c243fdcc",
+          "name": "Brown-Red-Blue (No Gloves)",
+          "description": "This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 while retaining the KOTOR 1 color scheme. Jedi robes come in brown, red, and blue, while Dark Jedi wear black robes. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.",
+          "instructions": [
+            {
+              "guid": "7e70d807-0e74-4914-a96e-22975f083ed9",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_brb_ng.ini"
+            }
+          ]
+        },
+        {
+          "guid": "c0b15477-21b6-49fa-a6c8-3d765ef4dd08",
+          "name": "k_brb-a",
+          "description": "This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 and textures in a mix of the other styles. It retains the color scheme of the Brown-Red-Blue option while keeping the variety of the 100% Brown option.",
+          "instructions": [
+            {
+              "guid": "d6ed5241-38f2-4342-b63b-6782b7e8a152",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_brb-a.ini"
+            }
+          ]
+        },
+        {
+          "guid": "4f01f985-6ba9-445e-96d1-f29afa1e0224",
+          "name": "Brown-Red-Blue Alternative (No Gloves)",
+          "description": "This option replaces the Jedi robe models with cloaked models based on the robes from KOTOR 2 and textures in a mix of the other styles. It retains the color scheme of the Brown-Red-Blue option while keeping the variety of the 100% Brown option. Additionally, this option removes gloves from the player character and some NPC appearances so their hands match their skin tone.",
+          "instructions": [
+            {
+              "guid": "8820b357-9919-4972-b8a1-21cec5f9ec2a",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Fashion Line I - Cloaked Jedi Robes for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k_brb-a_ng.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "ddd41c46-933c-4b16-9e85-f92260d16db5",
+      "name": "JC's Jedi Tailor",
+      "author": "JCarter426",
+      "description": "It's very annoying when you've got your party together and you want to show your swag off with color-coordinated outfits, but the game only gives you gaudy blue robes. Worry no longer! JC has given us a solution in the form of a skilled Trandoshan tailor, who will dye your robes on demand—it's also compatible with Cloaked Jedi Robes! He even has some very well-written and lore-friendly dialogue about current events.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/": {}
+      },
+      "directions": "If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).",
+      "instructions": [
+        {
+          "guid": "b40202d0-3939-4c1c-b90e-b6e9dd7ae87a",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Jedi Tailor for K1 v1.4.zip"
+          ]
+        },
+        {
+          "guid": "9031767b-be31-40d8-890f-77880858c471",
+          "action": "Choose",
+          "source": [
+            "4a41d707-d1ba-4784-be00-d794c534afac",
+            "0c1dc519-08a6-4469-b87f-799311fc19e2"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "4a41d707-d1ba-4784-be00-d794c534afac",
+          "name": "JC's Jedi Tailor for K1 - Basic Installation",
+          "description": "This installs the most up-to-date version of the base Jedi Tailor mod.",
+          "instructions": [
+            {
+              "guid": "728d419b-cdaa-41b4-a5a7-37abf40af35b",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Jedi Tailor for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "0c1dc519-08a6-4469-b87f-799311fc19e2",
+          "name": "100% Brown Compatibility Patch",
+          "description": "This is a compatibility patch for the 100% Brown option of my Cloaked Jedi Robes mod. It adjusts the tailor's dialogue to make all reference to robe color consistent with the brown shades in that mod.",
+          "instructions": [
+            {
+              "guid": "a5b4a5e7-236a-41b5-abe9-7795b59a13c1",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Jedi Tailor for K1 v1.4\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "comp_100brown.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "e0af5793-1246-4dd0-a023-5158deff3ae1",
+      "name": "Robes with Shadows for K1 (JC's Port)",
+      "author": "PapaZinos",
+      "description": "Coming in to support JC, PapaZinos here adds dynamic shadows to the ported K2 Jedi robes. Without this mod JC's mod functions, but doesn't have proper dynamically-cast shadows matching the robe outlines.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2357-robes-with-shadows-for-k1-jcs-port/": {}
+      },
+      "directions": "Only move the files from \"Jedi Robes Override\".",
+      "dependencies": [
+        "e0be1b73-7093-4cf8-ab4e-13ab2ee76c11"
+      ],
+      "instructions": [
+        {
+          "guid": "1926fed9-e834-4dd6-bebe-512fe98fe21b",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Robes_With_Shadows_JC_K1_v1.2.0.7z"
+          ]
+        },
+        {
+          "guid": "7e7fd525-1a32-46ce-9e0b-b26317504d94",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Robes_With_Shadows_JC_K1_v1.2.0\\Robes_With_Shadows_JC_K1_v1.2.0\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "4af4c6c3-a66e-42da-acce-f1378f3d0504",
+      "name": "Qel-Droma Robes Reskin",
+      "author": "Effix",
+      "description": "This mod reskins the Qel-Droma robes to look closer to their canon counterparts, while also improving their general appearance and making them compatible with JC's Jedi Tailor.",
+      "category": [
+        "Immersion",
+        "Appearance Change",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/": {}
+      },
+      "dependencies": [
+        "e0be1b73-7093-4cf8-ab4e-13ab2ee76c11"
+      ],
+      "instructions": [
+        {
+          "guid": "c3f99641-d707-4d83-a409-d3f148cdb360",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes.zip"
+          ]
+        },
+        {
+          "guid": "d5dd9f8b-b451-4f7d-b68c-1141b47caccb",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "bcf1c2ad-65b8-4b21-b119-844500ed1106",
+      "name": "Unique Sith Governor",
+      "author": "N-DReW25",
+      "description": "This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod.\r\n\r\nSome information has been censored to prevent spoilers.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/file/hJwGVL6B#B0-0O_6koePu2kzc8Xif4FzFKPUYApT9PUTv6kWzmjk": {}
+      },
+      "instructions": [
+        {
+          "guid": "a547e8d6-3366-433f-ac8e-cd71f850f6ba",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\USG.rar"
+          ]
+        },
+        {
+          "guid": "84ca18b0-dd95-4f9b-bb99-617ee50907c7",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\USG\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "a56c203f-916c-4c6a-9a8e-3128d9b667dd",
+      "name": "Sith Uniform Reformation Revised",
+      "author": "Heyorange, Sith Holocron, JCarter426",
+      "description": "If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias. New, and thanks to Sith Holocron, these textures have also been further enhanced and upscaled to match the rest of the vanilla game's upscales present in the mod builds.",
+      "category": [
+        "Appearance Change",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/": {}
+      },
+      "directions": "When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.",
+      "instructions": [
+        {
+          "guid": "8ba45ae6-3ed1-4676-a6cd-b071498ec1ab",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Heyorange's Sith Uniform Reformation Revised.7z"
+          ]
+        },
+        {
+          "guid": "0f08830a-5911-494c-b2fb-7ebedf05ff76",
+          "action": "Choose",
+          "source": [
+            "94e28f97-f53e-4ee3-a5cf-67073bc1026a",
+            "ccea3823-5989-4c5e-ad00-7f17a1460e13",
+            "234f2123-155b-4475-8c6c-868efa9b778d",
+            "4940389a-0b9a-49f2-9ec2-5454c9b46512"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "94e28f97-f53e-4ee3-a5cf-67073bc1026a",
+          "name": "Basic Installation",
+          "description": "This option installs the basic mod. Do not choose this option if using the KOTOR Community Patch.",
+          "instructions": [
+            {
+              "guid": "05dbcf62-ec50-46a5-8715-640545f790be",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\Heyorange's Sith Uniform Reformation Revised\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "ccea3823-5989-4c5e-ad00-7f17a1460e13",
+          "name": "KOTOR Community Patch-Compatible Installation",
+          "description": "Choose this option if you are using the KOTOR Community Patch.",
+          "instructions": [
+            {
+              "guid": "2e2bd732-46ad-4d14-be6f-4725a1fd7967",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\Heyorange's Sith Uniform Reformation Revised\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k1cp.ini"
+            }
+          ]
+        },
+        {
+          "guid": "234f2123-155b-4475-8c6c-868efa9b778d",
+          "name": "Extra: Sith Students + Czerka on Korriban Fix",
+          "description": "This option adds a reskin of the standard uniform for Sith students on Korriban and fixes Czerka workers on Korriban to have the correct uniforms. Do not choose this option if you are using another mod which makes similar changes, such as Korriban: Back in Black.",
+          "instructions": [
+            {
+              "guid": "23ffb079-ea6f-4438-92df-5e62a12df9e8",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\Heyorange's Sith Uniform Reformation Revised\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "Tariga_m.ini"
+            }
+          ]
+        },
+        {
+          "guid": "4940389a-0b9a-49f2-9ec2-5454c9b46512",
+          "name": "Extra: KOTOR 1 Restoration Fix",
+          "description": "This option adds a reskin of the Sith uniform for the wounded officer added by the KOTOR 1 Restoration Mod.",
+          "instructions": [
+            {
+              "guid": "9b9707e7-525f-48ef-a92f-c20c4dd80273",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\Heyorange's Sith Uniform Reformation Revised\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "k1r.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "ceba2b7d-13e3-4595-9664-eef7d90ac146",
+      "name": "Star Map Revamp",
+      "author": "Carth0nasty",
+      "description": "Reskins several ancient alien devices you encounter in the course of the game, with similar improvements to the map of the galaxy the star maps display.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1262-star-map-revamp/": {}
+      },
+      "instructions": [
+        {
+          "guid": "6de1413e-d686-4481-9b11-29400106176b",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Star-Map_Revamp_1-1.zip"
+          ]
+        },
+        {
+          "guid": "bc51398a-392d-4aa0-8904-7e599424f040",
+          "action": "Choose",
+          "source": [
+            "dc926117-0d0e-47b1-87da-02997af9fde4",
+            "ac5eea21-1b63-44a0-801f-3474c5744507"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "dc926117-0d0e-47b1-87da-02997af9fde4",
+          "name": "Star-Map_Revamp_1-1",
+          "description": "Install files from Star-Map_Revamp_1-1 folder",
+          "instructions": [
+            {
+              "guid": "410990df-117a-4743-bbb1-a893bdf06472",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\Star-Map_Revamp_1-1\\Star-Map_Revamp_1-1\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "ac5eea21-1b63-44a0-801f-3474c5744507",
+          "name": "__MACOSX",
+          "description": "Install files from __MACOSX folder",
+          "instructions": [
+            {
+              "guid": "7ca4d007-ebee-4748-8fce-99cf570e8ef0",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\Star-Map_Revamp_1-1\\__MACOSX\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "aca0e97d-1f3a-4276-97e0-5ffb3426b978",
+      "name": "Kebla Yurt Renovation",
+      "author": "N-DReW25",
+      "description": "Dark Hope gave shopowner Kebla a makeover earlier, now it's N-Drew's turn to give her shop a tidying-up. Compared to other shops you see in Kebla's city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2785-kebla-yurt-renovation/": {}
+      },
+      "instructions": [
+        {
+          "guid": "997972f7-04d7-45a8-bebe-c78822846240",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\KYR1.1.7z"
+          ]
+        },
+        {
+          "guid": "af5e8b93-1f83-45aa-8d0e-c3ddb8c6ecf2",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\Kebla Yurt Revamp\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "6c4b84a3-9de5-44d1-b7da-b938ce1ddc7d",
+      "name": "Ultimate Ebon Hawk Repairs",
+      "author": "PapaZinos",
+      "description": "Fixes quite a few holes in the model of the *Ebon Hawk*, your ship. No gaps!",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/": {}
+      },
+      "directions": "Move the files from \"to override\" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.",
+      "instructions": [
+        {
+          "guid": "7a8b6fb4-195e-4bb4-b227-68a5159177ac",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0.7z"
+          ]
+        },
+        {
+          "guid": "8f72213c-d604-4384-95c8-2efebc7abc17",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0\\Ultimate_Ebon_Hawk_Repairs_For_K1_v2.0.0\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "ece6e4e1-cbec-4eb4-aea0-24ae2538ea70",
+      "name": "HQ Cockpit Skyboxes",
+      "author": "Sithspecter",
+      "description": "Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/": {}
+      },
+      "downloadInstructions": "I strongly recommend the Small version for mobile.",
+      "instructions": [
+        {
+          "guid": "14ab8071-f4d3-4be1-b08f-2664051f8f93",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\High Quality Cockpit Skyboxes L.zip"
+          ]
+        },
+        {
+          "guid": "1688bbac-b638-4b58-96fb-15bb2799361c",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\High Quality Cockpit Skyboxes L\\High Quality Cockpit Skyboxes L\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "43ba84da-ef29-4b26-8e8c-ec9dae89f683",
+      "name": "Yavin Station Hangar",
+      "author": "WildKarrde",
+      "description": "By default when landing on Yavin station (a merchant hub), you leave the *Ebon Hawk* and are placed directly into a hallway, but in the intro movie for Yavin you can see the *Ebon Hawk* landing in a hangar that looks... well, remarkably similar to another hangar in the game. This mod by WildKarrde brings that hangar to life and integrates it into the station geometry, so you can properly exit the ship and cycle through the airlocks onto the station.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2068-yavin-station-hangar/": {}
+      },
+      "directions": "If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override.",
+      "instructions": [
+        {
+          "guid": "1d70fe33-0e66-483c-9c87-e026839b92e4",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 Yavin Station Hangar v1_5.7z"
+          ]
+        },
+        {
+          "guid": "9fee316f-fe19-473d-a53e-7a1d7e9dd587",
+          "action": "Choose",
+          "source": [
+            "e32d4a4b-6318-4d78-a92b-4f280907eab7",
+            "f02a9030-2939-41bb-91c8-19db6c6241d0",
+            "4af9b8b7-bf86-4253-972e-fc508f25d17e",
+            "a49c8307-daf6-4e7b-a326-ab6838a7644a"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "e32d4a4b-6318-4d78-a92b-4f280907eab7",
+          "name": "Main Installation",
+          "description": "Main Installation of the mod.  Must be installed first before adding the visible forcefield option.",
+          "instructions": [
+            {
+              "guid": "c590fbb4-741c-45a2-a83a-ffa92d4847cf",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Yavin Station Hangar v1_5\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "f02a9030-2939-41bb-91c8-19db6c6241d0",
+          "name": "OPTION: Add Visible Forcefield",
+          "description": "Adds a visible forcefield effect to the hangar entrance.  Requires the Main Installation to be run first.",
+          "instructions": [
+            {
+              "guid": "257fed4e-fa08-45d5-9743-20d2ea1396bd",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Yavin Station Hangar v1_5\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "visible_forcefield.ini"
+            }
+          ]
+        },
+        {
+          "guid": "4af9b8b7-bf86-4253-972e-fc508f25d17e",
+          "name": "HQ Cockpit Skybox Textures",
+          "description": "Install files from HQ Cockpit Skybox Textures folder",
+          "instructions": [
+            {
+              "guid": "527436a9-3435-4443-bc11-1f43efb57d8e",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\K1 Yavin Station Hangar v1_5\\HQ Cockpit Skybox Textures\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "a49c8307-daf6-4e7b-a326-ab6838a7644a",
+          "name": "Option - Alternate Airlock Door (v1_0)",
+          "description": "Install files from Option - Alternate Airlock Door (v1_0) folder",
+          "instructions": [
+            {
+              "guid": "e5d00e05-9565-4396-ac82-cd15ff5522dd",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\K1 Yavin Station Hangar v1_5\\Option - Alternate Airlock Door (v1_0)\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "6b4dbd70-ecca-4f76-bfa1-737e55bd110e",
+      "name": "Taris Reskin",
+      "author": "Quanon, patch by JCarter426",
+      "description": "Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://www.nexusmods.com/kotor/mods/10/": {},
+        "https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0": {}
+      },
+      "directions": "Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga",
+      "instructions": [
+        {
+          "guid": "092b3f99-4a11-48cc-932a-662f4b65ab7e",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Taris_Reskin-10-1-0.zip"
+          ]
+        },
+        {
+          "guid": "426ba85b-b2eb-496f-83a2-94c6820599ac",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Taris_Reskin-10-1-0\\Taris_Reskin\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        },
+        {
+          "guid": "84fa63b3-12b2-4ac0-8e7c-312b12d2bc7b",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Taris Reskin Patch.7z"
+          ]
+        },
+        {
+          "guid": "bcc9f8c9-ed24-4e42-b682-472771f64646",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Taris Reskin Patch\\Taris Reskin Patch\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "7f19a28f-9c92-46d2-bb72-ae7ee3c3d21a",
+      "name": "High Quality Starfields and Nebulas",
+      "author": "Kexikus",
+      "description": "Upscales and beautifies the various starfields encountered throughout the game. Some information has been censored to prevent spoilers.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/#!VdxRmK6J!AD-rsPeBnx936YV4aZsjWogeDTzyK0GaIsRLLFz5MjE": {}
+      },
+      "instructions": [
+        {
+          "guid": "b4e58b23-48e4-4106-a026-7bc42f343e29",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1_HDStarsAndNebulasCENSORED.rar"
+          ]
+        },
+        {
+          "guid": "6481d6fc-58c8-4682-b1a8-ac75d92bf7f3",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\K1_HDStarsAndNebulasCENSORED\\K1_HDStarsAndNebulas\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "2ecc9f68-5ebf-4b11-b249-66bbf3178ba4",
+      "name": "High Quality Skyboxes II",
+      "author": "Kexikus, patch by CaptainSpoque",
+      "description": "Massively improves and increases the resolution of all skyboxes for all planets in the game.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/": {},
+        "https://deadlystream.com/files/file/2796-high-quality-skyboxes-model-fixes-v10/": {}
+      },
+      "directions": "Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.",
+      "downloadInstructions": "Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.",
+      "instructions": [
+        {
+          "guid": "17b25521-526f-43f3-ab25-c7828d9b38fa",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\HQSkyboxesII_K1_BOSSR.7z"
+          ]
+        },
+        {
+          "guid": "cd848ff9-2f57-42b8-a66f-b73decdb4c75",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\HQSkyboxesII_K1_BOSSR\\override\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        },
+        {
+          "guid": "d47a8a2f-dbf0-4125-8896-e336a93883d9",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\High quality skyboxes model fixes.rar"
+          ]
+        },
+        {
+          "guid": "4712a97f-ba61-4740-a706-64eb957fdbc3",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\High quality skyboxes model fixes\\High quality skyboxes model fixes\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "671413ff-9726-4431-89ef-245c6f5d1bb8",
+      "name": "Ebon Hawk Transparent Cockpit Windows for K1",
+      "author": "WildKarrde",
+      "description": "By default the Ebon Hawk's cockpit is opaque when seen from outside the ship. This mod fixes that, letting you see into the cockpit from the outside.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2354-ebon-hawk-transparent-cockpit-windows-for-k1/": {}
+      },
+      "directions": "Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the \"Leviathan - K1CP Forcefield\" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).",
+      "instructions": [
+        {
+          "guid": "806ea70d-9f4e-4157-8eff-b3bbd7bcca14",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1.7z"
+          ]
+        },
+        {
+          "guid": "8c44195e-74ce-47af-9940-13eacc2e3ea3",
+          "action": "Choose",
+          "source": [
+            "5405fc97-3035-4ccc-b9eb-444b0d2fd9e5",
+            "27e28b08-78fc-47be-9e2a-94d802d713ec"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "5405fc97-3035-4ccc-b9eb-444b0d2fd9e5",
+          "name": "Compatibility Patches",
+          "description": "Install files from Compatibility Patches folder",
+          "instructions": [
+            {
+              "guid": "3350cd9a-8217-45ed-9f62-c8a581918840",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1\\Compatibility Patches\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        },
+        {
+          "guid": "27e28b08-78fc-47be-9e2a-94d802d713ec",
+          "name": "Main Installation",
+          "description": "Install files from Main Installation folder",
+          "instructions": [
+            {
+              "guid": "650dc2f5-8de0-4c16-a764-caa10f2d5fa0",
+              "action": "Move",
+              "source": [
+                "<<modDirectory>>\\K1 Ebon Hawk Transparent Cockpit Windows v1_1_1\\Main Installation\\*"
+              ],
+              "destination": "<<kotorDirectory>>\\Override"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "62ff8790-5873-4766-8df4-ec91250b0bee",
+      "name": "Hi-Res Beam Effects",
+      "author": "InSidious",
+      "description": "An ambitious effect replacer for most \"beam\" style attacks in the game. Don't let the still screenshots fool you, this is an extremely well-made mod that looks excellent compared to the original textures when in-game.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/260-k1-hi-res-beam-effects/": {}
+      },
+      "instructions": [
+        {
+          "guid": "26c716b2-14fc-4b78-baeb-62442e450e04",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\DI_HRBM_2.7z"
+          ]
+        },
+        {
+          "guid": "70c631b7-da1f-4f7a-b6dd-e35dd1a26986",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\DI_HRBM_2\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "3dbae052-b9b7-4a00-aa7b-974fee076c42",
+      "name": "HD Fire and Ice",
+      "author": "Cinder Skye",
+      "description": "Makes further improvements to the fire and ice textures above and beyond those included in the above mod.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/455-hd-fire-and-ice-whee/": {}
+      },
+      "instructions": [
+        {
+          "guid": "9c6b0c37-967f-4c3c-945d-94bdc02e137a",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\FireandIceHDWhee.zip"
+          ]
+        },
+        {
+          "guid": "7313cdd1-be52-480b-a96c-065e052cccf3",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\FireandIceHDWhee\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "92b52bc4-53e2-4e92-b29f-b2ac640e1c55",
+      "name": "Animated Energy Shields",
+      "author": "Dark Hope",
+      "description": "Probably one of the best mods I never thought about having before. Modernizes the incredibly unwieldy and intrusive old energy shield graphics, which were both ugly and interfered with the player's vision, with new animated textures that are simultaneously more modern, less intrusive, and higher-quality.",
+      "category": [
+        "Appearance Change",
+        "Graphics Improvement"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2193-animated-energy-shields/": {}
+      },
+      "instructions": [
+        {
+          "guid": "82edce7d-190a-49df-a030-3da3de3dba91",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Animated energy shields.rar"
+          ]
+        },
+        {
+          "guid": "8bc18179-a41c-4c80-89e7-14f5c996d1a5",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Animated energy shields\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "6bf2fb3d-8d6e-41ef-890e-936c59e15e23",
+      "name": "Animated Cantina Sign",
+      "author": "Sith Holocron",
+      "description": "Animates some cantina signs which were previously stationary.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/": {}
+      },
+      "instructions": [
+        {
+          "guid": "aa2e4894-d236-4a62-9251-d56bbbe4a2e1",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\SH_AnimatedCantinaSign.7z"
+          ]
+        },
+        {
+          "guid": "b499d096-a4a1-42fb-a410-0b39d4241a74",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\SH_AnimatedCantinaSign\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "7b5bedbc-f1bb-40fe-b833-9a329fd86dbd",
+      "name": "New Lightsaber Blade Models",
+      "author": "Crazy34",
+      "description": "With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.",
+      "category": [
+        "Appearance Change",
+        "Immersion",
+        "Graphics Improvement"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1846-new_lightsaber_blade_model_k1/": {}
+      },
+      "directions": "The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!",
+      "instructions": [
+        {
+          "guid": "56bd3929-efab-4972-bf92-c288ddbceaa2",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1.rar"
+          ]
+        },
+        {
+          "guid": "f0490926-9861-4f14-8c86-f02ad3b9eb7b",
+          "action": "Choose",
+          "source": [
+            "04860ffa-eab8-46ca-8a93-3a108e8b93ec",
+            "6d629c1b-0dc3-4bad-9450-8087517fda03",
+            "f0d82810-ff29-450a-a6fd-2675fae908d0",
+            "8f57314f-4f61-4152-89ab-750cf3213f1d",
+            "da86251d-a693-4c54-bfc2-23efc618ec0e",
+            "39fe4bfd-658e-4597-bcde-665da9932291"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "04860ffa-eab8-46ca-8a93-3a108e8b93ec",
+          "name": "Modify Standard Lightsaber (Vanilla sabers)",
+          "description": "Adds new blade models and environmental glow to lightsabers.",
+          "instructions": [
+            {
+              "guid": "177c4e88-2703-4f8d-8a1c-bd5bab22844c",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "standardchanges.ini"
+            }
+          ]
+        },
+        {
+          "guid": "6d629c1b-0dc3-4bad-9450-8087517fda03",
+          "name": "Adds black core lightsabers",
+          "description": "Adds new black core lightsabers.",
+          "instructions": [
+            {
+              "guid": "23f4a51c-e4fc-4f6a-86d0-eb9cf9ed6e04",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "blackchanges.ini"
+            }
+          ]
+        },
+        {
+          "guid": "f0d82810-ff29-450a-a6fd-2675fae908d0",
+          "name": "Adds unstable lightsabers",
+          "description": "Adds new unstable lightsabers.",
+          "instructions": [
+            {
+              "guid": "a001780c-f5cc-4f88-825f-b893f7f3f656",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "unstablechanges.ini"
+            }
+          ]
+        },
+        {
+          "guid": "8f57314f-4f61-4152-89ab-750cf3213f1d",
+          "name": "Adds crossguard lightsabers (Optinal)",
+          "description": "Adds new crossguard lightsabers. Requires the installation of the standrad lightsabers first!",
+          "instructions": [
+            {
+              "guid": "37fc76f3-7b0d-421a-8dbe-6a4bed9a8f3a",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "crossgchanges.ini"
+            }
+          ]
+        },
+        {
+          "guid": "da86251d-a693-4c54-bfc2-23efc618ec0e",
+          "name": "Adds black core crossguard lightsabers (Optinal)",
+          "description": "Adds new black core crossguard lightsabers. Requires the installation of the black core lightsabers first!",
+          "instructions": [
+            {
+              "guid": "fa6f8b91-0a4b-4a97-a847-e8243091df58",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "crossg_blackchanges.ini"
+            }
+          ]
+        },
+        {
+          "guid": "39fe4bfd-658e-4597-bcde-665da9932291",
+          "name": "Adds unstable crossguard lightsabers (Optinal)",
+          "description": "Adds new unstable crossguard lightsabers. Requires the installation of the unstable lightsabers first!",
+          "instructions": [
+            {
+              "guid": "6385da78-da47-4e5a-8cea-dd46f3862bd2",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\New_Lightsaber_Blades_K1_v_1\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "crossg_unstablechanges.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "690eadb2-aeb0-4d6a-948e-4b01f2fec2c8",
+      "name": "Wookiee Warblade Fix",
+      "author": "RedRob",
+      "description": "A reuploaded variant of an older fix by RedRob, this mod elongates the handle of the Wookiee Warblade weapon so that the player no longer tries to grip it directly with their hands.",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1899-wookie-warblade-fix/": {}
+      },
+      "instructions": [
+        {
+          "guid": "b361c052-4a8e-4ea7-9544-a7d96428a4e0",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\WookieWarbladeFix-Redrob41.7z"
+          ]
+        },
+        {
+          "guid": "a8b1f879-dcca-4f25-8808-1f556d64e2b2",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\WookieWarbladeFix-Redrob41\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "c1bf3a19-a4e8-4f9c-90ee-cb807b8195f2",
+      "name": "Kill the Czerka Jerk on Kashyyyk",
+      "author": "TamerBill",
+      "description": "If you're feeling a bit sociopathic, this mod lets you kill a particularly rude Czerka employee on Kashyyyk.",
+      "category": [
+        "Added Content"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1856-request-kill-the-czerka-jerk-on-kashyyyk/": {}
+      },
+      "instructions": [
+        {
+          "guid": "efeb71bc-a2f6-49ec-abc1-fc6861377c4d",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\KillCzerkaJerk.zip"
+          ]
+        },
+        {
+          "guid": "6fa6f0d3-817a-41f2-bffc-b4bc2f540a1f",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\KillCzerkaJerk\\nwnnsscomp.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "465d1078-35f2-4639-9b8a-5e8f47335817",
+      "name": "Korriban Academy Workbench",
+      "author": "InSidious",
+      "description": "By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.",
+      "category": [
+        "Added Content"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/375-korriban-academy-workbench/": {}
+      },
+      "instructions": [
+        {
+          "guid": "ee3f2f54-d72a-42ab-a9b1-8db558a63214",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\di_kaw2.7z"
+          ]
+        },
+        {
+          "guid": "c85823ce-fd2e-4423-ab5e-3c521a9abad9",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\di_kaw2\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "a0b6a5b6-0775-4611-ba0b-2b00dd14cc89",
+      "name": "Senni Vek Restoration",
+      "author": "N-DReW25",
+      "description": "Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/#!0IpVzBqb!BsnnFX-f4YRoCLV35MKsttn4HwcR_rBJfMfua9MZiUE": {}
+      },
+      "instructions": [
+        {
+          "guid": "7f53698e-60c5-4d7d-98b9-a64e8a67f5a4",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Senni Vek Restoration CENSORED.rar"
+          ]
+        },
+        {
+          "guid": "a903fb5e-0840-4584-af73-f90a446326c4",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Senni Vek Restoration CENSORED\\Senni Vek Restoration\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "f391967e-5994-48ae-9032-c38171296a60",
+      "name": "KOTOR 1 Twi'lek Male NPC Diversity",
+      "author": "Leilukin",
+      "description": "Most of the Twi'lek textures used in the game are very samey, ultimately boiling down to just a few alternate textures. This mod makes use of alternate textures created as a modder's resource to significantly differentiate the appearances of many unique Twi'lek NPCs.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2228-kotor-1-twilek-male-npc-diversity/": {}
+      },
+      "directions": "Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the \"Optional - Original Necks\" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).",
+      "instructions": [
+        {
+          "guid": "6e83474e-f655-485e-9d59-f40e86a7f553",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 Twi'lek Male NPC Diversity.7z"
+          ]
+        },
+        {
+          "guid": "faa519b2-6f2f-49e2-8191-2eee7aaa5880",
+          "action": "Choose",
+          "source": [
+            "d4085435-33a4-4e2f-a153-9aa5e8a3492d",
+            "36d3c971-4afb-4c09-b210-587ac826a664",
+            "46bcfe79-1f21-418f-80a5-4851ab25faae"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "d4085435-33a4-4e2f-a153-9aa5e8a3492d",
+          "name": "Main Installation",
+          "description": "The main component of the mod.",
+          "instructions": [
+            {
+              "guid": "fc840648-939a-49ed-b0c4-a1f680ebd1e7",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\KotOR 1 Twi'lek Male NPC Diversity\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "36d3c971-4afb-4c09-b210-587ac826a664",
+          "name": "RC-K1CP/Senni Vek Restoration Compatibility",
+          "description": "Compatibility patch for N-DReW25's Restored Content for K1CP (RC-K1CP) or Senni Vek Mod's \"Senni Vek Restoration\" version. NOTE: You MUST install the main component of my mod before installing this patch!",
+          "instructions": [
+            {
+              "guid": "6206bb04-b96f-49ec-ad48-799e4054ec8b",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\KotOR 1 Twi'lek Male NPC Diversity\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_sennires.ini"
+            }
+          ]
+        },
+        {
+          "guid": "46bcfe79-1f21-418f-80a5-4851ab25faae",
+          "name": "Senni Vek's Ambush Compatibility",
+          "description": "Compatibility patch for the \"Senni Vek's Ambush\" version of N-DReW25's Senni Vek Mod. NOTE: You MUST install the main component of my mod before installing this patch!",
+          "instructions": [
+            {
+              "guid": "5755381a-e952-4970-8ee9-2eb78b2bea90",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\KotOR 1 Twi'lek Male NPC Diversity\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_senniamb.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "d6878fb9-9ec3-43b0-b9f2-14fbbb90045d",
+      "name": "Ixgil the Bith",
+      "author": "Crimson Knight",
+      "description": "The definition of modding hubris. When the power to change the universe at the tips of one's fingers leads a man to spend more time making a mod than the combined thousands of users who ever download it will even see what he did on screen.\r\n\r\nThere's a wrong soundset. This mod fixes it. The character dies about 5 seconds later. To even download this mod is to question one's sanity.",
+      "category": [
+        "Bugfix"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2108-ixgil-the-bith/": {}
+      },
+      "instructions": [
+        {
+          "guid": "a7ffa489-4dd5-408a-8fe4-21e73da3d4fe",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\CK-Ixgil the Bith.zip"
+          ]
+        },
+        {
+          "guid": "acbab326-8038-4c9b-babe-82eedc9100af",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\Ixgil the Bith\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "6b237a65-622c-4fd3-8462-b7668d50162e",
+      "name": "Hidden Bek Control Room Restoration",
+      "author": "N-DReW25",
+      "description": "In the PC release, there's a locked door in a gang compound on Taris which was probably never intended to be closed off to the player. This mod unlocks it and restores some limited dialogue with its occupant provided you initiate a certain sequence.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/": {}
+      },
+      "instructions": [
+        {
+          "guid": "317aa42d-4cdc-4bca-bbd4-2da273c4247c",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Bek Control Room Restoration 1.1.zip"
+          ]
+        },
+        {
+          "guid": "be849131-9ae0-4b7a-8b15-c7303ed3e514",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Bek Control Room Restoration 1.1\\Bek Control Room Restoration 1.1\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "819be690-aa39-4b6a-aae2-b44670d2ca1a",
+      "name": "Swoop Bike Upgrades",
+      "author": "Salk",
+      "description": "Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance to make winning races easier. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/": {}
+      },
+      "instructions": [
+        {
+          "guid": "0a7786f1-8984-42fb-b7a6-42164e8f6bac",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\[KotOR] Swoop Bike Upgrades 1.1.7z"
+          ]
+        },
+        {
+          "guid": "bf252f95-4ee8-46c6-be4e-91bd7d1c3291",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\[KotOR] Swoop Bike Upgrades 1.1\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "b057a5b6-e8ed-4544-b7c5-81d79fe3da7b",
+      "name": "JCDE",
+      "author": "Emperor Devon",
+      "description": "This mod takes some extremely simplistic and childish dialogue and makes it more expansive and detailed, with unique player responses based upon your current alignment.\r\n\r\nSome information has been censored to prevent spoilers.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/file/lMowGYCK#q63FIz-FHkGEh5hw1_JTsRCE8c8FLCVMyJOywX4z_U8": {}
+      },
+      "directions": "Move \"dan13_dorak.dlg\" only.",
+      "instructions": [
+        {
+          "guid": "3b870ae9-cbe1-4ba3-b1d6-3d110b5364ab",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JCDE.7z"
+          ]
+        },
+        {
+          "guid": "806f3c03-788f-42fb-a17d-17ace7f13ebd",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\JCDE\\JCDE\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "0de69d90-ce12-4bc8-86d2-ffd1809d3dea",
+      "name": "J Dialogue Restoration",
+      "author": "Leilukin",
+      "description": "Inexplicably, a particular optional companion has dialogue to ask about each planet you visit which was removed, as well as special conversations about two other unique circumstances the party finds themselves in. This mod restores them all. Some information has been censored to prevent spoilers.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/file/tVw0EZKZ#PjaulRyvRH_CDciDKFakjtO4zsVYkwAEgAs_4-2HFoE": {}
+      },
+      "instructions": [
+        {
+          "guid": "0da6b736-fc48-4c57-9aca-6b24fa34a6e4",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\J Dialogue Restoration.7z"
+          ]
+        },
+        {
+          "guid": "1901af00-a590-42f0-9976-bb42e1eed629",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\J Dialogue Restoration\\J Dialogue Restoration\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "3f7410b1-0b99-4b69-a86f-2b1469f5f7f6",
+      "name": "Vision Enhancement",
+      "author": "JCarter426",
+      "description": "In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.",
+      "category": [
+        "Appearance Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1402-jcs-vision-enhancement-for-k1/": {}
+      },
+      "instructions": [
+        {
+          "guid": "5750649e-96e2-40f5-ab02-4cdaa8b48120",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Vision Enhancement for K1 v1.2.zip"
+          ]
+        },
+        {
+          "guid": "f9de2baf-42b3-4aa6-a54d-4cf0d17cb745",
+          "action": "Choose",
+          "source": [
+            "dcba1f01-8103-4e2b-86c7-6d631ab1ac99",
+            "5e3bf297-18cf-435b-bd54-17e5dbe2aac3"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "dcba1f01-8103-4e2b-86c7-6d631ab1ac99",
+          "name": "JC's Vision Enhancement for K1 - Basic Installation",
+          "description": "This installs the basic version of the Vision Enhancement. Choose this option if you aren't worried about changes other mods make to the visions.",
+          "instructions": [
+            {
+              "guid": "66becd7e-876a-4be8-b7d6-b16625b8081f",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Vision Enhancement for K1 v1.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "5e3bf297-18cf-435b-bd54-17e5dbe2aac3",
+          "name": "JC's Vision Enhancement for K1 - K1R-Compatible Installation",
+          "description": "Choose this option if you use the KOTOR 1 Restoration and want to retain its changes to the Taris vision.",
+          "instructions": [
+            {
+              "guid": "19e778df-3c2d-4af8-84e3-4527583294e4",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\JC's Vision Enhancement for K1 v1.2\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "K1R.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "8bdcea7f-4caf-477b-87c2-9a1f0fc86151",
+      "name": "LDD",
+      "author": "Revanator",
+      "description": "In the vanilla game, during a brief sequence where you play as a companion, when your controlled companion speaks to other NPCs they don't have any unique dialogue. This mod gives them new flavor dialogue which matches their personalities. Some information has been censored to prevent spoilers.",
+      "category": [
+        "Added Content",
+        "Immersion"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "https://mega.nz/#!1dRHSaLL!TFol3hVqwF-HrFExuli5OHVElhfyzbg6puoZzgTaamE": {}
+      },
+      "instructions": [
+        {
+          "guid": "e742e2ca-6abe-4e79-aae8-cd4e09befc90",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\LDD.rar"
+          ]
+        },
+        {
+          "guid": "72671906-2a51-401b-9d77-955e28f01d00",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\LDD\\LDD\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "4d73f2ed-970d-42f6-b3ee-e4811f637e08",
+      "name": "Balanced Pazaak",
+      "author": "A Future Pilot",
+      "description": "Pazaak (basically blackjack with bonus cards) in the original KOTOR features AI that cheat, badly. While there's no way to prevent the computer from favoring NPCs in draws, there is a way to drastically reduce their ability to help themselves, and that's to give them all decks one tier lower than what their difficulty says they should have.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1270-balanced-pazaak/": {}
+      },
+      "instructions": [
+        {
+          "guid": "7a043cd3-b87d-4ea9-bd48-ab10361e6949",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Balanced Pazaak.zip"
+          ]
+        },
+        {
+          "guid": "b2bf1895-49fa-42de-ad4a-54dc23533458",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Balanced Pazaak\\Override\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "10f4a01e-10d3-41ac-a1ca-ab951ae62355",
+      "name": "Ebon Hawk Camera Replacement",
+      "author": "LDR",
+      "description": "By default, the camera angle inside the *Ebon Hawk* is ridiculously close to the PC, which not only makes the PC take up the majority of the screen, it also makes it very hard to see around you. This mod replaces the *Ebon Hawk* camera angle with one closer to the camera angles present in the rest of the game, and similar to KOTOR 2's *Ebon Hawk* camera angle.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/": {}
+      },
+      "instructions": [
+        {
+          "guid": "c200d5cf-c6bd-4ccf-9525-b8e569aef9d3",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\ebon_hawk_camera.zip"
+          ]
+        },
+        {
+          "guid": "b04017ec-d19c-460c-8d08-8a56ae3b5021",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\ebon_hawk_camera\\ebon_hawk_camera\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "82729324-a567-4f67-8da8-f09b55824038",
+      "name": "Rebalanced Grenades",
+      "author": "Timbo",
+      "description": "In the base-game, grenades typically aren't very useful after the first few planets, once Force powers and the PC's combat capabilities begin to spin up. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2522-rebalanced-grenades/": {}
+      },
+      "instructions": [
+        {
+          "guid": "45f1c424-2602-4d03-b161-747d6ff5a66a",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Rebalanced Grenades v1.0.7z"
+          ]
+        },
+        {
+          "guid": "d35de36e-a7e4-432e-a331-7fcf6ed0aecb",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\Rebalanced Grenades v1.0\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "19d8c0d2-bd34-4253-bc55-c96c861eb2ec",
+      "name": "Grenades and Mines HD",
+      "author": "Dark Hope",
+      "description": "A companion to the high-poly grenade mod which creates much-improved textures that can take advantage of the better grenade model.",
+      "category": [
+        "Graphics Improvement"
+      ],
+      "tier": "3 - Suggested",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2409-grenades-and-mines-hd/": {}
+      },
+      "directions": "Delete \"ii_trapkit_001.tga\" through \"ii_trapkit_004.tga\" before installing.",
+      "dependencies": [
+        "8c9ddf6d-b270-4014-871c-6c389246ed03"
+      ],
+      "instructions": [
+        {
+          "guid": "7181ff1c-d5d2-4274-b021-4c4836da95d1",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\Grenades and mines HD.rar"
+          ]
+        },
+        {
+          "guid": "fbad9dbc-7144-42f5-9f16-ffe418db673f",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\Grenades and mines HD\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "d433f7a6-a807-4705-a7d1-376b7644d32e",
+      "name": "Ain't No Air in Space",
+      "author": "JCarter426",
+      "description": "Ain't no air in space.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "4 - Optional",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2281-jcs-leviathan-aint-no-air-in-space-for-k1/": {}
+      },
+      "instructions": [
+        {
+          "guid": "091fd360-3407-4189-888b-8789c9ec0754",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Leviathan - Ain't No Air In Space for K1.zip"
+          ]
+        },
+        {
+          "guid": "f93ff736-7778-4840-860e-6a4a16507286",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\JC's Leviathan - Ain't No Air In Space for K1\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "88f382f2-34e2-4fe9-9f16-2f0e232b0c91",
+      "name": "Party Conversations on the Ebon Hawk",
+      "author": "WildKarrde",
+      "description": "There are many companion dialogues that, in vanilla, can only happen if you bring both the relevant companions to the overworld and run around with them for a bit. In this mod, Wildkarrde borrows a bit from how KOTOR 2 handles companion interactions by allowing many of these dialogues to occur on the your ship, so you won't miss the unique interactions even if you don't use the companions in question.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2284-party-conversations-on-ebon-hawk/": {}
+      },
+      "directions": "Use the K1CP compatible install option, if using the K1CP (you should be).",
+      "instructions": [
+        {
+          "guid": "52f0d453-5ec8-4c15-9c0c-60031d2aaf2a",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\K1 Party Conversations on Ebon Hawk v1_3.zip"
+          ]
+        },
+        {
+          "guid": "a4659c35-81b8-4282-9cc9-86a84f2dc191",
+          "action": "Choose",
+          "source": [
+            "b3fdb700-ab4c-4db1-94c1-493899681981",
+            "8651704d-3039-4154-8ceb-e8478794179d",
+            "ec8b746a-3476-4480-8223-721338fa0b1e"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "b3fdb700-ab4c-4db1-94c1-493899681981",
+          "name": "Standard Installation",
+          "description": "Standard version of the full installation.  Not compatible with the KOTOR 1 Community Patch.",
+          "instructions": [
+            {
+              "guid": "cdaa5c0b-934d-4b9d-a0da-dcee3cfc6cf3",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Party Conversations on Ebon Hawk v1_3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes.ini"
+            }
+          ]
+        },
+        {
+          "guid": "8651704d-3039-4154-8ceb-e8478794179d",
+          "name": "KOTOR 1 Community Patch Compatible",
+          "description": "K1CP-compatible version of the full installation.",
+          "instructions": [
+            {
+              "guid": "d5176fb3-7d09-4d08-8f6c-553111ffa6cf",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Party Conversations on Ebon Hawk v1_3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_k1cp.ini"
+            }
+          ]
+        },
+        {
+          "guid": "ec8b746a-3476-4480-8223-721338fa0b1e",
+          "name": "OPTION:  Ebon Hawk/Hideout Only",
+          "description": "Makes it so that party conversations only play at the Ebon Hawk and the Taris apartment hideout.  Requires the main portion of the mod to be installed first.",
+          "instructions": [
+            {
+              "guid": "3ff7d1f4-46fd-4f2b-aceb-47d23b03a49e",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\K1 Party Conversations on Ebon Hawk v1_3\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_noplanets.ini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "54114c8d-76bb-4f30-87e3-e6f652cd1b3e",
+      "name": "JC's Romance Enhancement: Dark Sacrifice",
+      "author": "JCarter426",
+      "description": "In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.",
+      "category": [
+        "Restored Content"
+      ],
+      "tier": "1 - Essential",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/": {}
+      },
+      "instructions": [
+        {
+          "guid": "f515721e-d3dd-4962-8695-ac2d9c128e1a",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0.zip"
+          ]
+        },
+        {
+          "guid": "3195a78b-9308-4a13-8689-1ef7341726b3",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        },
+        {
+          "guid": "632d4eed-d30a-48b7-99e7-620be67a77f2",
+          "action": "Move",
+          "source": [
+            "<<modDirectory>>\\JC's Romance Enhancement - Dark Sacrifice for K1 v1.0\\source\\*"
+          ],
+          "destination": "<<kotorDirectory>>\\Override"
+        }
+      ]
+    },
+    {
+      "guid": "2834c2d6-cf41-46a0-a756-b35eda0fff1a",
+      "name": "Saber Throw Knockdown Effect",
+      "author": "uwadmin12",
+      "description": "By default, the \"Throw Lightsaber\" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.",
+      "category": [
+        "Mechanics Change"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/1487-k1-saber-throw-knockdown-effect/": {}
+      },
+      "instructions": [
+        {
+          "guid": "317230c0-1801-47c6-95eb-fc7878ddfa36",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\saberthrow_kd.zip"
+          ]
+        },
+        {
+          "guid": "2fcaa269-283e-4904-bdb0-e7fc0470e0d5",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\saberthrow_kd\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "c64fe017-0298-40a9-8e9f-458026f9bf45",
+      "name": "Sunry Murder Recording Enhancement",
+      "author": "FallenGuardian",
+      "description": "Rather than having Sunry only verbally explain what happened when he murdered the Sith officer on Manaan, there's now a recording that goes along with the dialogue that shows what happened.",
+      "category": [
+        "Added Content",
+        "Immersion"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "NO"
+      ],
+      "modLinkFilenames": {
+        "http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/": {}
+      },
+      "instructions": [
+        {
+          "guid": "9f89bc71-acc7-4b79-a770-db2db4f67d13",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\SMRE Version 3.0.zip"
+          ]
+        },
+        {
+          "guid": "d5b893b8-7953-4a33-a9d3-de9c2ac71f76",
+          "action": "Patcher",
+          "source": [
+            "<<modDirectory>>\\SMRE\\TSLPatcher.exe"
+          ],
+          "destination": "<<kotorDirectory>>"
+        }
+      ]
+    },
+    {
+      "guid": "1ec9e432-2245-4464-b861-41ebe701d120",
+      "name": "PC Dialogue with Davik's Slave Change",
+      "author": "Leilukin",
+      "description": "2003 was a different time, but this mod *really* proves that. In vanilla, if you request a 'massage' from some slaves—which has some sexual implications in Star Wars—you get nothing more than a disgusted remark from some companions. You can even threaten them without consequence. This mod properly amends this, giving you two options: for those deeply bothered by the ability to take advantage of the slaves the option to pressure them into servicing you can be removed entirely, whereas the second retains the massage, but gives Dark Side points for requesting it, as well as adding DS points for threatening the slaves at any point.",
+      "category": [
+        "Immersion"
+      ],
+      "tier": "2 - Recommended",
+      "language": [
+        "YES"
+      ],
+      "modLinkFilenames": {
+        "https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/": {}
+      },
+      "directions": "I personally recommend option 2.",
+      "instructions": [
+        {
+          "guid": "e3bba8fd-d301-4ed9-82f0-8ee882406931",
+          "action": "Extract",
+          "source": [
+            "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change.7z"
+          ]
+        },
+        {
+          "guid": "a756b15e-d36c-4ae5-be45-a3ca57fd3469",
+          "action": "Choose",
+          "source": [
+            "e9eb369d-2c8d-4c37-8a39-bf6ea0c14d5e",
+            "4e9ef486-2487-4b73-bbcd-3dbf44f574ec"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "guid": "e9eb369d-2c8d-4c37-8a39-bf6ea0c14d5e",
+          "name": "No Flirting with Davik's Slaves",
+          "description": "Removes the option for the player to flirt with Davik's slaves by requesting a massage from them.",
+          "instructions": [
+            {
+              "guid": "8f73a629-6f15-44c0-aafa-bf44966d1b9c",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_nomssg.ini"
+            }
+          ]
+        },
+        {
+          "guid": "4e9ef486-2487-4b73-bbcd-3dbf44f574ec",
+          "name": "Dark Side Points for Massage Request",
+          "description": "Requesting a massage from Davik's slaves will give the player Dark Side points.",
+          "instructions": [
+            {
+              "guid": "1cdde302-07ed-4a21-8ab0-17cf43bf059e",
+              "action": "Patcher",
+              "source": [
+                "<<modDirectory>>\\PC Dialogue with Davik's Slaves Change\\TSLPatcher.exe"
+              ],
+              "destination": "<<kotorDirectory>>",
+              "arguments": "changes_dsmssg.ini"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

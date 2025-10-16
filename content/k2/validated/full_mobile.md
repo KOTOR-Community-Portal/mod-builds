@@ -1,33 +1,3 @@
-# KOTOR 2 Full Build: Mobile Version
-
-## Installation Notes
-
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
-
-Although this is a mobile-compatible build, due to required compatibility tools we must use to get this build working, you will need to install all mods to a 'dummy directory' on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly. This means you **MUST** have a PC or Mac in order to utilize this build for mobile, although you **CAN** install just [MTSLRCM](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/) (the mobile version of The Sith Lords Restored Content Mod) with just your mobile device.
-
-### Install Computer Instructions
-
-It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR 2 installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
-
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
-
-Please also bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the KOTOR 2 editable executable, which you will put together during the TSLRCM installation step. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
-
-As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor on the system which you're using to install mods, you may need to disable your second while installing.
-
-### Known Bugs
-
-* There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
-
-### Mac OS Users
-
-It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
-
-### Updating from a Prior Build
-
-If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
-
 ## Mod List
 
 ### TSLRCM
@@ -60,13 +30,13 @@ ___
 
 **Description:** Reverts and otherwise modifies certain TSLRCM settings to make the game more sensible and internally consistent (mostly unrestoring content which was likely intentionally cut by Obsidian). This includes removing Jedi Padawan Kaevee.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Patch / 1 - Essential
 
-**Non-English Functionality:** PARTIAL - All components can be installed *except* for Trayus Mandalore Conversation.
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** Multi-Run TSLPatcher
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Don't use the complete installer, instead selecting the individual component installer—this is *critical* for compatibility, not just to choose specific options. The installer for this mod will need to be run 7 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Atton at the End, Kreia-Atris Dialogue Tweak, Trayus Mandalore Conversation, and Trayus Sith Lord Masks.
 
@@ -80,13 +50,13 @@ ___
 
 **Description:** Another TSLRCM change I am not personally thrilled with—when Sion encounters the Exile for the first time in TSLRCM on the *Harbinger*, he speaks to them a line of warning. That engagement takes so much tension out of the scene, and this mod reverts it to the vanilla standard: when Sion appears at the end of the hall he only slowly walks towards the party, threatening and menacing.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Move just 153sion.dlg to the override.
 
@@ -102,13 +72,13 @@ ___
 
 As part of the Thematic series of mods by JC and myself, Thematic KOTOR 2 Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** If you would like to have Visas's class as Sith Assassin, install the "Standard + Sith Assassin Visas" option. Otherwise, simply install "Standard."
 
@@ -176,13 +146,13 @@ ___
 
 **Description:** A community bugfix and general improvement patch for KOTOR 2 meant to be a supplement to TSLRCM, fixing bugs that TSLRCM didn't catch or viewed too minor to address; highly recommended.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Graphics Improvement & Bugfix / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Remember, warnings during an installation are normal—errors are not.
 
@@ -280,13 +250,13 @@ ___
 
 **Description:** For those gluttons for punishment among us, this mod reverts the inventory of Dendis Dobo, the honest but struggling merchant on Citadel Station, to its pre-TSLRCM state. In TSLRCM all merchants have improved inventories, but with this mod Dendis has only a pittance of poor goods, to represent the cost of his honesty and exactly how much his business is struggling compared to his brother.
 
-**Masters:** TSLRCM
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
 
-**Category & Tier:** Immersion / 4 - Optional
+**Masters:** TSLRCM
 
 ___
 
@@ -298,7 +268,7 @@ ___
 
 **Description:** This collection from JCarter includes many small fixes, upscaled textures, and other helpful improvements too small to warrant their own mod, but well worth it when compiled as it is here.
 
-**Category & Tier:** Bugfix & Graphics Improvement & Immersion / 2 - Recommended
+**Category & Tier:** Bugfix, Graphics Improvement & Immersion / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -331,8 +301,6 @@ ___
 **Author:** InSidious
 
 **Description:** Improves the in-game beam and lightning effect quality.
-
-**Note:** The still screenshots don't do this mod justice; the live effects are great.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -563,8 +531,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-**Special Installation Notes:** Ignore the MacOS folder, only move files from the override.
 
 ___
 
@@ -1040,7 +1006,7 @@ ___
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
+**Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
 
@@ -1058,13 +1024,13 @@ Be aware, however, that PartySwap *does* require some fourth wall-breaking eleme
 
 The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despawning them) which you use to run the script. This stim appears in the *shields* quickbar at the bottom-left of the screen, however; be aware of this, since it doesn't show up in the normal stims category!
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion & Mechanics Change / 1 - Essential
 
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
 
@@ -1078,13 +1044,13 @@ ___
 
 **Description:** Restores some additional content to the Dantooine Enclave, including more variance depending upon your influence with Kreia.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Restored Content / 1 - Essential
 
 **Non-English Functionality:** English and Russian ONLY
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Make SURE to install the mobile TSLRCM version, your game will crash if using the main install option.
 
@@ -1098,13 +1064,13 @@ ___
 
 **Description:** PartySwap and Extended Enclave are both large mods that modify many of the same files, so they don't play well together natively. Thankfully, this compatch fixes all those issues and makes them completely compatible.
 
-**Masters:** PartySwap + Extended Enclave
-
 **Category & Tier:** Patch / 1 - Essential
 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** PartySwap, Extended Enclave
 
 **Installation Instructions:** Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build.
 
@@ -1118,13 +1084,13 @@ ___
 
 **Description:** Slightly extends the scene which plays out immediately before the *Ebon Hawk* touches down on Korriban.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Restored Content / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Due differences in the way the mobile versions localize some files, you will receive an error on running this mod that alerts you of missing lips files—this is normal. After the installation is completed, go into the mod's tslpatchdata folder and move all the files of the .lip filetype to your override (there should be 6).
 
@@ -1156,13 +1122,13 @@ ___
 
 **Description:** Modifies an imbalanced power and removes an unused feat to prevent feat waste.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change & Patch / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 
@@ -1210,13 +1176,13 @@ ___
 
 **Description:** The results of my first foray into KOTOR modding. Everybody knows that the Sith Lords in KOTOR 2 are disappointing as bosses—the goal of this mod is to make them thematically unique, so that fights against them are fun and that certain character builds excel at fighting some Lords and struggle against others.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Installation Instructions:** First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
 
@@ -1372,13 +1338,13 @@ ___
 
 **Description:** Replaces lower-quality in-game dialogue in the initial *Ravager* scene between Nihilus and Visas with versions from one of the game's pre-rendered cutscenes.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 3 - Suggested
 
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
+
+**Masters:** TSLRCM
 
 ___
 
@@ -1390,13 +1356,13 @@ ___
 
 **Description:** I find that Sion's character comes off completely one-dimensional, ruining both his own interesting character arc and his relationship with Kreia, unless he can express a feeling of sentimentality for the Exile. Unfortunately this is conveyed via a romantic obsession between Sion and the player, and by default this is locked to a female Exile. In the interests of presenting Sion at his best as a character, this mod causes Sion to become obsessed with the player regardless of their gender.
 
-**Masters:** TSLRCM
-
 **Category & Tier:** Immersion / 2 - Recommended
 
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
+
+**Masters:** TSLRCM
 
 ___
 
@@ -1642,7 +1608,7 @@ ___
 
 **Description:** This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room.
 
-**Category & Tier:** Immersion / 4 - Option
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES, however some text will be in English
 
@@ -1678,13 +1644,13 @@ ___
 
 **Description:** By default the hologram models in TSL are essentially just character models with a transparency effect, which means you can see their models' eye sockets and other internal features through the hologram filter. This mod fixes all these model errors that it can, while also bringing back the Admiralty mod of yore, which reskins Carth and Cede to properly wear Republic officer uniforms in their holograms and in-game appearances.
 
-**Masters:** TSLRCM
-
-**Category & Tier:** Bugfix & Graphics Improvement & Appearance Change / 1 - Essential
+**Category & Tier:** Bugfix, Graphics Improvement & Appearance Change / 1 - Essential
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+**Masters:** TSLRCM
 
 **Download Instructions:** Download just the main file, not the robes patch.
 
@@ -1890,6 +1856,7 @@ ___
 
 **Category & Tier:** Bugfix / 1 - Essential
 
+
 **Installation Instructions:** Before proceeding, delete the dummy executable used to facilitate the mod installations. If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.
 
 If you are on MacOS or Linux, first, run Terminal and navigate to your mods_english directory with the cd command.
@@ -1910,14 +1877,3 @@ For more information:
 
 * [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
 
-## IMPORTANT: Final Installation Instructions
-
-First, navigate to mods_english's override directory, locate, and delete two files, if they're present: "CM_baremetal.tga" and "CM_baremetal.txi".
-
-Once that's completed, if you did not complete the case sensitivity step, delete the dummy executable file in mods_english which you downloaded at the beginning of the process now. Your install is now complete! You can now connect your mobile device to your system, and move the dlc folder containing the mods_english folder to the install point for your device:
-
-**iOS**:
-On iOS, they are placed in iTunes > Apps > Documents, in the same spot that the ‘saves’ folder goes.
-
-**ANDROID**:
-On Android the files should be placed in /Home/Android/data/com.aspyr.swkotor2/files/
