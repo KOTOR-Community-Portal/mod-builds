@@ -437,7 +437,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
 
 **Installation Instructions:** Download the .tpc variant of the mod. Delete OND_dor1.tpc & OND_dor3.tpc before moving to your Override.
 
