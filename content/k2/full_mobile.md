@@ -1754,7 +1754,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** Loose-File Mod
 
 ___
 
