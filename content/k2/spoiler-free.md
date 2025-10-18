@@ -1593,7 +1593,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 
