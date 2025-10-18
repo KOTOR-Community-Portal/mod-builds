@@ -1610,7 +1610,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
 
 **Installation Instructions:** Recommend Drew's fix, as it preserves more of the original dialogue.
 
@@ -1628,7 +1628,7 @@ ___
 
 **Non-English Functionality:** NO
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** HoloPatcher Mod
 
 ___
 
