@@ -313,9 +313,7 @@ ___
 
 **Author:** InSidious
 
-**Description:** Improves the in-game beam and lightning effect quality.
-
-**Note:** The still screenshots don't do this mod justice; the live effects are great.
+**Description:** Improves the in-game beam and lightning effect quality. The still screenshots don't do this mod justice; the live effects are great.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
