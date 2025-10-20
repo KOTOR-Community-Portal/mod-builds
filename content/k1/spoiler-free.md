@@ -2,9 +2,10 @@
 
 ## Installation Notes
 
-### IMPORTANT!
-
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::warning
+Important
+:   If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::
 
 ### Zeroing Step
 
@@ -76,7 +77,10 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
+:::note
+Installation Instructions
+:   The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
+:::
 
 ___
 
@@ -94,7 +98,10 @@ ___
 
 **Installation Method:** TSLPatcher, Loose-File Patch
 
-**Installation Instructions:** Make sure you don't forget to install the patch!
+:::note
+Installation Instructions
+:   Make sure you don't forget to install the patch!
+:::
 
 ___
 
@@ -132,7 +139,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::note
+Installation Instructions
+:   Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::
 
 ___
 
@@ -150,7 +160,10 @@ ___
 
 **Installation Method:** Loose-File Mod, TSLPatcher Patch
 
-**Installation Instructions:** For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::note
+Installation Instructions
+:   For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::
 
 ___
 
@@ -170,7 +183,10 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::note
+Installation Instructions
+:   Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::
 
 ___
 
@@ -204,7 +220,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::note
+Installation Instructions
+:   Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::
 
 ___
 
@@ -222,7 +241,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.
+:::
 
 ___
 
@@ -240,7 +262,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -258,7 +283,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -276,7 +304,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -294,9 +325,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**SPOILER WARNING**: I AM NOT ABLE TO REUPLOAD THIS MOD TO CENSOR SPOILERS—**I STRONGLY RECOMMEND LOOKING AT JUST THE FIRST FEW SCREENSHOTS FOR AN INDICATION OF QUALITY, THEN INSTALLING!**
+:::warning
+Installation Warning
+:   I AM NOT ABLE TO REUPLOAD THIS MOD TO CENSOR SPOILERS—**I STRONGLY RECOMMEND LOOKING AT JUST THE FIRST FEW SCREENSHOTS FOR AN INDICATION OF QUALITY, THEN INSTALLING!**
+:::
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -314,7 +351,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -332,7 +372,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc and LSI_box01.tpc **before** moving to override.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc and LSI_box01.tpc **before** moving to override.
+:::
 
 ___
 
@@ -350,9 +393,12 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, and and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
-
-Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
+:::note
+Installation Instructions
+:   For now, ignore all patches (those will be installed later). Just download the main package, and and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
+    
+    Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
+:::
 
 ___
 
@@ -370,7 +416,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.
+:::
 
 ___
 
@@ -388,7 +437,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download and install both files.
+:::note
+Download Instructions
+:   Download and install both files.
+:::
 
 ___
 
@@ -438,7 +490,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the "green" folder to the override folder as well.
+:::note
+Installation Instructions
+:   Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the "green" folder to the override folder as well.
+:::
 
 ___
 
@@ -456,7 +511,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from both the Override and Optional folders to your game's override folder.
+:::note
+Installation Instructions
+:   Move the files from both the Override and Optional folders to your game's override folder.
+:::
 
 ___
 
@@ -474,7 +532,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::note
+Installation Instructions
+:   If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::
 
 ___
 
@@ -574,7 +635,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** I recommend using the upscale option.
+:::note
+Installation Instructions
+:   I recommend using the upscale option.
+:::
 
 ___
 
@@ -608,7 +672,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
+:::note
+Installation Instructions
+:   The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
+:::
 
 ___
 
@@ -706,7 +773,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Choose whether to use the slim or original necks; your preference.
+:::note
+Installation Instructions
+:   Choose whether to use the slim or original necks; your preference.
+:::
 
 ___
 
@@ -724,7 +794,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the 'hd_twilek_female.rar' file, and ignore the other versions.
+:::note
+Download Instructions
+:   Download the 'hd_twilek_female.rar' file, and ignore the other versions.
+:::
 
 ___
 
@@ -742,7 +815,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::note
+Installation Instructions
+:   Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::
 
 ___
 
@@ -794,9 +870,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Do not download the .tga file.
+:::note
+Download Instructions
+:   Do not download the .tga file.
+:::
 
-**Installation Instructions:** If intending to use CineMalak below (recommended!), select your preferred head texture from the Malak (Red Eyes) or Malak (Blue Eyes) folders and move the files within to your override. You can ignore N_DarthMalak01.tga, unless you do not want to use CineMalak, in which case you should also move it to your override.
+:::note
+Installation Instructions
+:   If intending to use CineMalak below (recommended!), select your preferred head texture from the Malak (Red Eyes) or Malak (Blue Eyes) folders and move the files within to your override. You can ignore N_DarthMalak01.tga, unless you do not want to use CineMalak, in which case you should also move it to your override.
+:::
 
 ___
 
@@ -814,7 +896,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
+:::note
+Installation Instructions
+:   The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
+:::
 
 ___
 
@@ -832,7 +917,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Make a copy of the file and rename it PMBJ01, then move all files to override.
+:::note
+Installation Instructions
+:   Make a copy of the file and rename it PMBJ01, then move all files to override.
+:::
 
 ___
 
@@ -898,9 +986,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the V2 option.
+:::note
+Download Instructions
+:   Download the V2 option.
+:::
 
-**Installation Instructions:** Ignore the 'V1 Looks' option.
+:::note
+Installation Instructions
+:   Ignore the 'V1 Looks' option.
+:::
 
 ___
 
@@ -920,7 +1014,10 @@ ___
 
 **Masters:** K1 Community Patch
 
-**Installation Instructions:** Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
+:::note
+Installation Instructions
+:   Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
+:::
 
 ___
 
@@ -970,7 +1067,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::note
+Installation Instructions
+:   If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::
 
 ___
 
@@ -988,7 +1088,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::note
+Installation Instructions
+:   When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::
 
 ___
 
@@ -1006,7 +1109,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::note
+Installation Instructions
+:   If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::
 
 ___
 
@@ -1026,7 +1132,10 @@ ___
 
 **Masters:** Cloaked Jedi Robes
 
-**Installation Instructions:** Only move the files from "Jedi Robes Override".
+:::note
+Installation Instructions
+:   Only move the files from "Jedi Robes Override".
+:::
 
 ___
 
@@ -1062,7 +1171,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete PO_phk47.tga before moving the two other files to the override.
+:::note
+Installation Instructions
+:   Delete PO_phk47.tga before moving the two other files to the override.
+:::
 
 ___
 
@@ -1096,7 +1208,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+:::note
+Download Instructions
+:   Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+:::
 
 ___
 
@@ -1178,7 +1293,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
+:::note
+Download Instructions
+:   Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
+:::
 
 ___
 
@@ -1198,7 +1316,10 @@ Some information has been censored to prevent spoilers.
 
 **Installation Method:** HoloPatcher Mod
 
-**Known Bugs:** For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::
 
 ___
 
@@ -1300,7 +1421,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete N_CommF02.tga & .txi before moving to override.
+:::note
+Installation Instructions
+:   Delete N_CommF02.tga & .txi before moving to override.
+:::
 
 ___
 
@@ -1350,7 +1474,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete po_pt3m33.tga before moving the files to your override.
+:::note
+Installation Instructions
+:   Delete po_pt3m33.tga before moving the files to your override.
+:::
 
 ___
 
@@ -1400,9 +1527,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the file "Carth Onasi (new clothes).rar", unless you like the head & face changes the mod makes.
+:::note
+Download Instructions
+:   Download the file "Carth Onasi (new clothes).rar", unless you like the head & face changes the mod makes.
+:::
 
-**Installation Instructions:** Delete PO_pcarth3.tga before moving the other files to the override.
+:::note
+Installation Instructions
+:   Delete PO_pcarth3.tga before moving the other files to the override.
+:::
 
 ___
 
@@ -1420,7 +1553,10 @@ ___
 
 **Installation Method:** Loose-File Mod & Patch
 
-**Download Instructions:** Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
+:::note
+Download Instructions
+:   Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
+:::
 
 ___
 
@@ -1438,7 +1574,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move only P_CandH01.tga to your override.
+:::note
+Installation Instructions
+:   Move only P_CandH01.tga to your override.
+:::
 
 ___
 
@@ -1472,9 +1611,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the default, not the iconic recolor.
+:::note
+Download Instructions
+:   Download the default, not the iconic recolor.
+:::
 
-**Installation Instructions:** Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.
+:::note
+Installation Instructions
+:   Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.
+:::
 
 ___
 
@@ -1492,7 +1637,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete po_pzaalbar3.tga before moving the files to your override.
+:::note
+Installation Instructions
+:   Delete po_pzaalbar3.tga before moving the files to your override.
+:::
 
 ___
 
@@ -1510,7 +1658,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
+:::note
+Installation Instructions
+:   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
+:::
 
 ___
 
@@ -1576,7 +1727,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.
+:::note
+Installation Instructions
+:   Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.
+:::
 
 ___
 
@@ -1594,7 +1748,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
+:::note
+Installation Instructions
+:   Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
+:::
 
 ___
 
@@ -1612,7 +1769,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance.
+:::note
+Download Instructions
+:   Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance.
+:::
 
 ___
 
@@ -1630,7 +1790,10 @@ ___
 
 **Installation Method:** TSLPatcher & Loose-File Mod with **SITUATIONAL** Patch (see Installation Instructions!)
 
-**Installation Instructions:** If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override. Finally, if you utilize Vurt's "K1 Hi-Res Ebon Hawk Retexture," download [this patch](https://mega.nz/file/QAhhFTzD#rxS91pehFgNP7xFh3DNnNFC1d_YelF43K4-q6mh8xfI) and move its contents to your override.
+:::note
+Installation Instructions
+:   If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override. Finally, if you utilize Vurt's "K1 Hi-Res Ebon Hawk Retexture," download [this patch](https://mega.nz/file/QAhhFTzD#rxS91pehFgNP7xFh3DNnNFC1d_YelF43K4-q6mh8xfI) and move its contents to your override.
+:::
 
 ___
 
@@ -1664,7 +1827,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Recommend the version without overlays, but it's personal preference.
+:::note
+Installation Instructions
+:   Recommend the version without overlays, but it's personal preference.
+:::
 
 ___
 
@@ -1682,7 +1848,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::note
+Installation Instructions
+:   Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::
 
 ___
 
@@ -1716,9 +1885,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::note
+Download Instructions
+:   Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::
 
-**Installation Instructions:** Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
+:::note
+Installation Instructions
+:   Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
+:::
 
 ___
 
@@ -1736,7 +1911,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
+:::note
+Installation Instructions
+:   Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
+:::
 
 ___
 
@@ -1820,7 +1998,10 @@ I'm also looking for opinions about this and whether users prefer it to Fire and
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** I recommend against any of the included optional files.
+:::note
+Installation Instructions
+:   I recommend against any of the included optional files.
+:::
 
 ___
 
@@ -1902,7 +2083,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::note
+Installation Instructions
+:   The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::
 
 ___
 
@@ -1920,7 +2104,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
+:::note
+Installation Instructions
+:   Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
+:::
 
 ___
 
@@ -2002,7 +2189,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).
+:::note
+Installation Instructions
+:   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).
+:::
 
 ___
 
@@ -2072,7 +2262,10 @@ Some information has been censored to prevent spoilers.
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move "dan13_dorak.dlg" only.
+:::note
+Installation Instructions
+:   Move "dan13_dorak.dlg" only.
+:::
 
 ___
 
@@ -2106,7 +2299,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Warning:** Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+:::warning
+Installation Warning
+:   Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+:::
 
 ___
 
@@ -2190,7 +2386,10 @@ ___
 
 **Masters:** High-Poly Grenades
 
-**Installation Instructions:** Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
+:::note
+Installation Instructions
+:   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
+:::
 
 ___
 
@@ -2224,7 +2423,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the K1CP compatible install option, if using the K1CP (you should be).
+:::note
+Installation Instructions
+:   Use the K1CP compatible install option, if using the K1CP (you should be).
+:::
 
 ___
 
@@ -2290,7 +2492,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** I personally recommend option 2.
+:::note
+Installation Instructions
+:   I personally recommend option 2.
+:::
 
 ___
 
@@ -2308,7 +2513,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Full or Light version is your choice.
+:::note
+Download Instructions
+:   Full or Light version is your choice.
+:::
 
 ___
 
@@ -2358,7 +2566,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::note
+Installation Instructions
+:   Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::
 
 ___
 
@@ -2376,9 +2587,15 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Known Bugs:** There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
+:::warning
+Known Bugs
+:   There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
+:::
 
-**Installation Instructions:** Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
+:::note
+Installation Instructions
+:   Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
+:::
 
 ___
 
@@ -2494,7 +2711,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod, Loose-File Patch
 
-**Installation Instructions:** Install the base mod first, then move the file from the patch directly to your override.
+:::note
+Installation Instructions
+:   Install the base mod first, then move the file from the patch directly to your override.
+:::
 
 ___
 
@@ -2576,7 +2796,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::note
+Installation Instructions
+:   This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::
 
 ___
 
@@ -2610,7 +2833,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
+:::note
+Installation Instructions
+:   Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
+:::
 
 ___
 
@@ -2644,7 +2870,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::note
+Installation Instructions
+:   If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::
 
 ___
 
@@ -2662,7 +2891,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
+:::note
+Installation Instructions
+:   If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
+:::
 
 ___
 
@@ -2746,7 +2978,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Recommend the "Revisited" option.
+:::note
+Installation Instructions
+:   Recommend the "Revisited" option.
+:::
 
 ___
 
@@ -2764,7 +2999,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Known Bugs:** For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::
 
 ___
 
@@ -2830,7 +3068,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::note
+Installation Instructions
+:   Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::
 
 ___
 
@@ -2848,7 +3089,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::note
+Installation Instructions
+:   Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::
 
 ___
 
@@ -2866,7 +3110,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::note
+Installation Instructions
+:   Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::
 
 ___
 
@@ -2886,7 +3133,10 @@ If you would prefer a pure damage increase to resolve the discrepancy in repeati
 
 **Installation Method:** HoloPatcher
 
-**Installation Instructions:** Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
+:::note
+Installation Instructions
+:   Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
+:::
 
 ___
 
@@ -2904,7 +3154,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
+:::note
+Installation Instructions
+:   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
+:::
 
 ___
 
@@ -3050,7 +3303,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Ignore the Patch folder unless using K2 Force Powers for K1 (untested, but should function). I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
+:::note
+Installation Instructions
+:   Ignore the Patch folder unless using K2 Force Powers for K1 (untested, but should function). I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
+:::
 
 ___
 
@@ -3068,7 +3324,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; if not intending to play in widescreen, install the base mod now.
+:::note
+Installation Instructions
+:   If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; if not intending to play in widescreen, install the base mod now.
+:::
 
 ___
 
@@ -3084,9 +3343,12 @@ ___
 
 **Installation Method:** .bat Patcher
 
-**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete.html).
-
-**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::note
+Installation Instructions
+:   Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete.html).
+    
+    **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::
 
 ___
 
@@ -3106,7 +3368,10 @@ ___
 
 **Masters:** Ultimate Character Overhaul & Various Texture Mods
 
-**Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale. Only then move the files to your override), and then all remaining content that matches content you chose to use from the builds (again, skipping Better Twi'lek Male Heads, if using Leilukin's mod). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+:::note
+Installation Instructions
+:   Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale. Only then move the files to your override), and then all remaining content that matches content you chose to use from the builds (again, skipping Better Twi'lek Male Heads, if using Leilukin's mod). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+:::
 
 ___
 
@@ -3116,8 +3381,6 @@ ___
 
 **Author:** Redrob41
 
-**Spoiler Warning:**
-
 **Description:** Redrob is a quiet legend within the scene, who disappears for years and pops back up with projects nobody expects but which become instant classics. Welcome to the latest. This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
 
 **Category & Tier:** Graphics Improvement / 1 - Essential
@@ -3126,13 +3389,22 @@ ___
 
 **Installation Method:** Loose-File (with optional automation)
 
-**SPOILER WARNING**: Due to its size and active development, I cannot reupload this mod for spoiler-prevention purposes. Please note that, to avoid some companion spoilers, you can only scroll the preview images *twice* before you will encounter spoiler images.
+:::warning
+Spoiler Warning
+:   Due to its size and active development, I cannot reupload this mod for spoiler-prevention purposes. Please note that, to avoid some companion spoilers, you can only scroll the preview images *twice* before you will encounter spoiler images.
+:::
 
-**Download Instructions:** *Strongly* recommend the 2x .tpc version; the fidelity loss for 2x is minimal, .tpc is a lossless conversion and is much slimmer in filesize, and the automated compatibility program for this mod relies on the filetype being .tpc to function.
+:::note
+Download Instructions
+:   *Strongly* recommend the 2x .tpc version; the fidelity loss for 2x is minimal, .tpc is a lossless conversion and is much slimmer in filesize, and the automated compatibility program for this mod relies on the filetype being .tpc to function.
+:::
 
-**Installation Instructions:** If you are on a system which can run .bat files, I *strongly* recommend using the automated system to deal with compatibility for this mod. To do so, first extract redrob's mod from its archive, then go to [this page](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleaner.bat) and click on the button with the arrow pointing down at the top of the code list (the one which says "download raw file"). Place cleaner.bat in the folder from redrob's mod called "Copy contents to KotOR's Override folder", then go to [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleanlist_k1_sf.txt) and repeat the same step, placing cleanlist_k1_sf.txt in the same location. You can now run cleanlist.bat: follow the instructions onscreen, selecting whether you did or didn't use any of the given mods, and the batch file will automatically delete the incompatible files. Once you reach the end of the list, you can exit the .bat window, delete cleaner.bat and cleanlist_k1_sf.txt, and then move the remaining files in the folder to your override.
-
-If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k1/redrob_deletions_sf).
+:::note
+Installation Instructions
+:   If you are on a system which can run .bat files, I *strongly* recommend using the automated system to deal with compatibility for this mod. To do so, first extract redrob's mod from its archive, then go to [this page](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleaner.bat) and click on the button with the arrow pointing down at the top of the code list (the one which says "download raw file"). Place cleaner.bat in the folder from redrob's mod called "Copy contents to KotOR's Override folder", then go to [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/scripts/cleanlist_k1_sf.txt) and repeat the same step, placing cleanlist_k1_sf.txt in the same location. You can now run cleanlist.bat: follow the instructions onscreen, selecting whether you did or didn't use any of the given mods, and the batch file will automatically delete the incompatible files. Once you reach the end of the list, you can exit the .bat window, delete cleaner.bat and cleanlist_k1_sf.txt, and then move the remaining files in the folder to your override.
+    
+    If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k1/redrob_deletions_sf).
+:::
 
 ___
 
@@ -3148,9 +3420,12 @@ ___
 
 **Installation Method:** Executable
 
-**Installation Instructions:** If you intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
-
-Additionally, **DO NOT** apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!
+:::note
+Installation Instructions
+:   If you intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
+    
+    Additionally, **DO NOT** apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!
+:::
 
 ## Optional Widescreen
 
@@ -3194,7 +3469,10 @@ ___
 
 **Installation Method:** .bat Patcher with Loose-File Components
 
-**Installation Instructions:** Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
+:::note
+Installation Instructions
+:   Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
+:::
 
 ___
 
@@ -3244,7 +3522,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
+:::note
+Installation Instructions
+:   I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
+:::
 
 ___
 
@@ -3264,7 +3545,10 @@ ___
 
 **Masters:** JC's Cloaked Jedi Robes
 
-**Installation Instructions:** In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
+:::note
+Installation Instructions
+:   In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
+:::
 
 ___
 
@@ -3332,9 +3616,12 @@ Unfortunately, there's a price for the quality of Pops's work: the files are ext
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. I *STRONGLY* recommend choosing the 30fps option for that resolution—there have been crashes directly linked to the 60fps versions. When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Bear in mind that the files from this mod go in your *movies* folder, not override.
-
-If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::note
+Installation Instructions
+:   Choose the resolution option which most closely fits your monitor's screen size during the download process. I *STRONGLY* recommend choosing the 30fps option for that resolution—there have been crashes directly linked to the 60fps versions. When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Bear in mind that the files from this mod go in your *movies* folder, not override.
+    
+    If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::
 
 ___
 
@@ -3352,11 +3639,17 @@ ___
 
 **Installation Method:** Loose-File Mod with Possible Hex Editing Requirements
 
-**Known Bugs:** With this movie pack, the title crawl movie is broken and will not play normally. It can be skipped and does not crash the game, but will not display.
+:::warning
+Known Bugs
+:   With this movie pack, the title crawl movie is broken and will not play normally. It can be skipped and does not crash the game, but will not display.
+:::
 
-**Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
-
-If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::note
+Installation Instructions
+:   Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
+    
+    If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::
 
 ## Misc. Basegame Issues & Fixes
 

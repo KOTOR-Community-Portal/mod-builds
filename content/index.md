@@ -1,6 +1,9 @@
 # KOTOR Mod Builds
 
-**If you do nothing else, PLEASE read the 'Instructions' section before continuing on to the mod lists!**
+:::note
+Note
+:   If you do nothing else, PLEASE read the [Instructions](#Instructions) section before continuing on to the mod lists!
+:::
 
 New users run the risk of having content spoiled for them otherwise, and all users need to read the special installation instructions listed here to install the mod builds properly!
 
@@ -83,6 +86,7 @@ __
 ## FAQ
 
 It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
+It's highly recommended that you read the Builds' [FAQ](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
 
 
 ## Changelog
