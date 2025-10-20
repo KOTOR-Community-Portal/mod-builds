@@ -2006,7 +2006,12 @@ ___
 
 **Author:** Flachzangen, bash version by /u/th3w1zard1
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
+
+:::warning
+Note
+:   It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+:::
 
 **Category & Tier:** Patch / 1 - Essential
 
