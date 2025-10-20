@@ -2,7 +2,10 @@
 
 ## Installation Notes
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::warning
+Important
+:   If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::
 
 Although this is a mobile-compatible build, due to required compatibility tools we must use to get this build working, you will need to install all mods to a 'dummy directory' on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly. This means you **MUST** have a PC or Mac in order to utilize this build for mobile, although you **CAN** install just [MTSLRCM](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/) (the mobile version of The Sith Lords Restored Content Mod) with just your mobile device.
 
