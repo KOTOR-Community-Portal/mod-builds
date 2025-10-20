@@ -23,7 +23,7 @@ Each build is modular in nature, meaning that most mods aren't reliant upon one 
 
 If the above has sold you, then by all means, please continue down to the *Instructions* section. But I understand why it might not have; after all, a premise is all fine and well, but does it deliver?
 
-If you want some additional convincing, I invite you to take a look at [this quick list of bullet-points](/modding/mod_builds/why_use.html) about what the mod builds offer, and why those offerings are unique.
+If you want some additional convincing, I invite you to take a look at [this quick list of bullet-points](/modding/mod_builds/why_use) about what the mod builds offer, and why those offerings are unique.
 
 ## Instructions
 
@@ -59,39 +59,38 @@ As for actually installing these mods, there are a few simple rules to follow:
 
 ### PC/Mac
 
-[KOTOR 1 Spoiler-Free Build](/modding/mod_builds/k1/spoiler-free.html)
+[KOTOR 1 Spoiler-Free Build](/modding/mod_builds/k1/spoiler-free)
 
-[KOTOR 1 Full Build](/modding/mod_builds/k1/full.html)
+[KOTOR 1 Full Build](/modding/mod_builds/k1/full)
 
 __
 
-[KOTOR 2 Spoiler-Free Build](/modding/mod_builds/k2/spoiler-free.html)
+[KOTOR 2 Spoiler-Free Build](/modding/mod_builds/k2/spoiler-free)
 
-[KOTOR 2 Full Build](/modding/mod_builds/k2/full.html)
+[KOTOR 2 Full Build](/modding/mod_builds/k2/full)
 
 ___
 
 ### Android/iOS
 
-[KOTOR 1 Spoiler-Free Mobile Build](/modding/mod_builds/k1/spoiler-free_mobile.html)
+[KOTOR 1 Spoiler-Free Mobile Build](/modding/mod_builds/k1/spoiler-free_mobile)
 
-[KOTOR 1 Full Mobile Build](/modding/mod_builds/k1/full_mobile.html)
+[KOTOR 1 Full Mobile Build](/modding/mod_builds/k1/full_mobile)
 
 __
 
-[KOTOR 2 Spoiler-Free Mobile Build](/modding/mod_builds/k2/spoiler-free_mobile.html)
+[KOTOR 2 Spoiler-Free Mobile Build](/modding/mod_builds/k2/spoiler-free_mobile)
 
-[KOTOR 2 Full Mobile Build](/modding/mod_builds/k2/full_mobile.html)
+[KOTOR 2 Full Mobile Build](/modding/mod_builds/k2/full_mobile)
 
 ## FAQ
 
-It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
-It's highly recommended that you read the Builds' [FAQ](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
+It's highly recommended that you read the Builds' [FAQ](/modding/mod_builds/faq) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
 
 
 ## Changelog
 
-NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates. Older changelogs, as well as a full list of changes for all Revisions 11/03/25 and on, can be found [here](/modding/mod_builds/changelog.html). Please note that the full changelogs contain spoilers!
+NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates. Older changelogs, as well as a full list of changes for all Revisions 11/03/25 and on, can be found [here](/modding/mod_builds/changelog). Please note that the full changelogs contain spoilers!
 
 ### 11/03/2025
 
