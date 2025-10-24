@@ -242,7 +242,7 @@ There are many of the first 2 types and so far I only dealt with 1 of each of th
 
 The mods I talk about are from this list:
 
-[mod builds](/modding/mod_builds.html)
+[mod builds](/modding/mod_builds)
 
 ___
 

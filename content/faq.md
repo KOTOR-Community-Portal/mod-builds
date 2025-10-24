@@ -4,7 +4,7 @@
 
 ### Is this build stable on non-Windows OS?
 
-Under some circumstances, yes. While you should always proceed with caution if playing either game on a non-Windows distro, Mac OS (as long as you use a wrapper like Wine to install the TSLPatcher-based installer mods) are confirmed stable. Consider taking a look at [this excellent guide](/modding/mod_builds/macos.html) (copied from a reddit post by sentient06, with our thanks), which goes over setting the game and this build up A-Z.
+Under some circumstances, yes. While you should always proceed with caution if playing either game on a non-Windows distro, Mac OS (as long as you use a wrapper like Wine to install the TSLPatcher-based installer mods) are confirmed stable. Consider taking a look at [this excellent guide](/modding/mod_builds/macos) (copied from a reddit post by sentient06, with our thanks), which goes over setting the game and this build up A-Z.
 
 When playing on any OS that takes filename cases into account you should set the particular folders used for your installation to not be case-sensitive as regards filenames, but everything else should function normally.
 
