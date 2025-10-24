@@ -11,11 +11,11 @@ Important
 
 Unless you have *freshly* installed the game or have never installed KOTOR previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
 
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is possible, and therefore necessary for a functional install.
+Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
 
 ### TSLPatcher Installation Requirements
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract installer-based mods to the same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods", each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
 Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
 
@@ -24,10 +24,6 @@ As a final note, be aware that the TSLPatcher executable utilized in the install
 ### Single Install
 
 It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. If you want to make a backup of your vanilla gamestate, make sure to compress the entire game into an archive (.rar, .zip, .7z, etc.) before starting the install process.
-
-### Known Bugs
-
-* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
 
 ### Updating from a Prior Build
 
@@ -50,6 +46,10 @@ For unknown reasons, the Amazon Games version of KOTOR has a modified executable
 Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. It's likely you will need to both lowercase the files before installing any installer-based mod and then again at the end of the process as a batch action in your game directory and all subfolders, as the TSLPatcher/HoloPatcher will generate several files as part of their install processes which will have capitals that are misread.
 
 Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
+
+### Known Bugs
+
+* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
 
 ### Total Filesize on Disk
 
@@ -115,7 +115,7 @@ ___
 
 **Author:** Sniggles & JCarter426
 
-**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique and less rigidly tied to the D&D system if they can be stronger than what the system otherwise allows. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
+**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
 
 As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as re-tuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
@@ -185,7 +185,7 @@ ___
 
 :::note
 Installation Instructions
-:   Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:   Be aware that this mod is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
 :::
 
 ___
@@ -445,7 +445,7 @@ ___
 
 **Author:** Seamhainn
 
-**Description:** This mod restores content which was left on the disk but was never implemented which would have let the player interact with Deadeye Duncan later on in the story, on Manaan.
+**Description:** This mod restores content which would have let the player interact with Deadeye Duncan later on in the story, on Manaan.
 
 **Category & Tier:** Restored Content / 3 - Suggested
 
@@ -883,7 +883,7 @@ ___
 
 **Author:** PoopaPoppaPalpatine
 
-**Description:** Built off of Dark Hope's texture above, CineMalak is a redesign which the author contextualizes as making the clothing look more like a real-world movie costume. I don't think this is an invalid description, but I would rather contextualize it as just making the costume look realistic *full stop*. Malak's outfit, even in Dark Hope's interpretation, doesn't look like real clothing. This mod does a wonderful job of giving his suit the little things - more realistic cloth textures, stitch lines, armor clasps - that make it both HD *and* believable as real clothing.
+**Description:** Built off of Dark Hope's texture above, CineMalak is a redesign intended to make Malak's space pajamas look more like real clothing. This mod does a wonderful job of giving his suit the little things - more realistic cloth textures, stitch lines, armor clasps - that make it both HD *and* believable.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1064,7 +1064,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** Find it strange that all Sith at the Korriban academy are apparently officers and not Dark Jedi? This mod reskins all the Jedi in the Academy to wear proper robes, as well as fixing several other appearance issues on Korriban.
+**Description:** Find it strange that all Sith at the Korriban academy are apparently officers and not Dark Jedi? This mod makes all the Jedi in the Academy wear proper robes, as well as fixing several other appearance issues on Korriban.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
@@ -1085,7 +1085,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** If you preferred the robes in KOTOR 2, as most seem to, does JC have a mod for you. Cloaked Jedi Robes migrates all of the robe types from KOTOR 2 straight into KOTOR, while still managing to retain the unique color schemes of the original (should you choose to use one of the two options for that, anyway!). If you've long sought robe consistency across the two games, look no further.
+**Description:** If you preferred the robes in KOTOR 2, as most seem to, does JC sure have a mod for you. Cloaked Jedi Robes migrates all of the robe types from KOTOR 2 straight into KOTOR, while still managing to retain the unique color schemes of the original (should you choose to use one of the two options for that, anyway!). If you've long sought robe consistency across the two games, look no further.
 
 **Category & Tier:** Appearance Change / 2 - Recommended
 
@@ -1332,9 +1332,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** And we're back to Dark Hope. But look, there are side-by-sides this time!
-
-This one is one of my favorites from her, the Ithorians look absolutely excellent ingame.
+**Description:** And we're back to Dark Hope. But look, there are side-by-sides this time! This one is one of my favorites from her, the Ithorians look absolutely excellent ingame.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1366,7 +1364,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** Wow, we not only have comparisons but even a triptych! That particular image shows the base Quarren in the game; the "dense" Quarren model from the K1CP, without Dark Hope's texture; and the "dense" model with the new texture. Note that, though the mod says that it requires JC's Dense Aliens, it really just requires the K1CP; the same "dense" alien models included in that mod have been integrated into the base community patch for some time now.
+**Description:** Wow, we not only have comparisons but even a triptych! That particular image shows the base Quarren in the game; the "dense" Quarren model from the K1CP, without Dark Hope's texture; and the "dense" model with the new texture. Note that, though the mod says that it requires JC's Dense Aliens, it really just requires the K1CP; the same "dense" alien models included in that mod have been integrated into the community patch for some time now.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1506,7 +1504,7 @@ ___
 
 **Author:** Thor110
 
-**Description:** The wall-mounted trophies in Davik's estate were based off of basegame creature textures, but did not actually use those texture files: they used a downscaled visual of the vanilla texture for the creatures, which made them look even worse than the vanilla creatures, and especially bad compared to upscaled vanilla creature textures. This mod lets them use the full size of the vanilla texture to map, which makes them look less glaringly low-resolution by comparison.
+**Description:** The wall-mounted trophies in Davik's estate used a downscaled visual of the vanilla creature textures, which made them look worse than their living counterparts, and especially bad compared to upscaled creature textures. This mod lets them use the full size of the vanilla texture to map, which makes them look less glaringly low-resolution by comparison.
 
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
@@ -1727,7 +1725,7 @@ ___
 
 **Author:** N-DReW25
 
-**Description:** Dark Hope gave Kebla herself a makeover earlier, now it's Drew's turn to give her shop a tidying-up. Compared to Janice's shop on the other side of the city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.
+**Description:** Compared to Janice's droid shop on the other side of the city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -1743,7 +1741,7 @@ ___
 
 **Author:** Vurt
 
-**Description:** Reskins the vessel the *Ebon Hawk* to extreme high resolution.
+**Description:** A very clean upscale of the *Ebon Hawk*.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -2099,7 +2097,7 @@ ___
 
 **Author:** Crazy34
 
-**Description:** With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
+**Description:** With this mod, Crazy has added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR.
 
 **Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
 
@@ -2120,7 +2118,7 @@ ___
 
 **Author:** Marius Fett
 
-**Description:** One of the very few flaws of Crazy's mod above was that its edits weren't applied to Malak. Still, that's a pretty big oversight—everybody wants to see the big bad bathed in red. This mod by Marius Fett uses Crazy's framework to give Malak's lightsaber the same reflectivity.
+**Description:** One of the very few flaws of Crazy's mod above was that its edits weren't applied to Malak. This mod by Marius Fett uses Crazy's framework to give Malak's lightsaber the same reflectivity.
 
 **Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
 
@@ -2189,7 +2187,7 @@ ___
 
 **Author:** InSidious
 
-**Description:** By default, there's no workbench on Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.
+**Description:** By default, there's no workbench on Korriban, which can result in some tedious back-and-forth if you want to switch out crystals or upgrade some armor. This mod fixes that.
 
 **Category & Tier:** Added Content / 3 - Suggested
 
@@ -2534,7 +2532,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** As you know, with some small variations KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed without giving the ending away, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.
+**Description:** As you know, KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be said without giving the ending away, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not make any visible changes. Please also note, a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with both the mod builds and this mod specifically.
 
 **Category & Tier:** Restored Content / 1 - Essential
 
@@ -2550,7 +2548,7 @@ ___
 
 **Author:** uwadmin12
 
-**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than powers like Lightning—or even Wave! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than Wave, but with more guaranteed damage.
+**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than powers like Lightning—or even Wave! The goal of this mod is giving Advanced Throw Lightsaber a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than Wave, but with more guaranteed damage.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -2751,7 +2749,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Morty strikes again with a great mod—KOTOR 2 adds Battle Meditation as an active ability, and that's a fertile field for a back-port into the original game. Bastila is the only one who receives this power with this mod, making her much more unique and indeed powerful, as she's made out to be.
+**Description:** KOTOR 2 adds Battle Meditation as an active ability, and that's a fertile field for a back-port into the original game. Bastila is the only one who receives this power with this mod, making her much more unique and indeed powerful, as she's made out to be.
 
 **Category & Tier:** Added Content & Immersion / 3 - Suggested
 
@@ -2767,7 +2765,7 @@ ___
 
 **Author:** N-DReW25
 
-**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try an alternate build. This significantly increases the damage of sneak attacks for Mission and a Scoundrel player when they reach level 19.
+**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try a sneak-focused build. This significantly increases the damage of sneak attacks for Mission when she reaches level 19.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -3417,7 +3415,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** If you intend on modding both games, you'd better start getting ready to put some respect on morty's name. For the past two years he had been belting out banger mods one after the other, and this is no exception. Logically, your repair skill represents your familiarity with machines, and the more you understand something, the easier it should be to break it, right? This mod scales the damage from the Stun Droid power line with your repair, making it more viable while also rewarding the player for skills investment.
+**Description:** For the past two years Morty has been belting out banger mods one after the other, and this mod is no exception. Logically, your repair skill represents your familiarity with machines, and the more you understand something, the easier it should be to break it, right? This mod scales the damage from the Stun Droid power line with your repair, making it more viable while also rewarding the player for skills investment.
 
 **Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
 
@@ -3433,7 +3431,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Okay, the last one was cool—this one is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+**Description:** Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
 
 **Category & Tier:** Mechanics Change & Immersion / 1 - Essential
 
@@ -3529,7 +3527,7 @@ ___
 
 **Author:** Redrob41
 
-**Description:** Redrob is a quiet legend within the scene, who disappears for years and pops back up with projects nobody expects but which become instant classics. Welcome to the latest. This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
+**Description:** This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
 
 **Category & Tier:** Graphics Improvement / 1 - Essential
 
