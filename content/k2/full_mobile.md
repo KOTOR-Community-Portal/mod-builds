@@ -13,15 +13,11 @@ Although this is a mobile-compatible build, due to required compatibility tools 
 
 It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR 2 installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract installer-based mods to the same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods", each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
 Please also bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the KOTOR 2 editable executable, which you will put together during the TSLRCM installation step. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
 
 As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor on the system which you're using to install mods, you may need to disable your second while installing.
-
-### Known Bugs
-
-* There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
 
 ### Mac OS Users
 
@@ -30,6 +26,10 @@ It is *required* to be able to run executable files in order to install this lis
 ### Updating from a Prior Build
 
 If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
+
+### Known Bugs
+
+* There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
 
 ## Mod List
 
@@ -156,7 +156,7 @@ ___
 
 **Author:** Crimson Knight
 
-**Description:** In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; for every one level, they gained +1 attack. For every other class, this ratio was 0.75:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 0.75:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game.
+**Description:** In the original KOTOR, Soldier and Guardian classes had a 1:1 attack bonus; they gained +1 attack for every 1 level. For every other class, this ratio was 0.75:1, which made classes feel different ingame and contributed to a difficulty scale. For unknown reasons, KOTOR 2 did away with this differentiation and gave every class a 1:1 ratio. This mod reverts this, giving classes which aren't explicitly melee-focused the 0.75:1 ratio back, restoring a bit of difficulty to what is otherwise a *very* easy game.
 
 **Category & Tier:** Mechanics Change / 1 - Essential
 
@@ -1985,7 +1985,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Just like its companion mod for KOTOR, this mod is *badass*. Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+**Description:** Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
 
 **Category & Tier:** Mechanics Change & Immersion / 1 - Essential
 
@@ -2061,7 +2061,7 @@ ___
 
 **Author:** Sniggles & JCarter426
 
-**Description:** The mod that took us way, *way* longer than it should have. In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
+**Description:** In brief, this mod serves to fix many idiosyncrasies with the visions encountered in the Tomb of Ludo Kressh, as well as adding more player agency and dynamism into the final encounter with your doppelganger and the vision-Revan. For a full breakdown of all changes, please see the attached document on the mod page.
 
 Do note—the fights here can be quite challenging depending upon your choices. Winning them is not mandatory, however, and you will still be able to continue even if you lose at some point.
 
