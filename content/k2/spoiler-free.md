@@ -41,7 +41,7 @@ Most Linux players appear to be using Proton these days, and for those that do t
 
 * Although all instances of this error should now be fixed, some textures may still have a partial transparency effect applied to them (you will be able to faintly see through them, or part of them, as if they were a slightly more opaque hologram). If you encounter any instances of such textures please report them so I can fix any leftovers.
 * There are significant camera angle errors in a certain ingame cutscene late in the game, when a Republic ship is approaching Telos--you'll know it when you get there. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
-* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
+* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremely uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
 
 ### Total Filesize on Disk
 
@@ -95,8 +95,8 @@ Compatibilityi Warning
 :   If you didn't read the wall of text that preceded this mod, you can brick your entire install here. You'd seriously better not have just skipped straight here.
 
     Ensure to only use this if on the most recent Steam/GoG patch, or if having manually applied the Aspyr patch to your game! Also ensure your executable is a fresh copy with no edits: it CANNOT have a 4GB/Large Address Aware patch already applied to it (this mod adds that patch). Finally, please note that **this mod cannot be utilized on the Mac Appstore version of the game**, since it doesn't launch via an executable; for Mac Appstore players, you will unfortunately need to play without these fixes. Since your games will not have the capacity to use 4GB of RAM, we recommend against utilizing the "Ultimate" series of upscales included later in this install, as a stability measure. Without the upscales, the Mac Appstore version should still be able to run the rest of the build without memory issues.
-
-    When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/kotormods/tree/main/C3-FD_patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
+    
+    When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/3C-FD-Patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
 :::
 
 ___
@@ -2647,7 +2647,7 @@ ___
 
 :::note
 Download Instructions
-:   Download both files.
+:   Download and apply all files, unless **NOT** using TSLRCM (in which case, skip relightingtsl_298TELk_1.0.zip).
 :::
 
 ___

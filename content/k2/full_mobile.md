@@ -1884,7 +1884,7 @@ ___
 
 :::note
 Download Instructions
-:   Download both files.
+:   Download and apply all files, unless **NOT** using TSLRCM (in which case, skip relightingtsl_298TELk_1.0.zip).
 :::
 
 ___
