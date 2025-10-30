@@ -1205,7 +1205,7 @@ Installation Instructions
 
 ___
 
-## Taris Rapid Transit
+### Taris Rapid Transit
 
 **Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
 
@@ -1226,7 +1226,7 @@ Download Instructions
 
 ___
 
-## Manaan Rapid Transit
+### Manaan Rapid Transit
 
 **Name:** [Manaan Fast Travel System](https://deadlystream.com/files/file/2739-manaan-fast-travel-system/)
 
