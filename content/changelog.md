@@ -4,7 +4,7 @@ Please bear in mind that this changelog only reflects major "Revision-level" upd
 
 ## 2025
 
-### 11/03/2025
+### 11/01/2025
 
 The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
 
