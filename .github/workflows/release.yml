@@ -1,0 +1,75 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version-type:
+        type: choice
+        options: ["patch", "minor", "major"]
+        required: true
+
+concurrency:
+  group: release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Configure Git
+        run: |
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email ${{ github.actor_id }}+${{ github.actor }}
+      - name: SemVer
+        id: semver
+        uses: BBBrassil/action-semver@v1
+        with:
+          prefix: "v"
+      - name: Versioning
+        id: versioning
+        run: |
+          version_type=${{ inputs.version-type }}
+          next_version=""
+          if [[ "$version_type" == "major" ]]; then
+            next_version=${{ steps.semver.outputs.next-major }}
+          elif [[ "$version_type" == "minor" ]]; then
+            next_version=${{ steps.semver.outputs.next-minor }}
+          elif [[ "$version_type" == "patch" ]]; then
+            next_version=${{ steps.semver.outputs.next-patch }}
+          else
+            echo "version-type is not valid"
+            exit 1
+          fi
+          echo "next-version=$next_version" >> "$GITHUB_OUTPUT"
+      - name: Git Operations
+        run: |
+          next_version=${{ steps.versioning.outputs.next-version }}
+          next_tag="v$next_version"
+          main_branch="main"
+          dev_branch="dev"
+          release_branch="release/$next_tag"
+          # Create release branch
+          git checkout "$dev_branch"
+          git checkout -b "$release_branch"
+          # Merge release branch into main
+          git checkout "$main_branch"
+          git merge --squash -X theirs "$release_branch"
+          msg=$"Release $next_tag"
+          git commit -m "'$msg'"
+          git tag -a "$next_tag" -m "'$msg'"
+          # Merge main branch into dev
+          git checkout "$dev_branch"
+          git merge --no-ff "$main_branch"
+          # Push
+          git checkout "$release_branch"
+          git push --set-upstream origin "$release_branch"
+          git checkout "$main_branch"
+          git push origin tag "$next_tag"
+          git push
+          git checkout "$dev_branch"
+          git push
