@@ -21,6 +21,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+          path: "mod-builds"
       - name: Configure Git
         run: |
           git config --global user.name ${{ github.actor }}
@@ -30,6 +31,7 @@ jobs:
         uses: BBBrassil/action-semver@v1
         with:
           prefix: "v"
+          workspace: "mod-builds"
       - name: Versioning
         id: versioning
         run: |
