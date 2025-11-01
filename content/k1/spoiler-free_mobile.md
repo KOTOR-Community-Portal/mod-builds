@@ -2,13 +2,16 @@
 
 ## Installation Notes
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::warning
+Important
+:   If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::
 
 ### General Instructions
 
-See [here](/modding/mod_builds/k1/android.html) for general install instructions for Android, adopted from a reddit thread by Rasral123 with our thanks. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
+See [here](/modding/mod_builds/k1/android) for general install instructions for Android, adopted from a reddit thread by Rasral123 with our thanks. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
 
-For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios.html).
+For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios).
 
 ### Install Computer Instructions
 
@@ -16,11 +19,11 @@ These are instructions relevant to the system which you will be installing these
 
 It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning. If you have multiple installations, or even just two executables in different locations, mod installers which are set up to auto-detect your installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. This is particularly important for installing the mobile builds, as I imagine many users will have a PC version of the game installed on the same computer which they are using to set up the mobile builds! For the sake of stability: if you have a copy of KOTOR installed on your device already, compress it to an archive using a program like WinRAR or 7zip, and delete the loose files left over. Then, when the install process is completed, extract the archive where the previous install was located and your local game will be preserved.
 
-Please bear in mind that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor on the device which you're utilizing the dummy directory to install content on, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+Please bear in mind that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor on the device which you're utilizing the dummy directory to install content on, you may need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or Holopatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or Holopatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract installer-based mods to the same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods", each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
-As a final note, please bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the Override folder for your modded setup. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
+As a final note, please bear in mind: if you are asked to direct a TSLPatcher executable to a folder to begin install, that folder should ALWAYS be your 'dummy directory', the folder which contains the Override folder for your modded setup. For mods that are NOT installed with the TSLPatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files directly in the dummy directory. You should *never* have any subfolders inside the Modules or Override folders within the dummy directory.
 
 ### Mac OS Users
 
@@ -42,7 +45,10 @@ It is *required* to be able to run executable files in order to install this lis
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as in vanilla your character sounds like a giddy little schoolchild following even the most minor dialogue interactions, and that mod serves to correct that without actually changing the underlying dialogue much, but if you prefer only bugfixes that option is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable would normally be)—in this very specific case, NOT the override.
+:::note
+Installation Instructions
+:   The choice of which version to use is up to you; I recommend PC Response Moderation, as it makes your character sound less like a giddy little schoolchild following every little dialogue, but if you prefer only bugfixes it is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
+:::
 
 ___
 
@@ -60,7 +66,10 @@ ___
 
 **Installation Method:** TSLPatcher, Loose-File Patch
 
-**Installation Instructions:** Make sure you don't forget to install the patch!
+:::note
+Installation Instructions
+:   Make sure you don't forget to install the patch!
+:::
 
 ___
 
@@ -70,9 +79,9 @@ ___
 
 **Author:** Sniggles & JCarter426
 
-**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique and less rigidly tied to the D&D system if they can be stronger than what the system otherwise allows. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
+**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
 
-As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
+As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as re-tuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
 Companion names, genders, and some information about their backstories have been censored in the attached changes breakdown to avoid spoilers.
 
@@ -98,7 +107,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::note
+Installation Instructions
+:   Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::
 
 ___
 
@@ -116,7 +128,10 @@ ___
 
 **Installation Method:** Loose-File Mod, TSLPatcher Patch
 
-**Installation Instructions:** For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::note
+Installation Instructions
+:   For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::
 
 ___
 
@@ -136,7 +151,10 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::note
+Installation Instructions
+:   Be aware that this mod is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::
 
 ___
 
@@ -170,7 +188,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::note
+Installation Instructions
+:   Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::
 
 ___
 
@@ -180,7 +201,7 @@ ___
 
 **Author:** Seamhainn
 
-**Description:** This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.
+**Description:** This mod restores content which would have let the player interact with a duelist they meet on their first planet later on in the story.
 
 **Category & Tier:** Restored Content / 3 - Suggested
 
@@ -206,22 +227,6 @@ ___
 
 ___
 
-### Scoundrel Trousers
-
-**Name:** [Scoundrel Trousers](http://deadlystream.com/files/file/537-scoundrel-trousers/)
-
-**Author:** Darkbirdie
-
-**Description:** Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.
-
-**Category & Tier:** Bugfix / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-___
-
 ### Republic Soldier Fix
 
 **Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
@@ -236,7 +241,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from both the Override and Optional folders to your game's override folder.
+:::note
+Installation Instructions
+:   Move the files from both the Override and Optional folders to your game's override folder.
+:::
 
 ___
 
@@ -254,7 +262,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::note
+Installation Instructions
+:   If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::
 
 ___
 
@@ -272,7 +283,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** I recommend avoiding the upscale option for the purposes of playing on mobile.
+:::note
+Installation Instructions
+:   I recommend avoiding the upscale option for the purposes of playing on mobile.
+:::
 
 ___
 
@@ -306,7 +320,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Choose whether to use the slim or original necks; your preference.
+:::note
+Installation Instructions
+:   Choose whether to use the slim or original necks; your preference.
+:::
 
 ___
 
@@ -324,7 +341,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::note
+Installation Instructions
+:   Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::
 
 ___
 
@@ -362,6 +382,22 @@ ___
 
 ___
 
+### K2 Swoops to K1
+
+**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod ports the "shield effect" that pops up when your swoop (basically a racing bike) takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I don't recommend that.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### Juhani Cathar Head
 
 **Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
@@ -392,7 +428,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::note
+Installation Instructions
+:   If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::
 
 ___
 
@@ -410,7 +449,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::note
+Installation Instructions
+:   When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::
 
 ___
 
@@ -428,7 +470,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::note
+Installation Instructions
+:   If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::
 
 ___
 
@@ -448,7 +493,10 @@ ___
 
 **Masters:** Cloaked Jedi Robes
 
-**Installation Instructions:** Only move the files from "Jedi Robes Override".
+:::note
+Installation Instructions
+:   Only move the files from "Jedi Robes Override".
+:::
 
 ___
 
@@ -476,9 +524,7 @@ ___
 
 **Author:** N-DReW25
 
-**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod.
-
-Some information has been censored to prevent spoilers.
+**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Appearance Change / 3 - Suggested
 
@@ -486,23 +532,31 @@ Some information has been censored to prevent spoilers.
 
 **Installation Method:** HoloPatcher Mod
 
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on iOS. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on iOS!
+:::
+
 ___
 
-### Sith Uniform Reformation
+### Sith Uniform Reformation Revised
 
-**Name:** [Sith Uniform Reformation](https://deadlystream.com/files/file/1985-heyoranges-sith-uniform-reformation/)
+**Name:** [Sith Uniform Reformation Revised](https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/)
 
-**Author:** Heyorange
+**Author:** Heyorange, Sith Holocron, JCarter426
 
-**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias.
+**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias. New, and thanks to Sith Holocron, these textures have also been further enhanced and upscaled to match the rest of the vanilla game's upscales present in the mod builds.
 
-**Category & Tier:** Appearance Change / 3 - Suggested
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
 
-**Non-English Functionality:** YES, however some text will be in English or lines of dialogue may be blank.
+**Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Install the default option, not one of the latter two. Before moving the files to override, delete kor35_sithguard.utc, kor35_sithguard2.utc, kor35_sithguard3.utc, kor35_sithguard4.utc, and kor36_sithguard1.utc.
+:::note
+Installation Instructions
+:   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
+:::
 
 ___
 
@@ -522,6 +576,22 @@ ___
 
 ___
 
+### Kebla Yurt Renovation
+
+**Name:** [Kebla Yurt Renovation](https://deadlystream.com/files/file/2785-kebla-yurt-renovation/)
+
+**Author:** N-DReW25
+
+**Description:** Compared to other shops you see in Kebla's city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### Ebon Hawk Repairs
 
 **Name:** [Ultimate Ebon Hawk Repairs](https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/)
@@ -536,7 +606,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.
+:::note
+Installation Instructions
+:   Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
+:::
 
 ___
 
@@ -554,7 +627,31 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** I strongly recommend the Small version for mobile.
+:::note
+Download Instructions
+:   I strongly recommend the Small version for mobile.
+:::
+
+___
+
+### Yavin Station Hangar
+
+**Name:** [Yavin Station Hangar](https://deadlystream.com/files/file/2068-yavin-station-hangar/)
+
+**Author:** WildKarrde
+
+**Description:** By default when landing on Yavin station (a merchant hub), you leave the *Ebon Hawk* and are placed directly into a hallway, but in the intro movie for Yavin you can see the *Ebon Hawk* landing in a hangar that looks... well, remarkably similar to another hangar in the game. This mod by WildKarrde brings that hangar to life and integrates it into the station geometry, so you can properly exit the ship and cycle through the airlocks onto the station.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher & Loose-File Mod with **SITUATIONAL** Patch (see Installation Instructions!)
+
+:::note
+Installation Instructions
+:   If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override.
+:::
 
 ___
 
@@ -572,7 +669,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::note
+Installation Instructions
+:   Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::
 
 ___
 
@@ -594,9 +694,9 @@ ___
 
 ### HQ Skyboxes II
 
-**Name:** [High Quality Skyboxes II](https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/)
+**Name:** [High Quality Skyboxes II](https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/) and [**Patch**](https://deadlystream.com/files/file/2796-high-quality-skyboxes-model-fixes-v10/)
 
-**Author:** Kexikus
+**Author:** Kexikus, patch by CaptainSpoque
 
 **Description:** Massively improves and increases the resolution of all skyboxes for all planets in the game.
 
@@ -606,9 +706,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::note
+Download Instructions
+:   Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::
 
-**Installation Instructions:** Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override.
+:::note
+Installation Instructions
+:   Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
+:::
 
 ___
 
@@ -626,7 +732,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
+:::note
+Installation Instructions
+:   Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
+:::
 
 ___
 
@@ -700,7 +809,7 @@ ___
 
 **Author:** Crazy34
 
-**Description:** With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
+**Description:** With this mod, Crazy has added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR.
 
 **Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
 
@@ -708,7 +817,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::note
+Installation Instructions
+:   The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::
 
 ___
 
@@ -750,7 +862,7 @@ ___
 
 **Author:** InSidious
 
-**Description:** By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.
+**Description:** By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth if you want to switch out crystals or upgrade some armor. This mod fixes that.
 
 **Category & Tier:** Added Content / 3 - Suggested
 
@@ -790,7 +902,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).
+:::note
+Installation Instructions
+:   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).
+:::
 
 ___
 
@@ -828,15 +943,29 @@ ___
 
 ___
 
+### Swoop Bike Upgrades
+
+**Name:** [Swoop Bike Upgrades](https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/)
+
+**Author:** Salk
+
+**Description:** Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance to make winning races easier. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.
+
+**Category & Tier:** Restored Content / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
 ### JCDE
 
 **Name:** [JCDE](https://mega.nz/file/lMowGYCK#q63FIz-FHkGEh5hw1_JTsRCE8c8FLCVMyJOywX4z_U8)
 
 **Author:** Emperor Devon
 
-**Description:** This mod takes some extremely simplistic and childish dialogue and makes it more expansive and detailed, with unique player responses based upon your current alignment.
-
-Some information has been censored to prevent spoilers.
+**Description:** This mod takes some extremely simplistic and childish dialogue and makes it more expansive and detailed, with unique player responses based upon your current alignment. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -844,7 +973,10 @@ Some information has been censored to prevent spoilers.
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move "dan13_dorak.dlg" only.
+:::note
+Installation Instructions
+:   Move "dan13_dorak.dlg" only.
+:::
 
 ___
 
@@ -872,7 +1004,7 @@ ___
 
 **Description:** In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.
 
-**Category & Tier:** Appearance Change / 3 - Recommended
+**Category & Tier:** Appearance Change / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -928,21 +1060,19 @@ ___
 
 ___
 
-### Improved Grenades
+### Rebalanced Grenades
 
-**Name:** [Improved Grenades](https://deadlystream.com/files/file/1191-improved-grenades/)
+**Name:** [Rebalanced Grenades](https://deadlystream.com/files/file/2522-rebalanced-grenades/)
 
-**Author:** jc2
+**Author:** Timbo
 
-**Description:** In the base-game, grenades typically aren't very useful after the first few planets. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.
+**Description:** In the base-game, grenades typically aren't very useful after the first few planets, once Force powers and the PC's combat capabilities begin to spin up. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
-
-**Installation Instructions:** Move the two files from the "Vanilla Increased Radius +Demo" folder to the override.
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -962,27 +1092,10 @@ ___
 
 **Masters:** High-Poly Grenades
 
-**Installation Instructions:** Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
-
-___
-
-### Sith Uniform Disguise Extension
-
-**Name:** [Taris Sith Uniform Disguise Extension](https://github.com/DarthParametric/K1_Taris_Sith_Uniform_Disguise_Extension/releases/tag/1.1)
-
-**Author:** Darth Parametric
-
-**Description:** There's a part in the game where you use a disguise to get past a hostile gate guard. But, thing is, you're only given one disguise, so your companion is just standing there looking like usual and the gate guard waves you down like he's part of their faction too, even though he's not disguised at all.
-
-This mod fixes that issue by dropping additional copies of the disguise and forcing both you and your companion to put the disguise on before being let through.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Download the "K1_Taris_Sith_Uniform_Disguise_Extension_v1.1.zip" file.
+:::note
+Installation Instructions
+:   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
+:::
 
 ___
 
@@ -1016,7 +1129,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the K1CP compatible install option, if using the K1CP (you should be).
+:::note
+Installation Instructions
+:   Use the K1CP compatible install option, if using the K1CP (you should be).
+:::
 
 ___
 
@@ -1026,7 +1142,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.
+**Description:** KOTOR has a basically binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not make any visible changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with both the mod builds and this mod specifically.
 
 **Category & Tier:** Restored Content / 1 - Essential
 
@@ -1042,7 +1158,7 @@ ___
 
 **Author:** uwadmin12
 
-**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.
+**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than other Force abilities, but with more guaranteed damage.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1082,7 +1198,47 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** I personally recommend option 2.
+:::note
+Installation Instructions
+:   I personally recommend option 2.
+:::
+
+___
+
+### Taris Rapid Transit
+
+**Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
+
+**Author:** CaptainSpoque
+
+**Description:** KOTOR can sometimes feel tedious as a result of needing to run back and forth to complete quests. This mod helps with that by adding a taxi system on the first planet to help take you to specific destinations within the upper city.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+:::note
+Download Instructions
+:   Full or Light version is your choice.
+:::
+
+___
+
+### Manaan Rapid Transit
+
+**Name:** [Manaan Fast Travel System](https://deadlystream.com/files/file/2739-manaan-fast-travel-system/)
+
+**Author:** The_Chaser_One
+
+**Description:** A follow-up to the above, this time bringing fast travel to Manaan, the planet which easily benefits from it the most.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -1116,7 +1272,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::note
+Installation Instructions
+:   Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::
 
 ___
 
@@ -1134,9 +1293,15 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Known Bugs:** Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent. **PLEASE ALSO BEAR IN MIND:** there is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
+:::warning
+Known Bugs
+:   Due to the limitations of the mobile release, although this mod does come with (very good quality) voiced dialogue, it will not play on mobile devices. You will be able to read the characters' dialogue in text as usual, but the audio will be silent. **PLEASE ALSO BEAR IN MIND:** there is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* fully exploring the beach on which it has crashed. Don't worry, it will be obvious when you get there. All you need to do is look around the whole beach first. There will be a combat encounter, and when you've triggered it you are safe to enter the cruiser.
+:::
 
-**Install Options:** Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch.
+:::note
+Installation Instructions
+:   Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch.
+:::
 
 ___
 
@@ -1194,7 +1359,7 @@ ___
 
 **Author:** N-DReW25
 
-**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try an alternate build. This significantly increases the damage of sneak attacks for Mission and a Scoundrel player when they reach level 19.
+**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try a sneak-focused build. This significantly increases the damage of sneak attacks for party member Mission when she reaches level 19.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -1204,15 +1369,29 @@ ___
 
 ___
 
+### Sentinel Sneak Attack
+
+**Name:** [Sentinel Sneak Attack with Multiclassing](https://www.nexusmods.com/kotor/mods/1710)
+
+**Author:** darthbdaman
+
+**Description:** The Jedi Sentinel class kind of sucks in KOTOR. It's a class focused on skills, but skills are rarely critical to resolving situations in KOTOR, and the party can always compensate for any skills a given character lacks: the class has a niche, but it's a niche that's useless. This mod endeavors to change that by giving Sentinels sneak attack die every 4 levels, which can even be gained on top of existing sneak attack die from the player's base class. This gives Sentinels more than just an out-of-combat niche to operate in.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** UNKNOWN
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### Thematic The One
 
 **Name:** [Thematic The One](https://github.com/JCarter426/KOTOR1-Thematic-The-One/releases/download/v1.0.2/KOTOR1-Thematic-The-One_v1.0.2_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
-**Description:** The One is a lategame NPC you encounter who's supposed to be all that, a real badass. Unfortunately, he's kind of a chump. This mod's goal isn't to make him strong enough to stand against you, because that doesn't really make sense either by the time you reach him, but it at least presents him consistently: a mighty warlord with access to a large amount of powerful equipment.
-
-Some information has been censored to prevent spoilers.
+**Description:** The One is a lategame NPC you encounter who's supposed to be all that, a real badass. Unfortunately, he's kind of a chump. This mod's goal isn't to make him strong enough to stand against you, because that doesn't really make sense either by the time you reach him, but it at least presents him consistently: a mighty warlord with access to a large amount of powerful equipment. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -1236,7 +1415,26 @@ ___
 
 **Installation Method:** TSLPatcher Mod, Loose-File Patch
 
-**Installation Instructions:** Install the base mod first, then move the file from the patch directly to your override.
+:::note
+Installation Instructions
+:   Install the base mod first, then move the file from the patch directly to your override.
+:::
+
+___
+
+### Improved Cantina Sitters
+
+**Name:** [Improved Cantina Sitters](https://deadlystream.com/files/file/2792-improved-cantina-sitters/)
+
+**Author:** Alvar007
+
+**Description:** This mod fixes several issues with background NPCs in the game's various cantinas, including giving them proper animations.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
 
 ___
 
@@ -1282,11 +1480,15 @@ ___
 
 **Category & Tier:** Appearance Change, Bugfix & Graphics Improvement / 2 - Recommended
 
-**Download Instructions:** Ignore the patch in the downloads, as it's only for updating from a previous version.
-
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+:::note
+Download Instructions
+:   Ignore the patch in the downloads, as it's only for updating from a previous version.
+:::
+
 
 ___
 
@@ -1304,7 +1506,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::note
+Installation Instructions
+:   This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::
 
 ___
 
@@ -1321,6 +1526,27 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+___
+
+### Swoop Platform Repair
+
+**Name:** [Swoop Platform Model Repair](https://deadlystream.com/files/file/2723-k1-swoop-platform-model-repairs/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod fixes several issues and oversights with the swoop track area on Taris.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+:::note
+Installation Instructions
+:   Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
+:::
 
 ___
 
@@ -1354,7 +1580,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::note
+Installation Instructions
+:   If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::
 
 ___
 
@@ -1470,6 +1699,11 @@ ___
 
 **Installation Method:** TSLPatcher
 
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on iOS. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on iOS!
+:::
+
 ___
 
 ### Twisted Rancor Trio Fix
@@ -1534,7 +1768,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::note
+Installation Instructions
+:   Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::
 
 ___
 
@@ -1552,7 +1789,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::note
+Installation Instructions
+:   Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::
 
 ___
 
@@ -1570,23 +1810,54 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::note
+Installation Instructions
+:   Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::
 
 ___
 
-### Weapon Stats Rebalance
+### Multifire & Autofire
 
-**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
+**Name:** [Multifire and Autofire and Finesse](https://www.nexusmods.com/kotor/mods/1711)
 
-**Author:** TK-664
+**Author:** darthbdaman
 
-**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
+**Description:** This is a meaty mod that makes a lot of changes, and I strongly recommend reading the mod description in detail, but here is a brief synopsis: in KOTOR, repeating rifles (think machine guns) were supposed to be able to make multiple attacks per turn, but this was cut. This mod adds multifire (+1 attack per round) to all *rifles*, and autofire (+2 attacks per round) to *repeaters*, along with an attack (chance-to-hit) penalty to both weapon types, of -4 and -6 respectively. There are two important caveats to this: the rifles change was not something that was originally intended by BioWare (but which I don't find terribly unbalanced, because it helps enemies too); and the multifire and autofire *are not toggles*, they are always on for those weapon types. The mod does have several install options which do not add the multifire to rifles, however, if you don't want the change which BioWare did not intend.
 
-**Category & Tier:** Mechanics Change / 1 - Essential
+If you would prefer a pure damage increase to resolve the discrepancy in repeating rifle price/rarity rather than this multifire option, you can skip this mod and install JC's Blaster Adjustment below. JC's Blaster Adjustment can also be used in conjunction with any install option of Multifire and Autofire.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** HoloPatcher
+
+:::note
+Installation Instructions
+:   Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
+:::
+
+___
+
+### Blaster Adjustment
+
+**Name:** [JC's Blaster Adjustment](https://deadlystream.com/files/file/2827-jcs-blaster-adjustment-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** Although this mod was made as a standalone option to resolve multiple problems with blasters - low blaster base damage, minimal crit chance variety, and weaker repeaters than BioWare intended - it can also be used in conjunction with bdaman's mod above. Long story short, JC's mod takes KOTOR's blasters and (for the most part) gives them the stats of KOTOR 2's blasters, including their more varied critical chances and bonus damage. This takes a weapon type which is extremely limited in its potential in the original game and leaves them viable for players.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+:::note
+Installation Instructions
+:   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
+:::
 
 ___
 
@@ -1686,21 +1957,66 @@ ___
 
 ___
 
+### Repair Affects Stun Droid
+
+**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2502-repair-affects-stun-droid-k1/)
+
+**Author:** offthegridmorty
+
+**Description:** For the past two years Morty has been belting out banger mods one after the other, and this mod is no exception. Logically, your repair skill represents your familiarity with machines, and the more you understand something, the easier it should be to break it, right? This mod scales the damage from the Stun Droid power line with your repair, making it more viable while also rewarding the player for skills investment.
+
+**Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Alignment Affects Force Powers
+
+**Name:** [Alignment Affects Force Powers](https://deadlystream.com/files/file/2759-alignment-affects-force-powers-k1/)
+
+**Author:** offthegridmorty
+
+**Description:** Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+
+**Category & Tier:** Mechanics Change & Immersion / 1 - Essential
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** TSLPatcher
+
+:::note
+Installation Instructions
+:   Ignore the Patch folder unless using K2 Force Powers for K1 (untested, but should function). I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
+:::
+
+___
+
 ### Remove Duplicate TGA/TPC
 
 **Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384) OR [Bash script for MacOS/Linux](https://pastebin.com/6WCN122S)
 
 **Author:** Flachzangen, bash version by /u/th3w1zard1
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
+
+:::warning
+Note
+:   It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+:::
 
 **Category & Tier:** Patch / 1 - Essential
 
 **Installation Method:** .bat Patcher
 
-**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete.html).
-
-**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::note
+Installation Instructions
+:   Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
+    
+    **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::
 
 ___
 
@@ -1714,22 +2030,24 @@ ___
 
 **Category & Tier:** Bugfix / 1 - Essential
 
-**Installation Instructions:** If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.
-
-If you are on MacOS or Linux, first, run Terminal and navigate to your game directory with the cd command.
-
-`cd [full filepath to your game]`
-
-Then, enter the following command:
-
-`find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
-
-If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
-
-`sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
-
-For more information:
-
-* [cd command](https://linuxize.com/post/linux-cd-command/)
-
-* [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
+:::note
+Installation Instructions
+:   If the device you're currently using runs a Windows OS, download one of the executable files from the linked github page matching your operating system's architecture (32-bit or 64-bit; google which your Windows OS is if you're not sure), place the file in the main dummy directory which you have created to install the mods to (NOT the override folder), and run the executable.
+    
+    If you are on MacOS or Linux, first, run Terminal and navigate to your game directory with the cd command.
+    
+    `cd [full filepath to your game]`
+    
+    Then, enter the following command:
+    
+    `find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+    
+    If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
+    
+    `sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+    
+    For more information:
+	
+    - [cd command](https://linuxize.com/post/linux-cd-command/)
+    - [sudo command](https://linuxize.com/post/sudo-command-in-linux/)
+:::

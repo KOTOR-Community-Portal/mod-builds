@@ -1,10 +1,10 @@
 # Mod Build Changelog
 
-Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern! If you want to see how frequently the install instructions are amended, you can check how recently the Nexus versions have had their downloads section updated.
+Please bear in mind that this changelog only reflects major "Revision-level" updates and immediate hotfixes which follow them; constant iteration work and support are performed on the mod builds over the course of their lifetime, so don't let a seeming lack of updates be a cause for concern!
 
 ## 2025
 
-### 11/03/2025
+### 11/01/2025
 
 The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
 
@@ -12,7 +12,7 @@ Highlights include:
 1. As usual, dozens of new mods for both games have been integrated
 2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
 3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
-4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as the very scary True Sith Assassins for KOTOR 2.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as some great work only for KOTOR 2: Mines Overhaul, the very scary True Sith Assassins, and For Mandalore! being just a few highlights.
 5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
 6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
@@ -44,9 +44,10 @@ New Inclusions:
 20. Improved Cantina Sitters
 21. Swoop Platform Model Repairs
 22. Multifire and Autofire and Finesse
-23. Repair Affects Stun Droid
-24. Alignment Affects Force Powers
-25. Character Textures & Model Fixes
+23. JC's Blaster Adjustment
+25. Repair Affects Stun Droid
+26. Alignment Affects Force Powers
+27. Character Textures & Model Fixes
 
 Modified:
 1. Applied Detran's Revan texture to the character's Star Forge Robes.
@@ -55,12 +56,55 @@ Modified:
 4. Added a patch to HQ Skyboxes to fix some minor rendering issues through windows
 
 Removed:
-1. Party Model Fixes I & II (superseded by Character Textures & Model Fixes)
-2. HD Rakghouls (superseded by Character Textures & Model Fixes)
-3. Scoundrel Trouser Fix (even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So: superseded by Character Textures & Model Fixes)
-4. Improved Grenades (superceded by Rebalanced Grenades)
-5. Weapon Stats Rebalance (superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance)
-6. Sith Uniform Disguise Extension (current implementation is buggy, removed pending update/alternate implementation)
+1. Party Model Fixes I & II: superseded by Character Textures & Model Fixes
+2. HD Rakghouls: superseded by Character Textures & Model Fixes
+3. Scoundrel Trouser Fix: even if Redrob didn't fix the wedgie on the model, I prefer to have his model fixes and textures than the previous very low-res texture with other errors on the model. So, effectively, superseded by Character Textures & Model Fixes
+4. Improved Grenades: superceded by Rebalanced Grenades
+5. Weapon Stats Rebalance: superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance
+6. Sith Uniform Disguise Extension: current implementation is buggy, removed pending update/alternate implementation
+
+
+**KOTOR 2:**
+
+New Inclusions:
+1. Classic Class Attack Bonus
+2. Fixed/Better Czerka Salvager
+3. Twi'lek Male NPC Diversity
+4. Dahnis Unique Look
+5. Rounder G0-T0
+6. Detran's Darth Revan
+7. N_oldAMH01 HD
+8. JC's Lightsaber Visual Effects (Re-Added after some time out of the builds)
+9. Enhanced Lightsaber Hilt Variety
+10. Vaklu Short-Term Memory Fix
+11. Onderon News Make Sense
+12. Mines Overhaul
+13. Better Jekk'Jekk'Tarr Thugs
+14. Logical Jekk'Jekk'Tarr
+15. Mira's Vanilla Escape for TSLRCM
+16. True Sith Assassins
+17. For Mandalore!
+18. Droid Models Animation Fix
+19. TSL Expanded Ending
+20. Consistent Bastila Recognition
+21. Vibrocutter Changes
+22. Relighting TSL
+23. Improved Force Sight
+24. Improved Light Side Enlightenment & Dark Side Corruption
+25. Alignment Affects Force Powers
+26. Character Textures & Model Fixes
+
+Modified:
+1. Bugfixes to Thematic KOTOR 2 Companions which fixes the Sith Assassin edition of Visas having much higher skill points than she should have
+2. Fixes to K2CP which removed the need to interact with doors in the Telos Military Base to open them, restoring the ability to attack them open with Bao-Dur as before
+
+Removed:
+1. No Mines on Malachor, Only Gas: integrated into Morty's mine enhancement
+2. Crazy's New Lightsaber Blade Model: superceded by J's Enhanced Lightsaber Hilt Variety
+3. Luxa Fix: integrated & improved in Redrob's Model and Texture Fixes
+4. Player & Party Underwear: mostly integrated in Redrob's Model & Texture Fixes
+5. Player & Party Underwear + UCO Patch: ditto above
+6. Treat Injury Affects Force Healing: Integrated into Alignment Affects Force Powers
 
 
 ### 03/11/2025

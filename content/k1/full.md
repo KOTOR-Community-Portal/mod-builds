@@ -2,30 +2,28 @@
 
 ## Installation Notes
 
-If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds/index.html)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::warning
+Important
+:   If you were linked to this list directly without reading the install instructions, please go back and read them [here](/modding/mod_builds)! There are several critical setup and general best-practice steps you need to be aware of before beginning the install process. The instructions for how this list is installed are located on that page, not this build!
+:::
 
 ### Zeroing Step
 
 Unless you have *freshly* installed the game or have never installed KOTOR previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
 
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is possible, and therefore necessary for a functional install.
+Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
 
 ### TSLPatcher Installation Requirements
 
-Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive. You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract all the mods to the exact same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods" and run the executable each time, each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
+Do not, under **ANY CIRCUMSTANCES**, run a TSLPatcher or HoloPatcher executable from within a file archive (IE a compressed file like a .rar, .zip, .7z, etc). You *must* extract all archives before installing mod content, or running an executable. Failure to extract before installing will break your game. Also, ensure you don't extract installer-based mods to the same folder. If, for example, you extract every single mod to a folder called "KOTOR Mods", each time you extract you'll be overwriting critical data from the previous mods. Make sure each installer-based mod is extracted to its own folder before running the installer.
 
-Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are most often placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
+Please also bear in mind: if you are asked to direct a TSLPatcher or Holopatcher executable to a folder to begin install, that folder should ALWAYS be the main game folder, where your game's .exe file is located (or the symlink to that folder created in the optional Quicker TSLPatching step, discussed further below). For mods that are NOT installed with the TSLPatcher or Holopatcher, *unless otherwise noted* their loose-file contents are placed directly in the Override directory. Unless you are following specific instructions (the mod author's or my own) that state otherwise, you should not be placing files in the game's main directory or Modules folder. You should *never* have any subfolders inside the Modules or Override folders.
 
-As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not function on multi-monitor setups. If you have more than one monitor, you will need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
+As a final note, be aware that the TSLPatcher executable utilized in the installation process of many of these mods (frustratingly) does not always function on multi-monitor setups. If you have more than one monitor, you may need to disable your second while installing the mods, but you can re-enable it once the installation process is complete.
 
 ### Single Install
 
 It is critical to ensure that you only have **ONE** installation of KOTOR on your device before beginning the installation process. If you have multiple installations, or even just two game executables in different locations, mod installers which are set up to auto-detect your game's installation directory *will* misidentify which one is correct and install the mods wherever they please, probably spiking your whole install in the process. If you want to make a backup of your vanilla gamestate, make sure to compress the entire game into an archive (.rar, .zip, .7z, etc.) before starting the install process.
-
-### Known Bugs
-
-* The very first cutscene (the title crawl) will always fail to play when running with upscaled movies and widescreen applied. Just watch a clip of the cutscene elsewhere—we don't know why this happens, but as far as we can tell it is unavoidable.
-* Sometimes the game will crash on load when trying to enter a new area due to a data overflow. This is uncommon and most users should never encounter it, but it is unfortunately virtually impossible to fully account for. Fortunately, it is easy to fix when it happens: simply temporarily disable the 'Frame Buffer Effects' and shadows settings in your advanced graphics options, proceed through the load screen, then re-enable the setting once on the other side.
 
 ### Updating from a Prior Build
 
@@ -33,11 +31,11 @@ If you currently have a prior mod build version installed and would like to upda
 
 ### AMD Players
 
-Not long ago many AMD cards experienced extreme and frequent crashing when playing KOTOR. Recent driver updates have fixed this, so if you get into the game and start experiencing random crashes while walking around, the solution should be as simple as updating your drivers. If for whatever reason that doesn't work, you can try reversion instead, to a version prior to July 15th, 2022. I cannot give advice on how to do this, as the process is unique to your particular graphics card and I don't personally own an AMD device. Googling your graphics card and 'drivers' will probably get you where you need to go.
+Not long ago many AMD cards experienced extreme and frequent crashing when playing KOTOR. Recent driver updates have fixed this, so if you get into the game and start experiencing random crashes while walking around, the solution should be as simple as updating your drivers. If for whatever reason that doesn't work, you can try reversion instead: the last known stable AMD driver series is [here](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-5-1), but bear in mind that, if your AMD hardware is newer than this driver's release date, rolling back will not be possible.
 
 ### Mac OS Players
 
-Please see [this link](/modding/mod_builds/macos.html) for installation assistance for the game and these mods.
+Please see [this link](/modding/mod_builds/macos) for installation assistance for the game and these mods.
 
 ### Amazon Games Players
 
@@ -45,11 +43,17 @@ For unknown reasons, the Amazon Games version of KOTOR has a modified executable
 
 ### Linux Players
 
-For anyone attempting to install these builds on a Linux distro, I strongly recommend installing on a case-insensitive file system (I have had VFAT recommended as an option by other users). Otherwise you will need to go through the headache of renaming a huge number of files, and it's really not worth it.
+Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. It's likely you will need to both lowercase the files before installing any installer-based mod and then again at the end of the process as a batch action in your game directory and all subfolders, as the TSLPatcher/HoloPatcher will generate several files as part of their install processes which will have capitals that are misread.
+
+Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
+
+### Known Bugs
+
+* For some users, the game may very rarely crash on load when trying to enter a new area due to a data overflow. This is extremeley uncommon and most users should never encounter it, but it is impossible to fully prevent. Fortunately, it is easy to fix if it does happen: simply temporarily disable the 'Frame Buffer Effects' and "Soft Shadows" settings in your advanced graphics options, proceed through the load screen, then re-enable the settings once on the other side. Again, most players should never encounter this.
 
 ### Total Filesize on Disk
 
-For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 7GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total install size plus HD movies in 1920x1080 resolution is approximately 29.5GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
+For your reference, the total filesize of all mods before extraction, excluding movies, is approximately 7GB. The total size of the install when extracted, including basegame files but excluding upscaled movies, is approximately 14GB. The total install size plus HD movies (Pops Maellard's set) in 1920x1080 resolution is approximately 25GB. Please bear this in mind if you intend to keep backups and/or are operating on a system with limited available memory.
 
 ## Optional Install Assistant - Quicker TSLPatching
 
@@ -77,7 +81,10 @@ This mod features no level of automation, and only serves to speed up the instal
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The choice of which version to use is up to you; I recommend PC Response Moderation, as it makes your character sound less like a giddy little schoolchild following every little dialogue, but if you prefer only bugfixes it is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
+:::note
+Installation Instructions
+:   The choice of which version to use is up to you; I recommend PC Response Moderation, as it makes your character sound less like a giddy little schoolchild following every little dialogue, but if you prefer only bugfixes it is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
+:::
 
 ___
 
@@ -95,7 +102,10 @@ ___
 
 **Installation Method:** TSLPatcher, Loose-File Patch
 
-**Usage Warning:** It's possible, if using auto level-up, to miss the feats to equip weapons and basic light armor while using this mod, unless you use the patch. Make sure to install it!
+:::warning
+Usage Warning
+:   It's possible, if using auto level-up, to miss the feats to equip weapons and basic light armor while using this mod, unless you use the patch. Make sure to install it!
+:::
 
 ___
 
@@ -105,9 +115,9 @@ ___
 
 **Author:** Sniggles & JCarter426
 
-**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique and less rigidly tied to the D&D system if they can be stronger than what the system otherwise allows. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
+**Description:** BioWare did a few wacky things with character progression in this game. To an extent that's novel, since it helps make companions feel more unique. But it becomes less novel when you realize that most of what they did is just make Jedi companions super OP and short most other party members on stats & feats they should have had.
 
-As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as retuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
+As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companions is a rework of companion starting attributes, skills, feats and powers to lock all companions into having the exact amount of bonuses they should for their level, as well as re-tuning several of their setups to more closely match the characters' behaviors and backstories. The goal is to ensure that companions' statlines are not only thematically consistent, but also broadly mechanically balanced, to better-incentivize the use of under-utilized party members.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -131,7 +141,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::note
+Installation Instructions
+:   Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
+:::
 
 ___
 
@@ -149,7 +162,10 @@ ___
 
 **Installation Method:** Loose-File Mod, TSLPatcher Patch
 
-**Installation Instructions:** For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::note
+Installation Instructions
+:   For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
+:::
 
 ___
 
@@ -167,7 +183,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod, Loose-File Patch
 
-**Installation Instructions:** Be aware that this mod is one of the very few in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::note
+Installation Instructions
+:   Be aware that this mod is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
+:::
 
 ___
 
@@ -201,7 +220,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::note
+Installation Instructions
+:   Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
+:::
 
 ___
 
@@ -219,7 +241,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.
+:::
 
 ___
 
@@ -237,7 +262,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -255,7 +283,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -273,7 +304,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -291,7 +325,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -309,7 +346,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod.
+:::
 
 ___
 
@@ -327,7 +367,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc **before** moving to override.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc and LSI_box01.tpc **before** moving to override.
+:::
 
 ___
 
@@ -345,9 +388,12 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** For now, ignore all patches (those will be installed later). Just download the main package, and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
-
-Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
+:::note
+Installation Instructions
+:   For now, ignore all patches (those will be installed later). Just download the main package, and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
+    
+    Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
+:::
 
 ___
 
@@ -365,7 +411,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.
+:::note
+Installation Instructions
+:   Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.
+:::
 
 ___
 
@@ -383,7 +432,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download and install both files.
+:::note
+Download Instructions
+:   Download and install both files.
+:::
 
 ___
 
@@ -393,7 +445,7 @@ ___
 
 **Author:** Seamhainn
 
-**Description:** This mod restores content which was left on the disk but was never implemented which would have let the player interact with Deadeye Duncan later on in the story, on Manaan.
+**Description:** This mod restores content which would have let the player interact with Deadeye Duncan later on in the story, on Manaan.
 
 **Category & Tier:** Restored Content / 3 - Suggested
 
@@ -433,23 +485,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the "green" folder to the override folder as well.
-
-___
-
-### Scoundrel Trousers
-
-**Name:** [Scoundrel Trousers](http://deadlystream.com/files/file/537-scoundrel-trousers/)
-
-**Author:** Darkbirdie
-
-**Description:** Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.
-
-**Category & Tier:** Bugfix / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
+:::note
+Installation Instructions
+:   Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the "green" folder to the override folder as well.
+:::
 
 ___
 
@@ -467,7 +506,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from both the Override and Optional folders to your game's override folder.
+:::note
+Installation Instructions
+:   Move the files from both the Override and Optional folders to your game's override folder.
+:::
 
 ___
 
@@ -485,7 +527,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::note
+Installation Instructions
+:   If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
+:::
 
 ___
 
@@ -511,7 +556,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** This is the first in a series of high-resolution player heads from Dark Hope, complete with full Dark Side transitions and new player portraits. We aren't going to use all of the HD versions she made—I've been careful to only select those I think fit closely with the original player head, as well as making enough clear improvements that any aesthetic alterations are acceptable trade-offs for the improved texture quality.
+**Description:** This is the first in a series of high-resolution player heads from Dark Hope, complete with full Dark Side transitions and new player portraits. We aren't going to use all of the HD content she makes—with one exception, I've been careful to only select those I think fit closely with the original design, as well as making enough clear improvements that any aesthetic alterations are acceptable trade-offs for the improved texture quality.
 
 This specific texture reskins the fifth Asian male head preset, including new facial hair.
 
@@ -585,7 +630,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** I recommend using the upscale option.
+:::note
+Installation Instructions
+:   I recommend using the upscale option.
+:::
 
 ___
 
@@ -619,23 +667,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
-
-___
-
-### HD Rakghouls
-
-**Name:** [HD Rakghouls](https://deadlystream.com/files/file/1187-emperor-turnips-hd-rakghouls/)
-
-**Author:** Emperor Turnip
-
-**Description:** Improves the base texture of the Rakghoul creature.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
+:::note
+Installation Instructions
+:   The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
+:::
 
 ___
 
@@ -687,6 +722,38 @@ ___
 
 ___
 
+### HD Jawas
+
+**Name:** [HD Realistic Jawas](https://deadlystream.com/files/file/2517-hd-realistic-jawas/)
+
+**Author:** Etienne76
+
+**Description:** A reskin of the Jawas, paying particular attention to the fabric texture of their tunics.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### HD Sand People
+
+**Name:** [HD Realistic Sand People](https://deadlystream.com/files/file/2514-hd-realistic-sand-people/) and [**Patch**](https://mega.nz/file/1ApXxLgY#iAK97Ydx2xvH5ws7NevJGU3ZJQarhBwDAIFcH73O3W4)
+
+**Author:** Etienne76
+
+**Description:** A reskin of the Tusken, paying particular attention to the fabric texture of their tunics.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
@@ -701,7 +768,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Choose whether to use the slim or original necks; your preference.
+:::note
+Installation Instructions
+:   Choose whether to use the slim or original necks; your preference.
+:::
 
 ___
 
@@ -719,7 +789,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the 'hd_twilek_female.rar' file, and ignore the other versions.
+:::note
+Download Instructions
+:   Download the 'hd_twilek_female.rar' file, and ignore the other versions.
+:::
 
 ___
 
@@ -737,7 +810,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::note
+Installation Instructions
+:   Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
+:::
 
 ___
 
@@ -789,9 +865,36 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Do not download the .tga file.
+:::note
+Download Instructions
+:   Do not download the .tga file.
+:::
 
-**Installation Instructions:** Move the main file in the directory to your override folder, then the files from the either the "Malak (Blue Eyes)" or "Malak (Red Eyes)" folder (your preference).
+:::note
+Installation Instructions
+:   If intending to use CineMalak below (recommended!), select your preferred head texture from the Malak (Red Eyes) or Malak (Blue Eyes) folders and move the files within to your override. You can ignore N_DarthMalak01.tga, unless you do not want to use CineMalak, in which case you should also move it to your override.
+:::
+
+___
+
+### CineMalak
+
+**Name:** [CineMalak - HD Darth Malak](https://deadlystream.com/files/file/2787-cinemalak-hd-malak-retexture/)
+
+**Author:** PoopaPoppaPalpatine
+
+**Description:** Built off of Dark Hope's texture above, CineMalak is a redesign intended to make Malak's space pajamas look more like real clothing. This mod does a wonderful job of giving his suit the little things - more realistic cloth textures, stitch lines, armor clasps - that make it both HD *and* believable.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
+:::
 
 ___
 
@@ -808,6 +911,11 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Make a copy of the file and rename it PMBJ01, then move all files to override.
+:::
 
 ___
 
@@ -857,7 +965,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download just the random UI elements download, not the optional T3-M4 request.
+:::note
+Download Instructions
+:   Download just the random UI elements download, not the optional T3-M4 request.
+:::
 
 ___
 
@@ -875,46 +986,40 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the V2 option.
+:::note
+Download Instructions
+:   Download the V2 option.
+:::
 
-**Installation Instructions:** Ignore the 'V1 Looks' option.
+:::note
+Installation Instructions
+:   Ignore the 'V1 Looks' option.
+:::
 
 ___
 
-### Party Model Fixes
+### Male NPC Clothing
 
-**Name:** [Party Model Fixes](https://deadlystream.com/files/file/1273-party-model-fixes-and-hd-bastila/)
+**Name:** [NPC Clothing M](https://deadlystream.com/files/file/2516-npc-clothing-m/)
 
-**Author:** redrob41
+**Author:** Dark Hope
 
-**Description:** Several of the companion models are messed up in ways that you don't really notice until you begin slapping hi-res textures on them. Since we're going to get to that, this mod is pretty important as a prerequisite.
+**Description:** Continuing her tradition of naming things as unhelpfully as possible, this is a clothing pack for male commoners by Dark Hope. To those put off by the default changes to N_CommM07 and N_CommM08, don't worry, we don't use the ones that alter the base design.
 
-**Category & Tier:** Bugfix / 2 - Recommended
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** In the "Bastila uvw fix" folder, move all the files from the Bastila Clothes - Option 1 folder into the Override. Move all the files in the Canderous folder. Delete the two .tga files in the Carth folder before moving. Move all the files in the HK-47 folder. Delete the .tga file from the Jolee folder before moving. Ignore the Juhani folder. Move all the files from the Mission folder.
+**Masters:** K1 Community Patch
+
+:::note
+Installation Instructions
+:   Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
+:::
 
 ___
-
-### Party Model Fixes 2
-
-**Name:** [Party Model Fixes for K1, Part II](https://deadlystream.com/files/file/2287-party-model-fixes-for-k1-part-ii/)
-
-**Author:** PapaZinos
-
-**Description:** Redrob did his best with Party Model Fixes, but there was still more to address. PapaZinos comes in to fix up a few things the original mod doesn't grab.
-
-**Category & Tier:** Bugfix / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-___
-
 
 ### Juhani Appearance Overhaul
  
@@ -930,7 +1035,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Install Instructions:** Use the Body & Lightsaber version, we will use a different head model. Make sure to install the patch after, it fixes an issue with her lightsaber which can cause it to disappear.
+:::note
+Installation Instructions
+:   Use the Body & Lightsaber version, we will use a different head model. Make sure to install the patch after, it fixes an issue with her lightsaber which can cause it to disappear.
+:::
 
 ___
 
@@ -956,7 +1064,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** Find it strange that all Sith at the Korriban academy are apparently officers and not Dark Jedi? This mod reskins all the Jedi in the Academy to wear proper robes, as well as fixing several other appearance issues on Korriban.
+**Description:** Find it strange that all Sith at the Korriban academy are apparently officers and not Dark Jedi? This mod makes all the Jedi in the Academy wear proper robes, as well as fixing several other appearance issues on Korriban.
 
 **Category & Tier:** Appearance Change & Bugfix / 2 - Recommended
 
@@ -964,7 +1072,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::note
+Installation Instructions
+:   If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
+:::
 
 ___
 
@@ -974,7 +1085,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** If you preferred the robes in KOTOR 2, as most seem to, does JC have a mod for you. Cloaked Jedi Robes migrates all of the robe types from KOTOR 2 straight into KOTOR, while still managing to retain the unique color schemes of the original (should you choose to use one of the two options for that, anyway!). If you've long sought robe consistency across the two games, look no further.
+**Description:** If you preferred the robes in KOTOR 2, as most seem to, does JC sure have a mod for you. Cloaked Jedi Robes migrates all of the robe types from KOTOR 2 straight into KOTOR, while still managing to retain the unique color schemes of the original (should you choose to use one of the two options for that, anyway!). If you've long sought robe consistency across the two games, look no further.
 
 **Category & Tier:** Appearance Change / 2 - Recommended
 
@@ -982,7 +1093,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::note
+Installation Instructions
+:   When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
+:::
 
 ___
 
@@ -1000,7 +1114,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::note
+Installation Instructions
+:   If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
+:::
 
 ___
 
@@ -1020,7 +1137,10 @@ ___
 
 **Masters:** Cloaked Jedi Robes
 
-**Installation Instructions:** Only move the files from "Jedi Robes Override".
+:::note
+Installation Instructions
+:   Only move the files from "Jedi Robes Override".
+:::
 
 ___
 
@@ -1056,7 +1176,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete PO_phk47.tga before moving the two other files to the override.
+:::note
+Installation Instructions
+:   Delete PO_phk47.tga before moving the two other files to the override.
+:::
 
 ___
 
@@ -1090,7 +1213,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadlystream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+:::note
+Download Instructions
+:   Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+:::
 
 ___
 
@@ -1142,6 +1268,22 @@ ___
 
 ___
 
+### K2 Swoops to K1
+
+**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### HD Stun Batons
 
 **Name:** [Stunbaton HD](https://deadlystream.com/files/file/2430-stunbaton-hd/)
@@ -1156,7 +1298,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
+:::note
+Download Instructions
+:   Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
+:::
 
 ___
 
@@ -1174,6 +1319,11 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::
+
 ___
 
 ### HD Ithorians
@@ -1182,9 +1332,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** And we're back to Dark Hope. But look, there are side-by-sides this time!
-
-This one is one of my favorites from her, the Ithorians look absolutely excellent ingame.
+**Description:** And we're back to Dark Hope. But look, there are side-by-sides this time! This one is one of my favorites from her, the Ithorians look absolutely excellent ingame.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1216,7 +1364,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** Wow, we not only have comparisons but even a triptych! That particular image shows the base Quarren in the game; the "dense" Quarren model from the K1CP, without Dark Hope's texture; and the "dense" model with the new texture. Note that, though the mod says that it requires JC's Dense Aliens, it really just requires the K1CP; the same "dense" alien models included in that mod have been integrated into the base community patch for some time now.
+**Description:** Wow, we not only have comparisons but even a triptych! That particular image shows the base Quarren in the game; the "dense" Quarren model from the K1CP, without Dark Hope's texture; and the "dense" model with the new texture. Note that, though the mod says that it requires JC's Dense Aliens, it really just requires the K1CP; the same "dense" alien models included in that mod have been integrated into the community patch for some time now.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1244,6 +1392,75 @@ ___
 
 ___
 
+### HD Doctors
+
+**Name:** [Doctors HD](https://deadlystream.com/files/file/2475-doctors-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Sometimes Dark Hope swings and misses, but sometimes she really lands a home run. Her Zelka Forn texture here is, in particular, one of my absolute favorites from her.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Kebla Yurt HD
+
+**Name:** [Kebla Yurt HD](https://deadlystream.com/files/file/2471-kebla-yurt-hd/)
+
+**Author:** Dark Hope
+
+**Description:** I really like the face changes here, but although the clothes look great it would replace default character clothing and cause peasants to be wearing business suits later in the game. For that reason, the install instructions here will remove the changes to Kebla's clothes, while keeping her enhanced face visuals.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Delete N_CommF02.tga & .txi before moving to override.
+:::
+
+___
+
+### HD Deadeye Duncan
+
+**Name:** [Deadeye Duncan HD](https://deadlystream.com/files/file/2801-deadeye-duncan-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Dark Hope takes slightly more liberties with this texture, but given the very low detail of the original I think that's understandable, and it still preserves the basic vanilla aesthetic.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### N_oldAMH01 HD
+
+**Name:** [N_oldAMH01 HD](https://deadlystream.com/files/file/2806-n_oldamh01-hd/)
+
+**Author:** Dark Hope
+
+**Description:** Okay no, I underestimated her earlier, clearly Dark Hope *can* name things even worse than she usually does. What the absolutely eloquently-named N_oldAMH01 HD does is... reskin old asian male head 1. Thanks for the naming conventions BioWare, very cool.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
 ### HD Astromech Droids
 
 **Name:** [HD Astromech Droids](https://deadlystream.com/files/file/1894-astromech-droid-hd/)
@@ -1258,7 +1475,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete po_pt3m33.tga before moving the files to your override.
+:::note
+Installation Instructions
+:   Delete po_pt3m33.tga before moving the files to your override.
+:::
 
 ___
 
@@ -1271,6 +1491,22 @@ ___
 **Description:** Vastly improves the skin of all the protocol droids encountered ingame.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Davik's Trophies
+
+**Name:** [Davik's Trophies](https://deadlystream.com/files/file/2559-daviks-trophies/)
+
+**Author:** Thor110
+
+**Description:** The wall-mounted trophies in Davik's estate used a downscaled visual of the vanilla creature textures, which made them look worse than their living counterparts, and especially bad compared to upscaled creature textures. This mod lets them use the full size of the vanilla texture to map, which makes them look less glaringly low-resolution by comparison.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -1292,9 +1528,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download only the file which adds clothing, unless you like the head & face changes the mod makes
+:::note
+Download Instructions
+:   Download the file "Carth Onasi (new clothes).rar", unless you like the head & face changes the mod makes.
+:::
 
-**Installation Instructions:** Delete PO_pcarth3.tga before moving the other files to the override.
+:::note
+Installation Instructions
+:   Delete PO_pcarth3.tga before moving the other files to the override.
+:::
 
 ___
 
@@ -1312,7 +1554,10 @@ ___
 
 **Installation Method:** Loose-File Mod & Patch
 
-**Download Instructions:** Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
+:::note
+Download Instructions
+:   Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
+:::
 
 ___
 
@@ -1330,7 +1575,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move only P_CandH01.tga to your override.
+:::note
+Installation Instructions
+:   Move only P_CandH01.tga to your override.
+:::
 
 ___
 
@@ -1364,9 +1612,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the default, not the iconic recolor.
+:::note
+Download Instructions
+:   Download the default, not the iconic recolor.
+:::
 
-**Installation Instructions:** Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.
+:::note
+Installation Instructions
+:   Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.
+:::
 
 ___
 
@@ -1384,25 +1638,31 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Delete po_pzaalbar3.tga before moving the files to your override.
+:::note
+Installation Instructions
+:   Delete po_pzaalbar3.tga before moving the files to your override.
+:::
 
 ___
 
-### Sith Uniform Reformation
+### Sith Uniform Reformation Revised
 
-**Name:** [Sith Uniform Reformation](https://deadlystream.com/files/file/1985-heyoranges-sith-uniform-reformation/)
+**Name:** [Sith Uniform Reformation Revised](https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/)
 
-**Author:** Heyorange
+**Author:** Heyorange, Sith Holocron, JCarter426
 
-**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias.
+**Description:** If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias. New, and thanks to Sith Holocron, these textures have also been further enhanced and upscaled to match the rest of the vanilla game's upscales present in the mod builds.
 
-**Category & Tier:** Appearance Change / 3 - Suggested
+**Category & Tier:** Appearance Change & Graphics Improvement / 2 - Recommended
 
-**Non-English Functionality:** YES, however some text will be in English or lines of dialogue may be blank.
+**Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
+**Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Install the default option, not one of the latter two. Before moving the files to override, delete kor35_sithguard.utc, kor35_sithguard2.utc, kor35_sithguard3.utc, kor35_sithguard4.utc, and kor36_sithguard1.utc.
+:::note
+Installation Instructions
+:   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
+:::
 
 ___
 
@@ -1420,7 +1680,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules.
+:::note
+Installation Instructions
+:   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules.
+:::
 
 ___
 
@@ -1456,13 +1719,29 @@ ___
 
 ___
 
+### Kebla Yurt Renovation
+
+**Name:** [Kebla Yurt Renovation](https://deadlystream.com/files/file/2785-kebla-yurt-renovation/)
+
+**Author:** N-DReW25
+
+**Description:** Compared to Janice's droid shop on the other side of the city, Kebla's store is in quite a bad state, with junk lying about haphazardly and Kebla working from behind a low desk rather than the store counter in the back. This mod makes Kebla's store more orderly, and has Kebla behind the counter as she likely should've been.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### Hi-Res Ebon Hawk
 
 **Name:** [Vurt's K1 Hi-Res Ebon Hawk Retexture](https://www.gamefront.com/games/knights-of-the-old-republic/file/vurt-s-k1-hi-res-ebon-hawk-retexture)
 
 **Author:** Vurt
 
-**Description:** Reskins the vessel the *Ebon Hawk* to extreme high resolution.
+**Description:** A very clean upscale of the *Ebon Hawk*.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
@@ -1470,7 +1749,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.
+:::note
+Installation Instructions
+:   Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.
+:::
 
 ___
 
@@ -1488,7 +1770,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move the files from "to override" to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.
+:::note
+Installation Instructions
+:   Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
+:::
 
 ___
 
@@ -1506,7 +1791,31 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance.
+:::note
+Download Instructions
+:   Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance.
+:::
+
+___
+
+### Yavin Station Hangar
+
+**Name:** [Yavin Station Hangar](https://deadlystream.com/files/file/2068-yavin-station-hangar/)
+
+**Author:** WildKarrde
+
+**Description:** By default when landing on Yavin you leave the *Ebon Hawk* and are placed directly into a hallway, but in the intro movie for Yavin you can see the *Ebon Hawk* landing in a hangar that looks... well, remarkably similar to the Manaan hangar. This mod by WildKarrde brings that hangar to life and integrates it into the station geometry, so you can properly exit the ship and cycle through the airlocks onto the station.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher & Loose-File Mod with **SITUATIONAL** Patch (see Installation Instructions!)
+
+:::note
+Installation Instructions
+:   If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override. Finally, if you utilize Vurt's "K1 Hi-Res Ebon Hawk Retexture," download [this patch](https://mega.nz/file/QAhhFTzD#rxS91pehFgNP7xFh3DNnNFC1d_YelF43K4-q6mh8xfI) and move its contents to your override.
+:::
 
 ___
 
@@ -1540,7 +1849,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Recommend the version without overlays, but it's personal preference.
+:::note
+Installation Instructions
+:   Recommend the version without overlays, but it's personal preference.
+:::
 
 ___
 
@@ -1558,7 +1870,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::note
+Installation Instructions
+:   Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
+:::
 
 ___
 
@@ -1580,9 +1895,9 @@ ___
 
 ### HQ Skyboxes II
 
-**Name:** [High Quality Skyboxes II](https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/)
+**Name:** [High Quality Skyboxes II](https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/) and [**Patch**](https://deadlystream.com/files/file/2796-high-quality-skyboxes-model-fixes-v10/)
 
-**Author:** Kexikus
+**Author:** Kexikus, patch by CaptainSpoque
 
 **Description:** Massively improves and increases the resolution of all skyboxes for all planets in the game.
 
@@ -1592,9 +1907,15 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Download Instructions:** Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::note
+Download Instructions
+:   Unless using one of the mods for which Kex has developed skyboxes (*not* recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.
+:::
 
-**Installation Instructions:** Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override.
+:::note
+Installation Instructions
+:   Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
+:::
 
 ___
 
@@ -1612,7 +1933,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP) and HQ Skyboxes compatch (if using HQ Skyboxes).
+:::note
+Installation Instructions
+:   Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
+:::
 
 ___
 
@@ -1677,6 +2001,29 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+___
+
+### Revamped FX
+
+**Name:** [Revamped FX](https://deadlystream.com/files/file/2581-revamped-fx/)
+
+**Author:** olegkuz1997
+
+**Description:** Rather than a supplementary, this mod by olegkuz should be treated as an alternative to HD Fire and Ice & Hi-Res Beam Effects, already listed above. While this mod edits some files they don't touch and vice-versa, for the most part it replaces those textures. If you would like, you can install this mod and simply not overwrite when prompted to keep most of the changes of Fire and Ice HD & Hi-Res Beam Effects while only adding the files from this mod that those mods don't touch, but if you choose to overwrite this mod will be your main graphical edit for FX.
+
+I'm also looking for opinions about this and whether users prefer it to Fire and Ice HD & HR Beam Effects, so please feel free to drop by the [Discord](https://discord.gg/kotor) and let me know what you think!
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   I recommend against any of the included optional files.
+:::
 
 ___
 
@@ -1750,7 +2097,7 @@ ___
 
 **Author:** Crazy34
 
-**Description:** With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.
+**Description:** With this mod, Crazy has added *dynamic reflections* to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR.
 
 **Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
 
@@ -1758,7 +2105,26 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::note
+Installation Instructions
+:   The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
+:::
+
+___
+
+### Darth Malak's Lightsaber
+
+**Name:** [Darth Malak's Lightsaber](https://deadlystream.com/files/file/2506-darth-malaks-lightsaber-k1/)
+
+**Author:** Marius Fett
+
+**Description:** One of the very few flaws of Crazy's mod above was that its edits weren't applied to Malak. This mod by Marius Fett uses Crazy's framework to give Malak's lightsaber the same reflectivity.
+
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -1776,7 +2142,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
+:::note
+Installation Instructions
+:   Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
+:::
 
 ___
 
@@ -1818,7 +2187,7 @@ ___
 
 **Author:** InSidious
 
-**Description:** By default, there's no workbench on Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.
+**Description:** By default, there's no workbench on Korriban, which can result in some tedious back-and-forth if you want to switch out crystals or upgrade some armor. This mod fixes that.
 
 **Category & Tier:** Added Content / 3 - Suggested
 
@@ -1842,7 +2211,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Install Instructions:** For realism I personally recommend the "Senni Vek's Ambush" install, but if you'd like to remain as close to vanilla as possible, choose the Senni Vek Restoration instead.
+:::note
+Installation Instructions
+:   For realism I personally recommend the "Senni Vek's Ambush" install, but if you'd like to remain as close to vanilla as possible, choose the Senni Vek Restoration instead.
+:::
 
 ___
 
@@ -1860,7 +2232,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
+:::note
+Installation Instructions
+:   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
+:::
 
 ___
 
@@ -1898,6 +2273,22 @@ ___
 
 ___
 
+### Swoop Bike Upgrades
+
+**Name:** [Swoop Bike Upgrades](https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/)
+
+**Author:** Salk
+
+**Description:** Originally, swoop bikes in KOTOR were intended to have upgrades available for purchase which would modify their performance. This mod restores two upgrades to the game: one that reduces the speed loss taken when hitting an obstacle, and one which increases acceleration. Right now this mod isn't a perfect implementation of what I'd like, including too few upgrades which are a bit pricey relative to the benefit they give, but I still think it's better for players to have the option to use them than not.
+
+**Category & Tier:** Restored Content / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+___
+
 ### Jedi Choice Dialogue Enhancement
 
 **Name:** [Jedi Choice Dialogue Enhancement](https://deadlystream.com/files/file/2428-jedi-choice-dialogue-enhancement/)
@@ -1914,7 +2305,10 @@ Anyway, this mod makes the whole Jedi sequence more meaningful by getting rid of
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** Move "dan13_dorak.dlg" only.
+:::note
+Installation Instructions
+:   Move "dan13_dorak.dlg" only.
+:::
 
 ___
 
@@ -1942,13 +2336,16 @@ ___
 
 **Description:** Some of the visions which the player is meant to have of the past and the Star Maps have some issues, both of location and of the player's strange decision to wear armor to bed. This mod fixes that.
 
-**Category & Tier:** Appearance Change / 3 - Recommended
+**Category & Tier:** Appearance Change / 3 - Suggested
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Warning:** Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+:::warning
+Installation Warning
+:   Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
+:::
 
 ___
 
@@ -2000,11 +2397,11 @@ ___
 
 ___
 
-### Improved Grenades
+### Rebalanced Grenades
 
-**Name:** [Improved Grenades](https://deadlystream.com/files/file/1191-improved-grenades/)
+**Name:** [Rebalanced Grenades](https://deadlystream.com/files/file/2522-rebalanced-grenades/)
 
-**Author:** jc2
+**Author:** Timbo
 
 **Description:** In the base-game, grenades typically aren't very useful after the first few planets, once Force powers and the PC's combat capabilities begin to spin up. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.
 
@@ -2012,9 +2409,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Loose-File Mod
-
-**Installation Instructions:** Move the two files from the "Vanilla Increased Radius +Demo" folder to the override.
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -2034,7 +2429,10 @@ ___
 
 **Masters:** High-Poly Grenades
 
-**Installation Instructions:** Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
+:::note
+Installation Instructions
+:   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
+:::
 
 ___
 
@@ -2070,26 +2468,6 @@ ___
 
 ___
 
-### Sith Uniform Disguise Extension
-
-**Name:** [Taris Sith Uniform Disguise Extension](https://github.com/DarthParametric/K1_Taris_Sith_Uniform_Disguise_Extension/releases/tag/1.1)
-
-**Author:** Darth Parametric
-
-**Description:** You ever think about it being just a bit strange that you can get into the lower city just by disguising a single one of your party members as a Sith trooper? Especially when the other party member, still standing there in his flight jacket, is the famous Republic pilot Carth Onasi? It's a bit weird, right?
-
-This mod gives two drops of the Sith Trooper armor, and requires you and Carth to both be wearing the armor before going into the lower city. It makes just a bit more sense that the elevator guard would wave you down without any other checks that way.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
-**Download Instructions:** Download the "K1_Taris_Sith_Uniform_Disguise_Extension_v1.1.zip" file.
-
-___
-
 ### Leviathan Prison Break
 
 **Name:** [All Hands on Deck for the Leviathan Prison Break](https://deadlystream.com/files/file/2097-all-hands-on-deck-for-the-leviathan-prison-break/)
@@ -2104,7 +2482,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** The optional file included in the install is compatible with the builds, and it's your choice to use it or not.
+:::note
+Installation Instructions
+:   The optional file included in the install is compatible with the builds, and it's your choice to use it or not.
+:::
 
 ___
 
@@ -2138,7 +2519,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Use the K1CP compatible install option, if using the K1CP (you should be).
+:::note
+Installation Instructions
+:   Use the K1CP compatible install option, if using the K1CP (you should be).
+:::
 
 ___
 
@@ -2148,7 +2532,7 @@ ___
 
 **Author:** JCarter426
 
-**Description:** As you know, with some small variations KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed without giving the ending away, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.
+**Description:** As you know, KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be said without giving the ending away, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not make any visible changes. Please also note, a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with both the mod builds and this mod specifically.
 
 **Category & Tier:** Restored Content / 1 - Essential
 
@@ -2164,7 +2548,7 @@ ___
 
 **Author:** uwadmin12
 
-**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than powers like Lightning—or even Wave! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than Wave, but with more guaranteed damage.
+**Description:** By default, the "Throw Lightsaber" power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than powers like Lightning—or even Wave! The goal of this mod is giving Advanced Throw Lightsaber a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than Wave, but with more guaranteed damage.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
@@ -2204,7 +2588,47 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** I personally recommend option 2.
+:::note
+Installation Instructions
+:   I personally recommend option 2.
+:::
+
+___
+
+### Taris Rapid Transit
+
+**Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
+
+**Author:** CaptainSpoque
+
+**Description:** KOTOR can feel very tedious as a result of needing to run back and forth constantly to complete quests. This mod helps with that, at least a little, by adding a taxi system on Taris to help take you to specific destinations within the upper city.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** TSLPatcher Mod
+
+:::note
+Download Instructions
+:   Full or Light version is your choice.
+:::
+
+___
+
+### Manaan Rapid Transit
+
+**Name:** [Manaan Fast Travel System](https://deadlystream.com/files/file/2739-manaan-fast-travel-system/)
+
+**Author:** The_Chaser_One
+
+**Description:** A follow-up to the above, this time bringing fast travel to Manaan, the planet which easily benefits from it the most.
+
+**Category & Tier:** Immersion / 3 - Suggested
+
+**Non-English Functionality:** NO
+
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -2254,7 +2678,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Installation Instructions:** Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::note
+Installation Instructions
+:   Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
+:::
 
 ___
 
@@ -2272,9 +2699,15 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Known Bugs:** There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* heading down the beach and encountering the first squad of hostile Rakata! Make sure to encounter them *first*, then you are free to turn back and explore the cruiser.
+:::warning
+Known Bugs
+:   There is one serious bug that can happen with this mod if you visit the Republic Cruiser *before* heading down the beach and encountering the first squad of hostile Rakata! Make sure to encounter them *first*, then you are free to turn back and explore the cruiser.
+:::
 
-**Install Options:** Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
+:::note
+Installation Instructions
+:   Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
+:::
 
 ___
 
@@ -2316,7 +2749,7 @@ ___
 
 **Author:** offthegridmorty
 
-**Description:** Morty strikes again with a great mod—KOTOR 2 adds Battle Meditation as an active ability, and that's a fertile field for a back-port into the original game. Bastila is the only one who receives this power with this mod, making her much more unique and indeed powerful, as she's made out to be.
+**Description:** KOTOR 2 adds Battle Meditation as an active ability, and that's a fertile field for a back-port into the original game. Bastila is the only one who receives this power with this mod, making her much more unique and indeed powerful, as she's made out to be.
 
 **Category & Tier:** Added Content & Immersion / 3 - Suggested
 
@@ -2332,13 +2765,29 @@ ___
 
 **Author:** N-DReW25
 
-**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try an alternate build. This significantly increases the damage of sneak attacks for Mission and a Scoundrel player when they reach level 19.
+**Description:** Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try a sneak-focused build. This significantly increases the damage of sneak attacks for Mission when she reaches level 19.
 
 **Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+___
+
+### Sentinel Sneak Attack
+
+**Name:** [Sentinel Sneak Attack with Multiclassing](https://www.nexusmods.com/kotor/mods/1710)
+
+**Author:** darthbdaman
+
+**Description:** No matter how you slice it, Sentinel kind of sucks in KOTOR. It's a game where skills don't matter much, and in those rare instances where you do need them your party can always cover for you. It has a niche, but it's a niche that's useless. This mod endeavors to change that by giving Sentinels sneak attack die every 4 levels, which can even be gained on top of existing sneak attack die from the player's base class. This gives Sentinels more than just an out-of-combat niche to operate in.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** UNKNOWN
+
+**Installation Method:** HoloPatcher Mod
 
 ___
 
@@ -2374,7 +2823,26 @@ ___
 
 **Installation Method:** TSLPatcher Mod, Loose-File Patch
 
-**Installation Instructions:** Install the base mod first, then move the file from the patch directly to your override.
+:::note
+Installation Instructions
+:   Install the base mod first, then move the file from the patch directly to your override.
+:::
+
+___
+
+### Improved Cantina Sitters
+
+**Name:** [Improved Cantina Sitters](https://deadlystream.com/files/file/2792-improved-cantina-sitters/)
+
+**Author:** Alvar007
+
+**Description:** This mod fixes several issues with background NPCs in the game's various cantinas, including giving them proper animations.
+
+**Category & Tier:** Immersion / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
 
 ___
 
@@ -2408,9 +2876,10 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-**Download Instructions:** Be sure to download the TSLPatcher version.
-
-**Installation Instructions:** Use the regular install—other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
+:::note
+Installation Instructions
+:   Use the regular install—other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
+:::
 
 ___
 
@@ -2444,7 +2913,10 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-**Installation Instructions:** This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::note
+Installation Instructions
+:   This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
+:::
 
 ___
 
@@ -2461,6 +2933,27 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
+
+___
+
+### Swoop Platform Repair
+
+**Name:** [Swoop Platform Model Repair](https://deadlystream.com/files/file/2723-k1-swoop-platform-model-repairs/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod fixes several issues and oversights with the swoop track area on Taris.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+:::note
+Installation Instructions
+:   Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
+:::
 
 ___
 
@@ -2494,7 +2987,10 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::note
+Installation Instructions
+:   If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
+:::
 
 ___
 
@@ -2512,7 +3008,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
+:::note
+Installation Instructions
+:   If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
+:::
 
 ___
 
@@ -2562,7 +3061,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Download Instructions:** I recommend the Base install option. If you wish to add these NPCs to Dantooine, you can also install the optional module; just make sure to add the compatibility patch if you're using 'Cloaked Jedi Robes' above.
+:::note
+Download Instructions
+:   I recommend the Base install option. If you wish to add these NPCs to Dantooine, you can also install the optional module; just make sure to add the compatibility patch if you're using 'Cloaked Jedi Robes' above.
+:::
 
 ___
 
@@ -2596,7 +3098,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Recommend the Revisited option.
+:::note
+Installation Instructions
+:   Recommend the Revisited option.
+:::
 
 ___
 
@@ -2613,6 +3118,11 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+:::warning
+Known Bugs
+:   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
+:::
 
 ___
 
@@ -2694,7 +3204,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::note
+Installation Instructions
+:   Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
+:::
 
 ___
 
@@ -2712,7 +3225,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::note
+Installation Instructions
+:   Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:::
 
 ___
 
@@ -2730,23 +3246,54 @@ ___
 
 **Installation Method:** Multi-Run TSLPatcher
 
-**Installation Instructions:** Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::note
+Installation Instructions
+:   Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
+:::
 
 ___
 
-### Weapon Stats Rebalance
+### Multifire & Autofire
 
-**Name:** [Weapon Base Stats Rebalance](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
+**Name:** [Multifire and Autofire and Finesse](https://www.nexusmods.com/kotor/mods/1711)
 
-**Author:** TK-664
+**Author:** darthbdaman
 
-**Description:** In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility especially on Taris.
+**Description:** This is a meaty mod that makes a lot of changes, and I strongly recommend reading the mod description in detail, but here is a brief synopsis: in KOTOR, repeating rifles (think machine guns) were supposed to be able to make multiple attacks per turn, but this was cut. This mod adds multifire (+1 attack per round) to all *rifles*, and autofire (+2 attacks per round) to *repeaters*, along with an attack (chance-to-hit) penalty to both weapon types, of -4 and -6 respectively. There are two important caveats to this: the rifles change was not something that was originally intended by BioWare (but which I don't find terribly unbalanced, because it helps enemies too); and the multifire and autofire *are not toggles*, they are always on for those weapon types. The mod does have several install options which do not add the multifire to rifles, however, if you don't want the change which BioWare did not intend.
 
-**Category & Tier:** Mechanics Change / 1 - Essential
+If you would prefer a pure damage increase to resolve the discrepancy in repeating rifle price/rarity rather than this multifire option, you can skip this mod and install JC's Blaster Adjustment below. JC's Blaster Adjustment can also be used in conjunction with any install option of Multifire and Autofire.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** HoloPatcher
+
+:::note
+Installation Instructions
+:   Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
+:::
+
+___
+
+### Blaster Adjustment
+
+**Name:** [JC's Blaster Adjustment](https://deadlystream.com/files/file/2827-jcs-blaster-adjustment-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** Although this mod was made as a standalone option to resolve multiple problems with blasters - low blaster base damage, minimal crit chance variety, and weaker repeaters than BioWare intended - it can also be used in conjunction with bdaman's mod above. Long story short, JC's mod takes KOTOR's blasters and (for the most part) gives them the stats of KOTOR 2's blasters, including their more varied critical chances and bonus damage. This takes a weapon type which is extremely limited in its potential in the original game and leaves them viable for players.
+
+**Category & Tier:** Mechanics Change / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
+
+:::note
+Installation Instructions
+:   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
+:::
 
 ___
 
@@ -2862,6 +3409,43 @@ ___
 
 ___
 
+### Repair Affects Stun Droid
+
+**Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2502-repair-affects-stun-droid-k1/)
+
+**Author:** offthegridmorty
+
+**Description:** For the past two years Morty has been belting out banger mods one after the other, and this mod is no exception. Logically, your repair skill represents your familiarity with machines, and the more you understand something, the easier it should be to break it, right? This mod scales the damage from the Stun Droid power line with your repair, making it more viable while also rewarding the player for skills investment.
+
+**Category & Tier:** Mechanics Change & Immersion / 2 - Recommended
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** TSLPatcher
+
+___
+
+### Alignment Affects Force Powers
+
+**Name:** [Alignment Affects Force Powers](https://deadlystream.com/files/file/2759-alignment-affects-force-powers-k1/)
+
+**Author:** offthegridmorty
+
+**Description:** Why is it that, if you've fallen to the absolute depth of the Dark Side, you can throw lightning no more powerful than when you were first beginning to fall? Why is it that, as a paragon of the Light, the strength of your connections changes nothing about the power of the Force you can use to defend yourself? Well, now it does. Be an enlightened Jedi with mighty buffs that last an extended duration, or a fierce Sith Lord whose lightnings are easy to cast and mercilessly damaging. But better still, this mod isn't about a power fantasy—there are consequences that come from aligning strongly with one side, leading to atrophied abilities from the other extreme. It's a well-thought-out design that is well-balanced and feels great ingame while also being logically consistent. In my view, that makes this mod a must-have.
+
+**Category & Tier:** Mechanics Change & Immersion / 1 - Essential
+
+**Non-English Functionality:** YES, though some text may be blank or in English
+
+**Installation Method:** TSLPatcher
+
+:::note
+Installation Instructions
+:   Ignore the Patch folder unless using K2 Force Powers for K1 (untested, but should function). I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
+:::
+
+___
+
 ### Galaxy Map Fix
 
 **Name:** [Galaxy Map Fix Pack](http://deadlystream.com/files/file/1068-k1-galaxy-map-fix-pack/)
@@ -2876,7 +3460,10 @@ ___
 
 **Installation Method:** TSLPatcher
 
-**Installation Instructions:** If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen.html)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; otherwise, install the base mod now.
+:::note
+Installation Instructions
+:   If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; otherwise, install the base mod now.
+:::
 
 ___
 
@@ -2886,15 +3473,23 @@ ___
 
 **Author:** Flachzangen, bash version by /u/th3w1zard1
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
+
+:::warning
+Note
+:   It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+:::
 
 **Category & Tier:** Patch / 1 - Essential
 
 **Installation Method:** .bat Patcher
 
-**Installation Instructions:** Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, **say that TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete.html).
-
-**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::note
+Installation Instructions
+:   Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, **say that TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
+    
+    **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::
 
 ___
 
@@ -2914,9 +3509,43 @@ ___
 
 **Masters:** Ultimate Character Overhaul & Various Texture Mods
 
-**Download Instructions:** Skip the compatch for Better Twi'lek Male Heads if you chose to use Leilukin's Male Twi'lek NPC Diversity.
+:::note
+Download Instructions
+:   Skip the compatch for Better Twi'lek Male Heads if you chose to use Leilukin's Male Twi'lek NPC Diversity.
+:::
 
-**Installation Instructions:** Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP (delete "PLC_SSldCrps.tpc" before moving files to override), and then all remaining content that matches content you chose to use from the builds (again, skipping Better Twi'lek Male Heads, if using Leilukin's mod). If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+:::note
+Installation Instructions
+:   Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale. Only then move the files to your override), and then all remaining content that matches content you chose to use from the builds (again, skipping Better Twi'lek Male Heads, if using Leilukin's mod). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.
+:::
+
+___
+
+### Character Textures & Model Fixes
+
+**Name:** [Character Textures & Model Fixes](https://deadlystream.com/files/file/2659-4x-upscale-character-textures-model-fixes/)
+
+**Author:** Redrob41
+
+**Description:** This mod is an upscale of virtually all NPC textures in the game, including aliens and some creatures. But that's not all—Rob is skilled with texture work, and although this package uses AI as a base, he's gone over it by hand and corrected, adjusted, and in some cases entirely retextured parts of the textures to eliminate hallucinations, burring or fuzziness, and preserve the original aesthetic of the texture. What's more, Rob's forte is modeling, and he's included a huge series of model adjustments and fixes along with this package which fixes various rendering issues. I can't recommend this package highly enough.
+
+**Category & Tier:** Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File (with optional automation)
+
+:::note
+Download Instructions
+:   *Strongly* recommend the 2x .tpc version; the fidelity loss for 2x is minimal, .tpc is a lossless conversion and is much slimmer in filesize, and the automated compatibility program for this mod relies on the filetype being .tpc to function.
+:::
+
+:::note
+Installation Instructions
+:   If you are on a system which can run .bat files, I *strongly* recommend using the automated system to deal with compatibility for this mod. To do so, first extract redrob's mod from its archive, then go to [this page](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/cleaner.bat) and click on the button with the arrow pointing down at the top of the code list (the one which says "download raw file"). Place cleaner.bat in the folder from redrob's mod called "Copy contents to KotOR's Override folder", then go to [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/cleanlist_k1.txt) and repeat the same step, placing cleanlist_k1.txt in the same location. You can now run cleanlist.bat: follow the instructions onscreen, selecting whether you did or didn't use any of the given mods, and the batch file will automatically delete the incompatible files. Once you reach the end of the list, you can exit the .bat window, delete cleaner.bat and cleanlist_k1.txt, and then move the remaining files in the folder to your override.
+    
+    If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/redrob_deletions.md).
+:::
 
 ___
 
@@ -2932,11 +3561,14 @@ ___
 
 **Installation Method:** Executable
 
-**Installation Instructions:** If you intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
+:::note
+Installation Instructions
+:   If you intend to add widescreen support, *proceed to the below section and* **FULLY** *apply your chosen widescreen resolution* **AND** *all additional widescreen support mods you choose to use* **BEFORE** *completing this step*. Once you are done applying all your chosen widescreen content, you are then free to apply this patch.
+    
+    Additionally, **DO NOT** apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!
+:::
 
-Additionally, **DO NOT** apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!
-
-## Optional Widescreen
+## Optional Widescreen & Extended Widescreen Support Mods
 
 If you want support for widescreen resolutions above 1280x1024, it's highly recommended that you follow the instructions presented in the following video. By using UniWS, you also avoid many of the issues caused by FlawlessWidescreen, including savegame corruption:
 
@@ -2946,9 +3578,219 @@ Although the video says otherwise, on some operating systems setting your displa
 
 Also note that, upon application of widescreen, *you will need to launch the game directly from the executable from that point on*. This means, for instance, not launching the game through the Steam interface. This is due to the edits made by widescreen which break the handshake between Steam and the executable.
 
-### Widescreen Bugfixes & Extended Support Mods
+After you've applied UniWS, you can also install the mods below, which further enhance the game's widescreen implementation significantly:
 
-Following the application of basic widescreen support, if you would like additional widescreen support mods (including menus above 800x600 and high-resolution cutscenes), or if you begin to experience the fullscreen bug (game crashing when playing cutscenes + general instability), see [**here**](/modding/mod_builds/k1/widescreen) for additional mods and methods which can improve widescreen and fix the fullscreen bug. Most of these mods are covered in the Xuul video above, so note you may have already installed them as part of that video, but as of writing some of them are NOT present in the video.
+### Turret Cockpit Widescreen
+
+**Name:** [Turret Cockpit Widescreen](https://www.nexusmods.com/kotor/mods/1211)
+
+**Author:** MadDerp
+
+**Description:** Fixes visual issues in the turret cockpit caused by widescreen showing angles which were never supposed to be visible.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### HR Menus
+
+**Name:** [KOTOR High Resolution Menus](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/?tab=comments)
+
+**Author:** ndix UR
+
+**Description:** Edits your game's .exe file to allow the in-game menus to be represented at your game's edited resolution rather than the permanent 800x600 of the default port. This will only work on the GoG, 4-disk, MacOS, and UniWS-patched Steam versions of the game; for it to be effective, the game must *already be patched* to your widescreen resolution of choice (IE, make sure you've applied UniWS first)!
+
+**Category & Tier:** Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** .bat Patcher with Loose-File Components
+
+:::note
+Installation Instructions
+:   Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
+:::
+
+___
+
+### HD UI Menu Pack
+
+**Name:** [HD UI Menu Pack](https://deadlystream.com/files/file/1226-hd-ui-menu-pack/)
+
+**Author:** ndix UR
+
+**Description:** While the previous mod allows the in-game menus to display at higher resolutions, it doesn't include the rebuilt icons and UI elements that would make those menus appear functional and sharp at higher resolution. This mod is designed to visually improve all the various menu UI elements so they're clear at the higher resolutions. For all intents, it's a mandatory patch of the above mod.
+
+**Category & Tier:** Patch / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Workbench Camera Tweak
+
+**Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1742-workbench-upgrade-screen-camera-tweak-for-k1/)
+
+**Author:** Darth Parametric
+
+**Description:** A camera tweak for running the game at higher resolutions intended to allow you to examine weapon models with a little bit more detail in the Workbench upgrade screen.
+
+**Category & Tier:** Graphics Improvement / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Pretty Good! Icons
+
+**Name:** [Pretty Good! Icons](https://deadlystream.com/files/file/1815-pretty-good-icons-for-kotor/)
+
+**Author:** ajdrenter
+
+**Description:** A comprehensive upscale of all the various icons in the game. Very well-done and essential for visual clarity while using HR Menus.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
+:::
+
+___
+
+### Robe Icons for JC's Cloaked Robes
+
+**Name:** [HD Robe Icons for JC's Cloaked Jedi Robes](https://deadlystream.com/files/file/2303-hd-robe-icons-for-jcs-cloaked-jedis-and-effixs-extra-robes/)
+
+**Author:** Nehua
+
+**Description:** Rather than using icons matching the vanilla robe appearances even when using JC's cloaked Jedi robes, this mod adds icons specifically matching the cloaked robes.
+
+**Category & Tier:** Appearance Change & Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+**Masters:** JC's Cloaked Jedi Robes
+
+:::note
+Installation Instructions
+:   In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
+:::
+
+___
+
+### Upscaled Computer
+
+**Name:** [Upscaled Computer](https://deadlystream.com/files/file/2025-upscaled-computer/)
+
+**Author:** Dark Hope
+
+**Description:** Adds an HD computer interface, really only valuable when playing in widescreen due to menu limitations.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Widescreen Fade Fix
+
+**Name:** [Widescreen Fade Fix](https://deadlystream.com/files/file/1792-kotor-widescreen-fade-fix/)
+
+**Author:** Doiinko
+
+**Description:** At modded resolutions, part of the screen fades in at a different speed than the rest of the screen. This simple mod fixes the fade so it's uniform.
+
+**Category & Tier:** Bugfix / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Main Menu Widescreen Fix
+
+**Name:** [Main Menu Widescreen Fix](https://deadlystream.com/files/file/1173-k1-main-menu-widescreen-fix/)
+
+**Author:** DarthParametric
+
+**Description:** Like the turret cockpit, by default the game's main menu isn't intended to be viewed in widescreen. This fix widens the viewing angle of the main menu and moves the smoke effects to the edge of the screen, so the menu appears as it should even in higher resolutions.
+
+**Category & Tier:** Bugfix / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+___
+
+### Cutscenes Rescaled
+
+**Name:** [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2380-k1-cutscenes-rescaled/)
+
+**Author:** Pops Maellard
+
+**Description:** This mod is a *killer* cutscene improvement mod, using a very clean, very sharp AI pass to upscale and clarify the cutscenes. A movie replacer like this is necessary to fix the fullscreen bug which causes forced game minimization when cutscenes play (plus they're just *really* good), so it's hugely recommended to use it whether you experience issues with fullscreen play or not.
+
+Unfortunately, there's a price for the quality of Pops's work: the files are extremely hefty, coming in at a whopping 15 gigs. This mod is by far the better of the two cutscene mods available, but if you're on limited data, a poor connection or have limited drive space, it's a much better idea to use naelavok's remastered cutscenes below rather than Pops's version here. If you've got the space and the speed, though, this is where it's at.
+
+**Category & Tier:** Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Choose the resolution option which most closely fits your monitor's screen size during the download process. I *STRONGLY* recommend choosing the 30fps option for that resolution—there have been crashes directly linked to the 60fps versions. When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Bear in mind that the files from this mod go in your *movies* folder, not override.
+    
+    If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::
+
+___
+
+### Remastered Cutscenes
+
+**Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
+
+**Author:** naelavok 
+
+**Description:** Using predictive AI, reddit user naelavok has upscaled the cutscenes for both games out of their horrendous default resolution, to be much more crisp and viewable. This work was done back in 2019, if you can believe it, and is thus much more limited than Pops's version above. Nevertheless it's still a massive improvement over the default cutscenes, and still fixes the fullscreen bug, if you're experiencing it.
+
+**Category & Tier:** Graphics Improvement / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod with Possible Hex Editing Requirements
+
+:::warning
+Known Bugs
+:   With this movie pack, the title crawl movie is broken and will not play normally. It can be skipped and does not crash the game, but will not display.
+:::
+
+:::note
+Installation Instructions
+:   Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
+    
+    If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
+:::
 
 ## Misc. Basegame Issues & Fixes
 

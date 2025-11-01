@@ -1,6 +1,9 @@
 # KOTOR Mod Builds
 
-**If you do nothing else, PLEASE read the 'Instructions' section before continuing on to the mod lists!**
+:::note
+Note
+:   If you do nothing else, PLEASE read the [Instructions](#Instructions) section before continuing on to the mod lists!
+:::
 
 New users run the risk of having content spoiled for them otherwise, and all users need to read the special installation instructions listed here to install the mod builds properly!
 
@@ -20,7 +23,7 @@ Each build is modular in nature, meaning that most mods aren't reliant upon one 
 
 If the above has sold you, then by all means, please continue down to the *Instructions* section. But I understand why it might not have; after all, a premise is all fine and well, but does it deliver?
 
-If you want some additional convincing, I invite you to take a look at [this quick list of bullet-points](/modding/mod_builds/why_use.html) about what the mod builds offer, and why those offerings are unique.
+If you want some additional convincing, I invite you to take a look at [this quick list of bullet-points](/modding/mod_builds/why_use) about what the mod builds offer, and why those offerings are unique.
 
 ## Instructions
 
@@ -56,38 +59,50 @@ As for actually installing these mods, there are a few simple rules to follow:
 
 ### PC/Mac
 
-[KOTOR 1 Spoiler-Free Build](/modding/mod_builds/k1/spoiler-free.html)
+[KOTOR 1 Spoiler-Free Build](/modding/mod_builds/k1/spoiler-free)
 
-[KOTOR 1 Full Build](/modding/mod_builds/k1/full.html)
+[KOTOR 1 Full Build](/modding/mod_builds/k1/full)
 
 __
 
-[KOTOR 2 Spoiler-Free Build](/modding/mod_builds/k2/spoiler-free.html)
+[KOTOR 2 Spoiler-Free Build](/modding/mod_builds/k2/spoiler-free)
 
-[KOTOR 2 Full Build](/modding/mod_builds/k2/full.html)
+[KOTOR 2 Full Build](/modding/mod_builds/k2/full)
 
 ___
 
 ### Android/iOS
 
-[KOTOR 1 Spoiler-Free Mobile Build](/modding/mod_builds/k1/spoiler-free_mobile.html)
+[KOTOR 1 Spoiler-Free Mobile Build](/modding/mod_builds/k1/spoiler-free_mobile)
 
-[KOTOR 1 Full Mobile Build](/modding/mod_builds/k1/full_mobile.html)
+[KOTOR 1 Full Mobile Build](/modding/mod_builds/k1/full_mobile)
 
 __
 
-[KOTOR 2 Spoiler-Free Mobile Build](/modding/mod_builds/k2/spoiler-free_mobile.html)
+[KOTOR 2 Spoiler-Free Mobile Build](/modding/mod_builds/k2/spoiler-free_mobile)
 
-[KOTOR 2 Full Mobile Build](/modding/mod_builds/k2/full_mobile.html)
+[KOTOR 2 Full Mobile Build](/modding/mod_builds/k2/full_mobile)
 
 ## FAQ
 
-It's highly recommended that you read the Builds' [**FAQ**](/modding/mod_builds/faq.html) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
+It's highly recommended that you read the Builds' [FAQ](/modding/mod_builds/faq) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
 
 
 ## Changelog
 
-NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates.
+NOTE: Only major changes are reflected in changelogs. The builds undergo constant iterating and compatibility work, but large batches of mods are only added during Revision-level updates. Older changelogs, as well as a full list of changes for all Revisions 11/01/25 and on, can be found [here](/modding/mod_builds/changelog). Please note that the full changelogs contain spoilers!
+
+### 11/01/2025
+
+The "Aspyr Patch" build release. Revision 12 was originally intended to be released significantly later, in 2026, after the development of several new mods designed specifically for use in the mod builds. Mounting problems with applying widescreen to unpatched copies of KOTOR 2, however, as well as advances in fixing many of the broken parts of the Aspyr patch (AKA the current patch version of KOTOR 2 on GoG/Steam), encouraged us to move up our release schedule and refocus this Revision on improving the Aspyr patch of the game to make it a functional standard for players. As a happy coincidence, this also allowed us to catch up on a backlog of KOTOR mods to be tested, as it had fallen behind KOTOR 2 by almost six months due to the long delays while developing Revision 11.
+
+Highlights include:
+1. As usual, dozens of new mods for both games have been integrated
+2. Integration of J's series of fixes to the Aspyr patch of KOTOR 2, including the 3C-FD patcher; water fix; lightsaber fixes; and lightmap fixes.
+3. Inclusion of Redrob's 2k AI upscales of characters for both games, which were done with AI as a base but then manually worked-over, and include model fixes to enhance their display ingame even further. Redrob is a veteran skinnner and model editor, and his work is extremely high-quality.
+4. Offthegridmorty's Force tweaks for both games (Alignment Affects Force Powers & Repair Affects Stun Droids), as well as some great work only for KOTOR 2: Mines Overhaul, the very scary True Sith Assassins, and For Mandalore! being just a few highlights.
+5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
+6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
 ### 03/11/2025
 
@@ -100,13 +115,7 @@ This Revision's highlights include:
 3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
 
-### 10/9/2023
-
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer be hosted on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
-
 ___
-
-Changelogs older than 10/09/2023 can be found [here](/modding/mod_builds/changelog.html)!
 
 ## Special Thanks
 
