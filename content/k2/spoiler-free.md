@@ -1407,6 +1407,11 @@ ___
 
 **Installation Method:** Loose-File Mod
 
+:::note
+Download Instructions
+:   If you don't like the little semi-random bronze pieces on each lightsaber hilt, download w_lghtsbr_001.tga and move that file to your override *after* installing the base version of the mod
+:::
+
 ___
 
 ### Random Panels
