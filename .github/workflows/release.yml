@@ -55,6 +55,7 @@ jobs:
           main_branch="main"
           dev_branch="dev"
           release_branch="release/$next_tag"
+          cd mod-builds
           # Create release branch
           git checkout "$dev_branch"
           git checkout -b "$release_branch"
