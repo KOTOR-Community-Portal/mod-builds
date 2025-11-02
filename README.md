@@ -1,6 +1,6 @@
 # Mod Builds
 
-This repository is used for development and support of the [KOTOR Community mod builds](https://kotor.neocities.org/modding/mod_builds/).
+This repository is used for development and support of the [KOTOR Community Mod Builds](https://kotor.neocities.org/modding/mod_builds/).
 
 If you are looking to install mods, <ins>**PLEASE FOLLOW THE INSTRUCTIONS ON THE WEBSITE**</ins>. This repository often contains content which is still under active development and untested.
 
