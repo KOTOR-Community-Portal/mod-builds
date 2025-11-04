@@ -13,6 +13,36 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: "sschmid/Entitas"
+          fetch-depth: 0
+          sparse-checkout: .github
+          path: "entitas"
+      - uses: actions/checkout@v4
+        with:
+          repository: "SanderMertens/flecs"
+          fetch-depth: 0
+          sparse-checkout: .github
+          path: "flecs"
+      - id: semver-entitas
+        uses: BBBrassil/action-semver@v1
+        with:
+          workspace: "entitas"
+      - id: semver-flecs
+        uses: BBBrassil/action-semver@v1
+        with:
+          workspace: "flecs"
+          prefix: "v"
+      - run: |
+          echo "Entitas: ${{ steps.semver-entitas.outputs.core }}"
+          echo "Flecs:   ${{ steps.semver-flecs.outputs.core }}"
+
+          
   release:
     runs-on: ubuntu-latest
     steps:
@@ -21,7 +51,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          path: "mod-builds"
       - name: Configure Git
         run: |
           git config --global user.name ${{ github.actor }}
@@ -31,7 +60,6 @@ jobs:
         uses: BBBrassil/action-semver@v1
         with:
           prefix: "v"
-          workspace: "mod-builds"
       - name: Versioning
         id: versioning
         run: |
@@ -55,7 +83,6 @@ jobs:
           main_branch="main"
           dev_branch="dev"
           release_branch="release/$next_tag"
-          cd mod-builds
           # Create release branch
           git checkout "$dev_branch"
           git checkout -b "$release_branch"
