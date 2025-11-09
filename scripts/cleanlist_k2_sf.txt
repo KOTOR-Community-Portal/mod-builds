@@ -14,7 +14,7 @@ Atton Rand with Scruff by felixfelicitas,P_AttnH1.tpc,P_AttnH1D1.tpc,P_AttnH1D2.
 Bao-Dur/Darth Maul by Nimduril,P_Bao_DurA.tpc,P_Bao_DurAD01.tpc,P_Bao_DurH.tpc,P_Bao_DurHD1.tpc,P_Bao_DurHD2.tpc,P_BaoDur_Arm.tpc,P_BaoDurH.mdl,P_BaoDurH.mdx
 Handmaiden - Fit and Athletic by Fair Strides AND/OR Robes With Shadows by PapaZinos,P_HandmaidBAD01.tpc,P_HandmaidenA.tpc,P_HandmaidenAD01.tpc,P_HandmaidenBA.mdl,P_HandmaidenBA.mdx,P_HandmaidenBB.mdl,P_HandmaidenBB.mdx,P_HandmaidenBD.mdl,P_HandmaidenBD.mdx,P_HandmaidenH.tpc,P_HandmaidenHD1.tpc,P_HandmaidenHD2.tpc
 [VRHK] by Kexikus,P_HK47_01.tpc
-Robes with Shadows by PapaZinos,P_Kreia1hBB.mdx,P_KreiahBB.mdx,P_KreiaBB.mdl,P_KreiaBB.mdx,P_VisasBB.mdl,P_VisasBB.mdx,PFBIM.mdl,PFBIM.mdx,PFBMM.mdl,PFBMM.mdx,PFBNM.mdl,PFBNM.mdx,PMBIM.mdl,PMBIM.mdx,PMBMM.mdl,PMBMM.mdx,PMBNM.mdl,PMBNM.mdx
+Robes with Shadows by PapaZinos,P_Kreia1hBB.mdx,P_Kreia1HBB.mdl,P_KreiahBB.mdx,P_KreiaBB.mdl,P_KreiaBB.mdx,P_VisasBB.mdl,P_VisasBB.mdx,PFBIM.mdl,PFBIM.mdx,PFBMM.mdl,PFBMM.mdx,PFBNM.mdl,PFBNM.mdx,PMBIM.mdl,PMBIM.mdx,PMBMM.mdl,PMBMM.mdx,PMBNM.mdl,PMBNM.mdx
 Lore-Friendly Mandalore by constantinople33,P_MandB.tpc
 Mira Unpoofed by Ashton Scorpius,P_MiraH.mdl,P_MiraH.mdx,P_MiraH.tpc,P_MiraHD1.tpc,P_MiraHD2.tpc
 T3M4 HD 2K by Darth_Sapiens,P_T3M4_01.tpc
