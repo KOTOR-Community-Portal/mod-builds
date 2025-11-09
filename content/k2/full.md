@@ -1932,9 +1932,7 @@ ___
 
 **Description:** PartySwap is a legendary mod, and one of the best ever made for KOTOR 2. Through some unobtrusive scripting magic, it allows you to bring both the Disciple and Handmaiden with you as companions simultaneously, without removing another companion from the party wheel. You can experience all their content and use them both throughout the entire campaign, as was originally intended by Obsidian.
 
-Be aware, however, that PartySwap *does* require some fourth wall-breaking elements, including the need to use a script and dialogue window to summon the Handmaiden in order for its party trickery to work. I don't like this any more than you probably do, but I still think having both the Handmaiden and Disciple is far superior to having only one of them, and I think it's an acceptable price for what the mod provides.
-
-The mod gives you a stim to manage the Handmaiden and Disciple (spawning & despawning them) which you use to run the script. This stim appears in the *shields* quickbar at the bottom-left of the screen, however; be aware of this, since it doesn't show up in the normal stims category!
+The mod gives you a communicator which you use to contact the *Ebon Hawk* to manage the Handmaiden and Disciple, which you can use while in the overworld. This can be used to switch which of the two companions is currently in the party, or even have both Disciple and the Handmaiden at once if you so choose. This communicator appears in the *shields* quickbar at the bottom-left of the screen as soon as the player has both the Handmaiden and Disciple as companions.
 
 **Masters:** TSLRCM
 
