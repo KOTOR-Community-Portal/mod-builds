@@ -140,7 +140,7 @@ ___
 
 :::note
 Download Instructions
-:   If you want both the fix and the new force cage modelk, download just forcecage_updated_1.1.0.zip
+:   If you want both the fix and the new force cage model, download just forcecage_updated_1.1.0.zip
 :::
 
 ## Mod List
