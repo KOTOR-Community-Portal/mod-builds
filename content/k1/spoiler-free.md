@@ -1015,6 +1015,11 @@ ___
 **Masters:** K1 Community Patch
 
 :::note
+Download Instructions
+:   Ignore the txi.rar file.
+:::
+
+:::note
 Installation Instructions
 :   Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
 :::
