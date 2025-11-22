@@ -235,7 +235,7 @@ ___
 
 **Description:** The Ultimate series of mods is a comprehensive AI-upscale of planetary textures. Unlike previous AI upscales, the Ultimate series has no transparency problems while still retaining reflections on textures, all without any additional steps required. This mod upscales the Sith world of Korriban.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -256,7 +256,7 @@ ___
 
 **Description:** This mod upscales the forest-world of Kashyyyk, home of the Wookiees.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -277,7 +277,7 @@ ___
 
 **Description:** This mod upscales the iconic desert world Tatooine.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -298,7 +298,7 @@ ___
 
 **Description:** This mod upscales the peaceful retreat of Dantooine.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -319,7 +319,7 @@ ___
 
 **Description:** This mod is a compilation upscale which includes upscales for three different areas.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -345,7 +345,7 @@ ___
 
 **Description:** This mod upscales the water-world Manaan.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -366,7 +366,7 @@ ___
 
 **Description:** This mod upscales the sprawling world-city of Taris.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -387,7 +387,7 @@ ___
 
 **Description:** Ultimate Character Overhaul is a comprehensive AI-upscale of every character and piece of equipment in the game. This is an incredibly high-quality mod, and ShiningRed has even gone through the trouble to make compatibility patches for the mod builds, upscaling some of the later textures we use!
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -410,7 +410,7 @@ ___
 
 **Description:** This mod upscales the mysterious Lehon.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
