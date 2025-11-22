@@ -381,7 +381,7 @@ ___
 
 **Description:** In addition to fully upscaling all of the NPCs and equipment in the game, ShiningRed has also produced a series of mods using the same techniques that update all the planet textures. This mod upscales the two prologue worlds, as well as some interior modules.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -402,7 +402,7 @@ ___
 
 **Description:** Ultimate Character Overhaul is a comprehensive AI-upscale of every character and piece of equipment in the game. Unlike previous AI upscales, the Ultimate series has no transparency problems while still retaining reflections on character textures, all without any additional steps required. This is an incredibly high-quality mod, and ShiningRed has even gone through the trouble to make compatibility patches for the mod builds, upscaling some of the later textures we use!
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -423,7 +423,7 @@ ___
 
 **Description:** This mod upscales the steel jungle of Nar Shaddaa.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -444,7 +444,7 @@ ___
 
 **Description:** This mod upscales a world closely related to the player's past.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -470,7 +470,7 @@ ___
 
 **Description:** This mod upscales the mysterious jungles of Dxun, the heart of the Mandalorian crusade.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -491,7 +491,7 @@ ___
 
 **Description:** This mod upscales the great city of Iziz, sole city of Onderon.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -512,7 +512,7 @@ ___
 
 **Description:** This mod upscales a dead world.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -538,7 +538,7 @@ ___
 
 **Description:** This mod upscales a hollow world.
 
-**Category & Tier:** Graphics Improvement / 1 - Essential
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
