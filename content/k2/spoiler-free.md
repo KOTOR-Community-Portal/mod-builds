@@ -160,6 +160,7 @@ Download Instructions
 :::note
 Installation Instructions
 :   This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version. Just like 3C-FD, since the Mac Appstore version is not an executable, this program cannot be utilized on the Mac Appstore edition of the game.
+:::
 
 ___
 
