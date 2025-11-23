@@ -73,6 +73,7 @@ ___
 :::warning
 Usage Warning
 :   It's possible, if using auto level-up, to miss the feats to equip weapons and basic light armor while using this mod, unless you use the patch. Make sure to install it!
+:::
 
 ___
 
