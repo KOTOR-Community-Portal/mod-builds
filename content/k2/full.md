@@ -1431,6 +1431,8 @@ ___
 
 **Description:** J's mod here is some more black magic fuckery, finding out a way to make lightsaber "textures" (of a sort) apply both on the legacy patch and Aspyr patch versions of the game, when they were previously broken on the latter. What's more, he's made this mod compatible with JC's lightsaber visual effects above, and also added Crazy34's lightsaber reflections to his sabers, so your (and enemy!) lightsabers will dynamically reflect off of nearby surfaces. The model differentiations here aren't groundbreaking, but they're better than vanilla where all the sabers are entirely the same, especially when you see just how great the reflections look ingame.
 
+**Masters:** 3C-FD *or* a non-Aspyr game version
+
 **Category & Tier:** Appearance Change & Graphics Improvement / 1 - Essential
 
 **Non-English Functionality:** YES
