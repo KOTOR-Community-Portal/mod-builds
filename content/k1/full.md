@@ -914,7 +914,7 @@ ___
 
 :::note
 Installation Instructions
-:   Make a copy of the file and rename it PMBJ01, then move all files to override.
+:   Make a copy of the file and rename it PMBJ01.tga, then move all files to override.
 :::
 
 ___
