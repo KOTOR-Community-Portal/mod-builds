@@ -1701,7 +1701,7 @@ ___
 
 **Description:** This is just a thing what bothers me, from a game design perspective. Immediately after the prologue the player is given a weapon, but then they get a new and better weapon weapon immediately after, *before* facing any enemies with the first weapon. This mod moves the better weapon onto an enemy, so the player has to beat them with the first weapon before they can switch to the better option.
 
-**Category & Tier:** Immersion / 4 - Option
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES, however some text will be in English
 
