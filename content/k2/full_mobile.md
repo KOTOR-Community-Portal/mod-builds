@@ -1814,7 +1814,7 @@ ___
 
 **Description:** This is just a thing what bothers me, from a game design perspective. Why would you get a weapon and then get another weapon immediately after, *before* facing any enemies with the first weapon? This mod moves the vibrocutter outside the Peragus medical wing to the body of one of the active droids on the route to the security room, forcing the player to either use the plasma torch or hand-to-hand combat to fight the droids for at least one room.
 
-**Category & Tier:** Immersion / 4 - Option
+**Category & Tier:** Immersion / 4 - Optional
 
 **Non-English Functionality:** YES, however some text will be in English
 
