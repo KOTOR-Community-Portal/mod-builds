@@ -1240,7 +1240,10 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-**Installation Instructions:** If wishing to use the French, German, Spanish or Italian version of the mod, install the base mod first and then navigate to the folder called "Other languages (AFTER main mod)", enter the subfolder for your chosen language, and run the installer within.
+:::note
+Installation Instructions
+:	If wishing to use the French, German, Spanish or Italian version of the mod, install the base mod first and then navigate to the folder called "Other languages (AFTER main mod)", enter the subfolder for your chosen language, and run the installer within.
+:::
 
 ___
 
