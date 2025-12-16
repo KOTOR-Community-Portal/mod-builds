@@ -1236,13 +1236,13 @@ ___
 
 **Category & Tier:** Immersion / 3 - Suggested
 
-**Non-English Functionality:** PARTIAL - French, German, Spanish and Italian fully supported, but require specific install instructions.
+**Non-English Functionality:** French, German, Spanish and Italian fully supported.
 
 **Installation Method:** HoloPatcher Mod
 
 :::note
-Installation Instructions
-:	If wishing to use the French, German, Spanish or Italian version of the mod, install the base mod first and then navigate to the folder called "Other languages (AFTER main mod)", enter the subfolder for your chosen language, and run the installer within.
+Download Instructions
+:	If wishing to use a non-English mod version, download the mod version which matches your language of choice.
 :::
 
 ___
