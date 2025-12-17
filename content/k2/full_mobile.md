@@ -35,7 +35,7 @@ If you currently have a prior mod build version installed and would like to upda
 
 ### TSLRCM
 
-**Name:** [Mobile TSLRCM (The Sith Lords Restored Content Mod)](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/)
+**Name:** [Mobile TSLRCM (The Sith Lords Restored Content Mod)](https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/) and [**PATCH**](https://mega.nz/file/VY5WWKIY#mH8o62ASe1f1Sq1TMIOR4ipdWHFSPTiCtKq2nyK-uW0)
 
 **Author:** zbyl2, DarthStoney, Hassat Hunter & VarsityPuppet
 
@@ -54,6 +54,8 @@ Installation Instructions
     You now need to download [this file](https://deadlystream.com/files/file/1321-kotor-2-editable-executable/) and place it within your mods_*x* folder. **This file is critical for future installations to function properly**. This is a dummy .exe file which lets later mods install to the right place on your device, and without error. We will delete it as one of the final steps of this installation process, as it's only needed for installations to function normally.
     
     From this point forward all mods are installed as if the mods_*x* folder is the **main game directory**. For any TSLPatcher executable which asks you to select the main game folder/folder with the executable in it, you will select the mods_*x* folder. Similarly, any mods directing you to place their files within the game's override folder will be placed within the override folder within mods_*x*.
+
+	Finally, extract the patch. Within will be a file called 702kor.rim. Move this file into your mod_*x* folder's modules folder. This will allow certain later mods which modify that .rim to function as intended.
 :::
 
 ___
