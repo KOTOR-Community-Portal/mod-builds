@@ -2101,6 +2101,22 @@ Installation Instructions
 
 ___
 
+### Darth Malak's Lightsaber
+
+**Name:** [Darth Malak's Lightsaber](https://deadlystream.com/files/file/2506-darth-malaks-lightsaber-k1/)
+
+**Author:** Marius Fett
+
+**Description:** One of the very few flaws of Crazy's mod above was that its edits weren't applied to the game's main antagonist, Malak. This mod by Marius Fett uses Crazy's framework to give the big bad's lightsaber the same reflectivity as your own.
+
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 1 - Essential
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
+___
+
 ### Blaster Visual Effects
 
 **Name:** [Blaster Visual Effects](https://deadlystream.com/files/file/1271-jcs-blaster-visual-effects-for-k1/)
