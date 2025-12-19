@@ -16,12 +16,18 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: Get App Token
+        id: app_token
+        with:
+          app-id: ${{ vars.RELEASE_APP_ID }}
+          private-key: ${{ secrets.RELEASE_PRIVATE_KEY }}
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           path: "mod-builds"
+          token: ${{ steps.app_token.outputs.token }}
       - name: Configure Git
         run: |
           git config --global user.name ${{ github.actor }}
