@@ -1,4 +1,4 @@
-Mandatory Deletions: Click Y,P_BastilaH04.tpc
+Files that must be deleted regardless of mods used: click Y to delete,P_BastilaH04.tpc
 HQ Blasters by Sithspecter,C_DrdAssassin.mdl,C_DrdAssassin.mdx
 HQ Blasters by Sithspecter OR Droid Animations Fix by Zobizob,C_DrdWar.mdl,C_DrdWar.mdx
 HD War Droids by Dark Hope,C_DrdWar01.tpc,C_DrdWar02.tpc,C_DrdWar03.tpc,C_DrdWar04.tpc,C_DrdWar05.tpc
