@@ -1,4 +1,4 @@
-Files that must be deleted regardless of mods used: click Y to delete,P_BastilaH04.tpc
+Mandatory Deletions: click Y to delete,P_BastilaH04.tpc
 HD Astromechs by Dark Hope,C_DrdAstro01.tpc,C_DrdAstro02.tpc,C_DrdAstro03.tpc,P_T3M3_01.tpc
 HD Protocol Droids by Dark Hope,C_DrdProt01.tpc,C_DrdProt02.tpc,C_DrdProt03.tpc,C_DrdProt04.tpc
 HD War Droids by Dark Hope,C_DrdWar01.tpc,C_DrdWar02.tpc,C_DrdWar03.tpc,C_DrdWar04.tpc,C_DrdWar05.tpc
