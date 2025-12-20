@@ -76,10 +76,10 @@ jobs:
           git checkout "$dev_branch"
           git merge --no-ff "$main_branch"
           # Push
-          git checkout "$release_branch"
-          git push --set-upstream origin "$release_branch"
           git checkout "$main_branch"
-          git push origin tag "$next_tag"
           git push
           git checkout "$dev_branch"
           git push
+          git checkout "$release_branch"
+          git push --set-upstream origin "$release_branch"
+          git push origin tag "$next_tag"
