@@ -19,7 +19,7 @@ All the following steps must be performed before moving the mod files from the "
 17. If using Bao-Dur/Darth Maul by Nimduril, delete all files beginning P_Bao_Dur, as well as P_BaoDurH.mdl and P_BaoDurH.mdx. Only P_BaoDurBB.mdl and P_BaoDurBB.mdx should remain of the Bao-Dur files
 18. If using Handmaiden - Fit and Athletic by Fair Strides AND/OR Robes With Shadows by PapaZinos, delete all files beginning with "P_Handmaid" or "P_Handmaiden" EXCEPT for P_HandmaidenH.mdl and P_HandmaidenH.mdx
 19. If using Visually Repair HK by Kexikus, delete P_HK47_01.tpc
-20. If using Robes with Shadows by PapaZinos, delete P_Kreia1hBB.mdx, P_Kreia1hBB.mdl, P_KreiahBB.mdx, P_KreiaBB.mdl, and P_KreiaBB.mdx
+20. If using Robes with Shadows by PapaZinos, delete P_Kreia1hBB.mdx, P_Kreia1hBB.mdl, P_KreiaBB.mdx, P_KreiaBB.mdl, and P_KreiaBB.mdx
 21. If using Lore-Friendly Mandalore by constantinople33, delete P_MandB.tpc
 22. If using Mira Unpoofed by Ashton Scorpius, delete all files beginning with "P_MiraH"
 23. If using T3M4 HD 2K by Darth_Sapiens, delete P_T3M4_01.tpc
