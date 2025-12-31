@@ -223,48 +223,6 @@ ___
 
 ___
 
-### Republic Soldier Fix
-
-**Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
-
-**Author:** JCarter426
-
-**Description:** Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character.
-
-**Category & Tier:** Graphics Improvement & Appearance Change / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-:::note
-Installation Instructions
-:   Move the files from both the Override and Optional folders to your game's override folder.
-:::
-
-___
-
-### Republic Soldier's New Shade
-
-**Name:** [Republic Soldier's New Shade](https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/)
-
-**Author:** ebmar
-
-**Description:** By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Multi-Run TSLPatcher
-
-:::note
-Installation Instructions
-:   If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
-:::
-
-___
-
 ### PFHB02 Eye Fix
 
 **Name:** [PFHB02 Dark Side Transition Eye Fix](https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/)
@@ -2124,6 +2082,48 @@ Installation Instructions
 :   Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
     
     **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+:::
+
+___
+
+### Republic Soldier Fix
+
+**Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
+
+**Author:** JCarter426
+
+**Description:** Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character.
+
+**Category & Tier:** Graphics Improvement & Appearance Change / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Move the files from the mod's Override folder to your game's override folder. For compatibility, you will need to only install the player clothing texture replacement for Soldier-class characters: move all files beginning "PFBBL" and "PMBBL" from the mod's Player Clothing folder to your override.
+:::
+
+___
+
+### Republic Soldier's New Shade
+
+**Name:** [Republic Soldier's New Shade](https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/)
+
+**Author:** ebmar
+
+**Description:** By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Multi-Run TSLPatcher
+
+:::note
+Installation Instructions
+:   If using both components of JC's Republic Soldier Fix mod (the override files & the player replacement for the soldier characters), install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
 :::
 
 ___
