@@ -174,27 +174,6 @@ ___
 
 ___
 
-### Ported VO Replacements
-
-**Name:** [K1 Ported Alien VO Replacements](https://deadlystream.com/files/file/1426-k1-ported-alien-vo-replacements/)
-
-**Author:** Ashton Scorpius
-
-**Description:** Several alien species in the original game use recycled VO primarily utilized by other species, but KOTOR 2 gives these aliens unique voiceovers instead. This mod uses alien VO ported from KOTOR 2 to give these species their unique VO in the original game as well.
-
-**Category & Tier:** Immersion / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** HoloPatcher Mod
-
-:::note
-Installation Instructions
-:   Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
-:::
-
-___
-
 ### Duncan on Manaan
 
 **Name:** [Deadeye Duncan on Manaan](https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U)
