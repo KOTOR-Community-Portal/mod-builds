@@ -3312,7 +3312,7 @@ ___
 
 :::note
 Installation Instructions
-:   If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* the widescreen menus installation, and move the file from the optional download "HR Menu Patch.zip" file which corresponds to your resolution to your override folder *after* the initial installation completes; if not intending to play in widescreen, install the base mod now.
+:   If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* completing the rest of this guide, including widescreen menus installation (this is the only mod you will have to install out of presented order). When coming back to install this mod, if using widescreen you will move the file from the optional download "HR Menu Patch.zip" which corresponds to your resolution to your override folder, *after* completing the installation of the base mod. If you are not intending to play in widescreen, install the base mod only at this point.
 :::
 
 ___
