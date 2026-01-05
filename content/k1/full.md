@@ -391,8 +391,6 @@ ___
 :::note
 Installation Instructions
 :   For now, ignore all patches (those will be installed later). Just download the main package, and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
-    
-    Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.
 :::
 
 ___
