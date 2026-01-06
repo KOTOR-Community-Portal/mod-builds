@@ -3075,7 +3075,7 @@ ___
 
 :::note
 Installation Instructions
-:   Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.
+:   Install the VarsityPuppet/Rece compatibility option if using Ajunta Pall's Swords.
 :::
 
 ___
