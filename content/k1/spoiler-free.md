@@ -742,7 +742,7 @@ ___
 
 **Author:** Dark Hope
 
-**Description:** Adds higher-resolution default clothing, lekku, faces and skin to female twi'lek in the game. Please note that the default screenshots all show a new texture which I don't like and don't use—the examples of the texture versions we'll be using are in the mod description.
+**Description:** Adds higher-resolution default clothing, lekku, faces and skin to female twi'lek in the game. Please note that the default screenshots all show a new texture which I don't like and don't use. We use a slightly older mod version without as many head changes.
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
