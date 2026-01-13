@@ -1157,9 +1157,9 @@ ___
 
 ### HD Kiosk
 
-**Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
+**Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/files/file/2909-kiosk-model-fix-for-k1/)
 
-**Author:** Dark Hope
+**Author:** Dark Hope, Patch by Marcus Ramikin
 
 **Description:** Although again there's no side-by-side, this mod is a huge improvement over the default kiosk texture, which just looks vaguely like there's junk strewn over it.
 
@@ -1171,7 +1171,7 @@ ___
 
 :::note
 Download Instructions
-:   Download the "Kiosk HD 15.03.2024" version, then, ensuring you are logged in to Deadly Stream, the plc_kiosk3_fixed.zip attachment in Marius Fett's comment as the patch. **Make sure not to use the K2 version of the patch**. Doing so will result in a crash as soon as you leave the Taris hideout.
+:   Download the "Kiosk HD 15.03.2024" version.
 :::
 
 ___
