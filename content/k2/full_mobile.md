@@ -206,7 +206,7 @@ ___
 
 **Category & Tier:** Graphics Improvement & Bugfix / 1 - Essential
 
-**Non-English Functionality:** YES
+**Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
 
