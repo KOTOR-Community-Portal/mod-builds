@@ -11,6 +11,8 @@ Important
 
 See [here](/modding/mod_builds/k1/android) for general install instructions for Android, adopted from a reddit thread by Rasral123 with our thanks. You will need to install all mods to the referenced dummy directory on your PC or Mac *first*, then move that completed package over all at once to your phone in order for the builds to apply properly.
 
+**Please additionally note:** the 1.0.10 version of KOTOR on Android blocks game folder access on some systems and prevents modding. Rolling back the app to 1.0.9 seems to resolve these issues, and may be necessary depending upon your system.
+
 For iOS users, there is a tentative method to install these mods on an un-jailbroken iOS device [here](/modding/mod_builds/k1/ios).
 
 ### Install Computer Instructions
