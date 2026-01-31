@@ -1159,7 +1159,7 @@ ___
 
 **Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/files/file/2909-kiosk-model-fix-for-k1/)
 
-**Author:** Dark Hope, Patch by Marcus Ramikin
+**Author:** Dark Hope, Patch by Marius Fett
 
 **Description:** Although again there's no side-by-side, this mod is a huge improvement over the default kiosk texture, which just looks vaguely like there's junk strewn over it.
 
