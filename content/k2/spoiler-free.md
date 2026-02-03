@@ -2231,7 +2231,7 @@ ___
 
 ### SAwL
 
-**Name:** [SAwL](https://mega.nz/file/8IRV1LSY#wZZqDdiILBXolsVTuB84rVFxmYkFW6DSwz9Bttfr1ak)
+**Name:** [SAwL](https://mega.nz/file/EAhwGI6Q#9gGARimTCfQJFxpEm8uU89CkVKPR1xu2NEr6QaKseos)
 
 **Author:** Lewok2007
 
@@ -2241,12 +2241,7 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Multi-Run TSLPatcher
-
-:::note
-Installation Instructions
-:   Run the installer once for the first part of the install, then again to apply the second half.
-:::
+**Installation Method:** HoloPatcher
 
 ___
 
