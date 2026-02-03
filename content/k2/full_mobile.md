@@ -1555,12 +1555,7 @@ Be ready for a hard slog through the *Harbinger* if you choose to use this mod.
 
 **Non-English Functionality:** YES
 
-**Installation Method:** Multi-Run HoloPatcher
-
-:::note
-Installation Instructions
-:   Run the installer once for the first part of the install, then again to apply the second half.
-:::
+**Installation Method:** HoloPatcher
 
 ___
 
