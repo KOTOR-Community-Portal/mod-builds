@@ -31,6 +31,10 @@ As a final note, please bear in mind: if you are asked to direct a TSLPatcher ex
 
 It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
 
+### Native Windows Archiver & Extracting Mods
+
+Modern Windows OS versions come with their own archive extractors which can open files like .rar, .zip, etc which many of these mods are packaged as. The Windows extractor is quite bad at its job, however, and will fail to extract many of the mods included in this list because it doesn't understand their file structure and/or compression. In order to extract all the mods included in this list, please make sure to have a copy of a program like WinRAR or 7zip and use them to unpack the archives.
+
 ## Mod List
 
 ### KOTOR Dialogue Fixes
