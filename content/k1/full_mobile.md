@@ -35,6 +35,10 @@ It is *required* to be able to run executable files in order to install this lis
 
 If you currently have a prior mod build version installed on your device and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, you will need to uninstall your game (make sure modded contents are also deleted as part of the uninstall, and if they aren't, delete them manually!) then reinstall the game on your device before reconstructing a new install based off of the updated mobile build Revision and transferring the new mod set to your device, placing it over the freshly-reinstalled game.
 
+### Native Windows Archiver & Extracting Mods
+
+Modern Windows OS versions come with their own archive extractors which can open files like .rar, .zip, etc which many of these mods are packaged as. The Windows extractor is quite bad at its job, however, and will fail to extract many of the mods included in this list because it doesn't understand their file structure and/or compression. In order to extract all the mods included in this list, please make sure to have a copy of a program like WinRAR or 7zip and use them to unpack the archives.
+
 ## Mod List
 
 ### KOTOR Dialogue Fixes
