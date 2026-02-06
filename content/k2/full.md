@@ -35,6 +35,10 @@ It is critical to ensure that you only have **ONE** installation of KOTOR on you
 
 If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
 
+### Native Windows Archiver & Extracting Mods
+
+Modern Windows OS versions come with their own archive extractors which can open files like .rar, .zip, etc which many of these mods are packaged as. The Windows extractor is quite bad at its job, however, and will fail to extract many of the mods included in this list because it doesn't understand their file structure and/or compression. In order to extract all the mods included in this list, please make sure to have a copy of a program like WinRAR or 7zip and use them to unpack the archives.
+
 ### Linux Players
 
 Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. It's likely you will need to both lowercase the files before installing any installer-based mod and then again at the end of the process as a batch action in your game directory and all subfolders, as the TSLPatcher/HoloPatcher will generate several files as part of their install processes which will have capitals that are misread.

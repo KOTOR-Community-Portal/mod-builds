@@ -27,6 +27,10 @@ It is *required* to be able to run executable files in order to install this lis
 
 If you currently have a prior mod build version installed and would like to update to the current Revision, due to the importance of install order to the mod builds' function, there is unfortunately no way to do so without resetting to a fresh install and reinstalling the new build iteration on top. To do this, just perform the zeroing step listed above: uninstall your game, delete all remaining contents in the game directory (remember, frequently, especially on the Steam release of the game, mod content *will not* be uninstalled as part of the application's uninstallation), and then reinstall the game before applying the new build version.
 
+### Native Windows Archiver & Extracting Mods
+
+Modern Windows OS versions come with their own archive extractors which can open files like .rar, .zip, etc which many of these mods are packaged as. The Windows extractor is quite bad at its job, however, and will fail to extract many of the mods included in this list because it doesn't understand their file structure and/or compression. In order to extract all the mods included in this list, please make sure to have a copy of a program like WinRAR or 7zip and use them to unpack the archives.
+
 ### Known Bugs
 
 * There are significant camera angle errors in the scene where Carth is on the *Sojourn*'s bridge approaching Telos to engage the *Ravager*. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.

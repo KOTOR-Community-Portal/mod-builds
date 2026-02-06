@@ -23,6 +23,10 @@ As a final note, be aware that the TSLPatcher executable utilized in the install
 
 It is *required* to be able to run executable files in order to install this list. A wrapper program like Wineskin or some other option which will allow you to run executable files is necessary in order to proceed.
 
+### Native Windows Archiver & Extracting Mods
+
+Modern Windows OS versions come with their own archive extractors which can open files like .rar, .zip, etc which many of these mods are packaged as. The Windows extractor is quite bad at its job, however, and will fail to extract many of the mods included in this list because it doesn't understand their file structure and/or compression. In order to extract all the mods included in this list, please make sure to have a copy of a program like WinRAR or 7zip and use them to unpack the archives.
+
 ### Known Bugs
 
 * There are significant camera angle errors in a certain ingame cutscene late in the game, when a Republic ship is approaching Telos--you'll know it when you get there. We currently don't know why this is and are looking into it actively. The scene still plays properly, including audible dialogue, the camera simply doesn't face the proper direction when doing so.
