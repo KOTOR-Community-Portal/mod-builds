@@ -3013,7 +3013,7 @@ This is a common issue which users tend to think is caused by the mod builds, bu
 
 ### Character Stuck After Combat
 
-This isn't a bug that modding can fix (or cause), it's an engine bug. It's related to the game's framerate being unsynced with your monitor's refresh rate. If you're on a 60hz monitor, you can just toggle v-sync. If you're 144hz or similar, you can either set your monitor to 60hz manually for the duration of play and also toggle v-sync, OR edit the game's .ini file to set the refresh rate setting to your monitor's refresh rate.
+This isn't a bug that modding can fix (or cause), it's an engine bug. It's related to the game's framerate being unsynced with your monitor's refresh rate. If you're on a 60hz monitor, you can just toggle v-sync. If you're 144hz or similar, you can either set your monitor to 60hz manually for the duration of play and also toggle v-sync, OR edit the game's .ini file to set the refresh rate setting to your monitor's refresh rate. Note that if you opt for the former option, some software can interfere with the monitor's refresh rate and game's framerate actually syncing, including but not limited to AI frame prediction; graphics software-based v-sync; and some capture software. If you set your refresh rate to 60hz and enable v-sync ingame and the issue still happens, start hunting through your system software. Something is interfering with the values syncing properly.
 
 ### Swoop Racing
 
