@@ -1201,7 +1201,12 @@ ___
 
 **Non-English Functionality:** YES
 
-**Installation Method:** TSLPatcher Mod
+**Installation Method:** HoloPatcher Mod
+
+:::note
+Installation Instructions
+:   The option to gradually restore health while on the Ebon Hawk is compatible with the builds--if you'd like to use it, re-run the HoloPatcher and install that option after installing the base mod first.
+:::
 
 ___
 
