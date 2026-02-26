@@ -1835,7 +1835,7 @@ ___
 
 ### Improved Force Sight
 
-**Name:** [Improved Force Sight](https://mega.nz/file/0YwSlQpT#pF08ITF0Zf0EjSXF10YsCXLAZKMeD1HqgywXr6-TDWY)
+**Name:** [Improved Force Sight](https://mega.nz/file/lcBVASIY#hqeBqrU0SUH1U_LSVFW2Rt7zWqP_KAUTDQn1nl8zB88)
 
 **Author:** offthegridmorty
 
