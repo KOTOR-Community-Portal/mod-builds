@@ -120,11 +120,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-:::warning
-Known Bugs
-:   This mod causes some strong light reflections in a single area where it should not (Citadel Station), but the mod author is looking into resolving this.
-:::
-
 ___
 
 ### Stutter Fix
