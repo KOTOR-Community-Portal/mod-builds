@@ -717,6 +717,11 @@ ___
 
 **Installation Method:** Loose-File Mod
 
+:::note
+Download Instructions
+:   For this mod, download the .tga filetype version (not the .tpc).
+:::
+
 ___
 
 ### Better Twi'lek Heads
