@@ -1662,7 +1662,7 @@ ___
 
 :::note
 Installation Instructions
-:   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules.
+:   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules. Do not install the files from the "PC" folder unless you want your character's portrait appearance to be that of Revan.
 :::
 
 ___
