@@ -13,9 +13,6 @@
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
-
-___
-
 **Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
 
 **Author:** Pops Maellard
@@ -35,9 +32,6 @@ Unfortunately, there's a price for the quality of Pops's work: the files are ext
 **Installation Instructions:** When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Install the main module first, then open the "mods" version of the file and apply the upscaled cutscenes for any mods which you use from the main build list. Bear in mind that the files from this mod go in your *movies* folder, not override.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
-___
-
 **Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
 
 **Author:** naelavok 
@@ -53,9 +47,6 @@ ___
 **Installation Instructions:** Use only Pops Maellard's cutscenes or this version by naelavok. To install, choose the resolution option which most closely fits your monitor's screen size during the download process. Bear in mind that the files from this mod go in your *movies* folder, not override.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
-___
-
 **Name:** [K2 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
 
 **Author:** Pops Maellard
@@ -67,9 +58,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
 
 **Author:** DarthParametric
@@ -81,9 +69,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Ultrawide UI Letterboxing Fix for UniWS](https://deadlystream.com/files/file/1892-ultrawide-ui-dialogletterboxing-fix-for-uniws-219/)
 
 **Author:** Verinen
@@ -95,9 +80,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Upscaled Maps](https://www.nexusmods.com/kotor2/mods/1086)
 
 **Author:** Tunalex

@@ -2,7 +2,7 @@
 
 :::note
 Note
-:   If you do nothing else, PLEASE read the [Instructions](#Instructions) section before continuing on to the mod lists!
+:   If you do nothing else, PLEASE read the [Instructions](#instructions) section before continuing on to the mod lists!
 :::
 
 New users run the risk of having content spoiled for them otherwise, and all users need to read the special installation instructions listed here to install the mod builds properly!
@@ -69,8 +69,6 @@ __
 
 [KOTOR 2 Full Build](/modding/mod_builds/k2/full)
 
-___
-
 ### Android/iOS
 
 [KOTOR 1 Spoiler-Free Mobile Build](/modding/mod_builds/k1/spoiler-free_mobile)
@@ -86,7 +84,6 @@ __
 ## FAQ
 
 It's highly recommended that you read the Builds' [FAQ](/modding/mod_builds/faq) if you have any questions about the current implementation of the Builds, problems with the Builds, or a desire to include mods of your own outside of those available in the Builds!
-
 
 ## Changelog
 
@@ -114,9 +111,6 @@ This Revision's highlights include:
 2. Integration of a new, extremely high-quality HD cutscene package, so crisp it blows even the previous HD cutscenes away
 3. The creation & integration of several "Thematic"-series mods by JC and myself, including our (thus far) magnum opus—KOTOR 2's "TOMB"
 4. Fixing of a particularly long-lived and vexing lighting issue on Taris that made many of the surfaces painfully reflective
-
-___
-
 ## Special Thanks
 
 Principle thanks to JCarter426, longtime collaborator and co-author of the mod builds. Without his assistance maintaining and improving guides of this size would not be possible, and a massive debt is owed to him both by myself and the community more broadly.
@@ -125,4 +119,4 @@ A very special thanks to my testers! Although I do all the playthrough testing m
 
 Special thanks also to all of the modders whose work I've been using over the years, and an especial thanks to DarthParametric, Fair Strides, Deltm, A Future Pilot, and Nomuit, who have at various times all been indispensable helping me with testing, bugfixing, and rebuilding mods to support build compatibility!
 
-Thanks to mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/kotor) for updating them for me.
+Thanks to mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/MxYDSG2FZu) for updating them for me.

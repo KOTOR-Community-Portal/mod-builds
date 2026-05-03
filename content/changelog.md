@@ -16,7 +16,6 @@ Highlights include:
 5. Functional autofire and multifire options for ranged weapons in KOTOR, courtesy of darthbdaman.
 6. The absolutely *incredible* TSL Expanded Ending mod by Wildkarrde, which links several plot points which were still left hanging in the wind with TSLRCM, as well as making the ending feel more coherent and much less sudden.
 
-
 The full changelog is:
 
 **KOTOR:**
@@ -62,7 +61,6 @@ Removed:
 4. Improved Grenades: superceded by Rebalanced Grenades
 5. Weapon Stats Rebalance: superseded by changes made by JC in JC's Blaster Adjustment + darthbdaman in his repeater fixes. I also disliked some of the later changes made to WSR and think these other mods change things more in line with the original intent & balance
 6. Sith Uniform Disguise Extension: current implementation is buggy, removed pending update/alternate implementation
-
 
 **KOTOR 2:**
 
@@ -122,7 +120,7 @@ This Revision's highlights include:
 
 ### 10/9/2023
 
-1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/kotor
+1. Sunsetting of Reddit support for the mod builds. The mod builds are now principally hosted offsite on kotor.neocities.org, with satellite hosting continuing as Steam guides; the builds themselves, as well as support for them, will no longer take place on reddit. Primary support migrated to the Discord at https://discord.gg/MxYDSG2FZu
 
 ## 2022
 
@@ -144,8 +142,6 @@ This Revision's highlights include:
 4. Thanks to further collaboration with ShiningRed, tightened up the AI upscale mods to remove the last problem textures, and integrated most of the Nar Shaddaa upscale, which was previously excluded.
 
 5. Offsite support: the mod builds are now hosted on both the Nexus and on Steam as Steam Guides, not just reddit.
-
-___
 
 ### 4/13/2022
 
@@ -171,8 +167,6 @@ After the most implausible series of delays and problems I've ever encountered, 
 
 1. Integrated changes from the recent update to the KOTOR 2 Community Patch.
 
-___
-
 ### 12/19/2019
 
 1. New builds, just in time for the holidays (and the movie, but who cares about that).
@@ -191,8 +185,6 @@ ___
 
 1. Replaced Robes for Korriban Sith Students by Shem with Korriban: Back in Black by JCarter426, which is a much more vanilla-friendly interpretation.
 
-___
-
 ### 6/15/2018
 
 1. Updated K1 and K2 builds—my present for the merger!
@@ -209,8 +201,6 @@ ___
 
 1. Removed Marauder mods which were integrated into the Marauder Fix Pack from the K2 Build.
 
-___
-
 ### 9/15/2017
 
 1. Brand-new builds for KOTOR and KOTOR 2!
@@ -218,8 +208,6 @@ ___
 2. Temporarily moved the TSLRCM download from Deadly Stream to ModDB.
 
 3. Significantly modified the Overhaul TSL modules utilized in the KOTOR 2 builds, and entirely removed it from the spoiler-free builds; my sincerest apologies for the unbalanced experience which the last build provided. The current build, while still somewhat (although less) unbalanced in terms of loot, is now fully balanced for realistic combat difficulty.
-
-___
 
 ### 1/9/2017
 
@@ -231,8 +219,6 @@ ___
 
 1. Plugged in SithSpecter's High Quality Blasters for TSL.
 
-___
-
 ### 9/9/2016
 
 1. New builds once again for KOTOR 1 & KOTOR 2!
@@ -240,8 +226,6 @@ ___
 2. Implementation of a mod category system in addition to the tier system; now you can see what category a mod's changes fall into and its tier side-by-side.
 
 3. Implemented some mods from the Nexus, and migrated some downloads from my MEGA backups to Nexus equivalents with screenshots.
-
-___
 
 ### 8/20/2016
 
@@ -262,8 +246,6 @@ ___
 * More detailed download & installation instructions
 
 * Screenshots (for those mods that don't have them and which I could procure; more screenshots forthcoming in the next build)
-
-___
 
 ### Pre-2016
 

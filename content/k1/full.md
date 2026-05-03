@@ -90,8 +90,6 @@ Installation Instructions
 :   The choice of which version to use is up to you; I recommend PC Response Moderation, as it makes your character sound less like a giddy little schoolchild following every little dialogue, but if you prefer only bugfixes it is compatible. Just move your chosen dialog.tlk file to the *main game directory* (where the executable is)—in this very specific case, NOT the override.
 :::
 
-___
-
 ### Character Startup Changes
 
 **Name:** [Character Startup Changes](http://deadlystream.com/files/file/349-character-start-up-change/) and [**Patch**](https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg)
@@ -111,8 +109,6 @@ Usage Warning
 :   It's possible, if using auto level-up, to miss the feats to equip weapons and basic light armor while using this mod, unless you use the patch. Make sure to install it!
 :::
 
-___
-
 ### Thematic KOTOR Companions
 
 **Name:** [Thematic KOTOR Companions](https://deadlystream.com/files/file/2665-thematic-kotor-companions/)
@@ -128,8 +124,6 @@ As part of the Thematic series of mods by JC and myself, Thematic KOTOR Companio
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### JC's Minor Fixes
 
@@ -150,8 +144,6 @@ Installation Instructions
 :   Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the "Things what bother me" folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all "MAN26" files and the two "plc_kiosk" files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.
 :::
 
-___
-
 ### Ajunta Pall Appearance
 
 **Name:** [Ajunta Pall Unique Appearance](https://deadlystream.com/files/file/824-ajunta-pall-unique-appearance/) and [**Patch**](https://mega.nz/file/McJF1AIC#Jywhu6zXWCRz4gRghxMxoBAWrbU_A3giD1INsOoHqmA)
@@ -170,8 +162,6 @@ ___
 Installation Instructions
 :   For this specific mod *only*, the patch is actually run first! Run the patch and apply its changes, then open the main mod file. ONLY look at the Transparent/Non-Transparent folders within the main file; move your preferred textures from one of those folders to your override, and optionally **also** move the contents of the sub-folders for Sith eyes if desired. You will be prompted to overwrite, and this is normal. Do NOT move any of the files in the main mod folder! Your install is done once you've moved your desired textures from the main mod download.
 :::
-
-___
 
 ### KOTOR Community Patch
 
@@ -192,8 +182,6 @@ Installation Instructions
 :   Be aware that this mod is installed via the HoloPatcher, a new install method. For your purposes as the enduser, it functions almost identically to the TSLPatcher. Run the installer, then move the files from the patch to your override.
 :::
 
-___
-
 ### Droid Claw Fix
 
 **Name:** [Droid Claw Fix](https://deadlystream.com/files/file/2456-kotor1-droid-claw-fix/)
@@ -207,8 +195,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Ported VO Replacements
 
@@ -229,8 +215,6 @@ Installation Instructions
 :   Install the main mod, then re-run the patcher and select the K1CP compatibility install option and install it as well, if using K1CP.
 :::
 
-___
-
 ### Ultimate Korriban
 
 **Name:** [Ultimate Korriban High Resolution](https://www.nexusmods.com/kotor/mods/1367) and [**Patch**](https://mega.nz/file/NEpH3AoZ#5RVfQHjkdk6b3lgcJzgitpCb1YQlfYqhTM0XF3Z9LMM)
@@ -249,8 +233,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.
 :::
-
-___
 
 ### Ultimate Kashyyyk
 
@@ -271,8 +253,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod.
 :::
 
-___
-
 ### Ultimate Tatooine
 
 **Name:** [Ultimate Tatooine High Resolution](https://www.nexusmods.com/kotor/mods/1364)
@@ -291,8 +271,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod.
 :::
-
-___
 
 ### Ultimate Dantooine
 
@@ -313,8 +291,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod.
 :::
 
-___
-
 ### Ultimate Endar Spire +
 
 **Name:** [Ultimate Endar Spire/Star Forge/Yavin Station](https://www.nexusmods.com/kotor/mods/1370)
@@ -333,8 +309,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod.
 :::
-
-___
 
 ### Ultimate Manaan
 
@@ -355,8 +329,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod.
 :::
 
-___
-
 ### Ultimate Taris
 
 **Name:** [Ultimate Taris High Resolution](https://www.nexusmods.com/kotor/mods/1360)
@@ -375,8 +347,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. Please note, there are confirmed visual bugs when utilizing this mod unless ALSO using Quanon's Taris retexture (installed further down this list). Make sure to delete LSI_win01.tpc and LSI_box01.tpc **before** moving to override.
 :::
-
-___
 
 ### Ultimate Character Overhaul
 
@@ -397,8 +367,6 @@ Installation Instructions
 :   For now, ignore all patches (those will be installed later). Just download the main package, and MAKE SURE it is the .tpc file version! I recommend the 2x version for the best combination of performance and quality.
 :::
 
-___
-
 ### Ultimate Unknown World
 
 **Name:** [Ultimate Unknown World High Resolution](https://www.nexusmods.com/kotor/mods/1369)
@@ -417,8 +385,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.
 :::
-
-___
 
 ### Korriban Sith Art
 
@@ -439,8 +405,6 @@ Download Instructions
 :   Download and install both files.
 :::
 
-___
-
 ### Duncan on Manaan
 
 **Name:** [Deadeye Duncan on Manaan](https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U)
@@ -455,8 +419,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Consistent Conditioning
 
 **Name:** [Consistent Conditioning Icons](https://deadlystream.com/files/file/2013-consistent-conditioning-icons/)
@@ -470,8 +432,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Pazaak Cards
 
@@ -492,8 +452,6 @@ Installation Instructions
 :   Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the "green" folder to the override folder as well.
 :::
 
-___
-
 ### HD PC Portraits
 
 **Name:** [HD PC Portraits](https://deadlystream.com/files/file/1547-hd-pc-portraits/)
@@ -507,8 +465,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### PMHA05 HD
 
@@ -526,8 +482,6 @@ This specific texture reskins the fifth Asian male head preset, including new fa
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### PMHA02 HD
 
 **Name:** [PMHA02 HD](https://deadlystream.com/files/file/1843-pmha02-hd/)
@@ -541,8 +495,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### PMHA01 HD
 
@@ -558,8 +510,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### PFHC05 HD
 
 **Name:** [PFHC05 HD](https://deadlystream.com/files/file/1738-pfhc05-hd/)
@@ -573,8 +523,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### PFHB02 Eye Fix
 
@@ -595,8 +543,6 @@ Installation Instructions
 :   I recommend using the upscale option.
 :::
 
-___
-
 ### High-Poly Grenades
 
 **Name:** [High-Poly Grenades](https://www.nexusmods.com/kotor/mods/1209)
@@ -610,8 +556,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Gizka
 
@@ -632,8 +576,6 @@ Installation Instructions
 :   The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg (any .jpg/.png files are always previews and can be deleted), to the override.
 :::
 
-___
-
 ### Gammorean Reskin Pack
 
 **Name:** [Gammorean Reskin Pack](http://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/)
@@ -647,8 +589,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### War Droids HD
 
@@ -664,8 +604,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Cleaning Droids
 
 **Name:** [AstromechHD](https://deadlystream.com/files/file/2220-astromechhd/)
@@ -680,8 +618,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Jawas
 
 **Name:** [HD Realistic Jawas](https://deadlystream.com/files/file/2517-hd-realistic-jawas/)
@@ -695,8 +631,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Sand People
 
@@ -717,8 +651,6 @@ Download Instructions
 :   For this mod, download the .tga filetype version (not the .tpc).
 :::
 
-___
-
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
@@ -737,8 +669,6 @@ ___
 Installation Instructions
 :   Choose whether to use the slim or original necks; your preference.
 :::
-
-___
 
 ### HD Twi'lek Females
 
@@ -759,8 +689,6 @@ Download Instructions
 :   Download the 'hd_twilek_female.rar' file, and ignore the other versions.
 :::
 
-___
-
 ### Thigh-High Boots for Twi'lek
 
 **Name:** [Thigh-High Boots for Twi'lek](http://deadlystream.com/files/file/1087-k1-thigh-high-boots-for-female-twilek-body-modders-resource/)
@@ -780,8 +708,6 @@ Installation Instructions
 :   Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.
 :::
 
-___
-
 ### Shaleena/Lashowe Mouth Fix
 
 **Name:** [Shaleena/Lashowe Mouth Adjustment](https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/)
@@ -795,8 +721,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Calo Nord Recolor
 
@@ -813,8 +737,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Darth Malak
 
@@ -840,8 +762,6 @@ Installation Instructions
 :   If intending to use CineMalak below (recommended!), select your preferred head texture from the Malak (Red Eyes) or Malak (Blue Eyes) folders and move the files within to your override. You can ignore N_DarthMalak01.tga, unless you do not want to use CineMalak, in which case you should also move it to your override.
 :::
 
-___
-
 ### CineMalak
 
 **Name:** [CineMalak - HD Darth Malak](https://deadlystream.com/files/file/2787-cinemalak-hd-malak-retexture/)
@@ -860,8 +780,6 @@ ___
 Installation Instructions
 :   The downloaded file is a loose .tga, not inside an archive. For this mod, just move the downloaded file (N_DarthMalak01.tga) to your override directly.
 :::
-
-___
 
 ### Detran's Darth Revan
 
@@ -882,8 +800,6 @@ Installation Instructions
 :   Make a copy of the file and rename it PMBJ01.tga, then move all files to override.
 :::
 
-___
-
 ### Darth Bandon HD
 
 **Name:** [Darth Bandon HD](https://deadlystream.com/files/file/2164-darth-bandon-hd/)
@@ -898,8 +814,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Vrook
 
 **Name:** [HD Vrook](https://deadlystream.com/files/file/1962-hd-vrook-recolored/)
@@ -913,8 +827,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD UI Elements
 
@@ -934,8 +846,6 @@ ___
 Download Instructions
 :   Download just the random UI elements download, not the optional T3-M4 request.
 :::
-
-___
 
 ### HD NPC Portraits
 
@@ -960,8 +870,6 @@ Download Instructions
 Installation Instructions
 :   Ignore the 'V1 Looks' option.
 :::
-
-___
 
 ### Male NPC Clothing
 
@@ -989,8 +897,6 @@ Installation Instructions
 :   Delete n_commm07.tga and N_CommMD01.tga. Delete N_CommM08.tga, then make a copy of N_CommM0801 and paste it in the same directory. This should create a duplicate file; rename that duplicate file to "N_CommM08.tga" and then move all files to override.
 :::
 
-___
-
 ### Juhani Appearance Overhaul
  
 **Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
@@ -1010,8 +916,6 @@ Installation Instructions
 :   Use the Body & Lightsaber version, we will use a different head model. Make sure to install the patch after, it fixes an issue with her lightsaber which can cause it to disappear.
 :::
 
-___
-
 ### Juhani Cathar Head
 
 **Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
@@ -1025,8 +929,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Korriban: Back in Black
 
@@ -1047,8 +949,6 @@ Installation Instructions
 :   If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.
 :::
 
-___
-
 ### Cloaked Jedi Robes
 
 **Name:** [Cloaked Jedi Robes](https://deadlystream.com/files/file/1378-jcs-fashion-line-i-cloaked-jedi-robes-for-k1/)
@@ -1068,8 +968,6 @@ Installation Instructions
 :   When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.
 :::
 
-___
-
 ### JC's Jedi Tailor
 
 **Name:** [JC's Jedi Tailor](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
@@ -1088,8 +986,6 @@ ___
 Installation Instructions
 :   If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).
 :::
-
-___
 
 ### Cloaks with Shadows
 
@@ -1112,8 +1008,6 @@ Installation Instructions
 :   Only move the files from "Jedi Robes Override".
 :::
 
-___
-
 ### Qel-Droma Reskin
 
 **Name:** [Qel-Droma Robes Reskin](https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/)
@@ -1129,8 +1023,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Masters:** JC's Cloaked Jedi Robes
-
-___
 
 ### Quanon's HK-47
 
@@ -1151,8 +1043,6 @@ Installation Instructions
 :   Delete PO_phk47.tga before moving the two other files to the override.
 :::
 
-___
-
 ### HD Sign Placeable
 
 **Name:** [PLC_Sign](https://deadlystream.com/files/file/2442-plc_sign/)
@@ -1166,8 +1056,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Kiosk
 
@@ -1188,8 +1076,6 @@ Download Instructions
 :   Download the "Kiosk HD 15.03.2024" version.
 :::
 
-___
-
 ### HD Desk
 
 **Name:** [PLC_Desk](https://deadlystream.com/files/file/2441-plc_desk/)
@@ -1203,8 +1089,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Escape Pod
 
@@ -1220,8 +1104,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Weapon Placeables
 
 **Name:** [HD Non-Game Weapons](https://deadlystream.com/files/file/2434-non-game-weapon/)
@@ -1236,8 +1118,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### K2 Swoops to K1
 
 **Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
@@ -1251,8 +1131,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### HD Stun Batons
 
@@ -1273,8 +1151,6 @@ Download Instructions
 :   Unless you want icons like those in the preview images (which I recommend against, as it will not match the vanilla aesthetic for most of the other equipment icons in the game), do not download the "stunbaton 2025" file; only download "Stun baton HD".
 :::
 
-___
-
 ### Unique Sith Governor
 
 **Name:** [Unique Sith Governor](https://deadlystream.com/files/file/2302-unique-sith-governor/)
@@ -1293,8 +1169,6 @@ ___
 Known Bugs
 :   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
 :::
-
-___
 
 ### HD Ithorians
 
@@ -1315,8 +1189,6 @@ Download Instructions
 :    Choose between the base install and the Vurt retexture based on your preference. The preview screenshots at the top of the page are the base install, the spoilered screenshots at the bottom of the mod description are the modified Vurt versions.
 :::
 
-___
-
 ### HD Duros
 
 **Name:** [Duros HD](https://deadlystream.com/files/file/2252-duros-hd/)
@@ -1330,8 +1202,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Quarren
 
@@ -1349,8 +1219,6 @@ ___
 
 **Master:** K1CP
 
-___
-
 ### HD Davik
 
 **Name:** [Davik HD](https://deadlystream.com/files/file/2371-davik-hd/)
@@ -1365,8 +1233,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Doctors
 
 **Name:** [Doctors HD](https://deadlystream.com/files/file/2475-doctors-hd/)
@@ -1380,8 +1246,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Kebla Yurt HD
 
@@ -1402,8 +1266,6 @@ Installation Instructions
 :   Delete N_CommF02.tga & .txi before moving to override.
 :::
 
-___
-
 ### HD Deadeye Duncan
 
 **Name:** [Deadeye Duncan HD](https://deadlystream.com/files/file/2801-deadeye-duncan-hd/)
@@ -1418,8 +1280,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### N_oldAMH01 HD
 
 **Name:** [N_oldAMH01 HD](https://deadlystream.com/files/file/2806-n_oldamh01-hd/)
@@ -1433,8 +1293,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Astromech Droids
 
@@ -1455,8 +1313,6 @@ Installation Instructions
 :   Delete po_pt3m33.tga before moving the files to your override.
 :::
 
-___
-
 ### HD Protocol Droids
 
 **Name:** [Protocol Droids HD](https://deadlystream.com/files/file/2056-protocol-droid-hd/)
@@ -1471,8 +1327,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Davik's Trophies
 
 **Name:** [Davik's Trophies](https://deadlystream.com/files/file/2559-daviks-trophies/)
@@ -1486,8 +1340,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Carth Onasi
 
@@ -1513,8 +1365,6 @@ Installation Instructions
 :   Delete PO_pcarth3.tga before moving the other files to the override.
 :::
 
-___
-
 ### HD Canderous Ordo
 
 **Name:** [HD Canderous Ordo](http://deadlystream.com/files/file/1123-hd-canderous-ordo/) and [**Patch**](https://mega.nz/#!dFJBEYhA!FY9h6AmYVDizyVPZo_I3vXqAIWVrK1TUzT42msGqtpQ)
@@ -1533,8 +1383,6 @@ ___
 Download Instructions
 :   Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head texture from the below mod. Remember to also download the patch.
 :::
-
-___
 
 ### Quanon's Canderous
 
@@ -1555,8 +1403,6 @@ Installation Instructions
 :   Move only P_CandH01.tga to your override.
 :::
 
-___
-
 ### Jolee HD
 
 **Name:** [Jolee Bindo HD](https://deadlystream.com/files/file/1935-jolee-bindo-hd/)
@@ -1570,8 +1416,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Fen's Jolee
 
@@ -1597,8 +1441,6 @@ Installation Instructions
 :   Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.
 :::
 
-___
-
 ### Zaalbar HD
 
 **Name:** [Zaalbar HD](https://deadlystream.com/files/file/2031-zaalbar-hd/)
@@ -1623,8 +1465,6 @@ Installation Instructions
 :   Delete po_pzaalbar3.tga before moving the files to your override.
 :::
 
-___
-
 ### Sith Uniform Reformation Revised
 
 **Name:** [Sith Uniform Reformation Revised](https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/)
@@ -1643,8 +1483,6 @@ ___
 Installation Instructions
 :   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
 :::
-
-___
 
 ### Stylized Portraits
 
@@ -1665,8 +1503,6 @@ Installation Instructions
 :   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules. Do not install the files from the "PC" folder unless you want your character's portrait appearance to be that of Revan.
 :::
 
-___
-
 ### Star Map Revamp
 
 **Name:** [Star Map Revamp](https://deadlystream.com/files/file/1262-star-map-revamp/)
@@ -1680,8 +1516,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Background Improvements
 
@@ -1697,8 +1531,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Kebla Yurt Renovation
 
 **Name:** [Kebla Yurt Renovation](https://deadlystream.com/files/file/2785-kebla-yurt-renovation/)
@@ -1712,8 +1544,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### Hi-Res Ebon Hawk
 
@@ -1734,8 +1564,6 @@ Installation Instructions
 :   Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.
 :::
 
-___
-
 ### Ebon Hawk Repairs
 
 **Name:** [Ultimate Ebon Hawk Repairs](https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/)
@@ -1754,8 +1582,6 @@ ___
 Installation Instructions
 :   Move the files from "to override" to your override folder, then also move the files from the "Animated Monitors" folder and overwrite when prompted.
 :::
-
-___
 
 ### HQ Cockpit Skyboxes
 
@@ -1776,8 +1602,6 @@ Download Instructions
 :   Download the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures, and there's also a risk of save corruption when using very large texture sizes—I recommend the Medium texture option for the best balance of quality and size/performance.
 :::
 
-___
-
 ### Yavin Station Hangar
 
 **Name:** [Yavin Station Hangar](https://deadlystream.com/files/file/2068-yavin-station-hangar/)
@@ -1797,8 +1621,6 @@ Installation Instructions
 :   If you would like the forcefield for the hangar to be visible, re-run the installer after installing the main option and also install the visible forcefield option. If using HQ Cockpit Skyboxes, move the files from the resolution folder corresponding to the HQ Cockpit Skyboxes size you utilized to your override, then delete ebo_yab.tga, ebo_yaf.tga, ebo_yal.tga, ebo_yar.tga and ebo_yat.tga from your override. Finally, if you utilize Vurt's "K1 Hi-Res Ebon Hawk Retexture," download [this patch](https://mega.nz/file/QAhhFTzD#rxS91pehFgNP7xFh3DNnNFC1d_YelF43K4-q6mh8xfI) and move its contents to your override.
 :::
 
-___
-
 ### Ebon Hawk Cockpit Upgrade I
 
 **Name:** [Ebon Hawk Cockpit Upgrade (LEH_Scre01)](https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/)
@@ -1812,8 +1634,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Ebon Hawk Cockpit Upgrade II
 
@@ -1834,8 +1654,6 @@ Installation Instructions
 :   Recommend the version without overlays, but it's personal preference.
 :::
 
-___
-
 ### Taris Reskin
 
 **Name:** [Taris Reskin](http://www.nexusmods.com/kotor/mods/10/) and [**Patch**](https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0)
@@ -1855,8 +1673,6 @@ Installation Instructions
 :   Don't install the included modifications to the Dantooine Estates or Sith Base, you'll only be installing the contents of Part 1 and Part 2. You will additionally need to delete the following files from the Part 1 folder before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga **through** LTS_SKY0005.tga
 :::
 
-___
-
 ### High Quality Starfields
 
 **Name:** [High Quality Starfields and Nebulas](http://deadlystream.com/files/file/491-kotor-high-quality-starfields-and-nebulas/)
@@ -1870,8 +1686,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HQ Skyboxes II
 
@@ -1897,8 +1711,6 @@ Installation Instructions
 :   Delete m36aa_01_lm0 through m36aa_01_lm2.tga before moving to the override, then apply the patch.
 :::
 
-___
-
 ### Ebon Hawk Transparent Cockpit Windows
 
 **Name:** [Ebon Hawk Transparent Cockpit Windows for K1](https://deadlystream.com/files/file/2354-ebon-hawk-transparent-cockpit-windows-for-k1/)
@@ -1918,8 +1730,6 @@ Installation Instructions
 :   Apply the main installation, then go into the Compatibility Patches folder and apply the contents of the "Leviathan - K1CP Forcefield" folder (if using K1CP), HQ Skyboxes compatch (if using HQ Skyboxes), and Yavin Station Hangar (if using WildKarrde's Yavin Station Hangar).
 :::
 
-___
-
 ### Hires Beam Effects
 
 **Name:** [Hi-Res Beam Effects](https://deadlystream.com/files/file/260-k1-hi-res-beam-effects/)
@@ -1933,8 +1743,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Fire & Ice
 
@@ -1950,8 +1758,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Animated Energy Shields
 
 **Name:** [Animated Energy Shields](https://deadlystream.com/files/file/2193-animated-energy-shields/)
@@ -1965,8 +1771,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Animated Cantina Sign
 
@@ -1982,8 +1786,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Revamped FX
 
 **Name:** [Revamped FX](https://deadlystream.com/files/file/2581-revamped-fx/)
@@ -1992,7 +1794,7 @@ ___
 
 **Description:** Rather than a supplementary, this mod by olegkuz should be treated as an alternative to HD Fire and Ice & Hi-Res Beam Effects, already listed above. While this mod edits some files they don't touch and vice-versa, for the most part it replaces those textures. If you would like, you can install this mod and simply not overwrite when prompted to keep most of the changes of Fire and Ice HD & Hi-Res Beam Effects while only adding the files from this mod that those mods don't touch, but if you choose to overwrite this mod will be your main graphical edit for FX.
 
-I'm also looking for opinions about this and whether users prefer it to Fire and Ice HD & HR Beam Effects, so please feel free to drop by the [Discord](https://discord.gg/kotor) and let me know what you think!
+I'm also looking for opinions about this and whether users prefer it to Fire and Ice HD & HR Beam Effects, so please feel free to drop by the [Discord](https://discord.gg/MxYDSG2FZu) and let me know what you think!
 
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
@@ -2004,8 +1806,6 @@ I'm also looking for opinions about this and whether users prefer it to Fire and
 Installation Instructions
 :   I recommend against any of the included optional files.
 :::
-
-___
 
 ### Terminal Texture
 
@@ -2021,8 +1821,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Workbench
 
 **Name:** [RepTab HD](https://deadlystream.com/files/file/2222-reptab-hd/)
@@ -2036,8 +1834,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Animated Swoop Monitors
 
@@ -2053,8 +1849,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Loadscreens in Color
 
 **Name:** [Loadscreens in Color](http://deadlystream.com/files/file/916-loadscreens-in-color/)
@@ -2068,8 +1862,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Reflective Lightsaber Blades
 
@@ -2090,8 +1882,6 @@ Installation Instructions
 :   The mod builds are only tested with the standard install option; other options are untested for compatibility and function. Use at your own risk!
 :::
 
-___
-
 ### Darth Malak's Lightsaber
 
 **Name:** [Darth Malak's Lightsaber](https://deadlystream.com/files/file/2506-darth-malaks-lightsaber-k1/)
@@ -2105,8 +1895,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### Blaster Visual Effects
 
@@ -2127,8 +1915,6 @@ Installation Instructions
 :   Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
 :::
 
-___
-
 ### Wookiee Warblade Fix
 
 **Name:** [Wookiee Warblade Fix](https://deadlystream.com/files/file/1899-wookie-warblade-fix/)
@@ -2142,8 +1928,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Kill The Czerka Guard
 
@@ -2159,8 +1943,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Korriban Workbench
 
 **Name:** [Korriban Academy Workbench](https://deadlystream.com/files/file/375-korriban-academy-workbench/)
@@ -2174,8 +1956,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Senni Vek Mod
 
@@ -2196,8 +1976,6 @@ Installation Instructions
 :   For realism I personally recommend the "Senni Vek's Ambush" install, but if you'd like to remain as close to vanilla as possible, choose the Senni Vek Restoration instead.
 :::
 
-___
-
 ### Male Twi'lek Diversity
 
 **Name:** [KOTOR 1 Twi'lek Male NPC Diversity](https://deadlystream.com/files/file/2228-kotor-1-twilek-male-npc-diversity/)
@@ -2217,8 +1995,6 @@ Installation Instructions
 :   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
 :::
 
-___
-
 ### Ixgil the Bith
 
 **Name:** [Ixgil the Bith](https://deadlystream.com/files/file/2108-ixgil-the-bith/)
@@ -2235,8 +2011,6 @@ There's a wrong soundset. This mod fixes it. The character dies about 5 seconds 
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Hidden Bek Control Room
 
 **Name:** [Hidden Bek Control Room Restoration](https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/)
@@ -2251,8 +2025,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Swoop Bike Upgrades
 
 **Name:** [Swoop Bike Upgrades](https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/)
@@ -2266,8 +2038,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Jedi Choice Dialogue Enhancement
 
@@ -2290,8 +2060,6 @@ Installation Instructions
 :   Move "dan13_dorak.dlg" only.
 :::
 
-___
-
 ### Juhani Restoration
 
 **Name:** [Juhani Dialogue Restoration](https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/)
@@ -2305,8 +2073,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Vision Enhancement
 
@@ -2327,8 +2093,6 @@ Installation Warning
 :   Please note, for reasons presently unknown this mod is INCOMPATIBLE with Steam Deck architecture. Other Linux systems *seem* to be able to run it fine, but for whatever reason the 'Deck crashes when using this mod.
 :::
 
-___
-
 ### New Leviathan Dialogue
 
 **Name:** [Leviathan Differentiated Dialogue](http://deadlystream.com/files/file/895-leviathan-differentiated-dialogue/)
@@ -2342,8 +2106,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Balanced Pazaak
 
@@ -2359,8 +2121,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Camera Replacement
 
 **Name:** [Ebon Hawk Camera Replacement](http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/)
@@ -2375,8 +2135,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Rebalanced Grenades
 
 **Name:** [Rebalanced Grenades](https://deadlystream.com/files/file/2522-rebalanced-grenades/)
@@ -2390,8 +2148,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### HD Grenades & Mines
 
@@ -2414,8 +2170,6 @@ Installation Instructions
 :   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
 :::
 
-___
-
 ### Turret Minigame Remover
 
 **Name:** [Random Turret Minigame Remover](https://www.nexusmods.com/kotor/mods/90)
@@ -2430,8 +2184,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Tutorial Remover
 
 **Name:** [Trask Without Tutorials](https://deadlystream.com/files/file/2184-trask-ulgo-without-tutorials/)
@@ -2445,8 +2197,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Leviathan Prison Break
 
@@ -2467,8 +2217,6 @@ Installation Instructions
 :   The optional file included in the install is compatible with the builds, and it's your choice to use it or not.
 :::
 
-___
-
 ### Ain't No Air in Space
 
 **Name:** [Ain't No Air in Space](https://deadlystream.com/files/file/2281-jcs-leviathan-aint-no-air-in-space-for-k1/)
@@ -2482,8 +2230,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Party Conversations on the Ebon Hawk
 
@@ -2504,8 +2250,6 @@ Installation Instructions
 :   Use the K1CP compatible install option, if using the K1CP (you should be).
 :::
 
-___
-
 ### Dark Sacrifice
 
 **Name:** [JC's Romance Enhancement: Dark Sacrifice](https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/)
@@ -2519,8 +2263,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Saber Throw Knockdown
 
@@ -2536,8 +2278,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Sunry Enhancement
 
 **Name:** [Sunry Murder Recording Enhancement](http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/)
@@ -2551,8 +2291,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Davik Slave Change
 
@@ -2573,8 +2311,6 @@ Installation Instructions
 :   I personally recommend option 2.
 :::
 
-___
-
 ### Taris Rapid Transit
 
 **Name:** [Taris Rapid Transit](https://www.nexusmods.com/kotor/mods/1666)
@@ -2593,8 +2329,6 @@ ___
 Download Instructions
 :   Full or Light version is your choice.
 :::
-
-___
 
 ### Manaan Rapid Transit
 
@@ -2615,8 +2349,6 @@ Download Instructions
 :	If wishing to use a non-English mod version, download the mod version which matches your language of choice.
 :::
 
-___
-
 ### Recruit T3-M4 Early
 
 **Name:** [Recruit T3-M4 Early](https://deadlystream.com/files/file/1868-recruit-t3-m4-early/)
@@ -2631,8 +2363,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Security Spikes for K1
 
 **Name:** [Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
@@ -2646,8 +2376,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### HQ Blasters
 
@@ -2667,8 +2395,6 @@ ___
 Installation Instructions
 :   Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer—it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti
 :::
-
-___
 
 ### Crashed Republic Cruiser
 
@@ -2694,8 +2420,6 @@ Installation Instructions
 :   Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.
 :::
 
-___
-
 ### Trandoshans Rescaled
 
 **Name:** [Trandoshans Rescaled](http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/)
@@ -2709,8 +2433,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Custom Selkath Animation
 
@@ -2726,8 +2448,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Bastila Has TSL Battle Meditation
 
 **Name:** [Bastila has TSL Battle Meditation](https://deadlystream.com/files/file/2379-bastila-has-tsl-battle-meditation/)
@@ -2741,8 +2461,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Sneak Attack Restoration
 
@@ -2758,8 +2476,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Sentinel Sneak Attack
 
 **Name:** [Sentinel Sneak Attack with Multiclassing](https://www.nexusmods.com/kotor/mods/1710)
@@ -2773,8 +2489,6 @@ ___
 **Non-English Functionality:** UNKNOWN
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### Thematic The One
 
@@ -2791,8 +2505,6 @@ Even if this mod doesn't make him strong enough to stand against you, it at leas
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Sherruk with Lightsabers
 
@@ -2813,8 +2525,6 @@ Installation Instructions
 :   Install the base mod first, then move the file from the patch directly to your override.
 :::
 
-___
-
 ### Improved Cantina Sitters
 
 **Name:** [Improved Cantina Sitters](https://deadlystream.com/files/file/2792-improved-cantina-sitters/)
@@ -2829,8 +2539,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Helena Shan Improvement
 
 **Name:** [Helena Shan Improvement](https://deadlystream.com/files/file/1218-helena-shan-improvement/)
@@ -2844,8 +2552,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Bastila's Dark Bodysuit
 
@@ -2866,8 +2572,6 @@ Installation Instructions
 :   Use the regular install—other install variants have been linked to sequence breaks, but the normal install variant is fully functional.
 :::
 
-___
-
 ### Dueling Arena Adjustment
 
 **Name:** [Taris Dueling Arena Adjustment](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/)
@@ -2881,8 +2585,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Bendak Non-Darkside Option
 
@@ -2903,8 +2605,6 @@ Installation Instructions
 :   This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.
 :::
 
-___
-
 ### Kashyyyk Forcefield Rework
 
 **Name:** [Kashyyyk Shadowlands Forcefield Rework](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/)
@@ -2918,8 +2618,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Swoop Platform Repair
 
@@ -2940,8 +2638,6 @@ Installation Instructions
 :   Which of the three versions is used is up to your preference. Full is the entire package, lite is without the player swoop displayed on the race platform, and ultra lite is without the doors fix.
 :::
 
-___
-
 ### Engine Lab Bench
 
 **Name:** [Engine Lab Bench for Swoop Accelerator](https://deadlystream.com/files/file/1747-black-vulkar-base-engine-lab-bench-for-swoop-accelerator/)
@@ -2955,8 +2651,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Missing Lamps Fix
 
@@ -2977,8 +2671,6 @@ Installation Instructions
 :   If you have installed the K1CP, install just the pillar facing fix. The lighting fix is already included in the K1CP.
 :::
 
-___
-
 ### Czerka Business Attire
 
 **Name:** [JC's Czerka: Business Attire](https://deadlystream.com/files/file/2309-jcs-czerka-business-attire-for-k1/)
@@ -2998,8 +2690,6 @@ Installation Instructions
 :   If using Dark Hope's HD Ithorian texture, also download and apply [this patch](https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY), which Sith Holocron was kind enough to make at my request, after installing this mod.
 :::
 
-___
-
 ### Sith Texture Restoration
 
 **Name:** [Sith Soldier Texture Restoration](https://deadlystream.com/files/file/1289-sith-soldier-texture-restoration/)
@@ -3014,8 +2704,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### Diversified Republic Soldiers
 
 **Name:** [Diversified Wounded Republic Soldiers](https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/)
@@ -3029,8 +2717,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Diversified Jedi Captives
 
@@ -3051,8 +2737,6 @@ Download Instructions
 :   I recommend the Base install option. If you wish to add these NPCs to Dantooine, you can also install the optional module; just make sure to add the compatibility patch if you're using 'Cloaked Jedi Robes' above.
 :::
 
-___
-
 ### Juhani Romance Enhancement
 
 **Name:** [Juhani Romance Enhancement](https://deadlystream.com/files/file/772-juhani-romance-enhancement/)
@@ -3066,8 +2750,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Dodonna's Transmission
 
@@ -3088,8 +2770,6 @@ Installation Instructions
 :   Recommend the Revisited option.
 :::
 
-___
-
 ### Endgame Hologram Fix
 
 **Name:** [Movie-Style Endgame Holograms](https://deadlystream.com/files/file/1342-movie-style-holograms-for-end-game-cutscenes/)
@@ -3109,8 +2789,6 @@ Known Bugs
 :   For reasons which are currently entirely unknown to us, this mod seems to cause crashes on MacOS, and possibly also Linux. We have isolated it to the model, but have no idea why it's happening. Be warned, you may want to avoid this mod if on either OS!
 :::
 
-___
-
 ### Twisted Rancor Trio Fix
 
 **Name:** [Movie-Style Holograms for the Twisted Rancor Trio](https://deadlystream.com/files/file/1736-movie-style-holograms-for-twisted-rancor-trio-puzzle/)
@@ -3124,8 +2802,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Rakatan Hologram Fix
 
@@ -3141,8 +2817,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### Ending Enhancement
 
 **Name:** [Dark-Side Ending Cutscene Enhancement](https://deadlystream.com/files/file/1958-dark-side-ending-cutscene-enhancement/)
@@ -3157,8 +2831,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### Elder Droid Unique VO
 
 **Name:** [Elder Droid Unique VO](https://deadlystream.com/files/file/1531-k1-legends-elder-droids-unique-vo/)
@@ -3172,8 +2844,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Ajunta Pall's Swords
 
@@ -3194,8 +2864,6 @@ Installation Instructions
 :   Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).
 :::
 
-___
-
 ### Ajunta Pall's Blade
 
 **Name:** [Ajunta Pall's Blade](https://deadlystream.com/files/file/1338-k1-legends-ajunta-palls-blade/)
@@ -3215,8 +2883,6 @@ Installation Instructions
 :   Install the VarsityPuppet/Rece compatibility option if using Ajunta Pall's Swords.
 :::
 
-___
-
 ### JC's Mandalorian Armor
 
 **Name:** [JC's Mandalorian Armor](https://deadlystream.com/files/file/1454-jcs-mandalorian-armor-for-k1/)
@@ -3235,8 +2901,6 @@ ___
 Installation Instructions
 :   Install Option A. I recommend NOT re-running the patcher to install the extra textures, as upscaled textures installed in UCO are much higher-quality than these.
 :::
-
-___
 
 ### Multifire & Autofire
 
@@ -3259,8 +2923,6 @@ Installation Instructions
 :   Run the patcher and select your desired install. I personally would recommend using at least one of the first three, as the mod is not worth it for just the feat changes in my opinion. My personal recommendation would be option 2 or 3 (especially if intending to use JC's Blaster Adjustment below), but I tested it with option 1 and did not find it terribly overpowered. Indeed, it made the game way harder at points as enemies were beaming me with multiple rifle attacks, so if you want an extra challenge option 1 is a valid choice.
 :::
 
-___
-
 ### Blaster Adjustment
 
 **Name:** [JC's Blaster Adjustment](https://deadlystream.com/files/file/2827-jcs-blaster-adjustment-for-k1/)
@@ -3280,8 +2942,6 @@ Installation Instructions
 :   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
 :::
 
-___
-
 ### HQ Gaffi Stick
 
 **Name:** [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
@@ -3295,8 +2955,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### HD Quarterstaffs
 
@@ -3312,8 +2970,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Training Lightsabers
 
 **Name:** [Dantooine Training Lightsabers](https://www.nexusmods.com/kotor/mods/66/)
@@ -3327,8 +2983,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Logical Datapads
 
@@ -3344,8 +2998,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### Realistic Visual Effects
 
 **Name:** [Realistic Visual Effects](http://deadlystream.com/files/file/681-realistic-visual-effects/)
@@ -3359,8 +3011,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Minor Music Tweaks
 
@@ -3376,8 +3026,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### NPC Alignment Fix
 
 **Name:** [NPC Alignment Fix](https://deadlystream.com/files/file/1866-npc-alignment-fix/)
@@ -3392,8 +3040,6 @@ ___
 
 **Installation Method:** TSLPatcher
 
-___
-
 ### Repair Affects Stun Droid
 
 **Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2502-repair-affects-stun-droid-k1/)
@@ -3407,8 +3053,6 @@ ___
 **Non-English Functionality:** YES, though some text may be blank or in English
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Alignment Affects Force Powers
 
@@ -3429,8 +3073,6 @@ Installation Instructions
 :   Ignore the Patch folder unless using K2 Force Powers for K1 (untested, but should function). I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
 :::
 
-___
-
 ### Galaxy Map Fix
 
 **Name:** [Galaxy Map Fix Pack](http://deadlystream.com/files/file/1068-k1-galaxy-map-fix-pack/)
@@ -3447,10 +3089,8 @@ ___
 
 :::note
 Installation Instructions
-:   If intending to play [in widescreen](#Optional_Widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* completing the rest of this guide, including widescreen menus installation (this is the only mod you will have to install out of presented order). When coming back to install this mod, if using widescreen you will move the file from the optional download "HR Menu Patch.zip" which corresponds to your resolution to your override folder, *after* completing the installation of the base mod. If you are not intending to play in widescreen, install the base mod only at this point.
+:   If intending to play [in widescreen](#optional-widescreen-extended-widescreen-support-mods) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* completing the rest of this guide, including widescreen menus installation (this is the only mod you will have to install out of presented order). When coming back to install this mod, if using widescreen you will move the file from the optional download "HR Menu Patch.zip" which corresponds to your resolution to your override folder, *after* completing the installation of the base mod. If you are not intending to play in widescreen, install the base mod only at this point.
 :::
-
-___
 
 ### Remove Duplicate TGA/TPC
 
@@ -3475,8 +3115,6 @@ Installation Instructions
     
     **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 :::
-
-___
 
 ### Ultimate Character Overhaul Patches
 
@@ -3504,8 +3142,6 @@ Installation Instructions
 :   Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes (delete N_CommM02 - N_CommM08 from the Aesthetics Improvements folder before moving to override, if using Dark Hope's male clothing upscale), the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale, both before moving to override), and then all remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's male Twi'lek mod, as well as skipping the compatch for Republic Soldier's New Shade). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, move both the files within the NPC Replacement folder and the files in the Optional folder therein (just make sure to not move the folders themselves).
 :::
 
-___
-
 ### Republic Soldier Fix
 
 **Name:** [Republic Soldier Fix](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
@@ -3525,8 +3161,6 @@ Installation Instructions
 :   Move the files from the mod's Override folder to your game's override folder. For compatibility, you will need to only install the player clothing texture replacement for Soldier-class characters: move all files beginning "PFBBL" and "PMBBL" from the mod's Player Clothing folder to your override.
 :::
 
-___
-
 ### Republic Soldier's New Shade
 
 **Name:** [Republic Soldier's New Shade](https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/)
@@ -3545,8 +3179,6 @@ ___
 Installation Instructions
 :   If using both components of JC's Republic Soldier Fix mod (the override files & the player replacement for the soldier characters), install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.
 :::
-
-___
 
 ### Character Textures & Model Fixes
 
@@ -3573,8 +3205,6 @@ Installation Instructions
     
     If you cannot run .bat files or feel uncomfortable running this file, you will need to manually delete the files yourself, following the instructions [here](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/redrob_deletions.md).
 :::
-
-___
 
 ### 4GB Patcher
 
@@ -3621,8 +3251,6 @@ After you've applied UniWS, you can also install the mods below, which further e
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HR Menus
 
 **Name:** [KOTOR High Resolution Menus](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/?tab=comments)
@@ -3642,8 +3270,6 @@ Installation Instructions
 :   Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
 :::
 
-___
-
 ### HD UI Menu Pack
 
 **Name:** [HD UI Menu Pack](https://deadlystream.com/files/file/1226-hd-ui-menu-pack/)
@@ -3658,8 +3284,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Workbench Camera Tweak
 
 **Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1742-workbench-upgrade-screen-camera-tweak-for-k1/)
@@ -3673,8 +3297,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Pretty Good! Icons
 
@@ -3694,8 +3316,6 @@ ___
 Installation Instructions
 :   I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
 :::
-
-___
 
 ### Robe Icons for JC's Cloaked Robes
 
@@ -3718,8 +3338,6 @@ Installation Instructions
 :   In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
 :::
 
-___
-
 ### Upscaled Computer
 
 **Name:** [Upscaled Computer](https://deadlystream.com/files/file/2025-upscaled-computer/)
@@ -3733,8 +3351,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Widescreen Fade Fix
 
@@ -3750,8 +3366,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Main Menu Widescreen Fix
 
 **Name:** [Main Menu Widescreen Fix](https://deadlystream.com/files/file/1173-k1-main-menu-widescreen-fix/)
@@ -3765,8 +3379,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Cutscenes Rescaled
 
@@ -3790,8 +3402,6 @@ Installation Instructions
     
     If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
 :::
-
-___
 
 ### Remastered Cutscenes
 

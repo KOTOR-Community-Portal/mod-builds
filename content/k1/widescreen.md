@@ -11,9 +11,6 @@
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [KOTOR High Resolution Menus](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/?tab=comments)
 
 **Author:** ndix UR
@@ -27,9 +24,6 @@ ___
 **Installation Method:** .bat Patcher with Loose-File Components
 
 **Installation Instructions:** Make a copy of your swkotor.exe (only AFTER having applied the UniWS widescreen patch) and paste it into the extracted mod folder with the .bat file within. Run the .bat file (NOT the .exe!) and input the necessary data. The .bat will generate a new file called swkotor.exe, as well as swkotor.exe.bak—*swkotor.exe is the correct file*, and the file with .bak appended at the end is a backup which you can safely delete. Take the new swkotor.exe file and replace the one in your main game directory with it, then move the HR Menus files for your selected resolution into your override folder.
-
-___
-
 **Name:** [HD UI Menu Pack](https://deadlystream.com/files/file/1226-hd-ui-menu-pack/)
 
 **Author:** ndix UR
@@ -41,9 +35,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1742-workbench-upgrade-screen-camera-tweak-for-k1/)
 
 **Author:** Darth Parametric
@@ -55,9 +46,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Pretty Good! Icons](https://deadlystream.com/files/file/1815-pretty-good-icons-for-kotor/)
 
 **Author:** ajdrenter
@@ -71,9 +59,6 @@ ___
 **Installation Method:** Loose-File Mod
 
 **Installation Instructions:** I recommend using the .tpc file option. For **THIS MOD ONLY**, do not overwrite when prompted!
-
-___
-
 **Name:** [HD Robe Icons for JC's Cloaked Jedi Robes](https://deadlystream.com/files/file/2303-hd-robe-icons-for-jcs-cloaked-jedis-and-effixs-extra-robes/)
 
 **Author:** Nehua
@@ -89,9 +74,6 @@ ___
 **Masters:** JC's Cloaked Jedi Robes
 
 **Installation Instructions:** In the "JC's Cloaked Jedis" folder, select the files from the version of JC's Cloaked Jedi Robes you utilized. Ignore the Effix folder unless playing with that specific mod.
-
-___
-
 **Name:** [Upscaled Computer](https://deadlystream.com/files/file/2025-upscaled-computer/)
 
 **Author:** Dark Hope
@@ -103,9 +85,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Widescreen Fade Fix](https://deadlystream.com/files/file/1792-kotor-widescreen-fade-fix/)
 
 **Author:** Doiinko
@@ -117,9 +96,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [Main Menu Widescreen Fix](https://deadlystream.com/files/file/1173-k1-main-menu-widescreen-fix/)
 
 **Author:** DarthParametric
@@ -131,9 +107,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
-
 **Name:** [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2380-k1-cutscenes-rescaled/)
 
 **Author:** Pops Maellard
@@ -151,9 +124,6 @@ Unfortunately, there's a price for the quality of Pops's work: the files are ext
 **Installation Instructions:** Choose the resolution option which most closely fits your monitor's screen size during the download process. I *STRONGLY* recommend choosing the 30fps option for that resolution—there have been crashes directly linked to the 60fps versions. When installing, there will be several optional files based on how dialogue in cutscenes are displayed (floating text or not, etc). Which of these you choose is your preference; use the mod screenshots to determine. Bear in mind that the files from this mod go in your *movies* folder, not override.
 
 If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=bA5l6HVs4Y4) and following the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
-
-___
-
 
 **Name:** [KOTOR Remastered Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
 

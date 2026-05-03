@@ -18,13 +18,9 @@ Beware, there's a lot of work ahead, and you need to be acquainted with some tec
 
 ^(I also assume the reader is not crazy and will not try and destroy his computer with the steps I detail here. Be careful, have good judgement and assume the risks yourself.)
 
-___
-
 ### System requirements for installing the Windows games on Mac with Wine
 
 This works for Mac OS 10.14.x Mojave. I didn't test on 10.15 Catalina, nor Mac OS 11 Big Sur. There are important, breaking differences, though. Catalina drops support to 32-bit instructions software and Mac OS 11 is built for a brand new, ARM-based processor by Apple. On an Intel mac, though, if it works on Catalina, it probably works on Big Sur.
-
-___
 
 ### Tools
 
@@ -35,8 +31,6 @@ Let's get the basic out of the way first: head to the App Store and download The
 You will have to deal a lot with the command line when dealing with mods. You don't need to download anything special, as you can use *Terminal*. *Terminal* is a native utility that can be found on `/Applications/Utilities`. Keep it handy. Or download an alternative app, such as *iTerm*.
 
 If you want to run the *Windows* version of the game, you will need a bit of software called *Winery*, which will be covered in a separate session.
-
-___
 
 ### Crash course on Finder, Terminal, and other Mac things
 
@@ -92,8 +86,6 @@ Now, open *Winery* and **download** any engine that **doesn't** require *XQuartz
 
 Next, we need to create an application wrapper for the *Windows* game. This will be our "game app"! To do that, click on **Create new blank wrapper**, then name it "**Knights of the Old Republic**" and click on **View Wrapper in Finder**. You will be taken to `~/Applications/Wineskin`, where your brand new app wrapper will be located.
 
-___
-
 ### Installing the game in Wine
 
 You will need the retail version of KotOR. It comes in 4 CD-ROMs. (Surely you are clever and know where to find `.iso` files of those CDs.) On a modern Macintosh, without a CD drive, an **ISO** file for each CD will be required. Assuming you have those files, **keep them handy**. Open the `.iso` for CD number 1. Mac will mount a virtual image of the CD-ROM called "**KOTOR\_1**." Leave it alone for now.
@@ -112,8 +104,6 @@ Eventually, the installer will ask for CD 2. When that happens, **go back** to *
 
 When all is done, *Wineskin* will ask which is the `.exe` file we want to be our default point of entry. **Choose** `swkotor.exe`. Then **eject** CD 4 from *Finder*.
 
-___
-
 ### Update to 1.03
 
 Now, **close** *Wineskin* and **go back** to its parent folder (the **wrapper**). You will see there 2 aliases called `drive_c` and `Logs`. (Aliases are like shortcuts on *Windows*. These two are inside the `Contents` directory somewhere.) **Open** `drive_c`. Inside it you should **put a copy of the 1.03 patch installer**.
@@ -125,8 +115,6 @@ After it's all done, **delete** the `patch.app` and **open** your `drive_c` agai
 Now **locate** the KotOR directory and **replace** the **swkotor.exe** with the **NoCD** version.
 
 At this point, your game is *mostly* playable, but we need to perform some house-keeping before trying it.
-
-___
 
 ### Configuring the game wrapper
 
@@ -148,20 +136,14 @@ These changes will allow KotOR's videos to show \[mostly\] correctly later on.
 
 Finally, in the **main** ***Wineskin*** **window**, click on the button that says **Set Screen Options**. In the window that opens, make sure that **Mac Driver** is selected in the **Window System** area, and in **General Options** tick the boxes **Auto Detect GPU Info for Direct3D** and **Use Direct3D Boost (if available)**. Leave "Retina Mode" unticked.
 
-___
-
 ### Running the game
 
 Now you are ready to run KotOR! In the main *Wineskin* window, click **Test Run** and see what happens. You should be taken to the game in 800 x 600 resolution. Since you are probably on a macintosh running *Mojave*, I think it's safe to assume this resolution is too low. So go ahead and change it to 1024 x 768. That's not a huge improvement, but you should probably work on a wide screen patch later on. I suggest you try running the game for a couple of minutes to make sure that the intro plays alright, and the mouse, sound and video all work as well. Don't bother saving it if you intend on adding any mods.
-
-___
 
 ### Known issues
 
 - The grass is glitched in most macs: it seems to have an infinite length. It has to be turned off in the graphics settings of the game.
 - The water and the stealth effects do not work in most macs. That's because **Wine** is unable to identify the machine's graphic card. It seems there is a solution for similar games that require the adding of a dll file inside the wrapper. If I come across that fix I'll publish here.
-
-___
 
 ### Bonus - Keeping the game saves outside the wrapper
 
@@ -244,23 +226,15 @@ The mods I talk about are from this list:
 
 [mod builds](/modding/mod_builds)
 
-___
-
 ### Override directory mods
 
 The easier mods are the ones where we simply move files to the override directory. So open it in Finder and just do it.
-
-___
 
 ### Patcher mods
 
 The nasty ones have that `.exe` patcher. To make that work we need some stuff first.
 
-___
-
 ### Setting up the tools
-
-___
 
 ### Homebrew
 
@@ -276,8 +250,6 @@ After all is done, you should be able to check if you have *Homebrew* by asking 
 
     brew -v
 
-___
-
 ### XQuartz
 
 Next, in order to run *Wine*, we need an older Unix library called ***XQuartz***. This is a set of routines that the old Mac OS could use to draw things on your screen. *Wine* needs it to draw the *Windows'* copycat windows for you.
@@ -290,8 +262,6 @@ To install *XQuartz*, do this:
 
 *(Note: Homebrew commands to install packages may change from time to time. So if Homebrew complains, read the feedback carefully and if it is too cryptic, google it.)*
 
-___
-
 ### Wine
 
 After all is done, we can install *Wine* like this:
@@ -299,8 +269,6 @@ After all is done, we can install *Wine* like this:
     brew cask install wine-devel
 
 *Homebrew* will now do the same thing with *Wine*. It will download the latest compatible code, it will compile it and hand the control back to us.
-
-___
 
 ### Linking the KotOR directory
 
@@ -379,8 +347,6 @@ Wine users:
 Of course, if you put your *Wine* wrapper elsewhere, change the command accordingly.
 
 Now you will see that there should be a directory that looks a lot like an alias (aka shortcut) in your *Documents* folder, called ***kotor***.
-
-___
 
 ### Running the patcher mods
 
