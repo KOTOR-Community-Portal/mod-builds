@@ -1,7 +1,7 @@
 All following steps must be performed before moving the mod files to the override:
 
 1. Regardless of what other mods you are or aren't using, the following files should be deleted: P_BastilaH04.tpc
-2. If using HD Astromechs by Dark Hope, delete C_DrdAstro01 - 03
+2. If using HD Astromechs by Dark Hope, delete C_DrdAstro01 and C_DrdAstro03
 3. If using HD Protocol Droids by Dark Hope, delete C_DrdProt01 - 04
 4. If using HD War Droids by Dark Hope, delete C_DrdWar01 - 05
 5. If using the Gammorean Reskin Pack by Quanon, delete C_Gammorean_Low as well as C_Gammorean01 - 04

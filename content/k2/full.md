@@ -112,8 +112,6 @@ Compatibility Warning
     When attempting to run this executable, Windows/your antivirus might attempt to block it, because it's an unsigned executable. The patch is made by a trusted member of the community, I have used it myself and can vouch for it, and the source code is publicly available [HERE](https://github.com/J0-o/3C-FD-Patcher)--please feel assured that this program is safe, and you can override Windows/your AV and run it. When running 3C-FD, select your game's executable and choose to apply all patches except the borderless windowed patch (this patch is not inherently incompatible with the builds, but because it is currently experimental I recommend not using it).
 :::
 
-___
-
 ### Water Restoration
 
 **Name:** [Water Restoration](https://deadlystream.com/files/file/2758-water-restoration/)
@@ -127,8 +125,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Stutter Fix
 
@@ -168,8 +164,6 @@ Installation Instructions
 :   This step should only be performed if you are **NOT** on the Aspyr patch and have not applied J's 3C-FD patcher! 3C-FD applies this as part of its fixes to the Aspyr version. Just like 3C-FD, since the Mac Appstore version is not an executable, this program cannot be utilized on the Mac Appstore edition of the game.
 :::
 
-___
-
 ### TSLRCM
 
 **Name:** [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
@@ -188,8 +182,6 @@ ___
 Compatibility Warning
 :   Recall that no version of M4-78 is compatible with this build; do not use it alongside TSLRCM! Remember also that the Workshop version of this or any other mod is NOT to be used!
 :::
-
-___
 
 ### TSLRCM Tweak Pack
 
@@ -212,8 +204,6 @@ Installation Instructions
 :   Don't use the complete installer, instead selecting the individual component installer—this is *critical* for compatibility, not just to choose specific options. The installer for this mod will need to be run 6 times, once to install each of the options we'll be using: Kaevee Removal Parts 1 & 2, Saedhe's Head, Kreia-Atris Dialogue Tweak, Trayus Mandalore Conversation, and Trayus Sith Lord Masks. Most of the other options for this mod are untested with the mod builds, but will likely function--I still recommend against using them, since compatibility isn't 100% guaranteed, but you can try. The one exception is *Atton at the End*, which is completely incompatible with one of the most important mods in this build, which is a much more comprehensive implementation of Atton's dialogue at endgame.
 :::
 
-___
-
 ### Silent Sion
 
 **Name:** [Silent Sion Restoration](https://deadlystream.com/files/file/2426-silent-sion-restoration/)
@@ -234,8 +224,6 @@ ___
 Installation Instructions
 :   Move just 153sion.dlg to the override.
 :::
-
-___
 
 ### Thematic KOTOR 2 Companions
 
@@ -260,8 +248,6 @@ Installation Instructions
 :   If you would like to have Visas's class as Sith Assassin, install the "Standard + Sith Assassin Visas" option. Otherwise, simply install "Standard."
 :::
 
-___
-
 ### Saving Throw Fixes
 
 **Name:** [Prestige Class Saving Throw Fixes](http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/)
@@ -280,8 +266,6 @@ ___
 Installation Instructions
 :   I advise users to only install the Jedi Master/Sith Lord fixes.
 :::
-
-___
 
 ### Classic Class Attack
 
@@ -302,8 +286,6 @@ Installation Instructions
 :   Strongly recommend downloading the standard option. Weaker Consulars can be extremely punishing, so if you choose this option be aware that you're in for a rough time at some places!
 :::
 
-___
-
 ### Robes with Shadows
 
 **Name:** [Robes with Shadows for TSL](https://deadlystream.com/files/file/2075-robes-with-shadows-for-tsl/)
@@ -322,8 +304,6 @@ ___
 Installation Instructions
 :   Extract the mod. Ignore the included subfolders, and move just the files in the base folder to your override. Overwrite when prompted.
 :::
-
-___
 
 ### K2CP
 
@@ -346,8 +326,6 @@ Installation Instructions
 :   Remember, warnings during an installation are normal—errors are not.
 :::
 
-___
-
 ### Remote Tells Influence
 
 **Name:** [Remote Tells Influence](https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence) and [**PATCH**](https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0)
@@ -362,8 +340,6 @@ ___
 
 **Installation Method:** Loose-File Mod & Patch
 
-___
-
 ### Better Czerka Salvager
 
 **Name:** [Fixed / Better Czerka Salvager](https://deadlystream.com/files/file/2576-fixed-better-czerka-salvager/)
@@ -377,8 +353,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Ultimate HR Textures
 
@@ -399,8 +373,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod. Delete PER_Gr01.tpc, TEL_rock.tpc through TEL_rock07.tpc, and TEL_wl05.tpc before moving the files to your override folder.
 :::
 
-___
-
 ### Ultimate Character Overhaul
 
 **Name:** [Ultimate Character Overhaul](https://www.nexusmods.com/kotor2/mods/1060)
@@ -419,8 +391,6 @@ ___
 Installation Instructions
 :   For now, ignore all patches (those will be installed later). Just download the main package, either Full or Lite based on your quality preferences (I recommend the 2x version, as the graphical differences are minimal). Just **MAKE SURE** they are in .tpc file format! Delete N_OndSoldMH1.tpc, PMBJ02.tpc, PMHC03.tpc, PMHC03D1.tpc, and PMHC03D2.tpc before moving to override.
 :::
-
-___
 
 ### Ultimate Nar Shaddaa
 
@@ -441,8 +411,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod. Delete NAR_fl01.tpc, NAR_Met4.tpc, and NAR_wl07.tpc before moving to your Override.
 :::
 
-___
-
 ### Ultimate Dantooine
 
 **Name:** [Ultimate Dantooine High Resolution](https://www.nexusmods.com/kotor2/mods/1103)
@@ -461,8 +429,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. Delete DAN_birds.tpc, DAN_MWFl.tpc, DAN_NEW1.tpc and DAN_wall03.tpc before moving to your Override.
 :::
-
-___
 
 ### Ultimate Dxun
 
@@ -483,8 +449,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod. Delete DXN_BWa1 through DXN_BWa8.tpc before moving the files to your override folder, then apply the patch.
 :::
 
-___
-
 ### Ultimate Onderon
 
 **Name:** [Ultimate Onderon High Resolution](https://www.nexusmods.com/kotor2/mods/1102)
@@ -503,8 +467,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. Delete OND_dor1.tpc & OND_dor3.tpc before moving to your Override.
 :::
-
-___
 
 ### Ultimate Korriban
 
@@ -525,8 +487,6 @@ Installation Instructions
 :   Download the .tpc variant of the mod. Delete KOR_water01.tpc before moving the files to your override folder.
 :::
 
-___
-
 ### Ultimate Malachor
 
 **Name:** [Ultimate Malachor High Resolution](https://www.nexusmods.com/kotor2/mods/1106)
@@ -545,8 +505,6 @@ ___
 Installation Instructions
 :   Download the .tpc variant of the mod. For this mod *only*, do not overwrite if prompted!
 :::
-
-___
 
 ### Korriban Sith Art
 
@@ -567,8 +525,6 @@ Download Instructions
 :   Download and install both files.
 :::
 
-___
-
 ### Ritual and Water Textures
 
 **Name:** [Ritual and Water Textures](https://deadlystream.com/files/file/2286-freedon-nadds-tomb-ritual-and-water-textures/)
@@ -588,8 +544,6 @@ Installation Instructions
 :   Move only the files from the ritual folder, not the water.
 :::
 
-___
-
 ### PFHC06 Fix
 
 **Name:** [PFHC06 Fix](https://deadlystream.com/files/file/1442-pfhc06-fix/)
@@ -603,8 +557,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Droid Special Weapons Fix
 
@@ -625,8 +577,6 @@ Download Instructions
 :   Use the V2 version of the mod.
 :::
 
-___
-
 ### Honest Merchant
 
 **Name:** [Honest Merchant](https://deadlystream.com/files/file/1904-honest-merchant-tslrcm/)
@@ -642,8 +592,6 @@ ___
 **Installation Method:** TSLPatcher Mod
 
 **Category & Tier:** Immersion / 4 - Optional
-
-___
 
 ### JC's Minor Fixes
 
@@ -664,8 +612,6 @@ Installation Instructions
 :   If you are using the K2 Community Patch, install the contents of every folder but Straight Fixes (that was already in the K2CP). Delete DXn_grassfx.tga and DXN_jungfx.tga in Aesthetic Improvements before moving files to override.
 :::
 
-___
-
 ### Maintenance Reskin
 
 **Name:** [Maintenance Officer Realistic Reskin](https://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/)
@@ -680,8 +626,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD Sign Placeable
 
 **Name:** [PLC_Sign](https://deadlystream.com/files/file/2442-plc_sign/)
@@ -695,8 +639,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Kiosk
 
@@ -717,8 +659,6 @@ Download Instructions
 :   Download the "Kiosk HD 15.03.2024" version.
 :::
 
-___
-
 ### HD Desk
 
 **Name:** [PLC_Desk](https://deadlystream.com/files/file/2441-plc_desk/)
@@ -732,8 +672,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Hires Beam Effects
 
@@ -749,8 +687,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Fire and Ice HD
 
 **Name:** [Fire And Ice HD](http://deadlystream.com/files/file/454-fire-and-ice-hd-whee/)
@@ -765,8 +701,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Animated Energy Shields
 
 **Name:** [Animated Energy Shields](https://deadlystream.com/files/file/2193-animated-energy-shields/)
@@ -780,8 +714,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Blaster Visual Effects
 
@@ -802,8 +734,6 @@ Installation Instructions
 :   Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.
 :::
 
-___
-
 ### Head Model Fixes
 
 **Name:** [TSL Head Model Fixes](http://deadlystream.com/files/file/489-tsl-head-model-fixes/)
@@ -818,8 +748,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### New Holocron Textures
 
 **Name:** [New Holocron Textures](http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/)
@@ -833,8 +761,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Thigh-High Boots for Twi'lek
 
@@ -855,8 +781,6 @@ Installation Instructions
 :   Ignore the "Player Bodies" folder. Go into the NPC Replacement folder and move all the loose files to the override directory. Ignore the optional folder.
 :::
 
-___
-
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1432-tsl-better-male-twilek-heads/)
@@ -875,8 +799,6 @@ ___
 Installation Instructions
 :   Choose whether to use the slim or original necks; your preference.
 :::
-
-___
 
 ### Twi'lek Male Diversity
 
@@ -897,8 +819,6 @@ Installation Instructions
 :   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
 :::
 
-___
-
 ### Dahnis Unique Look
 
 **Name:** [Dahnis Unique Look](https://deadlystream.com/files/file/2198-dahnis-unique-look/)
@@ -918,8 +838,6 @@ Installation Instructions
 :   The use of the upscaled textures or not is your preference, though I recommend them.
 :::
 
-___
-
 ### Darth Malak's Armor
 
 **Name:** [Darth Malak's Armor](http://www.nexusmods.com/kotor2/mods/9/?)
@@ -933,8 +851,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Supermodel Fix
 
@@ -960,8 +876,6 @@ Installation Instructions
 :   Move the files from the override folder to your override directory. Optionally, if you prefer the aesthetic of the K1 running animation, you can also move the files from the 'K1 Style Running' folder to your override and overwrite.
 :::
 
-___
-
 ### Worn-Out Mando Armor
 
 **Name:** [Mandalorian Worn-Out Armor](https://mega.nz/#!1A4RCLha!Ro2GNVUPRfgot-woqh80jVaukixr-cnUmTdakuc0Ca4)
@@ -978,8 +892,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### HD NPC Portraits
 
 **Name:** [HD NPC Portraits](https://deadlystream.com/files/file/1770-hd-npc-portraits/)
@@ -993,8 +905,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD PC Portraits
 
@@ -1010,8 +920,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Stylized Portraits TSL
 
 **Name:** [Stylized Portraits TSL](https://deadlystream.com/files/file/1977-stylized-portraits-tsl-created-by-tinman888/)
@@ -1025,8 +933,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### PFHC03 Restoration
 
@@ -1047,8 +953,6 @@ Installation Instructions
 :   Recommend the 'zombie-like' appearance, as it matches vanilla DS transitions.
 :::
 
-___
-
 ### 4K Atton
 
 **Name:** [4k Atton](http://deadlystream.com/files/file/441-4k-atton/)
@@ -1067,8 +971,6 @@ ___
 Download Instructions
 :   Download the .tpc version of the mod.
 :::
-
-___
 
 ### Atton with Scruff
 
@@ -1089,8 +991,6 @@ Installation Instructions
 :   Ignore the MacOS folder, only move the .TGA files.
 :::
 
-___
-
 ### Rounder G0-T0
 
 **Name:** [Rounder G0-T0](https://www.nexusmods.com/kotor2/mods/1296)
@@ -1104,8 +1004,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Dark Harbinger
 
@@ -1128,8 +1026,6 @@ Installation Instructions
 :   Choose which version of the head model you would like to use from the screenshots provided. Place the files from the corresponding folder into your override.
 :::
 
-___
-
 ### HD Vrook
 
 **Name:** [HD Vrook](https://deadlystream.com/files/file/1504-vrook-hd-international-global-mod/)
@@ -1143,8 +1039,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Darth Nihilus
 
@@ -1165,8 +1059,6 @@ Download Instructions
 :   Download and install the .tpc filetype version: it is nearly lossless, much more performant due to the smaller size, and critically fixes several issues caused by the very large texture size of the original upload.
 :::
 
-___
-
 ### Darth Sion Remake
 
 **Name:** [Darth Sion Remake](https://deadlystream.com/files/file/1244-darth-sion-remake/)
@@ -1186,8 +1078,6 @@ Installation Instructions
 :   Install the files within the Override folder.
 :::
 
-___
-
 ### Detran's Revan
 
 **Name:** [Detran's Revan](https://deadlystream.com/files/file/2350-detrans-darth-revan/#)
@@ -1202,8 +1092,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Lore-Friendly Mandalore
 
 **Name:** [Lore-Friendly Mandalore Mask](https://deadlystream.com/files/file/1848-expanded-lore-friendly-mandalores-mask-with-matching-armor-and-icons-upscaled-high-quality-textures/)
@@ -1217,8 +1105,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Visas Reduced Model Clipping
 
@@ -1239,8 +1125,6 @@ Download Instructions
 :   Either option is fine, choose which you prefer based on the screenshots.
 :::
 
-___
-
 ### HD Visas Marr
 
 **Name:** [HD Visas Marr](http://deadlystream.com/files/file/519-darth-sapiens-presents-hd-2k-visas-marr/)
@@ -1260,8 +1144,6 @@ Installation Instructions
 :   Only move the four .dds filetype files to your override, ignore the remainder. If installing this mod alongside either the K2CP or Ultimate Character Overhaul, P_VisasBB.tpc, P_VisasH01.tpc/.tga, P_VisasHD01.tpc/.tga, and P_VisasHD02.tpc/.tga must be deleted from the override so this mod's .dds-based files will load.
 :::
 
-___
-
 ### Mira Unpoofed
 
 **Name:** [Mira Unpoofed](https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/)
@@ -1275,8 +1157,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### T3M4 HD 2K
 
@@ -1297,8 +1177,6 @@ Installation Instructions
 :   If present in your Override, P_t3m4_01.tpc/.tga must be deleted so this mod's .dds-based files will load.
 :::
 
-___
-
 ### HD Astromechs
 
 **Name:** [Refurbished Astromech Droids](http://deadlystream.com/files/file/971-refurbished-astromech-droids/)
@@ -1313,8 +1191,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### War Droid HD
 
 **Name:** [War Droid Mk.1](https://deadlystream.com/files/file/2188-war-droid-mark-i-hd/)
@@ -1328,8 +1204,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Duros
 
@@ -1350,8 +1224,6 @@ Installation Instructions
 :   Before moving the files to override, make a copy of N_Duros02.tga and paste it into the same location you extracted the mod to. On a Windows OS, this should create a file called "N_Duros02 - Copy.tga". Rename this file to "N_Duros04.tga". Repeat this process with the file N_Duros03.tga, creating two copies and naming them N_Duros05.tga and N_Duros06.tga. When you move all the files to the override, you should be moving eight total. Following this, download and install the patch.
 :::
 
-___
-
 ### HD Ithorians
 
 **Name:** [Ithorians HD](https://deadlystream.com/files/file/2382-ithorian-hd/)
@@ -1371,8 +1243,6 @@ Installation Instructions
 :   Similar to the above, make a copy of C_Ithorian03.tga and rename it to N_Chodo.tga. You should move a total of 5 files to the override.
 :::
 
-___
-
 ### N_oldAMH01 HD
 
 **Name:** [N_oldAMH01 HD](https://deadlystream.com/files/file/2806-n_oldamh01-hd/)
@@ -1387,8 +1257,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Canonical Jedi Exile
 
 **Name:** [Canonical Jedi Exile](http://deadlystream.com/files/file/170-canonical-jedi-exile/)
@@ -1402,8 +1270,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Lightsaber Visual Effects
 
@@ -1423,8 +1289,6 @@ ___
 Installation Instructions
 :   Recommend using the default without optional textures, because J's mod below uses the defaults as its base for its reflections.
 :::
-
-___
 
 ### Lightsaber Hilt Variety
 
@@ -1447,8 +1311,6 @@ Download Instructions
 :   If you don't like the little semi-random bronze pieces on each lightsaber hilt, download w_lghtsbr_001.tga and move that file to your override *after* installing the base version of the mod
 :::
 
-___
-
 ### Random Panels
 
 **Name:** [KOTOR 2 Random Panels](https://deadlystream.com/files/file/2588-kotor2-random-panels/)
@@ -1462,8 +1324,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Neglected Computer Panel
 
@@ -1484,8 +1344,6 @@ Download Instructions
 :   Download only the Damaged version, it contains files for both.
 :::
 
-___
-
 ### Improved Peragus Asteroids
 
 **Name:** [Improved Peragus Asteroids](http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/)
@@ -1500,8 +1358,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Swoop Monitor Replacement
 
 **Name:** [Swoop Monitor Replacement Pack](https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/)
@@ -1515,8 +1371,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HD Terminal Texture
 
@@ -1537,8 +1391,6 @@ Installation Instructions
 :   The files in this mod need to be duplicated and those duplicates renamed. On a Windows OS you can do this by copying the two files within and pasting them into the same folder which you copied them from. This should create duplicates of the original files with a slightly different filename (such as PLC_CompPnl-COPY). Take the two copied files and rename them to PLC_CompPnl_b, retaining their original file extensions (that means the .tga filetype file should be the larger one!). When the files are moved to the override, you should be moving four files: PLC_CompPnl.tga, PLC_CompPnl.txi, PLC_CompPnl_b.tga, and PLC_CompPnl_b.txi
 :::
 
-___
-
 ### Animated Computer Panel
 
 **Name:** [Animated Computer Panel](https://deadlystream.com/files/file/1385-tsl-animated-computer-panel/)
@@ -1558,8 +1410,6 @@ Installation Instructions
 :   Recommend solid options. Do NOT use experimental install options!
 :::
 
-___
-
 ### HD Workbench
 
 **Name:** [RepTab HD](https://deadlystream.com/files/file/2222-reptab-hd/)
@@ -1573,8 +1423,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Backdrop Improvements
 
@@ -1595,8 +1443,6 @@ Installation Instructions
 :   Install the files from the included Override directory only. Delete all the files beginning with "leh_". There should be four.
 :::
 
-___
-
 ### Citadel Station Backdrop
 
 **Name:** [JC's Citadel Station Backdrop](https://deadlystream.com/files/file/1217-jcs-citadel-station-backdrop/)
@@ -1610,8 +1456,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### HQ Skyboxes II
 
@@ -1637,8 +1481,6 @@ Installation Instructions
 :   After this mod has finished installing, if you are using the K2CP, extract the K2CP once again—*do not* re-run its TSLPatcher! Open the TSLPatchdata folder and move 231teld.mdl and 231teld.mdx to your override, and overwrite when prompted.
 :::
 
-___
-
 ### Ebon Hawk Cockpit Upgrade I
 
 **Name:** [Ebon Hawk Cockpit Upgrade (LEH_Scre01)](https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/)
@@ -1652,8 +1494,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Ebon Hawk Cockpit Upgrade II
 
@@ -1674,8 +1514,6 @@ Installation Instructions
 :   Recommend the version without overlays, but it's personal preference.
 :::
 
-___
-
 ### Spark Effect
 
 **Name:** [Spark Effect - Ebon Hawk](https://deadlystream.com/files/file/2314-spark-effect-ebon-hawk/)
@@ -1689,8 +1527,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Transparent Cockpit Windows
 
@@ -1716,8 +1552,6 @@ Installation Instructions
 :   Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: K2CP ("K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos"), "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos". **DO NOT USE** the content of the "Korriban Distorted Model Fix" folder, even if you are on the Aspyr patch! With the C3-FD patcher, this is no longer a concern.
 :::
 
-___
-
 ### HD Cockpit Skyboxes
 
 **Name:** [HD Cockpit Skyboxes](http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
@@ -1742,8 +1576,6 @@ Installation Instructions
 :   Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 :::
 
-___
-
 ### FTL Loop
 
 **Name:** [FTL Hyperspace Loop](https://www.nexusmods.com/kotor2/mods/1161?tab=description)
@@ -1757,8 +1589,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Aleema Keto's Robe Fix
 
@@ -1779,8 +1609,6 @@ Download Instructions
 :   Download the larger of the two files.
 :::
 
-___
-
 ### Short-Term Memory Fix
 
 **Name:** [Vaklu Short-Term Memory Fix](https://deadlystream.com/files/file/2654-vaklu-short-term-memory-fix/)
@@ -1800,8 +1628,6 @@ Installation Instructions
 :   Recommend Drew's fix, as it preserves more of the original dialogue.
 :::
 
-___
-
 ### Onderon News Makes Sense
 
 **Name:** [Onderon News Make Sense](https://deadlystream.com/files/file/2655-onderon-news-make-sense/)
@@ -1815,8 +1641,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** HoloPatcher Mod
-
-___
 
 ### Hawk Downloadable Map
 
@@ -1832,8 +1656,6 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-___
-
 ### Kinrath Egg Crystal Drop
 
 **Name:** [Kinrath Egg Bash Crystal Drop Fix](http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/)
@@ -1847,8 +1669,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Thorium Charge Mod
 
@@ -1864,8 +1684,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Kill the Ithorian
 
 **Name:** [Kill the Ithorian](http://deadlystream.com/files/file/10-kill-the-ithorian/)
@@ -1879,8 +1697,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Red Floating Lightsabers
 
@@ -1896,8 +1712,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Mira or Hanharr
 
 **Name:** [Choose Mira or Hanharr](http://deadlystream.com/files/file/108-choose-mira-or-hanharr/)
@@ -1912,8 +1726,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Kreia's Fall Cutscene
 
 **Name:** [Kreia's Fall Ingame Cutscene](https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
@@ -1927,8 +1739,6 @@ ___
 **Non-English Functionality:** PARTIAL - Compatibility with English, French and German
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### PartySwap
 
@@ -1953,8 +1763,6 @@ Installation Instructions
 :   Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
 :::
 
-___
-
 ### Extended Enclave
 
 **Name:** [Extended Enclave](http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/)
@@ -1975,8 +1783,6 @@ ___
 Steam Notes
 :   This mod disables the ability to unlock certain achievements! Other mods might do the same, but this one has been confirmed incompatible with at least one achievement. I recommend it regardless, but if you care about achievements over story this mod won't be for you.
 :::
-
-___
 
 ### PartySwap-EE Compatch
 
@@ -1999,8 +1805,6 @@ Installation Instructions
 :   Use the 'No M4-78EP Installed' option. The 'Extended Enclave Tweaks' is a separate mod we don't use in this build.
 :::
 
-___
-
 ### Extended Korriban Arrival
 
 **Name:** [Extended Korriban Arrival](http://deadlystream.com/files/file/250-extended-korriban-arrival/)
@@ -2016,8 +1820,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Prologue Item Recovery
 
@@ -2037,8 +1839,6 @@ ___
 Installation Instructions
 :   Use the TSLPatcher installer method (mandatory for compatibility), not the manual install.
 :::
-
-___
 
 ### Balance Tweak Pack
 
@@ -2061,8 +1861,6 @@ Installation Instructions
 :   Run the installers for Force Crush Balance and Disable Droid Interface Feat. The other mod options are untested with the builds and I don't personally recommend them.
 :::
 
-___
-
 ### Mines Overhaul
 
 **Name:** [Mines Overhaul](https://deadlystream.com/files/file/2753-mines-overhaul-tsl/)
@@ -2082,8 +1880,6 @@ Installation Instructions
 :   Recommend running all three options, the main install first and then the two optionals.
 :::
 
-___
-
 ### No Health Regeneration
 
 **Name:** [No Health Regeneration](https://deadlystream.com/files/file/2530-no-health-regeneration/)
@@ -2102,8 +1898,6 @@ ___
 Installation Instructions
 :   The option to gradually restore health while on the Ebon Hawk is compatible with the builds--if you'd like to use it, re-run the HoloPatcher and install that option after installing the base mod first.
 :::
-
-___
 
 ### Thematic Sith Lords
 
@@ -2126,8 +1920,6 @@ Installation Instructions
 :   First choose your base install option, either Standard or No Force Rating (the latter removes the inherent DS alignment bonus to saves in some modules, which also gives an equivalent malus to LS characters in those modules). After this is installed, if you would like for Visas to ambush you as a Sith Assassin (which is a *very difficult fight*—remember, she will have Sneak Attack, and that fight forcibly stuns you), re-run the patcher and also install that option.
 :::
 
-___
-
 ### Thematic Jedi Masters
 
 **Name:** [Thematic Jedi Masters](https://deadlystream.com/files/file/2633-thematic-jedi-masters/)
@@ -2141,8 +1933,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Better Disciple Meditation
 
@@ -2158,8 +1948,6 @@ ___
 
 **Installation Method:** TSLPatcher Mod
 
-___
-
 ### Bao-Dur & Heavy Armor
 
 **Name:** [Bao-Dur Can Wear Heavy Armor](https://deadlystream.com/files/file/2189-bao-dur-can-wear-heavy-armor/)
@@ -2173,8 +1961,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### JC's Crystal Attunement
 
@@ -2195,8 +1981,6 @@ Installation Instructions
 :   Practically speaking there are only two relevant install options: "Class-Based Properties + Workbench Attunement", which is the full package, or "Bug Fixes Only". If you don't like the mod's changes but would like to have its bugfixes, install the latter; otherwise, install the former.
 :::
 
-___
-
 ### Jekk'Jekk'Tarr Thugs
 
 **Name:** [Better Jekk'Jekk'Tarr Thugs](https://deadlystream.com/files/file/2684-better-jekkjekk-tarr-thugs/)
@@ -2212,8 +1996,6 @@ ___
 **Installation Method:** HoloPatcher
 
 **Masters:** TSLRCM
-
-___
 
 ### Logical Jekk'Jekk Tarr
 
@@ -2236,8 +2018,6 @@ Installation Instructions
 :   Install part 1 and then part 2, then, if using Better Jekk'Jekk Tarr Thugs, also install the compatch.
 :::
 
-___
-
 ### Mira's Vanilla Escape
 
 **Name:** [Mira's Vanilla Escape for TSLRCM](https://deadlystream.com/files/file/2671-miras-vanilla-escape-for-tslrcm/)
@@ -2259,8 +2039,6 @@ Installation Instructions
 :   I recommend the "With Additional Scene" option for maximum restored content and internal consistency for the sequence.
 :::
 
-___
-
 ### Kreia's Longsword
 
 **Name:** [Kreia's Lightsaber/Longsword](https://deadlystream.com/files/file/1538-kreias-lightsaber-long-sword/)
@@ -2279,8 +2057,6 @@ ___
 Installation Instructions
 :   The lightsaber version of this mod is broken when used alongside the mod builds, so please ensure to use specifically the longsword version.
 :::
-
-___
 
 ### Harbinger Performance Fix
 
@@ -2301,8 +2077,6 @@ Installation Instructions
 :   Use the installer version.
 :::
 
-___
-
 ### Visas VO Tweak
 
 **Name:** [Visas Voiceover Tweak](http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/)
@@ -2318,8 +2092,6 @@ ___
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Sion and a Male Exile
 
@@ -2337,8 +2109,6 @@ ___
 
 **Installation Method:** HoloPatcher Mod
 
-___
-
 ### Assassins with Lightsabers
 
 **Name:** [Sith Assassins with Lightsabers](https://deadlystream.com/files/file/2631-sith-assassins-with-lightsabers/)
@@ -2352,8 +2122,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher
-
-___
 
 ### True Sith Assassins
 
@@ -2374,8 +2142,6 @@ Installation Instructions
 :   Unless you intend on playing a character with very high awareness, I recommend the reduced difficulty option if using Lewok's Sith Assassins with Lightsabers, because the damage will be ridiculous. Remember to also apply the compatch for Lewok's mod after running the main install option of your choice, if using it.
 :::
 
-___
-
 ### For Mandalore!
 
 **Name:** [For Mandalore!](https://deadlystream.com/files/file/2666-for-mandalore/)
@@ -2394,8 +2160,6 @@ ___
 Installation Instructions
 :   Strongly recommend using the Snigaroo Cut for balance and immersion's sake.
 :::
-
-___
 
 ### Peragus Medical Bay Enhancement
 
@@ -2416,8 +2180,6 @@ Installation Instructions
 :   When installing, for best internal consistency choose install options 1 or 2 (not underwear). Option 2 is technically the most consistent but the visual differentiation is very slight and likely would not be noticeable. When the install is completed, if you would like the miners to have burned skin (as they realistically would have had) move the files from the "OPTION - Burned Skin Textures" folder (or the upscaled textures therein) to your override.
 :::
 
-___
-
 ### HQ Blasters
 
 **Name:** [High Quality Blasters](http://deadlystream.com/files/file/915-high-quality-blasters/)
@@ -2431,8 +2193,6 @@ ___
 **Non-English Functionality:** PARTIAL - Some text will be blank or in English
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Droid Model Fix
 
@@ -2458,8 +2218,6 @@ Installation Instructions
 :   Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 :::
 
-___
-
 ### Quarterstaff Replacements
 
 **Name:** [Quarterstaff Replacement Pack](http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
@@ -2473,8 +2231,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Upscaled Icon Overhaul
 
@@ -2495,8 +2251,6 @@ Installation Instructions
 :   Delete if_finesse01.tga, if_finesse02.tga, iw_dblsbr_010.tga, iw_dsrptpstl_001.tga, iw_dsrptpstl_002.tga, iw_dsrptpstl_003.tga, iw_dsrptpstl_004.tga,iw_Lghtsbr_011.tga, iw_qtrstaff_001.tga, iw_qtrstaff_002.tga, and iw_qtrstaff_003.tga before moving the files to the override and overwriting any conflicts.
 :::
 
-___
-
 ### Rescaled Trandoshans
 
 **Name:** [Rescaled Trandoshans](https://deadlystream.com/files/file/946-re-scaled-trandoshans/)
@@ -2510,8 +2264,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Visually Repair HK
 
@@ -2531,8 +2283,6 @@ ___
 Installation Instructions
 :   Select between one of the two TSLRCM-compatible install options.
 :::
-
-___
 
 ### Expanded Ending
 
@@ -2555,8 +2305,6 @@ Installation Instructions
 :   If you are NOT playing the game on a 4:3 aspect ratio monitor, regardless of what your aspect ratio is, install the 16:9 main install option. Then re-run the patcher and apply the Transparent Cockpit Windows - Retexture Friendly option, if using the Transparent Cockpit Windows mod.
 :::
 
-___
-
 ### Consistent Bastila Recognition
 
 **Name:** [Consistent Bastila Recognition](https://deadlystream.com/files/file/2695-consistent-bastila-recognition/)
@@ -2578,8 +2326,6 @@ Installation Instructions
 :   Run the patcher using the Default install option, then re-run and apply the Expanded Ending compatch, if using Expanded Ending.
 :::
 
-___
-
 ### Handmaiden Fit Model
 
 **Name:** [Handmaiden - Fit and Athletic](http://deadlystream.com/files/file/846-handmaiden-fit-and-athletic/) and [**Patch**](https://mega.nz/#!gcxRTYTJ!ILbLFRyGEr4lGZYDOLN_Qg17fCm-TJw4Y1RDuy4WiWI)
@@ -2598,8 +2344,6 @@ ___
 Installation Instructions
 :   Ignore all the loose files in the folder; use the TSLPatcher to install the mod. Then copy the two files from the patch into override.
 :::
-
-___
 
 ### JC's Handmaiden Sisters
 
@@ -2620,8 +2364,6 @@ Installation Instructions
 :   Install the TSLRCM option.
 :::
 
-___
-
 ### Replacement Loadscreens
 
 **Name:** [Replacement Loading Screens](https://deadlystream.com/files/file/1255-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-1/) and [Part 2](https://deadlystream.com/files/file/1256-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-2/) and [Part 3](https://deadlystream.com/files/file/1257-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-3/)
@@ -2640,8 +2382,6 @@ ___
 Installation Instructions
 :   Move all the files but load_301NARa (in Part 2) to the override.
 :::
-
-___
 
 ### Vibrocutter Changes
 
@@ -2662,8 +2402,6 @@ Installation Instructions
 :   Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the first droids with a plasma torch.
 :::
 
-___
-
 ### Peragus Monitor Adjust
 
 **Name:** [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
@@ -2682,8 +2420,6 @@ ___
 Installation Instructions
 :   Use the files in the "Alternate Textures" folder.
 :::
-
-___
 
 ### Replacement Peragus II
 
@@ -2704,8 +2440,6 @@ Installation Instructions
 :   Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 :::
 
-___
-
 ### TSL Galaxymap Fixpack
 
 **Name:** [TSL Galaxy Map Fix Pack](http://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/)
@@ -2724,8 +2458,6 @@ ___
 Installation Instructions
 :   Install the Vanilla/TSLRCM option.
 :::
-
-___
 
 ### Fixed Hologram Models
 
@@ -2748,8 +2480,6 @@ Download Instructions
 :   Download just the main file, not the robes patch.
 :::
 
-___
-
 ### Relighting TSL
 
 **Name:** [Relighting TSL](https://deadlystream.com/files/file/2752-relighting-tsl-early-release/)
@@ -2769,8 +2499,6 @@ Download Instructions
 :   Download and apply all files, unless **NOT** using TSLRCM (in which case, skip relightingtsl_298TELk_1.0.zip).
 :::
 
-___
-
 ### Companion Clothes
 
 **Name:** [Companion Starting Armors](https://deadlystream.com/files/file/2145-k2-companion-starting-armors/)
@@ -2784,8 +2512,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Improved Enlightenment/Corruption
 
@@ -2801,8 +2527,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Repair Affects Stun Droid
 
 **Name:** [Repair Affects Stun Droid](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
@@ -2816,8 +2540,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Improved Force Sight
 
@@ -2838,8 +2560,6 @@ Installation Instructions
 :   Recommend installing all three modules.
 :::
 
-___
-
 ### Alignment Affects Force Powers
 
 **Name:** [Alignment Affects Force Powers](https://deadlystream.com/files/file/2815-alignment-affects-force-powers-tsl/)
@@ -2858,8 +2578,6 @@ ___
 Installation Instructions
 :   I strongly recommend the combined install of "Alignment Affects Force Powers + Treat Injury Affects Force Healing."
 :::
-
-___
 
 ### Ultimate Character Overhaul Patches
 
@@ -2887,8 +2605,6 @@ Installation Instructions
     * All remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's Male Twi'lek Diversity mod)
 :::
 
-___
-
 ### Bao-Dur/Darth Maul
 
 **Name:** [Bao-Dur/Darth Maul](https://mega.nz/#!BJgCDJLY!miLH-LcFEgiRWlmfWixicFdn1o_uoFHb76g9NOo0CHM)
@@ -2905,8 +2621,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Realistic Visual Effects
 
 **Name:** [Realistic Visual Effects](http://deadlystream.com/files/file/735-realistic-visual-effects/)
@@ -2920,8 +2634,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-___
 
 ### Remove Duplicate TGA/TPC
 
@@ -2942,8 +2654,6 @@ Installation Instructions
     **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 :::
 
-___
-
 ### TOMB
 
 **Name:** [Thematic Obscured Mausoleum Burial](https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/)
@@ -2959,8 +2669,6 @@ Do note—the fights here can be quite challenging depending upon your choices. 
 **Non-English Functionality:** NO
 
 **Installation Method:** TSLPatcher
-
-___
 
 ### Character Textures & Model Fixes
 
@@ -3011,8 +2719,6 @@ Installation Instructions
 :   Apply the contents of the "for override folder". If you would like to have the TSLRCM version of the KOTOR 2 logo on your main menu, you will need to BOTH move the contents of the "FOR TSLRCM" folder to your override, as well as the contents of the separate download "Updated_TSLRCM_Logo_v1.8.6".
 :::
 
-___
-
 ### K2 Cutscenes Rescaled
 
 **Name:** [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
@@ -3041,8 +2747,6 @@ Installation Instructions
     If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and follow the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
 :::
 
-___
-
 ### K2 Remastered Cutscenes
 
 **Name:** [KOTOR 2 Remastered Cutscenes](https://www.nexusmods.com/kotor2/mods/1066/)
@@ -3064,8 +2768,6 @@ Installation Instructions
     If you experience issues with the game minimizing during cutscenes, it might be necessary to go to [this video](https://www.youtube.com/watch?v=l7euNu1Tt5E) and follow the instructions to use RAD tools to "upscale" the cutscenes to match your exact resolution, though I have not personally attempted this so I don't know how much time it would take to complete. I would estimate around 8 hours, which is the typical time it takes for the native movies to be scaled to 1920x1080 using the same system, but remember that this would be a fully-automated process.
 :::
 
-___
-
 ### Loading Screen Rescaled
 
 **Name:** [K2 Loading Screen Rescaled](https://deadlystream.com/files/file/2622-k2-loading-screen-rescaled/)
@@ -3080,8 +2782,6 @@ ___
 
 **Installation Method:** Loose-File Mod
 
-___
-
 ### Workbench Camera Tweak
 
 **Name:** [Workbench Upgrade Screen Camera Tweak](https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
@@ -3095,8 +2795,6 @@ ___
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-___
 
 ### Upscaled Maps
 
