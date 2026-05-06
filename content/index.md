@@ -119,4 +119,4 @@ A very special thanks to my testers! Although I do all the playthrough testing m
 
 Special thanks also to all of the modders whose work I've been using over the years, and an especial thanks to DarthParametric, Fair Strides, Deltm, A Future Pilot, and Nomuit, who have at various times all been indispensable helping me with testing, bugfixing, and rebuilding mods to support build compatibility!
 
-Thanks to mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/MxYDSG2FZu) for updating them for me.
+Thanks to mattekillert for mocking up the original category and tier images for me, and Amanda from the [Discord](https://discord.gg/kotor#rules) for updating them for me.

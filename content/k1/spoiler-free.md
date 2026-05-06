@@ -45,7 +45,7 @@ For unknown reasons, the Amazon Games version of KOTOR has a modified executable
 
 Please note, case-sensitivity is an issue with many Linux systems (as you may expect). For those not running a case-insensitive distro, you will need to batch-lowercase any mod files--*any* mod files, not just the files that end up in your override directory. It's likely you will need to both lowercase the files before installing any installer-based mod and then again at the end of the process as a batch action in your game directory and all subfolders, as the TSLPatcher/HoloPatcher will generate several files as part of their install processes which will have capitals that are misread.
 
-Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's](https://discord.gg/qw7NhM6EW5) #tech_support channel dealing with Proton and how to resolve both issues (the crashing & rendering problems).
+Most Linux players appear to be using Proton these days, and for those that do there are some known issues with it, both related to crashes with certain older Proton versions and with rendering issues on newer Proton releases. I don't use Linux and don't feel qualified to try to summarize the issues and fixes here, but just be aware if you run into trouble there are several pins in the [Discord's #tech_support channel](https://discord.gg/kotor#tech_support) dealing with Proton and how to resolve both issues (the crashing & rendering problems).
 
 ### Known Bugs
 
@@ -1770,7 +1770,7 @@ Installation Instructions
 
 **Description:** Rather than a supplementary, this mod by olegkuz should be treated as an alternative to HD Fire and Ice & Hi-Res Beam Effects, already listed above. While this mod edits some files they don't touch and vice-versa, for the most part it replaces those textures. If you would like, you can install this mod and simply not overwrite when prompted to keep most of the changes of Fire and Ice HD & Hi-Res Beam Effects while only adding the files from this mod that those mods don't touch, but if you choose to overwrite this mod will be your main graphical edit for FX.
 
-I'm also looking for opinions about this and whether users prefer it to Fire and Ice HD & HR Beam Effects, so please feel free to drop by the [Discord](https://discord.gg/MxYDSG2FZu) and let me know what you think!
+I'm also looking for opinions about this and whether users prefer it to Fire and Ice HD & HR Beam Effects, so please feel free to drop by the [Discord](https://discord.gg/kotor#rules) and let me know what you think!
 
 **Category & Tier:** Graphics Improvement / 3 - Suggested
 
