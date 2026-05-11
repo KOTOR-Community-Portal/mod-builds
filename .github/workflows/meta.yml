@@ -1,0 +1,61 @@
+name: Metadata
+
+on:
+  push:
+    branches:
+      - "dev"
+    paths:
+      - "content/**.md"
+      - "!meta.json"
+
+concurrency:
+  group: meta
+  cancel-in-progress: true
+
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.RELEASE_APP_ID }}
+          private-key: ${{ secrets.RELEASE_PRIVATE_KEY }}
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: dev
+          fetch-depth: 0
+          path: "mod-builds"
+          token: ${{ steps.app_token.outputs.token }}
+      - name: Configure Git
+        run: |
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email ${{ github.actor_id }}+${{ github.actor }}
+      - name: Update Metadata
+        run: |
+          cd mod-builds
+          meta="meta.json"
+          files=($(jq -r 'keys[]' "$meta"))
+          for file in "${files[@]}"
+          do
+            diff=$(git diff HEAD~1 -- "$file")
+            if [ -n "$diff" ]; then
+              date=$(git show --pretty=format:"%cI" --no-patch)
+              name=$(git show --pretty=format:"%cn" --no-patch)
+              json=$(jq --arg k "$file" --arg v_on "$date" --arg v_by "$name" '.[$k].modified_on = $v_on | .[$k].modified_by = $v_by' < "$meta")
+              echo "$json" > "$meta"
+            fi
+          done
+          cd ..
+      - name: Git Operations
+        run: |
+          cd mod-builds
+          status=$(git status -s)
+          if [ -n "$status" ]; then
+            git add meta.json
+            git commit -m "Update metadata"
+            git push
+          fi
+          cd ..
