@@ -1507,6 +1507,11 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+:::note
+Download Instructions
+:   Download the "hd_kt_400_military_droid_carrier_and_lethisk_class_armed_freighter.rar" option.
+:::
+
 ### Kebla Yurt Renovation
 
 **Name:** [Kebla Yurt Renovation](https://deadlystream.com/files/file/2785-kebla-yurt-renovation/)
