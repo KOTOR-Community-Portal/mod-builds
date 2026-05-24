@@ -157,6 +157,17 @@ Download Instructions
 :   If you want both the fix and the new force cage model, download just forcecage_updated_1.1.0.zip
 :::
 
+===IF testCondition
+1. Test conditional fencing
+2. ???
+3. Profit
+
+:::warning
+Hello, world!
+:   This is a test.
+:::
+===
+
 ## Mod List
 
 ### 4GB Patcher
