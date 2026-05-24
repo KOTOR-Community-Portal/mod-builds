@@ -93,6 +93,18 @@ For those who have the Aspyr patch installed, the below are the fixes which must
 
 ### 3C-FD Patcher
 
+```yaml
+- name: 3C-FD Patcher
+  download: https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/
+  author: J
+  tier: 1
+  categories:
+    - Bugfix
+	- Engine Enhancement
+	- Model or Animation Improvement
+  installation: Executable
+```
+
 **Name:** [3C-FD Patcher](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
 
 **Author:** J
