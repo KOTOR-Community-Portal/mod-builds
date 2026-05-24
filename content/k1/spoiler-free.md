@@ -1148,11 +1148,11 @@ Download Instructions
 
 ### Unique Sith Governor
 
-**Name:** [Unique Sith Governor](https://mega.nz/file/hJwGVL6B#B0-0O_6koePu2kzc8Xif4FzFKPUYApT9PUTv6kWzmjk)
+**Name:** [Unique Sith Governor](https://deadlystream.com/files/file/2302-unique-sith-governor/)
 
 **Author:** N-DReW25
 
-**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod. Some information has been censored to prevent spoilers.
+**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod.
 
 **Category & Tier:** Appearance Change / 3 - Suggested
 
