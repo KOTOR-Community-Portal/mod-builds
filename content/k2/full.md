@@ -152,11 +152,6 @@ Compatibility Warning
 
 **Installation Method:** Loose-File Mod
 
-:::note
-Download Instructions
-:   If you want both the fix and the new force cage model, download just forcecage_updated_1.1.0.zip
-:::
-
 ===IF testCondition
 
 1. Test conditional fencing
@@ -169,6 +164,18 @@ Hello, world!
 :::
 
 ===
+
+
+1. Test conditional fencing
+===IF test2
+2. Hi
+===
+3. Profit
+
+:::note
+Download Instructions
+:   If you want both the fix and the new force cage model, download just forcecage_updated_1.1.0.zip
+:::
 
 ## Mod List
 
