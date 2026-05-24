@@ -274,11 +274,11 @@ Download Instructions
 
 **Masters:** TSLRCM
 
+**Category & Tier:** Immersion / 4 - Optional
+
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-**Category & Tier:** Immersion / 4 - Optional
 
 ### JC's Minor Fixes
 
