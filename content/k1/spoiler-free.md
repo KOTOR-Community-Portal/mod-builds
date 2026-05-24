@@ -1802,6 +1802,11 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+:::note
+Download Instructions
+:   Which version to use is up to you; the first image on the mod page is the version of the texture from the "PLC_CompPnl(Vurt's KotOR Visual Resurgence) 2026.rar" download, the second image is the original download, and the third image is the vanilla terminal texture.
+:::
+
 ### HD Workbench
 
 **Name:** [RepTab HD](https://deadlystream.com/files/file/2222-reptab-hd/)

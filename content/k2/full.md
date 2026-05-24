@@ -587,11 +587,11 @@ Download Instructions
 
 **Masters:** TSLRCM
 
+**Category & Tier:** Immersion / 4 - Optional
+
 **Non-English Functionality:** YES
 
 **Installation Method:** TSLPatcher Mod
-
-**Category & Tier:** Immersion / 4 - Optional
 
 ### JC's Minor Fixes
 
@@ -1385,6 +1385,11 @@ Download Instructions
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+:::note
+Download Instructions
+:   Which version to use is up to you; the first image on the mod page is the version of the texture from the "PLC_CompPnl(Vurt's KotOR Visual Resurgence) 2026.rar" download, the second image is the original download, and the third image is the vanilla terminal texture.
+:::
 
 :::note
 Installation Instructions
