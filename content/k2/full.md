@@ -152,7 +152,7 @@ Compatibility Warning
 
 **Installation Method:** Loose-File Mod
 
-<!-- if testCondition -->
+[//]: # (if: testCondition) 
 1. Test conditional fencing
 2. ???
 3. Profit
@@ -161,12 +161,12 @@ Compatibility Warning
 Hello, world!
 :   This is a test.
 :::
-<!---->
+[//]: # () 
 
 1. Test conditional fencing
-<!-- if testCondition2 -->
+[//]: # (if: testCondition2)  
 2. Hi
-<!---->
+[//]: # ()  
 3. Profit
 
 :::note
