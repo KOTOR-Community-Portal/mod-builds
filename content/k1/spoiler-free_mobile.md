@@ -295,6 +295,20 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+### JAO
+
+**Name:** [JAO](https://mega.nz/file/gFgmRYpY#NHvG1386L0DqWKPFJ5HHXlH5k5IA20bnFwP8AmTN7mM) and **[Patch](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)**
+
+**Author:** Stormie97, Patch by JCarter
+
+**Description:** This mod is an all-in-one appearance and immersion overhaul for a companion. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
 ### Juhani Cathar Head
 
 **Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
