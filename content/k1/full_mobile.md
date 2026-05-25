@@ -291,6 +291,25 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+### Juhani Appearance Overhaul
+ 
+**Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
+
+**Author:** Stormie97, Patch by JCarter
+
+**Description:** This mod is an all-in-one overhaul for Juhani, including a new body texture, new unique clothing, and a custom lightsaber for our favorite angry Cathar. Bear in mind we don't use this mod's changes to Juhani's head, instead relying on the below mod.
+
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** TSLPatcher Mod
+
+:::note
+Installation Instructions
+:   Use the Body & Lightsaber version, we will use a different head model. Make sure to install the patch after, it fixes an issue with her lightsaber which can cause it to disappear.
+:::
+
 ### Juhani Cathar Head
 
 **Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
