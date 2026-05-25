@@ -91,19 +91,45 @@ Unlike the original KOTOR, where the widescreen application is so good that runn
 
 For those who have the Aspyr patch installed, the below are the fixes which must be applied in order for this build to function normally:
 
-### 3C-FD Patcher
 
-```yaml
-- name: 3C-FD Patcher
-  download: https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/
-  author: J
-  tier: 1
-  categories:
-    - Bugfix
-	- Engine Enhancement
-	- Model or Animation Improvement
-  installation: Executable
-```
+### Glup Shitto Fix
+
+This mod fixes Glup Shitto.
+
+:::::{detail if=glup-shitto}
+
+If you are going to be using HD Glup Shitto, we'll be using the textures from that mod instead.
+
+:::::
+
+:::::{instruction if=glup-shitto}
+
+Copy the .mdl and .mdx files only to your Override folder.
+
+:::::
+
+:::::{instruction else}
+
+Copy all files to your Override folder.
+
+:::::
+
+### Big Beautiful Body Models
+
+:::::{instruction}
+Install each submodule in the following order:
+
+1. K1R
+2. :::{if=glup-shitto}
+   Glup Shitto
+   :::
+3. :::{if=bos}
+   Brotherhood of Shadow
+   :::
+4. Anything else.
+:::::
+
+### 3C-FD Patcher
 
 **Name:** [3C-FD Patcher](https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/)
 
@@ -151,32 +177,6 @@ Compatibility Warning
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
-
-::::::{data-if=testCondition1}
-1. Test conditional fencing
-2. ???
-3. Profit
-
-:::warning
-Hello, world!
-:   This is a test.
-:::
-::::::
-
-:::warning{data-if=testCondition2}
-Hello, world!
-:   This is a test.
-:::
-
-
-1. Test conditional fencing 
-2. :::{data-if=a}
-   A
-   :::
-2. :::{data-if=b}
-   B
-   :::
-3. Profit
 
 :::note
 Download Instructions
