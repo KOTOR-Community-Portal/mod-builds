@@ -470,6 +470,25 @@ Installation Instructions
 :   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
 :::
 
+### Stylized Portraits
+
+**Name:** [Stylized Portraits by Tinman888](https://deadlystream.com/files/file/1929-stylized-portraits-by-tinman888/)
+
+**Author:** /u/Tinman888
+
+**Description:** Presented as an optional download if you prefer a more stylized look to your party selection wheel. Bear in mind that the Revan portrait is optional, so you can exclude that if you would prefer to keep the PC's portraits vanilla.
+
+**Category & Tier:** Appearance Change / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules. Do not install the files from the "PC" folder unless you want your character's portrait appearance to be that of Revan.
+:::
+
 ### Star Map Revamp
 
 **Name:** [Star Map Revamp](https://deadlystream.com/files/file/1262-star-map-revamp/)
