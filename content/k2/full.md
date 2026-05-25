@@ -152,8 +152,7 @@ Compatibility Warning
 
 **Installation Method:** Loose-File Mod
 
-{data-if=testCondition}
-```md
+<!-- if testCondition -->
 1. Test conditional fencing
 2. ???
 3. Profit
@@ -162,13 +161,12 @@ Compatibility Warning
 Hello, world!
 :   This is a test.
 :::
-```
+<!---->
 
 1. Test conditional fencing
-{data-if=testCondition2}
-```md
+<!-- if testCondition2 -->
 2. Hi
-```
+<!---->
 3. Profit
 
 :::note
