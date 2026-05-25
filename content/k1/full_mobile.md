@@ -291,20 +291,6 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
-### K2 Swoops to K1
-
-**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
-
-**Author:** CaptainSpoque
-
-**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** HoloPatcher Mod
-
 ### Juhani Cathar Head
 
 **Name:** [Juhani Real Cathar Head](http://deadlystream.com/files/file/702-juhani-real-cathar-head/)
@@ -412,6 +398,20 @@ Installation Instructions
 **Installation Method:** Loose-File Mod
 
 **Masters:** JC's Cloaked Jedi Robes
+
+### K2 Swoops to K1
+
+**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
 
 ### Unique Sith Governor
 
