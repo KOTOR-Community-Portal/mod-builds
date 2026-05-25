@@ -161,12 +161,16 @@ Compatibility Warning
 Hello, world!
 :   This is a test.
 :::
+
 [//]: # () 
 
 1. Test conditional fencing
+
 [//]: # (if: testCondition2)  
 2. Hi
+
 [//]: # ()  
+
 3. Profit
 
 :::note
