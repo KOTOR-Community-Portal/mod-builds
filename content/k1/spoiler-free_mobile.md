@@ -1609,20 +1609,6 @@ Installation Instructions
 :   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
 :::
 
-### HQ Gaffi Stick
-
-**Name:** [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
-
-**Author:** Fallen Guardian
-
-**Description:** A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher
-
 ### DTL
 
 **Name:** [DTL](https://mega.nz/#!dZITVA6C!lloE3-MZMX5QxE0b76Q7Clwcem2ANp5vHEDP1cU-QbY)
