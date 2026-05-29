@@ -1182,7 +1182,7 @@ Installation Instructions
 
 ### Crashed Republic Cruiser
 
-**Name:** [A Crashed Republic Cruiser on a Nameless World](https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/) and [**Patch**](https://mega.nz/file/JB4DAASC#Yfd3h1YuI-mA5_IsNxCKCYb2l_vHnicy365T0GU6Png)
+**Name:** [A Crashed Republic Cruiser on a Nameless World](https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/)
 
 **Author:** LDR
 
@@ -1201,7 +1201,7 @@ Known Bugs
 
 :::note
 Installation Instructions
-:   Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch. 
+:   Run the installer to install the mod, then if applicable re-run it for the optional HQ Blasters patch.
 :::
 
 ### Trandoshans Rescaled
