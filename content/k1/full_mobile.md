@@ -209,20 +209,6 @@ Installation Instructions
 :   I recommend avoiding the upscale option for the purposes of playing on mobile.
 :::
 
-### High-Poly Grenades
-
-**Name:** [High-Poly Grenades](https://www.nexusmods.com/kotor/mods/1209)
-
-**Author:** MadDerp
-
-**Description:** Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.
-
-**Category & Tier:** Graphics Improvement / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
@@ -967,27 +953,6 @@ Installation Instructions
 **Non-English Functionality:** YES
 
 **Installation Method:** HoloPatcher Mod
-
-### HD Grenades & Mines
-
-**Name:** [Grenades and Mines HD](https://deadlystream.com/files/file/2409-grenades-and-mines-hd/)
-
-**Author:** Dark Hope
-
-**Description:** A companion to the high-poly grenade mod which creates much-improved textures that can take advantage of the better grenade model.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Masters:** High-Poly Grenades
-
-:::note
-Installation Instructions
-:   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
-:::
 
 ### Turret Minigame Remover
 
