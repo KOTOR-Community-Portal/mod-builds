@@ -900,6 +900,20 @@ Installation Instructions
 :   Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 :::
 
+### FTL Loop
+
+**Name:** [FTL Hyperspace Loop](https://www.nexusmods.com/kotor2/mods/1161?tab=description)
+
+**Author:** Nym182
+
+**Description:** A beautiful animated texture of traveling in hyperspace. Check out the video on the mod's download page to see it in motion.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
 ### Aleema Keto's Robe Fix
 
 **Name:** [Aleema Keto's Robe Description Correction](http://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/)
