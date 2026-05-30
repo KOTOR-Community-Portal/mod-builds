@@ -781,19 +781,24 @@ Download Instructions
 
 **Installation Method:** Loose-File Mod
 
-### TSL Backdrop Improvements
+### Backdrop Improvements
 
-**Name:** [TSL Backdrop Improvements](https://mega.nz/file/FVxknYqT#AWMeblhhGg-Bdc04kzn0TfGaOuCKZ_bE8eGAZ4yW568)
+**Name:** [TSL Backdrop Improvements](http://deadlystream.com/files/file/949-tsl-backdrop-improvements/)
 
 **Author:** Kexikus
 
-**Description:** The goal of this mod is to renovate the backdrops visible from the bridges of various ships as seen in the game, which it accomplishes with stellar results (no pun intended). Some information has been censored to prevent spoilers.
+**Description:** The goal of this mod is to renovate the backdrops visible from the bridges of various ships as seen in the game, which it accomplishes with stellar results (no pun intended).
 
 **Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Install the files from the included Override directory only. Delete all the files beginning with "leh_". There should be four.
+:::
 
 ### Citadel Station Backdrop
 
