@@ -518,6 +518,34 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+### HD NPC Portraits
+
+**Name:** [HD NPC Portraits](https://mega.nz/file/Jd5gQS5L#JCt_S9wJFvxPOhtOcIJkB4J2Rvydk44KQsfDxRag1T8)
+
+**Author:** ndix UR
+
+**Description:** An extremely high-quality series of NPC portraits done in vanilla style, perfect for those intending to play the game at higher resolutions. Cleans up a lot of problems with the low-quality vanilla versions. Some information has been censored to prevent spoilers. Image examples included in download.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+### HD PC Portraits
+
+**Name:** [HD PC Portraits](https://deadlystream.com/files/file/1769-hd-pc-portraits/)
+
+**Author:** ndix UR
+
+**Description:** Ditto the above, except this time it's ndix giving us a series of upscaled portraits for the player character.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
 ### PFHC03 Restoration
 
 **Name:** [PFHC03 Restoration](https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/)
