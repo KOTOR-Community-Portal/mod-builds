@@ -898,20 +898,6 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
-### Stylized Portraits TSL
-
-**Name:** [Stylized Portraits TSL](https://deadlystream.com/files/file/1977-stylized-portraits-tsl-created-by-tinman888/)
-
-**Author:** Tinman888 & Sdub
-
-**Description:** If you'd prefer stylized art of the KOTOR 2 party instead of the above party portraits, this mod is an alternate option to the above.
-
-**Category & Tier:** Appearance Change / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
 ### PFHC03 Restoration
 
 **Name:** [PFHC03 Restoration](https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/)
