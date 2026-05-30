@@ -739,44 +739,6 @@ Download Instructions
 :   If you don't like the little semi-random bronze pieces on each lightsaber hilt, download w_lghtsbr_001.tga and move that file to your override *after* installing the base version of the mod
 :::
 
-### Peragus Monitor Adjust
-
-**Name:** [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
-
-**Author:** Sith Holocron
-
-**Description:** A hi-res reskin of Peragus's main monitor.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-:::note
-Installation Instructions
-:   Use the files in the "Alternate Textures" folder.
-:::
-
-### Replacement Peragus II
-
-**Name:** [Replacement Peragus II Artwork](http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
-
-**Author:** Sith Holocron
-
-**Description:** Replaces the image of Peragus on the Administration Level with a piece of high-quality artwork for the planet.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-:::note
-Installation Instructions
-:   Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
-:::
-
 ### Improved Peragus Asteroids
 
 **Name:** [Improved Peragus Asteroids](http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/)
@@ -1574,6 +1536,44 @@ Installation Instructions
 :::note
 Installation Instructions
 :   Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the enemy with a worse weapon option.
+:::
+
+### Peragus Monitor Adjust
+
+**Name:** [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
+
+**Author:** Sith Holocron
+
+**Description:** A hi-res reskin of Peragus's main monitor.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Use the files in the "Alternate Textures" folder.
+:::
+
+### Replacement Peragus II
+
+**Name:** [Replacement Peragus II Artwork](http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
+
+**Author:** Sith Holocron
+
+**Description:** Replaces the image of Peragus on the Administration Level with a piece of high-quality artwork for the planet.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 :::
 
 ### TSL Galaxymap Fixpack
