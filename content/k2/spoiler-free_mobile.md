@@ -857,6 +857,25 @@ Installation Instructions
 :   Apply the main installation, then go into the Compatibility Patches folder and apply any of the following you use in this order: "K2CP and_or Nar Shaddaa Landing Pad Repair by PapaZinos", "High Quality Skyboxes II by Kexikus" (but *NOT* the 'M4-78 with HQ Skyboxes II' folder!), and "Spark Effect - Ebon Hawk by PapaZinos".
 :::
 
+### HD Cockpit Skyboxes
+
+**Name:** [HD Cockpit Skyboxes](https://mega.nz/#!BcQnlajZ!7_XinvAyDT36RxS6ZyQCZJvM_mD0OlFoDiwxYablBAc)
+
+**Author:** tjsase
+
+**Description:** Vastly improves the quality of exterior areas as viewed from the cockpit of the Ebon Hawk. Some information has been censored to prevent spoilers.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes.
+:::
+
 ### FTL Loop
 
 **Name:** [FTL Hyperspace Loop](https://www.nexusmods.com/kotor2/mods/1161?tab=description)
