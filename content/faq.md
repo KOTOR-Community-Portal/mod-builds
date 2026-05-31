@@ -20,6 +20,10 @@ If you still want to give it a try, there are some installation steps you'll nee
 
 2. For K2, you'd need to delete all the contents of the Movies folder when your install is done; avoid any UI modifications; and at the very end of the process delete the dummy executable as instructed in the mobile build install instructions.
 
+### Why are there so few texture mods in the mobile builds? My device can handle it!
+
+It probably can, but the issue is the software itself. On the mobile versions of the games, there's a hard rendering cap enforced by the software--regardless of how good your phone's hardware is--which makes including upscaled textures largely pointless. That's why the mobile builds generally only include mods that alter appearances for consistency or aesthetic preference and not upscale mods, because the latter are, unfortunately, largely pointless on the mobile ports.
+
 ### Is the mod build compatible with Steam achievements?
 
 Provided you use the most recent Steam update (*not* the legacypc "beta" version), *partially*; TSLRCM, as well as many of the graphical mods, should not cause achievements to break. Several mods in the builds DO stop achievements from working properly, however, and without individually testing each and every single one of them it's impossible to be sure which will or won't work. We know for certain the Extended Enclave mod breaks them, and strongly suspect the TSLRCM Tweak Pack, PartySwap, and Choose Mira or Hanharr would all also do so. Be aware that **other mods could also break those sequences, however**.

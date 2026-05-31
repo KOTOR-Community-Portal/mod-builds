@@ -209,20 +209,6 @@ Installation Instructions
 :   I recommend avoiding the upscale option for the purposes of playing on mobile.
 :::
 
-### High-Poly Grenades
-
-**Name:** [High-Poly Grenades](https://www.nexusmods.com/kotor/mods/1209)
-
-**Author:** MadDerp
-
-**Description:** Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.
-
-**Category & Tier:** Graphics Improvement / 4 - Optional
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
 ### Better Twi'lek Heads
 
 **Name:** [Better Twi'lek Heads](https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/)
@@ -291,19 +277,24 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
-### K2 Swoops to K1
+### Juhani Appearance Overhaul
+ 
+**Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
 
-**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+**Author:** Stormie97, Patch by JCarter
 
-**Author:** CaptainSpoque
+**Description:** This mod is an all-in-one overhaul for Juhani, including a new body texture, new unique clothing, and a custom lightsaber for our favorite angry Cathar. Bear in mind we don't use this mod's changes to Juhani's head, instead relying on the below mod.
 
-**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
+**Category & Tier:** Appearance Change, Immersion & Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
-**Installation Method:** HoloPatcher Mod
+**Installation Method:** TSLPatcher Mod
+
+:::note
+Installation Instructions
+:   Use the Body & Lightsaber version, we will use a different head model. Make sure to install the patch after, it fixes an issue with her lightsaber which can cause it to disappear.
+:::
 
 ### Juhani Cathar Head
 
@@ -413,6 +404,20 @@ Installation Instructions
 
 **Masters:** JC's Cloaked Jedi Robes
 
+### K2 Swoops to K1
+
+**Name:** [K2 Swoops to K1](https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/)
+
+**Author:** CaptainSpoque
+
+**Description:** This mod ports the "shield effect" that pops up when your swoop takes damage from K2 to K1. It also lets you port the KOTOR 2 swoop model to K1, although I have to be honest that I don't know why you would do that.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** HoloPatcher Mod
+
 ### Unique Sith Governor
 
 **Name:** [Unique Sith Governor](https://deadlystream.com/files/file/2302-unique-sith-governor/)
@@ -449,6 +454,25 @@ Known Bugs
 :::note
 Installation Instructions
 :   When installing, select the Community Patch-compatible installation, if using the K1CP (you should be). Ignore the other install options.
+:::
+
+### Stylized Portraits
+
+**Name:** [Stylized Portraits by Tinman888](https://deadlystream.com/files/file/1929-stylized-portraits-by-tinman888/)
+
+**Author:** /u/Tinman888
+
+**Description:** Presented as an optional download if you prefer a more stylized look to your party selection wheel. Bear in mind that the Revan portrait is optional, so you can exclude that if you would prefer to keep the PC's portraits vanilla.
+
+**Category & Tier:** Appearance Change / 4 - Optional
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Strongly recommend the Lite version—the quality difference is not noticeable, but the filesize footprint of the large versions is huge and could contribute to load errors in multiple modules. Do not install the files from the "PC" folder unless you want your character's portrait appearance to be that of Revan.
 :::
 
 ### Star Map Revamp
@@ -930,27 +954,6 @@ Installation Instructions
 
 **Installation Method:** HoloPatcher Mod
 
-### HD Grenades & Mines
-
-**Name:** [Grenades and Mines HD](https://deadlystream.com/files/file/2409-grenades-and-mines-hd/)
-
-**Author:** Dark Hope
-
-**Description:** A companion to the high-poly grenade mod which creates much-improved textures that can take advantage of the better grenade model.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-**Masters:** High-Poly Grenades
-
-:::note
-Installation Instructions
-:   Delete "ii_trapkit_001.tga" through "ii_trapkit_004.tga" before installing.
-:::
-
 ### Turret Minigame Remover
 
 **Name:** [Random Turret Minigame Remover](https://www.nexusmods.com/kotor/mods/90)
@@ -1179,7 +1182,7 @@ Installation Instructions
 
 ### Crashed Republic Cruiser
 
-**Name:** [A Crashed Republic Cruiser on a Nameless World](https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/) and [**Patch**](https://mega.nz/file/JB4DAASC#Yfd3h1YuI-mA5_IsNxCKCYb2l_vHnicy365T0GU6Png)
+**Name:** [A Crashed Republic Cruiser on a Nameless World](https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/)
 
 **Author:** LDR
 
@@ -1198,7 +1201,7 @@ Known Bugs
 
 :::note
 Installation Instructions
-:   Run the installer to install the mod, then re-run it once more, for the optional install HQ Blasters. Then install the patch. 
+:   Run the installer to install the mod, then if applicable re-run it for the optional HQ Blasters patch.
 :::
 
 ### Trandoshans Rescaled
@@ -1708,20 +1711,6 @@ Installation Instructions
 Installation Instructions
 :   If you installed the main option of Multifire and Autofire, I recommend using the *Blaster Pistol + Critical* option of this mod, as applying its changes to repeaters and rifles would make them insanely overpowered with their auto-attacks. If using Options 2 or 3 of Multifire and Autofire, I would recommend the *Blaster Pistol & Blaster Rifle + Critical* version of this mod--don't worry, it won't make rifles way stronger; JC's changes to the damage will overwrite bdaman's, in effect just adding JC's alterations to the critical strike ranges. Finally, if not using bdaman's mod, I recommend the full install.
 :::
-
-### HQ Gaffi Stick
-
-**Name:** [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
-
-**Author:** Fallen Guardian
-
-**Description:** A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher
 
 ### Training Lightsabers
 

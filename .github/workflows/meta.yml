@@ -10,7 +10,7 @@ on:
 
 concurrency:
   group: meta
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   meta:
