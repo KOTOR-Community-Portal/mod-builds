@@ -1007,6 +1007,20 @@ Download Instructions
 
 **Installation Method:** Loose-File Mod
 
+### KFIC
+
+**Name:** [KFIC](https://mega.nz/#!tUAnQbBa!nVx_3eTbh_ngW3P48x3oD5NfhNK_5wnilBtxJNHGaM0)
+
+**Author:** danil-ch
+
+**Description:** Improves the quality of a critical cutscene by rendering it in-game rather than as a low-quality movie.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
+
+**Installation Method:** TSLPatcher Mod
+
 ### EE
 
 **Name:** [EE](https://mega.nz/file/QFRVRLAS#mSAKsMhhVX7zCYvaDWjG-Q7Gh7kVk2lUSrB2AzVSq7c)
@@ -1285,20 +1299,6 @@ Installation Instructions
 Installation Instructions
 :   There are two versions of the install, and the first one is incompatible with the mod builds and will be marked "DO NOT USE." Switch to the second install when running the patcher.
 :::
-
-### KFIC
-
-**Name:** [KFIC](https://mega.nz/#!tUAnQbBa!nVx_3eTbh_ngW3P48x3oD5NfhNK_5wnilBtxJNHGaM0)
-
-**Author:** danil-ch
-
-**Description:** Improves the quality of a critical cutscene by rendering it in-game rather than as a low-quality movie.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
-
-**Installation Method:** TSLPatcher Mod
 
 ### N-V Tweak
 
