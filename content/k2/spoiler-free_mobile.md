@@ -1441,20 +1441,6 @@ Installation Instructions
 :   Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 :::
 
-### Quarterstaff Replacements
-
-**Name:** [Quarterstaff Replacement Pack](https://mega.nz/file/ZEpn2Twb#pRXWGZyezYKTl1B3wti__jjH7tGL_uYyCOdERWHOWnU)
-
-**Author:** DeadMan
-
-**Description:** Replaces or retextures every quarterstaff in KOTOR 2, including the Guidon Beacon, restored in TSLRCM.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
 ### Rescaled Trandoshans
 
 **Name:** [Rescaled Trandoshans](https://deadlystream.com/files/file/946-re-scaled-trandoshans/)
