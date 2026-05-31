@@ -1571,7 +1571,7 @@ Download Instructions
 
 **Author:** SuperChameau
 
-**Description:** In a certain dialogue you can have with Onderonian General Vaklu under certain circumstances, he virtually repeats himself back-to-back. There's some grey on his temples, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. Moreover, this change is fully voiced using original voice work thanks to dialogue splicing. Some information has been censored to prevent spoilers.
+**Description:** In dialogue you can have with Onderonian General Vaklu under certain circumstances, he virtually repeats himself back-to-back. There's some grey on his temples, but it's a bit too early for dementia. This mod tweaks his dialogue so he says something meaningfully different. Moreover, this change is fully voiced using original voice work thanks to dialogue splicing. Some information has been censored to prevent spoilers.
 
 **Category & Tier:** Immersion / 3 - Suggested
 
@@ -1662,6 +1662,20 @@ Download Instructions
 **Non-English Functionality:** NO
 
 **Installation Method:** Loose-File Mod
+
+### KFIC
+
+**Name:** [KFIC](https://mega.nz/#!tUAnQbBa!nVx_3eTbh_ngW3P48x3oD5NfhNK_5wnilBtxJNHGaM0)
+
+**Author:** danil-ch
+
+**Description:** Improves the quality of a critical cutscene by rendering it in-game rather than as a low-quality movie. Even if you intend to use the High-Resolution Cutscenes mod included under the extended widescreen support section at the bottom of this list, I still recommend this mod; they function basically the same, but by using this mod the characters in the cutscene will use their new textures if any are applied, thereby making it more immersive and further increasing its quality above that of the pre-recorded cutscene, which relies on vanilla textures.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
+
+**Installation Method:** TSLPatcher Mod
 
 ### EE
 
@@ -1960,20 +1974,6 @@ Spoiler Warning
 Installation Instructions
 :   Use the installer version.
 :::
-
-### KFIC
-
-**Name:** [KFIC](https://mega.nz/#!tUAnQbBa!nVx_3eTbh_ngW3P48x3oD5NfhNK_5wnilBtxJNHGaM0)
-
-**Author:** danil-ch
-
-**Description:** Improves the quality of a critical cutscene by rendering it in-game rather than as a low-quality movie. Even if you intend to use the High-Resolution Cutscenes mod included under the extended widescreen support section at the bottom of this list, I still recommend this mod; they function basically the same, but by using this mod the characters in the cutscene will use their new textures if any are applied, thereby making it more immersive and further increasing its quality above that of the pre-recorded cutscene, which relies on vanilla textures.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** PARTIAL - Compatibility with English, French and German
-
-**Installation Method:** TSLPatcher Mod
 
 ### N-V Tweak
 
