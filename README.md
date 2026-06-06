@@ -40,11 +40,9 @@ The workflow will begin running and after some time, the page will update with t
 
 ## Deploy
 
-In order for changes to this repository to be viewble on the KOTOR Community Portal website, the content on GitHub must deployed to the website on Neocities. The `website` repository contains a [Deploy to Neocities workflow](https://github.com/KOTOR-Community-Portal/website/actions/workflows/deploy-to-neocities.yml) to automate the deployment process. The workflow deploys content from all of the KOTOR Community Portal organization's repositories, including `mod-builds`.
+In order for changes to this repository to be viewble on the KOTOR Community Portal website, the content on GitHub must deployed to the website on Neocities. The `kotor-community-portal.github.io` repository contains a [Deploy](https://github.com/KOTOR-Community-Portal/kotor-community-portal.github.io/actions/workflows/deploy.yml) to automate the deployment process. The workflow deploys content from all of the KOTOR Community Portal organization's repositories, including `mod-builds`.
 
-1. Navigate to the `Deploy to Neocities` workflow by clicking on the link above or by going to `Actions` tab of the `website` repository and selecting `Deploy to Neocities` in the sidebar.
-
-<img width="500" height="430" alt="Navigating to the 'Deploy to Neocities' workflow" src="https://github.com/user-attachments/assets/ce6a857c-111b-4b5f-9a78-06fb84319a72" />
+1. Navigate to the `Deploy` workflow by clicking on the link above or by going to `Actions` tab of the `website` repository and selecting `Deploy to Neocities` in the sidebar.
 
 2. Click to expand the `Run workflow` dropdown menu.
 
