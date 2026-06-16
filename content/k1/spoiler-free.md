@@ -2996,7 +2996,7 @@ Installation Instructions
 
 :::warning
 Note
-:   It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+:   It is **CRITICAL** to either use this script or manually delete these duplicates, as, if .tpc files take priority in some instances, the game will crash.
 :::
 
 **Category & Tier:** Patch / 1 - Essential
