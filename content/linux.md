@@ -177,19 +177,13 @@ cp --update=none ./* "$HOME/.steam/steam/steamapps/common/swkotor/override/"
 KOTOR 2:
 cp --update=none ./* "$HOME/.steam/steam/steamapps/common/Knights of the Old Republic II/override/"
 
-### 10. Run the script to remove TPC files with matching TGA/DDS files.
 
-If you have TPC files with matching TGA/DDS files in your override folder, you'll have both visual errors and also sometimes unrecoverable crashes. This is why deleting these duplicates is mandatory, so don't forget to do so! You'll remove these using the special Linux-specific version of the Duplicate Deletion script, present under the "Remove Duplicate TGA/TPC" heading on your chosen build page.
-
-* You may have to run it twice, if a given TPC file has BOTH a matching TGA file and a matching DDS file.
-* The script does assume you're using the default installation path for the Steam version. If you aren't, you just need to change the GAMEDIR variable at the top of the script to point to your game folder (NOT your override folder).
-
-### 11. Remove files from the Character Textures & Model Fixes mod.
+### 10. Remove files from the Character Textures & Model Fixes mod.
 
 You'll install this mod as the last step prior to any widescreen patches. Certain files need to be removed prior to copying it over to override, depending on which mods you're using, and we sadly can't use the provided BAT files to do it for us. I'm working on a Linux version of the script, but until I get it working, you'll need to remove the files from the mod manually, using the manual deletion list provided on the main build page.
 
 Once you've removed all the problem files, use the same `cp` command as always to move the rest over.
 
-### 12. (Optional) Install widescreen patches and upscaled cutscenes.
+### 11. (Optional) Install widescreen patches and upscaled cutscenes.
 
-### 13. Play the game!
+### 12. Play the game!
