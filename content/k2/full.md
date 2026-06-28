@@ -2640,11 +2640,6 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
-:::note
-Installation Instructions
-:   If intending to play [in widescreen](#optional-widescreen) and with the widescreen menus mod (part of several additional widescreen support mods [here](/modding/mod_builds/k1/widescreen)), install this mod *after* completing the rest of this guide, including widescreen menus installation (this is the only mod you will have to install out of presented order). When coming back to install this mod, if using widescreen you will move the file from the optional download "HR Menu Patch.zip" which corresponds to your resolution to your override folder, *after* completing the installation of the base mod. If you are not intending to play in widescreen, install the base mod only at this point.
-:::
-
 ### Remove Duplicate TGA/TPC
 
 **Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k2/tpc-deduper.sh)
