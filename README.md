@@ -18,6 +18,10 @@ This repository contains a [Release workflow](https://github.com/KOTOR-Community
 
 1. Navigate to the `Release` workflow by clicking the link above or by going to the `Actions` tab and selecting `Release` in the sidebar.
 
+> [!NOTE]
+> If you made changes in other repositories, you will also need to run the `Release` workflow in each repository you changed 
+(e.g. [website](https://github.com/KOTOR-Community-Portal/website/actions/workflows/release.yml) or [website-content](https://github.com/KOTOR-Community-Portal/website-content/actions/workflows/release.yml)). You can find them by going to the `Actions` tab of the respective repository and selecting `Release` in the sidebar.
+
 <img width="500" height="430" alt="Navigating to the 'Release' workflow" src="https://github.com/user-attachments/assets/8f0801f8-b76c-46ad-b0d8-c3afddc7b6ff" />
 
 2. Click to expand the `Run workflow` dropdown menu.
