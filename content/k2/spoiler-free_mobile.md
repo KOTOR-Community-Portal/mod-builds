@@ -668,11 +668,6 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
-:::note
-Download Instructions
-:   Either option is fine, choose which you prefer based on the screenshots.
-:::
-
 ### Mira Unpoofed
 
 **Name:** [Mira Unpoofed](https://deadlystream.com/files/file/1733-tsl-mira-unpoofed/)
