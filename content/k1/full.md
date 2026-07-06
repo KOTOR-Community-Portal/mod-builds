@@ -350,7 +350,7 @@ Installation Instructions
 
 ### Ultimate Character Overhaul
 
-**Name:** [Ultimate Character Overhaul](https://www.nexusmods.com/kotor/mods/1282?)
+**Name:** [Ultimate Character Overhaul](https://www.nexusmods.com/kotor/mods/1282)
 
 **Author:** ShiningRedHD
 
