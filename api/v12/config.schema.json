@@ -1,0 +1,101 @@
+{
+  "$id": "https://kotor.neocities.org/v1/mod_builds/schemas/config",
+  "title": "Configuration",
+  "description": "Global configuration common to all mod builds",
+  "definitions": {
+    "tierName": {
+      "enum": [
+        "Essential",
+        "Important",
+        "Recommended",
+        "Suggested",
+        "Optional",
+        "Alternate"
+      ]
+    },
+	"tierNumber": {
+		"type": "integer",
+		"minimum": 0,
+		"maximum": 5
+	},
+    "categoryName": {
+      "enum": [
+        "Added Content",
+        "Appearance Change",
+        "Balance Adjustment",
+        "Bugfix",
+        "Consistency Between Games",
+        "Engine Enhancement",
+        "Immersion",
+        "Lore Consistency",
+        "Mechanics Change",
+        "Model or Animation Improvement",
+        "Patch",
+        "Ported Content",
+        "Quality of Life",
+        "Restored Content",
+        "Texture Improvement",
+        "User Interface",
+        "Visual Improvement"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "tiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+		"properties": {
+			"name": {
+			"$ref": "#/definitions/tierName",
+			"description": "The name of the tier, which should be unique"
+			},
+			"description": {
+			"type": "string",
+			"description": "Explanation of what content is included in the tier"
+			},
+			"helpText": {
+			"type": "string",
+			"description": "Text to display in tier selection user interface"
+			}
+		},
+		"required": [
+			"name",
+			"description"
+		],
+		"additionalProperties": false
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+		"type": "object",
+		"properties": {
+			"name": {
+			"$ref": "#/definitions/categoryName",
+			"description": "The name of the category, which should be unique"
+			},
+			"description": {
+			"type": "string",
+			"description": "Explanation of what content is included in the category"
+			},
+			"hideFromFilter": {
+			"type": "boolean",
+			"description": "Indicates whether the category will be hidden from the filter user interface; if true, the category cannot be filtered out"
+			}
+		},
+		"required": [
+			"name",
+			"description"
+		],
+		"additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "tiers",
+    "categories"
+  ],
+  "additionalProperties": false
+}

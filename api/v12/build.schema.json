@@ -1,0 +1,207 @@
+{
+  "$id": "https://kotor.neocities.org/v1/mod_builds/schemas/build",
+  "title": "Build",
+  "description": "A representation of possible mod builds for a single game",
+  "definitions": {
+    "section": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/mod" }
+    },
+    "mod": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id",
+          "description": "An identifier used to reference the mod in logic, which should be unique in the file"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the mod"
+        },
+        "download": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/download"},
+          "minItems": 1,
+          "description": "A list of the mod's downloads"
+        },
+        "patch": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/patch" },
+          "minItems": 1,
+          "description": "A list of the mod's patches"
+        },
+        "tier": {
+          "$ref": "config#/definitions/tierNumber",
+          "description": "The mod's tier number"
+        },
+        "category": {
+          "$ref": "#/$defs/category+",
+          "description": "The mod's categories"
+        },
+        "language": {
+          "$ref": "#/$defs/language+",
+          "description": "Languages supported by the mod"
+        },
+        "allowAllLanguages": {
+          "type": "boolean",
+          "description": "Indicates whether a mod should display even when the user's language is not explicitly supported"
+        },
+        "conflicts": { "$ref": "#/$defs/condition" },
+        "extends": { "$ref": "#/$defs/condition" },
+        "replaces": { "$ref": "#/$defs/condition" },
+        "requires": { "$ref": "#/$defs/condition" },
+        "neededFor": { "$ref": "#/$defs/condition" },
+        "override": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/override" },
+          "minItems": 1,
+          "description": "Properties which may conditionally override the defaults"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "download",
+        "tier",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    "download": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "Download link"
+        },
+        "installation": {
+          "$ref": "#/$defs/string+",
+          "description": "Installation method or methods"
+        },
+        "author": {
+          "$ref": "#/$defs/string+",
+          "description": "Author or authors of the download content"
+        }
+      },
+      "required": ["url"],
+      "additionalProperties": false
+    },
+    "patch": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "Download link"
+        },
+        "installation": {
+          "$ref": "#/$defs/string+",
+          "description": "Installation method or methods"
+        },
+        "author": {
+          "$ref": "#/$defs/string+",
+          "description": "Author or authors of the patch content"
+        },
+        "requires": { "$ref": "#/$defs/condition" },
+        "neededFor": { "$ref": "#/$defs/condition" }
+      },
+      "required": ["url"],
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "string+": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      ]
+    },
+    "category+": {
+      "anyOf": [
+        {
+          "$ref": "config#/definitions/categoryName"
+        },
+        {
+          "type": "array",
+          "items": { "$ref": "config#/definitions/categoryName" },
+          "minItems": 1
+        }
+      ]
+    },
+    "language+": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z]$"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "minItems": 1
+        }
+      ]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z_][a-zA-Z0-9_]*$"
+    },
+    "condition": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_(),\\s]+$"
+    },
+    "position": {
+      "type": "object",
+      "properties": {
+        "before": { "$ref": "#/$defs/id" },
+        "after": { "$ref": "#/$defs/id" },
+        "startOf": { "$ref": "#/$defs/id" },
+        "endOf": { "$ref": "#/$defs/id" }
+      },
+      "minProperties": 1,
+      "maxProperties": 1,
+      "additionalProperties": false
+    },
+    "override": {
+      "type": "object",
+      "properties": {
+        "when": {
+          "$ref": "#/$defs/condition",
+          "description": "Condition for when the override is applicable"
+        },
+        "name": { "type": "string" },
+        "download": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/download" },
+          "minItems": 1
+        },
+        "patch": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/patch" },
+          "minItems": 1
+        },
+        "position": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/position" },
+          "minItems": 1,
+          "description": "Where to position the item when the override applies"
+        }
+      },
+      "required": ["when"],
+      "additionalProperties": false
+    }
+  },
+  "type":"object",
+  "patternProperties": {
+    ".*": { "$ref": "#/definitions/section" },
+    "[^a-zA-Z0-9_]": { "not": {} }
+  },
+  "required": ["main"]
+}

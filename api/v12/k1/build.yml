@@ -1,0 +1,2073 @@
+main:
+  - id: kotor_dialogue_fixes
+    name: "KOTOR Dialogue Fixes"
+    download:
+      - url: https://deadlystream.com/files/file/1313-kotor-dialogue-fixes/
+        installation: Loose-File
+        author:
+          - Salk
+          - Kainzorus Prime
+    tier: 1
+    category: Immersion
+    language: en
+  - id: character_startup_changes
+    name: "Character Startup Changes"
+    download:
+      - url: http://deadlystream.com/files/file/349-character-start-up-change/
+        installation: TSLPatcher
+        author: jonathan7
+    patch:
+      - url: https://mega.nz/file/sRw1GBIK#J8znLBwR6t7ZvZnpQbsUBYcUNfPCWA7wYNW3qU6gZSg
+        installation: Loose-File
+        author: A Future Pilot
+    tier: 3
+    category: Mechanics Change
+  - id: thematic_companions
+    name: "Thematic KOTOR Companions"
+    download:
+      - url: https://deadlystream.com/files/file/2665-thematic-kotor-companions/
+        installation: TSLPatcher
+        author:
+          - Sniggles
+          - JCarter426
+    tier: 2
+    category: Balance Adjustment
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://github.com/JCarter426/KOTOR1-Thematic-Companions/releases/download/v1.0.1/KOTOR1-Thematic-Companions_v1.0.1_spoiler-free.zip
+  - id: jc_minor_fixes
+    name: "JC's Minor Fixes"
+    download:
+      - url: https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/
+        installation: Loose-File
+        author: JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Bugfix
+      - Immersion
+      - Model or Animation Improvement
+      - Quality of Life
+      - Texture Improvement
+  - id: ajunta_pall_unique_appearance
+    name: "Ajunta Pall Unique Appearance"
+    download:
+      - url: https://deadlystream.com/files/file/824-ajunta-pall-unique-appearance/
+        installation: Loose-File
+        author: Silveredge9
+    patch:
+      - url: https://mega.nz/file/McJF1AIC#Jywhu6zXWCRz4gRghxMxoBAWrbU_A3giD1INsOoHqmA
+        installation: TSLPatcher
+        author: A Future Pilot
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+  - id: k1cp
+    name: "KOTOR Community Patch"
+    download:
+      - url: https://deadlystream.com/files/file/1258-kotor-1-community-patch/
+        installation: HoloPatcher
+        author: Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate
+    patch:
+      - url: https://mega.nz/file/gQZR1TZY#U7XN5teK9wjXC5Hnj7MFlmHYb8UFyaV5R17ksIuj7Jc
+        installation: Loose-File
+    tier: 1
+    category:
+      - Bugfix
+      - Consistency Between Games
+      - Immersion
+      - Model or Animation Improvement
+      - Ported Content
+      - Restored Content
+      - Texture Improvement
+    language: [en, de, fr, ru]
+  - id: droid_claw_fix
+    name: "Droid Claw Fix"
+    download:
+      - url: https://deadlystream.com/files/file/2456-kotor1-droid-claw-fix/
+        installation: TSLPatcher
+        author: GearHead
+    tier: 3
+    category:
+      - Balance Adjustment
+      - Bugfix
+  - id: ported_alien_vo
+    name: "K1 Ported Alien VO Replacements"
+    download:
+      - url: https://deadlystream.com/files/file/1426-k1-ported-alien-vo-replacements/
+        installation: HoloPatcher
+        author: Ashton Scorpius
+    tier: 3
+    category:
+      - Consistency Between Games
+      - Immersion
+      - Ported Content
+    conflicts: mobile
+  - id: ultimate_korriban
+    name: "Ultimate Korriban High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1367
+        installation: Loose-File
+        author: ShiningRed
+    patch:
+      - url: https://mega.nz/file/NEpH3AoZ#5RVfQHjkdk6b3lgcJzgitpCb1YQlfYqhTM0XF3Z9LMM
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_kashyyyk
+    name: "Ultimate Kashyyyk High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1365
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_tatooine
+    name: "Ultimate Tatooine High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1364
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_dantooine
+    name: "Ultimate Dantooine High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1368
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_endar_spire
+    name: "Ultimate Endar Spire/Star Forge/Yavin Station High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1370
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_manaan
+    name: "Ultimate Manaan High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1366
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_taris
+    name: "Ultimate Taris High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1360
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_character_overhaul
+    name: "Ultimate Character Overhaul"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1282
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_unknown_world
+    name: "Ultimate Unknown World High Resolution"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1369
+        installation: Loose-File
+        author: ShiningRed
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: korriban_sith_art
+    name: "Korriban Sith Art"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1632
+        installation: Loose-File
+        author: MessesWithWolves
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: deadeye_duncan_on_manaan
+    name: "Deadeye Duncan on Manaan"
+    download:
+      - url: https://mega.nz/file/IR4QASTa#V28cTdgcNTMPwPrNbMElbnNVHkqhkKu7vJgL7PWVZ0U
+        installation: Loose-File
+        author: Seamhainn
+    tier: 3
+    category: Restored Content
+  - id: consistent_conditioning_icons
+    name: "Consistent Conditioning Icons"
+    download:
+      - url: https://deadlystream.com/files/file/2013-consistent-conditioning-icons/
+        installation: Loose-File
+        author: Sdub
+    tier: 4
+    category:
+      - Appearance Change
+      - Immersion
+      - User Interface
+  - id: hd_pazaak_cards
+    name: "HD Pazaak Cards"
+    download:
+      - url: https://deadlystream.com/files/file/1361-hd-pazaak-cards/
+        installation: Loose-File
+        author: CarthOnasty
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: hd_pc_portraits
+    name: "HD PC Portraits"
+    download:
+      - url: https://deadlystream.com/files/file/1547-hd-pc-portraits/
+        installation: Loose-File
+        author: ndix UR
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: pmha05_hd
+    name: "PMHA05 HD"
+    download:
+      - url: https://deadlystream.com/files/file/1857-pmha05-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: 
+      - Appearance Change
+      - Texture Improvement
+    conflicts: mobile
+  - id: pmha02_hd  
+    name: "PMHA02 HD"
+    download:
+      - url: https://deadlystream.com/files/file/1843-pmha02-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile  
+  - id: pmha01_hd
+    name: "PMHA01 HD"
+    download:
+      - url: https://deadlystream.com/files/file/1837-pmha01-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: pfhc05_hd
+    name: "PFHC05 HD"
+    download:
+      - url: https://deadlystream.com/files/file/1738-pfhc05-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category:
+      - Appearance Change
+      - Texture Improvement
+    conflicts: mobile
+  - id: pfhb02_dark_side_transition_eye_fix
+    name: "PFHB02 Dark Side Transition Eye Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/
+        installation: Loose-File
+        author: Darth Parametric
+    tier: 2
+    category:
+      - Bugfix
+      - Texture Improvement
+  - id: high_poly_grenades  
+    name: "High-Poly Grenades"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1209
+        installation: Loose-File
+        author: MadDerp
+    tier: 4
+    category: Model or Animation Improvement
+    conflicts: mobile
+  - id: hd_gizka
+    name: "HD Gizka"
+    download:
+      - url: https://deadlystream.com/files/file/1190-emperor-turnips-hd-gizka/
+        installation: Loose-File
+        author: Emperor Turnip
+    tier: 4
+    category: Texture Improvement
+    conflicts: mobile
+  - id: gamorrean_reskin_pack
+    name: "Gammorean Reskin Pack"
+    download:
+      - url: http://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/
+        installation: Loose-File
+        author: Quanon
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: war_droid_mark_1_hd
+    name: "War Droid Mark I HD"
+    download:
+      - url: https://deadlystream.com/files/file/2188-war-droid-mark-i-hd/
+        installation: Loose-File
+        author: Dark Hope  
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: astromech_hd
+    name: "AstromechHD"
+    download:
+      - url: https://deadlystream.com/files/file/2220-astromechhd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: hd_realistic_jawas  
+    name: "HD Realistic Jawas"
+    download:
+      - url: https://deadlystream.com/files/file/2517-hd-realistic-jawas/
+        installation: Loose-File
+        author: Etienne76
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: hd_realistic_sand_people
+    name: "HD Realistic Sand People"
+    download:
+      - url: https://deadlystream.com/files/file/2514-hd-realistic-sand-people/
+        installation: Loose-File
+        author: Etienne76
+    patch:
+      - url: https://mega.nz/file/1ApXxLgY#iAK97Ydx2xvH5ws7NevJGU3ZJQarhBwDAIFcH73O3W4
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: better_male_twilek_heads
+    name: "Better Male Twi'lek Heads"
+    download:
+      - url: https://deadlystream.com/files/file/1430-k1-better-twilek-male-heads/
+        installation: HoloPatcher
+        author: Ashton Scorpius
+    tier: 3
+    category:
+      - Model or Animation Improvement
+      - Lore Consistency
+  - id: hd_twilek_females
+    name: "HD Twi'lek Females"
+    download:
+      - url: http://deadlystream.com/files/file/982-hd-twilek-female/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: thigh_high_boots_for_twilek
+    name: "Thigh-High Boots for Twi'lek"
+    download:
+      - url: http://deadlystream.com/files/file/1087-k1-thigh-high-boots-for-female-twilek-body-modders-resource/
+        installation: Loose-File
+        author: Darth Parametric
+    tier: 2
+    category: Model or Animation Improvement
+  - id: shaleena_lashowe_mouth_adjustment  
+    name: "Shaleena/Lashowe Mouth Adjustment"
+    download:
+      - url: https://deadlystream.com/files/file/1480-k1-shaleenalashowe-mouth-adjustment/
+        installation: Loose-File
+        author: Ashton Scorpius
+    tier: 3
+    category: Bugfix
+  - id: calo_nord_recolor
+    name: "Calo Nord Recolor"
+    download:
+      - url: https://mega.nz/file/hJhGEbza#qemCHVzBcCWkL__n6mrmVNzD3P2qdV4MWEYQvJudtJY
+        installation: Loose-File
+        author: Watcher07
+    tier: 3
+    category:
+      - Appearance Change
+      - Immersion
+  - id: hd_darth_malak
+    name: "HD Darth Malak"
+    download:
+      - url: https://deadlystream.com/files/file/980-hd-darth-malak/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: cinemalak
+    name: "CineMalak - HD Darth Malak"
+    download:
+      - url: https://deadlystream.com/files/file/2787-cinemalak-hd-malak-retexture/
+        installation: Loose-File
+        author: PoopaPoppaPalpatine
+    tier: 2
+    category:
+      - Immersion
+      - Texture Improvement
+    conflicts: mobile
+  - id: detran_darth_revan
+    name: "Detran's Darth Revan"
+    download:
+      - url: https://deadlystream.com/files/file/2350-detrans-darth-revan/
+        installation: Loose-File
+        author: Detran
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: darth_bandon_hd
+    name: "Darth Bandon HD"
+    download:
+      - url: https://deadlystream.com/files/file/2164-darth-bandon-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: hd_vrook
+    name: "HD Vrook"
+    download:
+      - url: https://deadlystream.com/files/file/1962-hd-vrook-recolored/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: random_hd_ui_elements
+    name: "Random HD UI Elements"
+    download:
+      - url: https://deadlystream.com/files/file/1909-random-hd-ui-elements/
+        installation: Loose-File
+        author: Sdub
+    tier: 3
+    category: User Interface
+    conflicts: mobile
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://mega.nz/file/UVpAxK4C#val4Va7mWywu1TEqi4XWEPokUiFFpaGvkFQ-GOpme90
+  - id: hd_npc_portraits
+    name: "HD NPC Portraits"
+    download:
+      - url: https://deadlystream.com/files/file/1213-hd-npc-portraits/
+        installation: Loose-File
+        author: ndix UR
+    tier: 2
+    category:
+      - Texture Improvement
+      - User Interface
+    conflicts: mobile
+  - id: npc_clothing_m
+    name: "NPC Clothing M"
+    download:
+      - url: https://deadlystream.com/files/file/2516-npc-clothing-m/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+    requires: k1cp
+  - id: juhani_appearance_overhaul
+    name: "Juhani Appearance Overhaul"
+    download:
+      - url: https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/
+        installation: TSLPatcher
+        author: Stormie97
+    patch:
+      - url: https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU
+        author: JCarter426
+    tier: 2
+    category:
+      - Added Content
+      - Appearance Change
+      - Immersion
+      - Texture Improvement
+    override:
+      - when: spoiler_free
+        name: "JAO"
+        download:
+          - url: https://mega.nz/file/gFgmRYpY#NHvG1386L0DqWKPFJ5HHXlH5k5IA20bnFwP8AmTN7mM
+  - id: juhani_real_cathar_head
+    name: "Juhani Real Cathar Head"
+    download:
+      - url: http://deadlystream.com/files/file/702-juhani-real-cathar-head/
+        installation: Loose-File
+        author: Mrio42
+    tier: 2
+    category: Appearance Change
+  - id: korriban_back_in_black
+    name: "Korriban: Back in Black"
+    download:
+      - url: https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 2
+    category: 
+      - Appearance Change
+      - Bugfix
+      - Immersion
+  - id: cloaked_jedi_robes
+    name: "Cloaked Jedi Robes"
+    download:
+      - url: https://deadlystream.com/files/file/1378-jcs-fashion-line-i-cloaked-jedi-robes-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Consistency Between Games
+      - Ported Content
+  - id: jedi_tailor
+    name: "JC's Jedi Tailor"
+    download:
+      - url: https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 3
+    category:
+      - Added Content
+      - Immersion
+      - Quality of Life
+      - Restored Content
+    language: en
+  - id: robes_with_shadows
+    name: "Robes with Shadows for K1 (JC's Port)"
+    download:
+      - url: https://deadlystream.com/files/file/2357-robes-with-shadows-for-k1-jcs-port/
+        installation: Loose-File
+        author: PapaZinos
+    tier: 3
+    category:
+      - Immersion
+      - Texture Improvement
+    extends: cloaked_jedi_robes
+  - id: qel_droma_robes_reskin
+    name: "Qel-Droma Robes Reskin"
+    download:
+      - url: https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/
+        installation: Loose-File
+        author: Effix
+    tier: 3
+    category:
+      - Appearance Change
+      - Immersion
+    requires: cloaked_jedi_robes
+  - id: quanon_hk47
+    name: "Quanon's HK-47"
+    download:
+      - url: http://deadlystream.com/files/file/1001-quanons-hk-47-reskin/
+        installation: Loose-File
+        author: Quanon
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: plc_sign
+    name: "PLC_Sign"
+    download:
+      - url: https://deadlystream.com/files/file/2442-plc_sign/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: kiosk_hd
+    name: "Kiosk HD"
+    download:
+      - url: https://deadlystream.com/files/file/2277-kiosk-hd/
+        installation: Loose-File
+        author: Dark Hope
+    patch:
+      - url: https://deadlystream.com/files/file/2909-kiosk-model-fix-for-k1/
+        author: Marius Fett
+    tier: 3
+    category:
+      - Model or Animation Improvement
+      - Texture Improvement
+    conflicts: mobile
+  - id: plc_desk
+    name: "PLC_Desk"
+    download:
+      - url: https://deadlystream.com/files/file/2441-plc_desk/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: lts_escapepod_hd
+    name: "LTS_EscapePod HD"
+    download:
+      - url: https://deadlystream.com/files/file/2435-lts_escapepod-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile 
+  - id: hd_non_game_weapons
+    name: "HD Non-Game Weapons"
+    download:
+      - url: https://deadlystream.com/files/file/2434-non-game-weapon/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 4
+    category: Texture Improvement
+    conflicts: mobile
+  - id: k2_swoops
+    name: "K2 Swoops to K1"
+    download:
+      - url: https://deadlystream.com/files/file/2729-k1-k2-swoops-to-k1/
+        installation: HoloPatcher
+        author: CaptainSpoque
+    tier: 3
+    category:
+      - Consistency Between Games
+      - Model or Animation Improvement
+  - id: stunbaton_hd
+    name: "Stunbaton HD"
+    download:
+      - url: https://deadlystream.com/files/file/2430-stunbaton-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: unique_sith_governor
+    name: "Unique Sith Governor"
+    download:
+      - url: https://deadlystream.com/files/file/2302-unique-sith-governor/
+        installation: HoloPatcher
+        author: N-DreW25
+    tier: 3
+    category:
+      - Appearance Change
+      - Immersion
+    conflicts: anyOf(linux, macos)
+  - id: ithorians_hd
+    name: "Ithorians HD"
+    download:
+      - url: https://deadlystream.com/files/file/2382-ithorian-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement  
+  - id: duros_hd
+    name: "Duros HD"
+    download:
+      - url: https://deadlystream.com/files/file/2252-duros-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: quarren_hd
+    name: "Quarren HD"
+    download:
+      - url: https://deadlystream.com/files/file/2383-qarren-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    requires: k1cp
+    conflicts: mobile
+  - id: davik_hd
+    name: "Davik HD"
+    download:
+      - url: https://deadlystream.com/files/file/2371-davik-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: doctors_hd
+    name: "Doctors HD"
+    download:
+      - url: https://deadlystream.com/files/file/2475-doctors-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: kebla_yurt_hd
+    name: "Kebla Yurt HD"
+    download:
+      - url: https://deadlystream.com/files/file/2471-kebla-yurt-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: deadeye_duncan_hd
+    name: "Deadeye Duncan HD"
+    download:
+      - url: https://deadlystream.com/files/file/2801-deadeye-duncan-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile 
+  - id: n_oldamh01_hd
+    name: "N_oldAMH01 HD"
+    download:
+      - url: https://deadlystream.com/files/file/2806-n_oldamh01-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: astromech_droid_hd
+    name: "Astromech Droid HD"
+    download:
+      - url: https://deadlystream.com/files/file/1894-astromech-droid-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: protocol_droids_hd
+    name: "Protocol Droids HD"
+    download:
+      - url: https://deadlystream.com/files/file/2056-protocol-droid-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: davik_trophies
+    name: "Davik's Trophies"
+    download:
+      - url: https://deadlystream.com/files/file/2559-daviks-trophies/
+        installation: Loose-File
+        author: Thor110
+    tier: 4
+    category: Texture Improvement
+    conflicts: mobile
+  - id: carth_onasi_hd
+    name: "Carth Onasi HD"
+    download:
+      - url: https://deadlystream.com/files/file/1133-hd-carth-onasi/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: canderous_ordo_hd
+    name: "Canderous Ordo HD"
+    download:
+      - url: http://deadlystream.com/files/file/1123-hd-canderous-ordo/
+    patch:
+      - url: https://mega.nz/#!dFJBEYhA!FY9h6AmYVDizyVPZo_I3vXqAIWVrK1TUzT42msGqtpQ
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: quanon_canderous_ordo
+    name: "Quanon's Canderous Ordo"
+    download:
+      - url: http://deadlystream.com/files/file/941-quanons-canderous-ordo-reskin/
+        author: Quanon
+        installation: Loose-File
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: jolee_bindo_hd
+    name: "Jolee Bindo HD"
+    download:
+      - url: https://deadlystream.com/files/file/1935-jolee-bindo-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: fen_jolee
+    name: "Fen's Jolee"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1192
+        installation: Loose-File
+        author: Fenharel
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: zaalbar_hd
+    name: "Zaalbar HD"
+    download:
+      - url: https://deadlystream.com/files/file/2031-zaalbar-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: sith_uniform_reformation
+    name: "Sith Uniform Reformation Revised"
+    download:
+      - url: https://deadlystream.com/files/file/2808-heyoranges-sith-uniform-reformation-revised/
+        installation: TSLPatcher
+        author:
+          - Heyorange
+          - Sith Holocron
+          - JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+      - Texture Improvement
+  - id: stylized_portraits
+    name: "Stylized Portraits by Tinman888"
+    download:
+      - url: https://deadlystream.com/files/file/1929-stylized-portraits-by-tinman888/
+        installation: Loose-File
+        author: Tinman888
+    tier: 5
+    category: Appearance Change
+    conflicts: anyOf(mobile, spoiler_free)
+    replaces: hd_npc_portraits
+  - id: star_map_revamp
+    name: "Star Map Revamp"
+    download:
+      - url: https://deadlystream.com/files/file/1262-star-map-revamp/
+        installation: Loose-File
+        author: Carth0nasty
+    tier: 3
+    category: Texture Improvement
+  - id: background_ship_improvements
+    name: "Background Ship Improvements"
+    download:
+      - url: https://deadlystream.com/files/file/1125-hd-kt-400-military-droid-carrier-and-lethisk-class-armed-freighter/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: kebla_yurt_renovation
+    name: "Kebla Yurt Renovation"
+    download:
+      - url: https://deadlystream.com/files/file/2785-kebla-yurt-renovation/
+        installation: HoloPatcher
+        author: N-Drew25
+    tier: 3
+    category: Immersion
+  - id: hi_res_ebon_hawk
+    name: "Vurt's K1 Hi-Res Ebon Hawk Retexture"
+    download:
+      - url: https://www.gamefront.com/games/knights-of-the-old-republic/file/vurt-s-k1-hi-res-ebon-hawk-retexture
+        installation: Loose-File
+        author: Vurt
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: ultimate_ebon_hawk_repairs
+    name: "Ultimate Ebon Hawk Repairs"
+    download:
+      - url: https://deadlystream.com/files/file/2036-ultimate-ebon-hawk-repairs-for-k1/
+        installation: Loose-File
+        author: PapaZinos
+    tier: 2
+    category:
+      - Bugfix
+      - Model or Animation Improvement
+  - id: hq_cockpit_skyboxes
+    name: "HQ Cockpit Skyboxes"
+    download:
+      - url: http://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/
+        installation: Loose-File
+        author: Sithspecter
+    tier: 2
+    category: Texture Improvement
+  - id: yavin_station_hangar
+    name: "Yavin Station Hangar"
+    download:
+      - url: https://deadlystream.com/files/file/2068-yavin-station-hangar/
+        installation:
+          - TSLPatcher
+          - Loose-File
+        author: WildKarrde
+    patch:
+      - url: https://mega.nz/file/QAhhFTzD#rxS91pehFgNP7xFh3DNnNFC1d_YelF43K4-q6mh8xfI
+        neededFor: hi_res_ebon_hawk
+    tier: 4
+    category: Immersion
+  - id: leh_scre01
+    name: "Ebon Hawk Cockpit Upgrade (LEH_Scre01)"
+    download:
+      - url: https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/
+        installation: Loose-File
+        author: Sith Holocron
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: leh_scre02
+    name: "Ebon Hawk Cockpit Upgrade (LEH_Scre02)"
+    download:
+      - url: https://deadlystream.com/files/file/2247-ebon-hawk-cockpit-upgrade-leh_scre02/
+        installation: Loose-File
+        author: Sith Holocron
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: taris_reskin
+    name: "Taris Reskin"
+    download:
+      - url: http://www.nexusmods.com/kotor/mods/10/
+        installation: Loose-File
+        author: Quanon
+    patch:
+      - url: https://mega.nz/file/8MogRKIa#NKl_vTrTMQiAPtjNZ4chvsaw6aOd_4l-8lC47ODW1Z0
+        author: JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Texture Improvement
+  - id: high_quality_starfields_and_nebulas
+    name: "High Quality Starfields and Nebulas"
+    download:
+      - url: http://deadlystream.com/files/file/491-kotor-high-quality-starfields-and-nebulas/
+        installation: Loose-File
+        author: Kexikus
+    tier: 3
+    category: Texture Improvement
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://mega.nz/#!VdxRmK6J!AD-rsPeBnx936YV4aZsjWogeDTzyK0GaIsRLLFz5MjE
+  - id: hq_skyboxes
+    name: "HQ Skyboxes II"
+    download:
+      - url: https://deadlystream.com/files/file/723-high-quality-skyboxes-ii/
+        installation: Loose-File
+        author: Kexikus
+    patch:
+      - url: https://deadlystream.com/files/file/2796-high-quality-skyboxes-model-fixes-v10/
+        author: CaptainSpoque
+    tier: 2
+    category: Texture Improvement
+  - id: ebon_hawk_transparent_cockpit_windows
+    name: "Ebon Hawk Transparent Cockpit Windows for K1"
+    download:
+      - url: https://deadlystream.com/files/file/2354-ebon-hawk-transparent-cockpit-windows-for-k1/
+        installation: Loose-File
+        author: WildKarrde
+    tier: 2
+    category:
+      - Immersion
+      - Texture Improvement
+  - id: hi_res_beam_effects
+    name: "Hi-Res Beam Effects"
+    download:
+      - url: https://deadlystream.com/files/file/260-k1-hi-res-beam-effects/
+        installation: Loose-File
+        author: InSidious
+    tier: 2
+    category: Texture Improvement
+  - id: hd_fire_and_ice
+    name: "HD Fire and Ice"
+    download:
+      - url: https://deadlystream.com/files/file/455-hd-fire-and-ice-whee/
+        installation: Loose-File
+        author: Cinder Skye
+    tier: 3
+    category: Texture Improvement
+  - id: animated_energy_shields
+    name: "Animated Energy Shields"
+    download:
+      - url: https://deadlystream.com/files/file/2193-animated-energy-shields/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category:
+      - Appearance Change
+      - Texture Improvement
+  - id:  animated_cantina_sign
+    name: "Animated Cantina Sign"
+    download:
+      - url: http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/
+        installation: Loose-File
+        author: Sith Holocron
+    tier: 3
+    category: Texture Improvement
+  - id: revamped_fx
+    name: "Revamped FX"
+    download:
+      - url: https://deadlystream.com/files/file/2581-revamped-fx/
+        installation: Loose-File
+        author: olegkuz1997
+    tier: 5
+    category: Texture Improvement
+    conflicts: mobile
+  - id: terminal_texture
+    name: "Terminal Texture"
+    download:
+      - url: https://deadlystream.com/files/file/1925-terminal-texture/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: reptab_hd
+    name: "RepTab HD"
+    download:
+      - url: https://deadlystream.com/files/file/2222-reptab-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 2
+    category: Texture Improvement
+    conflicts: mobile
+  - id: animated_swoop_monitors
+    name: "Animated Swoop Monitors"
+    download:
+      - url: https://deadlystream.com/files/file/1398-k1-animated-swoop-screen-tslport/
+        installation: Loose-File
+        author: ebmar
+    tier: 4
+    category: Texture Improvement
+    conflicts: mobile
+  - id: loadscreens_in_color
+    name: "Loadscreens in Color"
+    download:
+      - url: http://deadlystream.com/files/file/916-loadscreens-in-color/
+        installation: Loose-File
+        author: Sithspecter
+    tier: 3
+    category: Appearance Change
+    conflicts: mobile
+  - id: reflective_lightsaber_blades
+    name: "Reflective Lightsaber Blades"
+    download:
+      - url: https://deadlystream.com/files/file/1846-new_lightsaber_blade_model_k1/
+        installation: TSLPatcher
+        author: Crazy34
+    tier: 1
+    category:
+      - Immersion
+      - Model or Animation Improvement
+      - Texture Improvement
+  - id: darth_malak_lightsaber
+    name: "Darth Malak's Lightsaber"
+    download:
+      - url: https://deadlystream.com/files/file/2506-darth-malaks-lightsaber-k1/
+        installation: HoloPatcher
+        author: Marius Fett
+    tier: 1
+    category:
+      - Immersion
+      - Model or Animation Improvement
+      - Texture Improvement
+  - id: blaster_visual_effects
+    name: "Blaster Visual Effects"
+    download:
+      - url: https://deadlystream.com/files/file/1271-jcs-blaster-visual-effects-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: wookiee_warblade_fix
+    name: "Wookiee Warblade Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1899-wookie-warblade-fix/
+        installation: Loose-File
+        author: RedRob
+    tier: 3
+    category: Model or Animation Improvement
+  - id: kill_the_czerka_jerk_on_kashyyyk
+    name: "Kill the Czerka Jerk on Kashyyyk"
+    download:
+      - url: https://deadlystream.com/files/file/1856-request-kill-the-czerka-jerk-on-kashyyyk/
+        installation: Loose-File
+        author: TamerBill
+    tier: 4
+    category: Added Content
+    language: en
+  - id: korriban_academy_workbench
+    name: "Korriban Academy Workbench"
+    download:
+      - url: https://deadlystream.com/files/file/375-korriban-academy-workbench/
+        installation: Loose-File
+        author: InSidious
+    tier: 3
+    category: Quality of Life
+  - id: senni_vek_mod
+    name: "Senni Vek Mod"
+    download:
+      - url: https://deadlystream.com/files/file/1090-senni-vek-mod/
+        installation: HoloPatcher
+        author: N-DReW25
+    tier: 2
+    category:
+      - Added Content
+      - Immersion
+      - Restored Content
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://mega.nz/#!0IpVzBqb!BsnnFX-f4YRoCLV35MKsttn4HwcR_rBJfMfua9MZiUE
+  - id: twilek_male_npc_diversity
+    name: "KOTOR 1 Twi'lek Male NPC Diversity"
+    download:
+      - url: https://deadlystream.com/files/file/2228-kotor-1-twilek-male-npc-diversity/
+        installation: HoloPatcher
+        author: Leilukin
+    tier: 2
+    category: Appearance Change
+  - id: ixgil_the_bith
+    name: "Ixgil the Bith"
+    download:
+      - url: https://deadlystream.com/files/file/2108-ixgil-the-bith/
+        installation: TSLPatcher
+        author: Crimson Knight
+    tier: 4
+    category: Bugfix
+  - id: hidden_bek_control_room_restoration
+    name: "Hidden Bek Control Room Restoration"
+    download:
+      - url: https://deadlystream.com/files/file/908-hidden-bek-control-room-restoration/
+        installation: Loose-File
+        author: N-Drew25
+    tier: 4
+    category: Restored Content
+  - id: swoop_bike_upgrades
+    name: "Swoop Bike Upgrades"
+    download:
+      - url: https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/
+        installation: TSLPatcher
+        author: Salk
+    tier: 4
+    category: Restored Content
+  - id: jedi_choice_dialogue_enhancement
+    name: "Jedi Choice Dialogue Enhancement"
+    download:
+      - url: https://deadlystream.com/files/file/2473-kotor-swoop-bike-upgrades/
+        installation: TSLPatcher
+        author: Emperor Devon
+    tier: 3
+    category: Immersion
+    language: en
+    override:
+      - when: spoiler_free
+        name: "JCDE"
+        download:
+          - url: https://mega.nz/file/lMowGYCK#q63FIz-FHkGEh5hw1_JTsRCE8c8FLCVMyJOywX4z_U8
+  - id: juhani_dialogue_restoration
+    name: "Juhani Dialogue Restoration"
+    download:
+      - url: https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/
+        installation: Loose-File
+        author: Leilukin
+    tier: 2
+    category: Restored Content
+    override:
+      - when: spoiler_free
+        name: "J Dialogue Restoration"
+        download:
+          - url: https://mega.nz/file/tVw0EZKZ#PjaulRyvRH_CDciDKFakjtO4zsVYkwAEgAs_4-2HFoE
+  - id: vision_enhancement
+    name: "Vision Enhancement"
+    download:
+      - url: https://deadlystream.com/files/file/1402-jcs-vision-enhancement-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 3
+    category: Immersion
+  - id: leviathan_differentiated_dialogue
+    name: "Leviathan Differentiated Dialogue"
+    download:
+      - url: http://deadlystream.com/files/file/895-leviathan-differentiated-dialogue/
+        installation: Loose-File
+        author: Revanator
+    tier: 3
+    category:
+      - Added Content
+      - Immersion
+    language: en
+    override:
+      - when: spoiler_free
+        name: "LDD"
+        download:
+          - url: https://mega.nz/#!1dRHSaLL!TFol3hVqwF-HrFExuli5OHVElhfyzbg6puoZzgTaamE
+  - id: balanced_pazaak
+    name: "Balanced Pazaak"
+    download:
+      - url: https://deadlystream.com/files/file/1270-balanced-pazaak/
+        installation: Loose-File
+        author: A Future Pilot
+    tier: 3
+    category: Balance Adjustment
+  - id: camera_replacement
+    name: "Camera Replacement"
+    download:
+      - url: http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/
+        installation: Loose-File
+        author: LDR
+    tier: 1
+    category:
+      - Consistency Between Games
+      - Quality of Life
+  - id: rebalanced_grenades
+    name: "Rebalanced Grenades"
+    download:
+      - url: https://deadlystream.com/files/file/2522-rebalanced-grenades/
+        installation: HoloPatcher
+        author: Timbo
+    tier: 2
+    category:
+      - Balance Adjustment
+      - Mechanics Change
+  - id: grenades_and_mines_hd
+    name: "Grenades and Mines HD"
+    download:
+      - url: https://deadlystream.com/files/file/2409-grenades-and-mines-hd/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category: Texture Improvement
+    requires: high_poly_grenades
+    conflicts: mobile
+  - id: random_turret_minigame_remover
+    name: "Random Turret Minigame Remover"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/90
+        installation: Loose-File
+        author: KittyKitty
+    tier: 4
+    category: Quality of Life
+    conflicts: spoiler_free
+  - id: trask_without_tutorials
+    name: "Trask Without Tutorials"
+    download:
+      - url: https://deadlystream.com/files/file/2184-trask-ulgo-without-tutorials/
+        installation: TSLPatcher
+        author: Leilukin
+    tier: 2
+    category: Immersion
+    conflicts: spoiler_free
+  - id: leviathan_all_hands_on_deck
+    name: "All Hands on Deck for the Leviathan Prison Break"
+    download:
+      - url: https://deadlystream.com/files/file/2097-all-hands-on-deck-for-the-leviathan-prison-break/
+        installation: TSLPatcher
+        author: Darth Parametric
+    tier: 2
+    category:
+      - Bugfix
+      - Immersion
+      - Quality of Life
+    conflicts: spoiler_free
+  - id: no_air_in_space
+    name: "Ain't No Air in Space"
+    download:
+      - url: https://deadlystream.com/files/file/2281-jcs-leviathan-aint-no-air-in-space-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 4
+    category: Immersion
+  - id: party_conversations_on_the_ebon_hawk
+    name: "Party Conversations on the Ebon Hawk"
+    download:
+      - url: https://deadlystream.com/files/file/2284-party-conversations-on-ebon-hawk/
+        installation: TSLPatcher
+        author: WildKarrde
+    tier: 1
+    category:
+      - Immersion
+      - Quality of Life
+  - id: dark_sacrifice
+    name: "JC's Romance Enhancement: Dark Sacrifice"
+    download:
+      - url: https://deadlystream.com/files/file/2225-jcs-romance-enhancement-dark-sacrifice-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 1
+    category: Restored Content
+  - id: saber_throw_knockdown
+    name: "Saber Throw Knockdown Effect"
+    download:
+      - url: https://deadlystream.com/files/file/1487-k1-saber-throw-knockdown-effect/
+        installation: TSLPatcher
+        author: uwadmin12
+    tier: 2
+    category: Mechanics Change
+  - id: sunry_murder_recording
+    name: "Sunry Murder Recording Enhancement"
+    download:
+      - url: http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/
+        installation: TSLPatcher
+        author: FallenGuardian
+    tier: 2
+    category:
+      - Added Content
+      - Immersion
+    language: en
+  - id: davik_slave_change
+    name: "PC Dialogue with Davik's Slave Change"
+    download:
+      - url: https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/
+        installation: TSLPatcher
+        author: Leilukin
+    tier: 2
+    category: Immersion
+  - id: taris_rapid_transit
+    name: "Taris Rapid Transit"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1666
+        installation: TSLPatcher
+        author: CaptainSpoque
+    tier: 3
+    category: Quality of Life
+    language: en
+  - id: manaan_rapid_transit
+    name: "Manaan Rapid Transit"
+    download:
+      - url: https://deadlystream.com/files/file/2739-manaan-fast-travel-system/
+        installation: HoloPatcher
+        author: The_Chaser_One
+    tier: 3
+    category: Quality of Life
+    language: [en, de, fr, it, es]
+  - id: recruite_t3m4_early
+    name: "Recruit T3-M4 Early"
+    download:
+      - url: https://deadlystream.com/files/file/1868-recruit-t3-m4-early/
+        installation: Loose-File
+        author: brents742
+    tier: 2
+    category:
+      - Restored Content
+      - Quality of Life
+    language: en
+    conflicts: spoiler_free
+  - id: security_spikes
+    name: "Security Spikes for K1"
+    download:
+      - url: https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 1
+    category:
+      - Bugfix
+      - Mechanics Change
+  - id: hq_blasters
+    name: "HQ Blasters"
+    download:
+      - url: http://deadlystream.com/files/file/861-high-quality-blasters/
+        installation: TSLPatcher
+        author: Sithspecter
+    tier: 1
+    category:
+      - Model or Animation Improvement
+      - Texture Improvement
+    language: en
+    allowAllLanguages: true
+  - id: crashed_republic_cruiser
+    name: "A Crashed Republic Cruiser on a Nameless World"
+    download:
+      - url: https://deadlystream.com/files/file/1878-a-crashed-republic-cruiser-on-a-nameless-world/
+        installation: TSLPatcher
+        author: LDR
+    tier: 2
+    category:
+      - Added Content
+      - Immersion
+      - Lore Consistency
+    language: en
+  - id: trandoshans_rescaled
+    name: "Trandoshans Rescaled"
+    download:
+      - url: http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 4
+    category: Lore Consistency
+  - id: custom_selkath_animation
+    name: "Custom Selkath Animation"
+    download:
+      - url: https://deadlystream.com/files/file/1555-custom-selkath-animation/
+        installation: TSLPatcher
+        author: Alvar007
+    tier: 3
+    category:
+      - Bugfix
+      - Model or Animation Improvement
+  - id: bastila_battle_meditation
+    name: "Bastila has TSL Battle Meditation"
+    download:
+      - url: https://deadlystream.com/files/file/2379-bastila-has-tsl-battle-meditation/
+        installation: TSLPatcher
+        author: offthegridmorty
+    tier: 2
+    category:
+      - Consistency Between Games
+      - Immersion
+      - Ported Content
+    language: en
+  - id: sneak_attack_10
+    name: "Sneak Attack 10 Restoration"
+    download:
+      - url: http://deadlystream.com/files/file/1124-sneak-attack-10-restoration/
+        installation: TSLPatcher
+        author: N-DReW25
+    tier: 3
+    category: Restored Content
+  - id: sentinel_sneak_attack
+    name: "Sentinel Sneak Attack with Multiclassing"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1710
+        installation: HoloPatcher
+        author: darthbdaman
+    tier: 2
+    category: Mechanics Change
+    language: en
+    allowAllLanguages: true
+  - id: thematic_the_one
+    name: "Thematic The One"
+    download:
+      - url: https://deadlystream.com/files/file/2467-thematic-the-one/
+        installation: TSLPatcher
+        author:
+          - Sniggles
+          - JCarter426
+    tier: 3
+    category:
+      - Balance Adjustment
+      - Immersion
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://github.com/JCarter426/KOTOR1-Thematic-The-One/releases/download/v1.0.2/KOTOR1-Thematic-The-One_v1.0.2_spoiler-free.zip
+  - id: sherruk_attacks_with_lightsabers
+    name: "Sherruk Attacks with Lightsabers"
+    download:
+      - url: http://deadlystream.com/files/file/693-sherruk-attacks-with-lightsabers/
+        installation: TSLPatcher
+        author: Shem
+    patch:
+      - url: https://mega.nz/#!QNImBQSb!OPon0ZYbakcZpxZKMxSp559ezQWFU-wNXJ7Sj3ERBg4
+        installation: Loose-File
+        author: A Future Pilot
+    tier: 3
+    category:
+      - Balance Adjustment
+      - Immersion
+    override:
+      - when: spoiler_free
+        name: "SAwL"
+        download:
+          - url: https://mega.nz/#!YUZHlTDT!G7G11x8TYX1DdPp6xvQer6z7W3PRNRSbsgnd2xQc78U
+  - id: improved_cantina_sitters
+    name: "Improved Cantina Sitters"
+    download:
+      - url: https://deadlystream.com/files/file/2792-improved-cantina-sitters/
+        installation: TSLPatcher
+        author: Alvar007
+    tier: 4
+    category: Immersion
+  - id: helena_shan_improvement
+    name: "Helena Shan Improvement"
+    download:
+      - url: https://deadlystream.com/files/file/1218-helena-shan-improvement/
+        installation: TSLPatcher
+        author: VarsityPuppet
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+    override:
+      - when: spoiler_free
+        name: "HSI"
+        download:
+          - url: https://mega.nz/file/BQQkHTwS#W7Jo_KyHnZ-9ft5lnJ9kRnXhdKW4JosBbQRfi2b5gGQ
+  - id: bastila_dark_bodysuit
+    name: "Bastila's Dark Bodysuit"
+    download:
+      - url: https://deadlystream.com/files/file/1006-bastilas-dark-bodysuit-by-quanon-revanator/
+        installation: TSLPatcher
+        author: Revanator
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+    language: en
+    allowAllLanguages: true
+    override:
+      - when: spoiler_free
+        name: "BDB"
+        download:
+          - url: https://mega.nz/#!4cIWmC7Q!55GsYK6hGWVwJSF0EAKFM3cFlDwRpqkLcnXcAS71ig0
+  - id: taris_dueling_arena_adjustment
+    name: "Taris Dueling Arena Adjustment"
+    download:
+      - url: https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category:
+      - Appearance Change
+      - Texture Improvement
+  - id: bendak_bounty_non_dark
+    name: "Bendak Bounty Non-Darkside Option"
+    download:
+      - url: https://drive.google.com/file/d/1NuewBFq390wkZuBkbJzN-mN4sIRlvXGd/view
+        installation: Loose-File
+        author:
+          - Thrak Farelle
+          - A Future Pilot
+    tier: 3
+    category: Immersion
+    language: en
+  - id: kashyyyk_shadowlands_forcefield
+    name: "Kashyyyk Shadowlands Forcefield Rework"
+    download:
+      - url: https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category: Model or Animation Improvement
+  - id: swoop_platform_model_repair
+    name: "Swoop Platform Model Repair"
+    download:
+      - url: https://deadlystream.com/files/file/2723-k1-swoop-platform-model-repairs/
+        installation: HoloPatcher
+        author: CaptainSpoque
+    tier: 3
+    category: Bugfix
+  - id: engine_lab_bench_for_swoop_accelerator
+    name: "Engine Lab Bench for Swoop Accelerator"
+    download:
+      - url: https://deadlystream.com/files/file/1747-black-vulkar-base-engine-lab-bench-for-swoop-accelerator/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 3
+    category:
+      - Bugfix
+      - Quality of Life
+  - id: missing_lamps_fix
+    name: "Missing Lamps Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/
+        installation: TSLPatcher
+        author: Ebmar
+    tier: 4
+    category: Bugfix
+  - id: czerka_business_attire
+    name: "Czerka: Business Attire"
+    download:
+      - url: https://deadlystream.com/files/file/2309-jcs-czerka-business-attire-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    patch:
+      - url: https://mega.nz/file/wUYRUTAD#tE7J08QTc0NSSbG-Xu3cSFsynLVtg7J59BruxOlDnKY
+        author: Sith Holocron
+        requires: ithorians_hd
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+  - id: sith_texture_restoration
+    name: "Sith Texture Restoration"
+    download:
+      - url: https://deadlystream.com/files/file/1289-sith-soldier-texture-restoration/
+        installation: TSLPatcher
+        author: A Future Pilot
+    tier: 3
+    category: Restored Content
+  - id: diversified_wounded_republic_soldiers
+    name: "Diversified Wounded Republic Soldiers"
+    download:
+      - url: https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 3
+    category:
+      - Appearance Change
+      - Immersion
+  - id: diversified_jedi_captives
+    name: "Diversified Jedi Captives"
+    download:
+      - url: https://deadlystream.com/files/file/1199-diversified-jedi-captives-on-the-star-forge/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+    override:
+      - when: spoiler_free
+        name: "DJC"
+        download:
+          - url: https://www.darthparametric.com/files/kotor/k1/[K1]_DJC_v1.2_R-KOTOR_BUILD.7z
+  - id: juhani_romance_enhancement
+    name: "Juhani Romance Enhancement"
+    download:
+      - url: https://deadlystream.com/files/file/772-juhani-romance-enhancement/
+        installation: TSLPatcher
+        author: Kexikus
+    tier: 2
+    category:
+      - Added Content
+      - Immersion
+    override:
+      - when: spoiler_free
+        name: "JRE"
+        download:
+          - url: https://mega.nz/file/JAQAQLLJ#lSpKHffi_FHpV633h5t_4IvIcp4LNZQH2gnym8GAw5M
+  - id: dodonna_transmission
+    name: "Dodonna's Transmission"
+    download:
+      - url: https://deadlystream.com/files/file/1101-dodonna's-transmission/
+        installation: TSLPatcher
+        author: danil-ch
+    tier: 2
+    category: Immersion
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://mega.nz/#!BNonBSaT!HcPTyMfJv3aLtXMys_TIA7YIUaDDLnNO_ta56UhI7a8
+  - id: movie_style_holograms_endgame
+    name: "Movie-Style Endgame Holograms"
+    download:
+      - url: https://deadlystream.com/files/file/1342-movie-style-holograms-for-end-game-cutscenes/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category:
+      - Appearance Change
+      - Consistency Between Games
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://www.darthparametric.com/files/kotor/k1/[K1]_Movie-Style_Holograms_v1.1_R-KOTOR_BUILD.7z
+  - id: movie_style_holograms_trt
+    name: "Movie-Style Holograms for the Twisted Rancor Trio"
+    download:
+      - url: https://deadlystream.com/files/file/1736-movie-style-holograms-for-twisted-rancor-trio-puzzle/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category:
+      - Appearance Change
+      - Consistency Between Games
+  - id: movie_style_holograms_rakatan
+    name: "Movie-Style Rakatan Holograms"
+    download:
+      - url: https://deadlystream.com/files/file/1346-movie-style-rakatan-holograms/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category:
+      - Appearance Change
+      - Consistency Between Games
+    override:
+      - when: spoiler_free
+        name: "Movie-Style Final Planet Holograms"
+        download:
+          - url: https://www.darthparametric.com/files/kotor/k1/[K1]_Movie-Style_Holograms_Part2_v1.1_R-KOTOR_BUILD.7z
+  - id: dark_side_ending_cutscene_enhancement
+    name: "Dark-Side Ending Cutscene Enhancement"
+    download:
+      - url: https://deadlystream.com/files/file/1958-dark-side-ending-cutscene-enhancement/
+        installation: TSLPatcher
+        author: DarthParametric
+    tier: 2
+    category: Immersion
+    conflicts: anyOf(mobile, spoiler_free)
+  - id: elder_droid_unique_vo
+    name: "Elder Droid Unique VO"
+    download:
+      - url: https://deadlystream.com/files/file/1531-k1-legends-elder-droids-unique-vo/
+        installation: TSLPatcher
+        author: Ebmar
+    tier: 4
+    category: Immersion
+    override:
+      - when: spoiler_free
+        name: "Droid Unique VO"
+        download:
+        - url: https://mega.nz/#!UVJRCCpD!saQnWNl567f0byyRbuBqd0QzcVt5Wbp_Q25XrzxkHDc
+  - id: ajunta_pall_swords_revamped
+    name: "Ajunta Pall's Swords Revamped"
+    download:
+      - url: http://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/
+        installation: TSLPatcher
+        author: Rece
+    tier: 2
+    category:
+      - Balance Adjustment
+      - Immersion
+      - Lore Consistency
+  - id: ajunta_pall_blade
+    name: "Ajunta Pall's Blade"
+    download:
+      - url: https://deadlystream.com/files/file/1338-k1-legends-ajunta-palls-blade/
+        installation: TSLPatcher
+        author: Ebmar
+    tier: 3
+    category: Appearance Change
+  - id: jc_mandalorian_armor
+    name: "JC's Mandalorian Armor"
+    download:
+      - url: https://deadlystream.com/files/file/1454-jcs-mandalorian-armor-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+  - id: multifire_autofire_finesse
+    name: "Mulifire and Autofire and Finesse"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1711
+        installation: HoloPatcher
+        author: darthbdaman
+    tier: 2
+    category:
+      - Consistency Between Games
+      - Mechanics Change
+      - Ported Content
+    language: en
+    allowAllLanguages: true
+  - id: jc_blaster_adjustment
+    name: "JC's Blaster Adjustment"
+    download:
+      - url: https://deadlystream.com/files/file/2827-jcs-blaster-adjustment-for-k1/
+        installation: TSLPatcher
+        author: JCarter426
+    tier: 2
+    category:
+      - Consistency Between Games
+      - Balance Adjustment
+  - id: gaffi_stick_improvement
+    name: "Gaffi Stick Improvement"
+    download:
+      - url: http://deadlystream.com/files/file/312-gaffi-stick-improvement/
+        installation: TSLPatcher
+        author: Fallen Guardian
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: quarterstaff_replacement_pack
+    name: "Quarterstaff Replacement Pack"
+    download:
+      - url: https://deadlystream.com/files/file/2231-quarterstaff-replacement-pack-for-k1/
+        installation: Loose-File
+        author:
+          - DeadMan
+          - N-DReW25
+    tier: 3
+    category: Texture Improvement
+    conflicts: mobile
+  - id: dantooine_training_lightsabers
+    name: "Dantooine Training Lightsabers"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/66/
+        installation: TSLPatcher
+        author: Kexikus
+    tier: 4
+    category: Lore Consistency
+    override:
+      - when: spoiler_free
+        name: "DTL"
+        download:
+          - url: https://mega.nz/#!dZITVA6C!lloE3-MZMX5QxE0b76Q7Clwcem2ANp5vHEDP1cU-QbY
+  - id: logical_datapads
+    name: "Logical Datapads"
+    download:
+      - url: https://deadlystream.com/files/file/2008-logical-datapads/
+        installation: TSLPatcher
+        author: Sdub
+    tier: 2
+    category: Quality of Life
+    language: en
+  - id: realistic_visual_effects
+    name: "Realistic Visual Effects"
+    download:
+      - url: http://deadlystream.com/files/file/681-realistic-visual-effects/
+        installation: TSLPatcher
+        author: Shem
+    tier: 2
+    category: Appearance Change
+  - id: minor_music_tweaks
+    name: "Minor Music Tweaks"
+    download:
+      - url: https://deadlystream.com/files/file/2321-minor-music-tweaks/
+        installation: TSLPatcher
+        author: Crimson Knight
+    tier: 4
+    category: Immersion
+  - id: npc_alignment_fix
+    name: "NPC Alignment Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1866-npc-alignment-fix/
+        installation: TSLPatcher
+        author: TK-664
+    tier: 2
+    category:
+      - Balance Adjustment
+      - Bugfix
+      - Immersion
+  - id: repair_affects_stun_droid
+    name: "Repair Affects Stun Droid"
+    download:
+      - url: https://deadlystream.com/files/file/2502-repair-affects-stun-droid-k1/
+        installation: TSLPatcher
+        author: offthegridmorty
+    tier: 2
+    category:
+      - Mechanics Change
+      - Immersion
+    language: en
+    allowAllLanguages: true
+  - id: alignment_affects_force_powers
+    name: "Alignment Affects Force Powers"
+    download:
+      - url: https://deadlystream.com/files/file/2759-alignment-affects-force-powers-k1/
+        installation: TSLPatcher
+        author: offthegridmorty
+    tier: 1
+    category:
+      - Mechanics Change
+      - Immersion
+    language: en
+    allowAllLanguages: true
+  - id: galaxy_map_fix_pack
+    name: "Galaxy Map Fix Pack"
+    download:
+      - url: http://deadlystream.com/files/file/1068-k1-galaxy-map-fix-pack/
+        installation: TSLPatcher
+        author:
+          - Kexikus
+          - Sith Holocron
+    tier: 3
+    category:
+      - Immersion
+      - Lore Consistency
+    language: en
+    conflicts: mobile
+    override:
+      - when: spoiler_free
+        download:
+          - url: https://mega.nz/#!JIgnzJ7R!fy65nhl31FbdqMdxT8tf3jcD4yHHPAQ6sBNCosIkvh4
+        patch:
+          - url: https://mega.nz/file/kU5UzSIY#YRuN1ozq3UpGEFRCskMvYYNEWgsqve4xSXhjN2ZqQb8
+            neededFor: widescreen
+      - when: widescreen
+        position:
+          - endOf: widescreen
+          - before: patcher_4gb        
+  - id: remove_duplicate
+    name: "Remove Duplicate TGA/TPC"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1384
+        installation: Shell Script
+        author: Flachzangen
+    tier: 1
+    category: Patch
+  - id: ultimate_character_overhaul_patches
+    name: "Ultimate Character Overhaul Patches"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1282?tab=files
+        installation: Loose-File
+        author: ShiningRedHD
+    tier: 1
+    category:
+      - Patch
+      - Texture Improvement
+    neededFor: |
+      allOf(
+        ultimate_character_overhaul,
+        anyOf(
+          thigh_high_boots_for_twilek,
+          juhani_real_cathar_head,
+          k1cp,
+          jc_minor_fixes,
+          jc_mandalorian_armor,
+          better_twilek_male_heads
+        )
+      )
+    conflicts: mobile
+  - id: republic_soldier_fix
+    name: "Republic Soldier Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/
+        installation: Loose-File
+        author: JCarter426
+    tier: 2
+    category:
+      - Appearance Change
+      - Immersion
+      - Texture Improvement
+  - id: republic_soldier_new_shade
+    name: "Republic Soldier's New Shade"
+    download:
+      - url: https://deadlystream.com/files/file/1365-k1-republic-soldiers-new-shade/
+        installation: TSLPatcher
+        author: Ebmar
+    tier: 2
+    category: Texture Improvement
+  - id: character_textures_and_model_fixes
+    name: "Character Textures & Model Fixes"
+    download:
+      - url: https://deadlystream.com/files/file/2659-4x-upscale-character-textures-model-fixes/
+        installation:
+          - Loose-File
+          - Optional Shell Script
+        author: Redrob41
+    tier: 1
+    category:
+      - Model or Animation Improvement
+      - Texture Improvement
+    conflicts: mobile
+  - id: patcher_4gb
+    name: "4GB Patcher"
+    download:
+      - url: https://ntcore.com/?page_id=371
+        installation: Executable
+        author: Daniel Pistelli
+    tier: 1
+    category: Engine Enhancement
+    conflicts: anyOf(linux, mobile)
+    override:
+      - when: widescreen
+        position:
+          - endOf: widescreen
+  - id: case_sensitivity_fix
+    name: "Case Sensitivity Fix"
+    download:
+      - url: https://github.com/DeadlyStream/KOTORCaseFixer/releases/tag/v1.0
+        installation:
+          - Command-Line
+          - Optional Executable
+    tier: 1
+    category: Patch
+    neededFor: ios
+widescreen:
+  - id: turret_cockpit_widescreen
+    name: "Turret Cockpit Widescreen"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1211
+        installation: Loose-File
+        author: MadDerp
+    tier: 3
+    category:
+      - Bugfix
+      - User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: high_resolution_menus
+    name: "KOTOR High Resolution Menus"
+    download:
+      - url: https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/
+        installation:
+          - Shell Script
+          - Loose-File
+        author: ndix UR
+    tier: 1
+    category: User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: hd_ui_menu_pack
+    name: "HD UI Menu Pack"
+    download:
+      - url: https://deadlystream.com/files/file/1226-hd-ui-menu-pack/
+        installation: Loose-File
+        author: ndix UR
+    tier: 1
+    category:
+      - Patch
+      - User Interface
+    requires: allOf(widescreen, high_resolution_menus)
+    conflicts: mobile
+  - id: workbench_upgrade_screen_camera_tweak
+    name: "Workbench Upgrade Screen Camera Tweak"
+    download:
+      - url: https://deadlystream.com/files/file/1742-workbench-upgrade-screen-camera-tweak-for-k1/
+        installation: Loose-File
+        author: DarthParametric
+    tier: 4
+    category: User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: pretty_good_icons
+    name: "Pretty Good! Icons"
+    download:
+      - url: https://deadlystream.com/files/file/1815-pretty-good-icons-for-kotor/
+        installation: Loose-File
+        author: ajdrenter
+    tier: 2
+    category:
+      - Texture Improvement
+      - User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: robe_icons
+    name: "Robe Icons for JC's Cloaked Robes"
+    download:
+      - url: https://deadlystream.com/files/file/2303-hd-robe-icons-for-jcs-cloaked-jedis-and-effixs-extra-robes/
+        installation: Loose-File
+        author: Nehua
+    tier: 3
+    category:
+      - Patch
+      - User Interface
+    extends: cloaked_jedi_robes
+    requires: widescreen
+    conflicts: mobile
+  - id: upscaled_computer
+    name: "Upscaled Computer"
+    download:
+      - url: https://deadlystream.com/files/file/2025-upscaled-computer/
+        installation: Loose-File
+        author: Dark Hope
+    tier: 3
+    category:
+      - Texture Improvement
+      - User Interface
+  - id: widescreen_fade_fix
+    name: "Widescreen Fade Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1792-kotor-widescreen-fade-fix/
+        installation: Loose-File
+        author: Doiinko
+    tier: 2
+    category:
+      - Bugfix
+      - User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: main_menu_widescreen_fix
+    name: "Main Menu Widescreen Fix"
+    download:
+      - url: https://deadlystream.com/files/file/1173-k1-main-menu-widescreen-fix/
+        installation: Loose-File
+        author: DarthParametric
+    tier: 2
+    category:
+      - Bugfix
+      - User Interface
+    requires: widescreen
+    conflicts: mobile
+  - id: cutscenes_rescaled
+    name: "K1 Cutscenes Rescaled"
+    download:
+      - url: https://deadlystream.com/files/file/2380-k1-cutscenes-rescaled/
+        installation: Loose-File
+        author: Pops Maellard
+    tier: 1
+    category: Visual Improvement
+    requires: widescreen
+    conflicts: mobile
+  - id: remastered_cutscenes
+    name: "KOTOR Remastered Cutscenes"
+    download:
+      - url: https://www.nexusmods.com/kotor/mods/1306
+        installation: Loose-File
+        author: naelavok
+    tier: 5
+    category: Visual Improvement
+    requires: widescreen
+    conflicts: mobile
+    replaces: cutscenes_rescaled

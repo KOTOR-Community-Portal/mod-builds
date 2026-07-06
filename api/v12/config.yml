@@ -1,0 +1,56 @@
+tiers:
+  - name: Essential
+    description: Mods in this tier are so critical that they are considered a prerequisite for the list to function. Presently, this tier only applies to The Sith Lords Restored Content Mod (TSLRCM) for KOTOR 2.
+  - name: Important
+    description: These mods make such substantial and high-quality changes that they are important to use for virtually any setup. They represent the core around which the rest of the mod builds are structured.
+    helpText: Only the most important content will be displayed.
+  - name: Recommended
+    description: The bread and butter of the mod builds, although typically smaller in scope than Tier 1 content, Tier 2 mods still make significant & quality changes over the vanilla standard.
+    helpText: The core mod build experience. Most displayed mods will be a clear improvement over the vanilla standard & few small-scale mods are included.
+  - name: Suggested
+    description: Mods in this tier are generally small and make changes that are subjective, or may only be visible in certain circumstances based on the player's choices. This added subjectivity means the player needs to review these mods more closely to decide what matters for their playstyle.
+    helpText: Most of the full build list is displayed, only filtering out mods which are very small, very subjective, or deal solely with changes to make the game align with old Legends canon.
+  - name: Optional
+    description: Mods in this tier are universally minor. The changes they make are either so small as to usually be unnoticeable or are lore adjustments to harmonize KOTOR with old Legends canon, which players may not care about.
+    helpText: Only the main build list is displayed, with no alternate content visible.
+  - name: Alternate
+    description: Mods in this tier are alternate implementations of mods already included in the mod builds elsewhere. For instance, if one mod edits a player head and another mod does the same and nothing else, it will be placed in this tier. These mods exist to give players choices about which mods they want to use out of the available options.
+    helpText: The entire mod list, including alternate versions of main mod build content, is displayed. This option is great for users who want to build their setup themselves!
+categories:
+  - name: Added Content
+    description: Entirely novel content—not restorations or alterations of existing material. Only a handful of mods of this type are present in the builds, as they must meet an incredibly high standard to be considered for inclusion.
+  - name: Appearance Change
+    description: Appearance Changes are not texture upscales, although they are often higher-resolution than the default textures. This category instead represents a change in the aesthetics of the impacted content, usually because the default character, creature, item, etc. had some sort of visual shortcoming or idiosyncrasy.
+  - name: Balance Adjustment
+    description: Can vary in scope, but always involves tweaks to existing values and systems rather than wholesale restructures or the creation of new mechanics. Mods in this category intend to improve the overall difficulty curve of the game or make more character builds viable. We're careful to avoid balancing the fun out of the experience or making every setup feel the same!
+  - name: Bugfix
+    description: Fixes to unambiguous bugs, either in the basegame or in the mods which they are editing. Subjective alterations are marked as Balance Adjustments or Mechanics Changes!
+    hideFromFilter: true
+  - name: Consistency Between Games
+    description: Represents either features which should logically be present in both games but is only present in one (porting), OR content alterations to better-align the narrative or visuals of the titles.
+  - name: Engine Enhancement
+    description: Modification to the game executable and/or engine to extend functionality or enhance stability. Typically extremely important.
+    hideFromFilter: true
+  - name: Immersion
+    description: Alterations designed to enhance the logic or consistency of a piece of content or sequence, most often in comparison to the rest of the content in an area or sequence.
+  - name: Lore Consistency
+    description: A mod included to harmonize a piece of content with Legends canon. Sometimes this will also harmonize the content with modern canon, but the emphasis of these mods are on internal Legends consistency.
+  - name: Mechanics Change
+    description: Generally more substantial than Balance Adjustments, although sharing the same objectives. Mechanics Changes are typically either substantial alterations of the basegame design or represent the inclusion of fully novel mechanics to accomplish a balance change that a smaller tweak couldn't.
+  - name: Model or Animation Improvement
+    description: Similar to Appearance Changes, but related to improvements to models rather than textures. Note that mods can contain both model improvements and appearance changes/texture improvements.
+  - name: Patch
+    description: Content intended to change the function of its master mod, usually to bring some element of the master mod in line with the spirit and/or balance objectives of the mod builds.
+    hideFromFilter: true
+  - name: Ported Content
+    description: Content which has been ported from some other game, most frequently from KOTOR 2 back to the original.
+  - name: Quality of Life
+    description: Tweaks to improve the player experience, reduce or remove tedium, or logically streamline some element of the game. Care is taken not to trivialize or remove any intended challenge or design feature.
+  - name: Restored Content
+    description: The restoration of content which was originally intended to be included in the basegame but which was cut due to time or budget constraints. As much care as possible is taken to not restore content which may have been cut by the developers intentionally.
+  - name: Texture Improvement
+    description: A visual enhancement to a basegame texture which does not inherently include significant alterations to the texture (Appearance Change) or model (Model or Animation Improvement). Most often represents vanilla textures which have been upscaled, or handmade textures which closely match the vanilla aesthetic.
+  - name: User Interface
+    description: GUI improvements of varied forms, including changes to enhance visual clarity, consistency, or navigation. Widescreen application and functionality mods also fit into this category.
+  - name: Visual Improvement
+    description: A catch-all category for visual improvements which are not Appearance Changes, Model or Animation Improvements or Texture Improvements. Examples of this category include cutscene enhancements, lightmap changes, area geometry, and so on.
