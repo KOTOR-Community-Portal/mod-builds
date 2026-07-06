@@ -11,7 +11,7 @@ Important
 
 Unless you have *freshly* installed the game or have never installed KOTOR previously (even if you never played it), please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh and uncorrupted.
 
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
+Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
 
 ### TSLPatcher Installation Requirements
 
@@ -175,7 +175,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
 
 **Non-English Functionality:** YES for Russian and French only, follow the instructions on the mod page to use
 
-**Installation Method:** HoloPatcher Mod
+**Installation Method:** HoloPatcher Mod, Loose-File Patch
 
 :::note
 Installation Instructions
@@ -1056,7 +1056,7 @@ Installation Instructions
 
 **Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/files/file/2909-kiosk-model-fix-for-k1/)
 
-**Author:** Dark Hope, Patch by Marius Fett
+**Author:** Dark Hope, patch by Marius Fett
 
 **Description:** Although again there's no side-by-side, this mod is a huge improvement over the default kiosk texture, which just looks vaguely like there's junk strewn over it.
 
@@ -1148,11 +1148,11 @@ Download Instructions
 
 ### Unique Sith Governor
 
-**Name:** [Unique Sith Governor](https://mega.nz/file/hJwGVL6B#B0-0O_6koePu2kzc8Xif4FzFKPUYApT9PUTv6kWzmjk)
+**Name:** [Unique Sith Governor](https://deadlystream.com/files/file/2302-unique-sith-governor/)
 
 **Author:** N-DReW25
 
-**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod. Some information has been censored to prevent spoilers.
+**Description:** This is a mod I specifically requested because, by default, a certain Sith Governor you encounter uses the same model and texture as many other Sith in the game. I felt that visually differentiating them a bit would make the other Sith seem more unique by comparison, and thus this mod.
 
 **Category & Tier:** Appearance Change / 3 - Suggested
 
@@ -1297,7 +1297,7 @@ Installation Instructions
 
 **Description:** Vastly improves the skins of all astromech droids in the game.
 
-**Category & Tier:** Graphics Improvement / 3 - Suggested
+**Category & Tier:** Graphics Improvement / Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -1572,7 +1572,7 @@ Installation Instructions
 
 **Description:** Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.
 
-**Category & Tier:** Graphics Improvement / 2 - Suggested
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -1951,7 +1951,7 @@ Installation Instructions
 
 **Description:** Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Restored Content / 4 - Optional
+**Category & Tier:** Added & Restored Content / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -2426,7 +2426,7 @@ Installation Instructions
 
 **Name:** [SAwL](https://mega.nz/#!YUZHlTDT!G7G11x8TYX1DdPp6xvQer6z7W3PRNRSbsgnd2xQc78U) and [**Patch**](https://mega.nz/#!QNImBQSb!OPon0ZYbakcZpxZKMxSp559ezQWFU-wNXJ7Sj3ERBg4)
 
-**Author:** Shem, patch by A Future Pilot & DarthParametric
+**Author:** Shem, patch by A Future Pilot & Darth Parametric
 
 **Description:** This mod makes one of the enemies you encounter in the course of the game unexpectedly (but rationally) attack you with lightsabers and an impressive array of equipment. Defeating them grants excellent loot, but the fight will be incredibly challenging. To preserve the surprise, I have censored any information which could reveal the nature of this enemy.
 
@@ -2675,7 +2675,7 @@ Some information has been censored to prevent spoilers.
 
 :::note
 Installation Instructions
-:   Recommend the "Revisited" option.
+:   Recommend the Revisited option.
 :::
 
 ### Endgame Hologram Fix
@@ -2975,7 +2975,7 @@ Installation Instructions
 
 **Description:** Moves the planets on the K1 Galaxy Map to their canon positions, and animates the galaxy map board. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Graphics Improvement & Immersion / 3 - Optional
+**Category & Tier:** Graphics Improvement & Immersion / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -2988,26 +2988,28 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/tpc-deduper.sh)
 
-**Author:** Flachzangen
+**Author:** Flachzangen, Malacand for the .sh script
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
+**Description:** This is a script written by Flachzangen for Windows and Malacand for Linux which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
 
 :::warning
 Note
-:   It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+:   It is **CRITICAL** to either use this script or manually delete these duplicates, as, if .tpc files take priority in some instances, the game will crash.
 :::
 
 **Category & Tier:** Patch / 1 - Essential
 
-**Installation Method:** .bat Patcher
+**Installation Method:** .bat Patcher / .sh script
 
 :::note
 Installation Instructions
-:   Place DelDuplicateTGA-TPC in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files, you can also try downloading the [C3-FD tool](https://github.com/J0-o/3C-FD-Patcher) to identify the duplicates. If you aren't comfortable with downloading C3-FD, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
+:   **For Windows:** Place DelDuplicateTGA-TPC in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files, you can also try downloading the [3C-FD tool](https://github.com/J0-o/3C-FD-Patcher) to identify the duplicates. If you aren't comfortable with downloading C3-FD, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
     
     **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+
+    **For Linux:** Download the script from the linked GitHub page. The script does assume you're using the default installation path for the Steam version; if you aren't, you just need to change the GAMEDIR variable at the top of the script to point to your game folder (NOT your override folder) before you run it. You may have to run the script twice, if a given TPC file has BOTH a matching TGA file and a matching DDS file.
 :::
 
 ### Ultimate Character Overhaul Patches

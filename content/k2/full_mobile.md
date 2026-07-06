@@ -534,6 +534,34 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
+### HD NPC Portraits
+
+**Name:** [HD NPC Portraits](https://deadlystream.com/files/file/1770-hd-npc-portraits/)
+
+**Author:** ndix UR
+
+**Description:** An extremely high-quality series of NPC portraits done in vanilla style, perfect for those intending to play the game at higher resolutions. Cleans up a lot of problems with the low-quality vanilla versions.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+### HD PC Portraits
+
+**Name:** [HD PC Portraits](https://deadlystream.com/files/file/1769-hd-pc-portraits/)
+
+**Author:** ndix UR
+
+**Description:** Ditto the above, except this time it's ndix giving us a series of upscaled portraits for the player character.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
 ### PFHC03 Restoration
 
 **Name:** [PFHC03 Restoration](https://deadlystream.com/files/file/2003-effixians-pfhc03-restoration/)
@@ -725,44 +753,6 @@ Download Instructions
 :   If you don't like the little semi-random bronze pieces on each lightsaber hilt, download w_lghtsbr_001.tga and move that file to your override *after* installing the base version of the mod
 :::
 
-### Peragus Monitor Adjust
-
-**Name:** [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
-
-**Author:** Sith Holocron
-
-**Description:** A hi-res reskin of Peragus's main monitor.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-:::note
-Installation Instructions
-:   Use the files in the "Alternate Textures" folder.
-:::
-
-### Replacement Peragus II
-
-**Name:** [Replacement Peragus II Artwork](http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
-
-**Author:** Sith Holocron
-
-**Description:** Replaces the image of Peragus on the Administration Level with a piece of high-quality artwork for the planet.
-
-**Category & Tier:** Graphics Improvement / 3 - Suggested
-
-**Non-English Functionality:** YES
-
-**Installation Method:** Loose-File Mod
-
-:::note
-Installation Instructions
-:   Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
-:::
-
 ### Improved Peragus Asteroids
 
 **Name:** [Improved Peragus Asteroids](http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/)
@@ -790,6 +780,25 @@ Installation Instructions
 **Non-English Functionality:** YES
 
 **Installation Method:** Loose-File Mod
+
+### Backdrop Improvements
+
+**Name:** [TSL Backdrop Improvements](http://deadlystream.com/files/file/949-tsl-backdrop-improvements/)
+
+**Author:** Kexikus
+
+**Description:** The goal of this mod is to renovate the backdrops visible from the bridges of various ships as seen in the game, which it accomplishes with stellar results (no pun intended).
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Install the files from the included Override directory only. Delete all the files beginning with "leh_". There should be four.
+:::
 
 ### Citadel Station Backdrop
 
@@ -890,6 +899,20 @@ Download Instructions
 Installation Instructions
 :   Move the loose files to the override, followed by the file in the "With Nar Realistic Skybox" folder if you use HQ Skyboxes II.
 :::
+
+### FTL Loop
+
+**Name:** [FTL Hyperspace Loop](https://www.nexusmods.com/kotor2/mods/1161?tab=description)
+
+**Author:** Nym182
+
+**Description:** A beautiful animated texture of traveling in hyperspace. Check out the video on the mod's download page to see it in motion.
+
+**Category & Tier:** Graphics Improvement / 2 - Recommended
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
 
 ### Aleema Keto's Robe Fix
 
@@ -1507,20 +1530,6 @@ Installation Instructions
 :   Move all the various files inside the 7 folders within the "TSL Version" folder, EXCEPT for "War Droid K1," if using HQ Blasters above.
 :::
 
-### Quarterstaff Replacements
-
-**Name:** [Quarterstaff Replacement Pack](http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
-
-**Author:** DeadMan
-
-**Description:** Replaces or retextures every quarterstaff in KOTOR 2, including the Guidon Beacon, restored in TSLRCM.
-
-**Category & Tier:** Graphics Improvement / 2 - Recommended
-
-**Non-English Functionality:** YES
-
-**Installation Method:** TSLPatcher Mod
-
 ### Rescaled Trandoshans
 
 **Name:** [Rescaled Trandoshans](https://deadlystream.com/files/file/946-re-scaled-trandoshans/)
@@ -1649,6 +1658,44 @@ Installation Instructions
 :::note
 Installation Instructions
 :   Recommend the "Location and Medpac" install option, it gives the player an extra medpac as compensation for having to fight the first droids with a plasma torch.
+:::
+
+### Peragus Monitor Adjust
+
+**Name:** [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
+
+**Author:** Sith Holocron
+
+**Description:** A hi-res reskin of Peragus's main monitor.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Use the files in the "Alternate Textures" folder.
+:::
+
+### Replacement Peragus II
+
+**Name:** [Replacement Peragus II Artwork](http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
+
+**Author:** Sith Holocron
+
+**Description:** Replaces the image of Peragus on the Administration Level with a piece of high-quality artwork for the planet.
+
+**Category & Tier:** Graphics Improvement / 3 - Suggested
+
+**Non-English Functionality:** YES
+
+**Installation Method:** Loose-File Mod
+
+:::note
+Installation Instructions
+:   Move the files from the Original folder to the override, as well as the file from the "One Replacement Screen" folder if using Peragus Large Monitor Adjustment.
 :::
 
 ### TSL Galaxymap Fixpack
@@ -1841,21 +1888,28 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k2/tpc-deduper.sh)
 
-**Author:** Flachzangen
+**Author:** Flachzangen, Malacand for the .sh script
 
-**Description:** This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do. It is **CRITICAL** to use this script, as, if .tpc files take priority in some instances, the game will crash.
+**Description:** This is a script written by Flachzangen for Windows and Malacand for Linux which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.
+
+:::warning
+Note
+:   It is **CRITICAL** to either use this script or manually delete these duplicates, as, if .tpc files take priority in some instances, the game will crash.
+:::
 
 **Category & Tier:** Patch / 1 - Essential
 
-**Installation Method:** .bat Patcher
+**Installation Method:** .bat Patcher / .sh script
 
 :::note
 Installation Instructions
-:   Place DelDuplicateTGA-TPC in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files, you can also try downloading the [C3-FD tool](https://github.com/J0-o/3C-FD-Patcher) to identify the duplicates. If you aren't comfortable with downloading C3-FD, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k1/delete).
+:   **For Windows:** Place DelDuplicateTGA-TPC in your main game folder (NOT override!), run it, say that **TPC should be deleted** and do not manually confirm. If you are on a Mac or other device that cannot run .bat files, you can also try downloading the [3C-FD tool](https://github.com/J0-o/3C-FD-Patcher) to identify the duplicates. If you aren't comfortable with downloading C3-FD, a list of all the files you will need to manually delete can be found [here](/modding/mod_builds/k2/delete).
     
-	**MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+    **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
+
+    **For Linux:** Download the script from the linked GitHub page. The script does assume you're using the default installation path for the Steam version; if you aren't, you just need to change the GAMEDIR variable at the top of the script to point to your game folder (NOT your override folder) before you run it. You may have to run the script twice, if a given TPC file has BOTH a matching TGA file and a matching DDS file.
 :::
 
 ### TOMB
