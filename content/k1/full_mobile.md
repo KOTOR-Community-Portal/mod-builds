@@ -189,7 +189,9 @@ Installation Instructions
 **Description:** The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.
 
 **Category & Tier:** Appearance Change / 4 - Optional
+**Non-English Functionality:** YES
 
+**Installation Method:** Loose-File Mod					  
 ### PFHB02 Eye Fix
 
 **Name:** [PFHB02 Dark Side Transition Eye Fix](https://deadlystream.com/files/file/1762-player-head-pfhb02-dark-side-transition-eye-fix/)
@@ -278,7 +280,7 @@ Installation Instructions
 **Installation Method:** Loose-File Mod
 
 ### Juhani Appearance Overhaul
- 
+
 **Name:** [Juhani Appearance Overhaul](https://deadlystream.com/files/file/1669-juhani-appearance-overhaul/) and [**Patch**](https://mega.nz/file/wM5hwA7Z#tbwFY3_kU2oR_AcKl879tCOlyC_i-cUtqb_HXak3lBU)
 
 **Author:** Stormie97, Patch by JCarter

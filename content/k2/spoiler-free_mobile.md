@@ -1140,7 +1140,7 @@ Installation Instructions
 
 **Name:** [TSL](https://github.com/JCarter426/KOTOR2-TSL/releases/download/v2.0.0/KOTOR2-TSL_v2.0.0_spoiler-free.zip)
 
-**Author:** Snigaroo
+**Author:** Sniggles & JCarter426
 
 **Description:** The results of my first foray into KOTOR modding. The goal of this mod is to make bosses thematically unique, so that fights against them are fun and that certain character builds excel at fighting some of them and struggle against others. Needless to say, some information has been censored to prevent spoilers.
 
