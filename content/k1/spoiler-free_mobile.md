@@ -755,7 +755,7 @@ Installation Instructions
 
 **Description:** Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Restored Content / 4 - Optional
+**Category & Tier:** Added & Restored Content / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -1204,7 +1204,7 @@ Installation Instructions
 
 **Name:** [SAwL](https://mega.nz/#!YUZHlTDT!G7G11x8TYX1DdPp6xvQer6z7W3PRNRSbsgnd2xQc78U) and [**Patch**](https://mega.nz/#!QNImBQSb!OPon0ZYbakcZpxZKMxSp559ezQWFU-wNXJ7Sj3ERBg4)
 
-**Author:** Shem, patch by A Future Pilot & DarthParametric
+**Author:** Shem, patch by A Future Pilot & Darth Parametric
 
 **Description:** This mod makes one of the enemies you encounter in the course of the game unexpectedly (but rationally) attack you with lightsabers and an impressive array of equipment. Defeating them grants excellent loot, but the fight will be incredibly challenging. To preserve the surprise, I have censored any information which could reveal the nature of this enemy.
 
@@ -1714,7 +1714,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k1/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 

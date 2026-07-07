@@ -11,7 +11,7 @@ Important
 
 Unless you have *freshly* installed the game or have never installed KOTOR previously, please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh, uncorrupted, and free of any old mod data.
 
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
+Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
 
 ### TSLPatcher Installation Requirements
 
@@ -350,7 +350,7 @@ Installation Instructions
 
 ### Ultimate Character Overhaul
 
-**Name:** [Ultimate Character Overhaul](https://www.nexusmods.com/kotor/mods/1282?)
+**Name:** [Ultimate Character Overhaul](https://www.nexusmods.com/kotor/mods/1282)
 
 **Author:** ShiningRedHD
 
@@ -3104,7 +3104,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k1/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 

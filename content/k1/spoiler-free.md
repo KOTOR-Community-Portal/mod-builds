@@ -11,7 +11,7 @@ Important
 
 Unless you have *freshly* installed the game or have never installed KOTOR previously (even if you never played it), please blank-slate your setup: uninstall the game, delete the full contents of your game's directory (the entire folder where the executable file previously was located; this does **NOT** always happen automatically when the game is uninstalled), and reinstall the game. The majority of troubleshooting support we offer is due to users who encounter problems resulting from leftover game files or file corruption from a game which was installed many years ago. Performing this zeroing step helps to ensure your local copy is fresh and uncorrupted.
 
-Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
+Once you have your freshly-installed copy of the game, please attempt to set your main game directory and all subfolders as *not* read-only. This is because executable mods will need to modify the files therein directly to install properly. Some operating systems (particularly Windows OS 8+) will lock the settings on these folders depending on their locations, so for many systems it will not be possible to actually pull them out of their read-only state, but it is important to at least attempt to change the folders, as on some operating systems it is necessary for a functional install.
 
 ### TSLPatcher Installation Requirements
 
@@ -175,7 +175,7 @@ Please make sure to **NOT READ** the list of changes included within the mod, ho
 
 **Non-English Functionality:** YES for Russian and French only, follow the instructions on the mod page to use
 
-**Installation Method:** HoloPatcher Mod
+**Installation Method:** HoloPatcher Mod, Loose-File Patch
 
 :::note
 Installation Instructions
@@ -1056,7 +1056,7 @@ Installation Instructions
 
 **Name:** [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [**Patch**](https://deadlystream.com/files/file/2909-kiosk-model-fix-for-k1/)
 
-**Author:** Dark Hope, Patch by Marius Fett
+**Author:** Dark Hope, patch by Marius Fett
 
 **Description:** Although again there's no side-by-side, this mod is a huge improvement over the default kiosk texture, which just looks vaguely like there's junk strewn over it.
 
@@ -1297,7 +1297,7 @@ Installation Instructions
 
 **Description:** Vastly improves the skins of all astromech droids in the game.
 
-**Category & Tier:** Graphics Improvement / 3 - Suggested
+**Category & Tier:** Graphics Improvement / Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -1572,7 +1572,7 @@ Installation Instructions
 
 **Description:** Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.
 
-**Category & Tier:** Graphics Improvement / 2 - Suggested
+**Category & Tier:** Graphics Improvement / 2 - Recommended
 
 **Non-English Functionality:** YES
 
@@ -1951,7 +1951,7 @@ Installation Instructions
 
 **Description:** Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Restored Content / 4 - Optional
+**Category & Tier:** Added & Restored Content / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -2426,7 +2426,7 @@ Installation Instructions
 
 **Name:** [SAwL](https://mega.nz/#!YUZHlTDT!G7G11x8TYX1DdPp6xvQer6z7W3PRNRSbsgnd2xQc78U) and [**Patch**](https://mega.nz/#!QNImBQSb!OPon0ZYbakcZpxZKMxSp559ezQWFU-wNXJ7Sj3ERBg4)
 
-**Author:** Shem, patch by A Future Pilot & DarthParametric
+**Author:** Shem, patch by A Future Pilot & Darth Parametric
 
 **Description:** This mod makes one of the enemies you encounter in the course of the game unexpectedly (but rationally) attack you with lightsabers and an impressive array of equipment. Defeating them grants excellent loot, but the fight will be incredibly challenging. To preserve the surprise, I have censored any information which could reveal the nature of this enemy.
 
@@ -2675,7 +2675,7 @@ Some information has been censored to prevent spoilers.
 
 :::note
 Installation Instructions
-:   Recommend the "Revisited" option.
+:   Recommend the Revisited option.
 :::
 
 ### Endgame Hologram Fix
@@ -2975,7 +2975,7 @@ Installation Instructions
 
 **Description:** Moves the planets on the K1 Galaxy Map to their canon positions, and animates the galaxy map board. Some information has been censored to prevent spoilers.
 
-**Category & Tier:** Graphics Improvement & Immersion / 3 - Optional
+**Category & Tier:** Graphics Improvement & Immersion / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -2988,7 +2988,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/dev/content/k1/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k1/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 

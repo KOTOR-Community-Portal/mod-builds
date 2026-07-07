@@ -100,7 +100,7 @@ For those who have the Aspyr patch installed, the below are the fixes which must
 **Installation Method:** Executable
 
 :::warning
-Compatibilityi Warning
+Compatibility Warning
 :   If you didn't read the wall of text that preceded this mod, you can brick your entire install here. You'd seriously better not have just skipped straight here.
     
     Ensure to only use this if on the most recent Steam/GoG patch, or if having manually applied the Aspyr patch to your game! Also ensure your executable is a fresh copy with no edits: it CANNOT have a 4GB/Large Address Aware patch already applied to it (this mod adds that patch). Finally, please note that **this mod cannot be utilized on the Mac Appstore version of the game**, since it doesn't launch via an executable; for Mac Appstore players, you will unfortunately need to play without these fixes. Since your games will not have the capacity to use 4GB of RAM, we recommend against utilizing the "Ultimate" series of upscales included later in this install, as a stability measure. Without the upscales, the Mac Appstore version should still be able to run the rest of the build without memory issues.
@@ -319,7 +319,7 @@ Spoiler Warning
 
 :::note
 Installation Instructions
-:   Remember, warnings during an installation are normal—errors are not. 
+:   Remember, warnings during an installation are normal—errors are not.
 :::
 
 ### Remote Tells Influence
@@ -1081,11 +1081,6 @@ Installation Instructions
 
 **Installation Method:** Loose-File Mod
 
-:::note
-Download Instructions
-:   Either option is fine, choose which you prefer based on the screenshots.
-:::
-
 ### HD VM
 
 **Name:** [HD VM](https://mega.nz/#!JJgkyALb!8K9tE_oV5abKYCOqFC9DEU8qHrTPdJ6Zd-MNy_N3d6c)
@@ -1226,7 +1221,7 @@ Installation Instructions
 
 **Description:** Reskins one of the player heads to match the old canon appearance of the main character.
 
-**Category & Tier:** Immersion / 4 - Optional
+**Category & Tier:** Appearance Change / 4 - Optional
 
 **Non-English Functionality:** YES
 
@@ -1321,7 +1316,7 @@ Download Instructions
 
 ### Swoop Monitor Replacement
 
-**Name:** [Swoop Monitor Replacement Pack](https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/?tab=reviews)
+**Name:** [Swoop Monitor Replacement Pack](https://deadlystream.com/files/file/1252-tsl-swoop-monitors-replacement-pack/)
 
 **Author:** Sith Holocron
 
@@ -2303,7 +2298,7 @@ Installation Instructions
 
 **Description:** A hi-res reskin of Peragus's main monitor.
 
-**Category & Tier:** Graphics Improvement / 2 - Recommended
+**Category & Tier:** Graphics Improvement / 3 - Suggested
 
 **Non-English Functionality:** YES
 
@@ -2530,7 +2525,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k2/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k2/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 
