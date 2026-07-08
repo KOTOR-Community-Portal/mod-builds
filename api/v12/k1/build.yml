@@ -675,7 +675,6 @@ main:
         author: Dark Hope
     tier: 3
     category: Texture Improvement
-    requires: k1cp
     conflicts: mobile
   - id: davik_hd
     name: "Davik HD"
