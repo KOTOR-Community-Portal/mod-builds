@@ -169,6 +169,7 @@ main:
         author: ShiningRed
     tier: 2
     category: Texture Improvement
+    requires: taris_reskin
     conflicts: mobile
   - id: ultimate_character_overhaul
     name: "Ultimate Character Overhaul"
