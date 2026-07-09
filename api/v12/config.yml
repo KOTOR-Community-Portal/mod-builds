@@ -1,6 +1,6 @@
 tiers:
   - name: Essential
-    description: Mods in this tier are so critical that they are considered a prerequisite for the list to function. Presently, this tier only applies to The Sith Lords Restored Content Mod (TSLRCM) for KOTOR 2.
+    description: Mods in this tier are so critical that they are considered a prerequisite for the list to function. Presently, aside from one mandatory cleanup tool, this tier only applies to The Sith Lords Restored Content Mod (TSLRCM) for KOTOR 2.
   - name: Important
     description: These mods make such substantial and high-quality changes that they are important to use for virtually any setup. They represent the core around which the rest of the mod builds are structured.
     helpText: Only the most important content will be displayed.
