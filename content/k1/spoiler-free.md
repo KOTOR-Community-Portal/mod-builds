@@ -2988,7 +2988,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/content/k1/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k1/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 
