@@ -10,7 +10,7 @@ aspyr:
       - Bugfix
       - Engine Enhancement
       - Visual Improvement
-    requires: aspyr
+    neededFor: aspyr
     conflicts: mobile
   - id: water_restoration
     name: "Water Restoration"
@@ -22,7 +22,7 @@ aspyr:
     category:
       - Bugfix
       - Visual Improvement
-    requires: aspyr
+    neededFor: aspyr
     conflicts: mobile
   - id: stutter_fix
     name: "Stutter Fix and Force Cage Update"
@@ -34,7 +34,7 @@ aspyr:
     category:
       - Bugfix
       - Model or Animation Improvement
-    requires: aspyr
+    neededFor: aspyr
     conflicts: mobile
 common:
   - id: patcher_4gb
