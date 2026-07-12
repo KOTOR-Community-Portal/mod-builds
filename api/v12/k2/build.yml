@@ -1223,20 +1223,6 @@ common:
     tier: 2
     category: Bugfix
     language: en
-  - id: nihilus_visas_vo_tweak
-    name: "Nihilus-Visas VO Tweak"
-    download:
-      - url: http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/
-        installation: Loose-File
-        author: danil-ch
-    tier: 4
-    category: Immersion
-    language: en
-    override:
-      - when: spoiler_free
-        name: "N-V Tweak"
-        download:
-          - url: https://mega.nz/#!sI513Iaa!eqAhNkDHRCyNNG0KrtJDN1RsCSDJEy4pLW-c_V3prD0
   - id: darth_sion_and_male_exile
     name: "Darth Sion and Male Exile"
     download:
