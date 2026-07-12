@@ -1,5 +1,5 @@
 aspyr:
-  - id: patcher_3cdf
+  - id: patcher_3cfd
     name: "3C-FD Patcher"
     download:
       - url: https://deadlystream.com/files/file/2734-fog-fix-more-3c-fd-patcher/
@@ -739,7 +739,6 @@ common:
     category:
       - Appearance Change
       - Model or Animation Improvement
-    conflicts: allOf(aspyr, not(patcher_3cdf))
   - id: random_panels
     name: "KOTOR 2 Random Panels"
     download:
