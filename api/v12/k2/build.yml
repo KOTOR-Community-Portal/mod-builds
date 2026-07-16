@@ -71,7 +71,7 @@ common:
         patch:
           - url: https://mega.nz/file/VY5WWKIY#mH8o62ASe1f1Sq1TMIOR4ipdWHFSPTiCtKq2nyK-uW0
   - id: tslrcm_tweak_pack
-    name: "TSRLCM Tweak Pack"
+    name: "TSLRCM Tweak Pack"
     download:
       - url: http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/
         installation: TSLPatcher
