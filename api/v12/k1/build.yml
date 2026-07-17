@@ -1855,10 +1855,6 @@ main:
         patch:
           - url: https://mega.nz/file/kU5UzSIY#YRuN1ozq3UpGEFRCskMvYYNEWgsqve4xSXhjN2ZqQb8
             neededFor: widescreen
-      - when: widescreen
-        position:
-          - endOf: widescreen
-          - before: patcher_4gb        
   - id: remove_duplicate
     name: "Remove Duplicate TGA/TPC"
     download:
@@ -1931,10 +1927,6 @@ main:
     tier: 1
     category: Engine Enhancement
     conflicts: anyOf(linux, mobile)
-    override:
-      - when: widescreen
-        position:
-          - endOf: widescreen
   - id: case_sensitivity_fix
     name: "Case Sensitivity Fix"
     download:
