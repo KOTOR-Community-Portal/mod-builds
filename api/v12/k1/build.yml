@@ -1107,6 +1107,7 @@ main:
       - when: spoiler_free
         download:
           - url: https://mega.nz/#!0IpVzBqb!BsnnFX-f4YRoCLV35MKsttn4HwcR_rBJfMfua9MZiUE
+            installation: Loose-File
   - id: twilek_male_npc_diversity
     name: "KOTOR 1 Twi'lek Male NPC Diversity"
     download:
