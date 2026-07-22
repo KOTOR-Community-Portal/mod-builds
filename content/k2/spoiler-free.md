@@ -2252,11 +2252,6 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
-:::note
-Installation Instructions
-:   Install the TSLRCM option.
-:::
-
 ### Replacement Loadscreens
 
 **Name:** [Replacement Loading Screens](https://mega.nz/#!FAp1HRwT!tjo3kWE57bkefhSDeF0XqVF7XBxY9XamDJPZecf68yk)

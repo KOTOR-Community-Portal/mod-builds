@@ -1542,11 +1542,6 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
-:::note
-Installation Instructions
-:   Install the TSLRCM option.
-:::
-
 ### Vibrocutter Changes
 
 **Name:** [Vibrocutter Changes](https://deadlystream.com/files/file/2670-vibrocutter-changes/)
