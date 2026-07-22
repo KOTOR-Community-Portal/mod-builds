@@ -2364,11 +2364,6 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
-:::note
-Installation Instructions
-:   Install the TSLRCM option.
-:::
-
 ### Replacement Loadscreens
 
 **Name:** [Replacement Loading Screens](https://deadlystream.com/files/file/1255-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-1/) and [Part 2](https://deadlystream.com/files/file/1256-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-2/) and [Part 3](https://deadlystream.com/files/file/1257-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-3/)
