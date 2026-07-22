@@ -1765,7 +1765,7 @@ The mod gives you a communicator which you use to contact the *Ebon Hawk* to man
 
 :::note
 Installation Instructions
-:   Run the HoloPatcher executable. Select the default install, not M4-78. When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
+:   Run the HoloPatcher executable. Select the default install, not M4-78, then re-run the installer, select the "ADD-ON: PartySwap Item" install option from the drop-down, and install that as well (without it, you won't be able to actually switch between the companions). When the install is completed, go into the "Compatibility Patches" folder, enter the one for Kreia's Fall Ingame Cutscene, and install that patch as well if you've chosen to use the above mod.
 :::
 
 ### Extended Enclave
