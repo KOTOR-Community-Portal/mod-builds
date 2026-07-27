@@ -749,8 +749,8 @@ Installation Instructions
 **Installation Method:** Loose-File Mod
 
 :::note
-Download Instructions
-:   If you don't like the little semi-random bronze pieces on each lightsaber hilt, download w_lghtsbr_001.tga and move that file to your override *after* installing the base version of the mod
+Installation Instructions
+:   If you don't like the little semi-random bronze pieces on each lightsaber hilt, move w_lghtsbr_001.tga from the alt_texture folder within the download to your override *after* installing the base version of the mod.
 :::
 
 ### Improved Peragus Asteroids
