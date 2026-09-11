@@ -2172,6 +2172,11 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
+:::warning
+Known Bugs
+:   This mod presently has a bug that permanently removes some of the mod's core dialogue if the companion is asked to no longer speak about killing. I realize that's unpleasantly vague, but that's the most specific I can be while preventing spoilers. For full functionality, please make sure to fully complete this mod's content (you'll quite literally be able to see when it's done) before initiating the referenced dialogue.
+:::
+
 :::note
 Installation Instructions
 :   Select between one of the two TSLRCM-compatible install options.
@@ -2520,7 +2525,7 @@ Installation Instructions
 
 ### Remove Duplicate TGA/TPC
 
-**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh script for Linux users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k2/tpc-deduper.sh)
+**Name:** [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384), OR [an .sh file for Linux/Mac users](https://github.com/KOTOR-Community-Portal/mod-builds/blob/main/scripts/k2/tpc-deduper.sh)
 
 **Author:** Flachzangen, Malacand for the .sh script
 
@@ -2541,7 +2546,7 @@ Installation Instructions
     
     **MAKE SURE THIS SCRIPT RUNS PROPERLY!** On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs "Finished, Press any key to continue" but does not list any files it deleted, it *is not working*, and if it does not work it *will* crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.
 
-    **For Linux:** Download the script from the linked GitHub page. The script does assume you're using the default installation path for the Steam version; if you aren't, you just need to change the GAMEDIR variable at the top of the script to point to your game folder (NOT your override folder) before you run it. You may have to run the script twice, if a given TPC file has BOTH a matching TGA file and a matching DDS file.
+    **For Linux/Mac:** Download the script from the linked GitHub page. For Mac, it can be run with the "zsh" command. The script does assume you're using the default installation path for the Steam version; if you aren't, you just need to change the GAMEDIR variable at the top of the script to point to your game folder (NOT your override folder) before you run it. You may have to run the script twice, if a given TPC file has BOTH a matching TGA file and a matching DDS file.
 :::
 
 ### TOMB
