@@ -1577,6 +1577,11 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
+:::warning
+Known Bugs
+:   There is presently an issue with this mod that permanently removes the HK repair dialogue if you ask HK to stop asking you if you need someone killed. For full functionality, please make sure to fully repair HK before initiating it.
+:::
+
 :::note
 Installation Instructions
 :   Select between one of the two TSLRCM-compatible install options.
