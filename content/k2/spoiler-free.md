@@ -2172,6 +2172,11 @@ Installation Instructions
 
 **Installation Method:** TSLPatcher Mod
 
+:::warning
+Known Bugs
+:   This mod presently has a bug that permanently removes some of the mod's core dialogue if the companion is asked to no longer speak about killing. I realize that's unpleasantly vague, but that's the most specific I can be while preventing spoilers. For full functionality, please make sure to fully complete this mod's content (you'll quite literally be able to see when it's done) before initiating the referenced dialogue.
+:::
+
 :::note
 Installation Instructions
 :   Select between one of the two TSLRCM-compatible install options.
