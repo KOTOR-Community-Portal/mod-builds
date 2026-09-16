@@ -1810,7 +1810,7 @@ Installation Instructions
 
 ### TJM
 
-**Name:** [TJM](https://github.com/JCarter426/KOTOR2-TJM/releases/download/v1.0.0/KOTOR2-TJM_v1.0.0_spoiler-free.zip)
+**Name:** [TJM](https://github.com/JCarter426/KOTOR2-TJM/releases/download/v1.0.1/KOTOR2-TJM_v1.0.1_spoiler-free.zip)
 
 **Author:** Sniggles & JCarter426
 
