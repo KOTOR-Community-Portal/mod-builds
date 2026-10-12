@@ -1794,13 +1794,15 @@ Installation Instructions
     
     `cd [full filepath to your game]`
     
-    Then, enter the following command:
+    Then, enter the following command.
     
     `find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
     
     If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
     
     `sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+	
+	If you get an error, make sure you have the rename package installed.
     
     For more information:
 	
