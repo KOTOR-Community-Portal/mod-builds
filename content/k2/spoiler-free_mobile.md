@@ -423,7 +423,7 @@ Installation Instructions
 
 ### Twi'lek Male Diversity
 
-**Name:** [TSL Twi'lek Male NPC Diversity](https://mega.nz/file/sBQF1IqL#YRXBbJaY-DabSxJVliGmxhBZszk33sRoxkJVxWwgmW8)
+**Name:** [TSL Twi'lek Male NPC Diversity](https://mega.nz/file/YBok3YhK#v1RsVy4sxOszOCvLMMNB1-qpUCsEE9Q6WEx9wBY09Z4)
 
 **Author:** Leilukin
 
@@ -442,7 +442,7 @@ Screenshots
 
 :::note
 Installation Instructions
-:   Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
+:   Run the installer and install the Main Installation first. I don't recommend the HD textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to run the "[Optional] Original Necks" install option.
 :::
 
 ### Dahnis Unique Look
