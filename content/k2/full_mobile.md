@@ -458,7 +458,7 @@ Installation Instructions
 
 :::note
 Installation Instructions
-:   Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
+:   Run the main install first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to run the "[Optional] Original Necks" install option.
 :::
 
 ### Dahnis Unique Look
@@ -1946,13 +1946,15 @@ Installation Instructions
     
     `cd [full filepath to mods_english on your device]`
     
-    Then, enter the following command:
+    Then, enter the following command.
     
     `find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
     
     If you are prompted for permission, rerun the command with elevated privileges using the sudo command.
     
     `sudo find . -depth | xargs -n 1 rename -f 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;`
+	
+	If you get an error, make sure you have the rename package installed.
     
     For more information:
     

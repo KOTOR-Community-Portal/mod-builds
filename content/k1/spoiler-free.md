@@ -1973,7 +1973,7 @@ Installation Instructions
 
 :::note
 Installation Instructions
-:   Run the installer first. Once completed, move the upscaled textures to override (if desired). If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder. If using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch (use the patch for Senni Vek Restoration, NOT Senni Vek's Ambush; that is a different mod version).
+:   Run the installer and install the Main Installation first. Once the main install is completed, select the optional upscaled textures install option and install it, if desired. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to run the "[Optional] Original Necks" install option. Finally, if using the Senni Vek Mod, ensure to also re-run the installer and select the compatibility patch for whichever version of that mod you've chosen to use (Senni Vek's Ambush or Senni Vek Restoration).
 :::
 
 ### Ixgil the Bith
@@ -3030,7 +3030,7 @@ Installation Instructions
 
 :::note
 Installation Instructions
-:   Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes (delete N_CommM02 - N_CommM08 from the Aesthetics Improvements folder before moving to override, if using Dark Hope's male clothing upscale), the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale, both before moving to override), and then all remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's male Twi'lek mod, as well as skipping the compatch for Republic Soldier's New Shade). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, move both the files within the NPC Replacement folder and the files in the Optional folder therein (just make sure to not move the folders themselves).
+:   Scroll down to the "optional files" section of the mod page. In order, install the compatch for JC's Minor Fixes (delete N_CommM02 - N_CommM08 from the Aesthetics Improvements folder before moving to override, if using Dark Hope's male clothing upscale), the K1CP (delete "PLC_SSldCrps.tpc". Additionally delete N_CommM01 - 06, plus N_CommM08, if using Dark Hope's male clothing upscale, both before moving to override), and then all remaining content that matches content you chose to use from the builds (skipping Better Twi'lek Male Heads, if using Leilukin's male Twi'lek mod, as well as skipping the compatch for Republic Soldier's New Shade). I also recommend against using the patch for JC's Mandalorian Armor, as there are better options (in my opinion) in Character Textures & Model Fixes below. If using Thigh-High Boots for Twi'lek, move both the files within the NPC Replacement folder but exclude the files in the Optional folder therein.
 :::
 
 ### Republic Soldier Fix
