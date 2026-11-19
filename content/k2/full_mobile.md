@@ -458,7 +458,7 @@ Installation Instructions
 
 :::note
 Installation Instructions
-:   Run the installer first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to move the files in the "Optional - Original Necks" folder.
+:   Run the main install first. I do not recommend the use of the upscaled textures on mobile. If using the original necks option of Ashton Scorpius's Better Twi'lek Males mod, also ensure to run the "[Optional] Original Necks" install option.
 :::
 
 ### Dahnis Unique Look
